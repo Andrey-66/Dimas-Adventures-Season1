@@ -1,18 +1,22 @@
-[06:20:39] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[06:20:39] [INFO] SourceFile:407: Loaded script server_scripts:script.js in 0.001 s
-[06:20:39] [INFO] SourceFile:407: Loaded 1/1 KubeJS server scripts in 0.007 s
-[06:20:39] [INFO] Scripts loaded
-[06:20:39] [INFO] Scanning recipes...
-[06:20:40] [INFO] [blocks] Found 197 tags, added 0 objects, removed 0 objects
-[06:20:40] [INFO] [items] Found 308 tags, added 0 objects, removed 0 objects
-[06:20:40] [INFO] [fluids] Found 4 tags, added 0 objects, removed 0 objects
-[06:20:40] [INFO] [entity_types] Found 10 tags, added 0 objects, removed 0 objects
-[06:20:40] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
-[06:20:40] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
-[06:20:40] [INFO] [tile_entity_types] Found 0 tags, added 0 objects, removed 0 objects
-[06:20:40] [INFO] Found 2432 recipes and 0 failed recipes in 65.56 ms
-[06:20:40] [INFO] Posted recipe events in 228.3 μs
-[06:20:40] [INFO] Modified & removed recipes in 42.51 ms
-[06:20:40] [INFO] Added recipes in 15.10 μs
-[06:20:40] [INFO] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
-[06:20:40] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[00:14:07] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[00:14:07] [INFO] SourceFile:407: Loaded script server_scripts:script.js in 0.001 s
+[00:14:07] [INFO] SourceFile:407: Loaded 1/1 KubeJS server scripts in 0.005 s
+[00:14:07] [INFO] Scripts loaded
+[00:14:07] [INFO] Scanning recipes...
+[00:14:10] [INFO] [blocks] Found 576 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] [items] Found 867 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] [fluids] Found 125 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] [entity_types] Found 52 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[00:14:10] [INFO] Found 9085 recipes and 0 failed recipes in 307.6 ms
+[00:14:10] [INFO] Posted recipe events in 278.3 μs
+[00:14:10] [INFO] Modified & removed recipes in 204.1 ms
+[00:14:10] [INFO] Added recipes in 17.00 μs
+[00:14:10] [INFO] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[00:14:12] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
