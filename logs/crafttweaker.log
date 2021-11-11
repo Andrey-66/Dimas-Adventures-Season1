@@ -1,11 +1,19 @@
-[06:19:14.906][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
-[06:19:16.036][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+[18:29:58.956][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[18:30:00.416][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
 'botania' at version '1.16.5-419'
 'crafttweaker' at version '7.1.2.455'
-[06:19:17.902][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
-[06:19:34.726][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
-[06:19:35.908][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
-[06:20:38.018][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:20:38.149][DONE][CLIENT][INFO] Finished loading Scripts!
-[06:20:40.899][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:20:40.976][DONE][CLIENT][INFO] Finished loading Scripts!
+[18:30:01.956][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[18:30:18.345][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[18:30:19.360][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[18:30:40.831][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[18:30:41.048][DONE][CLIENT][INFO] Finished loading Scripts!
+[18:30:45.282][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[18:30:45.377][DONE][CLIENT][INFO] Finished loading Scripts!
+[18:31:26.761][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[18:31:26.843][DONE][SERVER][INFO] Finished loading Scripts!
+[18:35:48.741][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[18:35:48.892][DONE][SERVER][INFO] Finished loading Scripts!
+[18:42:17.574][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[18:42:17.652][DONE][SERVER][INFO] Finished loading Scripts!
+[18:44:07.626][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[18:44:07.812][DONE][SERVER][INFO] Finished loading Scripts!
