@@ -1,0 +1,17 @@
+[05:48:24.184][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[05:48:25.173][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'botania' at version '1.16.5-419'
+'crafttweaker' at version '7.1.2.455'
+[05:48:26.628][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[05:48:39.175][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[05:48:39.940][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[05:48:58.856][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[05:48:58.981][DONE][CLIENT][INFO] Finished loading Scripts!
+[05:49:01.188][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[05:49:01.252][DONE][CLIENT][INFO] Finished loading Scripts!
+[05:53:55.921][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[05:53:55.988][DONE][SERVER][INFO] Finished loading Scripts!
+[05:54:31.784][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[05:54:31.856][DONE][SERVER][INFO] Finished loading Scripts!
+[05:54:50.574][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[05:54:50.657][DONE][SERVER][INFO] Finished loading Scripts!
