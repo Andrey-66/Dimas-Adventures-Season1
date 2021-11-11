@@ -1,20 +1,18 @@
-[05:54:49] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[05:54:49] [INFO] SourceFile:18: Loaded script server_scripts:script.js in 0.002 s
-[05:54:49] [INFO] SourceFile:18: Loaded 1/1 KubeJS server scripts in 0.006 s
-[05:54:49] [INFO] Scanning recipes...
-[05:54:49] [INFO] Scripts loaded
-[05:54:50] [INFO] [blocks] Found 197 tags, added 0 objects, removed 0 objects
-[05:54:50] [INFO] [items] Found 308 tags, added 0 objects, removed 0 objects
-[05:54:50] [INFO] [fluids] Found 4 tags, added 0 objects, removed 0 objects
-[05:54:50] [INFO] [entity_types] Found 10 tags, added 0 objects, removed 0 objects
-[05:54:50] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
-[05:54:50] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
-[05:54:50] [INFO] [tile_entity_types] Found 0 tags, added 0 objects, removed 0 objects
-[05:54:50] [INFO] Found 2432 recipes and 0 failed recipes in 36.38 ms
-[05:54:50] [INFO] server_scripts:script.js:12: + minecraft:crafting_shaped: ['minecraft:gold_ingot', 'minecraft:stick'] -> [Item.of('minecraft:golden_sword', 3, '{Damage:0}')]
-[05:54:50] [INFO] Posted recipe events in 521.1 μs
-[05:54:50] [INFO] Modified & removed recipes in 26.61 ms
-[05:54:50] [WARN] Error creating recipe minecraft:kjs_58y5rra0tj2yjrg9s5qclrew8[minecraft:crafting_shaped]: {"type":"minecraft:crafting_shaped","result":{"item":"minecraft:golden_sword","count":3,"nbt":"{Damage:0}"},"pattern":[" S "," S "," P "],"key":{"S":{"item":"minecraft:gold_ingot"},"A":{"item":"minecraft:stick"}}}: com.google.gson.JsonSyntaxException: Pattern references symbol 'P' but it's not defined in the key
-[05:54:50] [INFO] Added recipes in 551.8 μs
-[05:54:50] [INFO] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 1 failed recipes and 0 fall-backed recipes
-[05:54:50] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[06:20:39] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[06:20:39] [INFO] SourceFile:407: Loaded script server_scripts:script.js in 0.001 s
+[06:20:39] [INFO] SourceFile:407: Loaded 1/1 KubeJS server scripts in 0.007 s
+[06:20:39] [INFO] Scripts loaded
+[06:20:39] [INFO] Scanning recipes...
+[06:20:40] [INFO] [blocks] Found 197 tags, added 0 objects, removed 0 objects
+[06:20:40] [INFO] [items] Found 308 tags, added 0 objects, removed 0 objects
+[06:20:40] [INFO] [fluids] Found 4 tags, added 0 objects, removed 0 objects
+[06:20:40] [INFO] [entity_types] Found 10 tags, added 0 objects, removed 0 objects
+[06:20:40] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[06:20:40] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[06:20:40] [INFO] [tile_entity_types] Found 0 tags, added 0 objects, removed 0 objects
+[06:20:40] [INFO] Found 2432 recipes and 0 failed recipes in 65.56 ms
+[06:20:40] [INFO] Posted recipe events in 228.3 μs
+[06:20:40] [INFO] Modified & removed recipes in 42.51 ms
+[06:20:40] [INFO] Added recipes in 15.10 μs
+[06:20:40] [INFO] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[06:20:40] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
