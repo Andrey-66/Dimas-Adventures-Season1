@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [18:44:06] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
 [18:44:06] [INFO] SourceFile:18: Loaded script server_scripts:script.js in 0.003 s
 [18:44:06] [INFO] SourceFile:18: Loaded 1/1 KubeJS server scripts in 0.006 s
@@ -19,3 +20,27 @@
 [18:44:07] [INFO] Added recipes in 322.5 μs
 [18:44:07] [INFO] Added 2 recipes, removed 1 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
 [18:44:07] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
+=======
+[00:16:25] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[00:16:25] [INFO] Scripts loaded
+[00:16:25] [INFO] SourceFile:33: Loaded 1/1 KubeJS server scripts in 0.008 s
+[00:16:25] [INFO] SourceFile:33: Loaded script server_scripts:script.js in 0.004 s
+[00:16:25] [INFO] Scanning recipes...
+[00:16:27] [INFO] [blocks] Found 576 tags, added 0 objects, removed 0 objects
+[00:16:27] [INFO] [items] Found 867 tags, added 0 objects, removed 0 objects
+[00:16:27] [INFO] [fluids] Found 125 tags, added 0 objects, removed 0 objects
+[00:16:27] [INFO] [entity_types] Found 52 tags, added 0 objects, removed 0 objects
+[00:16:27] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[00:16:27] [INFO] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[00:16:27] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[00:16:27] [INFO] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[00:16:27] [INFO] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[00:16:27] [INFO] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[00:16:27] [INFO] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[00:16:28] [INFO] Found 9085 recipes and 0 failed recipes in 271.3 ms
+[00:16:28] [INFO] Posted recipe events in 194.0 μs
+[00:16:28] [INFO] Modified & removed recipes in 263.2 ms
+[00:16:28] [INFO] Added recipes in 21.60 μs
+[00:16:28] [INFO] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[00:16:29] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
+>>>>>>> Stashed changes

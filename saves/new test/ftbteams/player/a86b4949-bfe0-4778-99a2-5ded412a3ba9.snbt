@@ -1,0 +1,14 @@
+{
+	id: "a86b4949-bfe0-4778-99a2-5ded412a3ba9"
+	type: "player"
+	player_name: "Andrey66"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Andrey66"
+		"ftbteams:color": "#FF59CA"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

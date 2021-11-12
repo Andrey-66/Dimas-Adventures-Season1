@@ -1,0 +1,14 @@
+{
+	id: "61AE48DC20C3717E"
+	order_index: 0
+	title: "1"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:stone" }
+		{
+			command: "/say Hi, @p!"
+			player_command: false
+			type: "command"
+		}
+	]
+}

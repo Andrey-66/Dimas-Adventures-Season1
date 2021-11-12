@@ -1,0 +1,580 @@
+{
+	id: "0CFCF4672B6E6A48"
+	group: "2E52D9CE283C5D0B"
+	order_index: 0
+	filename: "botania"
+	title: "Botania"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Начало"
+			icon: "minecraft:oak_sapling"
+			x: -41.5d
+			y: 1.0d
+			id: "2F587C2D678CADF7"
+			tasks: [{
+				id: "30E79CC0E83DF156"
+				type: "item"
+				title: "Any #minecraft:saplings"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+			}]
+			rewards: [{
+				id: "42C857D7851044F0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Книга знаний"
+			x: -39.5d
+			y: 1.0d
+			dependencies: ["2F587C2D678CADF7"]
+			id: "5E05EBD859DFC50D"
+			tasks: [{
+				id: "391B8A90617C2CF2"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1ECB5860B3E0F668"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Переполнение разрядной сетки"
+			x: -37.5d
+			y: -1.0d
+			dependencies: ["5E05EBD859DFC50D"]
+			hide: true
+			id: "70FA591F0D7FEBEB"
+			tasks: [{
+				id: "5C9CDE5619C7C79C"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+			rewards: [{
+				id: "29999C52FAE52598"
+				type: "item"
+				item: "botania:overgrowth_seed"
+			}]
+		}
+		{
+			title: "У каждой ведьмы должен быть свой котёл"
+			icon: "botania:apothecary_default"
+			x: -37.5d
+			y: 1.0d
+			dependencies: ["5E05EBD859DFC50D"]
+			id: "5FA43FFACEF0F458"
+			tasks: [
+				{
+					id: "5AB4CF9B08928683"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "3D8AD82B9718B03A"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+			rewards: [{
+				id: "61E8BC3CF0848FBD"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 3
+			}]
+		}
+		{
+			title: "Сила жизни"
+			icon: "botania:pure_daisy"
+			x: -35.5d
+			y: 1.0d
+			dependencies: ["5FA43FFACEF0F458"]
+			id: "27B44985D6FE8C47"
+			tasks: [{
+				id: "2FABD42F95B0925D"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [
+				{
+					id: "12108BFC83115764"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 16
+				}
+				{
+					id: "3F69EF4901C74E84"
+					type: "item"
+					item: "minecraft:stone"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Теперь я друид"
+			icon: {
+				id: "botania:twig_wand"
+				Count: 1b
+				tag: {
+					color1: 0
+					color2: 0
+				}
+			}
+			x: -37.5d
+			y: 3.0d
+			dependencies: ["5FA43FFACEF0F458"]
+			id: "5E3A7B331A579225"
+			tasks: [{
+				id: "1A92C75F4479BFBD"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A8C037871120DF5"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 3
+			}]
+		}
+		{
+			title: "Управляем маной"
+			x: -33.5d
+			y: 1.0d
+			dependencies: ["27B44985D6FE8C47"]
+			id: "5146662280AF333B"
+			tasks: [
+				{
+					id: "3CADCA0772F1D5D1"
+					type: "item"
+					item: "botania:endoflame"
+				}
+				{
+					id: "29C166494109228D"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "7AA5CB6E16C1FD56"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+			]
+			rewards: [{
+				id: "51317AB1EF466BDE"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+		}
+		{
+			title: "Руинное дело"
+			x: -31.5d
+			y: 1.0d
+			dependencies: ["5146662280AF333B"]
+			id: "41E2F9DF13B1FDC9"
+			tasks: [
+				{
+					id: "7C8A000233D894F1"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+				{
+					id: "0170C5D3BB9971E9"
+					type: "item"
+					item: "botania:rune_water"
+					count: 2L
+					consume_items: false
+				}
+				{
+					id: "16A96FDBC591B57D"
+					type: "item"
+					item: "botania:rune_fire"
+					count: 2L
+				}
+				{
+					id: "6C5D01DBA3135BCC"
+					type: "item"
+					item: "botania:rune_earth"
+					count: 2L
+				}
+				{
+					id: "5AB49BAB2E46355F"
+					type: "item"
+					item: "botania:rune_air"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "1270D2012E1BB7C5"
+				type: "item"
+				item: "botania:livingrock"
+				count: 16
+			}]
+		}
+		{
+			title: "Манааастаааль!"
+			icon: "botania:manasteel_ingot"
+			x: -33.5d
+			y: -1.0d
+			dependencies: ["5146662280AF333B"]
+			id: "5D14B727300A6C77"
+			tasks: [{
+				id: "10E9428D28068971"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [{
+				id: "53F4C21C22B48128"
+				type: "item"
+				item: "botania:black_lotus"
+			}]
+		}
+		{
+			title: "Экипировка"
+			x: -31.5d
+			y: -0.5d
+			dependencies: ["5D14B727300A6C77"]
+			id: "0281C9310D9356C0"
+			tasks: [
+				{
+					id: "0AA3645D4CD741EB"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A2F73EC62468AE4"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "51370734C987D1DE"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D7B8DAA13148D99"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6EA4C1604F37AA77"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			title: "Батарейка... О-о-и-я-и-ё..."
+			x: -35.5d
+			y: -1.0d
+			dependencies: ["5146662280AF333B"]
+			id: "6C4A563831D30FB0"
+			tasks: [{
+				id: "21DE91CBDAA768FC"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "330F9FA6A2CEEA20"
+				type: "item"
+				item: "botania:blacker_lotus"
+			}]
+		}
+		{
+			title: "Инструменты"
+			icon: {
+				id: "botania:manasteel_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -31.5d
+			y: -2.0d
+			dependencies: ["5D14B727300A6C77"]
+			id: "4A3A532E1BFD6886"
+			tasks: [
+				{
+					id: "7478E32A3BC65975"
+					type: "item"
+					item: {
+						id: "botania:manasteel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4258B5F2BD38337C"
+					type: "item"
+					item: {
+						id: "botania:manasteel_pick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1478FC8F56C03423"
+					type: "item"
+					item: {
+						id: "botania:manasteel_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48CA6CE9AD3510D3"
+					type: "item"
+					item: {
+						id: "botania:manasteel_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6FE95F92DE933592"
+					type: "item"
+					item: {
+						id: "botania:manasteel_shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "602BF8B1B3D8A907"
+				type: "item"
+				item: {
+					id: "botania:mana_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Мана течёт во мне, я един с маной"
+			x: -33.5d
+			y: -3.0d
+			dependencies: [
+				"6C4A563831D30FB0"
+				"5D14B727300A6C77"
+			]
+			id: "56C5FE61A61F593E"
+			tasks: [{
+				id: "29E654E5C3CE8FB7"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "53CCE9AF578BC61F"
+				type: "item"
+				item: "botania:blacker_lotus"
+			}]
+		}
+		{
+			title: "Да будет индикация!"
+			x: -33.5d
+			y: 3.0d
+			dependencies: ["5146662280AF333B"]
+			id: "620C9E41609A97D8"
+			tasks: [{
+				id: "1CC60C19BDCE0A2B"
+				type: "item"
+				item: "botania:manastar"
+			}]
+			rewards: [
+				{
+					id: "3701D8B2A0071098"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 3
+				}
+				{
+					id: "4156017B36F7ADA9"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Манаалхимия"
+			x: -31.5d
+			y: 3.0d
+			dependencies: ["5146662280AF333B"]
+			id: "5CC93FC2031D8EDF"
+			tasks: [{
+				id: "5EC6026A3C0127B7"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+			rewards: [{
+				id: "183F6384005D7471"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+		}
+		{
+			title: "Террария, ты ли это!?"
+			x: -29.5d
+			y: 1.0d
+			dependencies: ["41E2F9DF13B1FDC9"]
+			id: "64B6712EEA33A4F8"
+			tasks: [{
+				id: "6FD08FC319365C8A"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "62BD3B4536583D80"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 3
+			}]
+		}
+		{
+			x: -29.5d
+			y: -3.0d
+			dependencies: [
+				"64B6712EEA33A4F8"
+				"04388FFE00789CB3"
+			]
+			id: "20DC60E1D26D4ED7"
+			tasks: [{
+				id: "4B7B4A8CBEDC053D"
+				type: "item"
+				item: {
+					id: "botania:mana_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -31.5d
+			y: -5.0d
+			dependencies: ["56C5FE61A61F593E"]
+			id: "1A430937E8928686"
+			tasks: [{
+				id: "40363DA5D9FEBF4D"
+				type: "item"
+				item: {
+					id: "botania:swap_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -31.5d
+			y: -3.0d
+			dependencies: ["56C5FE61A61F593E"]
+			id: "04388FFE00789CB3"
+			tasks: [{
+				id: "1B7277853428235F"
+				type: "item"
+				item: {
+					id: "botania:aura_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "А вы быстро учитесь"
+			x: -35.5d
+			y: 3.0d
+			dependencies: ["27B44985D6FE8C47"]
+			id: "46C9ACD7089A3658"
+			tasks: [
+				{
+					id: "0A12195CD4839DA2"
+					type: "item"
+					item: "botania:livingrock"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "1E77A2D9E6D4F002"
+					type: "item"
+					item: "botania:livingwood"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0B08F23CA9BB6407"
+					type: "item"
+					item: "minecraft:nether_wart"
+				}
+				{
+					id: "30D2D45652D7E31A"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 16
+				}
+			]
+		}
+	]
+}
