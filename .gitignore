@@ -1,1 +1,2 @@
-/logs/**
+$ cat .gitignore
+/logs
