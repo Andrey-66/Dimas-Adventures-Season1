@@ -1,0 +1,62 @@
+{
+	id: "4DCE10E6EBA0D444"
+	group: "1E0A8915CBC35F34"
+	order_index: 0
+	filename: "botania"
+	title: "Botania"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Начало"
+			x: -10.0d
+			y: 0.0d
+			id: "7E2F61DDFEF839D3"
+			tasks: [{
+				id: "1A4F001710C17274"
+				type: "item"
+				title: "Any #minecraft:saplings"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+			}]
+			rewards: [{
+				id: "585037A16645D09F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Сила знаний"
+			x: -7.5d
+			y: 0.0d
+			dependencies: ["7E2F61DDFEF839D3"]
+			id: "147E0992C229ABB3"
+			tasks: [{
+				id: "3AAFEEC4525BC12C"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Переполнение разрядной сетки"
+			x: -5.5d
+			y: -2.0d
+			dependencies: ["147E0992C229ABB3"]
+			id: "378657656BFC3C30"
+			tasks: [{
+				id: "16A6755E9573CB73"
+				type: "item"
+				item: "botania:flower_bag"
+			}]
+		}
+	]
+}

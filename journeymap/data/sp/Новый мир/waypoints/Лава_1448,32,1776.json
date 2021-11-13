@@ -1,0 +1,19 @@
+{
+  "id": "Лава_1448,32,1776",
+  "name": "Лава",
+  "icon": "waypoint-normal.png",
+  "x": 1448,
+  "y": 32,
+  "z": 1776,
+  "r": 254,
+  "g": 241,
+  "b": 1,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false
+}

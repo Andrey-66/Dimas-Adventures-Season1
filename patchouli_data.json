@@ -1,1 +1,87 @@
-{"bookGuiScale":0,"clickedVisualize":false,"bookData":{}}
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:getting_started/spell_casting",
+        "ars_nouveau:rituals/ritual_howto",
+        "ars_nouveau:rituals/moonfall",
+        "ars_nouveau:enchantments/aaa_moreinfo",
+        "ars_nouveau:machines/enchanting_apparatus",
+        "ars_nouveau:enchantments/flame",
+        "ars_nouveau:getting_started/upgrade",
+        "ars_nouveau:items/books",
+        "ars_nouveau:getting_started/mana",
+        "ars_nouveau:getting_started/learning_spells",
+        "ars_nouveau:machines/glyph_press",
+        "ars_nouveau:resources/arcane_ore",
+        "ars_nouveau:getting_started/world_mana",
+        "ars_nouveau:source/mana_condenser",
+        "ars_nouveau:source/mana_jar",
+        "ars_nouveau:spells/craft",
+        "ars_nouveau:spells/harm",
+        "ars_nouveau:spells/heal",
+        "ars_nouveau:spells/ignite",
+        "ars_nouveau:spells/aquatic"
+      ],
+      "bookmarks": [],
+      "history": [
+        "ars_nouveau:spells/craft",
+        "ars_nouveau:spells/aquatic",
+        "ars_nouveau:spells/heal",
+        "ars_nouveau:spells/ignite",
+        "ars_nouveau:getting_started/learning_spells",
+        "ars_nouveau:machines/glyph_press",
+        "ars_nouveau:getting_started/upgrade",
+        "ars_nouveau:items/books",
+        "ars_nouveau:getting_started/world_mana",
+        "ars_nouveau:spells/harm",
+        "ars_nouveau:source/mana_condenser",
+        "ars_nouveau:source/mana_jar",
+        "ars_nouveau:resources/arcane_ore"
+      ],
+      "completedManualQuests": []
+    },
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:alfhomancy/loki_ring",
+        "botania:basics/black_lotus",
+        "botania:basics/flowers",
+        "botania:basics/lexicon",
+        "botania:basics/welcome",
+        "botania:devices/fel_pumpkin",
+        "botania:tools/overgrowth_seed",
+        "botania:baubles/item_finder",
+        "botania:basics/pure_daisy",
+        "botania:basics/flower_bag",
+        "botania:basics/rune_altar",
+        "botania:basics/apothecary",
+        "botania:basics/wand",
+        "botania:mana/pool",
+        "botania:mana/intro",
+        "botania:mana/manastar",
+        "botania:generating_flowers/hydroangeas",
+        "botania:generating_flowers/endoflame",
+        "botania:devices/mana_alchemy"
+      ],
+      "bookmarks": [],
+      "history": [
+        "botania:devices/mana_alchemy",
+        "botania:basics/pure_daisy",
+        "botania:basics/wand",
+        "botania:generating_flowers/hydroangeas",
+        "botania:generating_flowers/endoflame",
+        "botania:mana/manastar",
+        "botania:mana/intro",
+        "botania:mana/pool",
+        "botania:basics/apothecary",
+        "botania:basics/rune_altar",
+        "botania:basics/flower_bag",
+        "botania:baubles/item_finder",
+        "botania:tools/overgrowth_seed"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}
