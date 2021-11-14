@@ -204,7 +204,10 @@
 			title: "Я ЕСТЬ ГРУУУУТ!!1!"
 			x: 2.0d
 			y: 4.0d
-			dependencies: ["3193D7F3317DCC14"]
+			dependencies: [
+				"3193D7F3317DCC14"
+				"5FA75FB16602CB21"
+			]
 			hide: true
 			id: "05AB606EC2B4A45F"
 			tasks: [

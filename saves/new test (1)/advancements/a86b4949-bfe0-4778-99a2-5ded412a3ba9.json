@@ -96,6 +96,12 @@
     },
     "done": true
   },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "scale": "2021-11-14 07:14:54 +0300"
+    },
+    "done": false
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_bricks_slab": {
     "criteria": {
       "has_item": "2021-11-14 01:09:59 +0300"
@@ -456,15 +462,15 @@
     },
     "done": true
   },
-  "botania:recipes/botania/virus_necrodermal": {
-    "criteria": {
-      "has_item": "2021-11-14 05:20:11 +0300"
-    },
-    "done": true
-  },
   "botania:recipes/botania/terra_sword": {
     "criteria": {
       "has_item": "2021-11-14 05:01:47 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/virus_necrodermal": {
+    "criteria": {
+      "has_item": "2021-11-14 05:20:11 +0300"
     },
     "done": true
   },
@@ -489,6 +495,12 @@
       "ominous_woods": "2021-11-12 05:46:16 +0300"
     },
     "done": false
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/grout_multiple": {
+    "criteria": {
+      "has_item": "2021-11-14 06:54:28 +0300"
+    },
+    "done": true
   },
   "botania:recipes/botania/forest_eye": {
     "criteria": {
@@ -520,15 +532,15 @@
     },
     "done": true
   },
-  "botania:recipes/botania/spectral_platform": {
-    "criteria": {
-      "has_item": "2021-11-14 05:20:11 +0300"
-    },
-    "done": true
-  },
   "botania:recipes/botania/elementium_pickaxe": {
     "criteria": {
       "has_item": "2021-11-14 05:19:12 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/spectral_platform": {
+    "criteria": {
+      "has_item": "2021-11-14 05:20:11 +0300"
     },
     "done": true
   },
@@ -692,6 +704,12 @@
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2021-11-14 01:22:50 +0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/naga_armor_set": {
+    "criteria": {
+      "ingredient": "2021-11-14 07:14:54 +0300"
     },
     "done": true
   },
@@ -1336,6 +1354,18 @@
     },
     "done": false
   },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_brick": {
+    "criteria": {
+      "has_item": "2021-11-14 06:49:58 +0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/tools": {
+    "criteria": {
+      "1": "2021-11-14 07:13:52 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/livingrock_slab": {
     "criteria": {
       "has_item": "2021-11-13 21:40:36 +0300"
@@ -1623,6 +1653,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2021-11-14 06:54:28 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_obsidian": "2021-11-14 00:04:28 +0300"
@@ -1632,6 +1668,12 @@
   "botania:recipes/botania/white_shiny_flower": {
     "criteria": {
       "has_item": "2021-11-12 07:29:34 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/puny_smelting": {
+    "criteria": {
+      "has_item": "2021-11-14 06:49:58 +0300"
     },
     "done": true
   },
@@ -2396,6 +2438,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/smeltery/seared/seared_brick_kiln": {
+    "criteria": {
+      "has_item": "2021-11-14 06:49:58 +0300"
+    },
+    "done": true
+  },
   "apotheosis:spawner/root": {
     "criteria": {
       "game_start": "2021-11-12 05:42:49 +0300"
@@ -2672,6 +2720,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/steeleaf_armor_set": {
+    "criteria": {
+      "ingredient": "2021-11-14 07:13:52 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/common/glass/white_clear_stained_glass_pane": {
     "criteria": {
       "has_block": "2021-11-14 02:18:45 +0300"
@@ -2708,6 +2762,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/armors": {
+    "criteria": {
+      "2": "2021-11-14 07:13:52 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2021-11-12 07:40:26 +0300"
@@ -2741,6 +2801,12 @@
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2021-11-12 07:38:05 +0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/steeleaf_tool_set": {
+    "criteria": {
+      "ingredient": "2021-11-14 07:13:52 +0300"
     },
     "done": true
   },

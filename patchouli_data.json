@@ -95,10 +95,16 @@
         "botania:functional_flowers/labellia",
         "botania:functional_flowers/agricarnation",
         "botania:functional_flowers/vinculotus",
-        "botania:functional_flowers/hopperhock"
+        "botania:functional_flowers/hopperhock",
+        "botania:generating_flowers/intro",
+        "botania:basics/terrasteel"
       ],
       "bookmarks": [],
       "history": [
+        "botania:basics/rune_altar",
+        "botania:basics/pure_daisy",
+        "botania:basics/terrasteel",
+        "botania:generating_flowers/intro",
         "botania:functional_flowers/hopperhock",
         "botania:functional_flowers/vinculotus",
         "botania:functional_flowers/agricarnation",
@@ -107,11 +113,7 @@
         "botania:generating_flowers/rafflowsia",
         "botania:generating_flowers/narslimmus",
         "botania:generating_flowers/spectrolus",
-        "botania:generating_flowers/kekimurus",
-        "botania:generating_flowers/dandelifeon",
-        "botania:generating_flowers/shulk_me_not",
-        "botania:generating_flowers/entropinnyum",
-        "botania:generating_flowers/thermalily"
+        "botania:generating_flowers/kekimurus"
       ],
       "completedManualQuests": []
     },
