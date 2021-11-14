@@ -4,6 +4,11 @@
 	order_index: 0
 	filename: "botania"
 	title: "Botania"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: { }
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -56,7 +61,7 @@
 		}
 		{
 			title: "Переполнение разрядной сетки"
-			x: -7.5d
+			x: -7.0d
 			y: -2.0d
 			dependencies: ["147E0992C229ABB3"]
 			hide: true
@@ -143,8 +148,8 @@
 		}
 		{
 			title: "Продвинутое управление маной"
-			x: -2.5d
-			y: 2.0d
+			x: -3.5d
+			y: 4.0d
 			dependencies: ["26EBA995EA60E864"]
 			hide: true
 			id: "59202966A0687604"
@@ -326,7 +331,7 @@
 		}
 		{
 			title: "В этом ходят маги!?"
-			x: -1.5d
+			x: -2.5d
 			y: -7.0d
 			dependencies: ["0A041851710115FD"]
 			hide: true
@@ -387,7 +392,7 @@
 		{
 			title: "Батарейка {О-о-и-я-и-ё}"
 			x: -2.5d
-			y: -3.0d
+			y: -4.5d
 			dependencies: ["26EBA995EA60E864"]
 			hide: true
 			id: "132938F0D82B4B2C"
@@ -510,6 +515,7 @@
 		}
 		{
 			title: "Террария, ты ли это?"
+			icon: "botania:terrasteel_ingot"
 			x: 2.5d
 			y: 0.0d
 			dependencies: [
@@ -518,11 +524,36 @@
 			]
 			hide: true
 			id: "7B6EE16F9C17FDB3"
-			tasks: [{
-				id: "12E5E30C8A5BFEA1"
-				type: "item"
-				item: "botania:terrasteel_ingot"
-			}]
+			tasks: [
+				{
+					id: "12E5E30C8A5BFEA1"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+				{
+					id: "777A6D2B61E94229"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "1FA3B3DC7DF66BA1"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+				{
+					id: "3987189E09824640"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "34D12293411EE698"
+					type: "item"
+					item: "botania:spark"
+					count: 2L
+				}
+			]
 			rewards: [{
 				id: "54674127E4959A6A"
 				type: "item"
@@ -749,9 +780,13 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -8.5d
-			dependencies: ["14189F9DB32C96BE"]
+			x: 0.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"14189F9DB32C96BE"
+				"7B6EE16F9C17FDB3"
+			]
 			hide: true
 			id: "385C467654011741"
 			tasks: [{
@@ -767,9 +802,13 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -7.0d
-			dependencies: ["720BFA32AA90F68B"]
+			x: -2.5d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"720BFA32AA90F68B"
+				"7B6EE16F9C17FDB3"
+			]
 			hide: true
 			id: "22BACCDD93E4226C"
 			tasks: [
@@ -833,9 +872,13 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: -8.5d
-			dependencies: ["14189F9DB32C96BE"]
+			x: 1.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"14189F9DB32C96BE"
+				"7B6EE16F9C17FDB3"
+			]
 			hide: true
 			id: "14F32A6FBC767828"
 			tasks: [{
@@ -865,9 +908,13 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: -8.5d
-			dependencies: ["14189F9DB32C96BE"]
+			x: -1.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"14189F9DB32C96BE"
+				"7B6EE16F9C17FDB3"
+			]
 			hide: true
 			id: "52ECBAF9D14796C9"
 			tasks: [{
@@ -890,8 +937,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -10.0d
+			x: -1.0d
+			y: -9.0d
 			dependencies: ["52ECBAF9D14796C9"]
 			hide: true
 			id: "1F9DC9AFEE5DD97B"
@@ -915,8 +962,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 2.0d
+			x: -8.0d
+			y: -2.0d
 			dependencies: ["147E0992C229ABB3"]
 			hide: true
 			id: "5F186A357E159028"
@@ -934,6 +981,443 @@
 				type: "item"
 				item: "ironchest:crystal_chest"
 			}]
+		}
+		{
+			title: "Злая и очень злая колючки"
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["26EBA995EA60E864"]
+			hide: true
+			id: "700430EB59A1AFA7"
+			tasks: [
+				{
+					id: "2478B54F96C6356D"
+					type: "item"
+					item: "botania:bellethorn"
+				}
+				{
+					id: "567271ED68BC9324"
+					type: "item"
+					item: "botania:dreadthorn"
+				}
+			]
+			rewards: [
+				{
+					id: "759966C01457CED4"
+					type: "item"
+					item: "botania:overgrowth_seed"
+					count: 4
+				}
+				{
+					id: "3321E69CDF49D843"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Портал в эльфхейм"
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["7B6EE16F9C17FDB3"]
+			hide: true
+			id: "27270C6C8045D0AE"
+			tasks: [
+				{
+					id: "22EC25C0DA6C8CBB"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "072EFE5628EBF093"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "4ABBD44247BC6692"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "775D17C97407DD61"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "7A8402C087E8D1D4"
+				type: "item"
+				item: "botania:blacker_lotus"
+				random_bonus: 9
+			}]
+		}
+		{
+			title: "Материал эльфов... или фей?"
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["27270C6C8045D0AE"]
+			hide: true
+			id: "00B0A3EE3E961EBB"
+			tasks: [
+				{
+					id: "024CD49A60131533"
+					type: "item"
+					item: "botania:elementium_ingot"
+				}
+				{
+					id: "1021D1A32130D574"
+					type: "item"
+					item: "botania:dragonstone"
+				}
+				{
+					id: "775BD2DEA5502E90"
+					type: "item"
+					item: "botania:pixie_dust"
+				}
+			]
+		}
+		{
+			title: "Жизнь, как начало жизни"
+			x: -4.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"59202966A0687604"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "35C75784EFE06316"
+			tasks: [
+				{
+					id: "1A8504B815AD8DE1"
+					type: "item"
+					item: "botania:munchdew"
+				}
+				{
+					id: "06EE7730492A2D02"
+					type: "item"
+					item: "botania:gourmaryllis"
+				}
+			]
+			rewards: [
+				{
+					id: "1428A34464E60527"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "7800860C26A06C8B"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Опыты над опытом"
+			x: -4.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"59202966A0687604"
+			]
+			hide: true
+			id: "037790FE3D164B9D"
+			tasks: [{
+				id: "4B05C61E80FBEED7"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [
+				{
+					id: "21610E0D5870E4B4"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "7823666208105A3C"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Почему печка не может быть цветком?"
+			x: -3.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"59202966A0687604"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "1C26D9AB84A6C218"
+			tasks: [
+				{
+					id: "2EA935675478A2BB"
+					type: "item"
+					item: "botania:thermalily"
+				}
+				{
+					id: "65AB0AFFD4D15367"
+					type: "item"
+					item: "botania:entropinnyum"
+				}
+			]
+			rewards: [
+				{
+					id: "44442FFF5F2F5A11"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "7536063BB71213FC"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Слиииизь"
+			x: -5.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"59202966A0687604"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "07AF11B84E7D100C"
+			tasks: [{
+				id: "6A2872D93BB6CDD6"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [
+				{
+					id: "255EF3E2901833E5"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "5B97EB0C53B614BD"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Ням"
+			x: -3.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"59202966A0687604"
+				"00B0A3EE3E961EBB"
+			]
+			hide: true
+			id: "372A3E7EF4DC23B8"
+			tasks: [{
+				id: "706B10F2E02BB97A"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [{
+				id: "1401F653B36B9CB0"
+				type: "choice"
+				table_id: 5861405098905494759L
+			}]
+		}
+		{
+			title: "Вот был у Вас цветок, и нет его теперь! "
+			x: -4.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"59202966A0687604"
+				"00B0A3EE3E961EBB"
+			]
+			hide: true
+			id: "0CF965F8012CC423"
+			tasks: [{
+				id: "1C208A8EDA2F9E8F"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+			rewards: [{
+				id: "6DD7E4B7ECD157E9"
+				type: "choice"
+				table_id: 5861405098905494759L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"59202966A0687604"
+				"00B0A3EE3E961EBB"
+			]
+			hide: true
+			id: "0A47FB10B7AA893A"
+			tasks: [{
+				id: "30C69F7FD723434A"
+				type: "item"
+				item: "botania:spectranthemum"
+			}]
+			rewards: [
+				{
+					id: "24C08E0DA9CFF632"
+					type: "item"
+					item: "minecraft:red_wool"
+				}
+				{
+					id: "25EF5B1A063341F3"
+					type: "item"
+					item: "minecraft:orange_wool"
+				}
+				{
+					id: "5976CC2F07DFACCD"
+					type: "item"
+					item: "minecraft:yellow_wool"
+				}
+				{
+					id: "012A016895F6420E"
+					type: "item"
+					item: "minecraft:green_wool"
+				}
+				{
+					id: "297BB1FCBBE2C4B5"
+					type: "item"
+					item: "minecraft:blue_wool"
+				}
+				{
+					id: "4762E5E0D48AB6C0"
+					type: "item"
+					item: "minecraft:purple_wool"
+				}
+				{
+					id: "23CEBFBAC43B530A"
+					type: "item"
+					item: "biomesoplenty:rainbow_birch_sapling"
+				}
+				{
+					id: "26F758E437F6B3C6"
+					type: "item"
+					item: "byg:rainbow_eucalyptus_sapling"
+				}
+				{
+					id: "5B822ECC2FB04090"
+					type: "item"
+					item: "biomesoplenty:rainbow_birch_sapling"
+				}
+			]
+		}
+		{
+			title: "Farming Manamulator 21"
+			x: -0.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"700430EB59A1AFA7"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "6051A00178A2D543"
+			tasks: [{
+				id: "2EF772FF57406E15"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+			rewards: [
+				{
+					id: "3FD6D0439A80B0D4"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "77EB1A04AF2DDC7E"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Не то, чтобы ты от меня куда-то убежал"
+			x: 0.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"700430EB59A1AFA7"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "3FD9B6664C71BA3A"
+			tasks: [{
+				id: "5BFE3527F460D316"
+				type: "item"
+				item: "botania:vinculotus"
+			}]
+			rewards: [
+				{
+					id: "61C7D2B72DDF3CF5"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "4E78B5BAA542CA1F"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Сосать - это здорово!"
+			x: -1.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"700430EB59A1AFA7"
+			]
+			hide: true
+			id: "530402085F0F7DCF"
+			tasks: [{
+				id: "1E0B001637BF33F9"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+			rewards: [
+				{
+					id: "7A0D611EDACA637E"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "3B70953CE1D5B1C2"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
 		}
 	]
 }

@@ -1,5 +1,6 @@
 {
 	version: 13
+	title: "Похождения Димасика"
 	disable_toast: true
 	default_reward_team: true
 	default_consume_items: false

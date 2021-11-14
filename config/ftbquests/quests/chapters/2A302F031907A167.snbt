@@ -1,0 +1,22 @@
+{
+	id: "2A302F031907A167"
+	group: "1E0A8915CBC35F34"
+	order_index: 4
+	filename: "2A302F031907A167"
+	title: "Ад"
+	icon: "minecraft:blaze_powder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -2.5d
+		y: 0.0d
+		description: ["Старым способом портал вызвать не выходит. Нужно придумать что-то новое. Дальнейшее изучение магических сплавов мне должно помочь."]
+		hide: true
+		id: "5EA7B205354739CF"
+		tasks: [{
+			id: "5A95875B843A2F31"
+			type: "dimension"
+			dimension: "minecraft:the_nether"
+		}]
+	}]
+}

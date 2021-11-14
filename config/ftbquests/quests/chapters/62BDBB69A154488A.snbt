@@ -1,0 +1,30 @@
+{
+	id: "62BDBB69A154488A"
+	group: "1E0A8915CBC35F34"
+	order_index: 3
+	filename: "62BDBB69A154488A"
+	title: "м"
+	icon: "ars_nouveau:novice_spell_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Крафт"
+		icon: "ars_nouveau:glyph_craft"
+		x: -5.0d
+		y: -2.5d
+		dependencies: ["3CC1A26B25347326"]
+		hide_text_until_complete: true
+		id: "79B20D45560C271A"
+		tasks: [{
+			id: "70AC0F5700F17303"
+			type: "item"
+			item: "ars_nouveau:blank_glyph"
+			consume_items: true
+		}]
+		rewards: [{
+			id: "03C1AD32E66A15CF"
+			type: "item"
+			item: "ars_nouveau:glyph_craft"
+		}]
+	}]
+}
