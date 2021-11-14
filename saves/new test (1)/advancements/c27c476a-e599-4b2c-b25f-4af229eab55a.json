@@ -5,9 +5,33 @@
     },
     "done": true
   },
+  "apotheosis:enchanting/quanta50": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:53:35 +0300"
+    },
+    "done": true
+  },
   "tconstruct:foundry/fantastic_foundry": {
     "criteria": {
       "crafted_book": "2021-11-14 03:54:18 +0300"
+    },
+    "done": true
+  },
+  "betterendforge:recipes/betterendforge/netherite_hammer_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/materials/netherite_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/trophies": {
+    "criteria": {
+      "1": "2021-11-14 20:32:53 +0300"
     },
     "done": true
   },
@@ -47,6 +71,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2021-11-14 23:07:18 +0300"
+    },
+    "done": true
+  },
   "tconstruct:tools/materials_and_you": {
     "criteria": {
       "crafted_book": "2021-11-13 23:11:58 +0300"
@@ -83,9 +113,21 @@
     },
     "done": true
   },
+  "botania:recipes/botania/spark_upgrade_dominant": {
+    "criteria": {
+      "has_alt_item": "2021-11-14 19:11:48 +0300"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/iron_chandelier": {
     "criteria": {
       "has_iron_ingot": "2021-11-14 02:29:23 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/80ench": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:14:25 +0300"
     },
     "done": true
   },
@@ -107,15 +149,35 @@
     },
     "done": true
   },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "scale": "2021-11-14 18:57:15 +0300",
+      "kill_mob": "2021-11-14 20:32:53 +0300",
+      "naga": "2021-11-14 20:32:53 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_bricks_slab": {
     "criteria": {
       "has_item": "2021-11-13 23:19:42 +0300"
     },
     "done": true
   },
+  "iceandfire:iceandfire/bestiary": {
+    "criteria": {
+      "bestiary": "2021-11-14 18:38:37 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/tables/tinkers_chest": {
     "criteria": {
       "has_item": "2021-11-14 01:36:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2021-11-14 18:42:55 +0300"
     },
     "done": true
   },
@@ -179,9 +241,27 @@
     },
     "done": true
   },
+  "enigmaticlegacy:book/misc/animal_guide": {
+    "criteria": {
+      "has_the_recipe": "2021-11-14 23:07:18 +0300"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_barakoana": {
+    "criteria": {
+      "barakoana": "2021-11-14 18:32:09 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/tables/tinkers_anvil": {
     "criteria": {
       "has_item": "2021-11-14 03:56:23 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/arcana50": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:53:35 +0300"
     },
     "done": true
   },
@@ -233,6 +313,12 @@
     },
     "done": true
   },
+  "apotheosis:enchanting/60ench": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:14:25 +0300"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/oak_window": {
     "criteria": {
       "has_ingredient": "2021-11-14 01:37:02 +0300"
@@ -245,6 +331,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/misc/tables/book_substitute": {
     "criteria": {
       "has_item": "2021-11-14 01:36:58 +0300"
@@ -254,6 +346,12 @@
   "create:recipes/create.palettes/layered_weathered_limestone_from_weathered_limestone_stonecutting": {
     "criteria": {
       "has_weathered_limestone": "2021-11-14 00:20:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2021-11-14 18:42:55 +0300"
     },
     "done": true
   },
@@ -281,6 +379,12 @@
     },
     "done": true
   },
+  "enigmaticlegacy:recipes/generic/berserk_emblem": {
+    "criteria": {
+      "has_items2": "2021-11-14 20:21:33 +0300"
+    },
+    "done": false
+  },
   "create:recipes/create.palettes/mossy_weathered_limestone_from_weathered_limestone_stonecutting": {
     "criteria": {
       "has_weathered_limestone": "2021-11-14 00:20:28 +0300"
@@ -299,6 +403,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_hellshelf": {
+    "criteria": {
+      "blazing": "2021-11-14 20:39:51 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_bricks_stairs": {
     "criteria": {
       "has_item": "2021-11-13 23:19:42 +0300"
@@ -308,6 +424,18 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2021-11-14 02:29:23 +0300"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_forge_brick": {
+    "criteria": {
+      "fire": "2021-11-14 18:38:22 +0300"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_fire_dragon": "2021-11-14 18:41:18 +0300"
     },
     "done": true
   },
@@ -335,9 +463,39 @@
     },
     "done": true
   },
+  "botania:recipes/botania/spark_upgrade_dispersive": {
+    "criteria": {
+      "has_alt_item": "2021-11-14 19:11:48 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/pestle_and_mortar": {
     "criteria": {
       "has_item": "2021-11-14 01:37:02 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/misc/tools/modifiers/wither_bone_conversion": {
+    "criteria": {
+      "has_bone": "2021-11-14 18:51:03 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/quanta100": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:53:35 +0300"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonsteel": {
+    "criteria": {
+      "fire": "2021-11-14 21:49:31 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/altar": {
+    "criteria": {
+      "altar": "2021-11-14 23:02:07 +0300"
     },
     "done": true
   },
@@ -350,6 +508,12 @@
   "create:recipes/create.base/crafting/kinetics/yellow_seat": {
     "criteria": {
       "has_wool": "2021-11-14 01:22:20 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/netherite": {
+    "criteria": {
+      "has_ingot": "2021-11-14 20:21:33 +0300"
     },
     "done": true
   },
@@ -401,6 +565,12 @@
     },
     "done": true
   },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "blood": "2021-11-14 20:18:39 +0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2021-11-14 01:37:02 +0300"
@@ -413,9 +583,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2021-11-14 23:07:18 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2021-11-14 02:29:23 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/max_stats": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:53:35 +0300"
     },
     "done": true
   },
@@ -467,6 +649,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2021-11-14 18:42:55 +0300"
+    },
+    "done": true
+  },
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2021-11-13 23:20:49 +0300"
@@ -482,6 +670,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2021-11-14 02:29:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
     },
     "done": true
   },
@@ -515,6 +709,12 @@
     },
     "done": true
   },
+  "mowziesmobs:kill_foliaath": {
+    "criteria": {
+      "foliaath": "2021-11-14 18:31:19 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2021-11-14 02:29:23 +0300"
@@ -530,6 +730,12 @@
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2021-11-14 02:29:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2021-11-14 18:42:55 +0300"
     },
     "done": true
   },
@@ -572,6 +778,12 @@
   "create:recipes/create.base/crafting/kinetics/brown_seat": {
     "criteria": {
       "has_wool": "2021-11-14 01:22:20 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/100ench": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:14:25 +0300"
     },
     "done": true
   },
@@ -619,6 +831,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:wither_skeleton": "2021-11-14 18:50:53 +0300",
       "minecraft:husk": "2021-11-14 00:36:18 +0300"
     },
     "done": false
@@ -626,6 +839,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2021-11-14 00:20:48 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:14:25 +0300"
     },
     "done": true
   },
@@ -641,9 +860,21 @@
     },
     "done": true
   },
+  "enigmaticlegacy:recipes/generic/forbidden_axe": {
+    "criteria": {
+      "has_items": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
   "tconstruct:world/sky_island": {
     "criteria": {
       "found_island": "2021-11-13 23:46:27 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/fel_pumpkin": {
+    "criteria": {
+      "has_item": "2021-11-14 18:42:55 +0300"
     },
     "done": true
   },
@@ -681,15 +912,39 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/naga_armor_set": {
+    "criteria": {
+      "ingredient": "2021-11-14 18:57:15 +0300"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/weathered_limestone_pillar": {
     "criteria": {
       "has_weathered_limestone": "2021-11-14 00:20:28 +0300"
     },
     "done": true
   },
+  "enigmaticlegacy:book/tools/forbidden_axe": {
+    "criteria": {
+      "has_the_recipe": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
   "tconstruct:smeltery/sand_casting": {
     "criteria": {
       "crafted_cast": "2021-11-14 02:29:41 +0300"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_forge_core": {
+    "criteria": {
+      "fire": "2021-11-14 18:38:19 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/materials/ancient_debris": {
+    "criteria": {
+      "has_ingot": "2021-11-14 20:21:33 +0300"
     },
     "done": true
   },
@@ -732,6 +987,12 @@
   "botania:recipes/botania/manasteel_hoe": {
     "criteria": {
       "has_item": "2021-11-13 23:21:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
     },
     "done": true
   },
@@ -783,6 +1044,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2021-11-14 20:25:45 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_cracked_bricks_smelting": {
     "criteria": {
       "has_item": "2021-11-13 23:19:42 +0300"
@@ -803,7 +1070,8 @@
   },
   "enigmaticlegacy:recipes/generic/the_twist": {
     "criteria": {
-      "has_parent_recipe": "2021-11-13 23:11:58 +0300"
+      "has_parent_recipe": "2021-11-13 23:11:58 +0300",
+      "has_items3": "2021-11-14 20:21:33 +0300"
     },
     "done": false
   },
@@ -813,15 +1081,57 @@
     },
     "done": true
   },
+  "apotheosis:enchanting/enchanting_stats": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:53:35 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/red_sand_cast": {
     "criteria": {
       "has_casting": "2021-11-14 00:44:08 +0300"
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2021-11-14 20:25:45 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/seashelf": {
+    "criteria": {
+      "seashelf": "2021-11-14 20:39:53 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/arcana100": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:53:35 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/animal_guide": {
+    "criteria": {
+      "has_items": "2021-11-14 23:07:18 +0300"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_weathered_limestone": {
     "criteria": {
       "has_weathered_limestone": "2021-11-14 00:20:28 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/hellshelf": {
+    "criteria": {
+      "hellshelf": "2021-11-14 20:39:47 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/endshelf": {
+    "criteria": {
+      "endshelf": "2021-11-14 20:39:58 +0300"
     },
     "done": true
   },
@@ -846,6 +1156,18 @@
   "biomesoplenty:recipes/transportation/palm_boat": {
     "criteria": {
       "in_water": "2021-11-14 03:20:05 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/accessories/monster_charm": {
+    "criteria": {
+      "has_the_recipe": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
     },
     "done": true
   },
@@ -890,6 +1212,12 @@
       "has_parent_recipe": "2021-11-14 02:29:23 +0300"
     },
     "done": false
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
   },
   "botania:recipes/botania/manasteel_chestplate": {
     "criteria": {
@@ -951,9 +1279,21 @@
     },
     "done": true
   },
+  "botania:recipes/botania/natura_pylon": {
+    "criteria": {
+      "has_item": "2021-11-14 22:51:10 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/tables/part_chest": {
     "criteria": {
       "has_item": "2021-11-14 01:36:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
     },
     "done": true
   },
@@ -1005,6 +1345,12 @@
     },
     "done": true
   },
+  "twilightforest:progress_ur_ghast": {
+    "criteria": {
+      "tear": "2021-11-14 20:17:51 +0300"
+    },
+    "done": false
+  },
   "apotheosis:spawner/capturing": {
     "criteria": {
       "egg": "2021-11-13 23:17:48 +0300"
@@ -1041,9 +1387,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/cyan_seat": {
     "criteria": {
       "has_wool": "2021-11-14 01:22:21 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2021-11-14 23:07:18 +0300"
     },
     "done": true
   },
@@ -1068,6 +1426,12 @@
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2021-11-14 01:22:20 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/spark_upgrade_recessive": {
+    "criteria": {
+      "has_alt_item": "2021-11-14 19:11:48 +0300"
     },
     "done": true
   },
@@ -1113,6 +1477,18 @@
     },
     "done": true
   },
+  "apotheosis:spawner/spawner": {
+    "criteria": {
+      "spawner": "2021-11-14 20:25:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2021-11-14 18:57:14 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_iron_ingot": "2021-11-14 02:29:23 +0300"
@@ -1131,9 +1507,27 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/fiery_tool_set": {
+    "criteria": {
+      "ingredien2": "2021-11-14 20:17:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_oak_planks": "2021-11-14 01:37:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2021-11-14 20:25:45 +0300"
     },
     "done": true
   },
@@ -1179,6 +1573,12 @@
     },
     "done": true
   },
+  "mowziesmobs:kill_frostmaw": {
+    "criteria": {
+      "frostmaw": "2021-11-14 18:33:39 +0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
       "minecraft:husk": "2021-11-14 00:36:18 +0300"
@@ -1203,6 +1603,12 @@
     },
     "done": true
   },
+  "apotheosis:enchanting/45ench": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:14:25 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/common/materials_and_you": {
     "criteria": {
       "has_item": "2021-11-14 01:36:58 +0300"
@@ -1212,6 +1618,18 @@
   "biomesoplenty:recipes/transportation/hellbark_boat": {
     "criteria": {
       "in_water": "2021-11-14 03:20:05 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:book/enchantments/generic": {
+    "criteria": {
+      "has_items": "2021-11-14 20:37:27 +0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/armors": {
+    "criteria": {
+      "1": "2021-11-14 18:57:15 +0300"
     },
     "done": true
   },
@@ -1234,9 +1652,33 @@
     },
     "done": true
   },
+  "apotheosis:enchanting/30ench": {
+    "criteria": {
+      "enchanted_item": "2021-11-14 22:14:25 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/swap_ring": {
     "criteria": {
       "has_item": "2021-11-13 23:21:28 +0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/fiery_blood_tears": {
+    "criteria": {
+      "armor": "2021-11-14 20:17:51 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/monster_charm": {
+    "criteria": {
+      "has_items": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
+  "botania:main/spark_craft": {
+    "criteria": {
+      "spark": "2021-11-14 19:11:48 +0300"
     },
     "done": true
   },
@@ -1252,9 +1694,21 @@
     },
     "done": true
   },
+  "apotheosis:enchanting/bookshelf": {
+    "criteria": {
+      "bookshelf": "2021-11-14 20:37:52 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2021-11-14 02:29:23 +0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/fiery_armor_set": {
+    "criteria": {
+      "ingredien2": "2021-11-14 20:17:51 +0300"
     },
     "done": true
   },
@@ -1264,9 +1718,21 @@
     },
     "done": true
   },
+  "apotheosis:enchanting/enchanter": {
+    "criteria": {
+      "enchanting_table": "2021-11-14 20:37:27 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2021-11-14 03:20:05 +0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/steeleaf_tool_set": {
+    "criteria": {
+      "sword": "2021-11-14 23:07:07 +0300"
     },
     "done": true
   },
@@ -1300,9 +1766,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2021-11-14 18:42:55 +0300"
+    },
+    "done": true
+  },
   "tconstruct:tools/tinker_tool": {
     "criteria": {
       "crafted_tool": "2021-11-14 01:46:04 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_endshelf": {
+    "criteria": {
+      "blazing": "2021-11-14 20:40:00 +0300"
     },
     "done": true
   },
@@ -1321,6 +1805,18 @@
   "enigmaticlegacy:recipes/generic/hunter_guide": {
     "criteria": {
       "has_items": "2021-11-14 00:00:52 +0300"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_seashelf": {
+    "criteria": {
+      "crystal": "2021-11-14 20:39:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2021-11-14 20:21:33 +0300"
     },
     "done": true
   },
@@ -1350,11 +1846,30 @@
     },
     "done": false
   },
+  "botania:recipes/botania/spark_upgrade_isolated": {
+    "criteria": {
+      "has_alt_item": "2021-11-14 19:11:48 +0300"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/tools": {
+    "criteria": {
+      "2": "2021-11-14 20:17:51 +0300",
+      "3": "2021-11-14 20:17:51 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/knockback_belt": {
     "criteria": {
       "has_item": "2021-11-13 23:21:28 +0300"
     },
     "done": true
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "kill_naga": "2021-11-14 20:32:53 +0300"
+    },
+    "done": false
   },
   "ironchest:recipes/ironchest/upgrades/wood_to_copper_chest_upgrade": {
     "criteria": {

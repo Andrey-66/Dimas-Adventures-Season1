@@ -57,13 +57,99 @@
 			title: "С этими самоцветами явно что-то не то"
 			x: 2.0d
 			y: 0.0d
-			dependencies: ["0479D5E9411A2C0C"]
+			dependencies: [
+				"0479D5E9411A2C0C"
+				"45959E538A5AC827"
+			]
 			hide: true
 			id: "2E4E4BC9735DBC4C"
 			tasks: [{
 				id: "4A3FDA434E93C351"
 				type: "item"
 				item: "evilcraft:dark_power_gem"
+			}]
+		}
+		{
+			title: "Звезда во лбу горит"
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["318F51D656BC8C35"]
+			hide: true
+			id: "67F1D57F57C0F99A"
+			tasks: [{
+				id: "5BD1810E6623F449"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+			}]
+		}
+		{
+			title: "Никакой больше печи"
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["67F1D57F57C0F99A"]
+			hide: true
+			id: "6394F83C021DBA3F"
+			tasks: [{
+				id: "726727809338F4C3"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Почти медузы"
+			x: 4.0d
+			y: 1.5d
+			description: ["Вылей кровь из шприца на пол и подожди пока засохнет"]
+			dependencies: ["1EBF379529241463"]
+			id: "318F51D656BC8C35"
+			tasks: [{
+				id: "5DF4B6BE374F20C5"
+				type: "item"
+				item: "evilcraft:hardened_blood_shard"
+			}]
+			rewards: [{
+				id: "6F9F9E141F1EBB09"
+				type: "item"
+				item: "evilcraft:hardened_blood_shard"
+				count: 3
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Кровавая бойня"
+			x: 5.0d
+			y: 4.0d
+			description: ["Пришло время добывать кровь в промышенных маштабах! Шипы наносят урон ступающим на них мобам и производят кровь в резервуар под ними."]
+			dependencies: ["6394F83C021DBA3F"]
+			hide: true
+			id: "55386BD5134371F5"
+			tasks: [
+				{
+					id: "02205E66D60C0220"
+					type: "item"
+					item: "evilcraft:spiked_plate"
+				}
+				{
+					id: "655CBB67DCAF8D99"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							capacity: 16000
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5BB0B0F398769E6F"
+				type: "item"
+				item: "evilcraft:spiked_plate"
+				count: 2
 			}]
 		}
 	]
