@@ -1,0 +1,2 @@
+// Чары
+<recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("naga_spawn", <item:twilightforest:boss_spawner_naga>, <item:twilightforest:naga_trophy>, [<item:botania:green_petal>, <item:botania:green_petal>, <item:botania:green_petal>, <item:botania:rune_earth>, <item:evilcraft:dark_power_gem>, <item:evilcraft:dark_power_gem>]);

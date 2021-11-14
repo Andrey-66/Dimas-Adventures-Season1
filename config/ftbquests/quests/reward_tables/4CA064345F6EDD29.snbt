@@ -1,0 +1,13 @@
+{
+	id: "4CA064345F6EDD29"
+	order_index: 2
+	title: "Руды для печки"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:gold_ore", count: 4 }
+		{ item: "minecraft:iron_ore", count: 8 }
+		{ item: "create:copper_ore", count: 6 }
+		{ item: "mekanism:tin_ore", count: 6 }
+		{ item: "create:zinc_ore", count: 6 }
+	]
+}

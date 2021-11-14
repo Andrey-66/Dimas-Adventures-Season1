@@ -1,0 +1,70 @@
+{
+	id: "13A2F1CA4C6379A7"
+	group: "1E0A8915CBC35F34"
+	order_index: 2
+	filename: "evilcraft"
+	title: "Истоки зла"
+	icon: "evilcraft:dark_gem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Познания о зле"
+			icon: "evilcraft:dark_gem"
+			x: 0.0d
+			y: 0.0d
+			description: ["Накормите любое животное Тёмным яблоком, затем бросьте обычную книгу в открывшийся портал."]
+			dependencies: ["700430EB59A1AFA7"]
+			hide: true
+			id: "0479D5E9411A2C0C"
+			tasks: [
+				{
+					id: "344C1C7C3705CD73"
+					type: "item"
+					item: "evilcraft:darkened_apple"
+				}
+				{
+					id: "13D8464FC6CEB1FB"
+					type: "item"
+					item: "evilcraft:origins_of_darkness"
+				}
+			]
+			rewards: [{
+				id: "53B2B4B2D1FC1C36"
+				type: "item"
+				item: "evilcraft:dark_gem"
+				count: 3
+			}]
+		}
+		{
+			title: "Некромант наркомант"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["2E4E4BC9735DBC4C"]
+			hide: true
+			id: "1EBF379529241463"
+			tasks: [{
+				id: "3960E4571EDFC0E0"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_extractor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "С этими самоцветами явно что-то не то"
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["0479D5E9411A2C0C"]
+			hide: true
+			id: "2E4E4BC9735DBC4C"
+			tasks: [{
+				id: "4A3FDA434E93C351"
+				type: "item"
+				item: "evilcraft:dark_power_gem"
+			}]
+		}
+	]
+}
