@@ -1,6 +1,6 @@
-[06:38:11] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[06:38:11] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[06:38:11] [Render thread/INFO] [?] Version: JourneyMap 1.16.5-5.7.3, built with Forge 1.16.5-36.2.0
+[07:29:57] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[07:29:57] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[07:29:57] [Render thread/INFO] [?] Version: JourneyMap 1.16.5-5.7.3, built with Forge 1.16.5-36.2.0
 Forge: 36.2.9
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=ru_ru, locale=en_us
 Features: 
@@ -17,29 +17,43 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.3, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, showDeviationLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true, beaconEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.3, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=5.7.3, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.7.3, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[06:38:11] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.6-SNAPSHOT
-[06:38:11] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[06:38:11] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
-[06:38:11] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[06:38:11] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[06:38:11] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[06:38:11] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[06:38:11] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[06:38:11] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[06:38:11] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[06:38:11] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[06:38:11] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[06:38:11] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[06:38:11] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[06:38:12] [Render thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[06:38:12] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[06:38:13] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[06:38:13] [Render thread/DEBUG] [StatTimer] elapsed was slow: 1458.5141
-[06:38:13] [Render thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r§r1458.51§8ms§r
-[06:38:13] [JM-VersionCheck-1/WARN] [VersionCheck$1] No versions found online for 1.16.5
-[06:40:04] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[06:40:38] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[06:40:38] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\waypoints
-[06:40:38] [Render thread/INFO] [JourneymapClient] Mapping started in D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\overworld. Memory: 4256MB total, 1771MB free 
-[06:41:36] [Render thread/INFO] [ChatLog] 
-[07:21:14] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\git\Minecraft-Server\journeymap\data\mp\offline\minecraft:overworld
+[07:29:57] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.6-SNAPSHOT
+[07:29:57] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[07:29:57] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapAddon
+[07:29:57] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[07:29:57] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[07:29:58] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[07:29:58] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[07:29:58] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[07:29:58] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[07:29:58] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[07:29:58] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[07:29:58] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[07:29:58] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[07:29:58] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[07:29:58] [Render thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[07:29:58] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[07:29:58] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[07:29:59] [Render thread/DEBUG] [StatTimer] elapsed was slow: 1307.2791
+[07:29:59] [Render thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r§r1307.28§8ms§r
+[07:29:59] [JM-VersionCheck-1/WARN] [VersionCheck$1] No versions found online for 1.16.5
+[07:31:03] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[07:31:43] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[07:31:43] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\waypoints
+[07:31:43] [Render thread/INFO] [JourneymapClient] Mapping started in D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\overworld. Memory: 7232MB total, 4802MB free 
+[07:33:37] [Render thread/INFO] [ChatLog] 
+[07:40:56] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\minecraft:overworld
+[07:40:58] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\waypoints
+[07:40:58] [Render thread/INFO] [JourneymapClient] Mapping started in D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\twilightforest. Memory: 7232MB total, 1732MB free 
+[07:49:45] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\twilightforest:twilightforest
+[07:49:47] [Render thread/INFO] [WaypointStore] Loaded 2 waypoints from D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\waypoints
+[07:49:47] [Render thread/INFO] [JourneymapClient] Mapping started in D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\overworld. Memory: 7232MB total, 2407MB free 
+[08:21:56] [Server thread/INFO] [PropertiesBase] twilightforest:twilightforest (Initialized) Setting config file to version "5.7.3": journeymap.server.twilightforest:twilightforest.config
+[08:21:56] [Server thread/INFO] [PropertiesBase] twilightforest:twilightforest (Valid) Creating config file: D:\git\Minecraft-Server\journeymap\server\5.7\journeymap.server.twilightforest:twilightforest.config
+[08:21:56] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\minecraft:overworld
+[08:21:57] [Render thread/INFO] [WaypointStore] Loaded 2 waypoints from D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\waypoints
+[08:21:57] [Render thread/INFO] [JourneymapClient] Mapping started in D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\twilightforest. Memory: 7232MB total, 2608MB free 
+[08:22:09] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\twilightforest:twilightforest
+[08:22:10] [Render thread/INFO] [WaypointStore] Loaded 2 waypoints from D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\waypoints
+[08:22:10] [Render thread/INFO] [JourneymapClient] Mapping started in D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\D:\git\Minecraft-Server\journeymap\data\sp\new test ~1~\overworld. Memory: 7232MB total, 2980MB free 
+[09:10:39] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\git\Minecraft-Server\journeymap\data\mp\offline\minecraft:overworld

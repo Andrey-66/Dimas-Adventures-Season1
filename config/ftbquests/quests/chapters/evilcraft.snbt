@@ -38,9 +38,9 @@
 		}
 		{
 			title: "Некромант наркомант"
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
-			dependencies: ["0479D5E9411A2C0C"]
+			dependencies: ["2E4E4BC9735DBC4C"]
 			hide: true
 			id: "1EBF379529241463"
 			tasks: [{
@@ -51,6 +51,19 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			title: "С этими самоцветами явно что-то не то"
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["0479D5E9411A2C0C"]
+			hide: true
+			id: "2E4E4BC9735DBC4C"
+			tasks: [{
+				id: "4A3FDA434E93C351"
+				type: "item"
+				item: "evilcraft:dark_power_gem"
 			}]
 		}
 	]

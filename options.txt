@@ -124,6 +124,7 @@ key_ir_keys.bell:key.keyboard.keypad.subtract
 key_ir_keys.config:key.keyboard.keypad.divide
 key_key.toggleLiquids:key.keyboard.unknown
 key_key.toggleVisible:key.keyboard.unknown
+key_key.astralsorcery.disable_perk_abilities:key.keyboard.v
 key_key.mekanism.mode:key.keyboard.n
 key_key.mekanism.head_mode:key.keyboard.v
 key_key.mekanism.chest_mode:key.keyboard.g
@@ -140,7 +141,6 @@ key_key.evilcraft.fart:key.keyboard.p
 key_key.evilcraft.exaltedCrafting:key.keyboard.c
 key_key.evilcraft.fart:key.keyboard.p
 key_key.evilcraft.exaltedCrafting:key.keyboard.c
-key_key.astralsorcery.disable_perk_abilities:key.keyboard.v
 key_key.drawMahoujin:key.keyboard.m
 key_key.changeMysticCode:key.keyboard.y
 key_key.settingsGUI:key.keyboard.period
@@ -151,12 +151,12 @@ key_key.enderRing:key.keyboard.i
 key_key.spellstoneAbility:key.keyboard.k
 key_key.xpScroll:key.keyboard.j
 key_key.ftbquests.quests:key.keyboard.unknown
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.ars_nouveau.open_book:key.keyboard.c
 key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
 key_key.ars_nouveau.next_slot:key.keyboard.x
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.occultism.backpack:key.keyboard.b
 key_key.occultism.storage_remote:key.keyboard.n
 key_key.occultism.familiar.greedy_familiar:key.keyboard.unknown

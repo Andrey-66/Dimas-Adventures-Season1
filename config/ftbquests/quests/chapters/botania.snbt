@@ -521,6 +521,7 @@
 			dependencies: [
 				"7E0B532BC362CF01"
 				"0A041851710115FD"
+				"61DC1551879F3303"
 			]
 			hide: true
 			id: "7B6EE16F9C17FDB3"
@@ -1412,6 +1413,171 @@
 				}
 				{
 					id: "3B70953CE1D5B1C2"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Цветок, созданный для Ромео"
+			x: -0.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"700430EB59A1AFA7"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "0FF6E93B0EDF3346"
+			tasks: [{
+				id: "2536486D17CEC01C"
+				type: "item"
+				item: "botania:hyacidus"
+			}]
+			rewards: [
+				{
+					id: "7BA065809F6402C0"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "26B4E41D0D960A88"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Глиномес"
+			x: 0.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"700430EB59A1AFA7"
+			]
+			hide: true
+			id: "0B62307C28E70F47"
+			tasks: [{
+				id: "390FBD9EC3CEA546"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+			rewards: [
+				{
+					id: "23FEC1580CECF9B0"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "55FFF1F5A34EB19A"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Любимый цветок Долорес"
+			x: -1.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"700430EB59A1AFA7"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "7AFFC09CF1343336"
+			tasks: [{
+				id: "11FCAA3CE24DE484"
+				type: "item"
+				item: "botania:jiyuulia"
+			}]
+			rewards: [
+				{
+					id: "3763521EB3CEFC49"
+					type: "item"
+					item: "minecraft:pink_bed"
+				}
+				{
+					id: "0F8415752D286C41"
+					type: "item"
+					item: "minecraft:pink_wool"
+					count: 10
+				}
+				{
+					id: "1134E412FCCCE424"
+					type: "item"
+					item: "iceandfire:pixie_jar_0"
+				}
+				{
+					id: "3BF7097424860A15"
+					type: "item"
+					item: "botania:pink_double_flower"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Букет из одного цветка"
+			x: -0.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"700430EB59A1AFA7"
+			]
+			hide: true
+			id: "440B8C101317B4CA"
+			tasks: [{
+				id: "09ABE356279DA0D2"
+				type: "item"
+				item: "botania:jaded_amaranthus"
+			}]
+			rewards: [
+				{
+					id: "4CBDDE4CBA748BD2"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "507293DE61DD3A31"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Да будет разнообразие"
+			x: 0.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"700430EB59A1AFA7"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "639624311DE6FEF0"
+			tasks: [{
+				id: "615FBF8F95EFA13C"
+				type: "item"
+				item: "botania:marimorphosis"
+			}]
+			rewards: [
+				{
+					id: "3215FB0B6B67F2BC"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "3F03C2257B2379BF"
 					type: "item"
 					item: "botania:fertilizer"
 					count: 5
