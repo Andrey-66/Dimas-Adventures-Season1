@@ -25,10 +25,17 @@
         "ars_nouveau:spells/ignite",
         "ars_nouveau:spells/aquatic",
         "ars_nouveau:rituals/sunrise",
-        "ars_nouveau:enchantments/looting"
+        "ars_nouveau:enchantments/looting",
+        "ars_nouveau:spells/sensitive",
+        "ars_nouveau:spells/toss",
+        "ars_nouveau:spells/bounce"
       ],
       "bookmarks": [],
       "history": [
+        "ars_nouveau:spells/bounce",
+        "ars_nouveau:spells/toss",
+        "ars_nouveau:spells/sensitive",
+        "ars_nouveau:spells/ignite",
         "ars_nouveau:enchantments/flame",
         "ars_nouveau:machines/enchanting_apparatus",
         "ars_nouveau:enchantments/aaa_moreinfo",
@@ -37,11 +44,7 @@
         "ars_nouveau:rituals/sunrise",
         "ars_nouveau:spells/craft",
         "ars_nouveau:spells/aquatic",
-        "ars_nouveau:spells/heal",
-        "ars_nouveau:spells/ignite",
-        "ars_nouveau:getting_started/learning_spells",
-        "ars_nouveau:machines/glyph_press",
-        "ars_nouveau:getting_started/upgrade"
+        "ars_nouveau:spells/heal"
       ],
       "completedManualQuests": []
     },
@@ -173,23 +176,32 @@
         "botania:misc/dispenser_tweaks",
         "botania:devices/mana_enchanting",
         "botania:tools/manaweave",
-        "botania:tools/temperance_stone"
+        "botania:tools/temperance_stone",
+        "botania:ender/corporea_crystal_cube",
+        "botania:tools/divining_rod",
+        "botania:tools/smelt_rod",
+        "botania:tools/dirt_rod",
+        "botania:tools/water_rod",
+        "botania:tools/tornado_rod",
+        "botania:tools/exchange_rod",
+        "botania:tools/cobble_rod",
+        "botania:tools/terraform_rod"
       ],
       "bookmarks": [],
       "history": [
-        "botania:tools/temperance_stone",
-        "botania:tools/manaweave",
-        "botania:tools/spell_cloth",
-        "botania:devices/mana_enchanting",
-        "botania:misc/dispenser_tweaks",
-        "botania:misc/preventing_decay",
-        "botania:tools/slime_bottle",
-        "botania:tools/mana_blaster",
-        "botania:tools/terra_pick",
-        "botania:tools/fire_chakram",
-        "botania:tools/grass_horn",
-        "botania:tools/thorn_chakram",
-        "botania:tools/autocrafting_halo"
+        "botania:tools/terraform_rod",
+        "botania:tools/cobble_rod",
+        "botania:tools/exchange_rod",
+        "botania:tools/tornado_rod",
+        "botania:tools/water_rod",
+        "botania:tools/dirt_rod",
+        "botania:tools/smelt_rod",
+        "botania:tools/divining_rod",
+        "botania:basics/terrasteel",
+        "botania:ender/corporea_crystal_cube",
+        "botania:generating_flowers/shulk_me_not",
+        "botania:baubles/super_travel_belt",
+        "botania:baubles/lava_pendant"
       ],
       "completedManualQuests": []
     },

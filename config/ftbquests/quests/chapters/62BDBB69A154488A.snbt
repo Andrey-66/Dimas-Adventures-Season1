@@ -11,9 +11,9 @@
 		{
 			title: "Крафт"
 			icon: "ars_nouveau:glyph_craft"
-			x: -5.0d
-			y: -2.5d
-			dependencies: ["3CC1A26B25347326"]
+			x: -10.0d
+			y: -2.0d
+			dependencies: ["03F47266661B2F65"]
 			hide_text_until_complete: true
 			id: "79B20D45560C271A"
 			tasks: [{
@@ -102,6 +102,25 @@
 				type: "item"
 				item: "ars_nouveau:mana_gem"
 				count: 3
+			}]
+		}
+		{
+			title: "Первый урок"
+			x: -10.0d
+			y: 0.0d
+			dependencies: ["3488D6844894CDE0"]
+			id: "4E137710B6B5DD82"
+			tasks: [{
+				id: "594613B384DE0E2B"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
 			}]
 		}
 	]

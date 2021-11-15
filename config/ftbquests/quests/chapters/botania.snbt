@@ -2441,13 +2441,22 @@
 				type: "item"
 				item: "botania:crafting_halo"
 			}]
-			rewards: [{
-				id: "464A2804EF1952C9"
-				type: "item"
-				item: "botania:manasteel_nugget"
-				count: 10
-				random_bonus: 30
-			}]
+			rewards: [
+				{
+					id: "464A2804EF1952C9"
+					type: "item"
+					item: "botania:manasteel_nugget"
+					count: 10
+					random_bonus: 30
+				}
+				{
+					id: "683BA37EFDC92924"
+					type: "gamestage"
+					title: "Глифа крафта"
+					auto: "invisible"
+					stage: "ars_1_crafting"
+				}
+			]
 		}
 		{
 			title: "Магический автокрафт"
@@ -2705,6 +2714,186 @@
 					count: 64
 				}
 			]
+		}
+		{
+			title: "В некоторые вещи нужно просто всмотреться"
+			x: 5.5d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["5FD2D8D504E20DAA"]
+			hide: true
+			id: "71DAE25E07157503"
+			tasks: [{
+				id: "40DBB257A1018EA7"
+				type: "item"
+				item: "botania:divining_rod"
+			}]
+			rewards: [{
+				id: "184F73681E099BD7"
+				type: "choice"
+				table_id: 5521523319258406185L
+			}]
+		}
+		{
+			title: "Печка на палочке"
+			x: 4.5d
+			y: -8.0d
+			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["5FD2D8D504E20DAA"]
+			hide: true
+			id: "6EEB8A231FFAC1B5"
+			tasks: [{
+				id: "0E600124EBFF59A4"
+				type: "item"
+				item: "botania:smelt_rod"
+			}]
+			rewards: [
+				{
+					id: "76521C6BFBB4AFCA"
+					type: "choice"
+					table_id: 5521523319258406185L
+				}
+				{
+					id: "59BF5F8C40582B6D"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Делаем грязь"
+			x: 5.5d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["5FD2D8D504E20DAA"]
+			hide: true
+			id: "1F69EC3D28B64353"
+			tasks: [{
+				id: "15B16F701A26DC98"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+			rewards: [{
+				id: "3AB27C5281709842"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 64
+			}]
+		}
+		{
+			title: "Тут кто-то лужу оставил"
+			x: 6.5d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["5FD2D8D504E20DAA"]
+			hide: true
+			id: "5F34FC344489D7F0"
+			tasks: [{
+				id: "123D7A73758EFC61"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "0D64394DBECDFD76"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			title: "Вверх!"
+			x: 4.5d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["5FD2D8D504E20DAA"]
+			hide: true
+			id: "7496E684ECA080BD"
+			tasks: [{
+				id: "0C41E481D8DA7714"
+				type: "item"
+				item: {
+					id: "botania:tornado_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3AD65B560EB0937D"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_slow_falling"
+					}
+				}
+			}]
+		}
+		{
+			title: "Наболдажник: Равноценный обмен"
+			x: 5.5d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["5FD2D8D504E20DAA"]
+			hide: true
+			id: "448D76339B94AAE1"
+			tasks: [{
+				id: "612146CA04A2E70A"
+				type: "item"
+				item: {
+					id: "botania:exchange_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0075F1915F908CC1"
+				type: "item"
+				item: "minecraft:sand"
+				count: 64
+			}]
+		}
+		{
+			title: "Генератор булыжника"
+			x: 6.5d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["5FD2D8D504E20DAA"]
+			hide: true
+			id: "26EF2243472387F7"
+			tasks: [{
+				id: "24411F480C4B96D6"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [{
+				id: "6EC5D3ECAFD3E8B2"
+				type: "choice"
+				table_id: 5521523319258406185L
+			}]
+		}
+		{
+			title: "Кто сказал, что это горы?"
+			x: 4.5d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"5FD2D8D504E20DAA"
+				"7B6EE16F9C17FDB3"
+			]
+			hide: true
+			id: "6C042396BFBB3635"
+			tasks: [{
+				id: "7CBF99B77BABBBD9"
+				type: "item"
+				item: "botania:terraform_rod"
+			}]
+			rewards: [{
+				id: "67734ABB12486BD1"
+				type: "item"
+				item: "minecraft:tnt"
+			}]
 		}
 	]
 }
