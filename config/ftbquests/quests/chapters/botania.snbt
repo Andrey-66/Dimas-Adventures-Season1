@@ -2128,15 +2128,25 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "01CBBF32A59B32A9"
-				type: "item"
-				item: {
-					id: "botania:mana_bottle"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "01CBBF32A59B32A9"
+					type: "item"
+					item: {
+						id: "botania:mana_bottle"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "33C471A526F48FDB"
+					type: "gamestage"
+					title: "Водныя стихия"
+					team_reward: false
+					auto: "invisible"
+					stage: "ars_1_aqua"
+				}
+			]
 		}
 		{
 			title: "Уто-то превратил сапоги путешественника в ремень"
@@ -2453,6 +2463,7 @@
 					id: "683BA37EFDC92924"
 					type: "gamestage"
 					title: "Глифа крафта"
+					team_reward: false
 					auto: "invisible"
 					stage: "ars_1_crafting"
 				}

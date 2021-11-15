@@ -221,6 +221,14 @@
 				type: "item"
 				item: "apotheosis:prismatic_altar"
 			}]
+			rewards: [{
+				id: "2291E1685142ED9C"
+				type: "gamestage"
+				title: "Улучшения"
+				team_reward: false
+				auto: "invisible"
+				stage: "ars_1_upgrate_spell"
+			}]
 		}
 	]
 }

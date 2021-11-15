@@ -28,10 +28,13 @@
         "ars_nouveau:enchantments/looting",
         "ars_nouveau:spells/sensitive",
         "ars_nouveau:spells/toss",
-        "ars_nouveau:spells/bounce"
+        "ars_nouveau:spells/bounce",
+        "ars_nouveau:spells/amplify"
       ],
       "bookmarks": [],
       "history": [
+        "ars_nouveau:spells/aquatic",
+        "ars_nouveau:spells/amplify",
         "ars_nouveau:spells/bounce",
         "ars_nouveau:spells/toss",
         "ars_nouveau:spells/sensitive",
@@ -42,9 +45,7 @@
         "ars_nouveau:enchantments/looting",
         "ars_nouveau:rituals/ritual_howto",
         "ars_nouveau:rituals/sunrise",
-        "ars_nouveau:spells/craft",
-        "ars_nouveau:spells/aquatic",
-        "ars_nouveau:spells/heal"
+        "ars_nouveau:spells/craft"
       ],
       "completedManualQuests": []
     },
