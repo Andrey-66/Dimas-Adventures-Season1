@@ -190,6 +190,8 @@
       ],
       "bookmarks": [],
       "history": [
+        "botania:basics/terrasteel",
+        "botania:functional_flowers/jiyuulia",
         "botania:tools/terraform_rod",
         "botania:tools/cobble_rod",
         "botania:tools/exchange_rod",
@@ -198,11 +200,9 @@
         "botania:tools/dirt_rod",
         "botania:tools/smelt_rod",
         "botania:tools/divining_rod",
-        "botania:basics/terrasteel",
         "botania:ender/corporea_crystal_cube",
         "botania:generating_flowers/shulk_me_not",
-        "botania:baubles/super_travel_belt",
-        "botania:baubles/lava_pendant"
+        "botania:baubles/super_travel_belt"
       ],
       "completedManualQuests": []
     },
