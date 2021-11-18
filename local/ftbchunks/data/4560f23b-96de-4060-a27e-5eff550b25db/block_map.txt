@@ -152,6 +152,7 @@
 #C70547 tconstruct:seared_melter
 #F68259 minecraft:shroomlight
 #02C348 byg:silver_maple_leaves
+#3D48F8 simpleshops:simple_shop
 #615192 tconstruct:sky_congealed_slime
 #DA66C0 tconstruct:sky_sky_slime_grass
 #DB2DF2 tconstruct:sky_slime_fluid

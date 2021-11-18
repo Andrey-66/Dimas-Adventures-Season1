@@ -7,5 +7,5 @@
 	#     This option exists to force users to go underground in order to get to the Nether (or other dimension, if configured).
 	# Default: 15
 	#Range: 1 ~ 255
-	"Max Dimensional Plasma Placement Altitude" = 15
+	"Max Dimensional Plasma Placement Altitude" = 40
 
