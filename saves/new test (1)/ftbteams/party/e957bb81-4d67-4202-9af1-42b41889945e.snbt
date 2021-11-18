@@ -9,8 +9,11 @@
 	properties: {
 		"ftbteams:display_name": "test"
 		"ftbteams:color": "#5C59FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
 		"ftbteams:description": "111"
 		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
 	}
 	message_history: [
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1636834385962L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"Niketats\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }

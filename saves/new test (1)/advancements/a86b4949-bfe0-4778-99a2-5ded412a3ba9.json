@@ -96,12 +96,6 @@
     },
     "done": true
   },
-  "astralsorcery:root": {
-    "criteria": {
-      "astralsorcery_present": "2021-11-12 05:42:49 +0300"
-    },
-    "done": true
-  },
   "create:recipes/create.base/crafting/materials/sand_paper": {
     "criteria": {
       "has_item": "2021-11-14 21:35:12 +0300"
@@ -717,6 +711,12 @@
   "botania:recipes/botania/spectral_platform": {
     "criteria": {
       "has_item": "2021-11-14 05:20:11 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2021-11-18 19:38:54 +0300"
     },
     "done": true
   },

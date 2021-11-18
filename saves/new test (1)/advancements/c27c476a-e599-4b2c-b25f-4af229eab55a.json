@@ -107,12 +107,6 @@
     },
     "done": true
   },
-  "astralsorcery:root": {
-    "criteria": {
-      "astralsorcery_present": "2021-11-13 23:11:58 +0300"
-    },
-    "done": true
-  },
   "botania:recipes/botania/spark_upgrade_dominant": {
     "criteria": {
       "has_alt_item": "2021-11-14 19:11:48 +0300"
@@ -244,6 +238,12 @@
   "enigmaticlegacy:book/misc/animal_guide": {
     "criteria": {
       "has_the_recipe": "2021-11-14 23:07:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_boots": "2021-11-15 22:22:48 +0300"
     },
     "done": true
   },
