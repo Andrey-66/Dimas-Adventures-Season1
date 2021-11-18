@@ -24,6 +24,7 @@
 #568617 byg:brown_mushroom_stem
 #45A5AF iceandfire:chared_dirt
 #929C0A iceandfire:chared_grass
+#87E47E appliedenergistics2:charged_quartz_ore
 #F522F4 minecraft:chest
 #2117A2 minecraft:chiseled_nether_bricks
 #67D8FE minecraft:chiseled_polished_blackstone
@@ -109,6 +110,7 @@
 #374FD3 minecraft:oak_slab
 #72BC63 minecraft:oak_stairs
 #4A5E4E minecraft:obsidian
+#B29458 mekanism:osmium_ore
 #BE2B3C byg:overgrown_dacite
 #62CFF8 byg:peat
 #AB1C58 minecraft:peony
@@ -142,8 +144,11 @@
 #B63FD4 minecraft:red_nether_brick_stairs
 #430A40 byg:red_oak_leaves
 #D83486 minecraft:red_wall_banner
+#EC112A byg:rocky_stone
+#9C3ECB minecraft:rose_bush
 #5DF8F4 botania:runic_altar
 #86FC77 minecraft:sand
+#FD7AC1 byg:scoria_stone
 #705189 minecraft:sea_lantern
 #B74BCC tconstruct:seared_bricks
 #3EE7D8 tconstruct:seared_drain
@@ -179,6 +184,7 @@
 #C7A814 byg:weeping_milkcap_mushroom_block
 #362BCA byg:white_mushroom_stem
 #3ADE51 byg:willow_leaves
+#A715CF byg:willow_log
 #D08D69 biomesoplenty:willow_vine
 #A08E3B byg:witch_hazel_leaves
 #AF7E25 byg:witch_hazel_log
