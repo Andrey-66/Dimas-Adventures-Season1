@@ -7,23 +7,182 @@
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -4.5d
-		y: -2.0d
-		hide_text_until_complete: true
-		id: "675700CCC155A74B"
-		tasks: [{
-			id: "1DC235818775B690"
-			type: "stat"
-			title: "Упс :("
-			icon: "iceandfire:troll_skull"
-			stat: "minecraft:deaths"
-			value: 1
-		}]
-		rewards: [{
-			id: "7E94FCCD7C7EF5AF"
-			type: "item"
-			item: "minecraft:golden_apple"
-		}]
-	}]
+	quests: [
+		{
+			x: -4.5d
+			y: -2.0d
+			hide_text_until_complete: true
+			id: "675700CCC155A74B"
+			tasks: [{
+				id: "1DC235818775B690"
+				type: "stat"
+				title: "Упс :("
+				icon: "iceandfire:troll_skull"
+				stat: "minecraft:deaths"
+				value: 1
+			}]
+			rewards: [{
+				id: "7E94FCCD7C7EF5AF"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			hide_text_until_complete: true
+			id: "535BC316060BE0E6"
+			tasks: [{
+				id: "2280AE2A0E8AB315"
+				type: "stat"
+				title: "Попрыгунья стрекоза"
+				stat: "minecraft:jump"
+				value: 1000
+			}]
+			rewards: [{
+				id: "056F38377C6B2DC8"
+				type: "item"
+				team_reward: false
+				item: "minecraft:slime_ball"
+			}]
+		}
+		{
+			title: "Полумарафон"
+			x: 0.5d
+			y: -2.0d
+			id: "292F86ABDBAD6CF3"
+			tasks: [{
+				id: "7B83E057A62131E5"
+				type: "stat"
+				stat: "minecraft:sprint_one_cm"
+				value: 30000
+			}]
+			rewards: [{
+				id: "73FA9A242FCFBAB6"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 10
+			}]
+		}
+		{
+			title: "Марафон"
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["292F86ABDBAD6CF3"]
+			hide: true
+			id: "0A0AB78C131A022F"
+			tasks: [{
+				id: "632633580DCBFD85"
+				type: "stat"
+				stat: "minecraft:sprint_one_cm"
+				value: 60000
+			}]
+			rewards: [{
+				id: "2F2D9020E7FE37CB"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 5
+			}]
+		}
+		{
+			title: "Вокруг Эльбруса"
+			x: 0.5d
+			y: 0.0d
+			description: [""]
+			dependencies: ["0A0AB78C131A022F"]
+			hide: true
+			id: "55347D3DFB16299C"
+			tasks: [{
+				id: "32EC2D2E2B223DAC"
+				type: "stat"
+				stat: "minecraft:sprint_one_cm"
+				value: 85714
+			}]
+			rewards: [{
+				id: "4C1C257DFD533747"
+				type: "item"
+				item: "calemiutils:coin_silver"
+				count: 3
+			}]
+		}
+		{
+			title: "Ломоносов вами доволен"
+			x: 0.5d
+			y: 2.0d
+			dependencies: ["59D8D443E41FA93A"]
+			hide: true
+			id: "30BF0DB1996163FA"
+			tasks: [{
+				id: "7334E72C0BDCDB59"
+				type: "stat"
+				stat: "minecraft:sprint_one_cm"
+				value: 1668571
+			}]
+			rewards: [{
+				id: "721CAFD64440B37A"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 3
+			}]
+		}
+		{
+			title: "Открываем Россию"
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["30BF0DB1996163FA"]
+			hide: true
+			id: "6BC3BC6ECB16AB21"
+			tasks: [{
+				id: "6560F12D0B25303C"
+				type: "stat"
+				stat: "minecraft:sprint_one_cm"
+				value: 10512857
+			}]
+			rewards: [{
+				id: "3DB3E13B7F7584E6"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 10
+			}]
+		}
+		{
+			title: "Путь Димаса"
+			x: 0.5d
+			y: 1.0d
+			subtitle: "От Барановичей до Петербурга"
+			dependencies: ["55347D3DFB16299C"]
+			hide: true
+			id: "59D8D443E41FA93A"
+			tasks: [{
+				id: "0CED62E25F7897AB"
+				type: "stat"
+				stat: "minecraft:sprint_one_cm"
+				value: 1000000
+			}]
+			rewards: [{
+				id: "77BE7C8865033D75"
+				type: "item"
+				item: "calemiutils:coin_gold"
+			}]
+		}
+		{
+			title: "Куда столько прыгать?"
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["535BC316060BE0E6"]
+			hide: true
+			id: "3AF93BA6F47919D7"
+			tasks: [{
+				id: "5D02FF135ACCE0A4"
+				type: "stat"
+				stat: "minecraft:jump"
+				value: 100000
+			}]
+			rewards: [{
+				id: "6915BDAEA6B5936F"
+				type: "item"
+				item: "minecraft:slime_block"
+			}]
+		}
+	]
 }

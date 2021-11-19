@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2021-11-12 07:40:26 +0300"
@@ -371,6 +377,12 @@
   "botania:recipes/botania/cosmetic_engineer_goggles": {
     "criteria": {
       "has_item": "2021-11-14 20:27:29 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
     },
     "done": true
   },
@@ -717,6 +729,12 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2021-11-18 19:38:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
     },
     "done": true
   },
@@ -1618,6 +1636,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/hellbark_boat": {
     "criteria": {
       "in_water": "2021-11-12 07:38:05 +0300"
@@ -1685,6 +1709,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2021-11-12 07:40:26 +0300"
@@ -1724,6 +1766,12 @@
   "botania:main/bauble_wear": {
     "criteria": {
       "code_triggered": "2021-11-12 07:01:07 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
     },
     "done": true
   },
@@ -1962,6 +2010,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2021-11-14 01:22:50 +0300"
@@ -2018,6 +2072,12 @@
   "tconstruct:recipes/tconstruct/general/common/materials/netherite_nugget_from_ingot": {
     "criteria": {
       "has_item": "2021-11-14 20:28:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
     },
     "done": true
   },
@@ -2460,6 +2520,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/magic_boat": {
     "criteria": {
       "in_water": "2021-11-12 07:38:05 +0300"
@@ -2682,9 +2748,21 @@
     },
     "done": true
   },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2021-11-19 02:39:40 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2021-11-12 07:40:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
     },
     "done": true
   },
@@ -2808,6 +2886,12 @@
     },
     "done": true
   },
+  "botania:recipes/botania/red_string_container": {
+    "criteria": {
+      "has_base_block": "2021-11-19 02:48:02 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/general/common/glass/light_blue_clear_stained_glass": {
     "criteria": {
       "has_clear_glass": "2021-11-14 04:10:33 +0300"
@@ -2889,6 +2973,12 @@
   "botania:recipes/botania/lexicon": {
     "criteria": {
       "has_item": "2021-11-12 06:05:23 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
     },
     "done": true
   },
@@ -3443,6 +3533,12 @@
       "tear": "2021-11-14 20:18:19 +0300"
     },
     "done": false
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2021-11-19 02:39:40 +0300"
+    },
+    "done": true
   },
   "apotheosis:spawner/capturing": {
     "criteria": {

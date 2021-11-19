@@ -185,6 +185,7 @@
 			title: "Ванильная печка! Ты серьёзно!? "
 			x: 0.0d
 			y: 4.0d
+			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "3193D7F3317DCC14"
 			tasks: [{

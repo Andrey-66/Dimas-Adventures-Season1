@@ -19,14 +19,14 @@ bobView:true
 toggleCrouch:false
 toggleSprint:false
 mouseSensitivity:0.5
-fov:0.25
+fov:1.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.0
-renderDistance:12
+renderDistance:4
 entityDistanceScaling:1.0
 guiScale:3
-particles:0
+particles:1
 maxFps:120
 difficulty:2
 graphicsMode:1
@@ -143,6 +143,8 @@ key_key.mekanism.description:key.keyboard.n:SHIFT
 key_key.mekanism.module_tweaker:key.keyboard.backslash
 key_key.mekanism.key_boost:key.keyboard.left.control
 key_key.mekanism.key_hud:key.keyboard.h
+key_Open Wallet:key.keyboard.g
+key_Toggle Torch Belt:key.keyboard.h
 key_key.drawMahoujin:key.keyboard.m
 key_key.changeMysticCode:key.keyboard.y
 key_key.settingsGUI:key.keyboard.period
@@ -155,18 +157,18 @@ key_key.voice_chat:key.keyboard.v
 key_key.voice_chat_settings:key.keyboard.unknown
 key_key.voice_chat_group:key.keyboard.g
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
-key_key.curios.open.desc:key.keyboard.g
 key_key.botania_corporea_request:key.keyboard.c
+key_key.curios.open.desc:key.keyboard.g
 key_key.enderRing:key.keyboard.i
 key_key.spellstoneAbility:key.keyboard.k
 key_key.xpScroll:key.keyboard.j
 key_key.ftbquests.quests:key.keyboard.unknown
+key_create.keyinfo.toolmenu:key.keyboard.left.alt
+key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.ars_nouveau.open_book:key.keyboard.c
 key_key.ars_nouveau.selection_hud:key.keyboard.v
 key_key.ars_nouveau.previous_slot:key.keyboard.z
 key_key.ars_nouveau.next_slot:key.keyboard.x
-key_create.keyinfo.toolmenu:key.keyboard.left.alt
-key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.occultism.backpack:key.keyboard.b
 key_key.occultism.storage_remote:key.keyboard.n
 key_key.occultism.familiar.greedy_familiar:key.keyboard.unknown

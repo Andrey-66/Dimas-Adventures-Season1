@@ -14,18 +14,18 @@
 			x: -10.0d
 			y: -2.0d
 			dependencies: ["03F47266661B2F65"]
+			hide: true
 			hide_text_until_complete: true
 			id: "79B20D45560C271A"
 			tasks: [{
 				id: "70AC0F5700F17303"
 				type: "item"
-				item: "ars_nouveau:blank_glyph"
-				consume_items: true
+				item: "ars_nouveau:glyph_craft"
 			}]
 			rewards: [{
-				id: "03C1AD32E66A15CF"
+				id: "2F610FB23F18FAD6"
 				type: "item"
-				item: "ars_nouveau:glyph_craft"
+				item: "create:mechanical_crafter"
 			}]
 		}
 		{

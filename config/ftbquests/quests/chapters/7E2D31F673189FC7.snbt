@@ -1,0 +1,96 @@
+{
+	id: "7E2D31F673189FC7"
+	group: ""
+	order_index: 1
+	filename: "7E2D31F673189FC7"
+	title: "Магазин"
+	icon: "calemiutils:coin_gold"
+	disable_toast: true
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			title: "[SELL] Брёвна"
+			icon: "minecraft:oak_log"
+			disable_toast: true
+			x: -2.5d
+			y: 0.5d
+			shape: "rsquare"
+			optional: true
+			id: "21863C6CE4EB3788"
+			tasks: [{
+				id: "3EFC5713C1B544FE"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "020D8FAC8A281959"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: "calemiutils:coin_silver"
+					count: 3
+				}
+				{
+					id: "4197BDB89B213DA7"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p reset 21863C6CE4EB3788"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Брёвна"
+			icon: "minecraft:oak_log"
+			disable_toast: true
+			x: 0.0d
+			y: 0.5d
+			optional: true
+			id: "1C419EDE48F79D02"
+			tasks: [{
+				id: "47BBDD62D3464562"
+				type: "item"
+				disable_toast: true
+				item: "calemiutils:coin_silver"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2F0A97678BD0A952"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 32
+				}
+				{
+					id: "27680198079723E0"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p complete 1C419EDE48F79D02"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			id: "6C86878085F12644"
+			tasks: [{
+				id: "546C5AD5991ACD03"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+	]
+}

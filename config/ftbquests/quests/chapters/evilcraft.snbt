@@ -86,7 +86,10 @@
 			title: "Никакой больше печи"
 			x: 4.0d
 			y: 4.0d
-			dependencies: ["67F1D57F57C0F99A"]
+			dependencies: [
+				"67F1D57F57C0F99A"
+				"1598EDFE82399901"
+			]
 			hide: true
 			id: "6394F83C021DBA3F"
 			tasks: [{
