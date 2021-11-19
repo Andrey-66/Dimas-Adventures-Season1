@@ -10,8 +10,8 @@
 	quests: [
 		{
 			title: "Простой фарм"
-			x: 1.0d
-			y: -2.0d
+			x: 2.5d
+			y: 0.0d
 			description: ["Делать ферму проще с рассадником, его можно добыть киркой с шёлковым касанием."]
 			id: "54815C7F956842CD"
 			tasks: [{
@@ -30,6 +30,11 @@
 				type: "item"
 				item: "minecraft:enchanting_table"
 			}]
+			rewards: [{
+				id: "3FF19A46D66E39D3"
+				type: "xp"
+				xp: 50
+			}]
 		}
 		{
 			title: "Чарим круче"
@@ -46,7 +51,7 @@
 			rewards: [{
 				id: "41982D3165D853E7"
 				type: "xp"
-				xp: 500
+				xp: 100
 			}]
 		}
 		{
@@ -61,6 +66,11 @@
 				type: "item"
 				item: "apotheosis:hellshelf"
 			}]
+			rewards: [{
+				id: "44BF38D0C9E899B6"
+				type: "xp"
+				xp: 300
+			}]
 		}
 		{
 			x: -5.0d
@@ -73,6 +83,11 @@
 				id: "4527BF096E4C54AA"
 				type: "item"
 				item: "apotheosis:glowing_hellshelf"
+			}]
+			rewards: [{
+				id: "2DEE9922A8D75C3B"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -87,6 +102,11 @@
 				type: "item"
 				item: "apotheosis:blazing_hellshelf"
 			}]
+			rewards: [{
+				id: "5BB7610E0869D306"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: -4.0d
@@ -99,6 +119,11 @@
 				id: "71BFDB6E1FCF899B"
 				type: "item"
 				item: "apotheosis:seashelf"
+			}]
+			rewards: [{
+				id: "6101AE6228ADFDE0"
+				type: "xp"
+				xp: 300
 			}]
 		}
 		{
@@ -113,6 +138,11 @@
 				type: "item"
 				item: "apotheosis:crystal_seashelf"
 			}]
+			rewards: [{
+				id: "67402139806A0A17"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -4.0d
@@ -125,6 +155,11 @@
 				id: "4C1D4E8208B2A729"
 				type: "item"
 				item: "apotheosis:endshelf"
+			}]
+			rewards: [{
+				id: "775C150A86F4311F"
+				type: "xp"
+				xp: 300
 			}]
 		}
 		{
@@ -139,6 +174,11 @@
 				type: "item"
 				item: "apotheosis:draconic_endshelf"
 			}]
+			rewards: [{
+				id: "15402B8FE4B5FE6A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -6.0d
@@ -151,6 +191,11 @@
 				id: "59AC49EC0C48DB17"
 				type: "item"
 				item: "apotheosis:pearl_endshelf"
+			}]
+			rewards: [{
+				id: "27936AF5CEAEFD4E"
+				type: "xp_levels"
+				xp_levels: 10
 			}]
 		}
 		{
@@ -165,6 +210,11 @@
 				type: "item"
 				item: "apotheosis:heart_seashelf"
 			}]
+			rewards: [{
+				id: "18B81F7BA9E273C4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
 			x: -3.0d
@@ -178,6 +228,11 @@
 				type: "item"
 				item: "apotheosis:beeshelf"
 			}]
+			rewards: [{
+				id: "63BF76210EF95A6B"
+				type: "xp"
+				xp: 300
+			}]
 		}
 		{
 			x: -3.0d
@@ -190,6 +245,11 @@
 				id: "3E1D4F0BB308D503"
 				type: "item"
 				item: "apotheosis:melonshelf"
+			}]
+			rewards: [{
+				id: "7A631D022D4F26D6"
+				type: "xp"
+				xp: 300
 			}]
 		}
 		{
@@ -208,6 +268,11 @@
 				type: "item"
 				item: "apotheosis:enchantment_library"
 			}]
+			rewards: [{
+				id: "3398AEA2AEAFDD52"
+				type: "choice"
+				table_id: 6053417601273439989L
+			}]
 		}
 		{
 			title: "Переработка чар?"
@@ -221,14 +286,21 @@
 				type: "item"
 				item: "apotheosis:prismatic_altar"
 			}]
-			rewards: [{
-				id: "2291E1685142ED9C"
-				type: "gamestage"
-				title: "Улучшения"
-				team_reward: false
-				auto: "invisible"
-				stage: "ars_1_upgrate_spell"
-			}]
+			rewards: [
+				{
+					id: "2291E1685142ED9C"
+					type: "gamestage"
+					title: "Улучшения"
+					team_reward: false
+					auto: "invisible"
+					stage: "ars_1_upgrate_spell"
+				}
+				{
+					id: "62A3C8FF88D0E75E"
+					type: "choice"
+					table_id: 6053417601273439989L
+				}
+			]
 		}
 	]
 }

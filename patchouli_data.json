@@ -186,10 +186,17 @@
         "botania:tools/tornado_rod",
         "botania:tools/exchange_rod",
         "botania:tools/cobble_rod",
-        "botania:tools/terraform_rod"
+        "botania:tools/terraform_rod",
+        "botania:alfhomancy/gaia_ritual",
+        "botania:devices/mana_conjuration"
       ],
       "bookmarks": [],
       "history": [
+        "botania:devices/mana_conjuration",
+        "botania:generating_flowers/shulk_me_not",
+        "botania:generating_flowers/spectrolus",
+        "botania:generating_flowers/dandelifeon",
+        "botania:alfhomancy/gaia_ritual",
         "botania:baubles/goddess_charm",
         "botania:baubles/third_eye",
         "botania:baubles/knockback_belt",
@@ -197,12 +204,7 @@
         "botania:baubles/reach_ring",
         "botania:baubles/pixie_ring",
         "botania:functional_flowers/loonium",
-        "botania:functional_flowers/orechid_ignem",
-        "botania:functional_flowers/labellia",
-        "botania:baubles/dodge_ring",
-        "botania:generating_flowers/spectrolus",
-        "botania:functional_flowers/spectranthemum",
-        "botania:alfhomancy/elf_resources"
+        "botania:functional_flowers/orechid_ignem"
       ],
       "completedManualQuests": []
     },

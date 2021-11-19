@@ -464,7 +464,10 @@
 			title: "Мана делает вещи"
 			x: 0.0d
 			y: 2.0d
-			dependencies: ["26EBA995EA60E864"]
+			dependencies: [
+				"26EBA995EA60E864"
+				"5F21AFAE1F7FC1B4"
+			]
 			hide: true
 			id: "62FBCE9D40216662"
 			tasks: [{
@@ -1090,6 +1093,11 @@
 					item: "botania:pixie_dust"
 				}
 			]
+			rewards: [{
+				id: "02FFEF8718FF72C8"
+				type: "choice"
+				table_id: 5861405098905494759L
+			}]
 		}
 		{
 			title: "Жизнь, как начало жизни"
@@ -1171,18 +1179,11 @@
 			]
 			hide: true
 			id: "1C26D9AB84A6C218"
-			tasks: [
-				{
-					id: "2EA935675478A2BB"
-					type: "item"
-					item: "botania:thermalily"
-				}
-				{
-					id: "65AB0AFFD4D15367"
-					type: "item"
-					item: "botania:entropinnyum"
-				}
-			]
+			tasks: [{
+				id: "2EA935675478A2BB"
+				type: "item"
+				item: "botania:thermalily"
+			}]
 			rewards: [
 				{
 					id: "44442FFF5F2F5A11"
@@ -1272,69 +1273,6 @@
 				type: "choice"
 				table_id: 5861405098905494759L
 			}]
-		}
-		{
-			x: -5.5d
-			y: 6.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"59202966A0687604"
-				"00B0A3EE3E961EBB"
-			]
-			hide: true
-			id: "0A47FB10B7AA893A"
-			tasks: [{
-				id: "30C69F7FD723434A"
-				type: "item"
-				item: "botania:spectranthemum"
-			}]
-			rewards: [
-				{
-					id: "24C08E0DA9CFF632"
-					type: "item"
-					item: "minecraft:red_wool"
-				}
-				{
-					id: "25EF5B1A063341F3"
-					type: "item"
-					item: "minecraft:orange_wool"
-				}
-				{
-					id: "5976CC2F07DFACCD"
-					type: "item"
-					item: "minecraft:yellow_wool"
-				}
-				{
-					id: "012A016895F6420E"
-					type: "item"
-					item: "minecraft:green_wool"
-				}
-				{
-					id: "297BB1FCBBE2C4B5"
-					type: "item"
-					item: "minecraft:blue_wool"
-				}
-				{
-					id: "4762E5E0D48AB6C0"
-					type: "item"
-					item: "minecraft:purple_wool"
-				}
-				{
-					id: "23CEBFBAC43B530A"
-					type: "item"
-					item: "biomesoplenty:rainbow_birch_sapling"
-				}
-				{
-					id: "26F758E437F6B3C6"
-					type: "item"
-					item: "byg:rainbow_eucalyptus_sapling"
-				}
-				{
-					id: "5B822ECC2FB04090"
-					type: "item"
-					item: "biomesoplenty:rainbow_birch_sapling"
-				}
-			]
 		}
 		{
 			title: "Farming Manamulator 21"
@@ -2905,6 +2843,188 @@
 				id: "67734ABB12486BD1"
 				type: "item"
 				item: "minecraft:tnt"
+			}]
+		}
+		{
+			title: "Помехи на линии"
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["00B0A3EE3E961EBB"]
+			hide: true
+			id: "4B500705100A4D37"
+			tasks: [
+				{
+					id: "75BCC69E11578FAA"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "74321BAFC18B42A3"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "5A1FA4C85DC7FE55"
+					type: "item"
+					item: "botania:life_essence"
+				}
+			]
+			rewards: [{
+				id: "12A1E98F1798F429"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+		}
+		{
+			title: "Непонятный цветок"
+			x: -4.5d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4B500705100A4D37"
+				"59202966A0687604"
+			]
+			hide: true
+			id: "42615E3D1EC535EF"
+			tasks: [{
+				id: "1A1940B4444C61C3"
+				type: "item"
+				item: "botania:dandelifeon"
+			}]
+			rewards: [{
+				id: "0B9DD58F1C3AAB16"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			id: "37B62CD0ACE99731"
+			tasks: [{
+				id: "04BA3B3EAD93D528"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+			rewards: [
+				{
+					id: "5EE57383F2E0285D"
+					type: "item"
+					item: "minecraft:red_wool"
+				}
+				{
+					id: "2DDAFCAAB6AE923C"
+					type: "item"
+					item: "minecraft:orange_wool"
+				}
+				{
+					id: "3619EDC466E50C5B"
+					type: "item"
+					item: "minecraft:yellow_wool"
+				}
+				{
+					id: "3BFF89F756F75D78"
+					type: "item"
+					item: "minecraft:green_wool"
+				}
+				{
+					id: "18A2484546107894"
+					type: "item"
+					item: "minecraft:blue_wool"
+				}
+				{
+					id: "2ACA99411AD217E9"
+					type: "item"
+					item: "minecraft:purple_wool"
+				}
+				{
+					id: "09CE2CB8284FC40C"
+					type: "item"
+					item: "biomesoplenty:rainbow_birch_sapling"
+				}
+				{
+					id: "5587235F200688AD"
+					type: "item"
+					item: "byg:rainbow_eucalyptus_sapling"
+				}
+				{
+					id: "353C5E00FC6CC277"
+					type: "item"
+					item: "biomesoplenty:rainbow_birch_sapling"
+				}
+			]
+		}
+		{
+			title: "Очень странные дела"
+			x: -3.5d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"59202966A0687604"
+				"4B500705100A4D37"
+			]
+			hide: true
+			id: "0F1DE91952E45BAA"
+			tasks: [{
+				id: "4702D68052C07D19"
+				type: "item"
+				item: "botania:shulk_me_not"
+			}]
+		}
+		{
+			title: "Бац-бац-бац"
+			x: -5.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"59202966A0687604"
+			]
+			hide: true
+			id: "1271E31071FFE70F"
+			tasks: [{
+				id: "11779F94F9D74BDB"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+			rewards: [
+				{
+					id: "67A684B92F53BF78"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "744AE90F4087A0F6"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "200000 единиц уже готово и ещё 1000000 на подходе"
+			x: 1.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"775BD2DEA5502E90"
+				"1021D1A32130D574"
+				"024CD49A60131533"
+				"62FBCE9D40216662"
+			]
+			hide: true
+			id: "77CCA51AA01B0E53"
+			tasks: [{
+				id: "594BB1A282D5720C"
+				type: "item"
+				item: "botania:conjuration_catalyst"
+			}]
+			rewards: [{
+				id: "63D3D037EFB9FFBA"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
 			}]
 		}
 	]

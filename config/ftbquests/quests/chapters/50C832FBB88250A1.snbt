@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -4.5d
+			x: -1.5d
 			y: -2.0d
 			hide_text_until_complete: true
 			id: "675700CCC155A74B"
@@ -21,14 +21,21 @@
 				stat: "minecraft:deaths"
 				value: 1
 			}]
-			rewards: [{
-				id: "7E94FCCD7C7EF5AF"
-				type: "item"
-				item: "minecraft:golden_apple"
-			}]
+			rewards: [
+				{
+					id: "7E94FCCD7C7EF5AF"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+				{
+					id: "056B70CF6AC25128"
+					type: "choice"
+					table_id: 2601630122312521464L
+				}
+			]
 		}
 		{
-			x: -2.0d
+			x: -0.5d
 			y: -2.0d
 			hide_text_until_complete: true
 			id: "535BC316060BE0E6"
@@ -167,7 +174,7 @@
 		}
 		{
 			title: "Куда столько прыгать?"
-			x: -2.0d
+			x: -0.5d
 			y: -1.0d
 			dependencies: ["535BC316060BE0E6"]
 			hide: true
@@ -182,6 +189,77 @@
 				id: "6915BDAEA6B5936F"
 				type: "item"
 				item: "minecraft:slime_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: ["Создайте стол зачарования с максимальными статами и зачаруйте любой предмет."]
+			id: "253A7B665351D36E"
+			tasks: [{
+				id: "0DCB904DDA7BCB8B"
+				type: "gamestage"
+				title: "БЕЗГРАНИЧНАЯ МОЩЬ!"
+				icon: "minecraft:enchanting_table"
+				stage: "apotheosis:enchanting/max_stats"
+			}]
+			rewards: [{
+				id: "77E129122F0ACACF"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			id: "09D6758E226DC64F"
+			tasks: [{
+				id: "2309360034C8759C"
+				type: "item"
+				item: "calemiutils:coin_silver"
+			}]
+			rewards: [
+				{
+					id: "4EBE136BED3D0E08"
+					type: "item"
+					item: "calemiutils:trading_post"
+				}
+				{
+					id: "3E1F7E7889D18346"
+					type: "item"
+					item: "calemiutils:bank"
+				}
+				{
+					id: "022B56697EB8C1D9"
+					type: "item"
+					item: "calemiutils:security_wrench"
+				}
+			]
+		}
+		{
+			title: "admin"
+			x: 9.0d
+			y: 4.0d
+			id: "2BBCA53F6E1ACD1A"
+			tasks: [{
+				id: "22CEE103BF394133"
+				type: "item"
+				item: "minecraft:bedrock"
+			}]
+			rewards: [{
+				id: "44C3E2609B138E39"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 5000
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
 			}]
 		}
 	]
