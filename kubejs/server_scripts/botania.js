@@ -24,7 +24,7 @@ onEvent('recipes', event => {
         ], {
         N:'#twilightforest:fiery_vial',
         A:'minecraft:ghast_tear',
-        S:'#evilcraft:blood_infusion_core',
+        S:'evilcraft:blood_infusion_core',
         M:'botania:mana_diamond'
     })
 })

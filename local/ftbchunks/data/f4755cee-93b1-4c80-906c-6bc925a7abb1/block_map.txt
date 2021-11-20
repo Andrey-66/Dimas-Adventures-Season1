@@ -14,6 +14,7 @@
 #490837 minecraft:beacon
 #98AAE9 apotheosis:beeshelf
 #7F50F6 minecraft:bell
+#A5EC11 botania:bifrost
 #3DE8FE minecraft:birch_leaves
 #3BA928 minecraft:birch_log
 #73D2B3 minecraft:birch_planks
@@ -38,6 +39,7 @@
 #EE8AC6 twilightforest:canopy_leaves
 #DDB260 twilightforest:canopy_log
 #87E47E appliedenergistics2:charged_quartz_ore
+#33E0D2 appliedenergistics2:chest
 #F522F4 minecraft:chest
 #AA9109 minecraft:chiseled_stone_bricks
 #23D10F byg:cika_leaves
