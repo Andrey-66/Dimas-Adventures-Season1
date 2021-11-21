@@ -1,7 +1,7 @@
 {
 	id: "06452BFB80D60516"
 	group: "1E0A8915CBC35F34"
-	order_index: 1
+	order_index: 2
 	filename: "tinckersconstracts"
 	title: "Кузнечное дело"
 	icon: {
@@ -412,11 +412,21 @@
 					count: 2L
 				}
 			]
-			rewards: [{
-				id: "28E03F6DADD24610"
-				type: "choice"
-				table_id: 5521523319258406185L
-			}]
+			rewards: [
+				{
+					id: "28E03F6DADD24610"
+					type: "choice"
+					table_id: 5521523319258406185L
+				}
+				{
+					id: "37B9E63B00A78C8E"
+					type: "gamestage"
+					title: "Новая эра"
+					team_reward: false
+					auto: "invisible"
+					stage: "create_unlock"
+				}
+			]
 		}
 		{
 			title: "Долбим не по-детски"

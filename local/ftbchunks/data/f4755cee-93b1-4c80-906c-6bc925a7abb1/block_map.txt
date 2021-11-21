@@ -6,6 +6,7 @@
 #4FF443 botania:alfheim_portal
 #FBEB73 minecraft:allium
 #FA75A8 minecraft:andesite
+#C0EEE0 create:andesite_encased_shaft
 #DBECBF minecraft:anvil
 #9D292C botania:apothecary_default
 #83C98F ars_nouveau:arcane_ore
@@ -18,6 +19,7 @@
 #840F59 minecraft:bedrock
 #98AAE9 apotheosis:beeshelf
 #7F50F6 minecraft:bell
+#7C938F create:belt
 #A5EC11 botania:bifrost
 #3DE8FE minecraft:birch_leaves
 #3BA928 minecraft:birch_log
@@ -121,6 +123,7 @@
 #C23901 minecraft:grass_path
 #88BAFA minecraft:gravel
 #320D00 tconstruct:grout
+#87B5C3 create:hand_crank
 #7141A2 evilcraft:hardened_blood
 #F67E21 minecraft:hay_block
 #587315 apotheosis:heart_seashelf
@@ -155,6 +158,7 @@
 #8A56C3 twilightforest:mangrove_stairs
 #6C359E calemiutils:market
 #FB37C1 create:mechanical_crafter
+#145137 create:mechanical_press
 #DEE771 botania:metamorphic_desert_stone
 #8131CF botania:metamorphic_fungal_stone
 #21A102 botania:metamorphic_mesa_stone
@@ -235,6 +239,7 @@
 #39CA17 tconstruct:seared_heater
 #D5EF9C tconstruct:seared_ladder
 #C70547 tconstruct:seared_melter
+#D3CCFE create:shaft
 #7760DE minecraft:skeleton_skull
 #615192 tconstruct:sky_congealed_slime
 #789BE9 tconstruct:sky_earth_slime_grass
@@ -289,6 +294,7 @@
 #5C76F6 evilcraft:undead_log
 #25F8B7 mekanism:uranium_ore
 #88779D minecraft:vine
+#AAF4B7 create:water_wheel
 #1C0619 waystones:waystone
 #1B60CF minecraft:white_tulip
 #BC20FE minecraft:white_wool
