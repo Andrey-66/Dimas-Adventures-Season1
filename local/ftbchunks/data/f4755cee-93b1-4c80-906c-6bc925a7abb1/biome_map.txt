@@ -1,4 +1,6 @@
+#15A biomesoplenty:bayou
 #290 byg:bayou
+#532 biomesoplenty:bayou_mangrove
 #556 minecraft:beach
 #461 byg:blue_taiga
 #2E8 byg:bluff_steeps
@@ -7,16 +9,20 @@
 #7F9 twilightforest:dark_forest
 #4A1 twilightforest:dark_forest_center
 #109 minecraft:deep_cold_ocean
+#34D minecraft:deep_lukewarm_ocean
 #430 twilightforest:dense_forest
 #112 biomesoplenty:dense_woodland
 #64F byg:dover_mountains
 #712 twilightforest:firefly_forest
 #310 twilightforest:forest
 #082 twilightforest:lake
+#79A minecraft:lukewarm_ocean
 #537 byg:lush_tundra
+#5F3 byg:meadow
 #679 twilightforest:oak_savannah
 #4F1 minecraft:ocean
 #1AB biomesoplenty:ominous_woods
+#7E9 byg:redwood_tropics
 #5FF minecraft:river
 #3A8 byg:seasonal_deciduous_forest
 #23E byg:seasonal_forest
@@ -26,3 +32,4 @@
 #6A4 twilightforest:spooky_forest
 #673 twilightforest:stream
 #473 byg:vibrant_swamplands
+#06B byg:woodlands

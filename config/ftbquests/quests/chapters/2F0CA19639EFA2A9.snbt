@@ -14,6 +14,7 @@
 			x: -0.5d
 			y: 0.5d
 			dependencies: ["45959E538A5AC827"]
+			hide: true
 			id: "6E77427C5344F329"
 			tasks: [
 				{
@@ -47,6 +48,7 @@
 			x: -0.5d
 			y: -1.5d
 			dependencies: ["6E77427C5344F329"]
+			hide: true
 			id: "601D4B1995798F04"
 			tasks: [{
 				id: "2151DDA9CB2EFEFE"
@@ -65,6 +67,7 @@
 			x: 1.5d
 			y: 0.5d
 			dependencies: ["6E77427C5344F329"]
+			hide: true
 			id: "7D04972EF2DC8C21"
 			tasks: [{
 				id: "06BBBCEBEF60DA82"
@@ -83,6 +86,7 @@
 			x: 1.5d
 			y: -1.5d
 			dependencies: ["7D04972EF2DC8C21"]
+			hide: true
 			id: "11960F801A7C0D1A"
 			tasks: [
 				{
@@ -117,6 +121,7 @@
 				"11960F801A7C0D1A"
 				"7D04972EF2DC8C21"
 			]
+			hide: true
 			id: "2206D34C041302B9"
 			tasks: [{
 				id: "7DA4CEEB261BE090"
@@ -135,6 +140,7 @@
 			x: 1.5d
 			y: -3.5d
 			dependencies: ["11960F801A7C0D1A"]
+			hide: true
 			id: "53A4552F92FE08BC"
 			tasks: [{
 				id: "7938488BAA8CB1FA"
@@ -160,6 +166,7 @@
 			x: 3.5d
 			y: -1.5d
 			dependencies: ["11960F801A7C0D1A"]
+			hide: true
 			id: "618C92CA73D20365"
 			tasks: [{
 				id: "16767AC895D3F6FE"
@@ -174,9 +181,10 @@
 		}
 		{
 			title: "Всегда найдётся рыба крупнее"
-			x: 3.5d
-			y: -3.5d
+			x: 5.5d
+			y: -1.5d
 			dependencies: ["618C92CA73D20365"]
+			hide: true
 			id: "7C8DA5AE005DFCD5"
 			tasks: [{
 				id: "763D6C81D64B4329"
@@ -202,6 +210,7 @@
 			x: 1.5d
 			y: 2.5d
 			dependencies: ["7D04972EF2DC8C21"]
+			hide: true
 			id: "4D8F6B275D592D7C"
 			tasks: [{
 				id: "0D09FC6E351C29F0"
@@ -230,6 +239,7 @@
 			x: -0.5d
 			y: 2.5d
 			dependencies: ["6E77427C5344F329"]
+			hide: true
 			id: "52FF063202391F95"
 			tasks: [
 				{
@@ -252,12 +262,14 @@
 			}]
 		}
 		{
+			title: "Универсальный механизм"
 			x: 5.5d
 			y: 0.5d
 			dependencies: [
 				"2206D34C041302B9"
 				"4961B1FA6699CB30"
 			]
+			hide: true
 			id: "6ABC8CC432237483"
 			tasks: [{
 				id: "59161038E35835DD"
@@ -277,6 +289,7 @@
 			y: 4.5d
 			description: [""]
 			dependencies: ["52FF063202391F95"]
+			hide: true
 			id: "5071CE9756F1F598"
 			tasks: [
 				{
@@ -295,6 +308,109 @@
 				type: "item"
 				item: "create:shaft"
 				count: 6
+			}]
+		}
+		{
+			title: "Манипуляция направлением"
+			x: -0.5d
+			y: 6.5d
+			dependencies: ["5071CE9756F1F598"]
+			hide: true
+			id: "646DF80DA88207FC"
+			tasks: [
+				{
+					id: "551289956C14CDE2"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "6F9101C0A0B1DE8B"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+			rewards: [{
+				id: "3273E0B175808CD5"
+				type: "item"
+				item: "create:shaft"
+				count: 10
+			}]
+		}
+		{
+			title: "А теперь все вместе"
+			x: -0.5d
+			y: 8.5d
+			dependencies: ["646DF80DA88207FC"]
+			hide: true
+			id: "019B7D45E9E954DD"
+			tasks: [{
+				id: "3F96B8BAA7C9A2EB"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+			rewards: [{
+				id: "74281C86C844E696"
+				type: "item"
+				item: "create:encased_chain_drive"
+				count: 2
+			}]
+		}
+		{
+			title: "Всесторонний поток"
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["6ABC8CC432237483"]
+			hide: true
+			id: "49D6FC52822B9902"
+			tasks: [{
+				id: "63AB0955ECD37F6A"
+				type: "item"
+				item: "create:nozzle"
+			}]
+			rewards: [{
+				id: "473A5B6884614848"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Кукуха едет"
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["601D4B1995798F04"]
+			hide: true
+			id: "306621A1E0FBB412"
+			tasks: [{
+				id: "0F97387B962B336B"
+				type: "item"
+				item: "create:cuckoo_clock"
+			}]
+			rewards: [{
+				id: "094E32EB47BD6279"
+				type: "item"
+				item: "botania:tiny_potato"
+			}]
+		}
+		{
+			title: "Автокраафт"
+			x: 3.5d
+			y: -3.5d
+			dependencies: [
+				"11960F801A7C0D1A"
+				"53A4552F92FE08BC"
+				"3419CABD5F6E8979"
+			]
+			id: "275F4FEC83426A08"
+			tasks: [{
+				id: "1339BBEE60DBBE5D"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "785F23F0A9117E3E"
+				type: "item"
+				item: "create:cogwheel"
+				count: 5
 			}]
 		}
 	]

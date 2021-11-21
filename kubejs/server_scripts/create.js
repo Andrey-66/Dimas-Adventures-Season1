@@ -23,4 +23,15 @@ onEvent('recipes', event => {
         W: 'create:andesite_alloy',
         S: 'botania:daffomill'
       })
+      event.remove({output: 'create:mechanical_crafter'})
+      event.shaped('create:mechanical_crafter', [
+        ' L ',
+        'SKS',
+        ' V '
+        ], {
+        L: 'create:electron_tube',
+        S: 'create:cogwheel',
+        K: 'create:brass_casing',
+        V: 'botania:auto_crafting_halo'
+      })
 })
