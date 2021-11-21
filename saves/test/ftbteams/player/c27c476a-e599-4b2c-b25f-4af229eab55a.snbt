@@ -2,7 +2,9 @@
 	id: "c27c476a-e599-4b2c-b25f-4af229eab55a"
 	type: "player"
 	player_name: "Niketats"
-	ranks: { }
+	ranks: {
+		c27c476a-e599-4b2c-b25f-4af229eab55a: "owner"
+	}
 	properties: {
 		"ftbteams:display_name": "Niketats"
 		"ftbteams:color": "#59FF63"

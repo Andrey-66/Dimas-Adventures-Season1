@@ -1,6 +1,8 @@
 #CA1807 minecraft:acacia_planks
 #C722B0 minecraft:acacia_slab
 #594C00 minecraft:acacia_stairs
+#19603E mekanism:advanced_mechanical_pipe
+#52B53D minecraft:air
 #4FF443 botania:alfheim_portal
 #FBEB73 minecraft:allium
 #FA75A8 minecraft:andesite
@@ -11,7 +13,9 @@
 #91E5BC byg:aspen_log
 #0F359D minecraft:azure_bluet
 #0DA79E calemiutils:bank
+#189B99 minecraft:barrel
 #490837 minecraft:beacon
+#840F59 minecraft:bedrock
 #98AAE9 apotheosis:beeshelf
 #7F50F6 minecraft:bell
 #A5EC11 botania:bifrost
@@ -20,6 +24,7 @@
 #73D2B3 minecraft:birch_planks
 #B7985C minecraft:birch_slab
 #0306AC minecraft:birch_stairs
+#42065F mahoutsukai:black_fire
 #8C069E biomesoplenty:black_sand
 #A8E5E5 mekanism:block_salt
 #FCDA6E evilcraft:blood
@@ -51,6 +56,7 @@
 #3D8BFC minecraft:cobblestone_stairs
 #74DB3C minecraft:cobblestone_wall
 #8B8A11 minecraft:cobweb
+#E81A2B evilcraft:colossal_blood_chest
 #6BB940 create:copper_ore
 #03FB5A iceandfire:copper_ore
 #179BD9 mekanism:copper_ore
@@ -59,6 +65,7 @@
 #CC07F6 minecraft:cornflower
 #306005 minecraft:cracked_stone_bricks
 #468304 minecraft:crafting_table
+#6EA48F ftbstructures:crate
 #9EDBE0 botania:creative_pool
 #14C49F ironchest:crystal_chest
 #587E64 byg:dacite
@@ -69,6 +76,7 @@
 #19C8D3 minecraft:dark_oak_planks
 #A4967C minecraft:dark_oak_slab
 #A8FCCC minecraft:dark_oak_stairs
+#30370D evilcraft:dark_ore
 #6E862D twilightforest:dark_planks
 #76FBCA minecraft:dark_prismarine
 #9A2256 twilightforest:dark_slab
@@ -81,11 +89,13 @@
 #FF48B8 create:depot
 #BED665 minecraft:diorite
 #80497A minecraft:dirt
+#1C8E30 ironchest:dirt_chest
 #B26FDF create:dolomite
 #955146 apotheosis:draconic_endshelf
 #3B3ABB tconstruct:earth_congealed_slime
 #1AFEDA botania:enchanted_soil
 #2208EB minecraft:enchanting_table
+#83E520 endertanks:ender_tank
 #0913B9 evilcraft:environmental_accumulator
 #11255F twilightforest:etched_nagastone
 #D83C97 twilightforest:etched_nagastone_mossy
@@ -95,10 +105,13 @@
 #5D9970 twilightforest:firefly
 #6ADC4C twilightforest:firefly_jar
 #DD1808 mekanism:fluorite_ore
+#13E864 mahoutsukai:fog_projector
+#DA0ACF tconstruct:foundry_controller
 #5262A2 minecraft:frosted_ice
 #2DC94B minecraft:furnace
 #9698DB create:gabbro
 #1542C9 botania:gaia_pylon
+#4E6076 botania:ghost_rail
 #2F436F minecraft:glass
 #646538 botania:glimmering_livingwood
 #2C1BE1 minecraft:gold_block
@@ -123,6 +136,7 @@
 #7FCA6F minecraft:jungle_slab
 #86FFFF minecraft:jungle_stairs
 #0D3FC6 minecraft:lapis_block
+#EA439B minecraft:lapis_ore
 #83CED3 minecraft:lava
 #02D09C mekanism:lead_ore
 #7482E4 minecraft:lilac
@@ -131,6 +145,8 @@
 #5FCAC2 botania:livingrock
 #62120A botania:livingwood
 #DE9468 minecraft:magma_block
+#73C57B mahoutsukai:mahoujin_projector
+#413783 mahoutsukai:mana_circuit_magitech
 #DBA448 botania:mana_pool
 #413D8C botania:mana_spreader
 #933E71 twilightforest:mangrove_log
@@ -149,6 +165,7 @@
 #F23D44 minecraft:mossy_cobblestone_wall
 #2F738D minecraft:mossy_stone_brick_slab
 #483B67 minecraft:mossy_stone_bricks
+#1AE8B9 mahoutsukai:murky_water
 #B514D6 minecraft:mycelium
 #F8BE66 twilightforest:naga_stone
 #8AE61F twilightforest:naga_stone_head
@@ -179,6 +196,7 @@
 #BE2B3C byg:overgrown_dacite
 #FEAF9D byg:overgrown_stone
 #F6678E minecraft:oxeye_daisy
+#B75237 minecraft:packed_ice
 #47E559 byg:palm_leaves
 #66ABC7 byg:palm_log
 #AB1C58 minecraft:peony
@@ -187,20 +205,29 @@
 #80CC71 minecraft:player_head
 #BB7F65 minecraft:podzol
 #22D3D1 byg:podzol_dacite
+#6A5197 minecraft:polished_andesite
 #AFAC0D minecraft:poppy
 #40BB61 minecraft:prismarine
 #A8C236 minecraft:prismarine_bricks
 #E6B35B minecraft:pumpkin
 #F0410F appliedenergistics2:quartz_ore
+#868785 minecraft:rail
 #6A9E2B calemiutils:raritanium_ore
 #430A40 byg:red_oak_leaves
 #465F37 minecraft:red_tulip
+#E6EA79 evilcraft:reinforced_undead_planks
 #EC112A byg:rocky_stone
 #34B7D5 twilightforest:root
 #9C3ECB minecraft:rose_bush
 #5DF8F4 botania:runic_altar
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone
+#055B91 evilcraft:sanguinary_pedestal_0
+#F14597 tconstruct:scorched_bricks
+#4908AD tconstruct:scorched_drain
+#DA8C3D tconstruct:scorched_faucet
+#EB2088 tconstruct:scorched_fuel_tank
+#22CA83 tconstruct:scorched_table
 #FD7AC1 byg:scoria_stone
 #B74BCC tconstruct:seared_bricks
 #3EE7D8 tconstruct:seared_drain
@@ -208,6 +235,7 @@
 #39CA17 tconstruct:seared_heater
 #D5EF9C tconstruct:seared_ladder
 #C70547 tconstruct:seared_melter
+#7760DE minecraft:skeleton_skull
 #615192 tconstruct:sky_congealed_slime
 #789BE9 tconstruct:sky_earth_slime_grass
 #DA66C0 tconstruct:sky_sky_slime_grass
@@ -226,6 +254,7 @@
 #6B495B minecraft:spawner
 #24C853 twilightforest:spiral_bricks
 #9BD37E evilcraft:spirit_furnace
+#5E33FE minecraft:spruce_door
 #13F5AC minecraft:spruce_leaves
 #6A8B3A minecraft:spruce_log
 #49DF61 minecraft:spruce_planks
@@ -256,6 +285,8 @@
 #2D6472 twilightforest:twilight_oak_stairs
 #09CE15 twilightforest:twilight_oak_wood
 #1C02E0 biomesoplenty:umbran_leaves
+#47AD12 evilcraft:undead_leaves
+#5C76F6 evilcraft:undead_log
 #25F8B7 mekanism:uranium_ore
 #88779D minecraft:vine
 #1C0619 waystones:waystone

@@ -268,23 +268,27 @@
         "botania:ender/ender_hand",
         "botania:ender/ender_eye_block",
         "botania:ender/flight_tiara",
-        "botania:ender/red_string"
+        "botania:ender/red_string",
+        "botania:ender/black_hole_talisman",
+        "botania:ender/luminizer_transport",
+        "botania:ender/keep_ivy",
+        "botania:ender/thunder_sword"
       ],
       "bookmarks": [],
       "history": [
+        "botania:devices/complex_brews",
+        "botania:devices/incense",
+        "botania:devices/brewery",
+        "botania:devices/flasks",
+        "botania:tools/astrolabe",
+        "botania:ender/thunder_sword",
+        "botania:ender/keep_ivy",
+        "botania:ender/luminizer_transport",
+        "botania:ender/black_hole_talisman",
         "botania:ender/red_string",
         "botania:ender/flight_tiara",
         "botania:ender/ender_eye_block",
-        "botania:basics/terrasteel",
-        "botania:ender/ender_hand",
-        "botania:ender/piston_relay",
-        "botania:ender/spawner_claw",
-        "botania:ender/ender_dagger",
-        "botania:ender/spawner_mover",
-        "botania:ender/star_sword",
-        "botania:ender/ender_air",
-        "botania:ender/corporea_retainer",
-        "botania:ender/corporea_interceptor"
+        "botania:basics/terrasteel"
       ],
       "completedManualQuests": []
     },

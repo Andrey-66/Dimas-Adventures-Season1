@@ -950,7 +950,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -1.5d
 			y: -10.0d
 			dependencies: ["52ECBAF9D14796C9"]
 			hide: true
@@ -1071,7 +1071,7 @@
 		}
 		{
 			title: "Материал эльфов... или фей?"
-			x: 8.5d
+			x: 8.0d
 			y: 0.0d
 			dependencies: ["27270C6C8045D0AE"]
 			hide: true
@@ -2650,7 +2650,7 @@
 		}
 		{
 			title: "Антимусор"
-			x: -1.0d
+			x: -1.5d
 			y: -11.0d
 			hide_dependency_lines: true
 			dependencies: ["7E0B532BC362CF01"]
@@ -2863,7 +2863,7 @@
 		{
 			title: "Помехи на линии"
 			icon: "botania:gaia_pylon"
-			x: 11.0d
+			x: 10.5d
 			y: 0.0d
 			dependencies: ["00B0A3EE3E961EBB"]
 			hide: true
@@ -3450,6 +3450,8 @@
 		{
 			x: 3.5d
 			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
 			id: "41928015ADAA2746"
 			tasks: [{
 				id: "0B57B60396FFA8C1"
@@ -3464,6 +3466,9 @@
 		{
 			x: 2.5d
 			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "52BE116C73208FD4"
 			tasks: [{
 				id: "4B4ECF59DB60CBE2"
@@ -3478,6 +3483,8 @@
 		{
 			x: 4.5d
 			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
 			id: "7CC2167BEB00F5C6"
 			tasks: [{
 				id: "2E7BDD9A3B08184E"
@@ -3492,6 +3499,9 @@
 		{
 			x: 3.5d
 			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "5FF6252691317D2D"
 			tasks: [{
 				id: "6D0930EA7B8407E8"
@@ -3506,6 +3516,9 @@
 		{
 			x: 4.5d
 			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "4DF398B3B58AABB0"
 			tasks: [{
 				id: "2E9F9203C95CC974"
@@ -3520,6 +3533,9 @@
 		{
 			x: 2.5d
 			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "3AF105FEB36AA464"
 			tasks: [{
 				id: "204C099367068D8F"
@@ -3534,6 +3550,9 @@
 		{
 			x: 3.5d
 			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "7FC282E116A92728"
 			tasks: [{
 				id: "64A3B0CDAF325343"
@@ -3548,6 +3567,9 @@
 		{
 			x: 4.5d
 			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "25B597038E4DA99C"
 			tasks: [{
 				id: "679BD4002CC93317"
@@ -3562,6 +3584,9 @@
 		{
 			x: 2.5d
 			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "42C68F6CA58556FD"
 			tasks: [{
 				id: "1AA04312A2979187"
@@ -3593,6 +3618,9 @@
 		{
 			x: 3.5d
 			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "33B95B3723CDC353"
 			tasks: [{
 				id: "61EB54FC3AF7D155"
@@ -3607,6 +3635,9 @@
 		{
 			x: 2.5d
 			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "25D02279F0025477"
 			tasks: [{
 				id: "13A04F75AF14A2F0"
@@ -3621,6 +3652,9 @@
 		{
 			x: 3.5d
 			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "17B313E52C67F064"
 			tasks: [{
 				id: "53A825F092667613"
@@ -3635,6 +3669,9 @@
 		{
 			x: 4.5d
 			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "534DCA7072988933"
 			tasks: [{
 				id: "182B7C962DC34984"
@@ -3649,6 +3686,9 @@
 		{
 			x: 2.5d
 			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "07D9546DB4349816"
 			tasks: [{
 				id: "03D0BCADD490F63C"
@@ -3663,6 +3703,9 @@
 		{
 			x: 3.5d
 			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "76B73F58DB916EE9"
 			tasks: [{
 				id: "37C9A4264B3620AD"
@@ -3677,6 +3720,9 @@
 		{
 			x: 4.5d
 			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "73CB46850BC83F4A"
 			tasks: [{
 				id: "41765D9830DC5E5A"
@@ -3710,6 +3756,12 @@
 		{
 			x: 2.5d
 			y: 11.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"619EAD88835BD188"
+				"27270C6C8045D0AE"
+			]
+			hide: true
 			id: "681C8364E130110B"
 			tasks: [{
 				id: "5250FF63752FC6F2"
@@ -3724,6 +3776,12 @@
 		{
 			x: 3.5d
 			y: 11.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"619EAD88835BD188"
+				"27270C6C8045D0AE"
+			]
+			hide: true
 			id: "33BA9E80778E9366"
 			tasks: [{
 				id: "5B07B6322F05347F"
@@ -3738,6 +3796,12 @@
 		{
 			x: 4.5d
 			y: 11.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"619EAD88835BD188"
+				"27270C6C8045D0AE"
+			]
+			hide: true
 			id: "5C3945F28E47F2C0"
 			tasks: [{
 				id: "620ED01052044AA1"
@@ -3752,6 +3816,12 @@
 		{
 			x: 2.5d
 			y: 12.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"619EAD88835BD188"
+				"27270C6C8045D0AE"
+			]
+			hide: true
 			id: "269B4BE9A0F9D82E"
 			tasks: [{
 				id: "7624F82600AA3F70"
@@ -3766,6 +3836,12 @@
 		{
 			x: 3.5d
 			y: 12.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"619EAD88835BD188"
+				"27270C6C8045D0AE"
+			]
+			hide: true
 			id: "3A7EDDA0942AA46B"
 			tasks: [{
 				id: "416CECCF4C5EBE17"
@@ -3780,6 +3856,12 @@
 		{
 			x: 4.5d
 			y: 12.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"619EAD88835BD188"
+				"27270C6C8045D0AE"
+			]
+			hide: true
 			id: "041FACB309DB1F1C"
 			tasks: [{
 				id: "5AA94268E86AD279"
@@ -4219,13 +4301,14 @@
 				id: "22F0A6946AA048C3"
 				type: "command"
 				title: "Властелин колец"
+				team_reward: false
 				command: "/curios add ring @p"
 				player_command: false
 			}]
 		}
 		{
 			title: "Узрите арсенал небес!"
-			x: 13.5d
+			x: 13.0d
 			y: 0.0d
 			description: [""]
 			dependencies: ["4B500705100A4D37"]
@@ -4256,7 +4339,7 @@
 		}
 		{
 			title: "Обменник костей"
-			x: 16.0d
+			x: 15.5d
 			y: 0.0d
 			shape: "rsquare"
 			dependencies: ["7F1677C599C9A521"]
@@ -4307,8 +4390,15 @@
 			}]
 		}
 		{
+			title: "Сундучья сеть"
 			x: 8.5d
 			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"00B0A3EE3E961EBB"
+				"2E38DA6C5FC54B02"
+			]
+			hide: true
 			id: "470AE5C4F18233AF"
 			tasks: [
 				{
@@ -4371,7 +4461,7 @@
 		}
 		{
 			title: "А могла быть подкова"
-			x: 0.0d
+			x: -0.5d
 			y: -10.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -4491,10 +4581,12 @@
 			title: "Я тебя достану"
 			x: 10.5d
 			y: 6.0d
+			hide_dependency_lines: true
 			dependencies: [
 				"1FE8DEFFB6929BE7"
 				"2E38DA6C5FC54B02"
 			]
+			hide: true
 			id: "477929DB6DD2DFAD"
 			tasks: [{
 				id: "5E0A947682DFA2F5"
@@ -4508,8 +4600,15 @@
 			}]
 		}
 		{
+			title: "Крылышки"
 			x: 8.5d
 			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4B500705100A4D37"
+				"2E38DA6C5FC54B02"
+			]
+			hide: true
 			id: "06EA20748906AB7D"
 			tasks: [{
 				id: "592911A091C2A0B7"
@@ -4526,6 +4625,83 @@
 				id: "7D89F1CEB150EFAB"
 				type: "item"
 				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Чух-чух"
+			x: 9.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"00B0A3EE3E961EBB"
+				"2E38DA6C5FC54B02"
+			]
+			hide: true
+			id: "7595AD97AF4732B2"
+			tasks: [{
+				id: "7E5A05DA5244C6B7"
+				type: "item"
+				item: "botania:light_relay"
+			}]
+			rewards: [{
+				id: "0EAA4F87790E2A26"
+				type: "item"
+				item: "botania:light_relay"
+			}]
+		}
+		{
+			title: "Бесконечные инструменты"
+			x: 10.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"00B0A3EE3E961EBB"
+				"2E38DA6C5FC54B02"
+			]
+			hide: true
+			id: "3A8B18ED0602F214"
+			tasks: [{
+				id: "25BBCCF03AA09C23"
+				type: "item"
+				item: "botania:keep_ivy"
+			}]
+			rewards: [{
+				id: "3EDEF59ACDE23D74"
+				type: "item"
+				item: {
+					id: "twilightforest:steeleaf_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Меч Тора"
+			x: 0.5d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"56BE76A967DE258D"
+				"2E38DA6C5FC54B02"
+			]
+			hide: true
+			id: "7268C69FC6159D1F"
+			tasks: [{
+				id: "76969A6B80E36F91"
+				type: "item"
+				item: {
+					id: "botania:thunder_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

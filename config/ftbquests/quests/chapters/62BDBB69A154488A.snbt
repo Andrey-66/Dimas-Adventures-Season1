@@ -13,7 +13,11 @@
 			icon: "ars_nouveau:glyph_craft"
 			x: -10.0d
 			y: -2.0d
-			dependencies: ["03F47266661B2F65"]
+			hide_dependency_lines: true
+			dependencies: [
+				"03F47266661B2F65"
+				"4E137710B6B5DD82"
+			]
 			hide: true
 			hide_text_until_complete: true
 			id: "79B20D45560C271A"

@@ -469,5 +469,62 @@
 				item: "tconstruct:tinkers_gadgetry"
 			}]
 		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["4E79667FA6CF8C28"]
+			hide: true
+			id: "221AACD031D8E026"
+			tasks: [
+				{
+					id: "2AC602D97F3E0E1A"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 28L
+				}
+				{
+					id: "6974338157CF48EC"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+				{
+					id: "24135FEA4CDED382"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "4288A7F04486B32F"
+					type: "item"
+					item: "tconstruct:scorched_faucet"
+					count: 2L
+				}
+				{
+					id: "296148E07208D1EC"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "7BC2DAD7FE03A1D2"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+					count: 2L
+				}
+				{
+					id: "7475F46BCFE2E3B6"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "181AFE685FA4D4FA"
+					type: "item"
+					item: "tconstruct:fantastic_foundry"
+				}
+			]
+			rewards: [{
+				id: "028686F9AA73E4FB"
+				type: "item"
+				item: "calemiutils:money_bag_rich"
+			}]
+		}
 	]
 }
