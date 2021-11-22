@@ -1,0 +1,12 @@
+#3AD byg:autumnal_valley
+#2E8 byg:bluff_steeps
+#72F byg:cherry_blossom_forest
+#074 byg:ebony_woods
+#010 minecraft:forest
+#294 biomesoplenty:jade_cliffs
+#5FF minecraft:river
+#2B9 byg:rose_fields
+#5ED byg:seasonal_birch_forest
+#72D minecraft:snowy_beach
+#452 minecraft:wooded_hills
+#11C byg:zelkova_forest
