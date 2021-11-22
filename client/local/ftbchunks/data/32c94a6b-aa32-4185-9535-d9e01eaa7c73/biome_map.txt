@@ -1,0 +1,17 @@
+#3AD byg:autumnal_valley
+#556 minecraft:beach
+#727 byg:black_forest_clearing
+#4B3 byg:cika_woods
+#010 minecraft:forest
+#678 byg:fresh_water_lake
+#79A minecraft:lukewarm_ocean
+#79C byg:maple_taiga
+#4F1 minecraft:ocean
+#3E4 byg:pumpkin_forest
+#5FF minecraft:river
+#51B byg:seasonal_giant_taiga
+#755 byg:seasonal_taiga
+#4E8 byg:seasonal_taiga_hills
+#47B byg:the_black_forest
+#103 byg:weeping_witch_clearing
+#1DB byg:weeping_witch_forest

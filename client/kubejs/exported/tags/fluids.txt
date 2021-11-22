@@ -1,0 +1,15 @@
+To refresh this file, delete it and run /reload command again! Last updated: Nov 11, 2021 5:07:58 AM
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#appliedenergistics2:blacklisted/fluid_annihilation_plane

@@ -1,0 +1,132 @@
+{
+	id: "62BDBB69A154488A"
+	group: "1E0A8915CBC35F34"
+	order_index: 1
+	filename: "62BDBB69A154488A"
+	title: "Почти как Хогвартс"
+	icon: "ars_nouveau:novice_spell_book"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Крафт"
+			icon: "ars_nouveau:glyph_craft"
+			x: -10.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"03F47266661B2F65"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "79B20D45560C271A"
+			tasks: [{
+				id: "70AC0F5700F17303"
+				type: "item"
+				item: "ars_nouveau:glyph_craft"
+			}]
+			rewards: [{
+				id: "2F610FB23F18FAD6"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			title: "Пора творить чудеса"
+			x: -12.5d
+			y: 1.5d
+			hide: true
+			id: "3488D6844894CDE0"
+			tasks: [{
+				id: "1CB64459F68FA060"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+			rewards: [{
+				id: "1D6128EBD985D3DC"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 5
+			}]
+		}
+		{
+			title: "Собираем ману"
+			x: -10.0d
+			y: 1.5d
+			dependencies: ["3488D6844894CDE0"]
+			hide: true
+			id: "19129491868919F1"
+			tasks: [
+				{
+					id: "0D7FFAA0066D8F6B"
+					type: "item"
+					item: "ars_nouveau:mana_jar"
+				}
+				{
+					id: "0EBFC9FBFCC14E99"
+					type: "item"
+					item: "ars_nouveau:mana_condenser"
+				}
+			]
+			rewards: [{
+				id: "00999A3BDFEE4998"
+				type: "item"
+				item: "ars_nouveau:mana_gem"
+				count: 3
+			}]
+		}
+		{
+			title: "Инфузия возвращается"
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["19129491868919F1"]
+			hide: true
+			id: "1598EDFE82399901"
+			tasks: [
+				{
+					id: "15105E71DCBF8E4A"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+				{
+					id: "2193BA66EDE1F382"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "27BD00217403B5AE"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "2222F6F955FFB58A"
+				type: "item"
+				item: "ars_nouveau:mana_gem"
+				count: 3
+			}]
+		}
+		{
+			title: "Первый урок"
+			x: -10.0d
+			y: 0.0d
+			dependencies: ["3488D6844894CDE0"]
+			id: "4E137710B6B5DD82"
+			tasks: [{
+				id: "594613B384DE0E2B"
+				type: "item"
+				item: {
+					id: "ars_nouveau:novice_spell_book"
+					Count: 1b
+					tag: {
+						mode: 0
+						spells: ",touch,harm,break,self,projectile"
+					}
+				}
+			}]
+		}
+	]
+}

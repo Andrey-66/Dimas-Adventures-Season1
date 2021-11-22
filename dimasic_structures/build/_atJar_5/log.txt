@@ -1,0 +1,7 @@
+Java Launcher: /home/andrey/.mcreator/gradle/jdks/jdk8u312-b07/bin/java
+Arguments: '--inJar, /home/andrey/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.2.0/forge-1.16.5-36.2.0-injected.jar, --outJar, /home/andrey/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.16.5-36.2.0_mapped_snapshot_20201028-1.16.3/forge-1.16.5-36.2.0_mapped_snapshot_20201028-1.16.3.jar, --logFile, accesstransform.log, --atFile, /home/andrey/MCreatorWorkspaces/dimasic_structures/build/_atJar_5/parent_at.cfg'
+Classpath:
+ - /home/andrey/.mcreator/gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1-fatjar.jar
+Working directory: /home/andrey/MCreatorWorkspaces/dimasic_structures/build/_atJar_5
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

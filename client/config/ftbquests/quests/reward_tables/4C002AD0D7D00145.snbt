@@ -1,0 +1,44 @@
+{
+	id: "4C002AD0D7D00145"
+	order_index: 3
+	title: "Отдолби"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:bronze"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:small_axe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:bronze"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:hammer_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:bronze"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:small_blade"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:bronze"
+				}
+			}
+		}
+	]
+}

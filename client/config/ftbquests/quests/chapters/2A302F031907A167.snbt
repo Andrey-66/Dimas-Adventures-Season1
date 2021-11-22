@@ -1,0 +1,57 @@
+{
+	id: "2A302F031907A167"
+	group: "1E0A8915CBC35F34"
+	order_index: 4
+	filename: "2A302F031907A167"
+	title: "Ад"
+	icon: "minecraft:blaze_powder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "В поисках чего-то адского"
+			x: -2.5d
+			y: 0.0d
+			description: ["Старым способом портал вызвать не выходит. Нужно придумать что-то новое. Дальнейшее изучение магических сплавов мне должно помочь."]
+			hide: true
+			id: "5EA7B205354739CF"
+			tasks: [{
+				id: "5A95875B843A2F31"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			title: "Своеобразная жижа"
+			x: -3.5d
+			y: 0.0d
+			description: ["А кто сказал, что портал не может быть жидким? "]
+			dependencies: ["45959E538A5AC827"]
+			id: "574EDB5F9AAE5FD1"
+			tasks: [{
+				id: "073A3B173A14ABF3"
+				type: "item"
+				item: "betterportals:portal_fluid_bucket"
+			}]
+		}
+		{
+			title: "А как от сюда выйти!? "
+			x: -0.5d
+			y: 0.0d
+			description: ["Найти структуру, подобную маяку"]
+			dependencies: ["5EA7B205354739CF"]
+			id: "1A8A5498639CCFFC"
+			tasks: [{
+				id: "74398C67F5BE4C54"
+				type: "observation"
+				timer: 60L
+				observe: "block:betterportals:reclamer"
+			}]
+			rewards: [{
+				id: "2637E06340860256"
+				type: "item"
+				item: "minecraft:gold_block"
+			}]
+		}
+	]
+}

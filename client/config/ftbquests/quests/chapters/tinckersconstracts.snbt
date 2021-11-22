@@ -1,0 +1,540 @@
+{
+	id: "06452BFB80D60516"
+	group: "1E0A8915CBC35F34"
+	order_index: 2
+	filename: "tinckersconstracts"
+	title: "Кузнечное дело"
+	icon: {
+		id: "tconstruct:tinkers_anvil"
+		Count: 1b
+		tag: {
+			texture: "mekanism:block_steel"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Два стола, два ствола"
+			x: 0.0d
+			y: 0.0d
+			hide: true
+			id: "61129D80A8BA782E"
+			tasks: [
+				{
+					id: "7829E14528AE230F"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "5F42A883C1526532"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4F0F6CF020565EA8"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 3
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Один стол"
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["61129D80A8BA782E"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "3CC1A26B25347326"
+			tasks: [{
+				id: "0D2B387727AF3C7C"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:dark_oak_log"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0EC99944CD9119F1"
+				type: "item"
+				item: "ars_nouveau:blank_glyph"
+			}]
+		}
+		{
+			title: "Собираем куски"
+			icon: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:wood"
+				}
+			}
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["61129D80A8BA782E"]
+			hide: true
+			id: "7E9C7E0DE45FC70D"
+			tasks: [
+				{
+					id: "4A360887843760E8"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "43902D2F8D6B972E"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+				{
+					id: "306926E8BFDBC783"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "28CD9325B0D3A08E"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Бесполезный кусок дерева"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["7E9C7E0DE45FC70D"]
+			hide: true
+			id: "559F0EE222414BAC"
+			tasks: [{
+				id: "296202112E9E7575"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 2.0f
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:harvest_level": 0.0f
+							"tconstruct:durability": 60.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Ванильная печка! Ты серьёзно!? "
+			x: 0.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			hide_text_until_complete: true
+			id: "3193D7F3317DCC14"
+			tasks: [{
+				id: "373CB23741F569AC"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "6FA99F7207992124"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Я ЕСТЬ ГРУУУУТ!!1!"
+			x: 2.0d
+			y: 4.0d
+			dependencies: [
+				"3193D7F3317DCC14"
+				"5FA75FB16602CB21"
+			]
+			hide: true
+			id: "05AB606EC2B4A45F"
+			tasks: [
+				{
+					id: "1E0667AF25EF7754"
+					type: "item"
+					item: "tconstruct:grout"
+				}
+				{
+					id: "6A465EFF92C97438"
+					type: "item"
+					item: "tconstruct:seared_brick"
+				}
+			]
+			rewards: [
+				{
+					id: "6D87C0A6EDC8D43B"
+					type: "item"
+					item: {
+						id: "minecraft:oak_sapling"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Я есть Грут\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "507780E0A13ED816"
+					type: "item"
+					item: "minecraft:stick"
+					random_bonus: 6
+				}
+				{
+					id: "2E8C5FABCBCADB38"
+					type: "item"
+					item: "minecraft:oak_leaves"
+					count: 2
+				}
+				{
+					id: "327B7C66C498AA0A"
+					type: "item"
+					item: "minecraft:oak_log"
+				}
+			]
+		}
+		{
+			title: "Пететька"
+			x: 4.0d
+			y: 4.0d
+			description: [
+				"Seared Melter необходим для плавления ресурсов. Он обязательно должнн быть установлен над Seared Heather."
+				""
+				"Seared Heather сжигает топливо для нагревания металла"
+				""
+				"Seared Casting Beasin нужен для отлива металла блоками. Также может использоваться для особых крафтов."
+				""
+				""
+				"Seared Casting Table аналогичен предыдужему, но позволяет отливать в форму (Cast). Обратите внимание, что деревянный трафарет не подойдёт для этой оерации! Также может использоваться для особых крафтов."
+				""
+				"Seared Faucet - кран, через который льётся жидкость. Он должен примыкать к Melter и находиться над Beasin/Table. ПКМ по сливу запустит процесс."
+				"{image:kubejs:textures/quests/smallforge.png width:100 height:100 align:1}"
+			]
+			dependencies: ["05AB606EC2B4A45F"]
+			hide: true
+			id: "48B784BDF17E1611"
+			tasks: [
+				{
+					id: "66022696BB0CB22C"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "538A829221B45CCA"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "044461807056F216"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "1AA5F37D307E2BC0"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+				{
+					id: "3AFE2D312F9610F3"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+			]
+			rewards: [
+				{
+					id: "4E5D304FE07F9D43"
+					type: "item"
+					item: "minecraft:coal"
+					count: 4
+					random_bonus: 8
+				}
+				{
+					id: "1150ACA54E463C14"
+					type: "item"
+					item: "tconstruct:blank_sand_cast"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Книга"
+			x: 0.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["61129D80A8BA782E"]
+			hide: true
+			id: "7BB9E3A8B816DEF3"
+			tasks: [{
+				id: "5B40F0D7F0876731"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			title: "Книга, но круче"
+			x: 0.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["05AB606EC2B4A45F"]
+			id: "373838B8EFC10E15"
+			tasks: [{
+				id: "2FDE187E920C89D0"
+				type: "item"
+				item: "tconstruct:puny_smelting"
+			}]
+		}
+		{
+			title: "Иди отлей"
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["48B784BDF17E1611"]
+			hide: true
+			id: "2B18AD4F6E8C3566"
+			tasks: [{
+				id: "5BE10DFE7A9BC1A0"
+				type: "item"
+				item: "tconstruct:mighty_smelting"
+			}]
+		}
+		{
+			title: "А у меня больше!"
+			x: 6.0d
+			y: 2.5d
+			description: [
+				"{image:kubejs:textures/quests/bigforge1.png width:100 height:100 align:1}"
+				"{image:kubejs:textures/quests/bigforge2.png width:100 height:100 align:1}"
+			]
+			dependencies: ["2B18AD4F6E8C3566"]
+			hide: true
+			id: "45959E538A5AC827"
+			tasks: [
+				{
+					id: "420E610761A03FB8"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 16L
+				}
+				{
+					id: "0BD990E8744A6289"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "4362A02820F7B40A"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "71004EA9F0719441"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+				{
+					id: "08E35682657E100E"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "13DE7254B2189CB9"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "76E610C541D1D385"
+					type: "item"
+					item: "tconstruct:seared_drain"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "28E03F6DADD24610"
+					type: "choice"
+					table_id: 5521523319258406185L
+				}
+				{
+					id: "37B9E63B00A78C8E"
+					type: "gamestage"
+					title: "Новая эра"
+					team_reward: false
+					auto: "invisible"
+					stage: "create_unlock"
+				}
+			]
+		}
+		{
+			title: "Долбим не по-детски"
+			x: 6.0d
+			y: 0.0d
+			dependencies: [
+				"45959E538A5AC827"
+				"559F0EE222414BAC"
+			]
+			hide: true
+			id: "05F97AAC14E42CFA"
+			tasks: [{
+				id: "71BC48CA410AB060"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "create:brass_block"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2619F04C0F823E1C"
+				type: "choice"
+				table_id: 5476424223344820549L
+			}]
+		}
+		{
+			title: "В поисках чего-то липкого..."
+			x: 8.0d
+			y: 0.0d
+			description: [
+				"Исследуйте мир в поисках загадочного летающего острова."
+				"{image:kubejs:textures/quests/slime.png width:100 height:100 align:1}"
+			]
+			dependencies: ["05F97AAC14E42CFA"]
+			hide: true
+			id: "4E79667FA6CF8C28"
+			tasks: [{
+				id: "232391338D90E8E3"
+				type: "observation"
+				icon: "tconstruct:sky_congealed_slime"
+				timer: 0L
+				observe: "block:tconstruct:sky_congealed_slime"
+			}]
+			rewards: [{
+				id: "33149E071F2EA4DF"
+				type: "item"
+				item: "tconstruct:tinkers_gadgetry"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["4E79667FA6CF8C28"]
+			hide: true
+			id: "221AACD031D8E026"
+			tasks: [
+				{
+					id: "2AC602D97F3E0E1A"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 28L
+				}
+				{
+					id: "6974338157CF48EC"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+				{
+					id: "24135FEA4CDED382"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "4288A7F04486B32F"
+					type: "item"
+					item: "tconstruct:scorched_faucet"
+					count: 2L
+				}
+				{
+					id: "296148E07208D1EC"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "7BC2DAD7FE03A1D2"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+					count: 2L
+				}
+				{
+					id: "7475F46BCFE2E3B6"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "181AFE685FA4D4FA"
+					type: "item"
+					item: "tconstruct:fantastic_foundry"
+				}
+			]
+			rewards: [{
+				id: "028686F9AA73E4FB"
+				type: "item"
+				item: "calemiutils:money_bag_rich"
+			}]
+		}
+	]
+}

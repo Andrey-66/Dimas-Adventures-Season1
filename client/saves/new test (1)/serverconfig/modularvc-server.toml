@@ -1,0 +1,18 @@
+
+#This is the general config of ModularVoiceChat
+[general]
+	#The vocal-server port
+	#Range: 0 ~ 100000
+	port = 7656
+	#Define if the micro on the speaking-players will be rendered
+	showWhoSpeak = false
+	#By providing an given hostname you are assured that all players use the same
+	forcedHostname = ""
+	# - "global" for a global, to all players, voice-dispatch
+	dispatchType = "distanced"
+	#If DispatchType is "distanced", it will be the max-distance that a player can hear another one.
+	#Range: 0 ~ 100000
+	maxDistance = 15
+	#If true, the sound will fade-out with the distance
+	fadeOut = true
+
