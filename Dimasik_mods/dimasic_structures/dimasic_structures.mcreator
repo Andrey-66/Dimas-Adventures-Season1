@@ -70,6 +70,10 @@
           }
         ]
       }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
     },
     {
       "name": "Botaniapurpuresanctuary",
@@ -80,6 +84,11 @@
       "ids": {},
       "registry_name": "botaniapurpuresanctuary",
       "path": "~/botania_sanctuarys"
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
+>>>>>>> master
     }
   ],
   "variable_elements": [],
