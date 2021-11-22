@@ -1,0 +1,60 @@
+[21:21:17.409][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[21:21:20.542][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'ars_nouveau' at version '1.23.11'
+'botania' at version '1.16.5-419'
+'crafttweaker' at version '7.1.2.455'
+'dimstages' at version '3.0.3'
+'gamestages' at version '7.3.10'
+'itemstages' at version '3.0.9'
+'jeitweaker' at version '1.0.1.35'
+'recipestages' at version '2.0.0.21'
+'tconstruct' at version '3.2.0.290'
+'thermal' at version '1.3.2'
+'thermal_foundation' at version '1.3.2'
+[21:21:22.398][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[21:21:38.266][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[21:21:39.363][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[21:22:57.646][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[21:22:57.754][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[21:22:57.758][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[21:22:57.760][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[21:22:57.760][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[21:22:57.799][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[21:22:57.801][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[21:22:57.801][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[21:22:57.802][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[21:22:57.804][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[21:22:57.805][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[21:22:57.807][DONE][CLIENT][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[21:22:57.807][DONE][CLIENT][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[21:22:57.812][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[21:22:57.813][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[21:22:57.813][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[21:22:57.814][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[21:22:57.814][DONE][CLIENT][INFO] Finished loading Scripts!
+[21:22:57.816][DONE][CLIENT][INFO] This reload was made possible by Jonathan McManus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[21:23:20.192][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[21:23:20.260][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[21:23:20.261][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[21:23:20.261][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[21:23:20.262][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[21:23:20.283][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[21:23:20.284][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[21:23:20.284][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[21:23:20.285][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[21:23:20.285][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[21:23:20.285][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[21:23:20.285][DONE][CLIENT][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[21:23:20.286][DONE][CLIENT][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[21:23:20.286][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[21:23:20.286][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[21:23:20.287][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[21:23:20.287][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[21:23:20.287][DONE][CLIENT][INFO] Finished loading Scripts!
+[21:23:20.287][DONE][CLIENT][INFO] This reload was made possible by Belathus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[21:24:00.995][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[21:24:01.062][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[21:24:01.063][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[21:24:01.064][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[21:24:01.064][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[21:24:01.080][DONE][CLIENT][INFO] Finished loading Scripts!
