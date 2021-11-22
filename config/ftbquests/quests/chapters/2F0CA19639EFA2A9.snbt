@@ -1,0 +1,417 @@
+{
+	id: "2F0CA19639EFA2A9"
+	group: "1E0A8915CBC35F34"
+	order_index: 6
+	filename: "2F0CA19639EFA2A9"
+	title: "Пора на завод"
+	icon: "create:cogwheel"
+	always_invisible: true
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Новая эпоха"
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["45959E538A5AC827"]
+			hide: true
+			id: "6E77427C5344F329"
+			tasks: [
+				{
+					id: "77447E5120627A18"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "36D6FA1F997CB582"
+					type: "item"
+					item: "create:shaft"
+				}
+			]
+			rewards: [
+				{
+					id: "6790B3119A287099"
+					type: "item"
+					item: "create:cogwheel"
+					count: 4
+				}
+				{
+					id: "2B6BD1D2591DB65E"
+					type: "item"
+					item: "create:shaft"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Больше - лучше"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["6E77427C5344F329"]
+			hide: true
+			id: "601D4B1995798F04"
+			tasks: [{
+				id: "2151DDA9CB2EFEFE"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [{
+				id: "6DA0C07D2EE6FCF1"
+				type: "item"
+				item: "create:cogwheel"
+				count: 5
+			}]
+		}
+		{
+			title: "Сейчас бы в Древний Рим"
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["6E77427C5344F329"]
+			hide: true
+			id: "7D04972EF2DC8C21"
+			tasks: [{
+				id: "06BBBCEBEF60DA82"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [{
+				id: "33DA6DC68352CE05"
+				type: "item"
+				item: "create:shaft"
+				count: 5
+			}]
+		}
+		{
+			title: "Сплющение"
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["7D04972EF2DC8C21"]
+			hide: true
+			id: "11960F801A7C0D1A"
+			tasks: [
+				{
+					id: "652ED71EB83F4537"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "6BF02C6217BF71BD"
+					type: "item"
+					title: "Any #forge:plates"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:plates"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "125D4D9E17FE2737"
+				type: "choice"
+				table_id: 5521523319258406185L
+			}]
+		}
+		{
+			title: "Сила воды"
+			x: 3.5d
+			y: 0.5d
+			dependencies: [
+				"11960F801A7C0D1A"
+				"7D04972EF2DC8C21"
+			]
+			hide: true
+			id: "2206D34C041302B9"
+			tasks: [{
+				id: "7DA4CEEB261BE090"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "0A1211562169EEE6"
+				type: "item"
+				item: "minecraft:glass"
+				count: 16
+			}]
+		}
+		{
+			title: "С таким и на панель управления сфотографироваться можно"
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["11960F801A7C0D1A"]
+			hide: true
+			id: "53A4552F92FE08BC"
+			tasks: [{
+				id: "7938488BAA8CB1FA"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [
+				{
+					id: "6BFE96BA72FA01D9"
+					type: "item"
+					item: "create:cogwheel"
+					count: 3
+				}
+				{
+					id: "271959A4403EC3E6"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
+		}
+		{
+			title: "Я сотру тебя в порошок!"
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["11960F801A7C0D1A"]
+			hide: true
+			id: "618C92CA73D20365"
+			tasks: [{
+				id: "16767AC895D3F6FE"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "478FB22528319F0E"
+				type: "choice"
+				table_id: 5521523319258406185L
+			}]
+		}
+		{
+			title: "Всегда найдётся рыба крупнее"
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["618C92CA73D20365"]
+			hide: true
+			id: "7C8DA5AE005DFCD5"
+			tasks: [{
+				id: "763D6C81D64B4329"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "13FBEBF93DA2CE7D"
+					type: "random"
+					table_id: 5521523319258406185L
+				}
+				{
+					id: "0522860A6A6FC66A"
+					type: "random"
+					table_id: 5521523319258406185L
+				}
+			]
+		}
+		{
+			title: "А тут не на Святом Духе"
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["7D04972EF2DC8C21"]
+			hide: true
+			id: "4D8F6B275D592D7C"
+			tasks: [{
+				id: "0D09FC6E351C29F0"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "0A2B919487EB1E96"
+				type: "item"
+				item: {
+					id: "minecraft:red_dye"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"ПКМ по конвееру для цвета\"}"
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "Спрятать всё!"
+			icon: "create:andesite_encased_shaft"
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["6E77427C5344F329"]
+			hide: true
+			id: "52FF063202391F95"
+			tasks: [
+				{
+					id: "4B75220DB3650CF4"
+					type: "item"
+					item: "create:andesite_casing"
+				}
+				{
+					id: "0204DE28FCFE2BBF"
+					type: "observation"
+					timer: 50L
+					observe: "block:create:andesite_encased_shaft"
+				}
+			]
+			rewards: [{
+				id: "3AF0AA39A3EA91C8"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 5
+			}]
+		}
+		{
+			title: "Универсальный механизм"
+			x: 5.5d
+			y: 0.5d
+			dependencies: [
+				"2206D34C041302B9"
+				"4961B1FA6699CB30"
+			]
+			hide: true
+			id: "6ABC8CC432237483"
+			tasks: [{
+				id: "59161038E35835DD"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "1374134046E8E046"
+				type: "item"
+				item: "minecraft:smooth_quartz_slab"
+				count: 3
+			}]
+		}
+		{
+			title: "Верчу, как хочу"
+			x: -0.5d
+			y: 4.5d
+			description: [""]
+			dependencies: ["52FF063202391F95"]
+			hide: true
+			id: "5071CE9756F1F598"
+			tasks: [
+				{
+					id: "48FE35AB8BF0BF23"
+					type: "item"
+					item: "create:clutch"
+				}
+				{
+					id: "31A29931B98164D8"
+					type: "item"
+					item: "create:gearshift"
+				}
+			]
+			rewards: [{
+				id: "4A37B6AFAC599287"
+				type: "item"
+				item: "create:shaft"
+				count: 6
+			}]
+		}
+		{
+			title: "Манипуляция направлением"
+			x: -0.5d
+			y: 6.5d
+			dependencies: ["5071CE9756F1F598"]
+			hide: true
+			id: "646DF80DA88207FC"
+			tasks: [
+				{
+					id: "551289956C14CDE2"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "6F9101C0A0B1DE8B"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+			rewards: [{
+				id: "3273E0B175808CD5"
+				type: "item"
+				item: "create:shaft"
+				count: 10
+			}]
+		}
+		{
+			title: "А теперь все вместе"
+			x: -0.5d
+			y: 8.5d
+			dependencies: ["646DF80DA88207FC"]
+			hide: true
+			id: "019B7D45E9E954DD"
+			tasks: [{
+				id: "3F96B8BAA7C9A2EB"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+			rewards: [{
+				id: "74281C86C844E696"
+				type: "item"
+				item: "create:encased_chain_drive"
+				count: 2
+			}]
+		}
+		{
+			title: "Всесторонний поток"
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["6ABC8CC432237483"]
+			hide: true
+			id: "49D6FC52822B9902"
+			tasks: [{
+				id: "63AB0955ECD37F6A"
+				type: "item"
+				item: "create:nozzle"
+			}]
+			rewards: [{
+				id: "473A5B6884614848"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Кукуха едет"
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["601D4B1995798F04"]
+			hide: true
+			id: "306621A1E0FBB412"
+			tasks: [{
+				id: "0F97387B962B336B"
+				type: "item"
+				item: "create:cuckoo_clock"
+			}]
+			rewards: [{
+				id: "094E32EB47BD6279"
+				type: "item"
+				item: "botania:tiny_potato"
+			}]
+		}
+		{
+			title: "Автокраафт"
+			x: 3.5d
+			y: -3.5d
+			dependencies: [
+				"11960F801A7C0D1A"
+				"53A4552F92FE08BC"
+				"3419CABD5F6E8979"
+			]
+			id: "275F4FEC83426A08"
+			tasks: [{
+				id: "1339BBEE60DBBE5D"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "785F23F0A9117E3E"
+				type: "item"
+				item: "create:cogwheel"
+				count: 5
+			}]
+		}
+	]
+}

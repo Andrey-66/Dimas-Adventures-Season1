@@ -1,0 +1,17 @@
+{
+	id: "a86b4949-bfe0-4778-99a2-5ded412a3ba9"
+	type: "player"
+	player_name: "Andrey66"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Andrey66"
+		"ftbteams:color": "#D959FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

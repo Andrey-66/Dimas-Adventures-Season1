@@ -43,7 +43,7 @@
 				{
 					id: "4197BDB89B213DA7"
 					type: "command"
-					auto: "enabled"
+					auto: "invisible"
 					command: "/ftbquests change_progress @p reset 21863C6CE4EB3788"
 					player_command: false
 				}
@@ -75,7 +75,7 @@
 				{
 					id: "27680198079723E0"
 					type: "command"
-					auto: "enabled"
+					auto: "invisible"
 					command: "/ftbquests change_progress @p complete 1C419EDE48F79D02"
 					player_command: false
 				}
@@ -107,7 +107,7 @@
 				{
 					id: "3C558499FAE3DB4C"
 					type: "command"
-					auto: "enabled"
+					auto: "invisible"
 					command: "/ftbquests change_progress @p complete 6C86878085F12644"
 					player_command: false
 				}
@@ -139,6 +139,7 @@
 				{
 					id: "49B316B1B61365BE"
 					type: "command"
+					auto: "invisible"
 					command: "/ftbquests change_progress @p reset 342612B2CBC5EDA7"
 					player_command: false
 				}
@@ -148,7 +149,7 @@
 			title: "[SELL] Чешуя наги"
 			disable_toast: true
 			x: 0.5d
-			y: 0.5d
+			y: 1.5d
 			dependencies: ["00B0A3EE3E961EBB"]
 			hide: true
 			optional: true
@@ -169,7 +170,7 @@
 				{
 					id: "7C23EE96903B2127"
 					type: "command"
-					auto: "enabled"
+					auto: "invisible"
 					command: "/ftbquests change_progress @p reset 5B450857E65DEBE1"
 					player_command: false
 				}
@@ -180,7 +181,7 @@
 			icon: "twilightforest:naga_scale"
 			disable_toast: true
 			x: 1.5d
-			y: 0.5d
+			y: 1.5d
 			dependencies: ["00B0A3EE3E961EBB"]
 			hide: true
 			optional: true
@@ -210,8 +211,71 @@
 				{
 					id: "744138780E07357E"
 					type: "command"
-					auto: "enabled"
+					auto: "invisible"
 					command: "/ftbquests change_progress Andrey66 reset 2505295778E855D1"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[SELL] Кровавое ядро"
+			disable_toast: true
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["67F1D57F57C0F99A"]
+			hide: true
+			optional: true
+			id: "480BA95FDEF9DCBE"
+			tasks: [{
+				id: "5BE747E14680180A"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2724F8FDF0730029"
+					type: "item"
+					item: "calemiutils:coin_gold"
+					count: 10
+				}
+				{
+					id: "51B9FF09C6DD913F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 480BA95FDEF9DCBE"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Кровавое ядро"
+			icon: "evilcraft:blood_infusion_core"
+			disable_toast: true
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["67F1D57F57C0F99A"]
+			hide: true
+			optional: true
+			id: "02DD56DBBE1054E8"
+			tasks: [{
+				id: "50E875D40122CFD0"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 25L
+			}]
+			rewards: [
+				{
+					id: "5F5BE974B51E2704"
+					type: "item"
+					item: "evilcraft:blood_infusion_core"
+				}
+				{
+					id: "2AE87611C7058243"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 02DD56DBBE1054E8"
 					player_command: false
 				}
 			]

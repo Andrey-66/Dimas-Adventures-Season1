@@ -1,0 +1,27 @@
+{
+	id: "caed9147-2159-4ba9-ba85-4f531cfb8904"
+	type: "party"
+	owner: "a86b4949-bfe0-4778-99a2-5ded412a3ba9"
+	ranks: {
+		a86b4949-bfe0-4778-99a2-5ded412a3ba9: "owner"
+		c27c476a-e599-4b2c-b25f-4af229eab55a: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "Andrey66's Party"
+		"ftbteams:color": "#D959FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1637353745603L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"Andrey66\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "a86b4949-bfe0-4778-99a2-5ded412a3ba9", date: 1637353745628L, text: "{\"color\":\"green\",\"text\":\"Invited Niketats\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1637353748675L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Niketats\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "a86b4949-bfe0-4778-99a2-5ded412a3ba9", date: 1637447793615L, text: "{\"color\":\"red\",\"extra\":[{\"color\":\"yellow\",\"text\":\"Niketats\"},{\"text\":\" from \"},{\"color\":\"aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbteams info Andrey66sParty#caed9147\"},\"text\":\"Andrey66's Party\"}],\"text\":\"Kicked \"}" }
+		{ from: "a86b4949-bfe0-4778-99a2-5ded412a3ba9", date: 1637521857338L, text: "{\"color\":\"green\",\"text\":\"Invited Niketats\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1637521859059L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Niketats\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+	]
+	extra: { }
+}

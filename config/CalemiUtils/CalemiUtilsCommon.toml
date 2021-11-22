@@ -7,7 +7,7 @@
 
 [WorldGen]
 	#Raritanium Ore Gen
-	raritaniumOreGen = true
+	raritaniumOreGen = false
 	#Raritanium Veins Per Chunk
 	raritaniumOreVeinsPerChunk = 4
 	#Raritanium Vein Size
