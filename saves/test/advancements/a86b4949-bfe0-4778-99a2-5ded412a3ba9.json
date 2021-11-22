@@ -119,6 +119,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/polished_dolomite": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_blasting": {
     "criteria": {
       "has_gold_ore": "2021-11-19 05:00:08 +0300"
@@ -200,6 +206,18 @@
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2021-11-21 02:51:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2021-11-21 22:10:32 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/chiseled_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
     },
     "done": true
   },
@@ -581,6 +599,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/scoria_pillar": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/laputa_shard": {
     "criteria": {
       "has_item": "2021-11-20 06:49:35 +0300"
@@ -785,6 +809,12 @@
     },
     "done": true
   },
+  "create:mixer": {
+    "criteria": {
+      "0": "2021-11-21 23:00:35 +0300"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/purple_bed": {
     "criteria": {
       "has_purple_wool": "2021-11-19 04:46:14 +0300"
@@ -905,9 +935,21 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/chiseled_weathered_limestone_from_weathered_limestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_white_wool": "2021-11-19 04:40:51 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/chiseled_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
     },
     "done": true
   },
@@ -950,6 +992,12 @@
   "create:recipes/create.base/crafting/kinetics/millstone": {
     "criteria": {
       "has_item": "2021-11-21 03:29:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_weathered_limestone_bricks_from_weathered_limestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
     },
     "done": true
   },
@@ -1115,6 +1163,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/limestone_pillar_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/chute": {
     "criteria": {
       "has_item": "2021-11-21 03:29:02 +0300"
@@ -1187,6 +1241,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/limestone_pillar": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2021-11-19 04:05:25 +0300"
@@ -1244,6 +1304,12 @@
   "botania:main/bauble_wear": {
     "criteria": {
       "code_triggered": "2021-11-19 04:57:38 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
     },
     "done": true
   },
@@ -1349,6 +1415,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/mossy_limestone_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_hoe": "2021-11-19 03:41:32 +0300"
@@ -1388,6 +1460,12 @@
   "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
       "has_red_dye": "2021-11-21 01:06:39 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/crafting/palettes/dark_scoria": {
+    "criteria": {
+      "has_item": "2021-11-21 23:58:13 +0300"
     },
     "done": true
   },
@@ -1654,6 +1732,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/fancy_scoria_bricks_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/manasteel_axe": {
     "criteria": {
       "has_item": "2021-11-19 03:16:39 +0300"
@@ -1732,6 +1816,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/overgrown_limestone_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
+    },
+    "done": true
+  },
   "enigmaticlegacy:recipes/generic/berserk_emblem": {
     "criteria": {
       "has_parent_recipe": "2021-11-19 05:14:33 +0300"
@@ -1741,6 +1831,12 @@
   "botania:recipes/botania/terrasteel_block": {
     "criteria": {
       "has_item": "2021-11-19 04:34:58 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/mossy_weathered_limestone_from_weathered_limestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
     },
     "done": true
   },
@@ -2044,6 +2140,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/dolomite_cobblestone_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2021-11-19 03:31:26 +0300"
@@ -2102,6 +2204,12 @@
   "botania:recipes/botania/redstone_spreader": {
     "criteria": {
       "has_item": "2021-11-19 03:01:43 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/weathered_limestone_pillar_from_weathered_limestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
     },
     "done": true
   },
@@ -2180,6 +2288,12 @@
   "botania:recipes/botania/mushroom_10": {
     "criteria": {
       "has_item": "2021-11-19 04:13:50 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_weathered_limestone_from_weathered_limestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
     },
     "done": true
   },
@@ -2577,6 +2691,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/fancy_limestone_bricks_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/pool_minecart": {
     "criteria": {
       "has_item": "2021-11-21 02:51:24 +0300"
@@ -2829,6 +2949,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/weathered_limestone_cobblestone_from_weathered_limestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/apothecary_fungal": {
     "criteria": {
       "has_flower_item": "2021-11-19 03:55:13 +0300"
@@ -2850,6 +2976,12 @@
   "minecraft:recipes/redstone/jungle_door": {
     "criteria": {
       "has_planks": "2021-11-19 03:48:09 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/fancy_dolomite_bricks_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
     },
     "done": true
   },
@@ -2973,6 +3105,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/dolomite_bricks_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_stained_glass": {
     "criteria": {
       "has_glass": "2021-11-19 04:47:50 +0300"
@@ -3043,6 +3181,12 @@
   "naturescompass:natures_compass": {
     "criteria": {
       "has_recipe": "2021-11-19 02:58:19 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/overgrown_weathered_limestone_from_weathered_limestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
     },
     "done": true
   },
@@ -3180,6 +3324,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/polished_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2021-11-19 03:16:38 +0300"
@@ -3246,6 +3396,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/layered_weathered_limestone_from_weathered_limestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_stone_slab": {
     "criteria": {
       "has_item": "2021-11-19 05:33:33 +0300"
@@ -3261,6 +3417,12 @@
   "create:recipes/create.palettes/ornate_iron_window": {
     "criteria": {
       "has_ingredient": "2021-11-21 03:29:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_limestone_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
     },
     "done": true
   },
@@ -3587,6 +3749,7 @@
       "minecraft:pillager": "2021-11-20 21:49:54 +0300",
       "minecraft:skeleton": "2021-11-19 23:27:59 +0300",
       "minecraft:spider": "2021-11-21 00:35:08 +0300",
+      "minecraft:creeper": "2021-11-21 22:11:49 +0300",
       "minecraft:slime": "2021-11-20 04:48:39 +0300",
       "minecraft:zombified_piglin": "2021-11-19 05:43:02 +0300",
       "minecraft:witch": "2021-11-19 23:36:12 +0300",
@@ -3684,6 +3847,12 @@
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2021-11-20 21:49:56 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/weathered_limestone_pillar": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
     },
     "done": true
   },
@@ -3825,6 +3994,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/polished_weathered_limestone": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/golden_seeds": {
     "criteria": {
       "has_item": "2021-11-19 05:07:47 +0300"
@@ -3891,6 +4066,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/mossy_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
+    },
+    "done": true
+  },
   "enigmaticlegacy:recipes/generic/gem_ring": {
     "criteria": {
       "has_parent_recipe": "2021-11-19 03:16:38 +0300",
@@ -3931,6 +4112,12 @@
   "botania:recipes/botania/conjuration_catalyst": {
     "criteria": {
       "has_alt_item": "2021-11-19 04:38:30 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_pillar": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
     },
     "done": true
   },
@@ -4174,6 +4361,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/weathered_limestone_bricks_from_weathered_limestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_carpet": {
     "criteria": {
       "has_gray_wool": "2021-11-19 04:41:01 +0300"
@@ -4294,6 +4487,12 @@
   "botania:recipes/botania/abstruse_platform": {
     "criteria": {
       "has_item": "2021-11-19 03:19:35 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/scoria_bricks_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
     },
     "done": true
   },
@@ -4488,6 +4687,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/chiseled_limestone_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
       "has_stone": "2021-11-19 03:00:19 +0300"
@@ -4626,6 +4831,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/layered_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
+    },
+    "done": true
+  },
   "twilightforest:alt/treasures/tools": {
     "criteria": {
       "2": "2021-11-20 06:02:01 +0300",
@@ -4642,6 +4853,12 @@
   "botania:recipes/botania/star_sword": {
     "criteria": {
       "has_terrasteel": "2021-11-19 04:34:58 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_scoria": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
     },
     "done": true
   },
@@ -4747,6 +4964,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/polished_limestone": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/metamorphic_taiga_cobblestone_stairs": {
     "criteria": {
       "has_flower_item": "2021-11-19 03:55:13 +0300"
@@ -4810,6 +5033,12 @@
   "botania:recipes/botania/floating_vinculotus": {
     "criteria": {
       "has_item": "2021-11-19 03:42:50 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
     },
     "done": true
   },
@@ -5059,6 +5288,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/scoria_pillar_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/apothecary_plains": {
     "criteria": {
       "has_flower_item": "2021-11-19 03:55:13 +0300"
@@ -5131,6 +5366,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/overgrown_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_concrete_powder": {
     "criteria": {
       "has_sand": "2021-11-19 03:50:32 +0300"
@@ -5182,6 +5423,12 @@
   "create:recipes/create.base/crafting/logistics/andesite_funnel": {
     "criteria": {
       "has_item": "2021-11-21 03:29:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_pillar_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
     },
     "done": true
   },
@@ -5272,6 +5519,12 @@
   "botania:recipes/botania/floating_fallen_kanade": {
     "criteria": {
       "has_item": "2021-11-19 04:01:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/smelting/scoria_from_natural": {
+    "criteria": {
+      "has_item": "2021-11-22 00:01:11 +0300"
     },
     "done": true
   },
@@ -5380,6 +5633,12 @@
   "botania:recipes/botania/chiseled_metamorphic_plains_bricks": {
     "criteria": {
       "has_flower_item": "2021-11-19 03:55:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/mossy_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
     },
     "done": true
   },
@@ -5563,6 +5822,18 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/layered_limestone_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/magnet_ring": {
     "criteria": {
       "has_item": "2021-11-19 03:16:39 +0300"
@@ -5632,6 +5903,12 @@
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2021-11-19 04:47:50 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/scoria_cobblestone_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
     },
     "done": true
   },
@@ -5728,6 +6005,12 @@
   "apotheosis:spawner/capturing": {
     "criteria": {
       "egg": "2021-11-19 03:43:24 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/paved_weathered_limestone_from_weathered_limestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
     },
     "done": true
   },
@@ -5848,6 +6131,12 @@
   "botania:recipes/botania/hourglass": {
     "criteria": {
       "has_item": "2021-11-21 07:55:48 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/limestone_bricks_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
     },
     "done": true
   },
@@ -6079,6 +6368,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/layered_dolomite_from_dolomite_stonecutting": {
+    "criteria": {
+      "has_dolomite": "2021-11-21 23:58:03 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/crafting_halo": {
     "criteria": {
       "has_item": "2021-11-19 03:19:35 +0300"
@@ -6094,6 +6389,18 @@
   "botania:recipes/botania/metamorphic_mesa_bricks_slab": {
     "criteria": {
       "has_flower_item": "2021-11-19 03:55:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/limestone_cobblestone_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/polished_limestone_from_limestone_stonecutting": {
+    "criteria": {
+      "has_limestone": "2021-11-21 23:57:52 +0300"
     },
     "done": true
   },
@@ -6226,6 +6533,12 @@
   "create:recipes/create.base/crafting/kinetics/linear_chassis": {
     "criteria": {
       "has_item": "2021-11-21 03:29:02 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/overgrown_scoria_from_scoria_stonecutting": {
+    "criteria": {
+      "has_scoria": "2021-11-21 23:58:13 +0300"
     },
     "done": true
   },
