@@ -70,6 +70,19 @@
           }
         ]
       }
+<<<<<<< HEAD
+    },
+    {
+      "name": "Botaniapurpuresanctuary",
+      "type": "structure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "botaniapurpuresanctuary",
+      "path": "~/botania_sanctuarys"
+=======
+>>>>>>> master
     }
   ],
   "variable_elements": [],

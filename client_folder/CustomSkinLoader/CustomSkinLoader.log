@@ -1,43 +1,50 @@
-[2021-11-22 06:11:23] [Render thread INFO] CustomSkinLoader 14.13-SNAPSHOT-303
-[2021-11-22 06:11:23] [Render thread INFO] DataDir: /home/andrey/git/Minecraft-Server/client/CustomSkinLoader
-[2021-11-22 06:11:23] [Render thread INFO] Operating System: Linux (amd64) version 5.4.0-90-generic
-[2021-11-22 06:11:23] [Render thread INFO] Java Version: 1.8.0_202, Oracle Corporation
-[2021-11-22 06:11:23] [Render thread INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-[2021-11-22 06:11:23] [Render thread INFO] Minecraft: 1.16.5(1.16.5-forge-36.2.9)
-[2021-11-22 06:11:23] [Render thread INFO] Config File: /home/andrey/git/Minecraft-Server/client/CustomSkinLoader/CustomSkinLoader.json
-[2021-11-22 06:11:23] [Render thread INFO] Config file not found, use default instead.
-[2021-11-22 06:11:23] [Render thread INFO] Successfully create config.
-[2021-11-22 06:11:23] [Render thread INFO] Add a profile loader: MojangAPI
-[2021-11-22 06:11:23] [Render thread INFO] Add a profile loader: Legacy
-[2021-11-22 06:11:23] [Render thread INFO] Add a profile loader: CustomSkinAPI
-[2021-11-22 06:11:23] [Render thread INFO] Add a profile loader: CustomSKinAPIPlus
-[2021-11-22 06:11:23] [Render thread INFO] Add a profile loader: UniSkinAPI
-[2021-11-22 06:11:23] [Render thread INFO] Add a profile loader: ElyByAPI
-[2021-11-22 06:11:23] [Render thread INFO] Add a profile loader: GlitchlessAPI
-[2021-11-22 06:11:23] [Render thread INFO] Successfully update config.
-[2021-11-22 06:11:23] [Render thread INFO] version : 14.13
-[2021-11-22 06:11:23] [Render thread INFO] buildNumber : 303
-[2021-11-22 06:11:23] [Render thread INFO] loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littlesk.in/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "http://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }]
-[2021-11-22 06:11:23] [Render thread INFO] enableDynamicSkull : true
-[2021-11-22 06:11:23] [Render thread INFO] enableTransparentSkin : true
-[2021-11-22 06:11:23] [Render thread INFO] forceIgnoreHttpsCertificate : false
-[2021-11-22 06:11:23] [Render thread INFO] forceLoadAllTextures : false
-[2021-11-22 06:11:23] [Render thread INFO] enableCape : true
-[2021-11-22 06:11:23] [Render thread INFO] forceFillSkullNBT : false
-[2021-11-22 06:11:23] [Render thread INFO] threadPoolSize : 3
-[2021-11-22 06:11:23] [Render thread INFO] retryTime : 1
-[2021-11-22 06:11:23] [Render thread INFO] cacheExpiry : 30
-[2021-11-22 06:11:23] [Render thread INFO] forceUpdateSkull : false
-[2021-11-22 06:11:23] [Render thread INFO] enableLocalProfileCache : false
-[2021-11-22 06:11:23] [Render thread INFO] enableCacheAutoClean : false
-[2021-11-22 06:11:23] [Render thread INFO] forceDisableCache : false
-[2021-11-22 06:13:16] [Andrey66 INFO] Loading Andrey66's profile.
-[2021-11-22 06:13:16] [Andrey66 INFO] 1/8 Try to load profile from 'Mojang'.
-[2021-11-22 06:13:16] [Andrey66 INFO] Default profile will be used.
-[2021-11-22 06:13:16] [Andrey66 INFO] Andrey66's profile loaded.
-[2021-11-22 06:13:16] [Andrey66 INFO] (SkinUrl: http://textures.minecraft.net/texture/1ff7e82c0fb3b197570d8bdb30c3058ca57badd4362ca36c032be926d6931b38 , Model: default , CapeUrl: null  , Expiry: 1637550826)
-[2021-11-22 06:13:16] [Andrey66 DEBUG] Try to request 'http://textures.minecraft.net/texture/1ff7e82c0fb3b197570d8bdb30c3058ca57badd4362ca36c032be926d6931b38'.
-[2021-11-22 06:13:16] [Andrey66 DEBUG] Successfully request (Response Code: 200 , Content Length: 1490)
-[2021-11-22 06:13:16] [Andrey66 DEBUG] Saved to cache (Length: 1490 , Path: '/home/andrey/.minecraft/assets/skins/1f/1ff7e82c0fb3b197570d8bdb30c3058ca57badd4362ca36c032be926d6931b38' , Expire: -1)
-[2021-11-22 06:13:16] [Render thread DEBUG] Loading type: SKIN
-[2021-11-22 06:13:16] [Render thread INFO] ThreadDownloadImageData Class: net.minecraft.client.renderer.texture.DownloadingTexture
+[2021-11-22 12:18:40] [Render thread INFO] CustomSkinLoader 14.13-SNAPSHOT-303
+[2021-11-22 12:18:40] [Render thread INFO] DataDir: /home/andrey/git/Minecraft-Server/client_folder/CustomSkinLoader
+[2021-11-22 12:18:40] [Render thread INFO] Operating System: Linux (amd64) version 5.4.0-90-generic
+[2021-11-22 12:18:40] [Render thread INFO] Java Version: 1.8.0_202, Oracle Corporation
+[2021-11-22 12:18:40] [Render thread INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[2021-11-22 12:18:40] [Render thread INFO] Minecraft: 1.16.5(1.16.5-forge-36.2.9)
+[2021-11-22 12:18:40] [Render thread INFO] Config File: /home/andrey/git/Minecraft-Server/client_folder/CustomSkinLoader/CustomSkinLoader.json
+[2021-11-22 12:18:40] [Render thread INFO] Try to load config.
+[2021-11-22 12:18:40] [Render thread INFO] Successfully load config.
+[2021-11-22 12:18:40] [Render thread INFO] Add a profile loader: MojangAPI
+[2021-11-22 12:18:40] [Render thread INFO] Add a profile loader: Legacy
+[2021-11-22 12:18:40] [Render thread INFO] Add a profile loader: CustomSkinAPI
+[2021-11-22 12:18:40] [Render thread INFO] Add a profile loader: CustomSKinAPIPlus
+[2021-11-22 12:18:40] [Render thread INFO] Add a profile loader: UniSkinAPI
+[2021-11-22 12:18:40] [Render thread INFO] Add a profile loader: ElyByAPI
+[2021-11-22 12:18:40] [Render thread INFO] Add a profile loader: GlitchlessAPI
+[2021-11-22 12:18:40] [Render thread INFO] Successfully update config.
+[2021-11-22 12:18:40] [Render thread INFO] version : 14.13
+[2021-11-22 12:18:40] [Render thread INFO] buildNumber : 303
+[2021-11-22 12:18:40] [Render thread INFO] loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littlesk.in/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "http://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }]
+[2021-11-22 12:18:40] [Render thread INFO] enableDynamicSkull : true
+[2021-11-22 12:18:40] [Render thread INFO] enableTransparentSkin : true
+[2021-11-22 12:18:40] [Render thread INFO] forceIgnoreHttpsCertificate : false
+[2021-11-22 12:18:40] [Render thread INFO] forceLoadAllTextures : false
+[2021-11-22 12:18:40] [Render thread INFO] enableCape : true
+[2021-11-22 12:18:40] [Render thread INFO] forceFillSkullNBT : false
+[2021-11-22 12:18:40] [Render thread INFO] threadPoolSize : 3
+[2021-11-22 12:18:40] [Render thread INFO] retryTime : 1
+[2021-11-22 12:18:40] [Render thread INFO] cacheExpiry : 30
+[2021-11-22 12:18:40] [Render thread INFO] forceUpdateSkull : false
+[2021-11-22 12:18:40] [Render thread INFO] enableLocalProfileCache : false
+[2021-11-22 12:18:40] [Render thread INFO] enableCacheAutoClean : false
+[2021-11-22 12:18:40] [Render thread INFO] forceDisableCache : false
+[2021-11-22 12:22:05] [Andrey66 INFO] Loading Andrey66's profile.
+[2021-11-22 12:22:05] [Andrey66 INFO] 1/8 Try to load profile from 'Mojang'.
+[2021-11-22 12:22:05] [Andrey66 INFO] Default profile will be used.
+[2021-11-22 12:22:05] [Andrey66 INFO] Andrey66's profile loaded.
+[2021-11-22 12:22:05] [Andrey66 INFO] (SkinUrl: http://textures.minecraft.net/texture/1ff7e82c0fb3b197570d8bdb30c3058ca57badd4362ca36c032be926d6931b38 , Model: default , CapeUrl: null  , Expiry: 1637572955)
+[2021-11-22 12:22:05] [Andrey66 DEBUG] Try to request 'http://textures.minecraft.net/texture/1ff7e82c0fb3b197570d8bdb30c3058ca57badd4362ca36c032be926d6931b38'.
+[2021-11-22 12:22:05] [Andrey66 DEBUG] Cache file found (Length: 1490 , Path: '/home/andrey/.minecraft/assets/skins/1f/1ff7e82c0fb3b197570d8bdb30c3058ca57badd4362ca36c032be926d6931b38' , Expire: 0)
+[2021-11-22 12:22:05] [Render thread DEBUG] Loading type: SKIN
+[2021-11-22 12:22:05] [Render thread INFO] ThreadDownloadImageData Class: net.minecraft.client.renderer.texture.DownloadingTexture
+[2021-11-22 12:38:22] [Andrey66 INFO] Loading Andrey66's profile.
+[2021-11-22 12:38:22] [Andrey66 INFO] 1/8 Try to load profile from 'Mojang'.
+[2021-11-22 12:38:22] [Andrey66 INFO] Default profile will be used.
+[2021-11-22 12:38:22] [Andrey66 INFO] Andrey66's profile loaded.
+[2021-11-22 12:38:22] [Andrey66 INFO] (SkinUrl: http://textures.minecraft.net/texture/1ff7e82c0fb3b197570d8bdb30c3058ca57badd4362ca36c032be926d6931b38 , Model: default , CapeUrl: null  , Expiry: 1637573932)
+[2021-11-22 12:38:22] [Andrey66 DEBUG] Try to request 'http://textures.minecraft.net/texture/1ff7e82c0fb3b197570d8bdb30c3058ca57badd4362ca36c032be926d6931b38'.
+[2021-11-22 12:38:22] [Andrey66 DEBUG] Cache file found (Length: 1490 , Path: '/home/andrey/.minecraft/assets/skins/1f/1ff7e82c0fb3b197570d8bdb30c3058ca57badd4362ca36c032be926d6931b38' , Expire: 0)
+[2021-11-22 12:38:22] [Render thread DEBUG] Loading type: SKIN
