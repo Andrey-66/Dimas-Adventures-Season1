@@ -163,6 +163,7 @@
 #746434 create:limestone
 #5FCAC2 botania:livingrock
 #62120A botania:livingwood
+#4B407F waystones:magenta_sharestone
 #DE9468 minecraft:magma_block
 #73C57B mahoutsukai:mahoujin_projector
 #413783 mahoutsukai:mana_circuit_magitech
@@ -217,6 +218,7 @@
 #855CF4 minecraft:oak_trapdoor
 #4A5E4E minecraft:obsidian
 #42E883 byg:orange_oak_leaves
+#6E3DDA waystones:orange_sharestone
 #8F6314 minecraft:orange_tulip
 #B29458 mekanism:osmium_ore
 #BE2B3C byg:overgrown_dacite

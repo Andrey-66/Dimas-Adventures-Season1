@@ -276,6 +276,7 @@
       ],
       "bookmarks": [],
       "history": [
+        "botania:mana/pool",
         "botania:devices/complex_brews",
         "botania:devices/incense",
         "botania:devices/brewery",
@@ -287,8 +288,7 @@
         "botania:ender/black_hole_talisman",
         "botania:ender/red_string",
         "botania:ender/flight_tiara",
-        "botania:ender/ender_eye_block",
-        "botania:basics/terrasteel"
+        "botania:ender/ender_eye_block"
       ],
       "completedManualQuests": []
     },

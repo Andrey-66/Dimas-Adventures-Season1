@@ -2589,6 +2589,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2021-11-23 02:32:39 +0300"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/gray_seat": {
     "criteria": {
       "has_wool": "2021-11-19 03:52:17 +0300"
@@ -2856,6 +2862,12 @@
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2021-11-19 04:58:35 +0300"
+    },
+    "done": true
+  },
+  "create:crushing_wheel": {
+    "criteria": {
+      "0": "2021-11-23 02:43:09 +0300"
     },
     "done": true
   },

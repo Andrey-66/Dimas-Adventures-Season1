@@ -1,6 +1,7 @@
 onEvent('recipes', event => {
     event.remove({id: 'create:crafting/materials/andesite_alloy'})
     event.remove({id: 'create:crafting/materials/andesite_alloy_from_zinc'})
+    event.remove({output: 'create:crushing_wheel'})
 
     event.remove({output: 'create:water_wheel'})
     event.shaped('create:water_wheel', [
