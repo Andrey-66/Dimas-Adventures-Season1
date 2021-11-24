@@ -31,3 +31,7 @@
     [[<item:minecraft:powered_rail>, <item:minecraft:air>, <item:minecraft:powered_rail>], 
     [<item:minecraft:powered_rail>, <item:create:controller_rail>, <item:minecraft:powered_rail>],
     [<item:minecraft:powered_rail>,<item:minecraft:air>, <item:minecraft:powered_rail>]]);  
+
+<recipetype:create:mechanical_crafting>.addRecipe("minecart_coupling", <item:create:minecart_coupling>, 
+    [[<item:create:andesite_alloy>, <item:thermal:iron_plate>, <item:tconstruct:tool_handle>.withTag({Material: "tconstruct:iron" as string}), 
+    <item:thermal:iron_plate>, <item:create:andesite_alloy>]]);

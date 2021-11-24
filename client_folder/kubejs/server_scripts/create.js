@@ -7,7 +7,10 @@ onEvent('recipes', event => {
     event.remove({output: 'minecraft:detector_rail'})
     event.remove({output: 'create:electron_tube'})
     event.remove({output: 'minecraft:minecart'})
+    event.remove({output: 'create:minecart_coupling'})
     event.remove({output: 'create:goggles'})
+    event.remove({output: 'create:copper_valve_handle'})
+
 
 
 

@@ -119,6 +119,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/cyan_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/polished_dolomite": {
     "criteria": {
       "has_dolomite": "2021-11-21 23:58:03 +0300"
@@ -269,6 +275,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/light_gray_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2021-11-19 03:16:38 +0300"
@@ -278,6 +290,12 @@
   "twilightforest:alt/entities/naga": {
     "criteria": {
       "hurt": "2021-11-19 04:24:41 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/light_blue_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -644,6 +662,12 @@
   "botania:recipes/botania/lens_firework": {
     "criteria": {
       "has_item": "2021-11-19 04:38:30 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/yellow_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -1726,6 +1750,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/black_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/floating_rosa_arcana": {
     "criteria": {
       "has_item": "2021-11-19 03:37:16 +0300"
@@ -1783,6 +1813,12 @@
   "tconstruct:recipes/tconstruct/general/common/puny_smelting": {
     "criteria": {
       "has_item": "2021-11-19 05:28:48 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/blue_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -2309,6 +2345,12 @@
     },
     "done": true
   },
+  "enigmaticlegacy:book/misc/hunter_guide": {
+    "criteria": {
+      "has_the_recipe": "2021-11-24 09:48:16 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/mushroom_10": {
     "criteria": {
       "has_item": "2021-11-19 04:13:50 +0300"
@@ -2565,6 +2607,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2021-11-24 09:49:46 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/white_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/magenta_shiny_flower": {
     "criteria": {
       "has_item": "2021-11-19 03:45:28 +0300"
@@ -2688,6 +2742,12 @@
   "minecraft:recipes/misc/coal_from_smelting": {
     "criteria": {
       "has_coal_ore": "2021-11-21 04:22:21 +0300"
+    },
+    "done": true
+  },
+  "betterendforge:recipes/betterendforge/ender_block": {
+    "criteria": {
+      "has_ender_pearl": "2021-11-24 09:48:16 +0300"
     },
     "done": true
   },
@@ -2973,6 +3033,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/gray_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2021-11-21 00:48:00 +0300"
@@ -3054,6 +3120,12 @@
   "botania:recipes/botania/drum_gathering": {
     "criteria": {
       "has_item": "2021-11-19 04:38:30 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/hunter_guide": {
+    "criteria": {
+      "has_items": "2021-11-24 09:48:16 +0300"
     },
     "done": true
   },
@@ -3315,6 +3387,12 @@
   "create:recipes/create.base/crafting/kinetics/nozzle": {
     "criteria": {
       "has_item": "2021-11-21 05:57:41 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/magenta_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -3594,6 +3672,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/purple_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2021-11-19 02:58:35 +0300"
@@ -3681,6 +3765,12 @@
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2021-11-19 03:50:32 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/brown_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -3932,6 +4022,12 @@
   "minecraft:recipes/decorations/yellow_bed": {
     "criteria": {
       "has_yellow_wool": "2021-11-19 04:40:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/red_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -4257,6 +4353,12 @@
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2021-11-19 03:50:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/lime_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -4808,6 +4910,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2021-11-24 09:49:46 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/mushroom_2": {
     "criteria": {
       "has_item": "2021-11-19 04:13:50 +0300"
@@ -5247,6 +5355,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/green_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_red_mushroom": "2021-11-19 04:13:50 +0300"
@@ -5556,6 +5670,12 @@
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/seared_bricks_crafting": {
     "criteria": {
       "has_item": "2021-11-19 05:33:33 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/pink_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -6114,6 +6234,12 @@
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2021-11-19 22:10:10 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/orange_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
