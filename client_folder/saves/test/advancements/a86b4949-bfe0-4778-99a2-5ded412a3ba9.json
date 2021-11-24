@@ -695,6 +695,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/speedometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2021-11-24 09:01:33 +0300"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/gearboxfrom_conversion": {
     "criteria": {
       "has_item": "2021-11-21 02:59:16 +0300"
@@ -998,6 +1004,12 @@
   "create:recipes/create.palettes/fancy_weathered_limestone_bricks_from_weathered_limestone_stonecutting": {
     "criteria": {
       "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/stressometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2021-11-24 09:01:34 +0300"
     },
     "done": true
   },
@@ -2340,6 +2352,12 @@
   "botania:recipes/botania/mushroom_11": {
     "criteria": {
       "has_item": "2021-11-19 04:13:50 +0300"
+    },
+    "done": true
+  },
+  "create:goggles": {
+    "criteria": {
+      "0": "2021-11-24 08:57:36 +0300"
     },
     "done": true
   },
@@ -5556,6 +5574,12 @@
   "botania:recipes/botania/conversions/elementium_block_deconstruct": {
     "criteria": {
       "has_item": "2021-11-19 04:38:30 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:tools/make_part": {
+    "criteria": {
+      "crafted_part": "2021-11-24 08:59:30 +0300"
     },
     "done": true
   },

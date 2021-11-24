@@ -5,7 +5,11 @@ onEvent('recipes', event => {
     event.remove({output: 'minecraft:powered_rail'})
     event.remove({output: 'minecraft:activator_rail'})
     event.remove({output: 'minecraft:detector_rail'})
+    event.remove({output: 'create:electron_tube'})
     event.remove({output: 'minecraft:minecart'})
+    event.remove({output: 'create:goggles'})
+
+
 
     event.remove({output: 'create:crushing_wheel'})
 

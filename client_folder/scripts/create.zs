@@ -17,12 +17,17 @@
     [<tag:items:forge:dusts/gold>, <item:minecraft:rail>, <tag:items:forge:dusts/gold>],
     [<tag:items:forge:dusts/gold>,<item:minecraft:air>, <tag:items:forge:dusts/gold>]]); 
 
-<recipetype:create:mechanical_crafting>.addRecipe("activato_rail",<item:minecraft:activator_rail>, 
+<recipetype:create:mechanical_crafting>.addRecipe("activato_rail", <item:minecraft:activator_rail>, 
     [[<item:minecraft:redstone>, <item:minecraft:air>, <item:minecraft:redstone>], 
     [<item:minecraft:redstone>, <item:minecraft:rail>, <item:minecraft:redstone>],
     [<item:minecraft:redstone>,<item:minecraft:air>, <item:minecraft:redstone>]]); 
 
-<recipetype:create:mechanical_crafting>.addRecipe("detector_rail",<item:minecraft:detector_rail>, 
+<recipetype:create:mechanical_crafting>.addRecipe("detector_rail", <item:minecraft:detector_rail>, 
     [[<item:minecraft:stone_pressure_plate>], 
     [<item:minecraft:rail>],
     [<item:minecraft:redstone_block>]]); 
+
+<recipetype:create:mechanical_crafting>.addRecipe("controller_rail", <item:create:controller_rail> * 6, 
+    [[<item:minecraft:powered_rail>, <item:minecraft:air>, <item:minecraft:powered_rail>], 
+    [<item:minecraft:powered_rail>, <item:create:controller_rail>, <item:minecraft:powered_rail>],
+    [<item:minecraft:powered_rail>,<item:minecraft:air>, <item:minecraft:powered_rail>]]);  

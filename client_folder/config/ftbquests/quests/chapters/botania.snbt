@@ -4704,5 +4704,26 @@
 				}
 			}]
 		}
+		{
+			title: "Дорога сковзь пространство"
+			x: 8.0d
+			y: 1.0d
+			dependencies: [
+				"10471CA125C2A378"
+				"00B0A3EE3E961EBB"
+			]
+			id: "410A47594FC3C0F9"
+			tasks: [{
+				id: "69F78F1571BA924C"
+				type: "item"
+				item: "botania:ghost_rail"
+			}]
+			rewards: [{
+				id: "088425591C6FD9D2"
+				type: "item"
+				item: "minecraft:powered_rail"
+				count: 5
+			}]
+		}
 	]
 }

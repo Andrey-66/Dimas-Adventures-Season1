@@ -166,3 +166,79 @@ Copied!
 [08:36:27.756][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
 [08:36:27.757][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
 [08:36:27.793][DONE][CLIENT][INFO] Finished loading Scripts!
+Item: <item:create:controller_rail>
+Block: <block:create:controller_rail>
+BlockState: <blockstate:create:controller_rail:shape=north_south,power=0,backwards=false>
+Block Tag Entries
+    -  <tag:blocks:minecraft:prevent_mob_spawning_inside>
+    -  <tag:blocks:minecraft:rails>
+    -  <tag:blocks:create:wrench_pickup>
+Copied!
+Item: <item:create:electron_tube>
+Copied!
+Item: <item:minecraft:powered_rail>
+Block: <block:minecraft:powered_rail>
+BlockState: <blockstate:minecraft:powered_rail:powered=false,shape=north_south>
+Item Tag Entries
+    -  <tag:items:minecraft:rails>
+Block Tag Entries
+    -  <tag:blocks:minecraft:prevent_mob_spawning_inside>
+    -  <tag:blocks:minecraft:rails>
+    -  <tag:blocks:create:wrench_pickup>
+Copied!
+Item: <item:create:goggles>
+Copied!
+Item: <item:botania:cosmetic_engineer_goggles>
+Item Tag Entries
+    -  <tag:items:curios:curio>
+Copied!
+Item: <item:botania:itemfinder>
+Item Tag Entries
+    -  <tag:items:curios:head>
+Copied!
+Item: <item:tconstruct:tool_handle>.withTag({Material: "tconstruct:electrum" as string})
+Item Tag Entries
+    -  <tag:items:tconstruct:parts>
+Copied!
+Item: <item:create:stressometer>
+Block: <block:create:stressometer>
+BlockState: <blockstate:create:stressometer:facing=north,axis_along_first=true>
+Copied!
+Item: <item:create:speedometer>
+Block: <block:create:speedometer>
+BlockState: <blockstate:create:speedometer:facing=north,axis_along_first=true>
+Copied!
+[09:07:31.473][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[09:07:31.555][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[09:07:31.556][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
+[09:07:31.556][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
+[09:07:31.557][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
+[09:07:31.557][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
+[09:07:31.623][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[09:07:31.623][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[09:07:31.624][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[09:07:31.625][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[09:07:31.626][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[09:07:31.626][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[09:07:31.627][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[09:07:31.628][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[09:07:31.628][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[09:07:31.630][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[09:07:31.631][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[09:07:31.631][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[09:07:31.632][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[09:07:31.632][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[09:07:31.632][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[09:07:31.633][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[09:07:31.633][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[09:07:31.633][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[09:07:31.633][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[09:07:31.634][DONE][SERVER][INFO] Finished loading Scripts!
+[09:07:31.634][DONE][SERVER][INFO] This reload was made possible by JDaddy and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[09:07:37.338][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[09:07:37.413][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[09:07:37.414][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[09:07:37.414][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[09:07:37.415][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[09:07:37.416][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[09:07:37.446][DONE][CLIENT][INFO] Finished loading Scripts!
