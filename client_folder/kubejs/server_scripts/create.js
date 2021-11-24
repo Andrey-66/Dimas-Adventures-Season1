@@ -1,6 +1,12 @@
 onEvent('recipes', event => {
     event.remove({id: 'create:crafting/materials/andesite_alloy'})
     event.remove({id: 'create:crafting/materials/andesite_alloy_from_zinc'})
+    event.remove({output: 'minecraft:rail'})
+    event.remove({output: 'minecraft:powered_rail'})
+    event.remove({output: 'minecraft:activator_rail'})
+    event.remove({output: 'minecraft:detector_rail'})
+    event.remove({output: 'minecraft:minecart'})
+
     event.remove({output: 'create:crushing_wheel'})
 
     event.remove({output: 'create:water_wheel'})

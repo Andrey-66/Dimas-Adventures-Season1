@@ -1457,6 +1457,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/general/common/materials/queens_slime_block_from_ingots": {
+    "criteria": {
+      "has_item": "2021-11-23 03:24:11 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
       "has_red_dye": "2021-11-21 01:06:39 +0300"
@@ -2152,6 +2158,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/soul_vulture": {
+    "criteria": {
+      "killed": "2021-11-23 03:36:05 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_sand": "2021-11-19 03:50:32 +0300"
@@ -2664,6 +2676,12 @@
   "ironchest:recipes/ironchest/upgrades/diamond_to_obsidian_chest_upgrade": {
     "criteria": {
       "has_glass": "2021-11-19 04:47:50 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/materials/queens_slime_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2021-11-23 03:24:11 +0300"
     },
     "done": true
   },
@@ -3669,6 +3687,12 @@
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2021-11-19 03:26:18 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/controller_rail": {
+    "criteria": {
+      "has_item": "2021-11-23 03:49:42 +0300"
     },
     "done": true
   },
@@ -4850,6 +4874,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/general/common/materials/slimesteel_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2021-11-23 03:21:01 +0300"
+    },
+    "done": true
+  },
   "twilightforest:alt/treasures/tools": {
     "criteria": {
       "2": "2021-11-20 06:02:01 +0300",
@@ -5064,6 +5094,12 @@
   "create:recipes/create.base/crafting/kinetics/mechanical_piston": {
     "criteria": {
       "has_item": "2021-11-21 05:52:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2021-11-24 08:33:45 +0300"
     },
     "done": true
   },
@@ -6378,6 +6414,12 @@
   "botania:recipes/botania/terrasteel_leggings": {
     "criteria": {
       "has_prev_tier": "2021-11-19 03:19:51 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/materials/slimesteel_block_from_ingots": {
+    "criteria": {
+      "has_item": "2021-11-23 03:21:01 +0300"
     },
     "done": true
   },
