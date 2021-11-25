@@ -35,3 +35,57 @@
 <recipetype:create:mechanical_crafting>.addRecipe("minecart_coupling", <item:create:minecart_coupling>, 
     [[<item:create:andesite_alloy>, <item:thermal:iron_plate>, <item:tconstruct:tool_handle>.withTag({Material: "tconstruct:iron" as string}), 
     <item:thermal:iron_plate>, <item:create:andesite_alloy>]]);
+
+<recipetype:create:mechanical_crafting>.addRecipe("whisk", <item:create:whisk>, 
+    [[<item:minecraft:air>,<item:minecraft:air>, <item:create:andesite_alloy>, <item:minecraft:air>, <item:minecraft:air>], 
+    [<tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/iron>],
+    [<item:minecraft:iron_bars>, <item:minecraft:air>, <item:minecraft:iron_bars>, <item:minecraft:air>, <item:minecraft:iron_bars>],
+    [<item:minecraft:iron_bars>, <item:minecraft:air>, <item:minecraft:iron_bars>, <item:minecraft:air>, <item:minecraft:iron_bars>],
+    [<item:minecraft:air>, <item:minecraft:iron_bars>, <item:minecraft:iron_bars>, <item:minecraft:iron_bars>, <item:minecraft:air>]]);
+
+<recipetype:create:mixing>.addRecipe("depot", "none", <item:create:depot>, [<item:botania:solegnolia>], [<fluid:tconstruct:molten_iron> * 1000]);
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("diving_helmet")
+    .transitionTo(<item:minecraft:iron_helmet>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка под шлем для дайвинга\"}" as string}}))
+    .require(<tag:items:forge:ingots/copper>)
+    .loops(4)
+    .addOutput(<item:create:diving_helmet>, 1)
+    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:glass>)));
+
+<recipetype:create:mechanical_crafting>.addRecipe("mechanical_press", <item:create:mechanical_press>, 
+    [[<item:minecraft:air>,<item:create:andesite_alloy>, <item:minecraft:air>], 
+    [<item:minecraft:air>, <item:create:piston_extension_pole>, <item:minecraft:air>],
+    [<item:minecraft:iron_bars>, <item:create:andesite_casing>, <item:minecraft:iron_bars>],
+    [<item:minecraft:air>, <item:create:piston_extension_pole>, <item:minecraft:air>],
+    [<item:minecraft:iron_block>, <item:tconstruct:obsidian_pane>, <item:minecraft:iron_block>]]);
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("andesite_funnel")
+    .transitionTo(<item:minecraft:hopper>)
+    .require(<item:minecraft:hopper>)
+    .loops(4)
+    .addOutput(<item:create:andesite_funnel>, 1)
+    .addStep(<recipetype:create:cutting>.factory(), (rb) => rb.duration(50))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:create:andesite_alloy>))
+    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:dried_kelp>)));
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("andesite_tunnel")
+    .transitionTo(<item:create:andesite_casing>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}}))
+    .require(<item:minecraft:hopper>)
+    .loops(4)
+    .addOutput(<item:create:andesite_tunnel>, 1)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:smooth_stone_slab>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:minecraft:logs>))
+    .addStep(<recipetype:create:cutting>.factory(), (rb) => rb.duration(50)));
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("mechanical_saw")
+    .transitionTo(<item:create:andesite_casing>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}}))
+    .require(<item:create:andesite_casing>)
+    .loops(2)
+    .addOutput(<item:create:mechanical_saw>, 1)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:plates/iron>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:plates/iron>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:plates/iron>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:plates/iron>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:dusts/diamond>)));

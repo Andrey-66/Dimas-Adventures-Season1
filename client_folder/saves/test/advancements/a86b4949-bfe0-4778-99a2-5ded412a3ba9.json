@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2021-11-25 05:53:31 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2021-11-19 03:16:38 +0300"
@@ -32,6 +38,12 @@
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2021-11-19 03:00:19 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/copper_backtank": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -269,6 +281,13 @@
     },
     "done": true
   },
+  "create:basin": {
+    "criteria": {
+      "0": "2021-11-25 04:58:17 +0300",
+      "1": "2021-11-25 05:01:42 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed": {
     "criteria": {
       "has_gray_wool": "2021-11-19 04:41:01 +0300"
@@ -377,6 +396,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/smelting/glass_from_tiled_glass": {
+    "criteria": {
+      "has_item": "2021-11-25 05:44:02 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/phantom_ink": {
     "criteria": {
       "has_item": "2021-11-19 03:19:35 +0300"
@@ -398,6 +423,12 @@
   "botania:recipes/botania/corporea_spark": {
     "criteria": {
       "has_alt_item": "2021-11-19 04:38:36 +0300"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/copper_to_silver_chest_upgrade": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -440,6 +471,12 @@
   "botania:challenge/infinite_fruit": {
     "criteria": {
       "fruit": "2021-11-20 06:49:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2021-11-25 05:47:41 +0300"
     },
     "done": true
   },
@@ -575,6 +612,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/materials/copper_block_from_compacting": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/deployer": {
     "criteria": {
       "has_item": "2021-11-21 08:33:59 +0300"
@@ -686,6 +729,12 @@
   "create:recipes/create.base/crafting/kinetics/radial_chassis": {
     "criteria": {
       "has_item": "2021-11-21 03:29:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_helmet": "2021-11-25 05:47:41 +0300"
     },
     "done": true
   },
@@ -841,9 +890,10 @@
   },
   "create:mixer": {
     "criteria": {
-      "0": "2021-11-21 23:00:35 +0300"
+      "0": "2021-11-21 23:00:35 +0300",
+      "1": "2021-11-25 05:05:41 +0300"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/purple_bed": {
     "criteria": {
@@ -871,9 +921,10 @@
   },
   "create:water_wheel": {
     "criteria": {
-      "0": "2021-11-21 05:28:02 +0300"
+      "0": "2021-11-21 05:28:02 +0300",
+      "1": "2021-11-25 05:17:47 +0300"
     },
-    "done": false
+    "done": true
   },
   "botania:main/crafting_halo_craft": {
     "criteria": {
@@ -914,6 +965,12 @@
   "botania:recipes/botania/floating_exoflame": {
     "criteria": {
       "has_item": "2021-11-19 04:05:06 +0300"
+    },
+    "done": true
+  },
+  "create:belt_funnel": {
+    "criteria": {
+      "0": "2021-11-25 04:29:51 +0300"
     },
     "done": true
   },
@@ -1247,6 +1304,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/diving_helmet": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "enigmaticlegacy:book/accessories/ender_ring": {
     "criteria": {
       "has_the_recipe": "2021-11-21 01:25:22 +0300"
@@ -1358,6 +1421,12 @@
   "botania:challenge/thor_ring": {
     "criteria": {
       "ring": "2021-11-20 06:49:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2021-11-25 06:24:30 +0300"
     },
     "done": true
   },
@@ -1529,6 +1598,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/hose_pulley": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/alfheim_portal": {
     "criteria": {
       "has_item": "2021-11-19 04:34:58 +0300"
@@ -1555,6 +1630,12 @@
       "hasingotGold1": "2021-11-19 03:31:26 +0300",
       "hasingotGold4": "2021-11-19 03:31:26 +0300",
       "hasingotGold3": "2021-11-19 03:31:26 +0300"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/vanilla_copper_chest": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -1711,6 +1792,12 @@
   "minecraft:recipes/building_blocks/brown_concrete_powder": {
     "criteria": {
       "has_sand": "2021-11-19 03:50:32 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_valve": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -1903,6 +1990,12 @@
   "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
       "has_planks": "2021-11-19 03:48:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2021-11-25 05:53:31 +0300"
     },
     "done": true
   },
@@ -2547,6 +2640,12 @@
     },
     "done": true
   },
+  "create:deployer": {
+    "criteria": {
+      "0": "2021-11-25 04:26:10 +0300"
+    },
+    "done": true
+  },
   "enigmaticlegacy:recipes/generic/escape_scroll": {
     "criteria": {
       "has_parent_recipe": "2021-11-19 05:14:33 +0300"
@@ -2640,6 +2739,12 @@
   "minecraft:recipes/decorations/pink_bed": {
     "criteria": {
       "has_pink_wool": "2021-11-19 03:52:17 +0300"
+    },
+    "done": true
+  },
+  "create:stressometer": {
+    "criteria": {
+      "0": "2021-11-25 05:16:22 +0300"
     },
     "done": true
   },
@@ -2781,6 +2886,12 @@
     },
     "done": true
   },
+  "create:chute": {
+    "criteria": {
+      "0": "2021-11-25 04:26:29 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_helmet": {
     "criteria": {
       "has_gold_ingot": "2021-11-19 03:31:26 +0300"
@@ -2868,6 +2979,12 @@
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2021-11-19 05:49:17 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/copper_valve_handle": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -3762,6 +3879,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2021-11-25 06:28:09 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2021-11-19 03:50:32 +0300"
@@ -3998,6 +4121,12 @@
   "create:recipes/create.palettes/weathered_limestone_pillar": {
     "criteria": {
       "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
+    },
+    "done": true
+  },
+  "botania:recipes/botania/red_string_interceptor": {
+    "criteria": {
+      "has_base_block": "2021-11-25 05:01:58 +0300"
     },
     "done": true
   },
@@ -4272,6 +4401,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/copper_valve_handle_from_others": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/gadgets/gadgets/frame/gold": {
     "criteria": {
       "has_item": "2021-11-19 05:43:11 +0300"
@@ -4347,6 +4482,12 @@
   "botania:recipes/botania/apothecary_swamp": {
     "criteria": {
       "has_flower_item": "2021-11-19 03:55:13 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/copper_can": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -4551,6 +4692,12 @@
     },
     "done": true
   },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2021-11-25 07:15:34 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/vivid_seeds": {
     "criteria": {
       "has_item": "2021-11-19 05:07:47 +0300"
@@ -4686,6 +4833,12 @@
   "botania:recipes/botania/metamorphic_taiga_stone_stairs": {
     "criteria": {
       "has_flower_item": "2021-11-19 03:55:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_helmet": "2021-11-25 05:47:41 +0300"
     },
     "done": true
   },
@@ -4826,6 +4979,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/diving_boots": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2021-11-19 03:16:38 +0300"
@@ -4952,6 +5111,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2021-11-25 04:35:59 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/smart_fluid_pipe": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/mushroom_9": {
     "criteria": {
       "has_item": "2021-11-19 04:13:50 +0300"
@@ -4997,6 +5168,12 @@
   "create:recipes/create.palettes/layered_scoria_from_scoria_stonecutting": {
     "criteria": {
       "has_scoria": "2021-11-21 23:58:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/copper_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -5565,6 +5742,18 @@
     },
     "done": true
   },
+  "create:speedometer": {
+    "criteria": {
+      "0": "2021-11-25 05:16:19 +0300"
+    },
+    "done": true
+  },
+  "create:mechanical_saw": {
+    "criteria": {
+      "0": "2021-11-25 04:31:51 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_carpet": {
     "criteria": {
       "has_orange_wool": "2021-11-19 04:40:53 +0300"
@@ -5640,6 +5829,12 @@
   "create:recipes/create.base/crafting/kinetics/portable_storage_interface": {
     "criteria": {
       "has_item": "2021-11-21 08:34:08 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/mechanical_pump": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -5994,6 +6189,12 @@
   "tconstruct:smeltery/mighty_smelting": {
     "criteria": {
       "crafted_book": "2021-11-19 05:33:11 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/tiled_glass_pane": {
+    "criteria": {
+      "has_ingredient": "2021-11-25 05:44:02 +0300"
     },
     "done": true
   },
@@ -6405,6 +6606,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/materials/copper_casing": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2021-11-19 03:16:38 +0300"
@@ -6468,6 +6675,12 @@
   "minecraft:recipes/decorations/red_bed": {
     "criteria": {
       "has_red_wool": "2021-11-19 04:46:12 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/smart_chute": {
+    "criteria": {
+      "has_item": "2021-11-25 04:26:28 +0300"
     },
     "done": true
   },
@@ -6702,6 +6915,12 @@
   "botania:recipes/botania/ender_dagger": {
     "criteria": {
       "has_item": "2021-11-19 03:19:35 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_pipe": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },

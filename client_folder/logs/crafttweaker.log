@@ -1,5 +1,5 @@
-[08:24:34.693][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
-[08:24:36.562][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+[06:05:19.628][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[06:05:22.446][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
 'ars_nouveau' at version '1.23.11'
 'botania' at version '1.16.5-419'
 'crafttweaker' at version '7.1.2.455'
@@ -12,1007 +12,548 @@
 'tconstruct' at version '3.2.0.290'
 'thermal' at version '1.3.2'
 'thermal_foundation' at version '1.3.2'
-[08:24:38.220][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
-[08:24:52.556][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
-[08:24:53.366][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
-[08:25:47.434][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[08:25:47.535][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[08:25:47.538][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[08:25:47.539][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[08:25:47.539][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[08:25:47.540][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[08:25:47.612][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[08:25:47.614][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[08:25:47.614][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[08:25:47.615][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[08:25:47.617][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[08:25:47.619][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[08:25:47.621][DONE][CLIENT][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[08:25:47.622][DONE][CLIENT][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[08:25:47.623][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[08:25:47.624][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[08:25:47.625][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[08:25:47.625][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[08:25:47.625][DONE][CLIENT][WARNING] A recipe with the name 'powered_rail' already exists and will be overwritten: this is most likely an error in your scripts
-[08:25:47.630][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[08:25:47.631][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[08:25:47.632][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[08:25:47.632][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[08:25:47.632][DONE][CLIENT][INFO] Finished loading Scripts!
-[08:25:47.634][DONE][CLIENT][INFO] This reload was made possible by Barrier and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[08:25:56.180][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[08:25:56.237][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[08:25:56.238][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[08:25:56.238][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[08:25:56.239][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[08:25:56.240][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[08:25:56.263][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[08:25:56.263][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[08:25:56.263][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[08:25:56.264][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[08:25:56.264][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[08:25:56.264][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[08:25:56.265][DONE][CLIENT][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[08:25:56.265][DONE][CLIENT][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[08:25:56.266][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[08:25:56.267][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[08:25:56.268][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[08:25:56.268][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[08:25:56.268][DONE][CLIENT][WARNING] A recipe with the name 'powered_rail' already exists and will be overwritten: this is most likely an error in your scripts
-[08:25:56.268][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[08:25:56.269][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[08:25:56.269][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[08:25:56.269][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[08:25:56.269][DONE][CLIENT][INFO] Finished loading Scripts!
-[08:25:56.287][DONE][CLIENT][INFO] This reload was made possible by Jonathan McManus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[08:26:18.592][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[08:26:18.668][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[08:26:18.669][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[08:26:18.669][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[08:26:18.670][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[08:26:18.671][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[08:26:18.700][DONE][CLIENT][INFO] Finished loading Scripts!
-Item: <item:minecraft:activator_rail>
-Block: <block:minecraft:activator_rail>
-BlockState: <blockstate:minecraft:activator_rail:powered=false,shape=north_south>
-Item Tag Entries
-    -  <tag:items:minecraft:rails>
+[06:05:24.989][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[06:05:44.155][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[06:05:45.035][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[06:06:30.855][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[06:06:30.968][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[06:06:30.972][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[06:06:30.973][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[06:06:30.974][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[06:06:30.975][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[06:06:31.036][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[06:06:31.038][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[06:06:31.038][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[06:06:31.038][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[06:06:31.039][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[06:06:31.041][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[06:06:31.043][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[06:06:31.044][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[06:06:31.046][DONE][CLIENT][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[06:06:31.047][DONE][CLIENT][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[06:06:31.048][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[06:06:31.049][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[06:06:31.050][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[06:06:31.050][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[06:06:31.050][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[06:06:31.050][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[06:06:31.051][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[06:06:31.051][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[06:06:31.053][DONE][CLIENT][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[06:06:31.058][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[06:06:31.059][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[06:06:31.064][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[06:06:31.065][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[06:06:31.065][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[06:06:31.066][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[06:06:31.066][DONE][CLIENT][INFO] Finished loading Scripts!
+[06:06:31.068][DONE][CLIENT][INFO] This reload was made possible by Ivy_ and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[06:06:39.216][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[06:06:39.281][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[06:06:39.281][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[06:06:39.282][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[06:06:39.282][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[06:06:39.284][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[06:06:39.312][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[06:06:39.312][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[06:06:39.313][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[06:06:39.313][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[06:06:39.314][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[06:06:39.314][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[06:06:39.315][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[06:06:39.315][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[06:06:39.315][DONE][CLIENT][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[06:06:39.316][DONE][CLIENT][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[06:06:39.317][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[06:06:39.318][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[06:06:39.319][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[06:06:39.319][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[06:06:39.319][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[06:06:39.319][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[06:06:39.320][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[06:06:39.320][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[06:06:39.320][DONE][CLIENT][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[06:06:39.322][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[06:06:39.323][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[06:06:39.323][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[06:06:39.323][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[06:06:39.323][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[06:06:39.323][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[06:06:39.324][DONE][CLIENT][INFO] Finished loading Scripts!
+[06:06:39.324][DONE][CLIENT][INFO] This reload was made possible by Psyberition and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[06:07:00.222][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[06:07:00.353][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[06:07:00.353][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[06:07:00.354][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[06:07:00.354][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[06:07:00.356][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[06:07:00.415][DONE][CLIENT][INFO] Finished loading Scripts!
+[06:12:40.740][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[06:12:40.886][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[06:12:40.887][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
+[06:12:40.888][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
+[06:12:40.888][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
+[06:12:40.891][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
+[06:12:40.957][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[06:12:40.958][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[06:12:40.959][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[06:12:40.959][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[06:12:40.961][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[06:12:40.971][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[06:12:40.971][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[06:12:40.972][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[06:12:40.973][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[06:12:40.974][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[06:12:40.976][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[06:12:40.978][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[06:12:40.978][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[06:12:40.979][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[06:12:40.979][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[06:12:40.980][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[06:12:40.980][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[06:12:40.981][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[06:12:40.981][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[06:12:40.984][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[06:12:40.985][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[06:12:40.985][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[06:12:40.986][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[06:12:40.986][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[06:12:40.986][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[06:12:40.987][DONE][SERVER][INFO] Finished loading Scripts!
+[06:12:40.988][DONE][SERVER][INFO] This reload was made possible by Robijnvogel and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[06:12:49.422][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[06:12:49.562][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[06:12:49.562][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[06:12:49.563][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[06:12:49.564][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[06:12:49.566][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[06:12:49.616][DONE][CLIENT][INFO] Finished loading Scripts!
+Item: <item:create:andesite_funnel>
+Block: <block:create:andesite_funnel>
+BlockState: <blockstate:create:andesite_funnel:powered=false,facing=north,extracting=false>
 Block Tag Entries
-    -  <tag:blocks:minecraft:prevent_mob_spawning_inside>
-    -  <tag:blocks:minecraft:rails>
-    -  <tag:blocks:create:wrench_pickup>
+    -  <tag:blocks:create:safe_nbt>
 Copied!
-Item: <item:minecraft:redstone>
-Block: <block:minecraft:redstone_wire>
-BlockState: <blockstate:minecraft:redstone_wire:east=none,south=none,north=none,west=none,power=0>
+Copied!
+Item: <item:minecraft:hopper>
+Block: <block:minecraft:hopper>
+BlockState: <blockstate:minecraft:hopper:facing=down,enabled=true>
+Copied!
+Item: <item:minecraft:dried_kelp>
+Copied!
+Item: <item:create:andesite_alloy>
+Copied!
+Item: <item:create:andesite_tunnel>
+Block: <block:create:andesite_tunnel>
+BlockState: <blockstate:create:andesite_tunnel:shape=STRAIGHT,axis=x>
+Copied!
+Item: <item:create:andesite_casing>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}})
+Block: <block:create:andesite_casing>
+BlockState: <blockstate:create:andesite_casing>
+Copied!
+Item: <item:minecraft:smooth_stone_slab>
+Block: <block:minecraft:smooth_stone_slab>
+BlockState: <blockstate:minecraft:smooth_stone_slab:waterlogged=false,type=bottom>
 Item Tag Entries
-    -  <tag:items:mekanism:alloys/basic>
-    -  <tag:items:alexsmobs:platypus_foodstuffs>
-    -  <tag:items:mekanism:alloys>
-    -  <tag:items:forge:dusts/redstone>
+    -  <tag:items:minecraft:slabs>
+Block Tag Entries
+    -  <tag:blocks:minecraft:slabs>
+Copied!
+Item: <item:minecraft:oak_log>
+Block: <block:minecraft:oak_log>
+BlockState: <blockstate:minecraft:oak_log:axis=y>
+Item Tag Entries
+    -  <tag:items:minecraft:oak_logs>
+    -  <tag:items:minecraft:logs>
+    -  <tag:items:minecraft:logs_that_burn>
+    -  <tag:items:forge:railbed>
+Block Tag Entries
+    -  <tag:blocks:alexsmobs:cachalot_whale_breakables>
+    -  <tag:blocks:minecraft:logs>
+    -  <tag:blocks:ars_nouveau:harvest/stems>
+    -  <tag:blocks:ars_nouveau:harvest/fellable>
+    -  <tag:blocks:minecraft:logs_that_burn>
+    -  <tag:blocks:mekanism:atomic_disassembler_ore>
+    -  <tag:blocks:alexsmobs:soul_vulture_spawns>
+    -  <tag:blocks:tconstruct:tree_log>
+    -  <tag:blocks:minecraft:oak_logs>
+    -  <tag:blocks:alexsmobs:soul_vulture_perches>
+Copied!
+[06:31:08.276][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[06:31:08.409][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[06:31:08.409][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
+[06:31:08.410][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
+[06:31:08.411][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
+[06:31:08.415][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
+[06:31:08.488][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[06:31:08.488][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[06:31:08.489][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[06:31:08.489][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[06:31:08.490][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[06:31:08.491][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[06:31:08.491][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[06:31:08.492][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[06:31:08.493][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[06:31:08.493][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[06:31:08.498][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[06:31:08.500][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[06:31:08.501][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[06:31:08.502][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[06:31:08.502][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[06:31:08.502][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[06:31:08.503][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[06:31:08.505][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[06:31:08.506][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[06:31:08.508][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[06:31:08.509][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[06:31:08.512][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
+[06:31:08.512][DONE][SERVER][ERROR] Non [a-z0-9/._-] character in path of location: crafttweaker:andesite_tunnel>
+net.minecraft.util.ResourceLocationException: Non [a-z0-9/._-] character in path of location: crafttweaker:andesite_tunnel>
+	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:33)
+	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:42)
+	at com.blamejared.createtweaker.managers.SequencedAssemblyManager.builder(SequencedAssemblyManager.java:24)
+	at scripts.create.run(create.zs:73)
+	at Scripts.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openzen.zenscript.javabytecode.JavaBytecodeRunUnit.run(JavaBytecodeRunUnit.java:127)
+	at org.openzen.zencode.java.ScriptingEngine.run(ScriptingEngine.java:170)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:132)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:119)
+	at com.blamejared.crafttweaker.CraftTweaker$1.apply(CraftTweaker.java:251)
+	at com.blamejared.crafttweaker.CraftTweaker$1.func_212853_a_(CraftTweaker.java:230)
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
+	at net.minecraft.server.MinecraftServer.func_240780_a_(MinecraftServer.java:1305)
+	at net.minecraft.command.impl.ReloadCommand.func_241062_a_(SourceFile:22)
+	at net.minecraft.command.impl.ReloadCommand.func_198598_a_(SourceFile:53)
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
+	at net.minecraft.command.Commands.func_197059_a(Commands.java:217)
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1119)
+	at net.minecraft.network.play.ServerPlayNetHandler.func_244548_c(ServerPlayNetHandler.java:1102)
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1081)
+	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:36)
+	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:9)
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:696)
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
+	at java.lang.Thread.run(Thread.java:748)
+
+[06:31:08.535][DONE][SERVER][INFO] Finished loading Scripts!
+[06:31:08.536][DONE][SERVER][INFO] This reload was made possible by Tyrone McLean and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[06:31:16.927][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[06:31:17.030][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[06:31:17.031][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[06:31:17.032][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[06:31:17.032][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[06:31:17.035][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[06:31:17.081][DONE][CLIENT][ERROR] Non [a-z0-9/._-] character in path of location: crafttweaker:andesite_tunnel>
+net.minecraft.util.ResourceLocationException: Non [a-z0-9/._-] character in path of location: crafttweaker:andesite_tunnel>
+	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:33)
+	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:42)
+	at com.blamejared.createtweaker.managers.SequencedAssemblyManager.builder(SequencedAssemblyManager.java:24)
+	at scripts.create.run(create.zs:73)
+	at Scripts.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openzen.zenscript.javabytecode.JavaBytecodeRunUnit.run(JavaBytecodeRunUnit.java:127)
+	at org.openzen.zencode.java.ScriptingEngine.run(ScriptingEngine.java:170)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:132)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScriptsFromRecipeManager(CraftTweakerAPI.java:168)
+	at com.blamejared.crafttweaker.CraftTweaker.getRecipes(CraftTweaker.java:206)
+	at net.minecraftforge.eventbus.ASMEventHandler_912_CraftTweaker_getRecipes_RecipesUpdatedEvent.invoke(.dynamic)
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:774)
+	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1314)
+	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27)
+	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15)
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:948)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
+	at net.minecraft.client.main.Main.main(Main.java:184)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+
+[06:31:17.082][DONE][CLIENT][INFO] Finished loading Scripts!
+[06:31:37.180][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[06:31:37.266][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[06:31:37.267][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
+[06:31:37.268][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
+[06:31:37.269][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
+[06:31:37.272][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
+[06:31:37.304][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[06:31:37.304][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[06:31:37.304][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[06:31:37.305][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[06:31:37.306][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[06:31:37.306][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[06:31:37.307][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[06:31:37.307][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[06:31:37.308][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[06:31:37.308][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[06:31:37.310][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[06:31:37.312][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[06:31:37.312][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[06:31:37.312][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[06:31:37.313][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[06:31:37.313][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[06:31:37.313][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[06:31:37.314][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[06:31:37.315][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[06:31:37.316][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[06:31:37.317][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[06:31:37.318][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
+[06:31:37.321][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
+[06:31:37.321][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[06:31:37.322][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[06:31:37.322][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[06:31:37.322][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[06:31:37.322][DONE][SERVER][INFO] Finished loading Scripts!
+[06:31:37.323][DONE][SERVER][INFO] This reload was made possible by Ncc1702 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[06:31:44.724][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[06:31:44.953][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[06:31:44.953][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[06:31:44.954][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[06:31:44.954][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[06:31:44.965][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[06:31:45.025][DONE][CLIENT][INFO] Finished loading Scripts!
+Item: <item:create:brass_hand>
+Copied!
+Item: <item:ars_nouveau:glyph_touch>
+Copied!
+Item: <item:create:cogwheel>
+Block: <block:create:cogwheel>
+BlockState: <blockstate:create:cogwheel:waterlogged=false,axis=y>
+Copied!
+Item: <item:create:brass_sheet>
+Item Tag Entries
+    -  <tag:items:forge:plates>
+    -  <tag:items:forge:plates/brass>
+Copied!
+[07:10:03.854][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:10:03.920][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:10:03.920][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
+[07:10:03.921][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
+[07:10:03.921][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
+[07:10:03.923][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:10:03.946][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[07:10:03.946][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[07:10:03.947][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[07:10:03.947][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[07:10:03.948][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[07:10:03.948][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[07:10:03.948][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[07:10:03.949][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[07:10:03.949][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_hand" that outputs: <item:create:brass_hand>
+[07:10:03.950][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[07:10:03.950][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[07:10:03.951][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[07:10:03.952][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[07:10:03.953][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[07:10:03.953][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[07:10:03.953][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[07:10:03.953][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[07:10:03.953][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[07:10:03.954][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[07:10:03.954][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[07:10:03.955][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[07:10:03.956][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[07:10:03.957][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
+[07:10:03.958][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
+[07:10:03.959][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[07:10:03.959][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[07:10:03.960][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[07:10:03.960][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[07:10:03.960][DONE][SERVER][INFO] Finished loading Scripts!
+[07:10:03.960][DONE][SERVER][INFO] This reload was made possible by Tyrone McLean and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[07:10:10.173][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:10:10.245][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:10:10.246][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[07:10:10.247][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[07:10:10.247][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[07:10:10.249][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:10:10.286][DONE][CLIENT][INFO] Finished loading Scripts!
+Item: <item:thermal:diamond_dust>
+Item Tag Entries
+    -  <tag:items:forge:dusts/diamond>
     -  <tag:items:forge:dusts>
-Block Tag Entries
-    -  <tag:blocks:create:wrench_pickup>
-Copied!
-Item: <item:minecraft:detector_rail>
-Block: <block:minecraft:detector_rail>
-BlockState: <blockstate:minecraft:detector_rail:powered=false,shape=north_south>
+Item: <item:mekanism:dust_diamond>
 Item Tag Entries
-    -  <tag:items:minecraft:rails>
-Block Tag Entries
-    -  <tag:blocks:minecraft:prevent_mob_spawning_inside>
-    -  <tag:blocks:minecraft:rails>
-    -  <tag:blocks:create:wrench_pickup>
+    -  <tag:items:forge:dusts/diamond>
+    -  <tag:items:forge:dusts>
+Item: <item:create:mechanical_saw>
+Block: <block:create:mechanical_saw>
+BlockState: <blockstate:create:mechanical_saw:facing=north,axis_along_first=true>
 Copied!
-Item: <item:minecraft:detector_rail>
-Block: <block:minecraft:detector_rail>
-BlockState: <blockstate:minecraft:detector_rail:powered=false,shape=north_south>
+Item: <item:create:andesite_casing>
+Block: <block:create:andesite_casing>
+BlockState: <blockstate:create:andesite_casing>
+Copied!
+Item: <item:thermal:diamond_dust>
 Item Tag Entries
-    -  <tag:items:minecraft:rails>
-Block Tag Entries
-    -  <tag:blocks:minecraft:prevent_mob_spawning_inside>
-    -  <tag:blocks:minecraft:rails>
-    -  <tag:blocks:create:wrench_pickup>
+    -  <tag:items:forge:dusts/diamond>
+    -  <tag:items:forge:dusts>
 Copied!
-Item: <item:minecraft:stone_pressure_plate>
-Block: <block:minecraft:stone_pressure_plate>
-BlockState: <blockstate:minecraft:stone_pressure_plate:powered=false>
-Block Tag Entries
-    -  <tag:blocks:minecraft:stone_pressure_plates>
-    -  <tag:blocks:create:wrench_pickup>
-    -  <tag:blocks:minecraft:wall_post_override>
-    -  <tag:blocks:minecraft:pressure_plates>
-Copied!
-Item: <item:minecraft:redstone_block>
-Block: <block:minecraft:redstone_block>
-BlockState: <blockstate:minecraft:redstone_block>
-Item Tag Entries
-    -  <tag:items:alexsmobs:platypus_foodstuffs>
-    -  <tag:items:forge:storage_blocks>
-    -  <tag:items:forge:storage_blocks/redstone>
-Block Tag Entries
-    -  <tag:blocks:forge:storage_blocks>
-    -  <tag:blocks:forge:storage_blocks/redstone>
-Copied!
-[08:36:21.910][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[08:36:21.973][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[08:36:21.973][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[08:36:21.974][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[08:36:21.974][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[08:36:21.975][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[08:36:22.004][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[08:36:22.004][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[08:36:22.005][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[08:36:22.006][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[08:36:22.007][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[08:36:22.007][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[08:36:22.008][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[08:36:22.008][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[08:36:22.009][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[08:36:22.010][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[08:36:22.010][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[08:36:22.010][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[08:36:22.010][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[08:36:22.011][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[08:36:22.011][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[08:36:22.011][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[08:36:22.011][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[08:36:22.011][DONE][SERVER][INFO] Finished loading Scripts!
-[08:36:22.012][DONE][SERVER][INFO] This reload was made possible by Psyberition and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[08:36:27.673][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[08:36:27.755][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[08:36:27.755][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[08:36:27.756][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[08:36:27.756][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[08:36:27.757][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[08:36:27.793][DONE][CLIENT][INFO] Finished loading Scripts!
-Item: <item:create:controller_rail>
-Block: <block:create:controller_rail>
-BlockState: <blockstate:create:controller_rail:shape=north_south,power=0,backwards=false>
-Block Tag Entries
-    -  <tag:blocks:minecraft:prevent_mob_spawning_inside>
-    -  <tag:blocks:minecraft:rails>
-    -  <tag:blocks:create:wrench_pickup>
-Copied!
-Item: <item:create:electron_tube>
-Copied!
-Item: <item:minecraft:powered_rail>
-Block: <block:minecraft:powered_rail>
-BlockState: <blockstate:minecraft:powered_rail:powered=false,shape=north_south>
-Item Tag Entries
-    -  <tag:items:minecraft:rails>
-Block Tag Entries
-    -  <tag:blocks:minecraft:prevent_mob_spawning_inside>
-    -  <tag:blocks:minecraft:rails>
-    -  <tag:blocks:create:wrench_pickup>
-Copied!
-Item: <item:create:goggles>
-Copied!
-Item: <item:botania:cosmetic_engineer_goggles>
-Item Tag Entries
-    -  <tag:items:curios:curio>
-Copied!
-Item: <item:botania:itemfinder>
-Item Tag Entries
-    -  <tag:items:curios:head>
-Copied!
-Item: <item:tconstruct:tool_handle>.withTag({Material: "tconstruct:electrum" as string})
-Item Tag Entries
-    -  <tag:items:tconstruct:parts>
-Copied!
-Item: <item:create:stressometer>
-Block: <block:create:stressometer>
-BlockState: <blockstate:create:stressometer:facing=north,axis_along_first=true>
-Copied!
-Item: <item:create:speedometer>
-Block: <block:create:speedometer>
-BlockState: <blockstate:create:speedometer:facing=north,axis_along_first=true>
-Copied!
-[09:07:31.473][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:07:31.555][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:07:31.556][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[09:07:31.556][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[09:07:31.557][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[09:07:31.557][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:07:31.623][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[09:07:31.623][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[09:07:31.624][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[09:07:31.625][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[09:07:31.626][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[09:07:31.626][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[09:07:31.627][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[09:07:31.628][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[09:07:31.628][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[09:07:31.630][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[09:07:31.631][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[09:07:31.631][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[09:07:31.632][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[09:07:31.632][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[09:07:31.632][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[09:07:31.633][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[09:07:31.633][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[09:07:31.633][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[09:07:31.633][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[09:07:31.634][DONE][SERVER][INFO] Finished loading Scripts!
-[09:07:31.634][DONE][SERVER][INFO] This reload was made possible by JDaddy and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[09:07:37.338][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:07:37.413][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:07:37.414][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[09:07:37.414][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[09:07:37.415][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[09:07:37.416][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:07:37.446][DONE][CLIENT][INFO] Finished loading Scripts!
-Item: <item:create:minecart_coupling>
-Copied!
-Item: <item:tconstruct:tool_handle>.withTag({Material: "tconstruct:iron" as string})
-Item Tag Entries
-    -  <tag:items:tconstruct:parts>
-Copied!
-Item: <item:thermal:iron_plate>
+Item: <item:create:iron_sheet>
 Item Tag Entries
     -  <tag:items:forge:plates>
     -  <tag:items:forge:plates/iron>
 Copied!
-Copied!
-Item: <item:create:andesite_alloy>
-Copied!
-[09:17:28.202][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:17:28.289][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:17:28.290][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[09:17:28.290][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[09:17:28.291][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[09:17:28.304][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:17:28.305][DONE][SERVER][ERROR] Parser Exception @ create.zs:37:0 : ) expected
-org.openzen.zenscript.lexer.ParseException: create.zs:37:0: ) expected
-	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:47)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:114)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:119)
-	at com.blamejared.crafttweaker.CraftTweaker$1.apply(CraftTweaker.java:251)
-	at com.blamejared.crafttweaker.CraftTweaker$1.func_212853_a_(CraftTweaker.java:230)
-	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13)
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656)
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
-	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_240780_a_(MinecraftServer.java:1305)
-	at net.minecraft.command.impl.ReloadCommand.func_241062_a_(SourceFile:22)
-	at net.minecraft.command.impl.ReloadCommand.func_198598_a_(SourceFile:53)
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-	at net.minecraft.command.Commands.func_197059_a(Commands.java:217)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1119)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_244548_c(ServerPlayNetHandler.java:1102)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1081)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:36)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:9)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
-	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-	at java.lang.Thread.run(Thread.java:748)
-
-[09:17:28.322][DONE][SERVER][ERROR] Parser Exception @ create.zs:37:0 : ; expected
-org.openzen.zenscript.lexer.ParseException: create.zs:37:0: ; expected
-	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:114)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:119)
-	at com.blamejared.crafttweaker.CraftTweaker$1.apply(CraftTweaker.java:251)
-	at com.blamejared.crafttweaker.CraftTweaker$1.func_212853_a_(CraftTweaker.java:230)
-	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13)
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656)
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
-	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_240780_a_(MinecraftServer.java:1305)
-	at net.minecraft.command.impl.ReloadCommand.func_241062_a_(SourceFile:22)
-	at net.minecraft.command.impl.ReloadCommand.func_198598_a_(SourceFile:53)
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-	at net.minecraft.command.Commands.func_197059_a(Commands.java:217)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1119)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_244548_c(ServerPlayNetHandler.java:1102)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1081)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:36)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:9)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
-	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-	at java.lang.Thread.run(Thread.java:748)
-
-[09:17:28.323][DONE][SERVER][ERROR] Scripts are invalid!
-[09:17:28.323][DONE][SERVER][INFO] Finished loading Scripts!
-[09:17:28.323][DONE][SERVER][INFO] This reload was made possible by Pongo Sapiens and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[09:17:33.536][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:17:33.610][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:17:33.611][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[09:17:33.611][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[09:17:33.611][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[09:17:33.613][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:17:33.613][DONE][CLIENT][ERROR] Parser Exception @ create.zs:37:0 : ) expected
-org.openzen.zenscript.lexer.ParseException: create.zs:37:0: ) expected
-	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:47)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:114)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScriptsFromRecipeManager(CraftTweakerAPI.java:168)
-	at com.blamejared.crafttweaker.CraftTweaker.getRecipes(CraftTweaker.java:206)
-	at net.minecraftforge.eventbus.ASMEventHandler_915_CraftTweaker_getRecipes_RecipesUpdatedEvent.invoke(.dynamic)
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:774)
-	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1314)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
-	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:948)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
-	at net.minecraft.client.main.Main.main(Main.java:184)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
-
-[09:17:33.614][DONE][CLIENT][ERROR] Parser Exception @ create.zs:37:0 : ; expected
-org.openzen.zenscript.lexer.ParseException: create.zs:37:0: ; expected
-	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:114)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScriptsFromRecipeManager(CraftTweakerAPI.java:168)
-	at com.blamejared.crafttweaker.CraftTweaker.getRecipes(CraftTweaker.java:206)
-	at net.minecraftforge.eventbus.ASMEventHandler_915_CraftTweaker_getRecipes_RecipesUpdatedEvent.invoke(.dynamic)
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:774)
-	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1314)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
-	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:948)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
-	at net.minecraft.client.main.Main.main(Main.java:184)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
-
-[09:17:33.614][DONE][CLIENT][ERROR] Scripts are invalid!
-[09:17:33.614][DONE][CLIENT][INFO] Finished loading Scripts!
-[09:18:05.743][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:18:05.800][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:18:05.801][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[09:18:05.801][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[09:18:05.802][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[09:18:05.802][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:18:05.803][DONE][SERVER][ERROR] Parser Exception @ create.zs:36:200 : ) expected
-org.openzen.zenscript.lexer.ParseException: create.zs:36:200: ) expected
-	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:47)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:114)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:119)
-	at com.blamejared.crafttweaker.CraftTweaker$1.apply(CraftTweaker.java:251)
-	at com.blamejared.crafttweaker.CraftTweaker$1.func_212853_a_(CraftTweaker.java:230)
-	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13)
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656)
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
-	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_240780_a_(MinecraftServer.java:1305)
-	at net.minecraft.command.impl.ReloadCommand.func_241062_a_(SourceFile:22)
-	at net.minecraft.command.impl.ReloadCommand.func_198598_a_(SourceFile:53)
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-	at net.minecraft.command.Commands.func_197059_a(Commands.java:217)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1119)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_244548_c(ServerPlayNetHandler.java:1102)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1081)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:36)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:9)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
-	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-	at java.lang.Thread.run(Thread.java:748)
-
-[09:18:05.803][DONE][SERVER][ERROR] Parser Exception @ create.zs:37:0 : ; expected
-org.openzen.zenscript.lexer.ParseException: create.zs:37:0: ; expected
-	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:114)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:119)
-	at com.blamejared.crafttweaker.CraftTweaker$1.apply(CraftTweaker.java:251)
-	at com.blamejared.crafttweaker.CraftTweaker$1.func_212853_a_(CraftTweaker.java:230)
-	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13)
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656)
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
-	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_240780_a_(MinecraftServer.java:1305)
-	at net.minecraft.command.impl.ReloadCommand.func_241062_a_(SourceFile:22)
-	at net.minecraft.command.impl.ReloadCommand.func_198598_a_(SourceFile:53)
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-	at net.minecraft.command.Commands.func_197059_a(Commands.java:217)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1119)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_244548_c(ServerPlayNetHandler.java:1102)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1081)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:36)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:9)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
-	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-	at java.lang.Thread.run(Thread.java:748)
-
-[09:18:05.804][DONE][SERVER][ERROR] Scripts are invalid!
-[09:18:05.804][DONE][SERVER][INFO] Finished loading Scripts!
-[09:18:05.804][DONE][SERVER][INFO] This reload was made possible by Psyberition and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[09:18:11.066][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:18:11.107][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:18:11.107][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[09:18:11.108][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[09:18:11.108][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[09:18:11.108][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:18:11.109][DONE][CLIENT][ERROR] Parser Exception @ create.zs:36:200 : ) expected
-org.openzen.zenscript.lexer.ParseException: create.zs:36:200: ) expected
-	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:47)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:114)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScriptsFromRecipeManager(CraftTweakerAPI.java:168)
-	at com.blamejared.crafttweaker.CraftTweaker.getRecipes(CraftTweaker.java:206)
-	at net.minecraftforge.eventbus.ASMEventHandler_915_CraftTweaker_getRecipes_RecipesUpdatedEvent.invoke(.dynamic)
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:774)
-	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1314)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
-	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:948)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
-	at net.minecraft.client.main.Main.main(Main.java:184)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
-
-[09:18:11.109][DONE][CLIENT][ERROR] Parser Exception @ create.zs:37:0 : ; expected
-org.openzen.zenscript.lexer.ParseException: create.zs:37:0: ; expected
-	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:114)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScriptsFromRecipeManager(CraftTweakerAPI.java:168)
-	at com.blamejared.crafttweaker.CraftTweaker.getRecipes(CraftTweaker.java:206)
-	at net.minecraftforge.eventbus.ASMEventHandler_915_CraftTweaker_getRecipes_RecipesUpdatedEvent.invoke(.dynamic)
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:774)
-	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1314)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
-	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:948)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
-	at net.minecraft.client.main.Main.main(Main.java:184)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
-
-[09:18:11.110][DONE][CLIENT][ERROR] Scripts are invalid!
-[09:18:11.110][DONE][CLIENT][INFO] Finished loading Scripts!
-[09:18:46.918][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:18:47.017][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:18:47.018][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[09:18:47.018][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[09:18:47.018][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[09:18:47.019][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:18:47.037][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[09:18:47.037][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[09:18:47.037][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[09:18:47.038][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[09:18:47.039][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[09:18:47.039][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[09:18:47.040][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[09:18:47.040][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[09:18:47.041][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[09:18:47.042][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[09:18:47.043][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[09:18:47.043][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[09:18:47.043][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[09:18:47.043][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[09:18:47.044][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[09:18:47.044][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[09:18:47.045][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[09:18:47.045][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[09:18:47.045][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[09:18:47.045][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[09:18:47.045][DONE][SERVER][INFO] Finished loading Scripts!
-[09:18:47.046][DONE][SERVER][INFO] This reload was made possible by Psyberition and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[09:18:52.238][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:18:52.277][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:18:52.277][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[09:18:52.277][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[09:18:52.278][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[09:18:52.278][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:18:52.298][DONE][CLIENT][INFO] Finished loading Scripts!
-Item: <item:create:copper_valve_handle>
-Block: <block:create:copper_valve_handle>
-BlockState: <blockstate:create:copper_valve_handle:facing=north>
-Item Tag Entries
-    -  <tag:items:create:valve_handles>
+[07:31:50.002][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:31:50.065][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:31:50.065][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
+[07:31:50.065][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
+[07:31:50.066][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
+[07:31:50.067][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:31:50.095][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[07:31:50.096][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[07:31:50.096][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[07:31:50.096][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[07:31:50.097][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[07:31:50.097][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[07:31:50.097][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[07:31:50.098][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[07:31:50.098][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_hand" that outputs: <item:create:brass_hand>
+[07:31:50.098][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[07:31:50.099][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[07:31:50.100][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[07:31:50.101][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[07:31:50.101][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[07:31:50.102][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[07:31:50.102][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[07:31:50.102][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[07:31:50.102][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[07:31:50.102][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[07:31:50.103][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[07:31:50.104][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[07:31:50.104][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[07:31:50.106][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
+[07:31:50.107][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
+[07:31:50.109][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/mechanical_saw" that outputs: <item:create:mechanical_saw>
+[07:31:50.110][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[07:31:50.110][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[07:31:50.110][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[07:31:50.110][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[07:31:50.110][DONE][SERVER][INFO] Finished loading Scripts!
+[07:31:50.111][DONE][SERVER][INFO] This reload was made possible by WaterMoon and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[07:31:55.700][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:31:55.753][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:31:55.753][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[07:31:55.754][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[07:31:55.754][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[07:31:55.756][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:31:55.800][DONE][CLIENT][INFO] Finished loading Scripts!
+Item: <item:create:brass_funnel>
+Block: <block:create:brass_funnel>
+BlockState: <blockstate:create:brass_funnel:powered=false,facing=north,extracting=false>
 Block Tag Entries
-    -  <tag:blocks:create:valve_handles>
-    -  <tag:blocks:create:brittle>
+    -  <tag:blocks:create:safe_nbt>
 Copied!
-Item: <item:minecraft:ender_pearl>
+Item: <item:create:brass_tunnel>
+Block: <block:create:brass_tunnel>
+BlockState: <blockstate:create:brass_tunnel:shape=STRAIGHT,axis=x>
+Copied!
+Item: <item:create:andesite_funnel>
+Block: <block:create:andesite_funnel>
+BlockState: <blockstate:create:andesite_funnel:powered=false,facing=north,extracting=false>
+Block Tag Entries
+    -  <tag:blocks:create:safe_nbt>
+Copied!
+Item: <item:create:andesite_tunnel>
+Block: <block:create:andesite_tunnel>
+BlockState: <blockstate:create:andesite_tunnel:shape=STRAIGHT,axis=x>
+Copied!
+Item: <item:create:brass_sheet>
 Item Tag Entries
-    -  <tag:items:forge:ender_pearls>
+    -  <tag:items:forge:plates>
+    -  <tag:items:forge:plates/brass>
 Copied!
-[09:56:19.964][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:56:20.034][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:56:20.034][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[09:56:20.035][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[09:56:20.035][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[09:56:20.036][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:56:20.055][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[09:56:20.055][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[09:56:20.055][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[09:56:20.056][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
-[09:56:20.057][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[09:56:20.057][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[09:56:20.057][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[09:56:20.058][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[09:56:20.058][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[09:56:20.059][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[09:56:20.060][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[09:56:20.061][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[09:56:20.061][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[09:56:20.062][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[09:56:20.062][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[09:56:20.063][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[09:56:20.063][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[09:56:20.064][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[09:56:20.064][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[09:56:20.064][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[09:56:20.065][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[09:56:20.065][DONE][SERVER][INFO] Finished loading Scripts!
-[09:56:20.066][DONE][SERVER][INFO] This reload was made possible by TriosGaminG Pro and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[09:56:25.556][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:56:25.626][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:56:25.626][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[09:56:25.627][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[09:56:25.627][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[09:56:25.628][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:56:25.655][DONE][CLIENT][INFO] Finished loading Scripts!
-[09:57:12.008][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:57:12.072][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:57:12.072][DONE][SERVER][ERROR] Could not get fluid for <fluid:tconstruct:clay>. Fluid does not appear to exist!
-[09:57:12.072][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[09:57:12.073][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[09:57:12.073][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[09:57:12.074][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:57:12.074][DONE][SERVER][ERROR] Parser Exception @ CraftTweakerscripts.zs:5:112 : Invalid parameters to BEP fluid: '<fluid:tconstruct:clay>. There may be more information about this in the log.
-org.openzen.zenscript.lexer.ParseException: CraftTweakerscripts.zs:5:112: Invalid parameters to BEP fluid: '<fluid:tconstruct:clay>. There may be more information about this in the log.
-	at com.blamejared.crafttweaker.api.zencode.brackets.ValidatedEscapableBracketParser.parse(ValidatedEscapableBracketParser.java:115)
-	at com.blamejared.crafttweaker.api.zencode.brackets.IgnorePrefixCasingBracketParser.parse(IgnorePrefixCasingBracketParser.java:84)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readPrimaryExpression(ParsedExpression.java:562)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:364)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:45)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:114)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:119)
-	at com.blamejared.crafttweaker.CraftTweaker$1.apply(CraftTweaker.java:251)
-	at com.blamejared.crafttweaker.CraftTweaker$1.func_212853_a_(CraftTweaker.java:230)
-	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13)
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656)
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
-	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_240780_a_(MinecraftServer.java:1305)
-	at net.minecraft.command.impl.ReloadCommand.func_241062_a_(SourceFile:22)
-	at net.minecraft.command.impl.ReloadCommand.func_198598_a_(SourceFile:53)
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-	at net.minecraft.command.Commands.func_197059_a(Commands.java:217)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1119)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_244548_c(ServerPlayNetHandler.java:1102)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1081)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:36)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:9)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:697)
-	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-	at java.lang.Thread.run(Thread.java:748)
-
-[09:57:12.075][DONE][SERVER][ERROR] Scripts are invalid!
-[09:57:12.075][DONE][SERVER][INFO] Finished loading Scripts!
-[09:57:12.075][DONE][SERVER][INFO] This reload was made possible by Yamraiha and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[09:57:17.477][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:57:17.545][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:57:17.545][DONE][CLIENT][ERROR] Could not get fluid for <fluid:tconstruct:clay>. Fluid does not appear to exist!
-[09:57:17.545][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[09:57:17.546][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[09:57:17.546][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[09:57:17.547][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:57:17.547][DONE][CLIENT][ERROR] Parser Exception @ CraftTweakerscripts.zs:5:112 : Invalid parameters to BEP fluid: '<fluid:tconstruct:clay>. There may be more information about this in the log.
-org.openzen.zenscript.lexer.ParseException: CraftTweakerscripts.zs:5:112: Invalid parameters to BEP fluid: '<fluid:tconstruct:clay>. There may be more information about this in the log.
-	at com.blamejared.crafttweaker.api.zencode.brackets.ValidatedEscapableBracketParser.parse(ValidatedEscapableBracketParser.java:115)
-	at com.blamejared.crafttweaker.api.zencode.brackets.IgnorePrefixCasingBracketParser.parse(IgnorePrefixCasingBracketParser.java:84)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readPrimaryExpression(ParsedExpression.java:562)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:364)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:45)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
-	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:114)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScriptsFromRecipeManager(CraftTweakerAPI.java:168)
-	at com.blamejared.crafttweaker.CraftTweaker.getRecipes(CraftTweaker.java:206)
-	at net.minecraftforge.eventbus.ASMEventHandler_915_CraftTweaker_getRecipes_RecipesUpdatedEvent.invoke(.dynamic)
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:774)
-	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1314)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
-	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:948)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
-	at net.minecraft.client.main.Main.main(Main.java:184)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
-
-[09:57:17.548][DONE][CLIENT][ERROR] Scripts are invalid!
-[09:57:17.548][DONE][CLIENT][INFO] Finished loading Scripts!
-[09:58:15.984][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:58:16.035][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:58:16.036][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[09:58:16.037][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[09:58:16.037][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[09:58:16.038][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:58:16.055][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[09:58:16.055][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[09:58:16.055][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[09:58:16.056][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
-[09:58:16.056][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[09:58:16.057][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[09:58:16.057][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[09:58:16.057][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[09:58:16.058][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[09:58:16.058][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[09:58:16.059][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[09:58:16.060][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[09:58:16.060][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[09:58:16.061][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[09:58:16.061][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[09:58:16.061][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[09:58:16.061][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[09:58:16.062][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[09:58:16.062][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[09:58:16.062][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[09:58:16.062][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[09:58:16.062][DONE][SERVER][INFO] Finished loading Scripts!
-[09:58:16.063][DONE][SERVER][INFO] This reload was made possible by Zuniroa and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[09:58:21.857][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[09:58:21.899][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[09:58:21.899][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[09:58:21.900][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[09:58:21.900][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[09:58:21.901][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[09:58:21.920][DONE][CLIENT][INFO] Finished loading Scripts!
+[07:40:34.491][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:40:34.555][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:40:34.555][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
+[07:40:34.556][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
+[07:40:34.556][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
+[07:40:34.557][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:40:34.582][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[07:40:34.582][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[07:40:34.583][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[07:40:34.583][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[07:40:34.584][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[07:40:34.584][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[07:40:34.584][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[07:40:34.585][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[07:40:34.585][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_funnel" that outputs: <item:create:brass_funnel>
+[07:40:34.585][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_tunnel" that outputs: <item:create:brass_tunnel>
+[07:40:34.586][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[07:40:34.586][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[07:40:34.588][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[07:40:34.589][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[07:40:34.589][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[07:40:34.589][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[07:40:34.589][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[07:40:34.590][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[07:40:34.590][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[07:40:34.590][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[07:40:34.590][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[07:40:34.591][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[07:40:34.591][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[07:40:34.592][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
+[07:40:34.594][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
+[07:40:34.596][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/mechanical_saw" that outputs: <item:create:mechanical_saw>
+[07:40:34.597][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[07:40:34.597][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[07:40:34.597][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[07:40:34.597][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[07:40:34.597][DONE][SERVER][INFO] Finished loading Scripts!
+[07:40:34.598][DONE][SERVER][INFO] This reload was made possible by Ncc1702 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[07:40:39.862][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:40:39.899][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:40:39.899][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[07:40:39.900][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[07:40:39.900][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[07:40:39.901][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:40:39.932][DONE][CLIENT][INFO] Finished loading Scripts!

@@ -10,9 +10,17 @@ onEvent('recipes', event => {
     event.remove({output: 'create:minecart_coupling'})
     event.remove({output: 'create:goggles'})
     event.remove({output: 'create:copper_valve_handle'})
-
-
-
+    event.remove({output: 'create:whisk'})
+    event.remove({output: 'create:depot'})
+    event.remove({output: 'create:mechanical_press'})
+    event.remove({output: 'create:diving_helmet'})
+    event.remove({output: 'create:diving_boots'})
+    event.remove({output: 'create:andesite_funnel'})
+    event.remove({output: 'create:andesite_tunnel'})
+    event.remove({output: 'create:brass_funnel'})
+    event.remove({output: 'create:brass_tunnel'})
+    event.remove({output: 'create:brass_hand'})
+    event.remove({output: 'create:mechanical_saw'})
 
     event.remove({output: 'create:crushing_wheel'})
 
