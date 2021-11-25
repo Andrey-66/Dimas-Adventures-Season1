@@ -1,5 +1,5 @@
-[06:05:19.628][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
-[06:05:22.446][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+[07:45:38.051][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[07:45:40.316][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
 'ars_nouveau' at version '1.23.11'
 'botania' at version '1.16.5-419'
 'crafttweaker' at version '7.1.2.455'
@@ -12,548 +12,134 @@
 'tconstruct' at version '3.2.0.290'
 'thermal' at version '1.3.2'
 'thermal_foundation' at version '1.3.2'
-[06:05:24.989][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
-[06:05:44.155][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
-[06:05:45.035][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
-[06:06:30.855][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:06:30.968][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[06:06:30.972][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[06:06:30.973][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[06:06:30.974][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[06:06:30.975][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[06:06:31.036][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[06:06:31.038][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[06:06:31.038][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[06:06:31.038][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
-[06:06:31.039][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[06:06:31.041][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[06:06:31.043][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[06:06:31.044][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[06:06:31.046][DONE][CLIENT][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[06:06:31.047][DONE][CLIENT][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[06:06:31.048][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[06:06:31.049][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[06:06:31.050][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[06:06:31.050][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[06:06:31.050][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[06:06:31.050][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[06:06:31.051][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[06:06:31.051][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
-[06:06:31.053][DONE][CLIENT][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
-[06:06:31.058][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
-[06:06:31.059][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
-[06:06:31.064][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[06:06:31.065][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[06:06:31.065][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[06:06:31.066][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[06:06:31.066][DONE][CLIENT][INFO] Finished loading Scripts!
-[06:06:31.068][DONE][CLIENT][INFO] This reload was made possible by Ivy_ and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[06:06:39.216][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:06:39.281][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[06:06:39.281][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[06:06:39.282][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[06:06:39.282][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[06:06:39.284][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[06:06:39.312][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[06:06:39.312][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[06:06:39.313][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[06:06:39.313][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
-[06:06:39.314][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[06:06:39.314][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[06:06:39.315][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[06:06:39.315][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[06:06:39.315][DONE][CLIENT][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[06:06:39.316][DONE][CLIENT][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[06:06:39.317][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[06:06:39.318][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[06:06:39.319][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[06:06:39.319][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[06:06:39.319][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[06:06:39.319][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[06:06:39.320][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[06:06:39.320][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
-[06:06:39.320][DONE][CLIENT][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
-[06:06:39.322][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
-[06:06:39.323][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
-[06:06:39.323][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[06:06:39.323][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[06:06:39.323][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[06:06:39.323][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[06:06:39.324][DONE][CLIENT][INFO] Finished loading Scripts!
-[06:06:39.324][DONE][CLIENT][INFO] This reload was made possible by Psyberition and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[06:07:00.222][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:07:00.353][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[06:07:00.353][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[06:07:00.354][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[06:07:00.354][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[06:07:00.356][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[06:07:00.415][DONE][CLIENT][INFO] Finished loading Scripts!
-[06:12:40.740][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:12:40.886][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[06:12:40.887][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[06:12:40.888][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[06:12:40.888][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[06:12:40.891][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[06:12:40.957][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[06:12:40.958][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[06:12:40.959][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[06:12:40.959][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
-[06:12:40.961][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[06:12:40.971][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[06:12:40.971][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[06:12:40.972][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[06:12:40.973][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[06:12:40.974][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[06:12:40.976][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[06:12:40.978][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[06:12:40.978][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[06:12:40.979][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[06:12:40.979][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[06:12:40.980][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[06:12:40.980][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[06:12:40.981][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
-[06:12:40.981][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
-[06:12:40.984][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
-[06:12:40.985][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
-[06:12:40.985][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[06:12:40.986][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[06:12:40.986][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[06:12:40.986][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[06:12:40.987][DONE][SERVER][INFO] Finished loading Scripts!
-[06:12:40.988][DONE][SERVER][INFO] This reload was made possible by Robijnvogel and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[06:12:49.422][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:12:49.562][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[06:12:49.562][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[06:12:49.563][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[06:12:49.564][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[06:12:49.566][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[06:12:49.616][DONE][CLIENT][INFO] Finished loading Scripts!
-Item: <item:create:andesite_funnel>
-Block: <block:create:andesite_funnel>
-BlockState: <blockstate:create:andesite_funnel:powered=false,facing=north,extracting=false>
-Block Tag Entries
-    -  <tag:blocks:create:safe_nbt>
-Copied!
-Copied!
-Item: <item:minecraft:hopper>
-Block: <block:minecraft:hopper>
-BlockState: <blockstate:minecraft:hopper:facing=down,enabled=true>
-Copied!
-Item: <item:minecraft:dried_kelp>
-Copied!
-Item: <item:create:andesite_alloy>
-Copied!
-Item: <item:create:andesite_tunnel>
-Block: <block:create:andesite_tunnel>
-BlockState: <blockstate:create:andesite_tunnel:shape=STRAIGHT,axis=x>
-Copied!
-Item: <item:create:andesite_casing>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}})
-Block: <block:create:andesite_casing>
-BlockState: <blockstate:create:andesite_casing>
-Copied!
-Item: <item:minecraft:smooth_stone_slab>
-Block: <block:minecraft:smooth_stone_slab>
-BlockState: <blockstate:minecraft:smooth_stone_slab:waterlogged=false,type=bottom>
-Item Tag Entries
-    -  <tag:items:minecraft:slabs>
-Block Tag Entries
-    -  <tag:blocks:minecraft:slabs>
-Copied!
-Item: <item:minecraft:oak_log>
-Block: <block:minecraft:oak_log>
-BlockState: <blockstate:minecraft:oak_log:axis=y>
-Item Tag Entries
-    -  <tag:items:minecraft:oak_logs>
-    -  <tag:items:minecraft:logs>
-    -  <tag:items:minecraft:logs_that_burn>
-    -  <tag:items:forge:railbed>
-Block Tag Entries
-    -  <tag:blocks:alexsmobs:cachalot_whale_breakables>
-    -  <tag:blocks:minecraft:logs>
-    -  <tag:blocks:ars_nouveau:harvest/stems>
-    -  <tag:blocks:ars_nouveau:harvest/fellable>
-    -  <tag:blocks:minecraft:logs_that_burn>
-    -  <tag:blocks:mekanism:atomic_disassembler_ore>
-    -  <tag:blocks:alexsmobs:soul_vulture_spawns>
-    -  <tag:blocks:tconstruct:tree_log>
-    -  <tag:blocks:minecraft:oak_logs>
-    -  <tag:blocks:alexsmobs:soul_vulture_perches>
-Copied!
-[06:31:08.276][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:31:08.409][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[06:31:08.409][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[06:31:08.410][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[06:31:08.411][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[06:31:08.415][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[06:31:08.488][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[06:31:08.488][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[06:31:08.489][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[06:31:08.489][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
-[06:31:08.490][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[06:31:08.491][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[06:31:08.491][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[06:31:08.492][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[06:31:08.493][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[06:31:08.493][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[06:31:08.498][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[06:31:08.500][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[06:31:08.501][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[06:31:08.502][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[06:31:08.502][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[06:31:08.502][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[06:31:08.503][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[06:31:08.505][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
-[06:31:08.506][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
-[06:31:08.508][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
-[06:31:08.509][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
-[06:31:08.512][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
-[06:31:08.512][DONE][SERVER][ERROR] Non [a-z0-9/._-] character in path of location: crafttweaker:andesite_tunnel>
-net.minecraft.util.ResourceLocationException: Non [a-z0-9/._-] character in path of location: crafttweaker:andesite_tunnel>
-	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:33)
-	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:42)
-	at com.blamejared.createtweaker.managers.SequencedAssemblyManager.builder(SequencedAssemblyManager.java:24)
-	at scripts.create.run(create.zs:73)
-	at Scripts.run(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openzen.zenscript.javabytecode.JavaBytecodeRunUnit.run(JavaBytecodeRunUnit.java:127)
-	at org.openzen.zencode.java.ScriptingEngine.run(ScriptingEngine.java:170)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:132)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:119)
-	at com.blamejared.crafttweaker.CraftTweaker$1.apply(CraftTweaker.java:251)
-	at com.blamejared.crafttweaker.CraftTweaker$1.func_212853_a_(CraftTweaker.java:230)
-	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13)
-	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:656)
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:442)
-	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127)
-	at net.minecraft.server.MinecraftServer.func_240780_a_(MinecraftServer.java:1305)
-	at net.minecraft.command.impl.ReloadCommand.func_241062_a_(SourceFile:22)
-	at net.minecraft.command.impl.ReloadCommand.func_198598_a_(SourceFile:53)
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:262)
-	at net.minecraft.command.Commands.func_197059_a(Commands.java:217)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1119)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_244548_c(ServerPlayNetHandler.java:1102)
-	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1081)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:36)
-	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(SourceFile:9)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:734)
-	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:159)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:717)
-	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:711)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
-	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:696)
-	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:646)
-	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:232)
-	at java.lang.Thread.run(Thread.java:748)
-
-[06:31:08.535][DONE][SERVER][INFO] Finished loading Scripts!
-[06:31:08.536][DONE][SERVER][INFO] This reload was made possible by Tyrone McLean and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[06:31:16.927][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:31:17.030][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[06:31:17.031][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[06:31:17.032][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[06:31:17.032][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[06:31:17.035][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[06:31:17.081][DONE][CLIENT][ERROR] Non [a-z0-9/._-] character in path of location: crafttweaker:andesite_tunnel>
-net.minecraft.util.ResourceLocationException: Non [a-z0-9/._-] character in path of location: crafttweaker:andesite_tunnel>
-	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:33)
-	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:42)
-	at com.blamejared.createtweaker.managers.SequencedAssemblyManager.builder(SequencedAssemblyManager.java:24)
-	at scripts.create.run(create.zs:73)
-	at Scripts.run(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openzen.zenscript.javabytecode.JavaBytecodeRunUnit.run(JavaBytecodeRunUnit.java:127)
-	at org.openzen.zencode.java.ScriptingEngine.run(ScriptingEngine.java:170)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:132)
-	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
-	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScriptsFromRecipeManager(CraftTweakerAPI.java:168)
-	at com.blamejared.crafttweaker.CraftTweaker.getRecipes(CraftTweaker.java:206)
-	at net.minecraftforge.eventbus.ASMEventHandler_912_CraftTweaker_getRecipes_RecipesUpdatedEvent.invoke(.dynamic)
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
-	at net.minecraftforge.client.ForgeHooksClient.onRecipesUpdated(ForgeHooksClient.java:774)
-	at net.minecraft.client.network.play.ClientPlayNetHandler.func_199525_a(ClientPlayNetHandler.java:1314)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:27)
-	at net.minecraft.network.play.server.SUpdateRecipesPacket.func_148833_a(SourceFile:15)
-	at net.minecraft.network.PacketThreadUtil.func_225383_a(SourceFile:21)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144)
-	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118)
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(SourceFile:103)
-	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:948)
-	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607)
-	at net.minecraft.client.main.Main.main(Main.java:184)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
-
-[06:31:17.082][DONE][CLIENT][INFO] Finished loading Scripts!
-[06:31:37.180][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:31:37.266][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[06:31:37.267][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[06:31:37.268][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[06:31:37.269][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[06:31:37.272][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[06:31:37.304][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[06:31:37.304][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[06:31:37.304][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[06:31:37.305][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
-[06:31:37.306][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[06:31:37.306][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[06:31:37.307][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[06:31:37.307][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[06:31:37.308][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[06:31:37.308][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[06:31:37.310][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[06:31:37.312][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[06:31:37.312][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[06:31:37.312][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[06:31:37.313][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[06:31:37.313][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[06:31:37.313][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[06:31:37.314][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
-[06:31:37.315][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
-[06:31:37.316][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
-[06:31:37.317][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
-[06:31:37.318][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
-[06:31:37.321][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
-[06:31:37.321][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[06:31:37.322][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[06:31:37.322][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[06:31:37.322][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[06:31:37.322][DONE][SERVER][INFO] Finished loading Scripts!
-[06:31:37.323][DONE][SERVER][INFO] This reload was made possible by Ncc1702 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[06:31:44.724][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[06:31:44.953][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[06:31:44.953][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[06:31:44.954][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[06:31:44.954][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[06:31:44.965][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[06:31:45.025][DONE][CLIENT][INFO] Finished loading Scripts!
-Item: <item:create:brass_hand>
-Copied!
-Item: <item:ars_nouveau:glyph_touch>
-Copied!
-Item: <item:create:cogwheel>
-Block: <block:create:cogwheel>
-BlockState: <blockstate:create:cogwheel:waterlogged=false,axis=y>
-Copied!
-Item: <item:create:brass_sheet>
-Item Tag Entries
-    -  <tag:items:forge:plates>
-    -  <tag:items:forge:plates/brass>
-Copied!
-[07:10:03.854][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[07:10:03.920][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[07:10:03.920][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[07:10:03.921][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[07:10:03.921][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[07:10:03.923][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[07:10:03.946][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[07:10:03.946][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[07:10:03.947][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[07:10:03.947][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
-[07:10:03.948][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[07:10:03.948][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[07:10:03.948][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[07:10:03.949][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[07:10:03.949][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_hand" that outputs: <item:create:brass_hand>
-[07:10:03.950][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[07:10:03.950][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[07:10:03.951][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[07:10:03.952][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[07:10:03.953][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[07:10:03.953][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[07:10:03.953][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[07:10:03.953][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[07:10:03.953][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[07:10:03.954][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
-[07:10:03.954][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
-[07:10:03.955][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
-[07:10:03.956][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
-[07:10:03.957][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
-[07:10:03.958][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
-[07:10:03.959][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[07:10:03.959][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[07:10:03.960][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[07:10:03.960][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[07:10:03.960][DONE][SERVER][INFO] Finished loading Scripts!
-[07:10:03.960][DONE][SERVER][INFO] This reload was made possible by Tyrone McLean and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[07:10:10.173][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[07:10:10.245][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[07:10:10.246][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[07:10:10.247][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[07:10:10.247][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[07:10:10.249][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[07:10:10.286][DONE][CLIENT][INFO] Finished loading Scripts!
-Item: <item:thermal:diamond_dust>
-Item Tag Entries
-    -  <tag:items:forge:dusts/diamond>
-    -  <tag:items:forge:dusts>
-Item: <item:mekanism:dust_diamond>
-Item Tag Entries
-    -  <tag:items:forge:dusts/diamond>
-    -  <tag:items:forge:dusts>
-Item: <item:create:mechanical_saw>
-Block: <block:create:mechanical_saw>
-BlockState: <blockstate:create:mechanical_saw:facing=north,axis_along_first=true>
-Copied!
-Item: <item:create:andesite_casing>
-Block: <block:create:andesite_casing>
-BlockState: <blockstate:create:andesite_casing>
-Copied!
-Item: <item:thermal:diamond_dust>
-Item Tag Entries
-    -  <tag:items:forge:dusts/diamond>
-    -  <tag:items:forge:dusts>
-Copied!
-Item: <item:create:iron_sheet>
-Item Tag Entries
-    -  <tag:items:forge:plates>
-    -  <tag:items:forge:plates/iron>
-Copied!
-[07:31:50.002][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[07:31:50.065][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[07:31:50.065][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[07:31:50.065][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[07:31:50.066][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[07:31:50.067][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[07:31:50.095][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[07:31:50.096][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[07:31:50.096][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[07:31:50.096][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
-[07:31:50.097][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[07:31:50.097][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[07:31:50.097][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[07:31:50.098][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[07:31:50.098][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_hand" that outputs: <item:create:brass_hand>
-[07:31:50.098][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[07:31:50.099][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[07:31:50.100][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[07:31:50.101][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[07:31:50.101][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[07:31:50.102][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[07:31:50.102][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[07:31:50.102][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[07:31:50.102][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[07:31:50.102][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
-[07:31:50.103][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
-[07:31:50.104][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
-[07:31:50.104][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
-[07:31:50.106][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
-[07:31:50.107][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
-[07:31:50.109][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/mechanical_saw" that outputs: <item:create:mechanical_saw>
-[07:31:50.110][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[07:31:50.110][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[07:31:50.110][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[07:31:50.110][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[07:31:50.110][DONE][SERVER][INFO] Finished loading Scripts!
-[07:31:50.111][DONE][SERVER][INFO] This reload was made possible by WaterMoon and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[07:31:55.700][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[07:31:55.753][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[07:31:55.753][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[07:31:55.754][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[07:31:55.754][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[07:31:55.756][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[07:31:55.800][DONE][CLIENT][INFO] Finished loading Scripts!
-Item: <item:create:brass_funnel>
-Block: <block:create:brass_funnel>
-BlockState: <blockstate:create:brass_funnel:powered=false,facing=north,extracting=false>
-Block Tag Entries
-    -  <tag:blocks:create:safe_nbt>
-Copied!
-Item: <item:create:brass_tunnel>
-Block: <block:create:brass_tunnel>
-BlockState: <blockstate:create:brass_tunnel:shape=STRAIGHT,axis=x>
-Copied!
-Item: <item:create:andesite_funnel>
-Block: <block:create:andesite_funnel>
-BlockState: <blockstate:create:andesite_funnel:powered=false,facing=north,extracting=false>
-Block Tag Entries
-    -  <tag:blocks:create:safe_nbt>
-Copied!
-Item: <item:create:andesite_tunnel>
-Block: <block:create:andesite_tunnel>
-BlockState: <blockstate:create:andesite_tunnel:shape=STRAIGHT,axis=x>
-Copied!
-Item: <item:create:brass_sheet>
-Item Tag Entries
-    -  <tag:items:forge:plates>
-    -  <tag:items:forge:plates/brass>
-Copied!
-[07:40:34.491][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[07:40:34.555][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[07:40:34.555][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
-[07:40:34.556][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
-[07:40:34.556][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
-[07:40:34.557][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
-[07:40:34.582][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
-[07:40:34.582][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
-[07:40:34.583][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
-[07:40:34.583][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
-[07:40:34.584][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
-[07:40:34.584][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
-[07:40:34.584][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
-[07:40:34.585][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
-[07:40:34.585][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_funnel" that outputs: <item:create:brass_funnel>
-[07:40:34.585][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_tunnel" that outputs: <item:create:brass_tunnel>
-[07:40:34.586][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
-[07:40:34.586][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
-[07:40:34.588][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
-[07:40:34.589][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
-[07:40:34.589][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
-[07:40:34.589][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
-[07:40:34.589][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
-[07:40:34.590][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
-[07:40:34.590][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
-[07:40:34.590][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
-[07:40:34.590][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
-[07:40:34.591][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
-[07:40:34.591][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
-[07:40:34.592][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
-[07:40:34.594][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
-[07:40:34.596][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/mechanical_saw" that outputs: <item:create:mechanical_saw>
-[07:40:34.597][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
-[07:40:34.597][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
-[07:40:34.597][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
-[07:40:34.597][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
-[07:40:34.597][DONE][SERVER][INFO] Finished loading Scripts!
-[07:40:34.598][DONE][SERVER][INFO] This reload was made possible by Ncc1702 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[07:40:39.862][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
-[07:40:39.899][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
-[07:40:39.899][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
-[07:40:39.900][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
-[07:40:39.900][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
-[07:40:39.901][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
-[07:40:39.932][DONE][CLIENT][INFO] Finished loading Scripts!
+[07:45:42.193][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[07:46:00.234][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[07:46:01.517][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[07:47:10.358][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:47:10.463][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:47:10.469][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[07:47:10.471][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[07:47:10.471][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[07:47:10.474][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:47:10.545][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[07:47:10.547][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[07:47:10.547][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[07:47:10.548][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[07:47:10.549][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[07:47:10.552][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[07:47:10.554][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[07:47:10.555][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[07:47:10.555][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_funnel" that outputs: <item:create:brass_funnel>
+[07:47:10.555][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_tunnel" that outputs: <item:create:brass_tunnel>
+[07:47:10.558][DONE][CLIENT][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[07:47:10.559][DONE][CLIENT][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[07:47:10.561][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[07:47:10.562][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[07:47:10.563][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[07:47:10.563][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[07:47:10.563][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[07:47:10.563][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[07:47:10.564][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[07:47:10.564][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[07:47:10.566][DONE][CLIENT][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[07:47:10.572][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[07:47:10.573][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[07:47:10.575][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
+[07:47:10.577][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
+[07:47:10.578][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/mechanical_saw" that outputs: <item:create:mechanical_saw>
+[07:47:10.583][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[07:47:10.584][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[07:47:10.584][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[07:47:10.585][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[07:47:10.585][DONE][CLIENT][INFO] Finished loading Scripts!
+[07:47:10.586][DONE][CLIENT][INFO] This reload was made possible by AdaraChristine and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[07:47:19.598][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:47:19.648][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:47:19.649][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[07:47:19.650][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[07:47:19.651][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[07:47:19.654][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:47:19.688][DONE][CLIENT][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[07:47:19.688][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[07:47:19.689][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[07:47:19.689][DONE][CLIENT][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[07:47:19.690][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[07:47:19.690][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[07:47:19.690][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[07:47:19.691][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[07:47:19.691][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_funnel" that outputs: <item:create:brass_funnel>
+[07:47:19.692][DONE][CLIENT][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_tunnel" that outputs: <item:create:brass_tunnel>
+[07:47:19.692][DONE][CLIENT][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[07:47:19.693][DONE][CLIENT][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[07:47:19.694][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[07:47:19.695][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[07:47:19.696][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[07:47:19.696][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[07:47:19.696][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[07:47:19.696][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[07:47:19.697][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[07:47:19.697][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[07:47:19.698][DONE][CLIENT][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[07:47:19.699][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[07:47:19.700][DONE][CLIENT][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[07:47:19.701][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
+[07:47:19.703][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
+[07:47:19.705][DONE][CLIENT][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/mechanical_saw" that outputs: <item:create:mechanical_saw>
+[07:47:19.705][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[07:47:19.705][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[07:47:19.705][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[07:47:19.706][DONE][CLIENT][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[07:47:19.706][DONE][CLIENT][INFO] Finished loading Scripts!
+[07:47:19.706][DONE][CLIENT][INFO] This reload was made possible by TriosGaminG Pro and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[07:47:36.694][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:47:36.753][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:47:36.754][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[07:47:36.755][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[07:47:36.755][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[07:47:36.758][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:47:36.806][DONE][CLIENT][INFO] Finished loading Scripts!
+[07:50:04.726][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:50:04.819][DONE][SERVER][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:50:04.819][DONE][SERVER][INFO] Loading file: 'ars.zs' with priority: 10
+[07:50:04.820][DONE][SERVER][INFO] Loading file: 'botania.zs' with priority: 10
+[07:50:04.821][DONE][SERVER][INFO] Loading file: 'create.zs' with priority: 10
+[07:50:04.823][DONE][SERVER][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:50:04.868][DONE][SERVER][INFO] Adding "tconstruct:alloying" recipe, with name: "crafttweaker:portal" that outputs: <item:minecraft:air>
+[07:50:04.868][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:dark_power_gem" that outputs: <item:evilcraft:dark_power_gem>
+[07:50:04.869][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:book_tir3" that outputs: <item:tconstruct:fantastic_foundry>
+[07:50:04.869][DONE][SERVER][INFO] Adding "tconstruct:casting_table" recipe, of type: "Item Casting", with name: "crafttweaker:copper_valve_handle" that outputs: <item:create:copper_valve_handle>
+[07:50:04.870][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:naga_spawn" that outputs: <item:twilightforest:boss_spawner_naga>
+[07:50:04.871][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:blood_core" that outputs: <item:evilcraft:blood_infuser>
+[07:50:04.871][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:glasspickaxe" that outputs: <item:botania:glass_pickaxe>
+[07:50:04.872][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:goggles" that outputs: <item:create:goggles>
+[07:50:04.872][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_funnel" that outputs: <item:create:brass_funnel>
+[07:50:04.872][DONE][SERVER][INFO] Adding "ars_nouveau:enchanting_apparatus" recipe, with name: "crafttweaker:brass_tunnel" that outputs: <item:create:brass_tunnel>
+[07:50:04.873][DONE][SERVER][INFO] Adding "botania:pure_daisy" recipe, with name: "crafttweaker:grout" that outputs: <item:minecraft:air>
+[07:50:04.873][DONE][SERVER][INFO] Adding "botania:terra_plate" recipe, with name: "crafttweaker:terrasteel" that outputs: <item:botania:terrasteel_ingot>
+[07:50:04.875][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:crusher" that outputs: <item:create:crushing_wheel>
+[07:50:04.875][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:rail" that outputs: <item:minecraft:rail> * 8
+[07:50:04.876][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:powered_rail" that outputs: <item:minecraft:powered_rail>
+[07:50:04.876][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:activato_rail" that outputs: <item:minecraft:activator_rail>
+[07:50:04.876][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:detector_rail" that outputs: <item:minecraft:detector_rail>
+[07:50:04.876][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:controller_rail" that outputs: <item:create:controller_rail> * 6
+[07:50:04.877][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:minecart_coupling" that outputs: <item:create:minecart_coupling>
+[07:50:04.877][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:whisk" that outputs: <item:create:whisk>
+[07:50:04.877][DONE][SERVER][INFO] Adding "create:mixing" recipe, with name: "crafttweaker:depot" that outputs: <item:create:depot>
+[07:50:04.879][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/diving_helmet" that outputs: <item:create:diving_helmet>
+[07:50:04.879][DONE][SERVER][INFO] Adding "create:mechanical_crafting" recipe, with name: "crafttweaker:mechanical_press" that outputs: <item:create:mechanical_press>
+[07:50:04.880][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_funnel" that outputs: <item:create:andesite_funnel>
+[07:50:04.882][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/andesite_tunnel" that outputs: <item:create:andesite_tunnel>
+[07:50:04.885][DONE][SERVER][INFO] Adding "create:sequenced_assembly" recipe, with name: "crafttweaker:sequenced_assembly/mechanical_saw" that outputs: <item:create:mechanical_saw>
+[07:50:04.885][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_crafting].
+[07:50:04.885][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_upgrate_spell].
+[07:50:04.885][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [ars_1_aqua].
+[07:50:04.886][DONE][SERVER][INFO] [ItemStages] Creating new restriction for stages [create_unlock].
+[07:50:04.886][DONE][SERVER][INFO] Finished loading Scripts!
+[07:50:04.886][DONE][SERVER][INFO] This reload was made possible by JDaddy and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[07:50:10.772][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[07:50:10.841][DONE][CLIENT][INFO] Loading file: 'CraftTweakerscripts.zs' with priority: 10
+[07:50:10.842][DONE][CLIENT][INFO] Loading file: 'ars.zs' with priority: 10
+[07:50:10.843][DONE][CLIENT][INFO] Loading file: 'botania.zs' with priority: 10
+[07:50:10.843][DONE][CLIENT][INFO] Loading file: 'create.zs' with priority: 10
+[07:50:10.845][DONE][CLIENT][INFO] Loading file: 'itemstages.zs' with priority: 10
+[07:50:10.882][DONE][CLIENT][INFO] Finished loading Scripts!
