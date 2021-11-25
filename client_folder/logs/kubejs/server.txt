@@ -1,64 +1,102 @@
-[12:21:26] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
-[12:21:26] [INFO] SourceFile:407: Loaded script server_scripts:script.js in 0.001 s
-[12:21:26] [INFO] SourceFile:407: Loaded script server_scripts:botania.js in 0.001 s
-[12:21:26] [INFO] SourceFile:407: Loaded script server_scripts:ftbquests.js in 0.0 s
-[12:21:26] [INFO] SourceFile:407: Loaded script server_scripts:tconstructs.js in 0.002 s
-[12:21:26] [INFO] SourceFile:407: Loaded script server_scripts:evilcraft.js in 0.001 s
-[12:21:26] [INFO] SourceFile:407: Loaded script server_scripts:betterportals.js in 0.001 s
-[12:21:26] [INFO] SourceFile:407: Loaded script server_scripts:create.js in 0.002 s
-[12:21:26] [INFO] SourceFile:407: Loaded 7/7 KubeJS server scripts in 0.012 s
-[12:21:26] [INFO] Scripts loaded
-[12:21:26] [INFO] Scanning recipes...
-[12:21:27] [INFO] [blocks] Found 628 tags, added 0 objects, removed 0 objects
-[12:21:27] [INFO] [items] Found 1053 tags, added 5 objects, removed 0 objects
-[12:21:27] [INFO] [fluids] Found 131 tags, added 0 objects, removed 0 objects
-[12:21:27] [INFO] [entity_types] Found 66 tags, added 0 objects, removed 0 objects
-[12:21:27] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
-[12:21:27] [INFO] [pigments] Found 0 tags, added 0 objects, removed 0 objects
-[12:21:27] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
-[12:21:27] [INFO] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
-[12:21:27] [INFO] [slurries] Found 2 tags, added 0 objects, removed 0 objects
-[12:21:27] [INFO] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
-[12:21:27] [INFO] [gases] Found 5 tags, added 0 objects, removed 0 objects
-[12:21:27] [WARN] Failed to parse recipe 'calemiutils:tools/wallet[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_penny'
-[12:21:27] [WARN] Failed to parse recipe calemiutils:tools/wallet[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_penny'
-[12:21:27] [WARN] Failed to parse recipe 'calemiutils:items/range_upgrade[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_quarter'
-[12:21:27] [WARN] Failed to parse recipe calemiutils:items/range_upgrade[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_quarter'
-[12:21:27] [WARN] Failed to parse recipe 'calemiutils:items/speed_upgrade[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_quarter'
-[12:21:27] [WARN] Failed to parse recipe calemiutils:items/speed_upgrade[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_quarter'
-[12:21:27] [WARN] Failed to parse recipe 'calemiutils:blocks/market[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_dollar'
-[12:21:27] [WARN] Failed to parse recipe calemiutils:blocks/market[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_dollar'
-[12:21:27] [WARN] Failed to parse recipe 'calemiutils:ingredients/knob_stone_quark[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'quark:stone_tool_materials'
-[12:21:27] [WARN] Failed to parse recipe calemiutils:ingredients/knob_stone_quark[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'quark:stone_tool_materials'
-[12:21:27] [INFO] Found 10847 recipes and 0 failed recipes in 267.6 ms
-[12:21:27] [INFO] server_scripts:botania.js:2: - botania:conversions/terrasteel_block_deconstruct[minecraft:crafting_shapeless]: ['#forge:storage_blocks/terrasteel'] -> ['9x botania:terrasteel_ingot']
-[12:21:27] [INFO] server_scripts:botania.js:2: - botania:conversions/terrasteel_from_nugget[minecraft:crafting_shaped]: ['#forge:nuggets/terrasteel'] -> ['botania:terrasteel_ingot']
-[12:21:27] [INFO] server_scripts:botania.js:3: - botania:glass_pickaxe[minecraft:crafting_shaped]: ['botania:livingwood_twig', 'minecraft:glass', '#forge:ingots/manasteel'] -> [Item.of('botania:glass_pickaxe', '{Damage:0}')]
-[12:21:27] [INFO] server_scripts:botania.js:5: - botania:lava_pendant[minecraft:crafting_shaped]: ['botania:mana_string', '#forge:ingots/manasteel', '#botania:runes/fire', '#botania:runes/summer'] -> ['botania:lava_pendant']
-[12:21:27] [INFO] server_scripts:botania.js:6: + minecraft:crafting_shaped: ['botania:rune_summer', 'botania:mana_string', 'minecraft:netherite_ingot', '#twilightforest:fiery_vial', 'botania:manasteel_ingot', 'botania:rune_fire'] -> ['botania:lava_pendant']
-[12:21:27] [INFO] server_scripts:botania.js:19: - botania:blood_pendant[minecraft:crafting_shaped]: ['#forge:gems/prismarine', '#forge:gems/mana_diamond', 'minecraft:ghast_tear'] -> ['botania:blood_pendant']
-[12:21:27] [INFO] server_scripts:botania.js:20: + minecraft:crafting_shaped: ['#twilightforest:fiery_vial', 'minecraft:ghast_tear', 'evilcraft:blood_infusion_core', 'botania:mana_diamond'] -> ['botania:blood_pendant']
-[12:21:27] [INFO] server_scripts:tconstructs.js:2: - tconstruct:common/fantastic_foundry[minecraft:crafting_shapeless]: ['minecraft:book', 'tconstruct:nether_grout'] -> ['tconstruct:fantastic_foundry']
-[12:21:28] [INFO] server_scripts:tconstructs.js:3: - tconstruct:smeltery/seared/grout[minecraft:crafting_shapeless]: ['minecraft:clay_ball', '#minecraft:sand', 'minecraft:gravel'] -> ['2x tconstruct:grout']
-[12:21:28] [INFO] server_scripts:tconstructs.js:3: - tconstruct:smeltery/seared/grout_multiple[minecraft:crafting_shapeless]: ['minecraft:clay', '#minecraft:sand', '#minecraft:sand', '#minecraft:sand', '#minecraft:sand', 'minecraft:gravel', 'minecraft:gravel', 'minecraft:gravel', 'minecraft:gravel'] -> ['8x tconstruct:grout']
-[12:21:28] [INFO] server_scripts:evilcraft.js:2: - evilcraft:special/combine_blood_extractor[evilcraft:crafting_special_bloodextractor_combination]: [] -> []
-[12:21:28] [INFO] server_scripts:evilcraft.js:2: - evilcraft:crafting/blood_extractor[minecraft:crafting_shaped]: ['evilcraft:dark_spike', '#forge:glass', 'evilcraft:dark_gem'] -> ['evilcraft:blood_extractor']
-[12:21:28] [INFO] server_scripts:evilcraft.js:4: - evilcraft:crafting/blood_infuser[minecraft:crafting_shaped]: ['#forge:cobblestone', 'evilcraft:blood_infusion_core'] -> ['evilcraft:blood_infuser']
-[12:21:28] [INFO] server_scripts:evilcraft.js:5: + minecraft:crafting_shaped: ['evilcraft:dark_spike', 'botania:dreadthorn', 'botania:bellethorn', 'evilcraft:dark_power_gem', '#forge:glass'] -> ['evilcraft:blood_extractor']
-[12:21:28] [INFO] server_scripts:evilcraft.js:17: - evilcraft:crafting/blood_infusion_core[minecraft:crafting_shaped]: ['evilcraft:hardened_blood_shard', 'evilcraft:dark_power_gem'] -> ['evilcraft:blood_infusion_core']
-[12:21:28] [INFO] server_scripts:evilcraft.js:18: + minecraft:crafting_shaped: ['evilcraft:hardened_blood_shard', 'botania:spark'] -> ['evilcraft:blood_infusion_core']
-[12:21:28] [INFO] server_scripts:evilcraft.js:27: - evilcraft:special/box_of_eternal_closure[evilcraft:crafting_shaped_custom_output_box_of_eternal_closure]: [] -> []
-[12:21:28] [INFO] server_scripts:evilcraft.js:28: + minecraft:crafting_shaped: ['create:powdered_obsidian', Item.of('botania:brew_flask', '{brewKey:"botania:clear"}'), 'minecraft:ender_chest', Item.of('botania:brew_flask', '{brewKey:"botania:bloodthirst"}')] -> [Item.of('evilcraft:box_of_eternal_closure', '{spiritTag:{playerName:"",remainingLife:0,isSwarm:1b,swarmTier:2,buildupDuration:0,frozenDuration:0,playerId:""}}')]
-[12:21:28] [INFO] server_scripts:create.js:2: - create:crafting/materials/andesite_alloy[minecraft:crafting_shaped]: ['minecraft:andesite', '#forge:nuggets/iron'] -> ['create:andesite_alloy']
-[12:21:28] [INFO] server_scripts:create.js:3: - create:crafting/materials/andesite_alloy_from_zinc[minecraft:crafting_shaped]: ['minecraft:andesite', '#forge:nuggets/zinc'] -> ['create:andesite_alloy']
-[12:21:28] [INFO] server_scripts:create.js:5: - create:crafting/kinetics/water_wheel[minecraft:crafting_shaped]: ['#minecraft:wooden_slabs', 'create:large_cogwheel'] -> ['create:water_wheel']
-[12:21:28] [INFO] server_scripts:create.js:6: + minecraft:crafting_shaped: ['create:iron_sheet', '#minecraft:wooden_slabs', 'create:large_cogwheel'] -> ['create:water_wheel']
-[12:21:28] [INFO] server_scripts:create.js:16: - create:crafting/kinetics/encased_fan[minecraft:crafting_shaped]: ['create:shaft', 'create:andesite_casing', 'create:cogwheel', 'create:propeller'] -> ['create:encased_fan']
-[12:21:28] [INFO] server_scripts:create.js:17: + minecraft:crafting_shaped: ['#forge:plates/iron', 'create:andesite_alloy', 'botania:daffomill'] -> ['create:encased_fan']
-[12:21:28] [INFO] server_scripts:create.js:26: - create:crafting/kinetics/mechanical_crafter[minecraft:crafting_shaped]: ['create:electron_tube', 'minecraft:crafting_table', 'create:brass_casing', 'create:cogwheel'] -> ['3x create:mechanical_crafter']
-[12:21:28] [INFO] server_scripts:create.js:27: + minecraft:crafting_shaped: ['create:electron_tube', 'create:cogwheel', 'create:brass_casing', 'botania:auto_crafting_halo'] -> ['create:mechanical_crafter']
-[12:21:28] [INFO] Posted recipe events in 139.5 ms
-[12:21:28] [INFO] Modified & removed recipes in 179.5 ms
-[12:21:28] [INFO] Added recipes in 1.281 ms
-[12:21:28] [INFO] Added 8 recipes, removed 18 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
-[12:21:29] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[07:49:59] [INFO] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[07:49:59] [INFO] SourceFile:18: Loaded script server_scripts:script.js in 0.002 s
+[07:49:59] [INFO] SourceFile:18: Loaded script server_scripts:botania.js in 0.001 s
+[07:49:59] [INFO] SourceFile:18: Loaded script server_scripts:ftbquests.js in 0.0 s
+[07:49:59] [INFO] SourceFile:18: Loaded script server_scripts:tconstructs.js in 0.001 s
+[07:49:59] [INFO] SourceFile:18: Loaded script server_scripts:mahou.js in 0.001 s
+[07:49:59] [INFO] SourceFile:18: Loaded script server_scripts:evilcraft.js in 0.001 s
+[07:49:59] [INFO] SourceFile:18: Loaded script server_scripts:betterportals.js in 0.001 s
+[07:49:59] [INFO] SourceFile:18: Loaded script server_scripts:create.js in 0.006 s
+[07:49:59] [INFO] SourceFile:18: Loaded 8/8 KubeJS server scripts in 0.027 s
+[07:49:59] [INFO] Scripts loaded
+[07:49:59] [INFO] Scanning recipes...
+[07:50:01] [INFO] [blocks] Found 628 tags, added 0 objects, removed 0 objects
+[07:50:01] [INFO] [items] Found 1053 tags, added 5 objects, removed 0 objects
+[07:50:01] [INFO] [fluids] Found 131 tags, added 0 objects, removed 0 objects
+[07:50:01] [INFO] [entity_types] Found 66 tags, added 0 objects, removed 0 objects
+[07:50:01] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[07:50:01] [INFO] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[07:50:01] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[07:50:01] [INFO] [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[07:50:01] [INFO] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[07:50:01] [INFO] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[07:50:01] [INFO] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[07:50:01] [WARN] Failed to parse recipe 'calemiutils:tools/wallet[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_penny'
+[07:50:01] [WARN] Failed to parse recipe calemiutils:tools/wallet[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_penny'
+[07:50:02] [WARN] Failed to parse recipe 'calemiutils:items/range_upgrade[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_quarter'
+[07:50:02] [WARN] Failed to parse recipe calemiutils:items/range_upgrade[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_quarter'
+[07:50:02] [WARN] Failed to parse recipe 'calemiutils:items/speed_upgrade[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_quarter'
+[07:50:02] [WARN] Failed to parse recipe calemiutils:items/speed_upgrade[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_quarter'
+[07:50:02] [WARN] Failed to parse recipe 'calemiutils:blocks/market[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_dollar'
+[07:50:02] [WARN] Failed to parse recipe calemiutils:blocks/market[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'calemiutils:coin_dollar'
+[07:50:02] [WARN] Failed to parse recipe 'calemiutils:ingredients/knob_stone_quark[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'quark:stone_tool_materials'
+[07:50:02] [WARN] Failed to parse recipe calemiutils:ingredients/knob_stone_quark[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item tag 'quark:stone_tool_materials'
+[07:50:02] [INFO] Found 10847 recipes and 0 failed recipes in 253.0 ms
+[07:50:02] [INFO] server_scripts:botania.js:2: - botania:conversions/terrasteel_block_deconstruct[minecraft:crafting_shapeless]: ['#forge:storage_blocks/terrasteel'] -> ['9x botania:terrasteel_ingot']
+[07:50:02] [INFO] server_scripts:botania.js:2: - botania:conversions/terrasteel_from_nugget[minecraft:crafting_shaped]: ['#forge:nuggets/terrasteel'] -> ['botania:terrasteel_ingot']
+[07:50:02] [INFO] server_scripts:botania.js:3: - botania:glass_pickaxe[minecraft:crafting_shaped]: ['botania:livingwood_twig', 'minecraft:glass', '#forge:ingots/manasteel'] -> [Item.of('botania:glass_pickaxe', '{Damage:0}')]
+[07:50:02] [INFO] server_scripts:botania.js:5: - botania:lava_pendant[minecraft:crafting_shaped]: ['botania:mana_string', '#forge:ingots/manasteel', '#botania:runes/fire', '#botania:runes/summer'] -> ['botania:lava_pendant']
+[07:50:02] [INFO] server_scripts:botania.js:6: + minecraft:crafting_shaped: ['botania:rune_summer', 'botania:mana_string', 'minecraft:netherite_ingot', '#twilightforest:fiery_vial', 'botania:manasteel_ingot', 'botania:rune_fire'] -> ['botania:lava_pendant']
+[07:50:02] [INFO] server_scripts:botania.js:19: - botania:blood_pendant[minecraft:crafting_shaped]: ['#forge:gems/prismarine', '#forge:gems/mana_diamond', 'minecraft:ghast_tear'] -> ['botania:blood_pendant']
+[07:50:02] [INFO] server_scripts:botania.js:20: + minecraft:crafting_shaped: ['#twilightforest:fiery_vial', 'minecraft:ghast_tear', 'evilcraft:blood_infusion_core', 'botania:mana_diamond'] -> ['botania:blood_pendant']
+[07:50:02] [INFO] server_scripts:tconstructs.js:2: - tconstruct:common/fantastic_foundry[minecraft:crafting_shapeless]: ['minecraft:book', 'tconstruct:nether_grout'] -> ['tconstruct:fantastic_foundry']
+[07:50:02] [INFO] server_scripts:tconstructs.js:3: - tconstruct:smeltery/seared/grout[minecraft:crafting_shapeless]: ['minecraft:clay_ball', '#minecraft:sand', 'minecraft:gravel'] -> ['2x tconstruct:grout']
+[07:50:02] [INFO] server_scripts:tconstructs.js:3: - tconstruct:smeltery/seared/grout_multiple[minecraft:crafting_shapeless]: ['minecraft:clay', '#minecraft:sand', '#minecraft:sand', '#minecraft:sand', '#minecraft:sand', 'minecraft:gravel', 'minecraft:gravel', 'minecraft:gravel', 'minecraft:gravel'] -> ['8x tconstruct:grout']
+[07:50:02] [INFO] server_scripts:mahou.js:2: - mahoutsukai:powdered_gold[minecraft:crafting_shapeless]: ['minecraft:gold_ingot', 'mahoutsukai:hammer'] -> ['mahoutsukai:powdered_gold']
+[07:50:02] [INFO] server_scripts:mahou.js:2: - mahoutsukai:powdered_diamond[minecraft:crafting_shapeless]: ['minecraft:diamond', 'mahoutsukai:hammer'] -> ['mahoutsukai:powdered_diamond']
+[07:50:02] [INFO] server_scripts:mahou.js:2: - mahoutsukai:powdered_eye[minecraft:crafting_shapeless]: ['minecraft:ender_eye', 'mahoutsukai:hammer'] -> ['mahoutsukai:powdered_eye']
+[07:50:02] [INFO] server_scripts:mahou.js:2: - mahoutsukai:powdered_iron[minecraft:crafting_shapeless]: ['minecraft:iron_ingot', 'mahoutsukai:hammer'] -> ['mahoutsukai:powdered_iron']
+[07:50:02] [INFO] server_scripts:mahou.js:2: - mahoutsukai:powdered_ender[minecraft:crafting_shapeless]: ['minecraft:ender_pearl', 'mahoutsukai:hammer'] -> ['mahoutsukai:powdered_ender']
+[07:50:02] [INFO] server_scripts:mahou.js:2: - mahoutsukai:powdered_quartz[minecraft:crafting_shapeless]: ['minecraft:quartz', 'mahoutsukai:hammer'] -> ['mahoutsukai:powdered_quartz']
+[07:50:02] [INFO] server_scripts:mahou.js:2: - mahoutsukai:powdered_emerald[minecraft:crafting_shapeless]: ['minecraft:emerald', 'mahoutsukai:hammer'] -> ['mahoutsukai:powdered_emerald']
+[07:50:02] [INFO] server_scripts:mahou.js:3: - mahoutsukai:powdered_emerald_2[minecraft:crafting_shapeless]: ['minecraft:emerald', 'mahoutsukai:mortar_and_pestle'] -> ['2x mahoutsukai:powdered_emerald']
+[07:50:02] [INFO] server_scripts:mahou.js:3: - mahoutsukai:powdered_quartz_2[minecraft:crafting_shapeless]: ['minecraft:quartz', 'mahoutsukai:mortar_and_pestle'] -> ['2x mahoutsukai:powdered_quartz']
+[07:50:02] [INFO] server_scripts:mahou.js:3: - mahoutsukai:powdered_eye_2[minecraft:crafting_shapeless]: ['minecraft:ender_eye', 'mahoutsukai:mortar_and_pestle'] -> ['2x mahoutsukai:powdered_eye']
+[07:50:02] [INFO] server_scripts:mahou.js:3: - mahoutsukai:powdered_diamond_2[minecraft:crafting_shapeless]: ['minecraft:diamond', 'mahoutsukai:mortar_and_pestle'] -> ['2x mahoutsukai:powdered_diamond']
+[07:50:02] [INFO] server_scripts:mahou.js:3: - mahoutsukai:powdered_iron_2[minecraft:crafting_shapeless]: ['minecraft:iron_ingot', 'mahoutsukai:mortar_and_pestle'] -> ['2x mahoutsukai:powdered_iron']
+[07:50:02] [INFO] server_scripts:mahou.js:3: - mahoutsukai:powdered_gold_2[minecraft:crafting_shapeless]: ['minecraft:gold_ingot', 'mahoutsukai:mortar_and_pestle'] -> ['2x mahoutsukai:powdered_gold']
+[07:50:02] [INFO] server_scripts:mahou.js:3: - mahoutsukai:powdered_ender_2[minecraft:crafting_shapeless]: ['minecraft:ender_pearl', 'mahoutsukai:mortar_and_pestle'] -> ['2x mahoutsukai:powdered_ender']
+[07:50:02] [INFO] server_scripts:evilcraft.js:2: - evilcraft:special/combine_blood_extractor[evilcraft:crafting_special_bloodextractor_combination]: [] -> []
+[07:50:02] [INFO] server_scripts:evilcraft.js:2: - evilcraft:crafting/blood_extractor[minecraft:crafting_shaped]: ['evilcraft:dark_spike', '#forge:glass', 'evilcraft:dark_gem'] -> ['evilcraft:blood_extractor']
+[07:50:02] [INFO] server_scripts:evilcraft.js:4: - evilcraft:crafting/blood_infuser[minecraft:crafting_shaped]: ['#forge:cobblestone', 'evilcraft:blood_infusion_core'] -> ['evilcraft:blood_infuser']
+[07:50:02] [INFO] server_scripts:evilcraft.js:5: + minecraft:crafting_shaped: ['evilcraft:dark_spike', 'botania:dreadthorn', 'botania:bellethorn', 'evilcraft:dark_power_gem', '#forge:glass'] -> ['evilcraft:blood_extractor']
+[07:50:02] [INFO] server_scripts:evilcraft.js:17: - evilcraft:crafting/blood_infusion_core[minecraft:crafting_shaped]: ['evilcraft:hardened_blood_shard', 'evilcraft:dark_power_gem'] -> ['evilcraft:blood_infusion_core']
+[07:50:02] [INFO] server_scripts:evilcraft.js:18: + minecraft:crafting_shaped: ['evilcraft:hardened_blood_shard', 'botania:spark'] -> ['evilcraft:blood_infusion_core']
+[07:50:02] [INFO] server_scripts:evilcraft.js:28: + minecraft:crafting_shaped: ['create:powdered_obsidian', Item.of('botania:brew_flask', '{brewKey:"botania:clear"}'), 'minecraft:ender_chest', Item.of('botania:brew_flask', '{brewKey:"botania:bloodthirst"}')] -> [Item.of('evilcraft:box_of_eternal_closure', '{spiritTag:{playerName:"",remainingLife:0,isSwarm:1b,swarmTier:2,buildupDuration:0,frozenDuration:0,playerId:""}}')]
+[07:50:02] [INFO] server_scripts:create.js:2: - create:crafting/materials/andesite_alloy[minecraft:crafting_shaped]: ['minecraft:andesite', '#forge:nuggets/iron'] -> ['create:andesite_alloy']
+[07:50:02] [INFO] server_scripts:create.js:3: - create:crafting/materials/andesite_alloy_from_zinc[minecraft:crafting_shaped]: ['minecraft:andesite', '#forge:nuggets/zinc'] -> ['create:andesite_alloy']
+[07:50:02] [INFO] server_scripts:create.js:4: - minecraft:rail[minecraft:crafting_shaped]: ['#forge:rods/wooden', '#forge:ingots/iron'] -> ['16x minecraft:rail']
+[07:50:02] [INFO] server_scripts:create.js:4: - mekanism:rails[minecraft:crafting_shaped]: ['#forge:rods/wooden', '#forge:ingots/osmium'] -> ['24x minecraft:rail']
+[07:50:02] [INFO] server_scripts:create.js:5: - minecraft:powered_rail[minecraft:crafting_shaped]: ['minecraft:redstone', '#forge:rods/wooden', '#forge:ingots/gold'] -> ['6x minecraft:powered_rail']
+[07:50:02] [INFO] server_scripts:create.js:6: - minecraft:activator_rail[minecraft:crafting_shaped]: ['minecraft:redstone_torch', '#forge:rods/wooden', '#forge:ingots/iron'] -> ['6x minecraft:activator_rail']
+[07:50:02] [INFO] server_scripts:create.js:7: - minecraft:detector_rail[minecraft:crafting_shaped]: ['minecraft:redstone', 'minecraft:stone_pressure_plate', '#forge:ingots/iron'] -> ['6x minecraft:detector_rail']
+[07:50:02] [INFO] server_scripts:create.js:8: - create:crafting/materials/electron_tube[minecraft:crafting_shaped]: ['create:polished_rose_quartz', 'minecraft:redstone_torch', '#forge:nuggets/iron'] -> ['create:electron_tube']
+[07:50:02] [INFO] server_scripts:create.js:9: - minecraft:minecart[minecraft:crafting_shaped]: ['#forge:ingots/iron'] -> ['minecraft:minecart']
+[07:50:02] [INFO] server_scripts:create.js:9: - create:crafting/kinetics/minecart_from_contraption_cart[minecraft:crafting_shapeless]: ['create:minecart_contraption'] -> ['minecraft:minecart']
+[07:50:02] [INFO] server_scripts:create.js:10: - create:crafting/curiosities/minecart_coupling[minecraft:crafting_shaped]: ['create:andesite_alloy', '#forge:plates/iron'] -> ['create:minecart_coupling']
+[07:50:02] [INFO] server_scripts:create.js:11: - create:crafting/kinetics/goggles[minecraft:crafting_shaped]: ['#forge:glass', '#forge:plates/gold', '#forge:string'] -> ['create:goggles']
+[07:50:02] [INFO] server_scripts:create.js:12: - create:crafting/kinetics/copper_valve_handle[minecraft:crafting_shaped]: ['create:andesite_alloy', '#forge:plates/copper'] -> ['create:copper_valve_handle']
+[07:50:02] [INFO] server_scripts:create.js:12: - create:crafting/kinetics/copper_valve_handle_from_others[minecraft:crafting_shapeless]: ['#create:valve_handles'] -> ['create:copper_valve_handle']
+[07:50:02] [INFO] server_scripts:create.js:13: - create:crafting/kinetics/whisk[minecraft:crafting_shaped]: ['#forge:plates/iron', 'create:andesite_alloy'] -> ['create:whisk']
+[07:50:02] [INFO] server_scripts:create.js:14: - create:crafting/kinetics/depot[minecraft:crafting_shaped]: ['create:andesite_alloy', 'create:andesite_casing'] -> ['create:depot']
+[07:50:02] [INFO] server_scripts:create.js:15: - create:crafting/kinetics/mechanical_press[minecraft:crafting_shaped]: ['create:andesite_alloy', 'create:cogwheel', 'create:andesite_casing', '#forge:storage_blocks/iron'] -> ['create:mechanical_press']
+[07:50:02] [INFO] server_scripts:create.js:16: - create:crafting/appliances/diving_helmet[minecraft:crafting_shaped]: ['#forge:glass', '#forge:ingots/copper'] -> [Item.of('create:diving_helmet', '{Damage:0}')]
+[07:50:02] [INFO] server_scripts:create.js:17: - create:crafting/appliances/diving_boots[minecraft:crafting_shaped]: ['create:andesite_alloy', '#forge:ingots/copper'] -> [Item.of('create:diving_boots', '{Damage:0}')]
+[07:50:02] [INFO] server_scripts:create.js:18: - create:crafting/logistics/andesite_funnel[minecraft:crafting_shaped]: ['create:andesite_alloy', 'minecraft:dried_kelp'] -> ['2x create:andesite_funnel']
+[07:50:02] [INFO] server_scripts:create.js:19: - create:crafting/logistics/andesite_tunnel[minecraft:crafting_shaped]: ['create:andesite_alloy', 'minecraft:dried_kelp'] -> ['2x create:andesite_tunnel']
+[07:50:02] [INFO] server_scripts:create.js:20: - create:crafting/logistics/brass_funnel[minecraft:crafting_shaped]: ['#forge:ingots/brass', 'minecraft:dried_kelp', 'create:electron_tube'] -> ['2x create:brass_funnel']
+[07:50:02] [INFO] server_scripts:create.js:21: - create:crafting/logistics/brass_tunnel[minecraft:crafting_shaped]: ['#forge:ingots/brass', 'minecraft:dried_kelp', 'create:electron_tube'] -> ['2x create:brass_tunnel']
+[07:50:02] [INFO] server_scripts:create.js:22: - create:crafting/kinetics/brass_hand[minecraft:crafting_shaped]: ['create:andesite_alloy', '#forge:plates/brass'] -> ['create:brass_hand']
+[07:50:02] [INFO] server_scripts:create.js:23: - create:crafting/kinetics/mechanical_saw[minecraft:crafting_shaped]: ['create:andesite_casing', '#forge:plates/iron', '#forge:ingots/iron'] -> ['create:mechanical_saw']
+[07:50:02] [INFO] server_scripts:create.js:25: - create:mechanical_crafting/crushing_wheel[create:mechanical_crafting]: ['#minecraft:planks', '#forge:stone', 'create:andesite_alloy'] -> ['2x create:crushing_wheel']
+[07:50:02] [INFO] server_scripts:create.js:27: - create:crafting/kinetics/water_wheel[minecraft:crafting_shaped]: ['#minecraft:wooden_slabs', 'create:large_cogwheel'] -> ['create:water_wheel']
+[07:50:02] [INFO] server_scripts:create.js:28: + minecraft:crafting_shaped: ['create:iron_sheet', '#minecraft:wooden_slabs', 'create:large_cogwheel'] -> ['create:water_wheel']
+[07:50:02] [INFO] server_scripts:create.js:38: - create:crafting/kinetics/encased_fan[minecraft:crafting_shaped]: ['create:shaft', 'create:andesite_casing', 'create:cogwheel', 'create:propeller'] -> ['create:encased_fan']
+[07:50:02] [INFO] server_scripts:create.js:39: + minecraft:crafting_shaped: ['#forge:plates/iron', 'create:andesite_alloy', 'botania:daffomill'] -> ['create:encased_fan']
+[07:50:02] [INFO] server_scripts:create.js:48: - create:crafting/kinetics/mechanical_crafter[minecraft:crafting_shaped]: ['create:electron_tube', 'minecraft:crafting_table', 'create:brass_casing', 'create:cogwheel'] -> ['3x create:mechanical_crafter']
+[07:50:02] [INFO] server_scripts:create.js:49: + minecraft:crafting_shaped: ['create:electron_tube', 'create:cogwheel', 'create:brass_casing', 'botania:auto_crafting_halo'] -> ['create:mechanical_crafter']
+[07:50:02] [INFO] Posted recipe events in 328.6 ms
+[07:50:02] [INFO] Modified & removed recipes in 204.0 ms
+[07:50:02] [INFO] Added recipes in 1.384 ms
+[07:50:02] [INFO] Added 8 recipes, removed 55 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[07:50:04] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects

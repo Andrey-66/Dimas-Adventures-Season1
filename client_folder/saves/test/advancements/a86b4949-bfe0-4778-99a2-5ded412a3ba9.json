@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2021-11-25 05:53:31 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2021-11-19 03:16:38 +0300"
@@ -32,6 +38,12 @@
   "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2021-11-19 03:00:19 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/appliances/copper_backtank": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -116,6 +128,12 @@
   "botania:recipes/botania/slingshot": {
     "criteria": {
       "has_item": "2021-11-19 23:45:32 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/cyan_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -263,9 +281,22 @@
     },
     "done": true
   },
+  "create:basin": {
+    "criteria": {
+      "0": "2021-11-25 04:58:17 +0300",
+      "1": "2021-11-25 05:01:42 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_bed": {
     "criteria": {
       "has_gray_wool": "2021-11-19 04:41:01 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/light_gray_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -278,6 +309,12 @@
   "twilightforest:alt/entities/naga": {
     "criteria": {
       "hurt": "2021-11-19 04:24:41 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/light_blue_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -359,6 +396,12 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/smelting/glass_from_tiled_glass": {
+    "criteria": {
+      "has_item": "2021-11-25 05:44:02 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/phantom_ink": {
     "criteria": {
       "has_item": "2021-11-19 03:19:35 +0300"
@@ -380,6 +423,12 @@
   "botania:recipes/botania/corporea_spark": {
     "criteria": {
       "has_alt_item": "2021-11-19 04:38:36 +0300"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/copper_to_silver_chest_upgrade": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -422,6 +471,12 @@
   "botania:challenge/infinite_fruit": {
     "criteria": {
       "fruit": "2021-11-20 06:49:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2021-11-25 05:47:41 +0300"
     },
     "done": true
   },
@@ -557,6 +612,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/materials/copper_block_from_compacting": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "create:recipes/create.base/crafting/kinetics/deployer": {
     "criteria": {
       "has_item": "2021-11-21 08:33:59 +0300"
@@ -647,6 +708,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/yellow_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/yellow_pavement": {
     "criteria": {
       "has_item": "2021-11-19 03:31:47 +0300"
@@ -662,6 +729,12 @@
   "create:recipes/create.base/crafting/kinetics/radial_chassis": {
     "criteria": {
       "has_item": "2021-11-21 03:29:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_helmet": "2021-11-25 05:47:41 +0300"
     },
     "done": true
   },
@@ -692,6 +765,12 @@
   "biomesoplenty:recipes/misc/red_dye_from_rose": {
     "criteria": {
       "has_flower": "2021-11-19 04:22:20 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/speedometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2021-11-24 09:01:33 +0300"
     },
     "done": true
   },
@@ -811,9 +890,10 @@
   },
   "create:mixer": {
     "criteria": {
-      "0": "2021-11-21 23:00:35 +0300"
+      "0": "2021-11-21 23:00:35 +0300",
+      "1": "2021-11-25 05:05:41 +0300"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/decorations/purple_bed": {
     "criteria": {
@@ -841,9 +921,10 @@
   },
   "create:water_wheel": {
     "criteria": {
-      "0": "2021-11-21 05:28:02 +0300"
+      "0": "2021-11-21 05:28:02 +0300",
+      "1": "2021-11-25 05:17:47 +0300"
     },
-    "done": false
+    "done": true
   },
   "botania:main/crafting_halo_craft": {
     "criteria": {
@@ -884,6 +965,12 @@
   "botania:recipes/botania/floating_exoflame": {
     "criteria": {
       "has_item": "2021-11-19 04:05:06 +0300"
+    },
+    "done": true
+  },
+  "create:belt_funnel": {
+    "criteria": {
+      "0": "2021-11-25 04:29:51 +0300"
     },
     "done": true
   },
@@ -998,6 +1085,12 @@
   "create:recipes/create.palettes/fancy_weathered_limestone_bricks_from_weathered_limestone_stonecutting": {
     "criteria": {
       "has_weathered_limestone": "2021-11-21 23:57:41 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/stressometerfrom_conversion": {
+    "criteria": {
+      "has_item": "2021-11-24 09:01:34 +0300"
     },
     "done": true
   },
@@ -1211,6 +1304,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/diving_helmet": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "enigmaticlegacy:book/accessories/ender_ring": {
     "criteria": {
       "has_the_recipe": "2021-11-21 01:25:22 +0300"
@@ -1322,6 +1421,12 @@
   "botania:challenge/thor_ring": {
     "criteria": {
       "ring": "2021-11-20 06:49:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2021-11-25 06:24:30 +0300"
     },
     "done": true
   },
@@ -1457,6 +1562,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/general/common/materials/queens_slime_block_from_ingots": {
+    "criteria": {
+      "has_item": "2021-11-23 03:24:11 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
       "has_red_dye": "2021-11-21 01:06:39 +0300"
@@ -1487,6 +1598,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/hose_pulley": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/alfheim_portal": {
     "criteria": {
       "has_item": "2021-11-19 04:34:58 +0300"
@@ -1513,6 +1630,12 @@
       "hasingotGold1": "2021-11-19 03:31:26 +0300",
       "hasingotGold4": "2021-11-19 03:31:26 +0300",
       "hasingotGold3": "2021-11-19 03:31:26 +0300"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/vanilla_copper_chest": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -1672,6 +1795,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/fluid_valve": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "ironchest:recipes/ironchest/chests/vanilla_dirt_chest": {
     "criteria": {
       "has_iron_ingot": "2021-11-19 04:12:21 +0300"
@@ -1705,6 +1834,12 @@
   "minecraft:recipes/misc/white_dye": {
     "criteria": {
       "has_bone_meal": "2021-11-19 02:58:03 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/black_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -1765,6 +1900,12 @@
   "tconstruct:recipes/tconstruct/general/common/puny_smelting": {
     "criteria": {
       "has_item": "2021-11-19 05:28:48 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/blue_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -1849,6 +1990,12 @@
   "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
       "has_planks": "2021-11-19 03:48:09 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2021-11-25 05:53:31 +0300"
     },
     "done": true
   },
@@ -2152,6 +2299,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/soul_vulture": {
+    "criteria": {
+      "killed": "2021-11-23 03:36:05 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_sand": "2021-11-19 03:50:32 +0300"
@@ -2285,6 +2438,12 @@
     },
     "done": true
   },
+  "enigmaticlegacy:book/misc/hunter_guide": {
+    "criteria": {
+      "has_the_recipe": "2021-11-24 09:48:16 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/mushroom_10": {
     "criteria": {
       "has_item": "2021-11-19 04:13:50 +0300"
@@ -2328,6 +2487,12 @@
   "botania:recipes/botania/mushroom_11": {
     "criteria": {
       "has_item": "2021-11-19 04:13:50 +0300"
+    },
+    "done": true
+  },
+  "create:goggles": {
+    "criteria": {
+      "0": "2021-11-24 08:57:36 +0300"
     },
     "done": true
   },
@@ -2475,6 +2640,12 @@
     },
     "done": true
   },
+  "create:deployer": {
+    "criteria": {
+      "0": "2021-11-25 04:26:10 +0300"
+    },
+    "done": true
+  },
   "enigmaticlegacy:recipes/generic/escape_scroll": {
     "criteria": {
       "has_parent_recipe": "2021-11-19 05:14:33 +0300"
@@ -2535,6 +2706,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2021-11-24 09:49:46 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/white_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/magenta_shiny_flower": {
     "criteria": {
       "has_item": "2021-11-19 03:45:28 +0300"
@@ -2556,6 +2739,12 @@
   "minecraft:recipes/decorations/pink_bed": {
     "criteria": {
       "has_pink_wool": "2021-11-19 03:52:17 +0300"
+    },
+    "done": true
+  },
+  "create:stressometer": {
+    "criteria": {
+      "0": "2021-11-25 05:16:22 +0300"
     },
     "done": true
   },
@@ -2586,6 +2775,12 @@
   "ironchest:recipes/ironchest/chests/iron_gold_chest": {
     "criteria": {
       "has_gold_ingot": "2021-11-19 03:31:26 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2021-11-23 02:32:39 +0300"
     },
     "done": true
   },
@@ -2655,9 +2850,21 @@
     },
     "done": true
   },
+  "betterendforge:recipes/betterendforge/ender_block": {
+    "criteria": {
+      "has_ender_pearl": "2021-11-24 09:48:16 +0300"
+    },
+    "done": true
+  },
   "ironchest:recipes/ironchest/upgrades/diamond_to_obsidian_chest_upgrade": {
     "criteria": {
       "has_glass": "2021-11-19 04:47:50 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/materials/queens_slime_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2021-11-23 03:24:11 +0300"
     },
     "done": true
   },
@@ -2676,6 +2883,12 @@
   "betterendforge:recipes/betterendforge/terminite_shovel_smithing": {
     "criteria": {
       "has_stick": "2021-11-19 03:26:23 +0300"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2021-11-25 04:26:29 +0300"
     },
     "done": true
   },
@@ -2769,6 +2982,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/copper_valve_handle": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2021-11-19 05:05:09 +0300"
@@ -2859,6 +3078,12 @@
     },
     "done": true
   },
+  "create:crushing_wheel": {
+    "criteria": {
+      "0": "2021-11-23 02:43:09 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/petal_white": {
     "criteria": {
       "has_alt_item": "2021-11-19 23:46:15 +0300"
@@ -2922,6 +3147,12 @@
   "botania:recipes/botania/metamorphic_plains_stone_stairs": {
     "criteria": {
       "has_flower_item": "2021-11-19 03:55:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/gray_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -3006,6 +3237,12 @@
   "botania:recipes/botania/drum_gathering": {
     "criteria": {
       "has_item": "2021-11-19 04:38:30 +0300"
+    },
+    "done": true
+  },
+  "enigmaticlegacy:recipes/generic/hunter_guide": {
+    "criteria": {
+      "has_items": "2021-11-24 09:48:16 +0300"
     },
     "done": true
   },
@@ -3267,6 +3504,12 @@
   "create:recipes/create.base/crafting/kinetics/nozzle": {
     "criteria": {
       "has_item": "2021-11-21 05:57:41 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/magenta_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -3546,6 +3789,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/purple_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2021-11-19 02:58:35 +0300"
@@ -3630,9 +3879,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2021-11-25 06:28:09 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2021-11-19 03:50:32 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/brown_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -3657,6 +3918,12 @@
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2021-11-19 03:26:18 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/controller_rail": {
+    "criteria": {
+      "has_item": "2021-11-23 03:49:42 +0300"
     },
     "done": true
   },
@@ -3857,6 +4124,12 @@
     },
     "done": true
   },
+  "botania:recipes/botania/red_string_interceptor": {
+    "criteria": {
+      "has_base_block": "2021-11-25 05:01:58 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_ingot": "2021-11-19 03:16:38 +0300"
@@ -3878,6 +4151,12 @@
   "minecraft:recipes/decorations/yellow_bed": {
     "criteria": {
       "has_yellow_wool": "2021-11-19 04:40:57 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/red_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -4122,6 +4401,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/copper_valve_handle_from_others": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/gadgets/gadgets/frame/gold": {
     "criteria": {
       "has_item": "2021-11-19 05:43:11 +0300"
@@ -4200,9 +4485,21 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/copper_can": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2021-11-19 03:50:34 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/lime_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -4395,6 +4692,12 @@
     },
     "done": true
   },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2021-11-25 07:15:34 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/vivid_seeds": {
     "criteria": {
       "has_item": "2021-11-19 05:07:47 +0300"
@@ -4530,6 +4833,12 @@
   "botania:recipes/botania/metamorphic_taiga_stone_stairs": {
     "criteria": {
       "has_flower_item": "2021-11-19 03:55:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_helmet": "2021-11-25 05:47:41 +0300"
     },
     "done": true
   },
@@ -4670,6 +4979,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/appliances/diving_boots": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2021-11-19 03:16:38 +0300"
@@ -4754,6 +5069,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2021-11-24 09:49:46 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/mushroom_2": {
     "criteria": {
       "has_item": "2021-11-19 04:13:50 +0300"
@@ -4787,6 +5108,18 @@
   "minecraft:recipes/decorations/yellow_carpet": {
     "criteria": {
       "has_yellow_wool": "2021-11-19 04:40:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2021-11-25 04:35:59 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/smart_fluid_pipe": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },
@@ -4835,6 +5168,18 @@
   "create:recipes/create.palettes/layered_scoria_from_scoria_stonecutting": {
     "criteria": {
       "has_scoria": "2021-11-21 23:58:13 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/materials/copper_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/materials/slimesteel_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2021-11-23 03:21:01 +0300"
     },
     "done": true
   },
@@ -5055,6 +5400,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2021-11-24 08:33:45 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2021-11-19 03:31:26 +0300"
@@ -5178,6 +5529,12 @@
   "enigmaticlegacy:book/accessories/arcane_scrolls": {
     "criteria": {
       "has_the_recipe": "2021-11-19 05:14:33 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/green_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
     },
     "done": true
   },
@@ -5385,6 +5742,18 @@
     },
     "done": true
   },
+  "create:speedometer": {
+    "criteria": {
+      "0": "2021-11-25 05:16:19 +0300"
+    },
+    "done": true
+  },
+  "create:mechanical_saw": {
+    "criteria": {
+      "0": "2021-11-25 04:31:51 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_carpet": {
     "criteria": {
       "has_orange_wool": "2021-11-19 04:40:53 +0300"
@@ -5463,6 +5832,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/mechanical_pump": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/floating_hydroangeas": {
     "criteria": {
       "has_item": "2021-11-19 03:16:14 +0300"
@@ -5493,6 +5868,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/pink_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
       "has_obsidian": "2021-11-19 05:05:09 +0300"
@@ -5508,6 +5889,12 @@
   "botania:recipes/botania/conversions/elementium_block_deconstruct": {
     "criteria": {
       "has_item": "2021-11-19 04:38:30 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:tools/make_part": {
+    "criteria": {
+      "crafted_part": "2021-11-24 08:59:30 +0300"
     },
     "done": true
   },
@@ -5805,6 +6192,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/tiled_glass_pane": {
+    "criteria": {
+      "has_ingredient": "2021-11-25 05:44:02 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2021-11-19 04:40:51 +0300"
@@ -6045,6 +6438,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/orange_valve_handle_from_other_valve_handle": {
+    "criteria": {
+      "has_valve": "2021-11-24 09:50:45 +0300"
+    },
+    "done": true
+  },
   "botania:recipes/botania/metamorphic_mesa_bricks": {
     "criteria": {
       "has_flower_item": "2021-11-19 03:55:13 +0300"
@@ -6207,6 +6606,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/materials/copper_casing": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2021-11-19 03:16:38 +0300"
@@ -6270,6 +6675,12 @@
   "minecraft:recipes/decorations/red_bed": {
     "criteria": {
       "has_red_wool": "2021-11-19 04:46:12 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/smart_chute": {
+    "criteria": {
+      "has_item": "2021-11-25 04:26:28 +0300"
     },
     "done": true
   },
@@ -6366,6 +6777,12 @@
   "botania:recipes/botania/terrasteel_leggings": {
     "criteria": {
       "has_prev_tier": "2021-11-19 03:19:51 +0300"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/materials/slimesteel_block_from_ingots": {
+    "criteria": {
+      "has_item": "2021-11-23 03:21:01 +0300"
     },
     "done": true
   },
@@ -6498,6 +6915,12 @@
   "botania:recipes/botania/ender_dagger": {
     "criteria": {
       "has_item": "2021-11-19 03:19:35 +0300"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/crafting/kinetics/fluid_pipe": {
+    "criteria": {
+      "has_item": "2021-11-25 05:35:14 +0300"
     },
     "done": true
   },

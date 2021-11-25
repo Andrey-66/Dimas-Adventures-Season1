@@ -2915,8 +2915,15 @@
 			}]
 		}
 		{
+			title: "Радужный цветок"
 			x: -5.5d
 			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"59202966A0687604"
+				"00B0A3EE3E961EBB"
+			]
+			hide: true
 			id: "37B62CD0ACE99731"
 			tasks: [{
 				id: "04BA3B3EAD93D528"
@@ -4702,6 +4709,27 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "Дорога сковзь пространство"
+			x: 8.0d
+			y: 1.0d
+			dependencies: [
+				"10471CA125C2A378"
+				"00B0A3EE3E961EBB"
+			]
+			id: "410A47594FC3C0F9"
+			tasks: [{
+				id: "69F78F1571BA924C"
+				type: "item"
+				item: "botania:ghost_rail"
+			}]
+			rewards: [{
+				id: "088425591C6FD9D2"
+				type: "item"
+				item: "minecraft:powered_rail"
+				count: 5
 			}]
 		}
 	]
