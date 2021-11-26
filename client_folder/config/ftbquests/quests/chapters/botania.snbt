@@ -246,11 +246,20 @@
 					item: "botania:mana_pearl"
 				}
 			]
-			rewards: [{
-				id: "51F19C90A1E2F48D"
-				type: "choice"
-				table_id: 5861405098905494759L
-			}]
+			rewards: [
+				{
+					id: "51F19C90A1E2F48D"
+					type: "choice"
+					table_id: 5861405098905494759L
+				}
+				{
+					id: "12D480FB7BF80C3B"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "tw_stage"
+				}
+			]
 		}
 		{
 			title: "Инструменты"

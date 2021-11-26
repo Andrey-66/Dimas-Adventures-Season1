@@ -33,6 +33,12 @@
 				type: "item"
 				item: "betterportals:portal_fluid_bucket"
 			}]
+			rewards: [{
+				id: "2738E5D25EF75297"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "nether_stage"
+			}]
 		}
 		{
 			title: "А как от сюда выйти!? "
