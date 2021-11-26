@@ -29,7 +29,7 @@
 
 <recipetype:create:mechanical_crafting>.addRecipe("controller_rail", <item:create:controller_rail> * 6, 
     [[<item:minecraft:powered_rail>, <item:minecraft:air>, <item:minecraft:powered_rail>], 
-    [<item:minecraft:powered_rail>, <item:create:controller_rail>, <item:minecraft:powered_rail>],
+    [<item:minecraft:powered_rail>, <item:create:electron_tube>, <item:minecraft:powered_rail>],
     [<item:minecraft:powered_rail>,<item:minecraft:air>, <item:minecraft:powered_rail>]]);  
 
 <recipetype:create:mechanical_crafting>.addRecipe("minecart_coupling", <item:create:minecart_coupling>, 
