@@ -1,8 +1,0 @@
-$ cat .gitignore
-/logs/**
-/saves/**
-/local/ftbchunks/data/**
-/config/jei
-/screenshots
-.sl_password
-options.txt
