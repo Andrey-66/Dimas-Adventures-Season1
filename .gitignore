@@ -2,4 +2,4 @@
 !client_folder/mods
 !client_folder/scripts/
 !client_folder/kubejs/
-!client_folder/config/
+!client_folder/config/*
