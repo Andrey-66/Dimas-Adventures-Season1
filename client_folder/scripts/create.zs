@@ -89,3 +89,8 @@
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:plates/iron>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:plates/iron>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:dusts/diamond>)));
+
+<recipetype:create:mechanical_crafting>.addRecipe("mechanical_arm", <item:create:mechanical_arm>, 
+    [[<tag:items:forge:plates/brass>,<tag:items:forge:plates/brass>, <item:create:andesite_alloy>],
+    [<tag:items:forge:plates/brass>, <item:minecraft:air>, <item:create:brass_hand>],
+    [<item:create:precision_mechanism>, <item:create:brass_casing>, <item:minecraft:air>]]);

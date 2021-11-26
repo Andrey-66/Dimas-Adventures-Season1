@@ -5,6 +5,7 @@ onEvent('recipes', event => {
     event.remove({output: 'minecraft:powered_rail'})
     event.remove({output: 'minecraft:activator_rail'})
     event.remove({output: 'minecraft:detector_rail'})
+    event.remove({output: 'create:controller_rail'})
     event.remove({output: 'create:electron_tube'})
     event.remove({output: 'minecraft:minecart'})
     event.remove({output: 'create:minecart_coupling'})
@@ -21,6 +22,8 @@ onEvent('recipes', event => {
     event.remove({output: 'create:brass_tunnel'})
     event.remove({output: 'create:brass_hand'})
     event.remove({output: 'create:mechanical_saw'})
+    event.remove({output: 'create:mechanical_arm'})
+    
 
     event.remove({output: 'create:crushing_wheel'})
 

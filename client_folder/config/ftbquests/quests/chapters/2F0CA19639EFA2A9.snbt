@@ -859,5 +859,22 @@
 				count: 5
 			}]
 		}
+		{
+			title: "Умный манипулятор"
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["53E49D94FAB6D520"]
+			id: "4CC0B26DE2FDB470"
+			tasks: [{
+				id: "2AE532CDFCD912D5"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "4CE3B00D7F2090A3"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
 	]
 }
