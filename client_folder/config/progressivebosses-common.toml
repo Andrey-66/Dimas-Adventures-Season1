@@ -1,6 +1,6 @@
-"Enable Wither" = true
+"Enable Wither" = false
 "Enable Dragon" = true
-"Enable Elder Guardian" = true
+"Enable Elder Guardian" = false
 
 [Wither]
 	#Handles various small features, such as the explosion
@@ -273,7 +273,7 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Experience per Difficulty" = 1.0
 		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg Ã¬Ã¬ will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
-		"Dragon Egg per Player" = true
+		"Dragon Egg per Player" = false
 		#A list of drops for the Dragons. Entry format: item,amount,difficulty_required,chance,difficulty_mode,chance_mode
 		#item: item id
 		#amount: amount
