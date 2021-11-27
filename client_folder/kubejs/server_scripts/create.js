@@ -23,10 +23,15 @@ onEvent('recipes', event => {
     event.remove({output: 'create:brass_hand'})
     event.remove({output: 'create:mechanical_saw'})
     event.remove({output: 'create:mechanical_arm'})
-    
+    event.remove({output: 'create:rope_pulley'})
+    event.remove({output: 'create:linear_chassis'})
+    event.remove({output: 'create:mechanical_bearing'})
+    event.remove({output: 'create:clockwork_bearing'})
+    event.remove({output: 'create:radial_chassis'})
+    event.remove({output: 'create:sticker'})
+
 
     event.remove({output: 'create:crushing_wheel'})
-
     event.remove({output: 'create:water_wheel'})
     event.shaped('create:water_wheel', [
         'WIW',

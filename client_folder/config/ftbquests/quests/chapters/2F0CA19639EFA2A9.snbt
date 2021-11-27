@@ -818,7 +818,7 @@
 			}]
 		}
 		{
-			title: "Пила"
+			title: "Только давайте без клоунов"
 			x: -0.5d
 			y: -5.5d
 			dependencies: ["53E49D94FAB6D520"]
@@ -874,6 +874,117 @@
 				id: "4CE3B00D7F2090A3"
 				type: "item"
 				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			title: "Лифт"
+			x: 7.5d
+			y: 2.5d
+			dependencies: [
+				"0E3C25926B33B502"
+				"0C5D8DD50905D12F"
+				"5D01BCACA5CB1697"
+			]
+			id: "74605F0AE91A6037"
+			tasks: [{
+				id: "15C4F350EB0DD375"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [
+				{
+					id: "1C17F5016628F155"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A32ED3ED424BFAF"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Большие площади и объёмы"
+			x: 7.5d
+			y: 3.5d
+			dependencies: ["0E3C25926B33B502"]
+			id: "01E004356EF7FE02"
+			tasks: [
+				{
+					id: "0C36A84AB897CE99"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "5C2BE28BF4F30622"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+			]
+			rewards: [{
+				id: "36581D70E78D17C3"
+				type: "item"
+				item: "create:linear_chassis"
+				count: 5
+			}]
+		}
+		{
+			title: "Тик так"
+			x: 9.5d
+			y: 2.5d
+			dependencies: [
+				"00B0A3EE3E961EBB"
+				"74605F0AE91A6037"
+				"01E004356EF7FE02"
+			]
+			id: "2B3936E00FD203C9"
+			tasks: [
+				{
+					id: "2755EA9B8083F100"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "16912F484E3A0F09"
+					type: "item"
+					item: "create:turntable"
+				}
+				{
+					id: "6684F2E53A02E503"
+					type: "item"
+					item: "create:clockwork_bearing"
+				}
+			]
+			rewards: [{
+				id: "160DE082338A46F1"
+				type: "item"
+				item: "create:cogwheel"
+				count: 10
+			}]
+		}
+		{
+			title: "Залипни!"
+			x: 9.5d
+			y: 3.5d
+			dependencies: ["01E004356EF7FE02"]
+			id: "1EA13B0C325C6583"
+			tasks: [{
+				id: "27B298161E20FC82"
+				type: "item"
+				item: "create:sticker"
 			}]
 		}
 	]

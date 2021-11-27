@@ -94,3 +94,41 @@
     [[<tag:items:forge:plates/brass>,<tag:items:forge:plates/brass>, <item:create:andesite_alloy>],
     [<tag:items:forge:plates/brass>, <item:minecraft:air>, <item:create:brass_hand>],
     [<item:create:precision_mechanism>, <item:create:brass_casing>, <item:minecraft:air>]]);
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("rope_pulley")
+    .transitionTo(<item:minecraft:piston>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}}))
+    .require(<item:create:andesite_casing>)
+    .loops(2)
+    .addOutput(<item:create:rope_pulley>, 1)
+    .addStep(<recipetype:create:cutting>.factory(), (rb) => rb.duration(50))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:create:belt_connector>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:minecraft:wool>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:create:piston_extension_pole>)));
+
+<recipetype:create:mechanical_crafting>.addRecipe("linear_chassis", <item:create:linear_chassis> * 6, 
+    [[<item:tconstruct:pattern>, <item:tconstruct:pattern>, <item:tconstruct:pattern>],
+    [<item:create:andesite_casing>, <item:create:andesite_casing>, <item:create:andesite_casing>]]);
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("mechanical_bearing")
+    .transitionTo(<item:create:sticky_mechanical_piston>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}}))
+    .require(<item:create:sticky_mechanical_piston>)
+    .loops(1)
+    .addOutput(<item:create:mechanical_bearing>, 1)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:botania:pixie_dust>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:create:precision_mechanism>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:tconstruct:tool_binding>.withTag({Material: "tconstruct:slimesteel" as string}))));
+
+<recipetype:create:mechanical_crafting>.addRecipe("clockwork_bearing", <item:create:clockwork_bearing>, 
+    [[<item:create:electron_tube>,<item:create:turntable>, <item:create:electron_tube>],
+    [<item:create:precision_mechanism>, <item:create:mechanical_bearing>, <item:create:precision_mechanism>],
+    [<item:create:cogwheel>, <tag:items:forge:storage_blocks/brass>, <item:create:cogwheel>]]);
+
+<recipetype:create:mixing>.addRecipe("radial_chassis", "none", <item:create:radial_chassis>, [<item:create:linear_chassis>]);
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("sticker")
+    .transitionTo(<item:create:linear_chassis>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}}))
+    .require(<item:create:linear_chassis>)
+    .loops(1)
+    .addOutput(<item:create:sticker>, 1)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:storage_blocks/redstone>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:tconstruct:slime_block>)));
