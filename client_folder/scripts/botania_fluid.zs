@@ -58,3 +58,33 @@ import crafttweaker.api.registries.IRecipeManager;
 <recipetype:tconstruct:casting_table>.addItemCastingRecipe("casting_ingots_elementium_ingot_ingot_multi_use", <tag:items:tconstruct:casts/multi_use/ingot>, <fluid:kubejs:elf_fluid> * 144, <item:botania:elementium_ingot>, 60, false, false);
 <recipetype:tconstruct:casting_table>.addItemCastingRecipe("casting_ingots_elementium_ingot_nugget", <tag:items:tconstruct:casts/single_use/nugget>, <fluid:kubejs:elf_fluid> * 16, <item:botania:elementium_nugget>, 4, true, true);
 <recipetype:tconstruct:casting_table>.addItemCastingRecipe("casting_ingots_elementium_ingot_nugget_multi_use", <tag:items:tconstruct:casts/multi_use/nugget>, <fluid:kubejs:elf_fluid> * 16, <item:botania:elementium_nugget>, 4, false, false);
+
+<tag:fluids:forge:manasteel_fluid>.add(<fluid:kubejs:mana_fluid>);
+<recipetype:tconstruct:casting_basin>.addJSONRecipe("casting_manasteel_block", {
+  "fluid": {
+    "tag": "forge:manasteel_fluid",
+    "amount": 1296
+  },
+  "result": "botania:manasteel_block",
+  "cooling_time": 180
+});
+
+<tag:fluids:forge:terra_fluid>.add(<fluid:kubejs:terra_fluid>);
+<recipetype:tconstruct:casting_basin>.addJSONRecipe("casting_terrasteel_block", {
+  "fluid": {
+    "tag": "forge:terra_fluid",
+    "amount": 1296
+  },
+  "result": "botania:terrasteel_block",
+  "cooling_time": 180
+});
+
+<tag:fluids:forge:elf_fluid>.add(<fluid:kubejs:elf_fluid>);
+<recipetype:tconstruct:casting_basin>.addJSONRecipe("casting_elfsteel_block", {
+  "fluid": {
+    "tag": "forge:elf_fluid",
+    "amount": 1296
+  },
+  "result": "botania:elementium_block",
+  "cooling_time": 180
+});
