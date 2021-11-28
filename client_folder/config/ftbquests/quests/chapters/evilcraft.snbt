@@ -5,7 +5,6 @@
 	filename: "evilcraft"
 	title: "Истоки зла"
 	icon: "evilcraft:dark_gem"
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -808,6 +807,26 @@
 					}
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"21FB833199DD304D"
+				"6C5C974EA86672C4"
+			]
+			hide: true
+			id: "41F0169C2C79C8B6"
+			tasks: [{
+				id: "08F1A2D9CFA2D697"
+				type: "item"
+				item: {
+					id: "evilcraft:spirit_reanimator"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 	]
 }
