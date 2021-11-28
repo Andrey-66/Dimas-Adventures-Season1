@@ -1,0 +1,19 @@
+{
+	id: "20DB0397D65CC924"
+	group: "1E0A8915CBC35F34"
+	order_index: 9
+	filename: "20DB0397D65CC924"
+	title: "Цифровые архивы"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -1.0d
+		y: 0.5d
+		id: "76CC72DD5C6A8BFB"
+		tasks: [{
+			id: "31DCC745130E3C10"
+			type: "item"
+			item: "appliedenergistics2:calculation_processor"
+		}]
+	}]
+}

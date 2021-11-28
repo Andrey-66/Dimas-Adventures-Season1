@@ -987,5 +987,80 @@
 				item: "create:sticker"
 			}]
 		}
+		{
+			title: "Зелёная энергия"
+			x: 9.5d
+			y: 0.5d
+			dependencies: [
+				"5BEBF9A4F30968EE"
+				"7B6EE16F9C17FDB3"
+				"0127396CD2C9D0DC"
+				"2B3936E00FD203C9"
+			]
+			id: "4B17E355DC7ABE48"
+			tasks: [
+				{
+					id: "3E9308733F52AA16"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "40C916136260E36B"
+					type: "item"
+					item: "create:white_sail"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "5F9E16A370C70F35"
+				type: "item"
+				item: "create:shaft"
+				count: 10
+			}]
+		}
+		{
+			title: "Любимая игрушка соседа"
+			x: -2.5d
+			y: -5.5d
+			dependencies: [
+				"3350920379A5581C"
+				"763D6C81D64B4329"
+				"7EC62ACA68556273"
+			]
+			id: "712D1C6BB31BC433"
+			tasks: [{
+				id: "66F28FAFD5C75331"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "4EFE2381F8418E15"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			title: "printf(\"%s\",\"Hello world\");"
+			x: 11.5d
+			y: 2.5d
+			dependencies: ["2B3936E00FD203C9"]
+			id: "6DA0575D4CAF7244"
+			tasks: [{
+				id: "6D1D98FE6588E828"
+				type: "item"
+				item: "create:sequenced_gearshift"
+			}]
+			rewards: [{
+				id: "6E4E2120D81DCE87"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }

@@ -132,3 +132,29 @@
     .addOutput(<item:create:sticker>, 1)
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:storage_blocks/redstone>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:tconstruct:slime_block>)));
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("windmill_bearing")
+    .transitionTo(<item:create:mechanical_bearing>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}}))
+    .require(<item:create:mechanical_bearing>)
+    .loops(2)
+    .addOutput(<item:create:windmill_bearing>, 1)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:evilcraft:weather_container>.withTag({weather: "RAIN" as string})))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:storage_blocks/slimesteel>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:ingots/terrasteel>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:botania:runes/air>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:botania:runes/earth>)));
+
+<recipetype:create:mechanical_crafting>.addRecipe("mechanical_drill", <item:create:mechanical_drill>, 
+    [[<item:minecraft:air>, <tag:items:forge:dusts/diamond>, <item:minecraft:air>],
+    [<tag:items:forge:dusts/diamond>, <tag:items:forge:ingots/iron>, <tag:items:forge:dusts/diamond>],
+    [<tag:items:botania:runes/wrath>, <item:create:andesite_casing>, <tag:items:botania:runes/wrath>],
+    [<tag:items:botania:runes/wrath>, <item:minecraft:air>, <tag:items:botania:runes/wrath>]]);
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("sequenced_gearshift")
+    .transitionTo(<item:create:brass_casing>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}}))
+    .require(<item:create:brass_casing>)
+    .loops(5)
+    .addOutput(<item:create:sequenced_gearshift>, 1)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:create:electron_tube>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:create:cogwheel>))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:ingots/silicon_bronze>)));
