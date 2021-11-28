@@ -2007,7 +2007,7 @@
 			}]
 		}
 		{
-			title: "С рождеством"
+			title: "С Рождеством"
 			x: -9.5d
 			y: -3.5d
 			hide_dependency_lines: true
@@ -2096,7 +2096,7 @@
 			]
 		}
 		{
-			title: "Уто-то превратил сапоги путешественника в ремень"
+			title: "Кто-то превратил сапоги путешественника в ремень"
 			x: -7.5d
 			y: -5.0d
 			hide_dependency_lines: true
@@ -2435,7 +2435,7 @@
 			}]
 		}
 		{
-			title: "Как же я усиал фармиить споры друнглей"
+			title: "Как же я устал фармить споры джунглей"
 			x: 8.0d
 			y: -7.0d
 			hide_dependency_lines: true
@@ -2449,6 +2449,11 @@
 				id: "4F033331DC840F7E"
 				type: "item"
 				item: "botania:thorn_chakram"
+			}]
+			rewards: [{
+				id: "27A5A1E1726D6F94"
+				type: "item"
+				item: "botania:vine_ball"
 			}]
 		}
 		{
@@ -3202,6 +3207,9 @@
 			title: "Гламурный набор"
 			x: 0.0d
 			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["00B0A3EE3E961EBB"]
+			hide: true
 			id: "56BE76A967DE258D"
 			tasks: [
 				{
@@ -3444,7 +3452,7 @@
 			}]
 		}
 		{
-			title: "Сковзь стекло"
+			title: "Сквозь стекло"
 			x: 2.5d
 			y: 5.0d
 			dependencies: [
@@ -4721,7 +4729,7 @@
 			}]
 		}
 		{
-			title: "Дорога сковзь пространство"
+			title: "Дорога сквозь пространство"
 			x: 8.0d
 			y: 1.0d
 			dependencies: [

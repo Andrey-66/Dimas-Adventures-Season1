@@ -158,3 +158,13 @@
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:create:electron_tube>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:create:cogwheel>))
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<tag:items:forge:ingots/silicon_bronze>)));
+
+<recipetype:create:mixing>.addRecipe("ender_tank", "heated", <item:endertanks:ender_tank>.withTag({owner: "all" as string, code: "000" as string}), 
+    [<item:create:fluid_tank>, <item:evilcraft:dark_tank>.withTag({capacity: 16000 as int}), <item:minecraft:white_wool>, <tag:items:forge:ingots/gold>, <tag:items:forge:ingots/terrasteel>],
+    [<fluid:betterportals:portal_fluid_still> * 1000]);
+
+<recipetype:create:mixing>.addRecipe("ender_bucket", "heated", <item:endertanks:ender_bucket>.withTag({owner: "all" as string, code: "000" as string}), 
+    [<item:botania:open_bucket>, <item:evilcraft:dark_tank>.withTag({capacity: 16000 as int}), <item:minecraft:white_wool>, <tag:items:forge:ingots/gold>, <tag:items:forge:ingots/terrasteel>],
+    [<fluid:betterportals:portal_fluid_still> * 1000]);
+
+<recipetype:create:crushing>.addRecipe("dark_ore", [<item:evilcraft:dark_gem> * 4 % 100, <item:evilcraft:dark_gem>  % 40, <item:evilcraft:dark_gem_crushed> % 20], <item:evilcraft:dark_ore>);

@@ -264,6 +264,16 @@
 					timer: 50L
 					observe: "block:create:andesite_encased_shaft"
 				}
+				{
+					id: "4A50086CD88F1EEB"
+					type: "item"
+					item: "create:wooden_bracket"
+				}
+				{
+					id: "451F0258D0E3D183"
+					type: "item"
+					item: "create:metal_bracket"
+				}
 			]
 			rewards: [{
 				id: "3AF0AA39A3EA91C8"
@@ -1258,7 +1268,7 @@
 		{
 			title: "Логическая сеть"
 			x: -0.5d
-			y: 12.5d
+			y: 13.5d
 			dependencies: [
 				"77447E5120627A18"
 				"36D6FA1F997CB582"
@@ -1324,7 +1334,7 @@
 		{
 			title: "Заполнение"
 			x: -0.5d
-			y: 9.0d
+			y: 9.5d
 			dependencies: ["74540D5DADEA22F4"]
 			id: "5C15C07EBA32C4BA"
 			tasks: [
@@ -1344,6 +1354,63 @@
 				type: "item"
 				item: "minecraft:bucket"
 				count: 16
+			}]
+		}
+		{
+			title: "Капитанская дочка. Пушкин."
+			x: -0.5d
+			y: 11.5d
+			dependencies: ["74540D5DADEA22F4"]
+			id: "5F4DD2A5261D16A6"
+			tasks: [{
+				id: "1DCB043EED3E7773"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [{
+				id: "295EC9BDD0C25BCA"
+				type: "item"
+				item: {
+					id: "create:filter"
+					Count: 1b
+					tag: {
+						Items: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 10.5d
+			id: "636841A026013A05"
+			tasks: [{
+				id: "3848E734CD1BC0BA"
+				type: "item"
+				item: {
+					id: "endertanks:ender_tank"
+					Count: 1b
+					tag: {
+						owner: "all"
+						code: "000"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			id: "000E186E1AE1C14E"
+			tasks: [{
+				id: "35D2141002215D84"
+				type: "item"
+				item: {
+					id: "endertanks:ender_bucket"
+					Count: 1b
+					tag: {
+						owner: "all"
+						code: "000"
+					}
+				}
 			}]
 		}
 	]

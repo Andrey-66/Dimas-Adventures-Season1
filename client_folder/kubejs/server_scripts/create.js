@@ -32,6 +32,7 @@ onEvent('recipes', event => {
     event.remove({output: 'create:windmill_bearing'})
     event.remove({output: 'create:mechanical_drill'})
     event.remove({output: 'create:sequenced_gearshift'})
+    event.remove({mod: 'endertanks'})
 
 
     event.remove({output: 'create:crushing_wheel'})
