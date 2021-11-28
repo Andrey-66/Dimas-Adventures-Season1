@@ -168,3 +168,12 @@
     [<fluid:betterportals:portal_fluid_still> * 1000]);
 
 <recipetype:create:crushing>.addRecipe("dark_ore", [<item:evilcraft:dark_gem> * 4 % 100, <item:evilcraft:dark_gem>  % 40, <item:evilcraft:dark_gem_crushed> % 20], <item:evilcraft:dark_ore>);
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("diving_boots")
+    .transitionTo(<item:iceandfire:armor_copper_metal_boots>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}}))
+    .require(<item:iceandfire:armor_copper_metal_boots>)
+    .loops(5)
+    .addOutput(<item:create:diving_boots>, 1)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:dried_kelp>))
+    .addStep(<recipetype:create:cutting>.factory(), (rb) => rb.duration(50))
+    .addStep(<recipetype:create:cutting>.factory(), (rb) => rb.duration(50)));

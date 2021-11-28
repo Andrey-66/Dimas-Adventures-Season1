@@ -1382,6 +1382,11 @@
 		{
 			x: -2.5d
 			y: 10.5d
+			dependencies: [
+				"5C15C07EBA32C4BA"
+				"7034BED34380CAAE"
+				"5F4DD2A5261D16A6"
+			]
 			id: "636841A026013A05"
 			tasks: [{
 				id: "3848E734CD1BC0BA"
@@ -1399,6 +1404,7 @@
 		{
 			x: -4.5d
 			y: 10.5d
+			dependencies: ["636841A026013A05"]
 			id: "000E186E1AE1C14E"
 			tasks: [{
 				id: "35D2141002215D84"
@@ -1411,6 +1417,270 @@
 						code: "000"
 					}
 				}
+			}]
+		}
+		{
+			title: "Продвинутый логик"
+			x: 1.5d
+			y: 13.5d
+			dependencies: ["201693208F702B53"]
+			id: "1B8374F2CCB5AA4A"
+			tasks: [
+				{
+					id: "519DE337A72BB0AE"
+					type: "item"
+					item: "create:powered_latch"
+				}
+				{
+					id: "6440EA6C69701535"
+					type: "item"
+					item: "create:powered_toggle_latch"
+				}
+				{
+					id: "217192D3522AA408"
+					type: "item"
+					item: "create:adjustable_repeater"
+				}
+				{
+					id: "221B05F445929D44"
+					type: "item"
+					item: "create:adjustable_pulse_repeater"
+				}
+				{
+					id: "47EB399187CF53D7"
+					type: "item"
+					item: "create:pulse_repeater"
+				}
+			]
+			rewards: [{
+				id: "5A27E01C5F5D969B"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 5
+			}]
+		}
+		{
+			title: "Залипательные числа"
+			x: 1.5d
+			y: 15.5d
+			dependencies: ["1B8374F2CCB5AA4A"]
+			id: "07F5149A435EA26F"
+			tasks: [{
+				id: "7075757A436AA30C"
+				type: "item"
+				item: "create:nixie_tube"
+			}]
+			rewards: [{
+				id: "634D06BA204BA469"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 13.5d
+			dependencies: [
+				"5ED04893D509AC5E"
+				"1B8374F2CCB5AA4A"
+			]
+			id: "44517B30D5D4ACE7"
+			tasks: [{
+				id: "54C13E069F3D18A5"
+				type: "item"
+				item: "create:stockpile_switch"
+			}]
+			rewards: [{
+				id: "66DEEF595659B760"
+				type: "item"
+				item: "ars_nouveau:glyph_redstone_signal"
+			}]
+		}
+		{
+			title: "Wi-fi"
+			x: 3.5d
+			y: 15.5d
+			dependencies: ["1B8374F2CCB5AA4A"]
+			id: "71191EA83FA3DC92"
+			tasks: [
+				{
+					id: "4E95587AC99A0CAF"
+					type: "item"
+					item: "create:redstone_link"
+					count: 2L
+				}
+				{
+					id: "19184C4DF37B9877"
+					type: "item"
+					item: "create:linked_controller"
+				}
+			]
+			rewards: [{
+				id: "11DE791360721F54"
+				type: "item"
+				item: "create:redstone_link"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: 15.5d
+			dependencies: [
+				"1B8374F2CCB5AA4A"
+				"0694DAB24D8915ED"
+			]
+			id: "56DC2CB584AE03B7"
+			tasks: [{
+				id: "58CF3F59BBEA9EBA"
+				type: "item"
+				item: "create:redstone_contact"
+			}]
+			rewards: [{
+				id: "47AB623F15799CEA"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+		}
+		{
+			title: "Длиннорукий"
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["4CC0B26DE2FDB470"]
+			id: "5207B06B8FB84155"
+			tasks: [{
+				id: "03C4D22AF2BF2944"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Погружение"
+			x: 1.5d
+			y: 12.0d
+			dependencies: ["74540D5DADEA22F4"]
+			id: "74EB7548F013208C"
+			tasks: [
+				{
+					id: "762953CE961589C5"
+					type: "item"
+					item: {
+						id: "create:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60041265466B48F9"
+					type: "item"
+					item: {
+						id: "create:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B2C8FA92DB144EE"
+					type: "item"
+					item: {
+						id: "create:copper_backtank"
+						Count: 1b
+						tag: {
+							Air: 900
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2870568CD2F5E98D"
+				type: "item"
+				item: {
+					id: "botania:brew_vial"
+					Count: 1b
+					tag: {
+						brewKey: "botania:water_breathing"
+					}
+				}
+			}]
+		}
+		{
+			title: "Возмездие белоруссов"
+			x: 2.5d
+			y: 12.0d
+			dependencies: ["74540D5DADEA22F4"]
+			id: "60BE90510A7C7FEC"
+			tasks: [{
+				id: "6B212BFFA2FBA83B"
+				type: "item"
+				item: {
+					id: "create:potato_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EACD196FC8CB3E3"
+				type: "item"
+				item: "minecraft:potato"
+				count: 16
+			}]
+		}
+		{
+			title: "Сумка с инструментами"
+			x: -6.5d
+			y: 0.5d
+			dependencies: ["1B2FEDCA9DFE1AD0"]
+			id: "64F6C89C15CF13A6"
+			tasks: [{
+				id: "52A3B5A5653F24EF"
+				type: "item"
+				item: "create:brown_toolbox"
+			}]
+			rewards: [{
+				id: "2EA03B6D8CC41653"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.5d
+			dependencies: [
+				"77447E5120627A18"
+				"36D6FA1F997CB582"
+			]
+			id: "7C9B08501C5196B4"
+			tasks: [
+				{
+					id: "33A1B64EE15E4D63"
+					type: "item"
+					item: "create:schematicannon"
+				}
+				{
+					id: "029C765E19B06EB8"
+					type: "item"
+					item: "create:schematic_table"
+				}
+				{
+					id: "3F027592629BB971"
+					type: "item"
+					item: "create:schematic_and_quill"
+				}
+			]
+			rewards: [{
+				id: "34B8AB10AE8DB540"
+				type: "item"
+				item: "create:empty_schematic"
 			}]
 		}
 	]
