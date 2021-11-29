@@ -1346,23 +1346,37 @@
 		{
 			x: -2.5d
 			y: 10.5d
+			description: ["Shift + ПКМ изумрудом , чтобы сделать резервуар доступным только команде"]
 			dependencies: [
 				"5C15C07EBA32C4BA"
 				"7034BED34380CAAE"
 				"5F4DD2A5261D16A6"
 			]
 			id: "636841A026013A05"
-			tasks: [{
-				id: "3848E734CD1BC0BA"
-				type: "item"
-				item: {
-					id: "endertanks:ender_tank"
-					Count: 1b
-					tag: {
-						owner: "all"
-						code: "000"
+			tasks: [
+				{
+					id: "3848E734CD1BC0BA"
+					type: "item"
+					item: {
+						id: "endertanks:ender_tank"
+						Count: 1b
+						tag: {
+							owner: "all"
+							code: "000"
+						}
 					}
 				}
+				{
+					id: "21612AE08C6CDC4B"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+			rewards: [{
+				id: "514DB9B6936B09FA"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
 			}]
 		}
 		{
