@@ -828,5 +828,48 @@
 				}
 			}]
 		}
+		{
+			title: "Красный шарик"
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["2E4E4BC9735DBC4C"]
+			hide: true
+			id: "2BAE600C0C509E45"
+			tasks: [{
+				id: "1A5A02BD8740BB11"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_pearl_of_teleportation"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Бесконечность не предел!"
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["5BEBF9A4F30968EE"]
+			hide: true
+			id: "67C6DE149F784252"
+			tasks: [{
+				id: "43B3FAB80E49FB42"
+				type: "item"
+				item: "evilcraft:bucket_eternal_water"
+			}]
+		}
+		{
+			title: "Вечность"
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["5BEBF9A4F30968EE"]
+			hide: true
+			id: "57EE2D6E056CEFCD"
+			tasks: [{
+				id: "6CD8CB3A777C8A7B"
+				type: "item"
+				item: "evilcraft:eternal_water"
+			}]
+		}
 	]
 }
