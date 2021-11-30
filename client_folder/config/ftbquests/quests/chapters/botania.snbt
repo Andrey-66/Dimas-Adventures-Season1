@@ -643,11 +643,19 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "298425517EF9E4AE"
-				type: "choice"
-				table_id: 5861405098905494759L
-			}]
+			rewards: [
+				{
+					id: "298425517EF9E4AE"
+					type: "choice"
+					table_id: 5861405098905494759L
+				}
+				{
+					id: "649C6A39B7ED7BE5"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_pull"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -1312,6 +1320,12 @@
 					count: 5
 					random_bonus: 5
 				}
+				{
+					id: "6BF2CCB51E4BA840"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_harvest"
+				}
 			]
 		}
 		{
@@ -1736,6 +1750,12 @@
 					item: "minecraft:glass"
 					count: 32
 				}
+				{
+					id: "62BA762874D87947"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_evaporate"
+				}
 			]
 		}
 		{
@@ -2092,6 +2112,14 @@
 					team_reward: false
 					auto: "invisible"
 					stage: "ars_1_aqua"
+				}
+				{
+					id: "77679D8687812AAC"
+					type: "gamestage"
+					title: "Под ноги смотри"
+					team_reward: false
+					auto: "invisible"
+					stage: "ars_1_underfoot"
 				}
 			]
 		}

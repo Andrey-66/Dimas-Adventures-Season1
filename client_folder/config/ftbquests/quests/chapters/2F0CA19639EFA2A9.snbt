@@ -296,12 +296,20 @@
 				type: "item"
 				item: "create:encased_fan"
 			}]
-			rewards: [{
-				id: "1374134046E8E046"
-				type: "item"
-				item: "minecraft:smooth_quartz_slab"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "1374134046E8E046"
+					type: "item"
+					item: "minecraft:smooth_quartz_slab"
+					count: 3
+				}
+				{
+					id: "377CDAFD4DD8A74F"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "ars_1_gust"
+				}
+			]
 		}
 		{
 			title: "Верчу, как хочу"
@@ -783,11 +791,19 @@
 				type: "item"
 				item: "create:deployer"
 			}]
-			rewards: [{
-				id: "0369BFB59538BB03"
-				type: "item"
-				item: "create:deployer"
-			}]
+			rewards: [
+				{
+					id: "0369BFB59538BB03"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "51F2C94B4FF6C218"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_interact"
+				}
+			]
 		}
 		{
 			title: "Schnell!"
@@ -1262,7 +1278,7 @@
 		}
 		{
 			title: "Логическая сеть"
-			x: -0.5d
+			x: 1.5d
 			y: 13.5d
 			dependencies: [
 				"77447E5120627A18"
@@ -1275,12 +1291,20 @@
 				type: "item"
 				item: "create:analog_lever"
 			}]
-			rewards: [{
-				id: "63433EDD5A36D555"
-				type: "item"
-				item: "minecraft:redstone"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "63433EDD5A36D555"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 16
+				}
+				{
+					id: "79EAEC96FF7F4028"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_redstone_signal"
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -1438,7 +1462,7 @@
 		}
 		{
 			title: "Продвинутый логик"
-			x: 1.5d
+			x: 3.5d
 			y: 13.5d
 			dependencies: ["201693208F702B53"]
 			hide: true
@@ -1679,8 +1703,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 6.5d
+			x: 1.5d
+			y: 8.5d
 			dependencies: [
 				"77447E5120627A18"
 				"36D6FA1F997CB582"

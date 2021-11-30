@@ -74,7 +74,7 @@
 			rewards: [{
 				id: "0EC99944CD9119F1"
 				type: "item"
-				item: "ars_nouveau:blank_glyph"
+				item: "calemiutils:money_bag_cheap"
 			}]
 		}
 		{

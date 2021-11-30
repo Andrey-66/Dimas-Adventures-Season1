@@ -10,7 +10,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Крафт"
 			icon: "ars_nouveau:glyph_craft"
 			x: -10.0d
 			y: -2.0d
@@ -20,7 +19,6 @@
 				"4E137710B6B5DD82"
 			]
 			hide: true
-			hide_text_until_complete: true
 			id: "79B20D45560C271A"
 			tasks: [{
 				id: "70AC0F5700F17303"
@@ -114,6 +112,7 @@
 			x: -10.0d
 			y: 0.0d
 			dependencies: ["3488D6844894CDE0"]
+			hide: true
 			id: "4E137710B6B5DD82"
 			tasks: [{
 				id: "594613B384DE0E2B"
@@ -126,6 +125,171 @@
 						spells: ",touch,harm,break,self,projectile"
 					}
 				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"795DBA39D1FC59AC"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "57D08B44096F8BBE"
+			tasks: [{
+				id: "3E0B096E990258DF"
+				type: "item"
+				item: "ars_nouveau:glyph_aquatic"
+			}]
+			rewards: [{
+				id: "1A3A847C2147AEB7"
+				type: "item"
+				item: "minecraft:tropical_fish_bucket"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"398D1C7E49241887"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "50E3492C9E03B5BE"
+			tasks: [{
+				id: "05658D45D06DA67F"
+				type: "item"
+				item: "ars_nouveau:glyph_amplify"
+			}]
+			rewards: [{
+				id: "6EF81A6F3B9735D2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -11.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"795DBA39D1FC59AC"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "14669305C4A18F6C"
+			tasks: [{
+				id: "599B1C493A1CE6CD"
+				type: "item"
+				item: "ars_nouveau:glyph_underfoot"
+			}]
+			rewards: [{
+				id: "7609C38B791574DE"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E137710B6B5DD82"
+				"6ABC8CC432237483"
+			]
+			hide: true
+			id: "5A43BD86AC39B089"
+			tasks: [{
+				id: "5ED42CC7477AB9E6"
+				type: "item"
+				item: "ars_nouveau:glyph_gust"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7A023555F1198C75"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "738E9410F45BA868"
+			tasks: [{
+				id: "477F51DD839A4682"
+				type: "item"
+				item: "ars_nouveau:glyph_pull"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"53E49D94FAB6D520"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "291E96954F8C9E91"
+			tasks: [{
+				id: "50F6CE0805A0B443"
+				type: "item"
+				item: "ars_nouveau:glyph_interact"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"201693208F702B53"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "49C373A20CC3C0E2"
+			tasks: [{
+				id: "524056B256E844CD"
+				type: "item"
+				item: "ars_nouveau:glyph_redstone_signal"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"6051A00178A2D543"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "6FA9C5837E7E12EC"
+			tasks: [{
+				id: "7C77C367D01B326D"
+				type: "item"
+				item: "ars_nouveau:glyph_harvest"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2375087A549E5522"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "2FD0CCEB20DB6BBF"
+			tasks: [{
+				id: "3CFCBE6A89B72743"
+				type: "item"
+				item: "ars_nouveau:glyph_evaporate"
 			}]
 		}
 	]
