@@ -2172,15 +2172,23 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "7B90C642EAE38061"
-				type: "item"
-				item: {
-					id: "botania:mana_bottle"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "7B90C642EAE38061"
+					type: "item"
+					item: {
+						id: "botania:mana_bottle"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "78333A1F5A69671C"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_haste"
+				}
+			]
 		}
 		{
 			title: "Заначка"
@@ -2403,6 +2411,20 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "70511297A1521041"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_sensitive"
+				}
+				{
+					id: "5D6E81798D20DF33"
+					type: "item"
+					item: "minecraft:glass"
+					count: 16
+				}
+			]
 		}
 		{
 			title: "Нужно построить зиккурат"
@@ -3825,11 +3847,19 @@
 				type: "item"
 				item: "botania:abstruse_platform"
 			}]
-			rewards: [{
-				id: "02FE67D321BD9474"
-				type: "item"
-				item: "calemiutils:money_bag_cheap"
-			}]
+			rewards: [
+				{
+					id: "02FE67D321BD9474"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "1EB6C0215B3EFCA4"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_phantom_block"
+				}
+			]
 		}
 		{
 			x: 2.5d

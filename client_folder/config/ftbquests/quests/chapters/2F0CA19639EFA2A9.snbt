@@ -803,6 +803,12 @@
 					auto: "invisible"
 					stage: "glyph_interact"
 				}
+				{
+					id: "532A93410CC47B8E"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_place_block"
+				}
 			]
 		}
 		{

@@ -421,5 +421,69 @@
 				item: "ars_nouveau:glyph_dispel"
 			}]
 		}
+		{
+			x: -14.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"29A9239E0727D6ED"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "6E2EE2141458BA41"
+			tasks: [{
+				id: "630C955FD7BF20D8"
+				type: "item"
+				item: "ars_nouveau:glyph_phantom_block"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"53E49D94FAB6D520"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "402788B4DDB9B624"
+			tasks: [{
+				id: "018CA3763C06BC17"
+				type: "item"
+				item: "ars_nouveau:glyph_place_block"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"58C67792569F6EEA"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "4D187B64C828D87C"
+			tasks: [{
+				id: "5B6B03D3ECE328EC"
+				type: "item"
+				item: "ars_nouveau:glyph_haste"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2CA35D7BFF8A6D95"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "1AF949FA2C13564C"
+			tasks: [{
+				id: "7403C5F8E296E2AA"
+				type: "item"
+				item: "ars_nouveau:glyph_sensitive"
+			}]
+		}
 	]
 }
