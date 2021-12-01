@@ -292,5 +292,134 @@
 				item: "ars_nouveau:glyph_evaporate"
 			}]
 		}
+		{
+			x: -11.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"5FD2D8D504E20DAA"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "402AC2A30D50B535"
+			tasks: [{
+				id: "4422EC6579FB4806"
+				type: "item"
+				item: "ars_nouveau:glyph_ignite"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E137710B6B5DD82"
+				"403F94AE652D7C8B"
+			]
+			hide: true
+			id: "5B7667D6AE38D79F"
+			tasks: [{
+				id: "3D0D23506121C518"
+				type: "item"
+				item: "ars_nouveau:glyph_summon_steed"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E137710B6B5DD82"
+				"1610C2E8ACC09A12"
+			]
+			hide: true
+			id: "312E8A68371F2934"
+			tasks: [{
+				id: "61B6A476601BE344"
+				type: "item"
+				item: "ars_nouveau:glyph_light"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"530402085F0F7DCF"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "68233F86F7F082AF"
+			tasks: [{
+				id: "76271F68529F9905"
+				type: "item"
+				item: "ars_nouveau:glyph_pickup"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"17D4A4EDC0D18039"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "1336FA792BC28C96"
+			tasks: [{
+				id: "71BDB81EF08983A0"
+				type: "item"
+				item: "ars_nouveau:glyph_delay"
+			}]
+		}
+		{
+			title: "ОВЦА ИЗ ЛЕСА"
+			x: -19.5d
+			y: -5.0d
+			id: "56C288A81AE948D4"
+			tasks: [{
+				id: "07C3A244410D27F4"
+				type: "forge_energy"
+				value: 1L
+			}]
+			rewards: [{
+				id: "13A93EA343470D97"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "glyph_cut"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"56C288A81AE948D4"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "0C4AA41B52816284"
+			tasks: [{
+				id: "0FBAA5C916BC0BE6"
+				type: "item"
+				item: "ars_nouveau:glyph_cut"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"10864E76BF34A142"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			id: "448D5C2A07B4BA5F"
+			tasks: [{
+				id: "2C2656B45509C797"
+				type: "item"
+				item: "ars_nouveau:glyph_dispel"
+			}]
+		}
 	]
 }

@@ -1400,6 +1400,12 @@
 					count: 5
 					random_bonus: 5
 				}
+				{
+					id: "360EB28BCBE887EA"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_pickup"
+				}
 			]
 		}
 		{
@@ -2305,11 +2311,19 @@
 				type: "item"
 				item: "botania:fire_rod"
 			}]
-			rewards: [{
-				id: "063B93C68DDF637F"
-				type: "item"
-				item: "minecraft:blaze_rod"
-			}]
+			rewards: [
+				{
+					id: "063B93C68DDF637F"
+					type: "item"
+					item: "minecraft:blaze_rod"
+				}
+				{
+					id: "031E8FAF022C59FB"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_ignite"
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -3460,11 +3474,19 @@
 					item: "botania:virus_nullodermal"
 				}
 			]
-			rewards: [{
-				id: "22EF4712539F66B2"
-				type: "item"
-				item: "evilcraft:flesh_werewolf"
-			}]
+			rewards: [
+				{
+					id: "22EF4712539F66B2"
+					type: "item"
+					item: "evilcraft:flesh_werewolf"
+				}
+				{
+					id: "5217809D1484318C"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_summon_steed"
+				}
+			]
 		}
 		{
 			title: "Небесный замок Лапута"
@@ -4143,6 +4165,12 @@
 					type: "item"
 					item: "minecraft:sand"
 					count: 16
+				}
+				{
+					id: "778E2964496151C4"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_delay"
 				}
 			]
 		}

@@ -1,0 +1,34 @@
+{
+	id: "32C661B3D9B74B66"
+	group: "1E0A8915CBC35F34"
+	order_index: 10
+	filename: "32C661B3D9B74B66"
+	title: "Полезные штучки"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Да будет свет"
+		x: -1.5d
+		y: -0.5d
+		id: "1610C2E8ACC09A12"
+		tasks: [{
+			id: "7F364F809F9CB486"
+			type: "item"
+			item: "calemiutils:torch_placer"
+		}]
+		rewards: [
+			{
+				id: "4EADEE755ED64CA5"
+				type: "item"
+				item: "minecraft:torch"
+				count: 16
+			}
+			{
+				id: "5436D4211C425B99"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "glyph_light"
+			}
+		]
+	}]
+}
