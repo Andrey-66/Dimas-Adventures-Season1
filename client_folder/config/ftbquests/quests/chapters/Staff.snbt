@@ -26,7 +26,7 @@
 			{
 				id: "5436D4211C425B99"
 				type: "gamestage"
-					team_reward: false
+				team_reward: false
 				auto: "invisible"
 				stage: "glyph_light"
 			}

@@ -115,7 +115,7 @@
 				{
 					id: "3A0794CC8412C35E"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_summon_wolves"
 				}
@@ -192,12 +192,21 @@
 				advancement: "twilightforest:progress_glacier"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "0AEE6E5BF7BF8D21"
-				type: "item"
-				item: "twilightforest:ice_bomb"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "0AEE6E5BF7BF8D21"
+					type: "item"
+					item: "twilightforest:ice_bomb"
+					count: 4
+				}
+				{
+					id: "763D08B334BEB60D"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_split"
+				}
+			]
 		}
 		{
 			title: "Грибозавр"
@@ -282,7 +291,7 @@
 				{
 					id: "155834BFF2FDE554"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_cut"
 				}

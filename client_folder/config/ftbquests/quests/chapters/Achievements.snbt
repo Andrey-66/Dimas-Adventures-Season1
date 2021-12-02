@@ -199,7 +199,6 @@
 			tasks: [{
 				id: "0DCB904DDA7BCB8B"
 				type: "gamestage"
-				team_reward: false
 				title: "БЕЗГРАНИЧНАЯ МОЩЬ!"
 				icon: "minecraft:enchanting_table"
 				stage: "apotheosis:enchanting/max_stats"

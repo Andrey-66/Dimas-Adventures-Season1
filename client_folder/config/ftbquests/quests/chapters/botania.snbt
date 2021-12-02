@@ -255,7 +255,6 @@
 				{
 					id: "12D480FB7BF80C3B"
 					type: "gamestage"
-				team_reward: false
 					team_reward: false
 					auto: "invisible"
 					stage: "tw_stage"
@@ -402,7 +401,6 @@
 				{
 					id: "03FB2B900148EA9B"
 					type: "gamestage"
-				team_reward: false
 					team_reward: false
 					auto: "invisible"
 					stage: "glyph_shield"
@@ -526,15 +524,24 @@
 				type: "item"
 				item: "botania:brewery"
 			}]
-			rewards: [{
-				id: "167ACB039C83856B"
-				type: "item"
-				item: {
-					id: "botania:mana_bottle"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "167ACB039C83856B"
+					type: "item"
+					item: {
+						id: "botania:mana_bottle"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "4EA5B7E8AA3A5802"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_strength"
+				}
+			]
 		}
 		{
 			title: "Террария, ты ли это?"
@@ -544,7 +551,6 @@
 			dependencies: [
 				"7E0B532BC362CF01"
 				"0A041851710115FD"
-				"61DC1551879F3303"
 			]
 			hide: true
 			id: "7B6EE16F9C17FDB3"
@@ -663,7 +669,7 @@
 				{
 					id: "649C6A39B7ED7BE5"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_pull"
 				}
@@ -1335,7 +1341,7 @@
 				{
 					id: "6BF2CCB51E4BA840"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_harvest"
 				}
@@ -1369,6 +1375,13 @@
 					item: "botania:fertilizer"
 					count: 5
 					random_bonus: 5
+				}
+				{
+					id: "149D0CB22BB86E6C"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_blink"
 				}
 			]
 		}
@@ -1416,7 +1429,7 @@
 				{
 					id: "360EB28BCBE887EA"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_pickup"
 				}
@@ -1650,14 +1663,14 @@
 				{
 					id: "533EBF7AAE075050"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_freeze"
 				}
 				{
 					id: "5F0F41224B89FE8F"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_snare"
 				}
@@ -1695,7 +1708,7 @@
 				{
 					id: "7B25C9595C0459E3"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_heal"
 				}
@@ -1794,7 +1807,7 @@
 				{
 					id: "62BA762874D87947"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_evaporate"
 				}
@@ -1898,7 +1911,7 @@
 				{
 					id: "151EA5976836FCB4"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_toss"
 				}
@@ -2036,15 +2049,24 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "35DBF55460E42206"
-				type: "item"
-				item: {
-					id: "botania:mana_bottle"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "35DBF55460E42206"
+					type: "item"
+					item: {
+						id: "botania:mana_bottle"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "6B6635F1F956EC53"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_orbit"
+				}
+			]
 		}
 		{
 			title: "Сгиньте в пламени ненависти! "
@@ -2116,7 +2138,7 @@
 				{
 					id: "799212BDF3DCE879"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_invisibility"
 				}
@@ -2168,7 +2190,6 @@
 				{
 					id: "33C471A526F48FDB"
 					type: "gamestage"
-				team_reward: false
 					title: "Водныя стихия"
 					team_reward: false
 					auto: "invisible"
@@ -2177,7 +2198,6 @@
 				{
 					id: "77679D8687812AAC"
 					type: "gamestage"
-				team_reward: false
 					title: "Под ноги смотри"
 					team_reward: false
 					auto: "invisible"
@@ -2241,7 +2261,7 @@
 				{
 					id: "78333A1F5A69671C"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_haste"
 				}
@@ -2385,7 +2405,7 @@
 				{
 					id: "031E8FAF022C59FB"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_ignite"
 				}
@@ -2473,7 +2493,6 @@
 				{
 					id: "70511297A1521041"
 					type: "gamestage"
-				team_reward: false
 					team_reward: false
 					auto: "invisible"
 					stage: "glyph_sensitive"
@@ -2487,7 +2506,6 @@
 				{
 					id: "16BCFFEA610C548D"
 					type: "gamestage"
-				team_reward: false
 					team_reward: false
 					auto: "invisible"
 					stage: "glyph_extract"
@@ -2541,7 +2559,6 @@
 				{
 					id: "683BA37EFDC92924"
 					type: "gamestage"
-				team_reward: false
 					title: "Глифа крафта"
 					team_reward: false
 					auto: "invisible"
@@ -2916,7 +2933,6 @@
 				{
 					id: "0DBFD2DBF20B5402"
 					type: "gamestage"
-				team_reward: false
 					team_reward: false
 					auto: "invisible"
 					stage: "glyph_dampen"
@@ -2924,7 +2940,6 @@
 				{
 					id: "10B1F93129ECA2A3"
 					type: "gamestage"
-				team_reward: false
 					team_reward: false
 					auto: "invisible"
 					stage: "glyph_conjure_water"
@@ -2963,14 +2978,14 @@
 				{
 					id: "1C735D3D4163D3B0"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_launch"
 				}
 				{
 					id: "72527125D7E3A8E8"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_leap"
 				}
@@ -3003,7 +3018,6 @@
 				{
 					id: "09D10C92014E7690"
 					type: "gamestage"
-				team_reward: false
 					team_reward: false
 					auto: "invisible"
 					stage: "glyph_exchange"
@@ -3077,11 +3091,20 @@
 					item: "botania:life_essence"
 				}
 			]
-			rewards: [{
-				id: "12A1E98F1798F429"
-				type: "item"
-				item: "botania:terrasteel_ingot"
-			}]
+			rewards: [
+				{
+					id: "12A1E98F1798F429"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+				{
+					id: "7C1BF606515208AF"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_summon_decoy"
+				}
+			]
 		}
 		{
 			title: "Непонятный цветок"
@@ -3170,7 +3193,7 @@
 				{
 					id: "537876BF61F3C404"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_firework"
 				}
@@ -3225,7 +3248,7 @@
 				{
 					id: "4BE9E501B75B470C"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_explosion"
 				}
@@ -3632,7 +3655,7 @@
 				{
 					id: "5217809D1484318C"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_summon_steed"
 				}
@@ -3991,7 +4014,7 @@
 				{
 					id: "1EB6C0215B3EFCA4"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_phantom_block"
 				}
@@ -4176,11 +4199,20 @@
 				type: "item"
 				item: "botania:spectral_platform"
 			}]
-			rewards: [{
-				id: "3417340B4DC54DFB"
-				type: "loot"
-				table_id: 5861405098905494759L
-			}]
+			rewards: [
+				{
+					id: "3417340B4DC54DFB"
+					type: "loot"
+					table_id: 5861405098905494759L
+				}
+				{
+					id: "5DFFA046D2B99BB2"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_intangible"
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -4335,7 +4367,7 @@
 				{
 					id: "778E2964496151C4"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_delay"
 				}
@@ -4856,7 +4888,7 @@
 				{
 					id: "33CAB653410CA52D"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_ender_inventory"
 				}

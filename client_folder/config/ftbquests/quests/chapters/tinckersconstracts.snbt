@@ -421,7 +421,6 @@
 				{
 					id: "37B9E63B00A78C8E"
 					type: "gamestage"
-				team_reward: false
 					title: "Новая эра"
 					team_reward: false
 					auto: "invisible"
@@ -430,7 +429,7 @@
 				{
 					id: "65209B6C0451C239"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_smelt"
 				}
@@ -490,14 +489,14 @@
 				{
 					id: "050F6E5D13FA71E6"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_bounce"
 				}
 				{
 					id: "20E0CB0AA200C104"
 					type: "gamestage"
-				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_gravity"
 				}

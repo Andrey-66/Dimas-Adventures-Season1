@@ -149,12 +149,21 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "5BB0B0F398769E6F"
-				type: "item"
-				item: "evilcraft:spiked_plate"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "5BB0B0F398769E6F"
+					type: "item"
+					item: "evilcraft:spiked_plate"
+					count: 2
+				}
+				{
+					id: "6BB7A7CF74930F48"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_fangs"
+				}
+			]
 		}
 		{
 			title: "Хранилище медуз"
@@ -720,6 +729,13 @@
 				id: "10BA80170EB6B8B8"
 				type: "item"
 				item: "evilcraft:sceptre_of_thunder"
+			}]
+			rewards: [{
+				id: "625000D695A4DAD8"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "glyph_lightning"
 			}]
 		}
 		{

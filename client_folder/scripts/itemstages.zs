@@ -64,6 +64,21 @@ ItemStages.restrict(<item:ars_nouveau:glyph_cold_snap>, "glyph_cold_snap").setHi
 ItemStages.restrict(<item:ars_nouveau:glyph_wind_shear>, "glyph_wind_shear").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
 
 
+ItemStages.restrict(<item:ars_nouveau:glyph_orbit>, "glyph_orbit").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_lightning>, "glyph_lightning").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_split>, "glyph_split").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_wither>, "glyph_wither").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_hex>, "glyph_hex").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_blink>, "glyph_blink").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_linger>, "glyph_linger").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_summon_vex>, "glyph_summon_vex").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_strength>, "glyph_strength").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_intangible>, "glyph_intangible").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_summon_decoy>, "glyph_summon_decoy").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_fangs>, "glyph_fangs").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_glide>, "glyph_glide").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+
+
 ItemStages.createModRestriction("create", s => {
     if (<item:create:copper_ore>.matches(s) || <item:create:zinc_ore>.matches(s) 
     || <item:create:natural_scoria>.matches(s) || <item:create:scoria>.matches(s)

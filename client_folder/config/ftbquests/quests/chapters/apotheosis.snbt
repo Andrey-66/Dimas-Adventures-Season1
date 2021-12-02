@@ -300,7 +300,6 @@
 				{
 					id: "2291E1685142ED9C"
 					type: "gamestage"
-					team_reward: false
 					title: "Улучшения"
 					team_reward: false
 					auto: "invisible"

@@ -7,14 +7,39 @@
 	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -1.5d
-		y: 0.0d
-		id: "35B0DBECB08F5384"
-		tasks: [{
-			id: "24817E3B896DD126"
-			type: "dimension"
-			dimension: "minecraft:the_end"
-		}]
-	}]
+	quests: [
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "35B0DBECB08F5384"
+			tasks: [{
+				id: "24817E3B896DD126"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "266347333C2E5DAB"
+			tasks: [{
+				id: "2F8D9CF0494385BB"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "106B4DC4BDE88CF3"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "glyph_glide"
+			}]
+		}
+	]
 }
