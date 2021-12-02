@@ -394,30 +394,12 @@
 			}]
 		}
 		{
-			title: "ОВЦА ИЗ ЛЕСА"
-			x: -19.5d
-			y: -5.0d
-			id: "56C288A81AE948D4"
-			tasks: [{
-				id: "07C3A244410D27F4"
-				type: "forge_energy"
-				value: 1L
-			}]
-			rewards: [{
-				id: "13A93EA343470D97"
-				type: "gamestage"
-				team_reward: false
-				auto: "invisible"
-				stage: "glyph_cut"
-			}]
-		}
-		{
 			x: -14.5d
 			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: [
-				"56C288A81AE948D4"
 				"4E137710B6B5DD82"
+				"368D2E53B30E69F1"
 			]
 			hide: true
 			id: "0C4AA41B52816284"
@@ -746,7 +728,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.0d
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -762,7 +744,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -9.0d
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -778,7 +760,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -9.0d
 			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -794,7 +776,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -9.0d
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -810,7 +792,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -9.0d
 			y: -4.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -826,7 +808,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -9.0d
 			y: -5.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -842,7 +824,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -8.0d
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -858,7 +840,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -8.0d
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -874,7 +856,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -8.0d
 			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -890,7 +872,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -8.0d
 			y: -4.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -906,7 +888,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -8.0d
 			y: -5.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -922,7 +904,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.0d
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -938,7 +920,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.0d
 			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -954,7 +936,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.0d
 			y: -4.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -970,7 +952,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.0d
 			y: -5.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -986,7 +968,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -6.0d
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1002,7 +984,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -6.0d
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1018,7 +1000,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -6.0d
 			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1034,7 +1016,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -6.0d
 			y: -4.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1050,7 +1032,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -6.0d
 			y: -5.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1066,7 +1048,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -9.0d
 			y: -6.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1082,7 +1064,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -8.0d
 			y: -6.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1098,7 +1080,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.0d
 			y: -6.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1114,7 +1096,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -6.0d
 			y: -6.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1130,7 +1112,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -7.5d
 			y: -7.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1147,7 +1129,7 @@
 		}
 		{
 			title: "Экзамен"
-			x: -2.0d
+			x: -3.5d
 			y: 0.0d
 			dependencies: ["25B086BE3E218E86"]
 			id: "46EA57A70D222664"
@@ -1158,7 +1140,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -4.5d
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1174,7 +1156,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -4.5d
 			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1190,7 +1172,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -4.5d
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1206,7 +1188,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -4.5d
 			y: -4.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1229,8 +1211,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -5.5d
+			x: -2.5d
+			y: -4.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"0464B533FF532126"
@@ -1245,7 +1227,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -3.5d
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1261,7 +1243,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -3.5d
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1277,7 +1259,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -3.5d
 			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1293,7 +1275,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -3.5d
 			y: -4.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1309,7 +1291,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -3.5d
 			y: -5.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1325,7 +1307,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -2.5d
 			y: -1.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1341,7 +1323,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -2.5d
 			y: -2.5d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1357,7 +1339,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -2.5d
 			y: -3.5d
 			hide_dependency_lines: true
 			dependencies: [
