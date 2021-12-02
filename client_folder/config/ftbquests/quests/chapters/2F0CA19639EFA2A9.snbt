@@ -213,6 +213,12 @@
 					type: "random"
 					table_id: 5521523319258406185L
 				}
+				{
+					id: "74755CAC47F90B42"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_crush"
+				}
 			]
 		}
 		{
@@ -395,11 +401,19 @@
 				type: "item"
 				item: "create:nozzle"
 			}]
-			rewards: [{
-				id: "473A5B6884614848"
-				type: "item"
-				item: "calemiutils:money_bag_cheap"
-			}]
+			rewards: [
+				{
+					id: "473A5B6884614848"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "7F1E476F6E563CB3"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_wind_shear"
+				}
+			]
 		}
 		{
 			title: "Кукуха едет"
@@ -844,11 +858,19 @@
 				type: "item"
 				item: "create:mechanical_saw"
 			}]
-			rewards: [{
-				id: "4F8B2E98D034E3ED"
-				type: "item"
-				item: "calemiutils:money_bag_cheap"
-			}]
+			rewards: [
+				{
+					id: "4F8B2E98D034E3ED"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "04BD662E4096CCE8"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_fell"
+				}
+			]
 		}
 		{
 			title: "Фильтрация"

@@ -391,12 +391,20 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "7B49D83D193813F5"
-				type: "item"
-				item: "botania:blacker_lotus"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "7B49D83D193813F5"
+					type: "item"
+					item: "botania:blacker_lotus"
+					count: 3
+				}
+				{
+					id: "03FB2B900148EA9B"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_shield"
+				}
+			]
 		}
 		{
 			title: "Батарейка {О-о-и-я-и-ё}"
@@ -1676,6 +1684,12 @@
 					count: 5
 					random_bonus: 5
 				}
+				{
+					id: "7B25C9595C0459E3"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_heal"
+				}
 			]
 		}
 		{
@@ -2073,20 +2087,28 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "1FB5585EB4C8C6C1"
-				type: "item"
-				item: {
-					id: "minecraft:paper"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"Анонимная записака\"}"
+			rewards: [
+				{
+					id: "1FB5585EB4C8C6C1"
+					type: "item"
+					item: {
+						id: "minecraft:paper"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Анонимная записака\"}"
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "799212BDF3DCE879"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_invisibility"
+				}
+			]
 		}
 		{
 			title: "Не утонул, а замурован"
@@ -2443,6 +2465,12 @@
 					type: "item"
 					item: "minecraft:glass"
 					count: 16
+				}
+				{
+					id: "16BCFFEA610C548D"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_extract"
 				}
 			]
 		}
@@ -2858,11 +2886,25 @@
 				type: "item"
 				item: "botania:water_rod"
 			}]
-			rewards: [{
-				id: "0D64394DBECDFD76"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
+			rewards: [
+				{
+					id: "0D64394DBECDFD76"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "0DBFD2DBF20B5402"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_dampen"
+				}
+				{
+					id: "10B1F93129ECA2A3"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_conjure_water"
+				}
+			]
 		}
 		{
 			title: "Вверх!"
@@ -2924,12 +2966,20 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "0075F1915F908CC1"
-				type: "item"
-				item: "minecraft:sand"
-				count: 64
-			}]
+			rewards: [
+				{
+					id: "0075F1915F908CC1"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64
+				}
+				{
+					id: "09D10C92014E7690"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_exchange"
+				}
+			]
 		}
 		{
 			title: "Генератор булыжника"
@@ -3088,6 +3138,12 @@
 					type: "item"
 					item: "biomesoplenty:rainbow_birch_sapling"
 				}
+				{
+					id: "537876BF61F3C404"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_firework"
+				}
 			]
 		}
 		{
@@ -3135,6 +3191,12 @@
 					item: "botania:fertilizer"
 					count: 5
 					random_bonus: 5
+				}
+				{
+					id: "4BE9E501B75B470C"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_explosion"
 				}
 			]
 		}
@@ -3747,6 +3809,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "2B3EF5903657E4A3"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "glyph_pierce"
 			}]
 		}
 		{

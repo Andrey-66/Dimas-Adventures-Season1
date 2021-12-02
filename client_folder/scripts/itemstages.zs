@@ -43,6 +43,26 @@ ItemStages.restrict(<item:ars_nouveau:glyph_accelerate>, "glyph_accelerate").set
 ItemStages.restrict(<item:ars_nouveau:glyph_duration_down>, "glyph_duration_down").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
 ItemStages.restrict(<item:ars_nouveau:glyph_fortune>, "glyph_fortune").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
 ItemStages.restrict(<item:ars_nouveau:glyph_aoe>, "glyph_aoe").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_pierce>, "glyph_pierce").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_dampen>, "glyph_dampen").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_extract>, "glyph_extract").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_invisibility>, "glyph_invisibility").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_heal>, "glyph_heal").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_slowfall>, "glyph_slowfall").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_explosion>, "glyph_explosion").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_fell>, "glyph_fell").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_smelt>, "glyph_smelt").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_grow>, "glyph_grow").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_flare>, "glyph_flare").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_shield>, "glyph_shield").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_conjure_water>, "glyph_conjure_water").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_exchange>, "glyph_exchange").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_firework>, "glyph_firework").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_gravity>, "glyph_gravity").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_crush>, "glyph_crush").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_cold_snap>, "glyph_cold_snap").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_wind_shear>, "glyph_wind_shear").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+
 
 ItemStages.createModRestriction("create", s => {
     if (<item:create:copper_ore>.matches(s) || <item:create:zinc_ore>.matches(s) 

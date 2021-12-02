@@ -426,6 +426,12 @@
 					auto: "invisible"
 					stage: "create_unlock"
 				}
+				{
+					id: "65209B6C0451C239"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_smelt"
+				}
 			]
 		}
 		{
@@ -484,6 +490,12 @@
 					type: "gamestage"
 					auto: "invisible"
 					stage: "glyph_bounce"
+				}
+				{
+					id: "20E0CB0AA200C104"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_gravity"
 				}
 			]
 		}
