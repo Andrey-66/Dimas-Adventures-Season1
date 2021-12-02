@@ -704,6 +704,7 @@
 			rewards: [{
 				id: "3213FDC4C1DEA195"
 				type: "gamestage"
+				team_reward: false
 				auto: "invisible"
 				stage: "glyph_dispel"
 			}]

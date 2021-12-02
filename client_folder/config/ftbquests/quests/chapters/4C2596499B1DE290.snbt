@@ -39,6 +39,7 @@
 				{
 					id: "16F6AF662D9FA8AF"
 					type: "gamestage"
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_fortune"
 				}
@@ -299,6 +300,7 @@
 				{
 					id: "2291E1685142ED9C"
 					type: "gamestage"
+					team_reward: false
 					title: "Улучшения"
 					team_reward: false
 					auto: "invisible"

@@ -115,6 +115,7 @@
 				{
 					id: "3A0794CC8412C35E"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_summon_wolves"
 				}
@@ -281,6 +282,7 @@
 				{
 					id: "155834BFF2FDE554"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_cut"
 				}

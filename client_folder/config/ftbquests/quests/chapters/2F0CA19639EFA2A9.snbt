@@ -216,6 +216,7 @@
 				{
 					id: "74755CAC47F90B42"
 					type: "gamestage"
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_crush"
 				}
@@ -312,6 +313,7 @@
 				{
 					id: "377CDAFD4DD8A74F"
 					type: "gamestage"
+					team_reward: false
 					auto: "invisible"
 					stage: "ars_1_gust"
 				}
@@ -410,6 +412,7 @@
 				{
 					id: "7F1E476F6E563CB3"
 					type: "gamestage"
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_wind_shear"
 				}
@@ -814,12 +817,14 @@
 				{
 					id: "51F2C94B4FF6C218"
 					type: "gamestage"
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_interact"
 				}
 				{
 					id: "532A93410CC47B8E"
 					type: "gamestage"
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_place_block"
 				}
@@ -867,6 +872,7 @@
 				{
 					id: "04BD662E4096CCE8"
 					type: "gamestage"
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_fell"
 				}
@@ -990,6 +996,7 @@
 				{
 					id: "7DA999F71A5532BC"
 					type: "gamestage"
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_aoe"
 				}
@@ -1337,6 +1344,7 @@
 				{
 					id: "79EAEC96FF7F4028"
 					type: "gamestage"
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_redstone_signal"
 				}

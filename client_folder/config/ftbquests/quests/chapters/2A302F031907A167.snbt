@@ -36,6 +36,7 @@
 			rewards: [{
 				id: "2738E5D25EF75297"
 				type: "gamestage"
+				team_reward: false
 				auto: "invisible"
 				stage: "nether_stage"
 			}]

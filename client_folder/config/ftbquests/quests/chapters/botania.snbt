@@ -255,6 +255,7 @@
 				{
 					id: "12D480FB7BF80C3B"
 					type: "gamestage"
+				team_reward: false
 					team_reward: false
 					auto: "invisible"
 					stage: "tw_stage"
@@ -401,6 +402,8 @@
 				{
 					id: "03FB2B900148EA9B"
 					type: "gamestage"
+				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_shield"
 				}
@@ -660,6 +663,7 @@
 				{
 					id: "649C6A39B7ED7BE5"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_pull"
 				}
@@ -1331,6 +1335,7 @@
 				{
 					id: "6BF2CCB51E4BA840"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_harvest"
 				}
@@ -1411,6 +1416,7 @@
 				{
 					id: "360EB28BCBE887EA"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_pickup"
 				}
@@ -1644,12 +1650,14 @@
 				{
 					id: "533EBF7AAE075050"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_freeze"
 				}
 				{
 					id: "5F0F41224B89FE8F"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_snare"
 				}
@@ -1687,6 +1695,7 @@
 				{
 					id: "7B25C9595C0459E3"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_heal"
 				}
@@ -1785,6 +1794,7 @@
 				{
 					id: "62BA762874D87947"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_evaporate"
 				}
@@ -1888,6 +1898,7 @@
 				{
 					id: "151EA5976836FCB4"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_toss"
 				}
@@ -2105,6 +2116,7 @@
 				{
 					id: "799212BDF3DCE879"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_invisibility"
 				}
@@ -2156,6 +2168,7 @@
 				{
 					id: "33C471A526F48FDB"
 					type: "gamestage"
+				team_reward: false
 					title: "Водныя стихия"
 					team_reward: false
 					auto: "invisible"
@@ -2164,6 +2177,7 @@
 				{
 					id: "77679D8687812AAC"
 					type: "gamestage"
+				team_reward: false
 					title: "Под ноги смотри"
 					team_reward: false
 					auto: "invisible"
@@ -2227,6 +2241,7 @@
 				{
 					id: "78333A1F5A69671C"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_haste"
 				}
@@ -2370,6 +2385,7 @@
 				{
 					id: "031E8FAF022C59FB"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_ignite"
 				}
@@ -2457,6 +2473,8 @@
 				{
 					id: "70511297A1521041"
 					type: "gamestage"
+				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_sensitive"
 				}
@@ -2469,6 +2487,8 @@
 				{
 					id: "16BCFFEA610C548D"
 					type: "gamestage"
+				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_extract"
 				}
@@ -2521,6 +2541,7 @@
 				{
 					id: "683BA37EFDC92924"
 					type: "gamestage"
+				team_reward: false
 					title: "Глифа крафта"
 					team_reward: false
 					auto: "invisible"
@@ -2895,12 +2916,16 @@
 				{
 					id: "0DBFD2DBF20B5402"
 					type: "gamestage"
+				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_dampen"
 				}
 				{
 					id: "10B1F93129ECA2A3"
 					type: "gamestage"
+				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_conjure_water"
 				}
@@ -2938,12 +2963,14 @@
 				{
 					id: "1C735D3D4163D3B0"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_launch"
 				}
 				{
 					id: "72527125D7E3A8E8"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_leap"
 				}
@@ -2976,6 +3003,8 @@
 				{
 					id: "09D10C92014E7690"
 					type: "gamestage"
+				team_reward: false
+					team_reward: false
 					auto: "invisible"
 					stage: "glyph_exchange"
 				}
@@ -3141,6 +3170,7 @@
 				{
 					id: "537876BF61F3C404"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_firework"
 				}
@@ -3195,6 +3225,7 @@
 				{
 					id: "4BE9E501B75B470C"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_explosion"
 				}
@@ -3601,6 +3632,7 @@
 				{
 					id: "5217809D1484318C"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_summon_steed"
 				}
@@ -3813,6 +3845,7 @@
 			rewards: [{
 				id: "2B3EF5903657E4A3"
 				type: "gamestage"
+				team_reward: false
 				auto: "invisible"
 				stage: "glyph_pierce"
 			}]
@@ -3958,6 +3991,7 @@
 				{
 					id: "1EB6C0215B3EFCA4"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_phantom_block"
 				}
@@ -4301,6 +4335,7 @@
 				{
 					id: "778E2964496151C4"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_delay"
 				}
@@ -4821,6 +4856,7 @@
 				{
 					id: "33CAB653410CA52D"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_ender_inventory"
 				}

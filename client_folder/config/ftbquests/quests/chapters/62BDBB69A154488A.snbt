@@ -278,6 +278,7 @@
 			rewards: [{
 				id: "03EE5CE9FCC61D76"
 				type: "gamestage"
+				team_reward: false
 				auto: "invisible"
 				stage: "glyph_grow"
 			}]
@@ -316,6 +317,7 @@
 			rewards: [{
 				id: "2184BCD94CB76481"
 				type: "gamestage"
+				team_reward: false
 				auto: "invisible"
 				stage: "glyph_flare"
 			}]
@@ -386,6 +388,7 @@
 			rewards: [{
 				id: "0393610432839BF3"
 				type: "gamestage"
+				team_reward: false
 				auto: "invisible"
 				stage: "glyph_extend_time"
 			}]
@@ -403,6 +406,7 @@
 			rewards: [{
 				id: "13A93EA343470D97"
 				type: "gamestage"
+				team_reward: false
 				auto: "invisible"
 				stage: "glyph_cut"
 			}]
@@ -490,12 +494,14 @@
 				{
 					id: "301EFF8B5E518B78"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_accelerate"
 				}
 				{
 					id: "32FED98574F772F9"
 					type: "gamestage"
+				team_reward: false
 					auto: "invisible"
 					stage: "glyph_duration_down"
 				}
@@ -535,6 +541,7 @@
 			rewards: [{
 				id: "701A1164B37766E7"
 				type: "gamestage"
+				team_reward: false
 				auto: "invisible"
 				stage: "glyph_slowfall"
 			}]
@@ -557,6 +564,7 @@
 			rewards: [{
 				id: "4ED4985D0E7D484D"
 				type: "gamestage"
+				team_reward: false
 				auto: "invisible"
 				stage: "glyph_cold_snap"
 			}]
@@ -690,6 +698,7 @@
 			rewards: [{
 				id: "2285E1AB15D50114"
 				type: "gamestage"
+				team_reward: false
 				auto: "invisible"
 				stage: "glyph_rune"
 			}]
