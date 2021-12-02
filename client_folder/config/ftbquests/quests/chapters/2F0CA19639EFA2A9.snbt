@@ -958,12 +958,20 @@
 					item: "create:radial_chassis"
 				}
 			]
-			rewards: [{
-				id: "36581D70E78D17C3"
-				type: "item"
-				item: "create:linear_chassis"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "36581D70E78D17C3"
+					type: "item"
+					item: "create:linear_chassis"
+					count: 5
+				}
+				{
+					id: "7DA999F71A5532BC"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_aoe"
+				}
+			]
 		}
 		{
 			title: "Тик так"

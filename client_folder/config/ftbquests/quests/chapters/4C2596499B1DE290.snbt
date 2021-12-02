@@ -30,11 +30,19 @@
 				type: "item"
 				item: "minecraft:enchanting_table"
 			}]
-			rewards: [{
-				id: "3FF19A46D66E39D3"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					id: "3FF19A46D66E39D3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "16F6AF662D9FA8AF"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_fortune"
+				}
+			]
 		}
 		{
 			title: "Чарим круче"

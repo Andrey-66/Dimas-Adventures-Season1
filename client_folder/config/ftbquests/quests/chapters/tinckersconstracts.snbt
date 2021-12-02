@@ -473,11 +473,19 @@
 				timer: 0L
 				observe: "block:tconstruct:sky_congealed_slime"
 			}]
-			rewards: [{
-				id: "33149E071F2EA4DF"
-				type: "item"
-				item: "tconstruct:tinkers_gadgetry"
-			}]
+			rewards: [
+				{
+					id: "33149E071F2EA4DF"
+					type: "item"
+					item: "tconstruct:tinkers_gadgetry"
+				}
+				{
+					id: "050F6E5D13FA71E6"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_bounce"
+				}
+			]
 		}
 		{
 			title: "Максимум плавки"

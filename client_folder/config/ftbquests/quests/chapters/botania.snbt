@@ -1633,6 +1633,18 @@
 					count: 5
 					random_bonus: 5
 				}
+				{
+					id: "533EBF7AAE075050"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_freeze"
+				}
+				{
+					id: "5F0F41224B89FE8F"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_snare"
+				}
 			]
 		}
 		{
@@ -1853,11 +1865,19 @@
 				type: "item"
 				item: "botania:spectranthemum"
 			}]
-			rewards: [{
-				id: "48865CEF01C020D5"
-				type: "choice"
-				table_id: 5861405098905494759L
-			}]
+			rewards: [
+				{
+					id: "48865CEF01C020D5"
+					type: "choice"
+					table_id: 5861405098905494759L
+				}
+				{
+					id: "151EA5976836FCB4"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_toss"
+				}
+			]
 		}
 		{
 			title: "Я тебя вижу!"
@@ -2861,17 +2881,31 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "3AD65B560EB0937D"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:long_slow_falling"
+			rewards: [
+				{
+					id: "3AD65B560EB0937D"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
 					}
 				}
-			}]
+				{
+					id: "1C735D3D4163D3B0"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_launch"
+				}
+				{
+					id: "72527125D7E3A8E8"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_leap"
+				}
+			]
 		}
 		{
 			title: "Наболдажник: Равноценный обмен"
@@ -4710,11 +4744,19 @@
 				type: "item"
 				item: "botania:ender_hand"
 			}]
-			rewards: [{
-				id: "724DEDB067439013"
-				type: "item"
-				item: "minecraft:ender_chest"
-			}]
+			rewards: [
+				{
+					id: "724DEDB067439013"
+					type: "item"
+					item: "minecraft:ender_chest"
+				}
+				{
+					id: "33CAB653410CA52D"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "glyph_ender_inventory"
+				}
+			]
 		}
 		{
 			title: "Крылышки"

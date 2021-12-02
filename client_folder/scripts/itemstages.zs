@@ -27,7 +27,22 @@ ItemStages.restrict(<item:ars_nouveau:glyph_phantom_block>, "glyph_phantom_block
 ItemStages.restrict(<item:ars_nouveau:glyph_place_block>, "glyph_place_block").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
 ItemStages.restrict(<item:ars_nouveau:glyph_haste>, "glyph_haste").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
 ItemStages.restrict(<item:ars_nouveau:glyph_sensitive>, "glyph_sensitive").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_launch>, "glyph_launch").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_freeze>, "glyph_freeze").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_toss>, "glyph_toss").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_bounce>, "glyph_bounce").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_leap>, "glyph_leap").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_snare>, "glyph_snare").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_summon_wolves>, "glyph_summon_wolves").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_rune>, "glyph_rune").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
 
+
+ItemStages.restrict(<item:ars_nouveau:glyph_ender_inventory>, "glyph_ender_inventory").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_extend_time>, "glyph_extend_time").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_accelerate>, "glyph_accelerate").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_duration_down>, "glyph_duration_down").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_fortune>, "glyph_fortune").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
+ItemStages.restrict(<item:ars_nouveau:glyph_aoe>, "glyph_aoe").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Незнакомое заклинание");
 
 ItemStages.createModRestriction("create", s => {
     if (<item:create:copper_ore>.matches(s) || <item:create:zinc_ore>.matches(s) 
