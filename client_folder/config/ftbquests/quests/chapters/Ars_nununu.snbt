@@ -33,7 +33,7 @@
 		}
 		{
 			title: "Пора творить чудеса"
-			x: -15.0d
+			x: -9.0d
 			y: 2.0d
 			hide: true
 			id: "3488D6844894CDE0"
@@ -1385,7 +1385,7 @@
 		}
 		{
 			title: "Транспортировка Истока"
-			x: -7.5d
+			x: -15.0d
 			y: 2.0d
 			dependencies: ["19129491868919F1"]
 			id: "67B9FE3277B074D7"
@@ -1414,9 +1414,10 @@
 		}
 		{
 			title: "Распределение Истока"
-			x: -6.0d
-			y: 3.0d
+			x: -15.75d
+			y: 2.5d
 			dependencies: ["67B9FE3277B074D7"]
+			size: 0.5d
 			id: "5C2E54E6E89168E1"
 			tasks: [{
 				id: "1CD1B0A3FF99416D"
@@ -1431,9 +1432,10 @@
 		}
 		{
 			title: "Телепортация Истока"
-			x: -6.0d
+			x: -16.0d
 			y: 2.0d
 			dependencies: ["67B9FE3277B074D7"]
+			size: 0.5d
 			id: "38B79C9790F3A54B"
 			tasks: [{
 				id: "38F088BD184BFF6D"
@@ -1448,9 +1450,10 @@
 		}
 		{
 			title: "Заполнение Истоком"
-			x: -6.0d
-			y: 1.0d
+			x: -15.75d
+			y: 1.5d
 			dependencies: ["67B9FE3277B074D7"]
+			size: 0.5d
 			id: "4722E513380E972D"
 			tasks: [{
 				id: "617D25D5F8510C7D"
@@ -1465,7 +1468,7 @@
 		}
 		{
 			title: "Выращиваем ягодки"
-			x: -10.0d
+			x: -15.5d
 			y: 6.0d
 			dependencies: ["1598EDFE82399901"]
 			id: "1518E5F210FE11C9"
@@ -1489,7 +1492,7 @@
 		}
 		{
 			title: "Роба колдуна"
-			x: -7.5d
+			x: -16.5d
 			y: 6.0d
 			dependencies: [
 				"594613B384DE0E2B"
@@ -1626,8 +1629,8 @@
 		}
 		{
 			title: "Ритуалы"
-			x: -15.0d
-			y: 6.0d
+			x: -9.0d
+			y: 7.0d
 			dependencies: ["1598EDFE82399901"]
 			id: "35E024B7CD7D4E38"
 			tasks: [
@@ -1650,7 +1653,7 @@
 		}
 		{
 			title: "Магический забор"
-			x: -17.5d
+			x: -5.0d
 			y: 2.0d
 			dependencies: ["3488D6844894CDE0"]
 			hide: true
@@ -1858,9 +1861,10 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 4.0d
+			x: -11.25d
+			y: 3.0d
 			dependencies: ["19129491868919F1"]
+			size: 0.75d
 			id: "1FBB694AE6279DCD"
 			tasks: [{
 				id: "4A0BE942D296B324"
@@ -1896,9 +1900,10 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 9.0d
+			x: -9.75d
+			y: 9.5d
 			dependencies: ["177698C06319F2E4"]
+			size: 0.5d
 			id: "421482CD84CEC3BF"
 			tasks: [
 				{
@@ -1925,9 +1930,10 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 11.0d
+			x: -9.75d
+			y: 10.5d
 			dependencies: ["177698C06319F2E4"]
+			size: 0.5d
 			id: "11D8ACD0644B5318"
 			tasks: [
 				{
@@ -1954,8 +1960,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 6.0d
+			x: -16.5d
+			y: 7.0d
 			dependencies: ["32D24B6ABB4CF2E7"]
 			id: "4B2E71CF41556F28"
 			tasks: [
@@ -2018,8 +2024,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 6.0d
+			x: -16.5d
+			y: 8.0d
 			dependencies: ["4B2E71CF41556F28"]
 			id: "0CAB4D7445BA432E"
 			tasks: [
@@ -2072,6 +2078,212 @@
 				id: "663676A9EDAC1034"
 				type: "item"
 				item: "calemiutils:money_bag_rich"
+			}]
+		}
+		{
+			title: "Оружие Истока"
+			x: -9.0d
+			y: 5.5d
+			dependencies: [
+				"05658D45D06DA67F"
+				"1598EDFE82399901"
+			]
+			id: "77BDF40F1D77D241"
+			tasks: [
+				{
+					id: "4FEDAF297F933CBF"
+					type: "item"
+					item: "ars_nouveau:spell_bow"
+				}
+				{
+					id: "257B70F454405BDC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "242DAF1E6679343B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0B3E930D1AC71D2D"
+				type: "item"
+				item: "minecraft:gold_block"
+				count: 4
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.5d
+			dependencies: [
+				"77BDF40F1D77D241"
+				"17023DB8C7D01345"
+			]
+			size: 0.5d
+			id: "1FA9756177DCF18A"
+			tasks: [{
+				id: "6AB091EA6C859541"
+				type: "item"
+				item: "ars_nouveau:pierce_arrow"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 6.0d
+			dependencies: [
+				"3324155FAA582387"
+				"77BDF40F1D77D241"
+			]
+			size: 0.5d
+			id: "1923F18F2FB9C0D8"
+			tasks: [{
+				id: "786B082DCBA5E3D5"
+				type: "item"
+				item: "ars_nouveau:split_arrow"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 5.0d
+			dependencies: ["77BDF40F1D77D241"]
+			size: 0.5d
+			id: "2E7A5A5AB5643455"
+			tasks: [{
+				id: "358106FCFFE2BF18"
+				type: "item"
+				item: "ars_nouveau:amplify_arrow"
+			}]
+		}
+		{
+			title: "Приблуды"
+			x: -9.0d
+			y: 4.0d
+			dependencies: ["1598EDFE82399901"]
+			id: "61524DFE0536DA5C"
+			tasks: [
+				{
+					id: "10913770234AD78A"
+					type: "item"
+					item: "ars_nouveau:jar_of_light"
+				}
+				{
+					id: "44548DA4BE2371E0"
+					type: "item"
+					item: "ars_nouveau:void_jar"
+				}
+			]
+		}
+		{
+			x: -13.25d
+			y: 6.0d
+			dependencies: ["00592E5E6AA27B5B"]
+			size: 0.5d
+			id: "68D5E913B9B10E03"
+			tasks: [{
+				id: "427E3EF24005169E"
+				type: "item"
+				item: "ars_nouveau:summon_focus"
+			}]
+			rewards: [{
+				id: "751E24F1B89F7495"
+				type: "item"
+				item: "minecraft:bone"
+				count: 16
+			}]
+		}
+		{
+			x: -12.5d
+			y: -0.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"1598EDFE82399901"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			size: 0.5d
+			id: "4C0304C88CA9AB46"
+			tasks: [{
+				id: "1C57796398E64395"
+				type: "item"
+				item: "ars_nouveau:enchanters_mirror"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"1598EDFE82399901"
+				"25B086BE3E218E86"
+			]
+			hide: true
+			size: 0.5d
+			id: "44786172FD243F32"
+			tasks: [{
+				id: "4427FDF344EC6CF3"
+				type: "item"
+				item: "ars_nouveau:wand"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 1.125d
+			dependencies: ["4E137710B6B5DD82"]
+			size: 0.75d
+			id: "2DEC7ED47AB2D70C"
+			tasks: [{
+				id: "3E21F9FF0D8298E2"
+				type: "item"
+				item: "ars_nouveau:basic_spell_turret"
+			}]
+			rewards: [{
+				id: "34D6954EC718431D"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+				count: 3
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.125d
+			hide_dependency_lines: true
+			dependencies: [
+				"1598EDFE82399901"
+				"2DEC7ED47AB2D70C"
+			]
+			hide: true
+			size: 0.75d
+			id: "1141E2FDD7558F3D"
+			tasks: [
+				{
+					id: "672CD3C59579FDC3"
+					type: "item"
+					item: "ars_nouveau:timer_spell_turret"
+				}
+				{
+					id: "10434D25B2EDCC64"
+					type: "item"
+					item: "ars_nouveau:spell_turret"
+				}
+			]
+			rewards: [{
+				id: "414E86A7A010B98F"
+				type: "item"
+				item: "ars_nouveau:marvelous_clay"
+				count: 3
 			}]
 		}
 	]
