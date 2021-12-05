@@ -5,6 +5,7 @@ onEvent('recipes', event => {
     event.remove({output: 'minecraft:powered_rail'})
     event.remove({output: 'minecraft:activator_rail'})
     event.remove({output: 'minecraft:detector_rail'})
+    event.remove({output: 'create:controller_rail'})
     event.remove({output: 'create:electron_tube'})
     event.remove({output: 'minecraft:minecart'})
     event.remove({output: 'create:minecart_coupling'})
@@ -21,9 +22,20 @@ onEvent('recipes', event => {
     event.remove({output: 'create:brass_tunnel'})
     event.remove({output: 'create:brass_hand'})
     event.remove({output: 'create:mechanical_saw'})
+    event.remove({output: 'create:mechanical_arm'})
+    event.remove({output: 'create:rope_pulley'})
+    event.remove({output: 'create:linear_chassis'})
+    event.remove({output: 'create:mechanical_bearing'})
+    event.remove({output: 'create:clockwork_bearing'})
+    event.remove({output: 'create:radial_chassis'})
+    event.remove({output: 'create:sticker'})
+    event.remove({output: 'create:windmill_bearing'})
+    event.remove({output: 'create:mechanical_drill'})
+    event.remove({output: 'create:sequenced_gearshift'})
+    event.remove({mod: 'endertanks'})
+
 
     event.remove({output: 'create:crushing_wheel'})
-
     event.remove({output: 'create:water_wheel'})
     event.shaped('create:water_wheel', [
         'WIW',

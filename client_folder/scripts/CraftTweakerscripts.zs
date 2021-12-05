@@ -3,3 +3,4 @@ import crafttweaker.api.registries.IRecipeManager;
 <recipetype:tconstruct:casting_table>.addItemCastingRecipe("dark_power_gem", <item:evilcraft:dark_gem>, <fluid:tconstruct:blood> * 750, <item:evilcraft:dark_power_gem>, 200, true, true);
 <recipetype:tconstruct:casting_table>.addItemCastingRecipe("book_tir3", <item:minecraft:book>, <fluid:tconstruct:sky_slime> * 144, <item:tconstruct:fantastic_foundry>, 200, true, true);
 <recipetype:tconstruct:casting_table>.addItemCastingRecipe("copper_valve_handle", <item:minecraft:ender_pearl>, <fluid:tconstruct:molten_clay> * 1000, <item:create:copper_valve_handle>, 200, true, true);
+<recipetype:tconstruct:casting_table>.addItemCastingRecipe("volcanic_accumulator", <item:ars_nouveau:alchemical_sourcelink>, <fluid:minecraft:lava> * 20000, <item:ars_nouveau:volcanic_accumulator>, 200, true, true);

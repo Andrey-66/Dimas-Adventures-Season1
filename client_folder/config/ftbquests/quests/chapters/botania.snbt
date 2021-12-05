@@ -246,11 +246,20 @@
 					item: "botania:mana_pearl"
 				}
 			]
-			rewards: [{
-				id: "51F19C90A1E2F48D"
-				type: "choice"
-				table_id: 5861405098905494759L
-			}]
+			rewards: [
+				{
+					id: "51F19C90A1E2F48D"
+					type: "choice"
+					table_id: 5861405098905494759L
+				}
+				{
+					id: "12D480FB7BF80C3B"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "tw_stage"
+				}
+			]
 		}
 		{
 			title: "Инструменты"
@@ -382,12 +391,21 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "7B49D83D193813F5"
-				type: "item"
-				item: "botania:blacker_lotus"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "7B49D83D193813F5"
+					type: "item"
+					item: "botania:blacker_lotus"
+					count: 3
+				}
+				{
+					id: "03FB2B900148EA9B"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_shield"
+				}
+			]
 		}
 		{
 			title: "Батарейка {О-о-и-я-и-ё}"
@@ -506,15 +524,24 @@
 				type: "item"
 				item: "botania:brewery"
 			}]
-			rewards: [{
-				id: "167ACB039C83856B"
-				type: "item"
-				item: {
-					id: "botania:mana_bottle"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "167ACB039C83856B"
+					type: "item"
+					item: {
+						id: "botania:mana_bottle"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "4EA5B7E8AA3A5802"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_strength"
+				}
+			]
 		}
 		{
 			title: "Террария, ты ли это?"
@@ -524,7 +551,6 @@
 			dependencies: [
 				"7E0B532BC362CF01"
 				"0A041851710115FD"
-				"61DC1551879F3303"
 			]
 			hide: true
 			id: "7B6EE16F9C17FDB3"
@@ -634,11 +660,20 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "298425517EF9E4AE"
-				type: "choice"
-				table_id: 5861405098905494759L
-			}]
+			rewards: [
+				{
+					id: "298425517EF9E4AE"
+					type: "choice"
+					table_id: 5861405098905494759L
+				}
+				{
+					id: "649C6A39B7ED7BE5"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_pull"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -1303,6 +1338,13 @@
 					count: 5
 					random_bonus: 5
 				}
+				{
+					id: "6BF2CCB51E4BA840"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_harvest"
+				}
 			]
 		}
 		{
@@ -1333,6 +1375,13 @@
 					item: "botania:fertilizer"
 					count: 5
 					random_bonus: 5
+				}
+				{
+					id: "149D0CB22BB86E6C"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_blink"
 				}
 			]
 		}
@@ -1376,6 +1425,13 @@
 					item: "botania:fertilizer"
 					count: 5
 					random_bonus: 5
+				}
+				{
+					id: "360EB28BCBE887EA"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_pickup"
 				}
 			]
 		}
@@ -1604,6 +1660,20 @@
 					count: 5
 					random_bonus: 5
 				}
+				{
+					id: "533EBF7AAE075050"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_freeze"
+				}
+				{
+					id: "5F0F41224B89FE8F"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_snare"
+				}
 			]
 		}
 		{
@@ -1634,6 +1704,13 @@
 					item: "botania:fertilizer"
 					count: 5
 					random_bonus: 5
+				}
+				{
+					id: "7B25C9595C0459E3"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_heal"
 				}
 			]
 		}
@@ -1727,6 +1804,13 @@
 					item: "minecraft:glass"
 					count: 32
 				}
+				{
+					id: "62BA762874D87947"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_evaporate"
+				}
 			]
 		}
 		{
@@ -1818,11 +1902,20 @@
 				type: "item"
 				item: "botania:spectranthemum"
 			}]
-			rewards: [{
-				id: "48865CEF01C020D5"
-				type: "choice"
-				table_id: 5861405098905494759L
-			}]
+			rewards: [
+				{
+					id: "48865CEF01C020D5"
+					type: "choice"
+					table_id: 5861405098905494759L
+				}
+				{
+					id: "151EA5976836FCB4"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_toss"
+				}
+			]
 		}
 		{
 			title: "Я тебя вижу!"
@@ -1956,15 +2049,24 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "35DBF55460E42206"
-				type: "item"
-				item: {
-					id: "botania:mana_bottle"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "35DBF55460E42206"
+					type: "item"
+					item: {
+						id: "botania:mana_bottle"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "6B6635F1F956EC53"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_orbit"
+				}
+			]
 		}
 		{
 			title: "Сгиньте в пламени ненависти! "
@@ -1998,7 +2100,7 @@
 			}]
 		}
 		{
-			title: "С рождеством"
+			title: "С Рождеством"
 			x: -9.5d
 			y: -3.5d
 			hide_dependency_lines: true
@@ -2018,20 +2120,29 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "1FB5585EB4C8C6C1"
-				type: "item"
-				item: {
-					id: "minecraft:paper"
-					Count: 1b
-					tag: {
-						RepairCost: 0
-						display: {
-							Name: "{\"text\":\"Анонимная записака\"}"
+			rewards: [
+				{
+					id: "1FB5585EB4C8C6C1"
+					type: "item"
+					item: {
+						id: "minecraft:paper"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Анонимная записака\"}"
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "799212BDF3DCE879"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_invisibility"
+				}
+			]
 		}
 		{
 			title: "Не утонул, а замурован"
@@ -2084,10 +2195,18 @@
 					auto: "invisible"
 					stage: "ars_1_aqua"
 				}
+				{
+					id: "77679D8687812AAC"
+					type: "gamestage"
+					title: "Под ноги смотри"
+					team_reward: false
+					auto: "invisible"
+					stage: "ars_1_underfoot"
+				}
 			]
 		}
 		{
-			title: "Уто-то превратил сапоги путешественника в ремень"
+			title: "Кто-то превратил сапоги путешественника в ремень"
 			x: -7.5d
 			y: -5.0d
 			hide_dependency_lines: true
@@ -2129,15 +2248,24 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "7B90C642EAE38061"
-				type: "item"
-				item: {
-					id: "botania:mana_bottle"
-					Count: 1b
-					tag: { }
+			rewards: [
+				{
+					id: "7B90C642EAE38061"
+					type: "item"
+					item: {
+						id: "botania:mana_bottle"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "78333A1F5A69671C"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_haste"
+				}
+			]
 		}
 		{
 			title: "Заначка"
@@ -2268,11 +2396,20 @@
 				type: "item"
 				item: "botania:fire_rod"
 			}]
-			rewards: [{
-				id: "063B93C68DDF637F"
-				type: "item"
-				item: "minecraft:blaze_rod"
-			}]
+			rewards: [
+				{
+					id: "063B93C68DDF637F"
+					type: "item"
+					item: "minecraft:blaze_rod"
+				}
+				{
+					id: "031E8FAF022C59FB"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_ignite"
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -2352,6 +2489,28 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "70511297A1521041"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_sensitive"
+				}
+				{
+					id: "5D6E81798D20DF33"
+					type: "item"
+					item: "minecraft:glass"
+					count: 16
+				}
+				{
+					id: "16BCFFEA610C548D"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_extract"
+				}
+			]
 		}
 		{
 			title: "Нужно построить зиккурат"
@@ -2426,7 +2585,7 @@
 			}]
 		}
 		{
-			title: "Как же я усиал фармиить споры друнглей"
+			title: "Как же я устал фармить споры джунглей"
 			x: 8.0d
 			y: -7.0d
 			hide_dependency_lines: true
@@ -2440,6 +2599,11 @@
 				id: "4F033331DC840F7E"
 				type: "item"
 				item: "botania:thorn_chakram"
+			}]
+			rewards: [{
+				id: "27A5A1E1726D6F94"
+				type: "item"
+				item: "botania:vine_ball"
 			}]
 		}
 		{
@@ -2760,11 +2924,27 @@
 				type: "item"
 				item: "botania:water_rod"
 			}]
-			rewards: [{
-				id: "0D64394DBECDFD76"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
+			rewards: [
+				{
+					id: "0D64394DBECDFD76"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "0DBFD2DBF20B5402"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_dampen"
+				}
+				{
+					id: "10B1F93129ECA2A3"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_conjure_water"
+				}
+			]
 		}
 		{
 			title: "Вверх!"
@@ -2783,17 +2963,33 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "3AD65B560EB0937D"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:long_slow_falling"
+			rewards: [
+				{
+					id: "3AD65B560EB0937D"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
 					}
 				}
-			}]
+				{
+					id: "1C735D3D4163D3B0"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_launch"
+				}
+				{
+					id: "72527125D7E3A8E8"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_leap"
+				}
+			]
 		}
 		{
 			title: "Наболдажник: Равноценный обмен"
@@ -2812,12 +3008,21 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "0075F1915F908CC1"
-				type: "item"
-				item: "minecraft:sand"
-				count: 64
-			}]
+			rewards: [
+				{
+					id: "0075F1915F908CC1"
+					type: "item"
+					item: "minecraft:sand"
+					count: 64
+				}
+				{
+					id: "09D10C92014E7690"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_exchange"
+				}
+			]
 		}
 		{
 			title: "Генератор булыжника"
@@ -2886,11 +3091,20 @@
 					item: "botania:life_essence"
 				}
 			]
-			rewards: [{
-				id: "12A1E98F1798F429"
-				type: "item"
-				item: "botania:terrasteel_ingot"
-			}]
+			rewards: [
+				{
+					id: "12A1E98F1798F429"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+				{
+					id: "7C1BF606515208AF"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_summon_decoy"
+				}
+			]
 		}
 		{
 			title: "Непонятный цветок"
@@ -2976,6 +3190,13 @@
 					type: "item"
 					item: "biomesoplenty:rainbow_birch_sapling"
 				}
+				{
+					id: "537876BF61F3C404"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_firework"
+				}
 			]
 		}
 		{
@@ -3023,6 +3244,13 @@
 					item: "botania:fertilizer"
 					count: 5
 					random_bonus: 5
+				}
+				{
+					id: "4BE9E501B75B470C"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_explosion"
 				}
 			]
 		}
@@ -3193,6 +3421,9 @@
 			title: "Гламурный набор"
 			x: 0.0d
 			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["00B0A3EE3E961EBB"]
+			hide: true
 			id: "56BE76A967DE258D"
 			tasks: [
 				{
@@ -3340,6 +3571,7 @@
 				"775BD2DEA5502E90"
 				"26EBA995EA60E864"
 			]
+			hide: true
 			id: "487477FD8925FE5E"
 			tasks: [{
 				id: "0219377C9A043F70"
@@ -3414,11 +3646,20 @@
 					item: "botania:virus_nullodermal"
 				}
 			]
-			rewards: [{
-				id: "22EF4712539F66B2"
-				type: "item"
-				item: "evilcraft:flesh_werewolf"
-			}]
+			rewards: [
+				{
+					id: "22EF4712539F66B2"
+					type: "item"
+					item: "evilcraft:flesh_werewolf"
+				}
+				{
+					id: "5217809D1484318C"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_summon_steed"
+				}
+			]
 		}
 		{
 			title: "Небесный замок Лапута"
@@ -3435,7 +3676,7 @@
 			}]
 		}
 		{
-			title: "Сковзь стекло"
+			title: "Сквозь стекло"
 			x: 2.5d
 			y: 5.0d
 			dependencies: [
@@ -3443,6 +3684,7 @@
 				"155F27B73A8C63FA"
 				"3350920379A5581C"
 			]
+			hide: true
 			id: "619EAD88835BD188"
 			tasks: [{
 				id: "1C3BE7CA0CCAF4B8"
@@ -3459,6 +3701,7 @@
 			y: 5.0d
 			hide_dependency_lines: true
 			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "41928015ADAA2746"
 			tasks: [{
 				id: "0B57B60396FFA8C1"
@@ -3492,6 +3735,7 @@
 			y: 5.0d
 			hide_dependency_lines: true
 			dependencies: ["619EAD88835BD188"]
+			hide: true
 			id: "7CC2167BEB00F5C6"
 			tasks: [{
 				id: "2E7BDD9A3B08184E"
@@ -3620,6 +3864,13 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "2B3EF5903657E4A3"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "glyph_pierce"
 			}]
 		}
 		{
@@ -3754,11 +4005,20 @@
 				type: "item"
 				item: "botania:abstruse_platform"
 			}]
-			rewards: [{
-				id: "02FE67D321BD9474"
-				type: "item"
-				item: "calemiutils:money_bag_cheap"
-			}]
+			rewards: [
+				{
+					id: "02FE67D321BD9474"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "1EB6C0215B3EFCA4"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_phantom_block"
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -3932,17 +4192,27 @@
 				"024CD49A60131533"
 				"1021D1A32130D574"
 			]
+			hide: true
 			id: "4916D951CD3A116D"
 			tasks: [{
 				id: "6CACADCE076FBECF"
 				type: "item"
 				item: "botania:spectral_platform"
 			}]
-			rewards: [{
-				id: "3417340B4DC54DFB"
-				type: "loot"
-				table_id: 5861405098905494759L
-			}]
+			rewards: [
+				{
+					id: "3417340B4DC54DFB"
+					type: "loot"
+					table_id: 5861405098905494759L
+				}
+				{
+					id: "5DFFA046D2B99BB2"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_intangible"
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -4029,6 +4299,7 @@
 				"14E2E5CBD1010ECF"
 				"5F21AFAE1F7FC1B4"
 			]
+			hide: true
 			id: "709D846A2C7AB2ED"
 			tasks: [
 				{
@@ -4092,6 +4363,13 @@
 					type: "item"
 					item: "minecraft:sand"
 					count: 16
+				}
+				{
+					id: "778E2964496151C4"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_delay"
 				}
 			]
 		}
@@ -4383,6 +4661,7 @@
 			x: 8.5d
 			y: 5.0d
 			dependencies: ["35B0DBECB08F5384"]
+			hide: true
 			id: "2E38DA6C5FC54B02"
 			tasks: [{
 				id: "3F9EA64986CCBD2D"
@@ -4600,11 +4879,20 @@
 				type: "item"
 				item: "botania:ender_hand"
 			}]
-			rewards: [{
-				id: "724DEDB067439013"
-				type: "item"
-				item: "minecraft:ender_chest"
-			}]
+			rewards: [
+				{
+					id: "724DEDB067439013"
+					type: "item"
+					item: "minecraft:ender_chest"
+				}
+				{
+					id: "33CAB653410CA52D"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_ender_inventory"
+				}
+			]
 		}
 		{
 			title: "Крылышки"
@@ -4712,7 +5000,7 @@
 			}]
 		}
 		{
-			title: "Дорога сковзь пространство"
+			title: "Дорога сквозь пространство"
 			x: 8.0d
 			y: 1.0d
 			dependencies: [
