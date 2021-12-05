@@ -89,3 +89,13 @@ ItemStages.createModRestriction("create", s => {
         return false;
     }
 }, "create_unlock");
+
+ItemStages.createModRestriction("mekanism", s => {
+    if (<item:mekanism:digital_miner>.matches(s) || <item:mekanism:upgrade_speed>.matches(s) 
+    || <item:mekanism:upgrade_filter>.matches(s) || <item:mekanism:upgrade_anchor>.matches(s)
+    || <item:mekanism:upgrade_energy>.matches(s)){
+        return true;
+    } else {
+        return false;
+    }
+}, "delete").setHiddenInJEI(true).hiddenName("Удалённый предмет");
