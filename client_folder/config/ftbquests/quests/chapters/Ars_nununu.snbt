@@ -33,8 +33,8 @@
 		}
 		{
 			title: "Пора творить чудеса"
-			x: -12.5d
-			y: 1.5d
+			x: -9.0d
+			y: 2.0d
 			hide: true
 			id: "3488D6844894CDE0"
 			tasks: [{
@@ -50,9 +50,9 @@
 			}]
 		}
 		{
-			title: "Собираем ману"
-			x: -10.0d
-			y: 1.5d
+			title: "Собираем Исток"
+			x: -12.5d
+			y: 2.0d
 			dependencies: ["3488D6844894CDE0"]
 			hide: true
 			id: "19129491868919F1"
@@ -77,8 +77,8 @@
 		}
 		{
 			title: "Инфузия возвращается"
-			x: -7.5d
-			y: 1.5d
+			x: -12.5d
+			y: 4.0d
 			dependencies: ["19129491868919F1"]
 			hide: true
 			id: "1598EDFE82399901"
@@ -111,21 +111,36 @@
 			title: "Первый урок"
 			x: -12.5d
 			y: 0.0d
-			dependencies: ["3488D6844894CDE0"]
+			dependencies: [
+				"26EBA995EA60E864"
+				"19129491868919F1"
+			]
 			hide: true
 			id: "4E137710B6B5DD82"
-			tasks: [{
-				id: "594613B384DE0E2B"
-				type: "item"
-				item: {
-					id: "ars_nouveau:novice_spell_book"
-					Count: 1b
-					tag: {
-						mode: 0
-						spells: ",touch,harm,break,self,projectile"
+			tasks: [
+				{
+					id: "594613B384DE0E2B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_spell_book"
+						Count: 1b
+						tag: {
+							mode: 0
+							spells: ",touch,harm,break,self,projectile"
+						}
 					}
 				}
-			}]
+				{
+					id: "10AF4BD58BDCCD4B"
+					type: "item"
+					item: "ars_nouveau:glyph_press"
+				}
+				{
+					id: "10C6F2CF5279C4AC"
+					type: "item"
+					item: "ars_nouveau:magic_clay"
+				}
+			]
 		}
 		{
 			x: -10.5d
@@ -647,8 +662,8 @@
 		}
 		{
 			title: "Призыв существ"
-			x: -7.5d
-			y: 3.5d
+			x: -12.5d
+			y: 6.0d
 			dependencies: ["1598EDFE82399901"]
 			id: "00592E5E6AA27B5B"
 			tasks: [{
@@ -659,7 +674,7 @@
 		}
 		{
 			x: -15.0d
-			y: 1.5d
+			y: 0.0d
 			dependencies: ["4E137710B6B5DD82"]
 			id: "0A31FB87DC0921C8"
 			tasks: [
@@ -676,8 +691,8 @@
 			]
 		}
 		{
-			x: -15.0d
-			y: 3.5d
+			x: -17.5d
+			y: 0.0d
 			dependencies: ["0A31FB87DC0921C8"]
 			id: "559F31C65E13322E"
 			tasks: [{
@@ -737,11 +752,18 @@
 			]
 			hide: true
 			id: "39E45ACEA9615410"
-			tasks: [{
-				id: "2D1A1DAE9E0324AF"
-				type: "item"
-				item: "ars_nouveau:glyph_ender_inventory"
-			}]
+			tasks: [
+				{
+					id: "2D1A1DAE9E0324AF"
+					type: "item"
+					item: "ars_nouveau:glyph_ender_inventory"
+				}
+				{
+					id: "328EAA851D7B28BA"
+					type: "item"
+					item: "ars_nouveau:marvelous_clay"
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -1133,11 +1155,18 @@
 			y: 0.0d
 			dependencies: ["25B086BE3E218E86"]
 			id: "46EA57A70D222664"
-			tasks: [{
-				id: "2D7E838650DA6866"
-				type: "item"
-				item: "ars_nouveau:archmage_spell_book"
-			}]
+			tasks: [
+				{
+					id: "2D7E838650DA6866"
+					type: "item"
+					item: "ars_nouveau:archmage_spell_book"
+				}
+				{
+					id: "4EB1D607848577BC"
+					type: "item"
+					item: "ars_nouveau:mythical_clay"
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -1352,6 +1381,909 @@
 				id: "47518A763365CC77"
 				type: "item"
 				item: "ars_nouveau:glyph_glide"
+			}]
+		}
+		{
+			title: "Транспортировка Истока"
+			x: -15.0d
+			y: 2.0d
+			dependencies: ["19129491868919F1"]
+			id: "67B9FE3277B074D7"
+			tasks: [
+				{
+					id: "410C0E8432132B1A"
+					type: "item"
+					item: "ars_nouveau:arcane_relay"
+				}
+				{
+					id: "33250A7C087990A0"
+					type: "item"
+					item: {
+						id: "ars_nouveau:dominion_wand"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "095937E1C7EF458B"
+				type: "item"
+				item: "ars_nouveau:source_berry_roll"
+				count: 3
+			}]
+		}
+		{
+			title: "Распределение Истока"
+			x: -15.75d
+			y: 2.5d
+			dependencies: ["67B9FE3277B074D7"]
+			size: 0.5d
+			id: "5C2E54E6E89168E1"
+			tasks: [{
+				id: "1CD1B0A3FF99416D"
+				type: "item"
+				item: "ars_nouveau:arcane_relay_splitter"
+			}]
+			rewards: [{
+				id: "087F1639C57A50E7"
+				type: "item"
+				item: "ars_nouveau:source_berry_pie"
+			}]
+		}
+		{
+			title: "Телепортация Истока"
+			x: -16.0d
+			y: 2.0d
+			dependencies: ["67B9FE3277B074D7"]
+			size: 0.5d
+			id: "38B79C9790F3A54B"
+			tasks: [{
+				id: "38F088BD184BFF6D"
+				type: "item"
+				item: "ars_nouveau:relay_warp"
+			}]
+			rewards: [{
+				id: "4DAFCC4E9DEBC6B5"
+				type: "item"
+				item: "ars_nouveau:source_berry_pie"
+			}]
+		}
+		{
+			title: "Заполнение Истоком"
+			x: -15.75d
+			y: 1.5d
+			dependencies: ["67B9FE3277B074D7"]
+			size: 0.5d
+			id: "4722E513380E972D"
+			tasks: [{
+				id: "617D25D5F8510C7D"
+				type: "item"
+				item: "ars_nouveau:relay_deposit"
+			}]
+			rewards: [{
+				id: "6EAEF51C20F3FEB5"
+				type: "item"
+				item: "ars_nouveau:source_berry_pie"
+			}]
+		}
+		{
+			title: "Выращиваем ягодки"
+			x: -15.5d
+			y: 6.0d
+			dependencies: ["1598EDFE82399901"]
+			id: "1518E5F210FE11C9"
+			tasks: [
+				{
+					id: "392F004BBC233405"
+					type: "item"
+					item: "ars_nouveau:mana_bloom_crop"
+				}
+				{
+					id: "5256E2093ADEE7C3"
+					type: "item"
+					item: "ars_nouveau:mana_bloom"
+				}
+				{
+					id: "78E31EBB780D0F09"
+					type: "item"
+					item: "ars_nouveau:mana_fiber"
+				}
+			]
+		}
+		{
+			title: "Роба колдуна"
+			x: -16.5d
+			y: 6.0d
+			dependencies: [
+				"594613B384DE0E2B"
+				"1518E5F210FE11C9"
+			]
+			id: "32D24B6ABB4CF2E7"
+			tasks: [
+				{
+					id: "184C802DBB4250FB"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3648DF933755D8EE"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3587C072B09435AC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "652A877E55761284"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6995CA5F0D90A1A9"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Животный Исток"
+			x: -15.0d
+			y: 4.0d
+			dependencies: ["1598EDFE82399901"]
+			id: "42EB8DC9C9522EE8"
+			tasks: [{
+				id: "509575E6E52418B7"
+				type: "item"
+				item: "ars_nouveau:vitalic_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "1C68F568B9B247EF"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 8
+				}
+				{
+					id: "412C6AF0C0B697CB"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 4
+				}
+				{
+					id: "65BA6B2364987983"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Сытый Исток"
+			x: -17.5d
+			y: 4.0d
+			dependencies: ["42EB8DC9C9522EE8"]
+			id: "36668618731EE087"
+			tasks: [{
+				id: "16FA7DBC68FFDE82"
+				type: "item"
+				item: "ars_nouveau:mycelial_sourcelink"
+			}]
+			rewards: [
+				{
+					id: "4A79029E39FD6F3D"
+					type: "item"
+					item: "drinkbeer:beer_mug_sweet_berry_kriek"
+				}
+				{
+					id: "355A47F0819BA89A"
+					type: "item"
+					item: "simplefarming:eggplant"
+				}
+				{
+					id: "05D80B24921ABA36"
+					type: "item"
+					item: "simplefarming:apricot"
+				}
+			]
+		}
+		{
+			title: "Исток вулкана"
+			x: -20.0d
+			y: 4.0d
+			dependencies: [
+				"36668618731EE087"
+				"45959E538A5AC827"
+			]
+			id: "3E2DAD2E0C12FC5D"
+			tasks: [{
+				id: "40A9BE5016EE501B"
+				type: "item"
+				item: "ars_nouveau:volcanic_accumulator"
+			}]
+		}
+		{
+			title: "Ритуалы"
+			x: -9.0d
+			y: 7.0d
+			dependencies: ["1598EDFE82399901"]
+			id: "35E024B7CD7D4E38"
+			tasks: [
+				{
+					id: "19452EFAC06B0CF4"
+					type: "item"
+					item: "ars_nouveau:ritual"
+				}
+				{
+					id: "0A291006DE6870F6"
+					type: "item"
+					item: "ars_nouveau:ritual_sunrise"
+				}
+			]
+			rewards: [{
+				id: "70601813F0B68114"
+				type: "item"
+				item: "ars_nouveau:ritual_fertility"
+			}]
+		}
+		{
+			title: "Магический забор"
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["3488D6844894CDE0"]
+			hide: true
+			id: "64F0E3C35217297E"
+			tasks: [{
+				id: "57082CE8FF5C5645"
+				type: "item"
+				item: "ars_nouveau:warding_stone"
+			}]
+		}
+		{
+			x: -14.5d
+			y: 7.5d
+			dependencies: ["00592E5E6AA27B5B"]
+			id: "6F3A059A80FE06D5"
+			tasks: [{
+				id: "58DBC46BD3841FB8"
+				type: "item"
+				item: "ars_nouveau:sylph_charm"
+			}]
+			rewards: [
+				{
+					id: "5FDD858FD1F6E894"
+					type: "item"
+					item: "simplefarming:pepper_seeds"
+				}
+				{
+					id: "40A498242E27639C"
+					type: "item"
+					item: "simplefarming:kenaf_seeds"
+				}
+				{
+					id: "1FAA3E45FB661A00"
+					type: "item"
+					item: "simplefarming:cumin_seeds"
+				}
+				{
+					id: "64CE9DA23BB4DD75"
+					type: "item"
+					item: "simplefarming:radish_seeds"
+				}
+				{
+					id: "104D6866B9981F62"
+					type: "item"
+					item: "simplefarming:eggplant_seeds"
+				}
+				{
+					id: "4C817C17625775AB"
+					type: "item"
+					item: "thermal:onion_seeds"
+				}
+				{
+					id: "7D00907A9857C4E7"
+					type: "item"
+					item: "betterendforge:umbrella_tree_sapling"
+				}
+				{
+					id: "0A27479D6638C008"
+					type: "item"
+					item: "simplefarming:pear_sapling"
+				}
+				{
+					id: "16BF351E93EEE299"
+					type: "item"
+					item: "byg:brown_birch_sapling"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 8.0d
+			dependencies: ["00592E5E6AA27B5B"]
+			id: "42158E7DCAD54597"
+			tasks: [{
+				id: "24000191096D572B"
+				type: "item"
+				item: "ars_nouveau:carbuncle_charm"
+			}]
+			rewards: [
+				{
+					id: "470CEC4ED44BFA6D"
+					type: "item"
+					item: "ironchest:crystal_chest"
+				}
+				{
+					id: "1FD0E2A804D3845A"
+					type: "item"
+					item: "ironchest:obsidian_chest"
+				}
+			]
+		}
+		{
+			icon: "ars_nouveau:wixie_charm"
+			x: -12.5d
+			y: 8.5d
+			dependencies: ["00592E5E6AA27B5B"]
+			id: "205CE7DDE92E319F"
+			tasks: [
+				{
+					id: "56C42C6662185820"
+					type: "item"
+					item: "ars_nouveau:wixie_charm"
+				}
+				{
+					id: "1E750F60CF603204"
+					type: "observation"
+					timer: 5L
+					observe: "block:ars_nouveau:wixie_cauldron"
+				}
+			]
+			rewards: [{
+				id: "5EDFD691DB9BF276"
+				type: "item"
+				item: "minecraft:nether_wart"
+				count: 10
+			}]
+		}
+		{
+			x: -11.5d
+			y: 8.0d
+			dependencies: [
+				"58301DCF2691E4C4"
+				"00592E5E6AA27B5B"
+			]
+			id: "5EAC40417F413383"
+			tasks: [{
+				id: "6C70CEFED1AD9EB6"
+				type: "item"
+				item: "ars_nouveau:whelp_charm"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 7.5d
+			dependencies: ["00592E5E6AA27B5B"]
+			id: "2505791CC5345C43"
+			tasks: [{
+				id: "508DE12FC7B2BA98"
+				type: "item"
+				item: "ars_nouveau:drygmy_charm"
+			}]
+			rewards: [{
+				id: "7FEEE33D0956821C"
+				type: "item"
+				item: "alexsmobs:cooked_kangaroo_meat"
+				count: 16
+			}]
+		}
+		{
+			x: -12.5d
+			y: 10.0d
+			dependencies: ["205CE7DDE92E319F"]
+			id: "6C4C7751AB4C63DB"
+			tasks: [{
+				id: "639C2C9665CE110A"
+				type: "item"
+				item: "ars_nouveau:potion_jar"
+			}]
+			rewards: [{
+				id: "5F09F8BF5E8D776C"
+				type: "item"
+				item: "ars_nouveau:potion_jar"
+			}]
+		}
+		{
+			title: "Намешаем"
+			x: -12.5d
+			y: 11.5d
+			dependencies: ["6C4C7751AB4C63DB"]
+			id: "5A0B0A733762FA6B"
+			tasks: [{
+				id: "46B0D13263E832AC"
+				type: "item"
+				item: "ars_nouveau:potion_melder"
+			}]
+			rewards: [{
+				id: "7E7A00303783D901"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			x: -17.5d
+			y: 10.0d
+			dependencies: [
+				"6C4C7751AB4C63DB"
+				"36668618731EE087"
+			]
+			id: "4D11F23643307677"
+			tasks: [{
+				id: "203FB25D46688E55"
+				type: "item"
+				item: "ars_nouveau:alchemical_sourcelink"
+			}]
+			rewards: [{
+				id: "1B9A8560B4FC3D86"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:ultimate_potion_splash"
+					Count: 1b
+					tag: {
+						EnigmaticPotion: "ultimate_night_vision"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.25d
+			y: 3.0d
+			dependencies: ["19129491868919F1"]
+			size: 0.75d
+			id: "1FBB694AE6279DCD"
+			tasks: [{
+				id: "4A0BE942D296B324"
+				type: "item"
+				item: "ars_nouveau:crystallizer"
+			}]
+			rewards: [{
+				id: "1EC42329F7D40D7B"
+				type: "item"
+				item: "ars_nouveau:mana_gem_block"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 10.0d
+			dependencies: ["6C4C7751AB4C63DB"]
+			id: "177698C06319F2E4"
+			tasks: [{
+				id: "629EB2EB2B2E8E66"
+				type: "item"
+				item: "ars_nouveau:potion_flask"
+			}]
+			rewards: [{
+				id: "1660C001E8F14AA5"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.75d
+			y: 9.5d
+			dependencies: ["177698C06319F2E4"]
+			size: 0.5d
+			id: "421482CD84CEC3BF"
+			tasks: [
+				{
+					id: "4400601D822CB991"
+					type: "item"
+					item: "ars_nouveau:potion_flask_extend_time"
+				}
+				{
+					id: "3059D0B9F140F602"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+			]
+			rewards: [{
+				id: "6964EFF27882711E"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:ultimate_potion"
+					Count: 1b
+					tag: {
+						EnigmaticPotion: "ultimate_night_vision"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.75d
+			y: 10.5d
+			dependencies: ["177698C06319F2E4"]
+			size: 0.5d
+			id: "11D8ACD0644B5318"
+			tasks: [
+				{
+					id: "620E7DDC5C26EE27"
+					type: "item"
+					item: "ars_nouveau:potion_flask_amplify"
+				}
+				{
+					id: "76EF383A13302342"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+				}
+			]
+			rewards: [{
+				id: "762D6BAFA9B74601"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:ultimate_potion_splash"
+					Count: 1b
+					tag: {
+						EnigmaticPotion: "ultimate_night_vision"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: 7.0d
+			dependencies: ["32D24B6ABB4CF2E7"]
+			id: "4B2E71CF41556F28"
+			tasks: [
+				{
+					id: "3B83201075A2BF96"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02BB587FE6533385"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C77DDCCACD75424"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3216DFB3B031F918"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2F94DA22EC01F117"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "088B132959D644EF"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: 8.0d
+			dependencies: ["4B2E71CF41556F28"]
+			id: "0CAB4D7445BA432E"
+			tasks: [
+				{
+					id: "73CCED236B5270A3"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "79E9DEF8BA3319EC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "67064E1D6D5550BC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E768F52F30CF8AD"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "663676A9EDAC1034"
+				type: "item"
+				item: "calemiutils:money_bag_rich"
+			}]
+		}
+		{
+			title: "Оружие Истока"
+			x: -9.0d
+			y: 5.5d
+			dependencies: [
+				"05658D45D06DA67F"
+				"1598EDFE82399901"
+			]
+			id: "77BDF40F1D77D241"
+			tasks: [
+				{
+					id: "4FEDAF297F933CBF"
+					type: "item"
+					item: "ars_nouveau:spell_bow"
+				}
+				{
+					id: "257B70F454405BDC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "242DAF1E6679343B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:enchanters_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0B3E930D1AC71D2D"
+				type: "item"
+				item: "minecraft:gold_block"
+				count: 4
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.5d
+			dependencies: [
+				"77BDF40F1D77D241"
+				"17023DB8C7D01345"
+			]
+			size: 0.5d
+			id: "1FA9756177DCF18A"
+			tasks: [{
+				id: "6AB091EA6C859541"
+				type: "item"
+				item: "ars_nouveau:pierce_arrow"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 6.0d
+			dependencies: [
+				"3324155FAA582387"
+				"77BDF40F1D77D241"
+			]
+			size: 0.5d
+			id: "1923F18F2FB9C0D8"
+			tasks: [{
+				id: "786B082DCBA5E3D5"
+				type: "item"
+				item: "ars_nouveau:split_arrow"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 5.0d
+			dependencies: ["77BDF40F1D77D241"]
+			size: 0.5d
+			id: "2E7A5A5AB5643455"
+			tasks: [{
+				id: "358106FCFFE2BF18"
+				type: "item"
+				item: "ars_nouveau:amplify_arrow"
+			}]
+		}
+		{
+			title: "Приблуды"
+			x: -9.0d
+			y: 4.0d
+			dependencies: ["1598EDFE82399901"]
+			id: "61524DFE0536DA5C"
+			tasks: [
+				{
+					id: "10913770234AD78A"
+					type: "item"
+					item: "ars_nouveau:jar_of_light"
+				}
+				{
+					id: "44548DA4BE2371E0"
+					type: "item"
+					item: "ars_nouveau:void_jar"
+				}
+			]
+		}
+		{
+			x: -13.25d
+			y: 6.0d
+			dependencies: ["00592E5E6AA27B5B"]
+			size: 0.5d
+			id: "68D5E913B9B10E03"
+			tasks: [{
+				id: "427E3EF24005169E"
+				type: "item"
+				item: "ars_nouveau:summon_focus"
+			}]
+			rewards: [{
+				id: "751E24F1B89F7495"
+				type: "item"
+				item: "minecraft:bone"
+				count: 16
+			}]
+		}
+		{
+			x: -12.5d
+			y: -0.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"1598EDFE82399901"
+				"4E137710B6B5DD82"
+			]
+			hide: true
+			size: 0.5d
+			id: "4C0304C88CA9AB46"
+			tasks: [{
+				id: "1C57796398E64395"
+				type: "item"
+				item: "ars_nouveau:enchanters_mirror"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"1598EDFE82399901"
+				"25B086BE3E218E86"
+			]
+			hide: true
+			size: 0.5d
+			id: "44786172FD243F32"
+			tasks: [{
+				id: "4427FDF344EC6CF3"
+				type: "item"
+				item: "ars_nouveau:wand"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 1.125d
+			dependencies: ["4E137710B6B5DD82"]
+			size: 0.75d
+			id: "2DEC7ED47AB2D70C"
+			tasks: [{
+				id: "3E21F9FF0D8298E2"
+				type: "item"
+				item: "ars_nouveau:basic_spell_turret"
+			}]
+			rewards: [{
+				id: "34D6954EC718431D"
+				type: "item"
+				item: "ars_nouveau:magic_clay"
+				count: 3
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.125d
+			hide_dependency_lines: true
+			dependencies: [
+				"1598EDFE82399901"
+				"2DEC7ED47AB2D70C"
+			]
+			hide: true
+			size: 0.75d
+			id: "1141E2FDD7558F3D"
+			tasks: [
+				{
+					id: "672CD3C59579FDC3"
+					type: "item"
+					item: "ars_nouveau:timer_spell_turret"
+				}
+				{
+					id: "10434D25B2EDCC64"
+					type: "item"
+					item: "ars_nouveau:spell_turret"
+				}
+			]
+			rewards: [{
+				id: "414E86A7A010B98F"
+				type: "item"
+				item: "ars_nouveau:marvelous_clay"
+				count: 3
 			}]
 		}
 	]
