@@ -5,7 +5,6 @@
 	filename: "Ars_nununu"
 	title: "Почти как Хогвартс"
 	icon: "ars_nouveau:novice_spell_book"
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -1498,6 +1497,7 @@
 				"594613B384DE0E2B"
 				"1518E5F210FE11C9"
 			]
+			hide: true
 			id: "32D24B6ABB4CF2E7"
 			tasks: [
 				{
@@ -1778,6 +1778,7 @@
 				"58301DCF2691E4C4"
 				"00592E5E6AA27B5B"
 			]
+			hide: true
 			id: "5EAC40417F413383"
 			tasks: [{
 				id: "6C70CEFED1AD9EB6"
@@ -1963,6 +1964,7 @@
 			x: -16.5d
 			y: 7.0d
 			dependencies: ["32D24B6ABB4CF2E7"]
+			hide: true
 			id: "4B2E71CF41556F28"
 			tasks: [
 				{
@@ -2027,6 +2029,7 @@
 			x: -16.5d
 			y: 8.0d
 			dependencies: ["4B2E71CF41556F28"]
+			hide: true
 			id: "0CAB4D7445BA432E"
 			tasks: [
 				{
@@ -2088,6 +2091,7 @@
 				"05658D45D06DA67F"
 				"1598EDFE82399901"
 			]
+			hide: true
 			id: "77BDF40F1D77D241"
 			tasks: [
 				{
@@ -2132,6 +2136,7 @@
 				"77BDF40F1D77D241"
 				"17023DB8C7D01345"
 			]
+			hide: true
 			size: 0.5d
 			id: "1FA9756177DCF18A"
 			tasks: [{
@@ -2147,6 +2152,7 @@
 				"3324155FAA582387"
 				"77BDF40F1D77D241"
 			]
+			hide: true
 			size: 0.5d
 			id: "1923F18F2FB9C0D8"
 			tasks: [{
@@ -2159,6 +2165,7 @@
 			x: -8.25d
 			y: 5.0d
 			dependencies: ["77BDF40F1D77D241"]
+			hide: true
 			size: 0.5d
 			id: "2E7A5A5AB5643455"
 			tasks: [{
