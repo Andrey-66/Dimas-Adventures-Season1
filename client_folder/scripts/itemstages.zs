@@ -88,7 +88,7 @@ ItemStages.createModRestriction("create", s => {
     } else {
         return false;
     }
-}, "create_unlock");
+}, "create_unlock").setHiddenInJEI(true).hiddenName("Непонятный механизм");
 
 ItemStages.createModRestriction("mekanism", s => {
     if (<item:mekanism:digital_miner>.matches(s) || <item:mekanism:upgrade_speed>.matches(s) 
