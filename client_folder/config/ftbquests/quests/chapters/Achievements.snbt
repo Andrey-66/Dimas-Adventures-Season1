@@ -49,7 +49,7 @@
 			rewards: [{
 				id: "056F38377C6B2DC8"
 				type: "item"
-				team_reward: false
+				team_reward: true
 				item: "minecraft:slime_ball"
 			}]
 		}
