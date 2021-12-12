@@ -6,16 +6,21 @@
 #4FF443 botania:alfheim_portal
 #FBEB73 minecraft:allium
 #FA75A8 minecraft:andesite
+#0A1C64 create:andesite_belt_funnel
 #C0EEE0 create:andesite_encased_shaft
+#DA9404 create:andesite_funnel
 #DBECBF minecraft:anvil
 #3F9224 thermal:apatite_ore
 #9D292C botania:apothecary_default
+#49D61E ars_nouveau:arcane_core
 #83C98F ars_nouveau:arcane_ore
+#BD3E81 ars_nouveau:arcane_pedestal
 #956B44 byg:aspen_leaves
 #91E5BC byg:aspen_log
 #0F359D minecraft:azure_bluet
 #0DA79E calemiutils:bank
 #189B99 minecraft:barrel
+#E152BD create:basin
 #490837 minecraft:beacon
 #840F59 minecraft:bedrock
 #98AAE9 apotheosis:beeshelf
@@ -49,6 +54,7 @@
 #EE8AC6 twilightforest:canopy_leaves
 #DDB260 twilightforest:canopy_log
 #55CF00 biomesoplenty:cattail
+#F512B4 minecraft:chain
 #87E47E appliedenergistics2:charged_quartz_ore
 #33E0D2 appliedenergistics2:chest
 #F522F4 minecraft:chest
@@ -62,6 +68,7 @@
 #3D8BFC minecraft:cobblestone_stairs
 #74DB3C minecraft:cobblestone_wall
 #8B8A11 minecraft:cobweb
+#B76D44 create:cogwheel
 #E81A2B evilcraft:colossal_blood_chest
 #6BB940 create:copper_ore
 #03FB5A iceandfire:copper_ore
@@ -73,6 +80,8 @@
 #306005 minecraft:cracked_stone_bricks
 #468304 minecraft:crafting_table
 #6EA48F ftbstructures:crate
+#0EC2D9 ars_nouveau:creative_mana_jar
+#73CA69 create:creative_motor
 #9EDBE0 botania:creative_pool
 #14C49F ironchest:crystal_chest
 #587E64 byg:dacite
@@ -94,6 +103,7 @@
 #1C3BF5 biomesoplenty:dead_grass
 #D986B1 biomesoplenty:dead_leaves
 #2CF2C3 biomesoplenty:dead_log
+#5E5E58 create:deployer
 #FF48B8 create:depot
 #CB716A minecraft:diamond_ore
 #BED665 minecraft:diorite
@@ -107,7 +117,9 @@
 #B44FE9 tconstruct:earth_sky_slime_grass
 #62139B tconstruct:earth_slime_fluid
 #314645 tconstruct:earth_slime_leaves
+#A952FC create:encased_chain_drive
 #1AFEDA botania:enchanted_soil
+#7A6773 ars_nouveau:enchanting_apparatus
 #2208EB minecraft:enchanting_table
 #83E520 endertanks:ender_tank
 #0913B9 evilcraft:environmental_accumulator
@@ -125,6 +137,8 @@
 #2DC94B minecraft:furnace
 #9698DB create:gabbro
 #1542C9 botania:gaia_pylon
+#D60460 create:gearbox
+#F832D7 create:gearshift
 #4E6076 botania:ghost_rail
 #2F436F minecraft:glass
 #646538 botania:glimmering_livingwood
@@ -153,8 +167,10 @@
 #86FFFF minecraft:jungle_stairs
 #0D3FC6 minecraft:lapis_block
 #EA439B minecraft:lapis_ore
+#6C55C8 create:large_cogwheel
 #83CED3 minecraft:lava
 #02D09C mekanism:lead_ore
+#72D77D minecraft:lever
 #0DA29A minecraft:light_blue_carpet
 #E496FE minecraft:light_blue_glazed_terracotta
 #5FDE95 minecraft:light_blue_stained_glass_pane
@@ -163,6 +179,7 @@
 #746434 create:limestone
 #5FCAC2 botania:livingrock
 #62120A botania:livingwood
+#4B407F waystones:magenta_sharestone
 #DE9468 minecraft:magma_block
 #73C57B mahoutsukai:mahoujin_projector
 #413783 mahoutsukai:mana_circuit_magitech
@@ -177,13 +194,16 @@
 #B9DC73 byg:meadow_dirt
 #37E878 byg:meadow_grass_block
 #FB37C1 create:mechanical_crafter
+#E638FD create:mechanical_mixer
 #145137 create:mechanical_press
+#4F44DD create:mechanical_saw
 #DEE771 botania:metamorphic_desert_stone
 #8131CF botania:metamorphic_fungal_stone
 #21A102 botania:metamorphic_mesa_stone
 #0A8AB8 botania:metamorphic_swamp_stone
 #FE76CE botania:metamorphic_taiga_stone
 #9346A4 tconstruct:molten_ender_fluid
+#EE50FC tconstruct:molten_iron_fluid
 #A4FC4B minecraft:mossy_cobblestone
 #F23D44 minecraft:mossy_cobblestone_wall
 #2F738D minecraft:mossy_stone_brick_slab
@@ -217,6 +237,7 @@
 #855CF4 minecraft:oak_trapdoor
 #4A5E4E minecraft:obsidian
 #42E883 byg:orange_oak_leaves
+#6E3DDA waystones:orange_sharestone
 #8F6314 minecraft:orange_tulip
 #B29458 mekanism:osmium_ore
 #BE2B3C byg:overgrown_dacite
@@ -228,6 +249,7 @@
 #AB1C58 minecraft:peony
 #12E55B byg:pine_leaves
 #36285C minecraft:pink_tulip
+#453DC2 create:piston_extension_pole
 #80CC71 minecraft:player_head
 #BB7F65 minecraft:podzol
 #22D3D1 byg:podzol_dacite
@@ -246,11 +268,13 @@
 #6A9E2B calemiutils:raritanium_ore
 #430A40 byg:red_oak_leaves
 #465F37 minecraft:red_tulip
+#25AEF5 minecraft:redstone_block
 #49A44D byg:redwood_leaves
 #E6EA79 evilcraft:reinforced_undead_planks
 #EC112A byg:rocky_stone
 #34B7D5 twilightforest:root
 #9C3ECB minecraft:rose_bush
+#E493B9 create:rotation_speed_controller
 #5DF8F4 botania:runic_altar
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone
@@ -288,6 +312,7 @@
 #48B52E twilightforest:sort_slab
 #52F6FE twilightforest:sort_stairs
 #6B495B minecraft:spawner
+#8B8605 create:speedometer
 #24C853 twilightforest:spiral_bricks
 #9BD37E evilcraft:spirit_furnace
 #B0839C evilcraft:spirit_reanimator
@@ -301,6 +326,7 @@
 #43D995 minecraft:stone_brick_stairs
 #F8955F minecraft:stone_bricks
 #AB5BC7 minecraft:stone_slab
+#9E51B2 create:stressometer
 #A88E8E minecraft:stripped_oak_wood
 #B96EB4 minecraft:structure_block
 #5CF3F1 minecraft:sugar_cane
