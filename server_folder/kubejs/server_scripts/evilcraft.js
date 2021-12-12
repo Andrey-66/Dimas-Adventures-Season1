@@ -35,4 +35,29 @@ onEvent('recipes', event => {
       S: 'minecraft:ender_chest',
       I: Item.of('botania:brew_flask', '{brewKey:"botania:bloodthirst"}')
     })
+
+    event.remove({output: 'evilcraft:invigorating_pendant'})
+    event.shaped('evilcraft:invigorating_pendant', [
+      ' S ',
+      'STS',
+      'CBC'
+      ], {
+      S: 'evilcraft:golden_string',
+      B: 'evilcraft:blood_infusion_core',
+	  C: 'evilcraft:dark_gem_crushed',
+	  T: 'evilcraft:corrupted_tear'
+    })
+
+    event.remove({output: 'evilcraft:spirit_reanimator'})
+    event.shaped('evilcraft:spirit_reanimator', [
+      'IAI',
+      'SBS',
+      'STS'
+      ], {
+      S: 'tconstruct:scorched_stone',
+      B: 'evilcraft:blood_infusion_core',
+	  I: 'minecraft:iron_block',
+	  T: 'evilcraft:corrupted_tear',
+	  A: 'twilightforest:minotaur_axe'
+    })
 })

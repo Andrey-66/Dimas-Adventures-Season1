@@ -1,0 +1,10 @@
+#2E8 byg:bluff_steeps
+#6F1 biomesoplenty:burnt_forest
+#4B3 byg:cika_woods
+#232 biomesoplenty:dead_forest
+#5FF minecraft:river
+#5ED byg:seasonal_birch_forest
+#23E byg:seasonal_forest
+#1A0 biomesoplenty:tall_dead_forest
+#400 minecraft:the_end
+#11C byg:zelkova_forest

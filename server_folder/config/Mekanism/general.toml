@@ -74,7 +74,7 @@
 		maxEnergyPerSteam = "10"
 		#Displayed energy type in Mekanism GUIs.
 		#Allowed Values: J, FE, EU
-		energyType = "FE"
+		energyType = "EU"
 
 	#Radiation Settings
 	[general.radiation]
