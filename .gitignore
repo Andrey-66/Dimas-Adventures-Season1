@@ -31,3 +31,15 @@ client_folder/schematics/uploaded/Andrey66/medival_house1.nbt
 client_folder/schematics/uploaded/Andrey66/medival_church1.nbt
 client_folder/schematics/housmedival_house4.nbt
 **/.vs/**
+client_folder/config/repurposed_structures-forge/natural_mob_spawning_configs.json5
+client_folder/config/repurposed_structures-forge/biome_dimension_allow_disallow_configs.json5
+client_folder/config/PlasmoVoice/server.yml
+client_folder/config/PlasmoVoice/server_data.json
+client_folder/config/PlasmoVoice/config.json
+client_folder/config/jei/recipe-category-sort-order.ini
+client_folder/config/jei/ingredient-list-type-sort-order.ini
+client_folder/config/biomesoplenty/biomes.json
+client_folder/config/sodium-options.json
+client_folder/config/sidebar_buttons.json
+client_folder/config/jeed-client.toml
+client_folder/config/invtweaks-client.toml
