@@ -74,7 +74,7 @@
 			rewards: [{
 				id: "0EC99944CD9119F1"
 				type: "item"
-				item: "ars_nouveau:blank_glyph"
+				item: "calemiutils:money_bag_cheap"
 			}]
 		}
 		{
@@ -350,8 +350,8 @@
 		}
 		{
 			title: "Иди отлей"
-			x: 4.0d
-			y: 2.5d
+			x: 6.0d
+			y: 4.0d
 			dependencies: ["48B784BDF17E1611"]
 			hide: true
 			id: "2B18AD4F6E8C3566"
@@ -364,7 +364,7 @@
 		{
 			title: "А у меня больше!"
 			x: 6.0d
-			y: 2.5d
+			y: 2.0d
 			description: [
 				"{image:kubejs:textures/quests/bigforge1.png width:100 height:100 align:1}"
 				"{image:kubejs:textures/quests/bigforge2.png width:100 height:100 align:1}"
@@ -426,6 +426,13 @@
 					auto: "invisible"
 					stage: "create_unlock"
 				}
+				{
+					id: "65209B6C0451C239"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_smelt"
+				}
 			]
 		}
 		{
@@ -473,15 +480,32 @@
 				timer: 0L
 				observe: "block:tconstruct:sky_congealed_slime"
 			}]
-			rewards: [{
-				id: "33149E071F2EA4DF"
-				type: "item"
-				item: "tconstruct:tinkers_gadgetry"
-			}]
+			rewards: [
+				{
+					id: "33149E071F2EA4DF"
+					type: "item"
+					item: "tconstruct:tinkers_gadgetry"
+				}
+				{
+					id: "050F6E5D13FA71E6"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_bounce"
+				}
+				{
+					id: "20E0CB0AA200C104"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_gravity"
+				}
+			]
 		}
 		{
+			title: "Максимум плавки"
 			x: 8.0d
-			y: 2.5d
+			y: 2.0d
 			dependencies: ["4E79667FA6CF8C28"]
 			hide: true
 			id: "221AACD031D8E026"
@@ -532,6 +556,24 @@
 			]
 			rewards: [{
 				id: "028686F9AA73E4FB"
+				type: "item"
+				item: "calemiutils:money_bag_rich"
+			}]
+		}
+		{
+			title: "Теперь я знаю как тебя расплавить!"
+			x: 8.0d
+			y: 4.0d
+			dependencies: ["221AACD031D8E026"]
+			hide: true
+			id: "3F6C5D3C6187621E"
+			tasks: [{
+				id: "601AB9D97EB011A3"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+			rewards: [{
+				id: "76439A3E8AC145CB"
 				type: "item"
 				item: "calemiutils:money_bag_rich"
 			}]
