@@ -1,0 +1,284 @@
+{
+	id: "7E2D31F673189FC7"
+	group: ""
+	order_index: 1
+	filename: "Shoppe"
+	title: "Магазин"
+	icon: "calemiutils:coin_gold"
+	disable_toast: true
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			title: "[SELL] Брёвна"
+			icon: "minecraft:oak_log"
+			disable_toast: true
+			x: -2.5d
+			y: 0.5d
+			optional: true
+			id: "21863C6CE4EB3788"
+			tasks: [{
+				id: "3EFC5713C1B544FE"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "020D8FAC8A281959"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: "calemiutils:coin_silver"
+					count: 3
+				}
+				{
+					id: "4197BDB89B213DA7"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 21863C6CE4EB3788"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Брёвна"
+			icon: "minecraft:oak_log"
+			disable_toast: true
+			x: -1.5d
+			y: 0.5d
+			optional: true
+			id: "1C419EDE48F79D02"
+			tasks: [{
+				id: "47BBDD62D3464562"
+				type: "item"
+				disable_toast: true
+				item: "calemiutils:coin_silver"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2F0A97678BD0A952"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 32
+				}
+				{
+					id: "27680198079723E0"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 1C419EDE48F79D02"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[SELL] Железо"
+			disable_toast: true
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["48B784BDF17E1611"]
+			hide: true
+			optional: true
+			id: "6C86878085F12644"
+			tasks: [{
+				id: "546C5AD5991ACD03"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7410A853D7143F7A"
+					type: "item"
+					item: "calemiutils:coin_gold"
+					count: 3
+				}
+				{
+					id: "3C558499FAE3DB4C"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p complete 6C86878085F12644"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Железо"
+			icon: "minecraft:iron_ingot"
+			disable_toast: true
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["48B784BDF17E1611"]
+			hide: true
+			optional: true
+			id: "342612B2CBC5EDA7"
+			tasks: [{
+				id: "7A5075EC27FB9EF6"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 5L
+			}]
+			rewards: [
+				{
+					id: "149E7FF1637E2FE8"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 3
+				}
+				{
+					id: "49B316B1B61365BE"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 342612B2CBC5EDA7"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[SELL] Чешуя наги"
+			disable_toast: true
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["00B0A3EE3E961EBB"]
+			hide: true
+			optional: true
+			id: "5B450857E65DEBE1"
+			tasks: [{
+				id: "1C7490CCFF1294BF"
+				type: "item"
+				item: { id: "twilightforest:naga_scale", Count: 7b }
+				count: 7L
+			}]
+			rewards: [
+				{
+					id: "58EC9FDB7ED189F6"
+					type: "item"
+					item: "calemiutils:coin_gold"
+					count: 50
+				}
+				{
+					id: "7C23EE96903B2127"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5B450857E65DEBE1"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[SELL] Чешуя наги"
+			icon: "twilightforest:naga_scale"
+			disable_toast: true
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["00B0A3EE3E961EBB"]
+			hide: true
+			optional: true
+			id: "2505295778E855D1"
+			tasks: [
+				{
+					id: "69B52407782CB8B6"
+					type: "item"
+					item: "calemiutils:coin_gold"
+					count: 50L
+					consume_items: true
+				}
+				{
+					id: "529F4B7B75BED707"
+					type: "item"
+					item: "calemiutils:coin_gold"
+					count: 50L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "0E987CD45C1A9B16"
+					type: "item"
+					item: "twilightforest:naga_scale"
+				}
+				{
+					id: "744138780E07357E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress Andrey66 reset 2505295778E855D1"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[SELL] Кровавое ядро"
+			disable_toast: true
+			x: 0.5d
+			y: 0.5d
+			dependencies: ["67F1D57F57C0F99A"]
+			hide: true
+			optional: true
+			id: "480BA95FDEF9DCBE"
+			tasks: [{
+				id: "5BE747E14680180A"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2724F8FDF0730029"
+					type: "item"
+					item: "calemiutils:coin_gold"
+					count: 10
+				}
+				{
+					id: "51B9FF09C6DD913F"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 480BA95FDEF9DCBE"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Кровавое ядро"
+			icon: "evilcraft:blood_infusion_core"
+			disable_toast: true
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["67F1D57F57C0F99A"]
+			hide: true
+			optional: true
+			id: "02DD56DBBE1054E8"
+			tasks: [{
+				id: "50E875D40122CFD0"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 25L
+			}]
+			rewards: [
+				{
+					id: "5F5BE974B51E2704"
+					type: "item"
+					item: "evilcraft:blood_infusion_core"
+				}
+				{
+					id: "2AE87611C7058243"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 02DD56DBBE1054E8"
+					player_command: false
+				}
+			]
+		}
+	]
+}

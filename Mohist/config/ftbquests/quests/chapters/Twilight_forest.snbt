@@ -1,0 +1,307 @@
+{
+	id: "47D3451FDA5D86DC"
+	group: "1E0A8915CBC35F34"
+	order_index: 5
+	filename: "Twilight_forest"
+	title: "Сумеречный лес"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: 1.0d
+			description: [
+				"{image:kubejs:textures/quests/forestportalgude.png width:200 height:120 align:1}"
+				"{image:kubejs:textures/quests/forestportalgude.png width:100 height:100 align:1}"
+				"{image:alexsmobs:textures/advancement_background.png width:100 height:100 align:1}"
+			]
+			dependencies: ["1FE8DEFFB6929BE7"]
+			id: "0392F26747FCE50F"
+			tasks: [{
+				id: "34E2FF22FDFEB3E6"
+				type: "dimension"
+				title: "Мир без солнца"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [{
+				id: "0E4B655C9C5B0BD5"
+				type: "item"
+				item: "biomesoplenty:rose"
+			}]
+		}
+		{
+			title: "Задушил змеюку"
+			icon: "twilightforest:naga_courtyard_miniature_structure"
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["6F3EF4BBA1AB7CDB"]
+			hide: true
+			id: "36A5D36A7188F75F"
+			tasks: [{
+				id: "380F2AAE5579AF9C"
+				type: "advancement"
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "11947B2FA92206A8"
+					type: "item"
+					item: "twilightforest:naga_scale"
+					count: 2
+				}
+				{
+					id: "46A23756C1E2A7A2"
+					type: "advancement"
+					team_reward: false
+					advancement: "twilightforest:progress_naga"
+					criterion: ""
+				}
+			]
+		}
+		{
+			title: "Как тут что-нибудь найти?"
+			x: -2.5d
+			y: 1.0d
+			dependencies: ["0392F26747FCE50F"]
+			hide: true
+			id: "6F3EF4BBA1AB7CDB"
+			tasks: [{
+				id: "0B4A9CFB3FA8FA64"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+		}
+		{
+			title: "Перерождение"
+			x: 0.0d
+			y: 2.0d
+			dependencies: [
+				"36A5D36A7188F75F"
+				"1598EDFE82399901"
+			]
+			hide: true
+			id: "640DD0B59452802B"
+			tasks: [{
+				id: "22D6D8B7C2359308"
+				type: "item"
+				item: "twilightforest:boss_spawner_naga"
+			}]
+			rewards: [{
+				id: "2309A06BF0077710"
+				type: "item"
+				item: "twilightforest:naga_scale"
+				count: 3
+				random_bonus: 5
+			}]
+		}
+		{
+			title: "Кощей Бессмертный"
+			icon: "twilightforest:lich_tower_miniature_structure"
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["36A5D36A7188F75F"]
+			hide: true
+			id: "218164F7E3D2CD15"
+			tasks: [{
+				id: "2BBDAC69E6D0F4DA"
+				type: "advancement"
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3A0794CC8412C35E"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_summon_wolves"
+				}
+				{
+					id: "18A22F220E5CA41B"
+					type: "item"
+					item: "minecraft:bone"
+					count: 16
+				}
+				{
+					id: "38CAFBC355DC358A"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Головастик"
+			icon: "twilightforest:hydra_trophy"
+			x: 4.0d
+			y: 1.0d
+			description: ["Завали Гидру, чел, в болотах обитает"]
+			dependencies: ["18402AD95378A6F5"]
+			hide: true
+			id: "4FF5A919B03EFC4A"
+			tasks: [{
+				id: "55212B44F6F47261"
+				type: "advancement"
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6439428783E8271E"
+				type: "item"
+				item: "twilightforest:hydra_chop"
+				count: 5
+				random_bonus: 5
+			}]
+		}
+		{
+			title: "Плакса"
+			x: 4.0d
+			y: -0.5d
+			description: ["Прибей большого Гаста, он в замке тусит, деревянном"]
+			dependencies: ["7D6AB470D22B7BFD"]
+			hide: true
+			id: "0E6DDED010FE4377"
+			tasks: [{
+				id: "76EC4F10FAE3F307"
+				type: "advancement"
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "381E6F46DAC44019"
+				type: "item"
+				item: "twilightforest:carminite"
+				count: 5
+				random_bonus: 5
+			}]
+		}
+		{
+			title: "Холодная женщина"
+			x: 4.0d
+			y: 2.5d
+			description: ["И Снежной королеве леща дай, она тоже в замке, но переливающемся"]
+			dependencies: ["7D9432327B0D2323"]
+			hide: true
+			id: "12DDC237308EDF8E"
+			tasks: [{
+				id: "66532E6ED70E6D21"
+				type: "advancement"
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "0AEE6E5BF7BF8D21"
+					type: "item"
+					item: "twilightforest:ice_bomb"
+					count: 4
+				}
+				{
+					id: "763D08B334BEB60D"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_split"
+				}
+			]
+		}
+		{
+			title: "Грибозавр"
+			icon: "twilightforest:minoshroom_trophy"
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["218164F7E3D2CD15"]
+			hide: true
+			size: 0.75d
+			id: "18402AD95378A6F5"
+			tasks: [{
+				id: "22FC943E0960A053"
+				type: "advancement"
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "13AE352FD0085A96"
+				type: "item"
+				item: "twilightforest:raw_meef"
+				count: 4
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Пушистик"
+			icon: "twilightforest:yeti_trophy"
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["218164F7E3D2CD15"]
+			hide: true
+			size: 0.75d
+			id: "7D9432327B0D2323"
+			tasks: [{
+				id: "3C2207DAE9E2F99B"
+				type: "advancement"
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5BE737099484FD96"
+				type: "item"
+				item: "twilightforest:alpha_fur"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Душные ребята"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["218164F7E3D2CD15"]
+			hide: true
+			size: 0.75d
+			id: "7D6AB470D22B7BFD"
+			tasks: [{
+				id: "34749C8B52357AF8"
+				type: "advancement"
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1D2A16DD98F938A3"
+				type: "item"
+				item: "twilightforest:knightmetal_block"
+			}]
+		}
+		{
+			title: "Бееее"
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["6F3EF4BBA1AB7CDB"]
+			hide: true
+			id: "368D2E53B30E69F1"
+			tasks: [{
+				id: "47A03DA412F6B3FF"
+				type: "advancement"
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "155834BFF2FDE554"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_cut"
+				}
+				{
+					id: "6B65CFF136A9DADC"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 32
+				}
+			]
+		}
+	]
+}

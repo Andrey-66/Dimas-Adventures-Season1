@@ -1,0 +1,898 @@
+{
+	id: "13A2F1CA4C6379A7"
+	group: "1E0A8915CBC35F34"
+	order_index: 3
+	filename: "evilcraft"
+	title: "Истоки зла"
+	icon: "evilcraft:dark_gem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Познания о зле"
+			icon: "evilcraft:dark_gem"
+			x: 0.0d
+			y: 0.0d
+			description: ["Накормите любое животное Тёмным яблоком, затем бросьте обычную книгу в открывшийся портал."]
+			dependencies: ["700430EB59A1AFA7"]
+			hide: true
+			id: "0479D5E9411A2C0C"
+			tasks: [
+				{
+					id: "344C1C7C3705CD73"
+					type: "item"
+					item: "evilcraft:darkened_apple"
+				}
+				{
+					id: "13D8464FC6CEB1FB"
+					type: "item"
+					item: "evilcraft:origins_of_darkness"
+				}
+			]
+			rewards: [{
+				id: "53B2B4B2D1FC1C36"
+				type: "item"
+				item: "evilcraft:dark_gem"
+				count: 3
+			}]
+		}
+		{
+			title: "Некромант наркомант"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["2E4E4BC9735DBC4C"]
+			hide: true
+			id: "1EBF379529241463"
+			tasks: [{
+				id: "3960E4571EDFC0E0"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_extractor"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "С этими самоцветами явно что-то не то"
+			x: 2.0d
+			y: 0.0d
+			dependencies: [
+				"0479D5E9411A2C0C"
+				"45959E538A5AC827"
+			]
+			hide: true
+			id: "2E4E4BC9735DBC4C"
+			tasks: [{
+				id: "4A3FDA434E93C351"
+				type: "item"
+				item: "evilcraft:dark_power_gem"
+			}]
+		}
+		{
+			title: "Звезда во лбу горит"
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["318F51D656BC8C35"]
+			hide: true
+			id: "67F1D57F57C0F99A"
+			tasks: [{
+				id: "5BD1810E6623F449"
+				type: "item"
+				item: "evilcraft:blood_infusion_core"
+			}]
+		}
+		{
+			title: "Никакой больше печи"
+			x: 4.0d
+			y: 4.0d
+			dependencies: [
+				"67F1D57F57C0F99A"
+				"1598EDFE82399901"
+			]
+			hide: true
+			id: "6394F83C021DBA3F"
+			tasks: [{
+				id: "726727809338F4C3"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_infuser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Почти медузы"
+			x: 4.0d
+			y: 1.5d
+			description: ["Вылей кровь из шприца на пол и подожди пока засохнет"]
+			dependencies: ["1EBF379529241463"]
+			size: 0.75d
+			id: "318F51D656BC8C35"
+			tasks: [{
+				id: "5DF4B6BE374F20C5"
+				type: "item"
+				item: "evilcraft:hardened_blood_shard"
+			}]
+			rewards: [{
+				id: "6F9F9E141F1EBB09"
+				type: "item"
+				item: "evilcraft:hardened_blood_shard"
+				count: 3
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "Кровавая бойня"
+			x: 6.0d
+			y: 5.0d
+			description: ["Пришло время добывать кровь в промышенных маштабах! Шипы наносят урон ступающим на них мобам и производят кровь в резервуар под ними."]
+			dependencies: ["6394F83C021DBA3F"]
+			hide: true
+			id: "55386BD5134371F5"
+			tasks: [
+				{
+					id: "02205E66D60C0220"
+					type: "item"
+					item: "evilcraft:spiked_plate"
+				}
+				{
+					id: "655CBB67DCAF8D99"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_tank"
+						Count: 1b
+						tag: {
+							capacity: 16000
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5BB0B0F398769E6F"
+					type: "item"
+					item: "evilcraft:spiked_plate"
+					count: 2
+				}
+				{
+					id: "6BB7A7CF74930F48"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_fangs"
+				}
+			]
+		}
+		{
+			title: "Хранилище медуз"
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["67F1D57F57C0F99A"]
+			hide: true
+			id: "7878755EE29BFA5F"
+			tasks: [{
+				id: "600DB25EDE54B41A"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_chest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Обещание упорства"
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["6394F83C021DBA3F"]
+			hide: true
+			id: "7CB61D7E1CDF98C4"
+			tasks: [{
+				id: "38359E0BD4D4E76A"
+				type: "item"
+				item: "evilcraft:promise_tier_1"
+			}]
+		}
+		{
+			title: "Клятва упорности"
+			x: 2.0d
+			y: 5.5d
+			dependencies: ["7CB61D7E1CDF98C4"]
+			hide: true
+			id: "6D5594FB1DFDC4FC"
+			tasks: [{
+				id: "4E4AC0621658B4DD"
+				type: "item"
+				item: "evilcraft:promise_tier_2"
+			}]
+		}
+		{
+			title: "Клятва упоротости"
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["6D5594FB1DFDC4FC"]
+			hide: true
+			id: "6C5C974EA86672C4"
+			tasks: [{
+				id: "52D0E83EBF34DA03"
+				type: "item"
+				item: "evilcraft:promise_tier_3"
+			}]
+		}
+		{
+			title: "Обещание скорости"
+			x: 3.5d
+			y: 6.5d
+			dependencies: ["7CB61D7E1CDF98C4"]
+			hide: true
+			id: "599E057E38B70921"
+			tasks: [{
+				id: "08468B898D5B3D4F"
+				type: "item"
+				item: "evilcraft:promise_speed_0"
+			}]
+		}
+		{
+			title: "Обещание продуктивности"
+			x: 4.5d
+			y: 6.5d
+			dependencies: ["7CB61D7E1CDF98C4"]
+			hide: true
+			id: "70D81E7B2F74403B"
+			tasks: [{
+				id: "2E6E683EADC541E0"
+				type: "item"
+				item: "evilcraft:promise_efficiency_0"
+			}]
+		}
+		{
+			title: "Кровавые слёзы"
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["6394F83C021DBA3F"]
+			hide: true
+			id: "54E8665B50FA198D"
+			tasks: [{
+				id: "768DC707197F09DF"
+				type: "item"
+				item: "evilcraft:undead_sapling"
+			}]
+		}
+		{
+			title: "Для начала нужно смочить..."
+			x: 0.0d
+			y: 4.0d
+			dependencies: [
+				"6D5594FB1DFDC4FC"
+				"54E8665B50FA198D"
+			]
+			hide: true
+			id: "1BA5A359926484BC"
+			tasks: [{
+				id: "0030DE075729DF1F"
+				type: "item"
+				item: "evilcraft:reinforced_undead_planks"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: [
+				"7878755EE29BFA5F"
+				"1BA5A359926484BC"
+			]
+			hide: true
+			id: "4EC0F44265555A03"
+			tasks: [
+				{
+					id: "25B1520B4E78D870"
+					type: "item"
+					item: {
+						id: "evilcraft:colossal_blood_chest"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "40094228E0DFCEF0"
+					type: "item"
+					item: "evilcraft:reinforced_undead_planks"
+					count: 25L
+				}
+			]
+		}
+		{
+			title: "Наполняем пустые обещания"
+			x: 4.0d
+			y: 4.75d
+			dependencies: ["6394F83C021DBA3F"]
+			hide: true
+			size: 0.5d
+			id: "37FD54D869F56E77"
+			tasks: [{
+				id: "5384F526EE6673E7"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_tier0"
+			}]
+		}
+		{
+			title: "Льём воду в обещание"
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["7CB61D7E1CDF98C4"]
+			hide: true
+			size: 0.5d
+			id: "52D9749B201924ED"
+			tasks: [{
+				id: "0845E02FCAE8C56E"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_tier1"
+			}]
+		}
+		{
+			title: "Наполни своё обещание полностью, семпай"
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["6D5594FB1DFDC4FC"]
+			hide: true
+			size: 0.5d
+			id: "42CB4101A6DA8091"
+			tasks: [{
+				id: "4D8421024601AD51"
+				type: "item"
+				item: "evilcraft:bowl_of_promises_tier2"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			dependencies: ["6394F83C021DBA3F"]
+			hide: true
+			id: "646C25C3A4CC8386"
+			tasks: [{
+				id: "62479E02C2945BEC"
+				type: "item"
+				item: {
+					id: "evilcraft:sanguinary_pedestal_0"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.0d
+			dependencies: ["646C25C3A4CC8386"]
+			hide: true
+			id: "0ED536F8E95D1FE5"
+			tasks: [{
+				id: "7B354FE3F2B8E22C"
+				type: "item"
+				item: {
+					id: "evilcraft:sanguinary_pedestal_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["67F1D57F57C0F99A"]
+			hide: true
+			id: "0D1D92103DED9091"
+			tasks: [{
+				id: "61958A0F51872B17"
+				type: "item"
+				item: {
+					id: "evilcraft:purifier"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Повелитель погоды"
+			icon: "evilcraft:environmental_accumulator"
+			x: -3.0d
+			y: 0.0d
+			id: "5BEBF9A4F30968EE"
+			tasks: [{
+				id: "0072C1B3488EF5F6"
+				type: "observation"
+				title: "Найти Погодный аккамулятор"
+				icon: "evilcraft:environmental_accumulator"
+				timer: 30L
+				observe: "block:evilcraft:environmental_accumulator"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["5BEBF9A4F30968EE"]
+			hide: true
+			hide_text_until_complete: false
+			id: "781CB6E971C3FD57"
+			tasks: [{
+				id: "44B166B9746D42AB"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: [
+				"5A6F469C31866450"
+				"488128D2B739217D"
+			]
+			hide: true
+			id: "2D2C290C58869FB8"
+			tasks: [{
+				id: "1DCD53C954A7C927"
+				type: "item"
+				item: {
+					id: "evilcraft:necromancer_staff"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: [
+				"5A6F469C31866450"
+				"488128D2B739217D"
+			]
+			hide: true
+			id: "0278D88662667BBC"
+			tasks: [{
+				id: "08F270309884F661"
+				type: "item"
+				item: {
+					id: "evilcraft:mace_of_distortion"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: [
+				"5A6F469C31866450"
+				"488128D2B739217D"
+				"6C5C974EA86672C4"
+			]
+			hide: true
+			id: "6FEEA0036C05B8C8"
+			tasks: [{
+				id: "5F40F5A5289D12B0"
+				type: "item"
+				item: {
+					id: "evilcraft:mace_of_destruction"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Шарик go бзик бзик"
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["5BEBF9A4F30968EE"]
+			hide: true
+			id: "5A6F469C31866450"
+			tasks: [{
+				id: "2398DC6881DFCD4F"
+				type: "item"
+				item: "evilcraft:inverted_potentia_empowered"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["1BA5A359926484BC"]
+			hide: true
+			size: 0.75d
+			id: "488128D2B739217D"
+			tasks: [{
+				id: "7FFBC310BD604573"
+				type: "item"
+				item: "evilcraft:dark_stick"
+			}]
+		}
+		{
+			title: "Удар по желудку"
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["0479D5E9411A2C0C"]
+			hide: true
+			id: "5C3ACF2FB90091A0"
+			tasks: [{
+				id: "52E0911B780A2C19"
+				type: "item"
+				item: "evilcraft:burning_gem_stone"
+			}]
+		}
+		{
+			title: "Я вас вижу... и вы меня"
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["0479D5E9411A2C0C"]
+			hide: true
+			id: "46111ABFC9CC914A"
+			tasks: [
+				{
+					id: "7D7FEBC93B496323"
+					type: "item"
+					item: "evilcraft:vengeance_ring"
+					count: 2L
+				}
+				{
+					id: "7BBCC0C609CC2987"
+					type: "item"
+					item: "evilcraft:vengeance_focus"
+				}
+			]
+		}
+		{
+			title: "Готов \"душить\""
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["46111ABFC9CC914A"]
+			hide: true
+			id: "5B49D6B3C25839C0"
+			tasks: [{
+				id: "05B7EAB6B79E8A6E"
+				type: "item"
+				item: "evilcraft:piercing_vengeance_focus"
+			}]
+		}
+		{
+			title: "Прах... духа?"
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["5B49D6B3C25839C0"]
+			hide: true
+			id: "4A9EDBF08B229FD0"
+			tasks: [{
+				id: "3949136D68AA3286"
+				type: "item"
+				item: "evilcraft:vengeance_essence"
+			}]
+		}
+		{
+			title: "А теперь только я вас!"
+			x: 0.0d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"46111ABFC9CC914A"
+				"4A9EDBF08B229FD0"
+				"6C5C974EA86672C4"
+			]
+			hide: true
+			id: "606B191ABE21D8BA"
+			tasks: [{
+				id: "23D83D0A9F399DD3"
+				type: "item"
+				item: {
+					id: "evilcraft:spectral_glasses"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["488128D2B739217D"]
+			id: "635820933C8B3406"
+			tasks: [{
+				id: "55BEF54A143B1FB6"
+				type: "item"
+				item: {
+					id: "evilcraft:vein_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["488128D2B739217D"]
+			id: "33249DCEDF2E91C9"
+			tasks: [{
+				id: "6AFCAEFFDE6539CD"
+				type: "item"
+				item: {
+					id: "evilcraft:vengeance_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 5s
+								id: "minecraft:fortune"
+							}
+							{
+								lvl: 3s
+								id: "evilcraft:vengeance"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Компактно, но затратно"
+			x: -2.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"5BEBF9A4F30968EE"
+				"1EBF379529241463"
+			]
+			hide: true
+			id: "7E23CD305506DA8C"
+			tasks: [{
+				id: "46220DA831A6F727"
+				type: "item"
+				item: "evilcraft:sanguinary_environmental_accumulator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["488128D2B739217D"]
+			hide: true
+			id: "138FF03E4AF5B8CA"
+			tasks: [{
+				id: "00FCB5309A53821D"
+				type: "item"
+				item: {
+					id: "evilcraft:kineticator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["488128D2B739217D"]
+			hide: true
+			id: "28DE13A83806809F"
+			tasks: [{
+				id: "6B7F2F8A96ACF97E"
+				type: "item"
+				item: {
+					id: "evilcraft:kineticator_repelling"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["67F1D57F57C0F99A"]
+			hide: true
+			id: "10864E76BF34A142"
+			tasks: [{
+				id: "738D228BA7723AA0"
+				type: "item"
+				item: {
+					id: "evilcraft:invigorating_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3213FDC4C1DEA195"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "glyph_dispel"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["7CB61D7E1CDF98C4"]
+			hide: true
+			id: "58DE4C139D15FD58"
+			tasks: [{
+				id: "10BA80170EB6B8B8"
+				type: "item"
+				item: "evilcraft:sceptre_of_thunder"
+			}]
+			rewards: [{
+				id: "625000D695A4DAD8"
+				type: "gamestage"
+				team_reward: false
+				auto: "invisible"
+				stage: "glyph_lightning"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.5d
+			dependencies: [
+				"70D81E7B2F74403B"
+				"599E057E38B70921"
+			]
+			hide: true
+			id: "24B49B91F98C381A"
+			tasks: [{
+				id: "1EF4EB855C700A95"
+				type: "item"
+				item: "evilcraft:effortless_ring"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["4A9EDBF08B229FD0"]
+			hide: true
+			id: "4DD1CEF19DBC23C6"
+			tasks: [{
+				id: "634DE8E83A36915C"
+				type: "item"
+				item: {
+					id: "evilcraft:primed_pendant"
+					Count: 1b
+					tag: {
+						inventoryItem: [ ]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["4A9EDBF08B229FD0"]
+			hide: true
+			id: "646DAA7F9E04E8BA"
+			tasks: [{
+				id: "0B585EB94176EA58"
+				type: "item"
+				item: {
+					id: "evilcraft:flesh_rejuvenated"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Закрыт навеки... а ой, уже нет"
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["46111ABFC9CC914A"]
+			hide: true
+			id: "21FB833199DD304D"
+			tasks: [{
+				id: "3CE42F7AF6DBA366"
+				type: "item"
+				item: "evilcraft:box_of_eternal_closure"
+			}]
+		}
+		{
+			title: "Кровавая баня"
+			x: 2.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"6D5594FB1DFDC4FC"
+				"21FB833199DD304D"
+			]
+			hide: true
+			id: "72F2583F6463371F"
+			tasks: [
+				{
+					id: "428F6F5CCB3EA1ED"
+					type: "item"
+					item: "evilcraft:dark_blood_brick"
+					count: 37L
+				}
+				{
+					id: "6D6166D6A2908FBE"
+					type: "item"
+					item: {
+						id: "evilcraft:spirit_furnace"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"21FB833199DD304D"
+				"6C5C974EA86672C4"
+			]
+			hide: true
+			id: "41F0169C2C79C8B6"
+			tasks: [{
+				id: "08F1A2D9CFA2D697"
+				type: "item"
+				item: {
+					id: "evilcraft:spirit_reanimator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Красный шарик"
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["2E4E4BC9735DBC4C"]
+			hide: true
+			id: "2BAE600C0C509E45"
+			tasks: [{
+				id: "1A5A02BD8740BB11"
+				type: "item"
+				item: {
+					id: "evilcraft:blood_pearl_of_teleportation"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Бесконечность не предел!"
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["5BEBF9A4F30968EE"]
+			hide: true
+			id: "67C6DE149F784252"
+			tasks: [{
+				id: "43B3FAB80E49FB42"
+				type: "item"
+				item: "evilcraft:bucket_eternal_water"
+			}]
+		}
+		{
+			title: "Вечность"
+			x: -2.5d
+			y: -1.0d
+			dependencies: ["5BEBF9A4F30968EE"]
+			hide: true
+			id: "57EE2D6E056CEFCD"
+			tasks: [{
+				id: "6CD8CB3A777C8A7B"
+				type: "item"
+				item: "evilcraft:eternal_water"
+			}]
+		}
+	]
+}

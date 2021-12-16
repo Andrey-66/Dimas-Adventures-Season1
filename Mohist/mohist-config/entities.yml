@@ -1,0 +1,209 @@
+# Welcome to Mohist entity tick configuration!
+# This opens up good TPS savings if used wisely.
+# 'overrides' section populates itself over time.
+# -=-=-=-=-
+# Simple usage cases:
+# 'skip-every: 50' - skips every 50th tick
+# 'skip-every: 0' - tick limiter is not applied (vanilla behaviour)
+# 'skip-every: 1' - entity will not tick at all (skips every 1st tick)
+# 'skip-every: default' - value is grabbed from 'defaults' section
+# Values in range of 0 up to 1000 can be used, you won't need more than that.
+# -=-=-=-=-
+
+defaults:
+  skip-every: 0
+overrides:
+  net-minecraft-entity-passive-ParrotEntity:
+    skip-every: default
+  net-minecraft-entity-passive-SheepEntity:
+    skip-every: default
+  net-minecraft-entity-passive-PigEntity:
+    skip-every: default
+  net-minecraft-entity-passive-ChickenEntity:
+    skip-every: default
+  net-minecraft-entity-passive-CowEntity:
+    skip-every: default
+  net-minecraft-entity-item-ItemEntity:
+    skip-every: default
+  net-minecraft-entity-passive-BeeEntity:
+    skip-every: default
+  net-minecraft-entity-player-ServerPlayerEntity:
+    skip-every: default
+  net-minecraft-entity-passive-SquidEntity:
+    skip-every: default
+  net-minecraft-entity-passive-BatEntity:
+    skip-every: default
+  net-minecraft-entity-monster-SpiderEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityFly:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityCockroach:
+    skip-every: default
+  com-bobmowzie-mowziesmobs-server-entity-foliaath-EntityFoliaath:
+    skip-every: default
+  net-minecraft-entity-monster-SkeletonEntity:
+    skip-every: default
+  net-minecraft-entity-monster-CreeperEntity:
+    skip-every: default
+  net-minecraft-entity-passive-fish-SalmonEntity:
+    skip-every: default
+  net-minecraft-entity-monster-ZombieEntity:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-entity-WildenStalker:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-entity-WildenHunter:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-entity-EntitySylph:
+    skip-every: default
+  net-minecraft-entity-passive-FoxEntity:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-entity-EntityCarbuncle:
+    skip-every: default
+  net-minecraft-entity-item-minecart-TNTMinecartEntity:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-EntityHippogryph:
+    skip-every: default
+  net-minecraft-entity-item-minecart-ChestMinecartEntity:
+    skip-every: default
+  net-minecraft-entity-monster-ZombieVillagerEntity:
+    skip-every: default
+  net-minecraft-entity-merchant-villager-VillagerEntity:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-entity-EntityDrygmy:
+    skip-every: default
+  com-bobmowzie-mowziesmobs-server-entity-wroughtnaut-EntityWroughtnaut:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityCrocodile:
+    skip-every: default
+  net-minecraft-entity-item-FallingBlockEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityCentipedeHead:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityCentipedeBody:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-entity-WildenGuardian:
+    skip-every: default
+  cofh-thermal-core-entity-monster-BasalzEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityRaccoon:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityCrow:
+    skip-every: default
+  net-minecraft-entity-monster-EndermanEntity:
+    skip-every: default
+  net-minecraft-entity-passive-horse-HorseEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityShoebill:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityAlligatorSnappingTurtle:
+    skip-every: default
+  net-minecraft-entity-monster-WitchEntity:
+    skip-every: default
+  net-minecraft-entity-passive-horse-LlamaEntity:
+    skip-every: default
+  net-minecraft-entity-monster-CaveSpiderEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntitySunbird:
+    skip-every: default
+  net-minecraft-entity-passive-RabbitEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityHummingbird:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityPlatypus:
+    skip-every: default
+  com-bobmowzie-mowziesmobs-server-entity-grottol-EntityGrottol:
+    skip-every: default
+  net-minecraft-entity-projectile-LlamaSpitEntity:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-EntityTroll:
+    skip-every: default
+  net-minecraft-entity-monster-VindicatorEntity:
+    skip-every: default
+  net-minecraft-entity-monster-EvokerEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityGrizzlyBear:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityTasmanianDevil:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-EntityFireDragon:
+    skip-every: default
+  net-minecraft-entity-passive-PandaEntity:
+    skip-every: default
+  net-minecraft-entity-passive-WolfEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityLeafcutterAnt:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-EntityGhost:
+    skip-every: default
+  net-minecraft-entity-effect-LightningBoltEntity:
+    skip-every: default
+  net-minecraft-entity-item-ItemFrameEntity:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-EntityDragonPart:
+    skip-every: default
+  com-blamejared-clumps-entities-EntityXPOrbBig:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-EntityAmphithere:
+    skip-every: default
+  net-minecraft-entity-passive-CatEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityGorilla:
+    skip-every: default
+  net-minecraft-entity-monster-DrownedEntity:
+    skip-every: default
+  com-bobmowzie-mowziesmobs-server-entity-effects-EntityFallingBlock:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-EntityLightningDragon:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-EntityDragonLightningCharge:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-EntityHydra:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-EntityHydraHead:
+    skip-every: default
+  net-minecraft-entity-passive-IronGolemEntity:
+    skip-every: default
+  twilightforest-entity-passive-BighornEntity:
+    skip-every: default
+  twilightforest-entity-passive-SquirrelEntity:
+    skip-every: default
+  twilightforest-entity-boss-NagaEntity:
+    skip-every: default
+  twilightforest-entity-passive-BunnyEntity:
+    skip-every: default
+  twilightforest-entity-passive-DeerEntity:
+    skip-every: default
+  twilightforest-entity-passive-TinyBirdEntity:
+    skip-every: default
+  twilightforest-entity-passive-RavenEntity:
+    skip-every: default
+  net-minecraft-entity-item-PaintingEntity:
+    skip-every: default
+  twilightforest-entity-passive-BoarEntity:
+    skip-every: default
+  twilightforest-entity-DeathTomeEntity:
+    skip-every: default
+  net-minecraft-entity-item-EnderCrystalEntity:
+    skip-every: default
+  net-minecraft-entity-boss-dragon-EnderDragonEntity:
+    skip-every: default
+  net-minecraft-entity-projectile-ArrowEntity:
+    skip-every: default
+  mod-beethoven92-betterendforge-common-entity-CubozoaEntity:
+    skip-every: default
+  mod-beethoven92-betterendforge-common-entity-EndFishEntity:
+    skip-every: default
+  net-minecraft-entity-monster-EndermiteEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntitySpectre:
+    skip-every: default
+  slimeknights-tconstruct-world-entity-SkySlimeEntity:
+    skip-every: default
+  net-minecraft-entity-item-ExperienceOrbEntity:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-entity-EntityCentipedeTail:
+    skip-every: default
+  net-minecraft-entity-item-TNTEntity:
+    skip-every: default
+  com-hollingsworth-arsnouveau-common-entity-EntityProjectileSpell:
+    skip-every: default

@@ -1,0 +1,60 @@
+{
+	id: "54020F3C690026F5"
+	order_index: 5
+	title: "Чары"
+	loot_size: 1
+	rewards: [
+		{
+			xp: 75
+			type: "xp"
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:power"
+					}]
+					display: {
+						Name: "{\"text\":\"Сила 1\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:sharpness"
+					}]
+					display: {
+						Name: "{\"text\":\"Острота 1\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:efficiency"
+					}]
+					display: {
+						Name: "{\"text\":\"Эффективность 1\"}"
+					}
+				}
+			}
+		}
+	]
+}

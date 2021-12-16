@@ -1,0 +1,5 @@
+
+[general]
+	#Add modids to this list if clients are allowed to use these mods alongside all the others. All non included mods,that aren't on the server side are blocked and the client can't connect!
+	whitelisted_mods = ["betteranimationscollection", "chat_heads", "customskinloader", "entityculling", "highlighter", "iceberg", "inventoryhud", "invtweaks", "lazydfu", "out_of_sight", "packmenu", "sdrp", "sodium", "sf"]
+

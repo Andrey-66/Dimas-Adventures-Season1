@@ -1,0 +1,53 @@
+{
+	id: "2D11E0A5AF5FC774"
+	order_index: 6
+	title: "Кости судьбы"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "botania:infinite_fruit"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:king_key"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:flugel_eye"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:thor_ring"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "botania:odin_ring"
+				Count: 1b
+				tag: {
+					baubleUUIDMost: -6680180512577467562L
+					baubleUUIDLeast: -6027996312983646003L
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:loki_ring"
+				Count: 1b
+				tag: { }
+			}
+		}
+	]
+}

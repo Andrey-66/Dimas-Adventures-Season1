@@ -1,0 +1,10 @@
+{
+	id: "5157E4E1E4ECE4E7"
+	order_index: 1
+	title: "Жемчуг/Алмаз"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:mana_pearl", count: 3 }
+		{ item: "botania:mana_diamond", count: 3 }
+	]
+}
