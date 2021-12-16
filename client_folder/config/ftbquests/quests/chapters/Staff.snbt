@@ -6,30 +6,362 @@
 	title: "Полезные штучки"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Да будет свет"
-		x: -1.5d
-		y: -0.5d
-		id: "1610C2E8ACC09A12"
-		tasks: [{
-			id: "7F364F809F9CB486"
-			type: "item"
-			item: "calemiutils:torch_placer"
-		}]
-		rewards: [
-			{
-				id: "4EADEE755ED64CA5"
+	quests: [
+		{
+			title: "Да будет свет"
+			x: -10.5d
+			y: -0.5d
+			id: "1610C2E8ACC09A12"
+			tasks: [{
+				id: "7F364F809F9CB486"
 				type: "item"
-				item: "minecraft:torch"
-				count: 16
-			}
-			{
-				id: "5436D4211C425B99"
-				type: "gamestage"
-				team_reward: false
-				auto: "invisible"
-				stage: "glyph_light"
-			}
-		]
-	}]
+				item: "calemiutils:torch_placer"
+			}]
+			rewards: [
+				{
+					id: "4EADEE755ED64CA5"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16
+				}
+				{
+					id: "5436D4211C425B99"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_light"
+				}
+			]
+		}
+		{
+			title: "Большие карманы"
+			x: -4.5d
+			y: -0.5d
+			id: "5168A5BC5F9F135F"
+			tasks: [{
+				id: "69563829DB9EF386"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "4FD5710BCD2A3E56"
+				type: "item"
+				item: {
+					id: "minecraft:golden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "На ночёвку к другу"
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["5168A5BC5F9F135F"]
+			id: "59B3148CF555FEA4"
+			tasks: [{
+				id: "0240126C19E9D97C"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "72192B9A0C11F23E"
+				type: "item"
+				item: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Собрались в поход"
+			x: -4.5d
+			y: 3.5d
+			dependencies: ["59B3148CF555FEA4"]
+			id: "5661E6DC0A37242B"
+			tasks: [{
+				id: "6865DD39180BF19C"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "544397D741789F13"
+				type: "item"
+				item: {
+					id: "twilightforest:ironwood_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Отпуск? Почему бы и нет!"
+			x: -4.5d
+			y: 5.5d
+			dependencies: ["5661E6DC0A37242B"]
+			id: "2E5B1DF361DC3970"
+			tasks: [{
+				id: "4741C5D5A28533F2"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "0CE640AED776B107"
+				type: "item"
+				item: {
+					id: "minecraft:golden_hoe"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 2s
+								id: "minecraft:fire_aspect"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:knockback"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Переезжаем"
+			x: -4.5d
+			y: 7.5d
+			dependencies: ["2E5B1DF361DC3970"]
+			id: "226E6F27DE0C94CB"
+			tasks: [{
+				id: "31CA2820772523A7"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "5ADE51F755D18847"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "apotheosis:icy_thorns"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Нужно же где-то хранить"
+			x: -8.0d
+			y: -0.5d
+			id: "79F8F0FB24ABA523"
+			tasks: [{
+				id: "01D5312F07830238"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "406945E9571559C7"
+				type: "item"
+				item: {
+					id: "botania:brew_vial"
+					Count: 1b
+					tag: {
+						brewKey: "botania:speed"
+					}
+				}
+			}]
+		}
+		{
+			title: "Когда пространства недостаточно"
+			x: -7.5d
+			y: 2.0d
+			dependencies: ["79F8F0FB24ABA523"]
+			id: "387B0D48E0008EC9"
+			tasks: [{
+				id: "702428FCF78CC95B"
+				type: "item"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+			}]
+			rewards: [{
+				id: "11224326ACE47B73"
+				type: "item"
+				item: "enigmaticlegacy:iron_ring"
+			}]
+		}
+		{
+			title: "Альтернативный путь"
+			x: -8.5d
+			y: 1.5d
+			dependencies: ["79F8F0FB24ABA523"]
+			id: "77B45A8337FA052B"
+			tasks: [{
+				id: "0CF33F15845EB9A5"
+				type: "item"
+				item: "ironchest:wood_to_copper_chest_upgrade"
+			}]
+			rewards: [{
+				id: "0AF36845D16F6C33"
+				type: "item"
+				item: "simplefarming:mead"
+			}]
+		}
+		{
+			title: "Сундук от вампиров"
+			x: -8.5d
+			y: 2.5d
+			dependencies: ["77B45A8337FA052B"]
+			id: "4406C266F6456818"
+			tasks: [{
+				id: "227D827CCDB5AFFB"
+				type: "item"
+				item: "ironchest:copper_to_silver_chest_upgrade"
+			}]
+			rewards: [{
+				id: "033DD14A1CC8DAA2"
+				type: "item"
+				item: {
+					id: "iceandfire:silver_sword"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:smite"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Мажорненько"
+			x: -7.5d
+			y: 4.0d
+			dependencies: ["387B0D48E0008EC9"]
+			id: "327B8D6141F67A27"
+			tasks: [{
+				id: "5E61562A25F1EAA9"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+			rewards: [{
+				id: "32CD6673049C4A18"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Возвращение к стандарту"
+			x: -8.5d
+			y: 4.0d
+			dependencies: ["4406C266F6456818"]
+			id: "4BA5096A60812513"
+			tasks: [{
+				id: "36B4F38E094AA884"
+				type: "item"
+				item: "ironchest:silver_to_gold_chest_upgrade"
+			}]
+			rewards: [{
+				id: "121906D727AC223C"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Кто-нибудь так использует алмазы?"
+			x: -8.0d
+			y: 5.5d
+			dependencies: [
+				"4BA5096A60812513"
+				"327B8D6141F67A27"
+			]
+			dependency_requirement: "one_completed"
+			id: "440F541125733B75"
+			tasks: [{
+				id: "256F75058158F5AC"
+				type: "item"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+			}]
+			rewards: [{
+				id: "0FA219AAB1B5B329"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+		}
+		{
+			title: "Стекляшка"
+			x: -7.0d
+			y: 6.5d
+			dependencies: ["440F541125733B75"]
+			id: "5CA6493A04394513"
+			tasks: [{
+				id: "7F15EAC87170A0B4"
+				type: "item"
+				item: "ironchest:diamond_to_crystal_chest_upgrade"
+			}]
+			rewards: [{
+				id: "4C109AB15224EB59"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+		}
+		{
+			title: "Надёжное хранилище"
+			x: -9.0d
+			y: 6.5d
+			dependencies: ["440F541125733B75"]
+			id: "2C7125179049A0E8"
+			tasks: [{
+				id: "2657AFC2CC80E010"
+				type: "item"
+				item: "ironchest:diamond_to_obsidian_chest_upgrade"
+			}]
+			rewards: [{
+				id: "7F7BED963B1DC3BC"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -0.5d
+			dependencies: [
+				"147E0992C229ABB3"
+				"0479D5E9411A2C0C"
+				"3488D6844894CDE0"
+			]
+			id: "11A08C4CCEDD9C87"
+			tasks: [{
+				id: "65619443F2CD9A33"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+			rewards: [{
+				id: "5CE5906B71945710"
+				type: "random"
+				table_id: 6053417601273439989L
+			}]
+		}
+	]
 }
