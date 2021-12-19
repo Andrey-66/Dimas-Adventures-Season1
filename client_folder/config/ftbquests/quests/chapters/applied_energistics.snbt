@@ -7,13 +7,21 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
+		title: "Эпоха выскоих технологий"
 		x: -1.0d
 		y: 0.5d
 		id: "76CC72DD5C6A8BFB"
-		tasks: [{
-			id: "31DCC745130E3C10"
-			type: "item"
-			item: "appliedenergistics2:calculation_processor"
-		}]
+		tasks: [
+			{
+				id: "151D5811F79AE28E"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}
+			{
+				id: "003D7B9FF1644AE7"
+				type: "item"
+				item: "appliedenergistics2:printed_silicon"
+			}
+		]
 	}]
 }
