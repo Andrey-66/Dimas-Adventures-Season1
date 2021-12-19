@@ -1,0 +1,1 @@
+<recipetype:appliedenergistics2:inscriber>.addInscribeRecipe("inscriber_inscribe_test_all_inputs", <item:minecraft:redstone>, <item:minecraft:apple>, [<item:minecraft:arrow>, <item:minecraft:stick>] as IIngredient[]);
