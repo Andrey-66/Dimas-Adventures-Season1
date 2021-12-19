@@ -4396,7 +4396,12 @@
 			title: "Верстак без дна"
 			x: -8.5d
 			y: 1.5d
-			dependencies: ["70047E60EA22B0EB"]
+			dependencies: [
+				"70047E60EA22B0EB"
+				"024CD49A60131533"
+				"1021D1A32130D574"
+				"775BD2DEA5502E90"
+			]
 			id: "4F98072FDD4ADE97"
 			tasks: [{
 				id: "4677C0B33A55AB6C"
@@ -4723,27 +4728,11 @@
 					item: "botania:corporea_spark_master"
 				}
 			]
-			rewards: [
-				{
-					id: "27A86E4FBEF51259"
-					type: "item"
-					item: "appliedenergistics2:chest"
-				}
-				{
-					id: "26C83C715C6FBD58"
-					type: "item"
-					item: {
-						id: "appliedenergistics2:4k_storage_cell"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "2192FD6AEF6F0CD0"
-					type: "item"
-					item: "calemiutils:money_bag_cheap"
-				}
-			]
+			rewards: [{
+				id: "2192FD6AEF6F0CD0"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
 		}
 		{
 			title: "А могла быть подкова"
