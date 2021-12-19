@@ -662,7 +662,10 @@
 			title: "Да здравствует стимпанк"
 			x: 7.5d
 			y: 0.5d
-			dependencies: ["6ABC8CC432237483"]
+			dependencies: [
+				"6ABC8CC432237483"
+				"1339BBEE60DBBE5D"
+			]
 			hide: true
 			id: "0127396CD2C9D0DC"
 			tasks: [
@@ -675,6 +678,11 @@
 					id: "6022A5694EF1B3BA"
 					type: "item"
 					item: "create:furnace_engine"
+				}
+				{
+					id: "11C2F8130B0732A3"
+					type: "item"
+					item: "createaddition:furnace_burner"
 				}
 			]
 			rewards: [{
@@ -1776,6 +1784,49 @@
 				id: "34B8AB10AE8DB540"
 				type: "item"
 				item: "create:empty_schematic"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["0127396CD2C9D0DC"]
+			hide: true
+			id: "126671D3213C965D"
+			tasks: [
+				{
+					id: "76D989519A3BD650"
+					type: "item"
+					item: "createaddition:alternator"
+				}
+				{
+					id: "5718F4D94BA7AA13"
+					type: "item"
+					item: "createaddition:rolling_mill"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			dependencies: ["126671D3213C965D"]
+			hide: true
+			id: "251F2C93BEA9A769"
+			tasks: [{
+				id: "3CA3D8815D2239E0"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			dependencies: ["0127396CD2C9D0DC"]
+			hide: true
+			id: "33A3FD104DBD7B14"
+			tasks: [{
+				id: "2F37E47D1BAC69AE"
+				type: "item"
+				item: "createaddition:crude_burner"
 			}]
 		}
 	]

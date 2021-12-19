@@ -177,3 +177,15 @@
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:dried_kelp>))
     .addStep(<recipetype:create:cutting>.factory(), (rb) => rb.duration(50))
     .addStep(<recipetype:create:cutting>.factory(), (rb) => rb.duration(50)));
+
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("printed_silicon")
+    .transitionTo(<item:appliedenergistics2:silicon>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}}))
+    .require(<tag:items:forge:silicon>)
+    .loops(5)
+    .addOutput(<item:appliedenergistics2:printed_silicon>, 1)
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:redstone>))
+    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:slime_ball>))
+    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
+    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500)));
