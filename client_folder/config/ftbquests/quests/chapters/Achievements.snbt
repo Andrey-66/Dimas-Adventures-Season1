@@ -30,6 +30,7 @@
 				{
 					id: "056B70CF6AC25128"
 					type: "choice"
+					team_reward: false
 					table_id: 2601630122312521464L
 				}
 			]
@@ -233,6 +234,16 @@
 					id: "022B56697EB8C1D9"
 					type: "item"
 					item: "calemiutils:security_wrench"
+				}
+				{
+					id: "6372FB694AD61749"
+					type: "item"
+					team_reward: false
+					item: {
+						id: "calemiutils:wallet"
+						Count: 1b
+						tag: { }
+					}
 				}
 			]
 		}
