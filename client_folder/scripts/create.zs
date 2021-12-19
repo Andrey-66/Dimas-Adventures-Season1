@@ -189,3 +189,10 @@
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:slime_ball>))
     .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
     .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500)));
+
+<recipetype:create:mechanical_crafting>.addRecipe("energy_acceptor", <item:appliedenergistics2:energy_acceptor>, 
+    [[<tag:items:forge:storage_blocks/iron>, <tag:items:forge:ingots/iron>, <item:appliedenergistics2:quartz_glass>, <tag:items:forge:ingots/iron>, <tag:items:forge:storage_blocks/iron>],
+    [<tag:items:forge:ingots/iron>, <item:evilcraft:weather_container>.withTag({weather: "LIGHTNING" as string}), <item:appliedenergistics2:purified_fluix_crystal>, <item:evilcraft:weather_container>.withTag({weather: "LIGHTNING" as string}), <tag:items:forge:ingots/iron>],
+    [<item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:purified_fluix_crystal>, <item:botania:mana_fluxfield>, <item:appliedenergistics2:purified_fluix_crystal>, <item:appliedenergistics2:quartz_glass>],
+    [<tag:items:forge:ingots/iron>, <item:evilcraft:weather_container>.withTag({weather: "LIGHTNING" as string}), <item:appliedenergistics2:purified_fluix_crystal>, <item:evilcraft:weather_container>.withTag({weather: "LIGHTNING" as string}), <tag:items:forge:ingots/iron>],
+    [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:ingots/iron>, <item:appliedenergistics2:quartz_glass>, <tag:items:forge:ingots/iron>, <tag:items:forge:storage_blocks/iron>]]);
