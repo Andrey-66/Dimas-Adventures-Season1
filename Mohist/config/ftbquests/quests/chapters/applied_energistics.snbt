@@ -6,14 +6,237 @@
 	title: "Цифровые архивы"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: -1.0d
-		y: 0.5d
-		id: "76CC72DD5C6A8BFB"
-		tasks: [{
-			id: "31DCC745130E3C10"
-			type: "item"
-			item: "appliedenergistics2:calculation_processor"
-		}]
-	}]
+	quests: [
+		{
+			title: "Эпоха высоких технологий"
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["126671D3213C965D"]
+			id: "76CC72DD5C6A8BFB"
+			tasks: [
+				{
+					id: "151D5811F79AE28E"
+					type: "item"
+					item: "appliedenergistics2:inscriber"
+				}
+				{
+					id: "003D7B9FF1644AE7"
+					type: "item"
+					item: "appliedenergistics2:printed_silicon"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["76CC72DD5C6A8BFB"]
+			id: "4F05F7D5D508D0E1"
+			tasks: [{
+				id: "6F30669F1D27A419"
+				type: "item"
+				item: "appliedenergistics2:sky_compass"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["76CC72DD5C6A8BFB"]
+			id: "6691D315BBFDB744"
+			tasks: [{
+				id: "494D122387611475"
+				type: "item"
+				item: "appliedenergistics2:charger"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["76CC72DD5C6A8BFB"]
+			id: "68E9726E380B0C44"
+			tasks: [
+				{
+					id: "120FC7B8410F56FA"
+					type: "item"
+					item: "appliedenergistics2:quartz_growth_accelerator"
+				}
+				{
+					id: "6B523C60015BDEEE"
+					type: "item"
+					item: "appliedenergistics2:certus_crystal_seed"
+				}
+				{
+					id: "58E57F39C6B98575"
+					type: "item"
+					item: "appliedenergistics2:fluix_crystal_seed"
+				}
+				{
+					id: "0404637091DF0709"
+					type: "item"
+					item: "appliedenergistics2:nether_quartz_seed"
+				}
+			]
+			rewards: [
+				{
+					id: "064B800694FF5F68"
+					type: "item"
+					item: "appliedenergistics2:certus_crystal_seed"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "74D93E51F54477C1"
+					type: "item"
+					item: "appliedenergistics2:fluix_crystal_seed"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "1A55168A60209667"
+					type: "item"
+					item: "appliedenergistics2:nether_quartz_seed"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Система хранения цифр"
+			icon: "appliedenergistics2:chest"
+			x: 1.5d
+			y: 0.5d
+			dependencies: [
+				"76CC72DD5C6A8BFB"
+				"470AE5C4F18233AF"
+			]
+			id: "6731660D6648FA84"
+			tasks: [
+				{
+					id: "2E3B8233018E9246"
+					type: "item"
+					item: "appliedenergistics2:chest"
+				}
+				{
+					id: "3CFE87CF1EB2852B"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:1k_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "348A4BEEF9655837"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+			}]
+		}
+		{
+			title: "Умная система"
+			x: 4.0d
+			y: 0.5d
+			description: [
+				"МЭ Накопитель служит для хранения ресурсов (ячеек хранения)"
+				""
+				"МЭ Терминал необходим для получения доступа к инвентарю системы"
+				""
+				"Приёмщик энергии позволяет запитать систему электричеством. К нему следует подключать генераторю"
+				""
+				"С помощью кабеля разрозненные блоки соединяются в одну систему."
+			]
+			dependencies: ["6731660D6648FA84"]
+			id: "48A29D0E8EE98514"
+			tasks: [
+				{
+					id: "22977B441402EDA2"
+					type: "item"
+					item: "appliedenergistics2:energy_acceptor"
+				}
+				{
+					id: "301E90085861A1FD"
+					type: "item"
+					item: "appliedenergistics2:fluix_glass_cable"
+				}
+				{
+					id: "0B30D37E0B059CE7"
+					type: "item"
+					item: "appliedenergistics2:drive"
+				}
+				{
+					id: "0AC7BC34FE228D1F"
+					type: "item"
+					item: "appliedenergistics2:terminal"
+				}
+			]
+		}
+		{
+			title: "Настрока доступа"
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["48A29D0E8EE98514"]
+			id: "12F57D5A41F6FCE1"
+			tasks: [
+				{
+					id: "54A3024AB4274BA0"
+					type: "item"
+					item: "appliedenergistics2:security_station"
+				}
+				{
+					id: "23DC26E80D6C6D07"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:biometric_card"
+						Count: 1b
+						tag: {
+							profile: {
+								Id: [I;
+									-1469363895
+									-1075820680
+									-1717412371
+									1093286825
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzOTk0NzMzODg0NywKICAicHJvZmlsZUlkIiA6ICJhODZiNDk0OWJmZTA0Nzc4OTlhMjVkZWQ0MTJhM2JhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmRyZXk2NiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZmY3ZTgyYzBmYjNiMTk3NTcwZDhiZGIzMGMzMDU4Y2E1N2JhZGQ0MzYyY2EzNmMwMzJiZTkyNmQ2OTMxYjM4IgogICAgfQogIH0KfQ=="
+										Signature: "Cmtqb9s2vYNpIc2mP4k2PvmTWorO06K7EQ/K0esugFxBD6ani4k72ky+gw801zOiX0Opz6xxjyjG23WaDT0LNkP80zIChreDFF0jxpPP5/AJdO5PLUI4t1x/iHU3b6LfeWkOD3ZM5J4995v7qYBz+gumY4c+W3WN8MUoXijSr3uNX1arKd0LwTDY32SaK0mmQfQplvZH9w4ZzDSvvr/fQdb5MhbXyeP6X9axAv+YH/DiD840YwyHuDPpSQOGoLd3Z36Biv6kk9gkK/drUY/lnXjX9c3qL7CxviFDcCwHwoD6gSuoJeue03vdpox2mn+kkJ0b58tG3J7s4d5wyGsBDoHtd8v8FrWK7cyoCXTaRt7j8EMS0lxlvHAhpI9x3Jz4wtU+dG64CZKfuORVy44B+VDlfQcJkce6FA4eQb8k7tyc0t5eCRaQ4X0cs9I6XcIbnJGISitqVlLqQ1ozLFf087OzA/4qgkT1fMfTDNIepMx0UY41IzxPtm9HrBkiqHAxuNEXDRqPFZO0vFg/lIyiWPLMjSv/retYcVoMNkOCzoBb3gopBshbUSo6FUvDpsj+/8mae45JuZ0biNBPTRraC0N5PbH8CaGVxg1GzxsMpAOMstsoWHE9qMkjtlO46jdMgD/gV4C2QWcaqTLH+ub9dyvFAdnctnLVvSEmTH3HTKo="
+									}]
+								}
+								Name: "Andrey66"
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2A9246EDB9A59902"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:biometric_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: [
+				"48A29D0E8EE98514"
+				"79B20D45560C271A"
+			]
+			id: "5BFCB80C89F13938"
+			tasks: [{
+				id: "684202135BBA746D"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+			rewards: [{
+				id: "5CC42B2C5F65B997"
+				type: "item"
+				item: "appliedenergistics2:fluix_covered_cable"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+	]
 }
