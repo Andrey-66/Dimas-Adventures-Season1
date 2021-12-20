@@ -800,5 +800,104 @@
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
 			}]
 		}
+		{
+			title: "Пивас"
+			x: -13.0d
+			y: 1.5d
+			id: "7038ECF061AF0EBF"
+			tasks: [
+				{
+					id: "1468514267D46E26"
+					type: "item"
+					item: "drinkbeer:beer_barrel"
+				}
+				{
+					id: "38586F204FEE04DC"
+					type: "item"
+					item: "drinkbeer:empty_beer_mug"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Официант! Повторите."
+			x: -14.0d
+			y: 1.5d
+			dependencies: ["7038ECF061AF0EBF"]
+			id: "2BA4391E8F3016F7"
+			tasks: [
+				{
+					id: "1414506D68C74DA2"
+					type: "item"
+					item: "drinkbeer:iron_call_bell"
+				}
+				{
+					id: "2BB7B76648F49861"
+					type: "item"
+					item: "drinkbeer:golden_call_bell"
+				}
+			]
+		}
+		{
+			title: "Проверенная рецептура"
+			x: -13.0d
+			y: 3.5d
+			dependencies: ["7038ECF061AF0EBF"]
+			id: "41D5403BF67D6446"
+			tasks: [{
+				id: "60DD8FCCDBE79068"
+				type: "item"
+				item: "drinkbeer:recipe_board_package"
+			}]
+		}
+		{
+			title: "Большой ассортимент"
+			x: -13.0d
+			y: 5.5d
+			dependencies: ["41D5403BF67D6446"]
+			id: "3ADBB894492FB295"
+			tasks: [
+				{
+					id: "108BA3BD906DAF4F"
+					type: "item"
+					item: "drinkbeer:beer_mug"
+				}
+				{
+					id: "60AE7BC77A0B1FA8"
+					type: "item"
+					item: "drinkbeer:beer_mug_blaze_stout"
+				}
+				{
+					id: "1359883093D89B79"
+					type: "item"
+					item: "drinkbeer:beer_mug_blaze_milk_stout"
+				}
+				{
+					id: "09FA041B92FFFEBC"
+					type: "item"
+					item: "drinkbeer:beer_mug_apple_lambic"
+				}
+				{
+					id: "1B27FE89587C8753"
+					type: "item"
+					item: "drinkbeer:beer_mug_sweet_berry_kriek"
+				}
+				{
+					id: "357A445587CE2F31"
+					type: "item"
+					item: "drinkbeer:beer_mug_haars_icey_pale_lager"
+				}
+				{
+					id: "4106E4A0E30E9651"
+					type: "item"
+					item: "drinkbeer:beer_mug_pumpkin_kvass"
+				}
+				{
+					id: "2EC0BA116F167C50"
+					type: "item"
+					item: "drinkbeer:beer_mug_night_howl_kvass"
+				}
+			]
+		}
 	]
 }

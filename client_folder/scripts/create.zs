@@ -196,3 +196,7 @@
     [<item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:purified_fluix_crystal>, <item:botania:mana_fluxfield>, <item:appliedenergistics2:purified_fluix_crystal>, <item:appliedenergistics2:quartz_glass>],
     [<tag:items:forge:ingots/iron>, <item:evilcraft:weather_container>.withTag({weather: "LIGHTNING" as string}), <item:appliedenergistics2:purified_fluix_crystal>, <item:evilcraft:weather_container>.withTag({weather: "LIGHTNING" as string}), <tag:items:forge:ingots/iron>],
     [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:ingots/iron>, <item:appliedenergistics2:quartz_glass>, <tag:items:forge:ingots/iron>, <tag:items:forge:storage_blocks/iron>]]);
+
+<recipetype:create:mixing>.addRecipe("controller", "superheated", <item:appliedenergistics2:controller>, [<item:appliedenergistics2:purified_fluix_crystal> * 4, <item:appliedenergistics2:smooth_sky_stone_block> * 4, <item:evilcraft:dark_gem_crushed> * 4, <item:tconstruct:tool_binding>.withTag({Material: "tconstruct:bloodbone" as string}) * 4, <item:createaddition:gold_spool> * 4, <item:ars_nouveau:marvelous_clay> * 4, <item:ars_nouveau:mythical_clay>, <item:appliedenergistics2:engineering_processor>], [<fluid:kubejs:elf_fluid> * 1000]);
+
+<recipetype:create:mixing>.addRecipe("crafting_terminal", "none", <item:appliedenergistics2:crafting_terminal>, [<item:appliedenergistics2:terminal>, <item:appliedenergistics2:calculation_processor>, <item:ars_nouveau:glyph_craft>], [<fluid:kubejs:mana_fluid> * 1000]);
