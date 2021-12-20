@@ -9,7 +9,7 @@ import mods.botania.RuneAltar;
 // Рунический алтарь
 
 // Бассейн
-<recipetype:botania:mana_infusion>.addRecipe("mana_infusion_test_catalyst", <item:ars_nouveau:apprentice_spell_book>, <item:ars_nouveau:worn_notebook>, 200);
+<recipetype:botania:mana_infusion>.addRecipe("mana_infusion_test_catalyst", <item:ars_nouveau:novice_spell_book>, <item:ars_nouveau:worn_notebook>, 200);
 
 
 // Плита террастали
