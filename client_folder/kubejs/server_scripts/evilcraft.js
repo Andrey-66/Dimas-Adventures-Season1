@@ -1,5 +1,8 @@
 onEvent('recipes', event => {
     event.remove({output: 'evilcraft:blood_extractor'})
+    event.remove({type: 'minecraft:crafting_shapeless', output: Item.of('evilcraft:weather_container', '{weather:"CLEAR"}')})
+    event.remove({type: 'minecraft:crafting_shapeless', output: Item.of('evilcraft:weather_container', '{weather:"RAIN"}')})
+    event.remove({type: 'minecraft:crafting_shapeless', output: Item.of('evilcraft:weather_container', '{weather:"LIGHTNING"}')})
 
     event.remove({output: 'evilcraft:blood_infuser'})
     event.shaped('evilcraft:blood_extractor', [
