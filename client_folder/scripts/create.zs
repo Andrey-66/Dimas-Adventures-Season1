@@ -50,8 +50,8 @@
     .require(<tag:items:forge:ingots/copper>)
     .loops(4)
     .addOutput(<item:create:diving_helmet>, 1)
-    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500))
-    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:glass>)));
+    .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:glass>))
+    .addStep(<recipetype:create:pressing>.factory(), (rb) => rb.duration(500)));
 
 <recipetype:create:mechanical_crafting>.addRecipe("mechanical_press", <item:create:mechanical_press>, 
     [[<item:minecraft:air>,<item:create:andesite_alloy>, <item:minecraft:air>], 
