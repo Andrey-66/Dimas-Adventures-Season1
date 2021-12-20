@@ -735,11 +735,18 @@
 			y: 0.0d
 			dependencies: ["4E137710B6B5DD82"]
 			id: "25B086BE3E218E86"
-			tasks: [{
-				id: "025FA4919FC0E7D4"
-				type: "item"
-				item: "ars_nouveau:apprentice_spell_book"
-			}]
+			tasks: [
+				{
+					id: "025FA4919FC0E7D4"
+					type: "item"
+					item: "ars_nouveau:apprentice_spell_book"
+				}
+				{
+					id: "1D3B79D4153C1BE5"
+					type: "item"
+					item: "ars_nouveau:marvelous_clay"
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -751,18 +758,11 @@
 			]
 			hide: true
 			id: "39E45ACEA9615410"
-			tasks: [
-				{
-					id: "2D1A1DAE9E0324AF"
-					type: "item"
-					item: "ars_nouveau:glyph_ender_inventory"
-				}
-				{
-					id: "328EAA851D7B28BA"
-					type: "item"
-					item: "ars_nouveau:marvelous_clay"
-				}
-			]
+			tasks: [{
+				id: "2D1A1DAE9E0324AF"
+				type: "item"
+				item: "ars_nouveau:glyph_ender_inventory"
+			}]
 		}
 		{
 			x: -9.0d
