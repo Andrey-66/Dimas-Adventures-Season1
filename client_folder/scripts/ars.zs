@@ -25,3 +25,7 @@
 <recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("brass_hand", <item:create:brass_hand>, <item:ars_nouveau:glyph_touch>, 
     [<tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>,
     <item:create:cogwheel>, <item:create:cogwheel>, <item:create:cogwheel>, <item:create:cogwheel>]);
+
+<recipetype:ars_nouveau:enchanting_apparatus>.addRecipe("mechanical_press", <item:create:mechanical_press>, <item:tconstruct:obsidian_pane>, 
+    [<item:create:andesite_alloy>, <item:create:andesite_alloy>, <item:minecraft:iron_block>, <item:minecraft:iron_block>,
+    <item:minecraft:iron_bars>, <item:minecraft:iron_bars>, <item:create:shaft>, <item:create:shaft>]);
