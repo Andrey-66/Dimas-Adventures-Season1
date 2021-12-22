@@ -32,7 +32,7 @@ function addEnergizing6Recipe(number as int, energ as int, itemOut as IItemStack
 });
 }
  
-addEnergizing6Recipe(0, 10000, <item:minecraft:granite>, <item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>);
+addEnergizing6Recipe(0, 18000000, <item:powah:crystal_nitro> * 16, <item:minecraft:nether_star>, <item:createaddition:overcharged_alloy>, <item:create:shadow_steel>, <item:thermal:signalum_block>, <item:thermal:signalum_block>, <item:powah:blazing_crystal_block>);
 
 
 function addEnergizing2Recipe(number as int, energ as int, itemOut as IItemStack, ing1 as IIngredient, ing2 as IIngredient) as void {
@@ -51,3 +51,22 @@ function addEnergizing2Recipe(number as int, energ as int, itemOut as IItemStack
 }
 
 addEnergizing2Recipe(0, 10000, <item:powah:steel_energized> * 2, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/electrum>);
+addEnergizing2Recipe(1, 90000, <item:powah:crystal_blazing>, <tag:items:forge:rods/blaze>, <item:thermal:sulfur_dust>);
+addEnergizing2Recipe(2, 300000, <item:powah:crystal_niotic>, <item:botania:mana_diamond>, <item:create:refined_radiance>);
+
+
+function addEnergizing1Recipe(number as int, energ as int, itemOut as IItemStack, ing1 as IIngredient) as void {
+    <recipetype:powah:energizing>.addJSONRecipe("crafttweaker_energizing1_" + number, {
+  "number": number,
+  "energy": energ,
+  "result": {
+       "item": itemOut.registryName,
+	   "count": itemOut.amount
+	   },
+    "ingredients": [
+    ing1
+  ],
+});
+}
+
+addEnergizing1Recipe(0, 1000000, <item:powah:crystal_spirited>, <item:botania:terrasteel_ingot>);
