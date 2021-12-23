@@ -7,5 +7,116 @@
 	icon: "thermal:rf_coil"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 1.5d
+			y: -1.0d
+			id: "0449DFFD785FDC20"
+			tasks: [{
+				id: "74E32500CE3A1D6F"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["0449DFFD785FDC20"]
+			id: "36B3432CBBF66D4E"
+			tasks: [{
+				id: "0E88BBB82D5CB9FC"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["0449DFFD785FDC20"]
+			id: "46467CA637BE8775"
+			tasks: [{
+				id: "6A643F2F8559D185"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			id: "3829B4E213079B52"
+			tasks: [{
+				id: "5B0B30E2A724DC78"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			id: "393811BEBE147F5F"
+			tasks: [{
+				id: "6760B6A44F067120"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			id: "68F60B0B5D97C450"
+			tasks: [{
+				id: "5A682364D0DEA8F2"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			id: "311EA12BE20FED2C"
+			tasks: [{
+				id: "2758D1248A37F8BE"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			id: "25A766648C827943"
+			tasks: [{
+				id: "69E653F028536C66"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			id: "67DAA7A7B676E6A2"
+			tasks: [{
+				id: "7CE4D353B4E7908E"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+		}
+	]
 }
