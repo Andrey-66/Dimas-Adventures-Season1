@@ -1,0 +1,120 @@
+[general]
+	clientID = 919252777341964288
+	enabled = true
+	debugging = false
+	configScreen = true
+	launcherIntegration = false
+	version = 12
+
+[init]
+	enabled = true
+	description = "Хочет зайти на сервер"
+	state = "Запускает игру"
+	largeImageKey = "mclogo"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "overworld"
+	smallImageText = "%mods% mods installed"
+
+	[[init.buttons]]
+		label = "Инстаграм"
+		url = "https://www.instagram.com/dima_saturday/"
+
+[main_menu]
+	enabled = true
+	description = "%player% обленился"
+	state = "Пялится на кнопки в меню"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+
+	[[main_menu.buttons]]
+		label = "Инстаграм"
+		url = "https://www.instagram.com/dima_saturday/"
+
+[server_list]
+	enabled = false
+	description = "%player% is looking for a server"
+	state = "Searching for friends"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[join_game]
+	enabled = true
+	description = "%player% подключается к серверу"
+	state = "Грузится"
+	largeImageKey = "loading"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+
+	[[join_game.buttons]]
+		label = "Инстаграм"
+		url = "https://www.instagram.com/dima_saturday/"
+
+[single_player]
+	enabled = false
+	description = "Зашёл в %world%"
+	state = "Песочница разрабротчиков"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[multi_player]
+	enabled = true
+	description = "Playing on %servername% with %players% players"
+	state = "Playing online"
+	largeImageKey = "mclogonew"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+	buttons = []
+
+[generic]
+	description = "Играет в Похождения Димасика"
+	state = ""
+	largeImageKey = "mclogo"
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	smallImageKey = "mclogo"
+	smallImageText = "%mods% mods installed"
+
+	[[generic.buttons]]
+		label = "Инстаграм"
+		url = "https://www.instagram.com/dima_saturday/"
+
+[dimension_overrides]
+	enabled = true
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = "Playing on %servername% with %players% players"
+		largeImageKey = "overworld"
+		largeImageText = "In the Overworld with %players% players"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = "Playing on %servername% with %players% players"
+		largeImageKey = "nether"
+		largeImageText = "In the Nether"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = "Playing on %servername% with %players% players"
+		largeImageKey = "end"
+		largeImageText = "In the End"
+		smallImageKey = "mclogo"
+		smallImageText = "%mods% mods installed"
+
+
