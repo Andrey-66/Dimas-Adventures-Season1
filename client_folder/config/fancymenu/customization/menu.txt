@@ -1,0 +1,110 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=400322%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=400382%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -107
+  action = movebutton
+  y = -41
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-right
+  x = -130
+  action = movebutton
+  y = -41
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-left
+  x = 4
+  action = movebutton
+  y = -116
+}
+
+customization {
+  identifier = %id=400346%
+  width = 50
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = config/fancymenu/sborka_logo.png
+  orientation = top-left
+  x = 34
+  width = 570
+  action = addtexture
+  actionid = 808855a2-d8d3-47f2-82ce-519d3506a3ab1640288028680
+  y = 22
+  height = 89
+}
+

@@ -1,0 +1,107 @@
+type = menu
+
+customization-meta {
+  identifier = com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-left
+  x = 4
+  action = movebutton
+  y = 185
+}
+
+customization {
+  identifier = %id=400322%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-left
+  x = 4
+  action = movebutton
+  y = 210
+}
+
+customization {
+  identifier = %id=400382%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 537
+  action = movebutton
+  y = 131
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 4
+  action = movebutton
+  y = 160
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 4
+  action = movebutton
+  y = 235
+}
+
+customization {
+  identifier = %id=400346%
+  width = 50
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = config/fancymenu/sborka_logo.png
+  orientation = top-left
+  x = 41
+  width = 549
+  action = addtexture
+  actionid = c048a716-c66d-4c5c-b8a6-44d17aadff111640287025463
+  y = 25
+  height = 90
+}
+
