@@ -104,7 +104,22 @@ customization {
   width = 465
   action = addtexture
   actionid = 36a49507-6e6c-4fe1-b940-13c33b43c1461640466663123
-  y = 22
+  y = 18
   height = 71
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -316
+  width = 201
+  actionid = ca4fb365-849e-440b-9c97-82d56a51e7d81640468745763
+  action = addbutton
+  y = -50
+  label = Играть
+  value = 31.134.135.227
+  height = 20
 }
 
