@@ -65,6 +65,6 @@ onEvent('recipes', event => {
         L: 'create:electron_tube',
         S: 'create:cogwheel',
         K: 'create:brass_casing',
-        V: 'botania:auto_crafting_halo'
+        V: 'botania:crafting_halo'
       })
 })

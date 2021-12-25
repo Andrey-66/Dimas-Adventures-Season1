@@ -2,6 +2,24 @@ onEvent('recipes', event => {
     event.remove({output: 'botania:terrasteel_ingot'})
     event.remove({output: 'botania:glass_pickaxe'})
 
+    event.remove({output: 'botania:crafting_halo'})
+    event.shaped('botania:crafting_halo', [
+        ' D ',
+        'SWS',
+        ' S '
+        ], {
+        S:'botania:manasteel_ingot',
+        W:'minecraft:crafting_table',
+        D:'botania:mana_diamond'
+    })
+
+    event.remove({output: 'botania:auto_crafting_halo'})
+    event.shaped('botania:auto_crafting_halo', [
+        'AB'], {
+        A:'botania:crafting_halo',
+        B:'botania:mana_pearl'
+    })
+
     event.remove({output: 'botania:lava_pendant'})
     event.shaped('botania:lava_pendant', [
         'LNA',
