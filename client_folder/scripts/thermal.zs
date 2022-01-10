@@ -17,6 +17,8 @@ import crafttweaker.api.item.IItemStack;
 
 craftingTable.removeRecipe(<item:thermal:enderium_ingot>);
 craftingTable.removeRecipe(<item:thermal:enderium_dust>);
+craftingTable.removeRecipe(<item:thermal:lumium_ingot>);
+craftingTable.removeRecipe(<item:thermal:lumium_dust>);
 // craftingTable.addShapeless("enderium_ingot_recipe", <item:thermal:enderium_ingot>, [<tag:items:ct:lead_recipe_item>, <tag:items:ct:lead_recipe_item>, <tag:items:ct:lead_recipe_item>, <tag:items:forge:dusts/diamond>, <tag:items:ct:enderperl_recipe_item>, <tag:items:ct:enderperl_recipe_item>, <item:minecraft:fire_charge>]);
 // craftingTable.addShapeless("enderium_dust_recipe", <item:thermal:enderium_dust>, [<tag:items:forge:dusts/lead>, <tag:items:forge:dusts/lead>, <tag:items:forge:dusts/lead>, <tag:items:forge:dusts/diamond>, <tag:items:ct:enderperldust_recipe_item>]);
 craftingTable.removeRecipe(<item:thermal:signalum_ingot>);
@@ -71,4 +73,51 @@ craftingTable.removeRecipe(<item:thermal:machine_press>);
     [<item:create:shadow_steel>, <tag:items:forge:gears/lead>, <item:thermal:machine_frame>, <tag:items:forge:gears/lead>, <item:create:shadow_steel>],
     [<tag:items:forge:plates/iron>, <tag:items:forge:storage_blocks/iron>, <item:minecraft:piston>, <tag:items:forge:storage_blocks/iron>, <tag:items:forge:plates/iron>],
     [<tag:items:forge:plates/brass>, <tag:items:forge:plates/iron>, <item:thermal:rf_coil>, <tag:items:forge:plates/iron>, <tag:items:forge:plates/brass>]]);
+	
+<recipetype:create:mechanical_crafting>.addRecipe("machine_miner", <item:mekanism:digital_miner>, 
+    [[<item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>], 
+    [<item:create:shadow_steel_casing>, <item:createaddition:overcharged_casing>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:createaddition:overcharged_casing>, <item:create:shadow_steel_casing>], 
+    [<item:create:refined_radiance_casing>, <item:thermal:signalum_plate>, <item:create:mechanical_drill>, <item:create:mechanical_drill>, <item:thermal:signalum_plate>, <item:create:refined_radiance_casing>],
+    [<item:create:refined_radiance_casing>, <item:thermal:signalum_plate>, <item:thermal:lumium_gear>, <item:thermal:lumium_gear>, <item:thermal:signalum_plate>, <item:create:refined_radiance_casing>],
+    [<item:create:shadow_steel_casing>, <item:createaddition:overcharged_casing>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:createaddition:overcharged_casing>, <item:create:shadow_steel_casing>],
+    [<item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>]]);
+	
+	craftingTable.removeRecipe(<item:thermal:lightning_grenade>);
+craftingTable.addShaped("shapeed_lightning_grenade", <item:thermal:lightning_grenade> * 4, [
+        [<tag:items:forge:gunpowder>, <item:thermal:blitz_powder>, <tag:items:forge:gunpowder>],
+        [<item:thermal:blitz_powder>, <item:powah:charged_snowball>, <item:thermal:blitz_powder>],
+        [<tag:items:forge:gunpowder>, <item:thermal:blitz_powder>, <tag:items:forge:gunpowder>]]);
+	craftingTable.removeRecipe(<item:thermal:drill_head>);
+craftingTable.addShaped("shapeed_drill_head", <item:thermal:drill_head>, [
+        [<tag:items:forge:dusts/diamond>, <tag:items:forge:ingots/iron>, <tag:items:forge:dusts/diamond>],
+        [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/copper>, <tag:items:forge:ingots/iron>],
+        [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>]]);
+	craftingTable.removeRecipe(<item:thermal:flux_drill>);
+craftingTable.addShaped("shapeed_drill", <item:thermal:flux_drill>, [
+        [<item:minecraft:air>, <item:thermal:drill_head>, <item:minecraft:air>],
+        [<tag:items:forge:ingots/electrum>, <tag:items:forge:gears/gold>, <tag:items:forge:ingots/electrum>],
+        [<tag:items:forge:gears/signalum>, <item:thermal:rf_coil>, <tag:items:forge:gears/signalum>]]);
+	craftingTable.removeRecipe(<item:thermal:saw_blade>);
+craftingTable.addShaped("shapeed_saw_blade", <item:thermal:saw_blade>, [
+        [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:dusts/diamond>],
+        [<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/copper>, <tag:items:forge:ingots/iron>],
+        [<tag:items:forge:dusts/diamond>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>]]);
+	craftingTable.removeRecipe(<item:thermal:flux_saw>);
+craftingTable.addShaped("shapeed_saw", <item:thermal:flux_saw>, [
+        [<item:minecraft:air>, <item:thermal:saw_blade>, <item:minecraft:air>],
+        [<tag:items:forge:ingots/electrum>, <tag:items:forge:gears/gold>, <tag:items:forge:ingots/electrum>],
+        [<tag:items:forge:gears/signalum>, <item:thermal:rf_coil>, <tag:items:forge:gears/signalum>]]);
+		
+craftingTable.addShaped("shapeed_speed_mine", <item:mekanism:upgrade_speed> * 2, [
+        [<tag:items:forge:dusts/signalum>, <item:evilcraft:promise_speed_0>, <tag:items:forge:dusts/signalum>],
+        [<tag:items:forge:dusts/lumium>, <item:thermal:machine_speed_augment>, <tag:items:forge:dusts/lumium>],
+        [<tag:items:forge:dusts/signalum>, <item:botania:brew_vial>.withTag({brewKey: "botania:speed" as string}), <tag:items:forge:dusts/signalum>]]);
+craftingTable.addShaped("shapeed_energy_mine", <item:mekanism:upgrade_energy> * 2, [
+        [<tag:items:forge:dusts/signalum>, <item:evilcraft:promise_efficiency_0>, <tag:items:forge:dusts/signalum>],
+        [<tag:items:forge:dusts/lumium>, <item:thermal:machine_efficiency_augment>, <tag:items:forge:dusts/lumium>],
+        [<tag:items:forge:dusts/signalum>, <item:botania:lens_power>, <tag:items:forge:dusts/signalum>]]);
+craftingTable.addShaped("shapeed_anchor_mine", <item:mekanism:upgrade_anchor>, [
+        [<tag:items:forge:dusts/signalum>, <item:botania:spawner_claw>, <tag:items:forge:dusts/signalum>],
+        [<tag:items:forge:dusts/enderium>, <item:powah:ender_gate_blazing>, <tag:items:forge:dusts/enderium>],
+        [<tag:items:forge:dusts/signalum>, <item:endertanks:ender_bucket>, <tag:items:forge:dusts/signalum>]]);
 	

@@ -1,0 +1,29 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = #292929
+}
+
+customization {
+  visible = false
+  x = -23
+  action = editlogo
+  y = -9
+}
+
+customization {
+  path = resources/sborka_logo.png
+  orientation = mid-centered
+  x = 0
+  width = 570
+  action = addtexture
+  actionid = 7ed0ddb5-1945-4168-87d7-f4ec090d1d8e1641829598562
+  y = -22
+  height = 88
+}
+

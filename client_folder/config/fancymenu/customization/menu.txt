@@ -9,6 +9,12 @@ customization-meta {
 }
 
 customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -29,12 +35,33 @@ customization {
 }
 
 customization {
-  identifier = %id=604382%
+  identifier = %id=376322%
   action = hidebutton
 }
 
 customization {
-  identifier = %id=376322%
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -107
+  action = movebutton
+  y = -41
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
   action = hidebutton
 }
 
@@ -54,27 +81,11 @@ customization {
 }
 
 customization {
-  identifier = %id=502382%
-  orientation = bottom-right
-  x = -107
-  action = movebutton
-  y = -41
-}
-
-customization {
   identifier = %id=376382%
   orientation = bottom-right
   x = -130
   action = movebutton
   y = -41
-}
-
-customization {
-  identifier = %id=400298%
-  orientation = mid-left
-  x = 4
-  action = movebutton
-  y = -25
 }
 
 customization {
@@ -93,11 +104,6 @@ customization {
 }
 
 customization {
-  identifier = %id=502346%
-  action = hidebutton
-}
-
-customization {
   path = resources/12345.png
   orientation = top-centered
   x = -232
@@ -106,20 +112,5 @@ customization {
   actionid = 36a49507-6e6c-4fe1-b940-13c33b43c1461640466663123
   y = 18
   height = 71
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = joinserver
-  x = -316
-  width = 201
-  actionid = ca4fb365-849e-440b-9c97-82d56a51e7d81640468745763
-  action = addbutton
-  y = -50
-  label = Играть
-  value = 31.134.135.227
-  height = 20
 }
 
