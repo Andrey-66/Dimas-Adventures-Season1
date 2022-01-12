@@ -1,0 +1,121 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = true
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = menu2_235j23h2j3h52j32
+  action = animatebackground
+}
+
+customization {
+  baseheight = 1080
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=400322%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = 25
+}
+
+customization {
+  identifier = %id=400382%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -107
+  action = movebutton
+  y = -41
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-right
+  x = -130
+  action = movebutton
+  y = -41
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = 50
+}
+
+customization {
+  identifier = %id=400346%
+  width = 50
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/12345.png
+  orientation = top-centered
+  x = -232
+  width = 465
+  action = addtexture
+  actionid = 36a49507-6e6c-4fe1-b940-13c33b43c1461640466663123
+  y = 18
+  height = 71
+}
+

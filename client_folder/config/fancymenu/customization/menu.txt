@@ -4,8 +4,13 @@ customization-meta {
   identifier = net.minecraft.client.gui.screen.MainMenuScreen
   randomgroup = 1
   renderorder = foreground
-  randommode = false
+  randommode = true
   randomonlyfirsttime = false
+}
+
+customization {
+  name = menu1_0198a4cf25bf423b
+  action = animatebackground
 }
 
 customization {
@@ -35,33 +40,12 @@ customization {
 }
 
 customization {
-  identifier = %id=376322%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=502382%
-  orientation = bottom-right
-  x = -107
-  action = movebutton
-  y = -41
-}
-
-customization {
-  identifier = %id=400298%
-  orientation = mid-left
-  x = 4
-  action = movebutton
-  y = -25
-}
-
-customization {
-  identifier = %id=502346%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
   action = hidebutton
 }
 
@@ -81,11 +65,27 @@ customization {
 }
 
 customization {
+  identifier = %id=502382%
+  orientation = bottom-right
+  x = -107
+  action = movebutton
+  y = -41
+}
+
+customization {
   identifier = %id=376382%
   orientation = bottom-right
   x = -130
   action = movebutton
   y = -41
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 4
+  action = movebutton
+  y = -25
 }
 
 customization {
@@ -101,6 +101,11 @@ customization {
   width = 50
   action = resizebutton
   height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
 }
 
 customization {
