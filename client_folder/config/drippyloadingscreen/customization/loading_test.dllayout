@@ -20,10 +20,10 @@ customization {
   path = resources/sborka_logo.png
   orientation = mid-centered
   x = 0
-  width = 570
+  width = 417
   action = addtexture
   actionid = 7ed0ddb5-1945-4168-87d7-f4ec090d1d8e1641829598562
-  y = -22
-  height = 88
+  y = 0
+  height = 70
 }
 
