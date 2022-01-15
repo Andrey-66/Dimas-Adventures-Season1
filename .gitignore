@@ -42,3 +42,4 @@ client_folder/config/sidebar_buttons.json
 client_folder/config/jeed-client.toml
 client_folder/config/invtweaks-client.toml
 client_folder/simple-rpc/server-entries.toml
+*.log
