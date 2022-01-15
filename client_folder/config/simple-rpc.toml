@@ -66,7 +66,7 @@
 	buttons = []
 
 [multi_player]
-	enabled = false
+	enabled = true
 	description = ""
 	state = ""
 	largeImageKey = ""
@@ -95,7 +95,7 @@
 		description = "Исследует обычный мир"
 		state = ""
 		largeImageKey = "overworld"
-		largeImageText = "%players% players"
+		largeImageText = ""
 		smallImageKey = "mclogo"
 		smallImageText = ""
 
@@ -104,7 +104,7 @@
 		description = "Спустился в преисподню "
 		state = ""
 		largeImageKey = "nether"
-		largeImageText = "%players% players"
+		largeImageText = ""
 		smallImageKey = "mclogo"
 		smallImageText = ""
 
@@ -113,16 +113,16 @@
 		description = "Путешествует по краю"
 		state = ""
 		largeImageKey = "end"
-		largeImageText = "%players% players"
+		largeImageText = ""
 		smallImageKey = "mclogo"
 		smallImageText = ""
 
 	[[dimension_overrides.dimensions]]
 		name = "twilightforest:twilightforest"
-		description = "Ищет приключений в "
+		description = "Ищет приключения в "
 		state = "Сумеречном лесу"
 		largeImageKey = "twilightforest"
-		largeImageText = "%players% players"
+		largeImageText = ""
 		smallImageKey = "mclogo"
 		smallImageText = ""
 
@@ -131,7 +131,7 @@
 		description = "Любуется радугой в Эльфхейме"
 		state = ""
 		largeImageKey = "alfheim"
-		largeImageText = "%players% players"
+		largeImageText = ""
 		smallImageKey = "mclogo"
 		smallImageText = ""
 
