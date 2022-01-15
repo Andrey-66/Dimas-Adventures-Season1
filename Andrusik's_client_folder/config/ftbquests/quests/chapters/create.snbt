@@ -1,0 +1,1833 @@
+{
+	id: "2F0CA19639EFA2A9"
+	group: "1E0A8915CBC35F34"
+	order_index: 6
+	filename: "create"
+	title: "Пора на завод"
+	icon: "create:cogwheel"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Новая эпоха"
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["45959E538A5AC827"]
+			hide: true
+			id: "6E77427C5344F329"
+			tasks: [
+				{
+					id: "77447E5120627A18"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "36D6FA1F997CB582"
+					type: "item"
+					item: "create:shaft"
+				}
+			]
+			rewards: [
+				{
+					id: "6790B3119A287099"
+					type: "item"
+					item: "create:cogwheel"
+					count: 4
+				}
+				{
+					id: "2B6BD1D2591DB65E"
+					type: "item"
+					item: "create:shaft"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Больше - лучше"
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["6E77427C5344F329"]
+			hide: true
+			id: "601D4B1995798F04"
+			tasks: [{
+				id: "2151DDA9CB2EFEFE"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [{
+				id: "6DA0C07D2EE6FCF1"
+				type: "item"
+				item: "create:cogwheel"
+				count: 5
+			}]
+		}
+		{
+			title: "Сейчас бы в Древний Рим"
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["6E77427C5344F329"]
+			hide: true
+			id: "7D04972EF2DC8C21"
+			tasks: [
+				{
+					id: "06BBBCEBEF60DA82"
+					type: "item"
+					item: "create:hand_crank"
+				}
+				{
+					id: "7B60F42C7C42AE37"
+					type: "item"
+					item: "create:copper_valve_handle"
+				}
+			]
+			rewards: [{
+				id: "33DA6DC68352CE05"
+				type: "item"
+				item: "create:shaft"
+				count: 5
+			}]
+		}
+		{
+			title: "Сплющение"
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["7D04972EF2DC8C21"]
+			hide: true
+			id: "11960F801A7C0D1A"
+			tasks: [
+				{
+					id: "652ED71EB83F4537"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "6BF02C6217BF71BD"
+					type: "item"
+					title: "Any #forge:plates"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:plates"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "125D4D9E17FE2737"
+				type: "choice"
+				table_id: 5521523319258406185L
+			}]
+		}
+		{
+			title: "Сила воды"
+			x: 3.5d
+			y: 0.5d
+			dependencies: [
+				"11960F801A7C0D1A"
+				"7D04972EF2DC8C21"
+			]
+			hide: true
+			id: "2206D34C041302B9"
+			tasks: [{
+				id: "7DA4CEEB261BE090"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "0A1211562169EEE6"
+				type: "item"
+				item: "minecraft:glass"
+				count: 16
+			}]
+		}
+		{
+			title: "С таким и на панель управления сфотографироваться можно"
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["11960F801A7C0D1A"]
+			hide: true
+			id: "53A4552F92FE08BC"
+			tasks: [{
+				id: "7938488BAA8CB1FA"
+				type: "item"
+				item: "create:wrench"
+			}]
+			rewards: [
+				{
+					id: "6BFE96BA72FA01D9"
+					type: "item"
+					item: "create:cogwheel"
+					count: 3
+				}
+				{
+					id: "271959A4403EC3E6"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
+		}
+		{
+			title: "Я сотру тебя в порошок!"
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["11960F801A7C0D1A"]
+			hide: true
+			id: "618C92CA73D20365"
+			tasks: [{
+				id: "16767AC895D3F6FE"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "478FB22528319F0E"
+				type: "choice"
+				table_id: 5521523319258406185L
+			}]
+		}
+		{
+			title: "Всегда найдётся рыба крупнее"
+			x: 5.5d
+			y: -1.5d
+			dependencies: [
+				"618C92CA73D20365"
+				"275F4FEC83426A08"
+				"5BEBF9A4F30968EE"
+			]
+			hide: true
+			id: "7C8DA5AE005DFCD5"
+			tasks: [{
+				id: "763D6C81D64B4329"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "13FBEBF93DA2CE7D"
+					type: "random"
+					table_id: 5521523319258406185L
+				}
+				{
+					id: "0522860A6A6FC66A"
+					type: "random"
+					table_id: 5521523319258406185L
+				}
+				{
+					id: "74755CAC47F90B42"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_crush"
+				}
+			]
+		}
+		{
+			title: "А тут не на Святом Духе"
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["7D04972EF2DC8C21"]
+			hide: true
+			id: "4D8F6B275D592D7C"
+			tasks: [{
+				id: "0D09FC6E351C29F0"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "0A2B919487EB1E96"
+				type: "item"
+				item: {
+					id: "minecraft:red_dye"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"ПКМ по конвееру для цвета\"}"
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "Спрятать всё!"
+			icon: "create:andesite_encased_shaft"
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["6E77427C5344F329"]
+			hide: true
+			id: "52FF063202391F95"
+			tasks: [
+				{
+					id: "4B75220DB3650CF4"
+					type: "item"
+					item: "create:andesite_casing"
+				}
+				{
+					id: "0204DE28FCFE2BBF"
+					type: "observation"
+					timer: 50L
+					observe: "block:create:andesite_encased_shaft"
+				}
+				{
+					id: "4A50086CD88F1EEB"
+					type: "item"
+					item: "create:wooden_bracket"
+				}
+				{
+					id: "451F0258D0E3D183"
+					type: "item"
+					item: "create:metal_bracket"
+				}
+			]
+			rewards: [{
+				id: "3AF0AA39A3EA91C8"
+				type: "item"
+				item: "create:andesite_casing"
+				count: 5
+			}]
+		}
+		{
+			title: "Универсальный механизм"
+			x: 5.5d
+			y: 0.5d
+			dependencies: [
+				"2206D34C041302B9"
+				"4961B1FA6699CB30"
+			]
+			hide: true
+			id: "6ABC8CC432237483"
+			tasks: [{
+				id: "59161038E35835DD"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [
+				{
+					id: "1374134046E8E046"
+					type: "item"
+					item: "minecraft:smooth_quartz_slab"
+					count: 3
+				}
+				{
+					id: "377CDAFD4DD8A74F"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "ars_1_gust"
+				}
+			]
+		}
+		{
+			title: "Верчу, как хочу"
+			x: -2.5d
+			y: 2.5d
+			description: [""]
+			dependencies: ["52FF063202391F95"]
+			hide: true
+			id: "5071CE9756F1F598"
+			tasks: [
+				{
+					id: "48FE35AB8BF0BF23"
+					type: "item"
+					item: "create:clutch"
+				}
+				{
+					id: "31A29931B98164D8"
+					type: "item"
+					item: "create:gearshift"
+				}
+			]
+			rewards: [{
+				id: "4A37B6AFAC599287"
+				type: "item"
+				item: "create:shaft"
+				count: 6
+			}]
+		}
+		{
+			title: "Манипуляция направлением"
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["5071CE9756F1F598"]
+			hide: true
+			id: "646DF80DA88207FC"
+			tasks: [
+				{
+					id: "551289956C14CDE2"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "6F9101C0A0B1DE8B"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+			rewards: [{
+				id: "3273E0B175808CD5"
+				type: "item"
+				item: "create:shaft"
+				count: 10
+			}]
+		}
+		{
+			title: "А теперь все вместе"
+			x: -6.5d
+			y: 2.5d
+			dependencies: ["646DF80DA88207FC"]
+			hide: true
+			id: "019B7D45E9E954DD"
+			tasks: [{
+				id: "3F96B8BAA7C9A2EB"
+				type: "item"
+				item: "create:adjustable_chain_gearshift"
+			}]
+			rewards: [{
+				id: "74281C86C844E696"
+				type: "item"
+				item: "create:encased_chain_drive"
+				count: 2
+			}]
+		}
+		{
+			title: "Всесторонний поток"
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["6ABC8CC432237483"]
+			hide: true
+			id: "49D6FC52822B9902"
+			tasks: [{
+				id: "63AB0955ECD37F6A"
+				type: "item"
+				item: "create:nozzle"
+			}]
+			rewards: [
+				{
+					id: "473A5B6884614848"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "7F1E476F6E563CB3"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_wind_shear"
+				}
+			]
+		}
+		{
+			title: "Кукуха едет"
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["601D4B1995798F04"]
+			hide: true
+			id: "306621A1E0FBB412"
+			tasks: [{
+				id: "0F97387B962B336B"
+				type: "item"
+				item: "create:cuckoo_clock"
+			}]
+			rewards: [{
+				id: "094E32EB47BD6279"
+				type: "item"
+				item: "botania:tiny_potato"
+			}]
+		}
+		{
+			title: "Автокраафт"
+			x: 3.5d
+			y: -3.5d
+			dependencies: [
+				"11960F801A7C0D1A"
+				"53A4552F92FE08BC"
+				"3419CABD5F6E8979"
+			]
+			hide: true
+			id: "275F4FEC83426A08"
+			tasks: [{
+				id: "1339BBEE60DBBE5D"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "785F23F0A9117E3E"
+				type: "item"
+				item: "create:cogwheel"
+				count: 5
+			}]
+		}
+		{
+			title: "Мы летим на всех парах!"
+			x: 1.5d
+			y: -5.5d
+			dependencies: ["275F4FEC83426A08"]
+			hide: true
+			id: "10471CA125C2A378"
+			tasks: [
+				{
+					id: "4F722A7E1B552C94"
+					type: "item"
+					item: "minecraft:rail"
+				}
+				{
+					id: "0C18CDA9FA35CB57"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+				{
+					id: "20DB75476B4D9B41"
+					type: "item"
+					item: "create:minecart_coupling"
+				}
+			]
+			rewards: [
+				{
+					id: "730FBC942467B77A"
+					type: "item"
+					item: "minecraft:rail"
+					count: 10
+				}
+				{
+					id: "7C6CBDC969190B5D"
+					type: "item"
+					item: "minecraft:powered_rail"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Детальная настройка"
+			x: 1.0d
+			y: -6.5d
+			dependencies: ["10471CA125C2A378"]
+			hide: true
+			id: "1B7686655B64BEAA"
+			tasks: [{
+				id: "45FCCAB5822AB557"
+				type: "item"
+				item: "create:controller_rail"
+			}]
+			rewards: [
+				{
+					id: "77875FA76A6963CF"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+				{
+					id: "71ECF63680C888BD"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+			]
+		}
+		{
+			title: "Давай двигай!"
+			x: 3.5d
+			y: 2.5d
+			dependencies: [
+				"1339BBEE60DBBE5D"
+				"7D04972EF2DC8C21"
+			]
+			hide: true
+			id: "3FD692C2E57C5017"
+			tasks: [
+				{
+					id: "0694DAB24D8915ED"
+					type: "item"
+					item: "create:mechanical_piston"
+				}
+				{
+					id: "4EC15985FC60AFB5"
+					type: "item"
+					item: "create:piston_extension_pole"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "02F8E1AAD4CF4FFA"
+				type: "item"
+				item: "create:piston_extension_pole"
+				count: 3
+			}]
+		}
+		{
+			title: "Липкое дело"
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["3FD692C2E57C5017"]
+			hide: true
+			id: "0E3C25926B33B502"
+			tasks: [
+				{
+					id: "0A6C4FDE93FC7FF9"
+					type: "item"
+					item: "create:sticky_mechanical_piston"
+				}
+				{
+					id: "383A26C1C303CE79"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3AD3A3FC28F18264"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Инспекция"
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["6E77427C5344F329"]
+			hide: true
+			id: "5AA91F7D725F5F45"
+			tasks: [
+				{
+					id: "32C0A56A792FE659"
+					type: "item"
+					item: "create:speedometer"
+				}
+				{
+					id: "21F7CC36C30B488C"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+			rewards: [{
+				id: "1953944DBA8240A2"
+				type: "item"
+				item: "create:shaft"
+				count: 10
+			}]
+		}
+		{
+			title: "Глаза инжинегра"
+			x: -4.5d
+			y: 0.5d
+			dependencies: [
+				"5F186A357E159028"
+				"1598EDFE82399901"
+				"26EBA995EA60E864"
+				"5AA91F7D725F5F45"
+			]
+			hide: true
+			id: "1B2FEDCA9DFE1AD0"
+			tasks: [{
+				id: "6FC521B902EBD677"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "335F49D623F07F95"
+				type: "item"
+				item: "create:cogwheel"
+				count: 5
+			}]
+		}
+		{
+			title: "Дом на железной дороге"
+			x: 2.0d
+			y: -6.5d
+			dependencies: ["10471CA125C2A378"]
+			hide: true
+			id: "41915EFF61246FFC"
+			tasks: [{
+				id: "5106288B7E424DE4"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [{
+				id: "74E7B1A533945ACF"
+				type: "item"
+				item: "minecraft:minecart"
+			}]
+		}
+		{
+			title: "Да здравствует стимпанк"
+			x: 7.5d
+			y: 0.5d
+			dependencies: [
+				"6ABC8CC432237483"
+				"1339BBEE60DBBE5D"
+			]
+			hide: true
+			id: "0127396CD2C9D0DC"
+			tasks: [
+				{
+					id: "1B64FE5403F3742D"
+					type: "item"
+					item: "create:flywheel"
+				}
+				{
+					id: "6022A5694EF1B3BA"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+				{
+					id: "11C2F8130B0732A3"
+					type: "item"
+					item: "createaddition:furnace_burner"
+				}
+			]
+			rewards: [{
+				id: "194597E0A9769229"
+				type: "item"
+				item: "minecraft:coal"
+				count: 32
+			}]
+		}
+		{
+			title: "Не взбалтывать!"
+			x: 3.5d
+			y: -5.5d
+			dependencies: ["275F4FEC83426A08"]
+			hide: true
+			id: "46BAEFF1392D9D9E"
+			tasks: [
+				{
+					id: "584B0A853E4DDFE0"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "2D203ECCBF29EB95"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [{
+				id: "03F71EAA52D45805"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Блок ожидания"
+			x: 1.5d
+			y: 4.5d
+			dependencies: [
+				"584B0A853E4DDFE0"
+				"2D203ECCBF29EB95"
+				"4D8F6B275D592D7C"
+			]
+			hide: true
+			id: "296E521E11A957BF"
+			tasks: [{
+				id: "1E1B55509648E65E"
+				type: "item"
+				item: "create:depot"
+			}]
+			rewards: [{
+				id: "3347AEC398E476E2"
+				type: "item"
+				item: "create:belt_connector"
+				count: 4
+			}]
+		}
+		{
+			title: "Экотопливо"
+			x: 3.5d
+			y: -7.5d
+			dependencies: ["46BAEFF1392D9D9E"]
+			hide: true
+			id: "136792E3AC46230B"
+			tasks: [
+				{
+					id: "69A9D0640D3FCB3A"
+					type: "item"
+					item: "create:empty_blaze_burner"
+				}
+				{
+					id: "44643D12967D6B0E"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+			]
+			rewards: [{
+				id: "4E39539C81F93E63"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Продвинутая воронка"
+			x: 3.5d
+			y: 4.5d
+			dependencies: [
+				"4D8F6B275D592D7C"
+				"652ED71EB83F4537"
+				"5D01BCACA5CB1697"
+				"0C5D8DD50905D12F"
+			]
+			hide: true
+			id: "55CD4F4941425E8B"
+			tasks: [
+				{
+					id: "5056983D82A16D0B"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "634A3120A177B84B"
+					type: "item"
+					item: "create:andesite_tunnel"
+				}
+				{
+					id: "37AC606745054AA7"
+					type: "item"
+					item: "create:chute"
+				}
+			]
+			rewards: [{
+				id: "4D5E8E5DF6B5B1ED"
+				type: "item"
+				item: "create:shaft"
+				count: 2
+			}]
+		}
+		{
+			title: "Тыкалка"
+			x: -0.5d
+			y: -3.5d
+			dependencies: [
+				"11960F801A7C0D1A"
+				"1598EDFE82399901"
+			]
+			hide: true
+			id: "53E49D94FAB6D520"
+			tasks: [{
+				id: "0C5D8DD50905D12F"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [
+				{
+					id: "0369BFB59538BB03"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "51F2C94B4FF6C218"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_interact"
+				}
+				{
+					id: "532A93410CC47B8E"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_place_block"
+				}
+			]
+		}
+		{
+			title: "Schnell!"
+			x: 5.5d
+			y: 4.5d
+			dependencies: [
+				"0C5D8DD50905D12F"
+				"4D8F6B275D592D7C"
+			]
+			hide: true
+			id: "2513CBE7275EA9D2"
+			tasks: [{
+				id: "4B76FAC6D4AFBE3C"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "031E3233A072DE30"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+		}
+		{
+			title: "Только давайте без клоунов"
+			x: -0.5d
+			y: -5.5d
+			dependencies: ["53E49D94FAB6D520"]
+			hide: true
+			id: "7EC62ACA68556273"
+			tasks: [{
+				id: "5D01BCACA5CB1697"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [
+				{
+					id: "4F8B2E98D034E3ED"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "04BD662E4096CCE8"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_fell"
+				}
+			]
+		}
+		{
+			title: "Фильтрация"
+			x: 3.5d
+			y: 6.5d
+			dependencies: ["55CD4F4941425E8B"]
+			id: "0FA650BB6ADE08BC"
+			tasks: [
+				{
+					id: "186F78CED7375F13"
+					type: "item"
+					item: "create:brass_funnel"
+				}
+				{
+					id: "3BC21D9B0E244B9F"
+					type: "item"
+					item: "create:brass_tunnel"
+				}
+				{
+					id: "012BB4B1209E5755"
+					type: "item"
+					item: "create:smart_chute"
+				}
+			]
+			rewards: [{
+				id: "183DC6D325C74EE8"
+				type: "item"
+				item: "create:cogwheel"
+				count: 5
+			}]
+		}
+		{
+			title: "Умный манипулятор"
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["53E49D94FAB6D520"]
+			hide: true
+			id: "4CC0B26DE2FDB470"
+			tasks: [{
+				id: "2AE532CDFCD912D5"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "4CE3B00D7F2090A3"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+		}
+		{
+			title: "Лифт"
+			x: 7.5d
+			y: 2.5d
+			dependencies: [
+				"0E3C25926B33B502"
+				"0C5D8DD50905D12F"
+				"5D01BCACA5CB1697"
+			]
+			hide: true
+			id: "74605F0AE91A6037"
+			tasks: [{
+				id: "15C4F350EB0DD375"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [
+				{
+					id: "1C17F5016628F155"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3A32ED3ED424BFAF"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Большие площади и объёмы"
+			x: 7.5d
+			y: 3.5d
+			dependencies: ["0E3C25926B33B502"]
+			hide: true
+			id: "01E004356EF7FE02"
+			tasks: [
+				{
+					id: "0C36A84AB897CE99"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "5C2BE28BF4F30622"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+			]
+			rewards: [
+				{
+					id: "36581D70E78D17C3"
+					type: "item"
+					item: "create:linear_chassis"
+					count: 5
+				}
+				{
+					id: "7DA999F71A5532BC"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_aoe"
+				}
+			]
+		}
+		{
+			title: "Тик так"
+			x: 9.5d
+			y: 2.5d
+			dependencies: [
+				"00B0A3EE3E961EBB"
+				"74605F0AE91A6037"
+				"01E004356EF7FE02"
+			]
+			hide: true
+			id: "2B3936E00FD203C9"
+			tasks: [
+				{
+					id: "2755EA9B8083F100"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "16912F484E3A0F09"
+					type: "item"
+					item: "create:turntable"
+				}
+				{
+					id: "6684F2E53A02E503"
+					type: "item"
+					item: "create:clockwork_bearing"
+				}
+			]
+			rewards: [{
+				id: "160DE082338A46F1"
+				type: "item"
+				item: "create:cogwheel"
+				count: 10
+			}]
+		}
+		{
+			title: "Залипни!"
+			x: 9.5d
+			y: 3.5d
+			dependencies: ["01E004356EF7FE02"]
+			hide: true
+			id: "1EA13B0C325C6583"
+			tasks: [{
+				id: "27B298161E20FC82"
+				type: "item"
+				item: "create:sticker"
+			}]
+		}
+		{
+			title: "Зелёная энергия"
+			x: 9.5d
+			y: 0.5d
+			dependencies: [
+				"5BEBF9A4F30968EE"
+				"7B6EE16F9C17FDB3"
+				"0127396CD2C9D0DC"
+				"2B3936E00FD203C9"
+			]
+			hide: true
+			id: "4B17E355DC7ABE48"
+			tasks: [
+				{
+					id: "3E9308733F52AA16"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "40C916136260E36B"
+					type: "item"
+					item: "create:white_sail"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "5F9E16A370C70F35"
+				type: "item"
+				item: "create:shaft"
+				count: 10
+			}]
+		}
+		{
+			title: "Любимая игрушка соседа"
+			x: -2.5d
+			y: -5.5d
+			dependencies: [
+				"3350920379A5581C"
+				"763D6C81D64B4329"
+				"7EC62ACA68556273"
+			]
+			hide: true
+			id: "712D1C6BB31BC433"
+			tasks: [{
+				id: "66F28FAFD5C75331"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "4EFE2381F8418E15"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			title: "printf(\"%s\",\"Hello world\");"
+			x: 11.5d
+			y: 2.5d
+			dependencies: ["2B3936E00FD203C9"]
+			hide: true
+			id: "6DA0575D4CAF7244"
+			tasks: [{
+				id: "6D1D98FE6588E828"
+				type: "item"
+				item: "create:sequenced_gearshift"
+			}]
+			rewards: [{
+				id: "6E4E2120D81DCE87"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Летающий хаос"
+			x: 1.5d
+			y: 6.5d
+			dependencies: ["296E521E11A957BF"]
+			hide: true
+			id: "5D5EEDBFB6ED19A2"
+			tasks: [{
+				id: "1B57E612F330FBA0"
+				type: "item"
+				item: "create:weighted_ejector"
+			}]
+			rewards: [{
+				id: "16C2CD81254AF349"
+				type: "item"
+				item: "create:belt_connector"
+				count: 4
+			}]
+		}
+		{
+			title: "Автоферма"
+			x: -0.5d
+			y: -7.5d
+			dependencies: ["7EC62ACA68556273"]
+			hide: true
+			id: "6C7A747AA606CDC1"
+			tasks: [
+				{
+					id: "14CC668E12191959"
+					type: "item"
+					item: "create:mechanical_plough"
+				}
+				{
+					id: "3DE2167977CCBA37"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+			]
+			rewards: [{
+				id: "5AE87DA095665790"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 16
+			}]
+		}
+		{
+			title: "Отсекая лишнее"
+			x: 3.5d
+			y: 8.5d
+			dependencies: ["0FA650BB6ADE08BC"]
+			hide: true
+			id: "0A68631D963E91E1"
+			tasks: [
+				{
+					id: "060D08E6FFED61ED"
+					type: "item"
+					item: {
+						id: "create:filter"
+						Count: 1b
+						tag: {
+							Items: { }
+						}
+					}
+				}
+				{
+					id: "66D7277FE2FE568D"
+					type: "item"
+					item: {
+						id: "create:attribute_filter"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "Базовая истема хранения"
+			x: 7.5d
+			y: 4.5d
+			dependencies: ["3FD692C2E57C5017"]
+			hide: true
+			id: "12D00CD33DFAC09E"
+			tasks: [{
+				id: "35ECAE78DD6DF902"
+				type: "item"
+				item: "create:adjustable_crate"
+			}]
+			rewards: [{
+				id: "779E9017CC042F77"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+		}
+		{
+			title: "Проверка содержимого"
+			x: 7.5d
+			y: 6.5d
+			dependencies: ["12D00CD33DFAC09E"]
+			hide: true
+			id: "5ED04893D509AC5E"
+			tasks: [{
+				id: "3853788149BF6BCD"
+				type: "item"
+				item: "create:content_observer"
+			}]
+			rewards: [{
+				id: "0649FA4312662587"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 32
+			}]
+		}
+		{
+			title: "Всос и высос"
+			x: 5.5d
+			y: 6.5d
+			dependencies: [
+				"12D00CD33DFAC09E"
+				"55CD4F4941425E8B"
+			]
+			hide: true
+			id: "35A6FAD5E744207C"
+			tasks: [{
+				id: "7BE552846F4A536B"
+				type: "item"
+				item: "create:portable_storage_interface"
+			}]
+		}
+		{
+			title: "Давайте строить Мурино"
+			x: -8.5d
+			y: 2.5d
+			dependencies: ["019B7D45E9E954DD"]
+			hide: true
+			id: "5B9E3FE4C618F582"
+			tasks: [
+				{
+					id: "11EE1367361C6271"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+				{
+					id: "03A54874B1F2906A"
+					type: "item"
+					item: "create:gantry_shaft"
+				}
+			]
+			rewards: [{
+				id: "51CCACA73F7FB772"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Передача жидкостей"
+			x: 1.5d
+			y: 10.5d
+			dependencies: [
+				"77447E5120627A18"
+				"36D6FA1F997CB582"
+			]
+			hide: true
+			id: "74540D5DADEA22F4"
+			tasks: [
+				{
+					id: "74505BE2E7C94FCA"
+					type: "item"
+					item: "create:copper_casing"
+				}
+				{
+					id: "0A3ECF637A4D2DA6"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "201DE72403AED822"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "4E19F40C84FF9765"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+			]
+			rewards: [{
+				id: "6E1698D508091E3C"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "Логическая сеть"
+			x: 1.5d
+			y: 13.5d
+			dependencies: [
+				"77447E5120627A18"
+				"36D6FA1F997CB582"
+			]
+			hide: true
+			id: "201693208F702B53"
+			tasks: [{
+				id: "05A840AC92338722"
+				type: "item"
+				item: "create:analog_lever"
+			}]
+			rewards: [
+				{
+					id: "63433EDD5A36D555"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 16
+				}
+				{
+					id: "79EAEC96FF7F4028"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_redstone_signal"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 10.5d
+			dependencies: [
+				"35A6FAD5E744207C"
+				"74540D5DADEA22F4"
+			]
+			hide: true
+			id: "3081A0AD7B2186C0"
+			tasks: [{
+				id: "6B407AB8AA712938"
+				type: "item"
+				item: "create:portable_fluid_interface"
+			}]
+		}
+		{
+			title: "Цистерна"
+			x: -0.5d
+			y: 10.5d
+			dependencies: ["74540D5DADEA22F4"]
+			hide: true
+			id: "7034BED34380CAAE"
+			tasks: [{
+				id: "5D9B96CDFF6D5E1C"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "12728A5CCF8D6B77"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			dependencies: [
+				"74540D5DADEA22F4"
+				"7D04972EF2DC8C21"
+			]
+			hide: true
+			id: "39EF35F516A85CDF"
+			tasks: [{
+				id: "6F1832E734171054"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+		}
+		{
+			title: "Заполнение"
+			x: -0.5d
+			y: 9.5d
+			dependencies: ["74540D5DADEA22F4"]
+			hide: true
+			id: "5C15C07EBA32C4BA"
+			tasks: [
+				{
+					id: "6896239EBF942655"
+					type: "item"
+					item: "create:item_drain"
+				}
+				{
+					id: "7C30D0E35E081D48"
+					type: "item"
+					item: "create:spout"
+				}
+			]
+			rewards: [{
+				id: "3FEC483078AC8B01"
+				type: "item"
+				item: "minecraft:bucket"
+				count: 16
+			}]
+		}
+		{
+			title: "Капитанская дочка. Пушкин."
+			x: -0.5d
+			y: 11.5d
+			dependencies: ["74540D5DADEA22F4"]
+			hide: true
+			id: "5F4DD2A5261D16A6"
+			tasks: [{
+				id: "1DCB043EED3E7773"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [{
+				id: "295EC9BDD0C25BCA"
+				type: "item"
+				item: {
+					id: "create:filter"
+					Count: 1b
+					tag: {
+						Items: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 10.5d
+			description: ["Shift + ПКМ изумрудом , чтобы сделать резервуар доступным только команде"]
+			dependencies: [
+				"5C15C07EBA32C4BA"
+				"7034BED34380CAAE"
+				"5F4DD2A5261D16A6"
+			]
+			hide: true
+			id: "636841A026013A05"
+			tasks: [
+				{
+					id: "3848E734CD1BC0BA"
+					type: "item"
+					item: {
+						id: "endertanks:ender_tank"
+						Count: 1b
+						tag: {
+							owner: "all"
+							code: "000"
+						}
+					}
+				}
+				{
+					id: "21612AE08C6CDC4B"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+			rewards: [{
+				id: "514DB9B6936B09FA"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			dependencies: ["636841A026013A05"]
+			hide: true
+			id: "000E186E1AE1C14E"
+			tasks: [{
+				id: "35D2141002215D84"
+				type: "item"
+				item: {
+					id: "endertanks:ender_bucket"
+					Count: 1b
+					tag: {
+						owner: "all"
+						code: "000"
+					}
+				}
+			}]
+		}
+		{
+			title: "Продвинутый логик"
+			x: 3.5d
+			y: 13.5d
+			dependencies: ["201693208F702B53"]
+			hide: true
+			id: "1B8374F2CCB5AA4A"
+			tasks: [
+				{
+					id: "519DE337A72BB0AE"
+					type: "item"
+					item: "create:powered_latch"
+				}
+				{
+					id: "6440EA6C69701535"
+					type: "item"
+					item: "create:powered_toggle_latch"
+				}
+				{
+					id: "217192D3522AA408"
+					type: "item"
+					item: "create:adjustable_repeater"
+				}
+				{
+					id: "221B05F445929D44"
+					type: "item"
+					item: "create:adjustable_pulse_repeater"
+				}
+				{
+					id: "47EB399187CF53D7"
+					type: "item"
+					item: "create:pulse_repeater"
+				}
+			]
+			rewards: [{
+				id: "5A27E01C5F5D969B"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 5
+			}]
+		}
+		{
+			title: "Залипательные числа"
+			x: 1.5d
+			y: 15.5d
+			dependencies: ["1B8374F2CCB5AA4A"]
+			hide: true
+			id: "07F5149A435EA26F"
+			tasks: [{
+				id: "7075757A436AA30C"
+				type: "item"
+				item: "create:nixie_tube"
+			}]
+			rewards: [{
+				id: "634D06BA204BA469"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 13.5d
+			dependencies: [
+				"5ED04893D509AC5E"
+				"1B8374F2CCB5AA4A"
+			]
+			hide: true
+			id: "44517B30D5D4ACE7"
+			tasks: [{
+				id: "54C13E069F3D18A5"
+				type: "item"
+				item: "create:stockpile_switch"
+			}]
+			rewards: [{
+				id: "66DEEF595659B760"
+				type: "item"
+				item: "ars_nouveau:glyph_redstone_signal"
+			}]
+		}
+		{
+			title: "Wi-fi"
+			x: 3.5d
+			y: 15.5d
+			dependencies: ["1B8374F2CCB5AA4A"]
+			hide: true
+			id: "71191EA83FA3DC92"
+			tasks: [
+				{
+					id: "4E95587AC99A0CAF"
+					type: "item"
+					item: "create:redstone_link"
+					count: 2L
+				}
+				{
+					id: "19184C4DF37B9877"
+					type: "item"
+					item: "create:linked_controller"
+				}
+			]
+			rewards: [{
+				id: "11DE791360721F54"
+				type: "item"
+				item: "create:redstone_link"
+				count: 2
+			}]
+		}
+		{
+			x: 5.5d
+			y: 15.5d
+			dependencies: [
+				"1B8374F2CCB5AA4A"
+				"0694DAB24D8915ED"
+			]
+			hide: true
+			id: "56DC2CB584AE03B7"
+			tasks: [{
+				id: "58CF3F59BBEA9EBA"
+				type: "item"
+				item: "create:redstone_contact"
+			}]
+			rewards: [{
+				id: "47AB623F15799CEA"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+		}
+		{
+			title: "Длиннорукий"
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["4CC0B26DE2FDB470"]
+			hide: true
+			id: "5207B06B8FB84155"
+			tasks: [{
+				id: "03C4D22AF2BF2944"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Погружение"
+			x: 1.5d
+			y: 12.0d
+			dependencies: ["74540D5DADEA22F4"]
+			hide: true
+			id: "74EB7548F013208C"
+			tasks: [
+				{
+					id: "762953CE961589C5"
+					type: "item"
+					item: {
+						id: "create:diving_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "60041265466B48F9"
+					type: "item"
+					item: {
+						id: "create:diving_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B2C8FA92DB144EE"
+					type: "item"
+					item: {
+						id: "create:copper_backtank"
+						Count: 1b
+						tag: {
+							Air: 900
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2870568CD2F5E98D"
+				type: "item"
+				item: {
+					id: "botania:brew_vial"
+					Count: 1b
+					tag: {
+						brewKey: "botania:water_breathing"
+					}
+				}
+			}]
+		}
+		{
+			title: "Возмездие белоруссов"
+			x: 2.5d
+			y: 12.0d
+			dependencies: ["74540D5DADEA22F4"]
+			hide: true
+			id: "60BE90510A7C7FEC"
+			tasks: [{
+				id: "6B212BFFA2FBA83B"
+				type: "item"
+				item: {
+					id: "create:potato_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3EACD196FC8CB3E3"
+				type: "item"
+				item: "minecraft:potato"
+				count: 16
+			}]
+		}
+		{
+			title: "Сумка с инструментами"
+			x: -6.5d
+			y: 0.5d
+			dependencies: ["1B2FEDCA9DFE1AD0"]
+			hide: true
+			id: "64F6C89C15CF13A6"
+			tasks: [{
+				id: "52A3B5A5653F24EF"
+				type: "item"
+				item: "create:brown_toolbox"
+			}]
+			rewards: [{
+				id: "2EA03B6D8CC41653"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.5d
+			dependencies: [
+				"77447E5120627A18"
+				"36D6FA1F997CB582"
+			]
+			hide: true
+			id: "7C9B08501C5196B4"
+			tasks: [
+				{
+					id: "33A1B64EE15E4D63"
+					type: "item"
+					item: "create:schematicannon"
+				}
+				{
+					id: "029C765E19B06EB8"
+					type: "item"
+					item: "create:schematic_table"
+				}
+				{
+					id: "3F027592629BB971"
+					type: "item"
+					item: "create:schematic_and_quill"
+				}
+			]
+			rewards: [{
+				id: "34B8AB10AE8DB540"
+				type: "item"
+				item: "create:empty_schematic"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["0127396CD2C9D0DC"]
+			hide: true
+			id: "126671D3213C965D"
+			tasks: [
+				{
+					id: "76D989519A3BD650"
+					type: "item"
+					item: "createaddition:alternator"
+				}
+				{
+					id: "5718F4D94BA7AA13"
+					type: "item"
+					item: "createaddition:rolling_mill"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			dependencies: ["126671D3213C965D"]
+			hide: true
+			id: "251F2C93BEA9A769"
+			tasks: [{
+				id: "3CA3D8815D2239E0"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			dependencies: ["0127396CD2C9D0DC"]
+			hide: true
+			id: "33A3FD104DBD7B14"
+			tasks: [{
+				id: "2F37E47D1BAC69AE"
+				type: "item"
+				item: "createaddition:crude_burner"
+			}]
+		}
+	]
+}

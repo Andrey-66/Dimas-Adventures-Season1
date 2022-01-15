@@ -1,0 +1,11 @@
+#281 byg:boreal_forest
+#72F byg:cherry_blossom_forest
+#00A byg:cypress_swamplands
+#010 minecraft:forest
+#73C byg:grassland_plateau
+#5F3 byg:meadow
+#5A5 biomesoplenty:orchard
+#3DC minecraft:plains
+#5FF minecraft:river
+#5ED byg:seasonal_birch_forest
+#452 minecraft:wooded_hills

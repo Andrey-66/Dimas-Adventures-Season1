@@ -1,0 +1,257 @@
+{
+	id: "62F1892AFDBCAEC9"
+	group: "1E0A8915CBC35F34"
+	order_index: 11
+	filename: "62F1892AFDBCAEC9"
+	title: "Термальные технологии"
+	icon: "thermal:rf_coil"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: -1.0d
+			hide: true
+			id: "0449DFFD785FDC20"
+			tasks: [{
+				id: "74E32500CE3A1D6F"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["0449DFFD785FDC20"]
+			hide: true
+			id: "36B3432CBBF66D4E"
+			tasks: [{
+				id: "0E88BBB82D5CB9FC"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["0449DFFD785FDC20"]
+			hide: true
+			id: "46467CA637BE8775"
+			tasks: [{
+				id: "6A643F2F8559D185"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			hide: true
+			id: "3829B4E213079B52"
+			tasks: [{
+				id: "5B0B30E2A724DC78"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			hide: true
+			id: "393811BEBE147F5F"
+			tasks: [{
+				id: "6760B6A44F067120"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			hide: true
+			id: "68F60B0B5D97C450"
+			tasks: [{
+				id: "5A682364D0DEA8F2"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			hide: true
+			id: "311EA12BE20FED2C"
+			tasks: [{
+				id: "2758D1248A37F8BE"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			hide: true
+			id: "25A766648C827943"
+			tasks: [{
+				id: "69E653F028536C66"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["46467CA637BE8775"]
+			hide: true
+			id: "67DAA7A7B676E6A2"
+			tasks: [{
+				id: "7CE4D353B4E7908E"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["0449DFFD785FDC20"]
+			hide: true
+			id: "4D7ADB13B13FF4DA"
+			tasks: [{
+				id: "162853811FAC4045"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["0449DFFD785FDC20"]
+			hide: true
+			id: "08E92D35847A2884"
+			tasks: [{
+				id: "3CA1FA347A25D6B5"
+				type: "item"
+				item: "thermal:device_nullifier"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["0449DFFD785FDC20"]
+			hide: true
+			id: "2A337631396BBC85"
+			tasks: [{
+				id: "589DAB0EF107CA95"
+				type: "item"
+				item: "thermal:device_potion_diffuser"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["0449DFFD785FDC20"]
+			hide: true
+			id: "2C4EDB757998504A"
+			tasks: [{
+				id: "06CD9382C900AC52"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["0449DFFD785FDC20"]
+			hide: true
+			id: "566F81004077C248"
+			tasks: [{
+				id: "368ED56EBD9555B7"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["0449DFFD785FDC20"]
+			hide: true
+			id: "678BD307C64177A8"
+			tasks: [{
+				id: "674B47571C924F3C"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			dependencies: [
+				"2C4EDB757998504A"
+				"566F81004077C248"
+			]
+			hide: true
+			id: "683FF98F8059F631"
+			tasks: [{
+				id: "13B84A872F008B05"
+				type: "item"
+				item: "thermal:tinker_bench"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["0449DFFD785FDC20"]
+			id: "1C0AB625343C5B02"
+			tasks: [{
+				id: "5F34849519CCEB61"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["0449DFFD785FDC20"]
+			id: "2E23BE82BD8F3EF8"
+			tasks: [{
+				id: "11C6DE40A1086221"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			dependencies: ["0449DFFD785FDC20"]
+			id: "51DFE12247533CB3"
+			tasks: [{
+				id: "1F2BCBE2F980213E"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+		}
+	]
+}

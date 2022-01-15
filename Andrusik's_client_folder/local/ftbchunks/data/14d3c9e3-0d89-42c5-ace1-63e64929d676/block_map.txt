@@ -1,0 +1,17 @@
+#52B53D minecraft:air
+#B152E8 minecraft:black_wool
+#058353 minecraft:cobblestone
+#2566A5 minecraft:emerald_block
+#2F436F minecraft:glass
+#482EEB minecraft:glowstone
+#493704 minecraft:gray_wool
+#2E2249 minecraft:iron_block
+#96831B minecraft:light_gray_wool
+#5EA8D2 minecraft:lime_wool
+#FB9751 minecraft:quartz_slab
+#25AEF5 minecraft:redstone_block
+#12E6C4 minecraft:snow_block
+#DC3458 minecraft:stone
+#B21185 minecraft:stone_brick_slab
+#43D995 minecraft:stone_brick_stairs
+#F8955F minecraft:stone_bricks

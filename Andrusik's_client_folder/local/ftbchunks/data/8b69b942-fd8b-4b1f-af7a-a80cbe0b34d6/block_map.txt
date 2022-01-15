@@ -1,0 +1,5 @@
+#52B53D minecraft:air
+#9CFEB8 minecraft:black_concrete
+#2D74D4 minecraft:gray_concrete
+#268F7E minecraft:gray_glazed_terracotta
+#DC3458 minecraft:stone

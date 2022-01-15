@@ -1,0 +1,545 @@
+{
+	id: "20DB0397D65CC924"
+	group: "1E0A8915CBC35F34"
+	order_index: 9
+	filename: "applied_energistics"
+	title: "Цифровые архивы"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Эпоха высоких технологий"
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["126671D3213C965D"]
+			id: "76CC72DD5C6A8BFB"
+			tasks: [
+				{
+					id: "151D5811F79AE28E"
+					type: "item"
+					item: "appliedenergistics2:inscriber"
+				}
+				{
+					id: "003D7B9FF1644AE7"
+					type: "item"
+					item: "appliedenergistics2:printed_silicon"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["76CC72DD5C6A8BFB"]
+			id: "4F05F7D5D508D0E1"
+			tasks: [{
+				id: "6F30669F1D27A419"
+				type: "item"
+				item: "appliedenergistics2:sky_compass"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: ["Заряжает кристаллы истенного кварца. Может быть запитан кабелем или деревянной ручкой."]
+			dependencies: ["76CC72DD5C6A8BFB"]
+			id: "6691D315BBFDB744"
+			tasks: [
+				{
+					id: "494D122387611475"
+					type: "item"
+					item: "appliedenergistics2:charger"
+				}
+				{
+					id: "719B7EDBC718BA6E"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["76CC72DD5C6A8BFB"]
+			id: "68E9726E380B0C44"
+			tasks: [
+				{
+					id: "120FC7B8410F56FA"
+					type: "item"
+					item: "appliedenergistics2:quartz_growth_accelerator"
+				}
+				{
+					id: "6B523C60015BDEEE"
+					type: "item"
+					item: "appliedenergistics2:certus_crystal_seed"
+				}
+				{
+					id: "58E57F39C6B98575"
+					type: "item"
+					item: "appliedenergistics2:fluix_crystal_seed"
+				}
+				{
+					id: "0404637091DF0709"
+					type: "item"
+					item: "appliedenergistics2:nether_quartz_seed"
+				}
+			]
+			rewards: [
+				{
+					id: "064B800694FF5F68"
+					type: "item"
+					item: "appliedenergistics2:certus_crystal_seed"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "74D93E51F54477C1"
+					type: "item"
+					item: "appliedenergistics2:fluix_crystal_seed"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "1A55168A60209667"
+					type: "item"
+					item: "appliedenergistics2:nether_quartz_seed"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Система хранения цифр"
+			icon: "appliedenergistics2:chest"
+			x: 1.5d
+			y: 0.5d
+			dependencies: [
+				"76CC72DD5C6A8BFB"
+				"470AE5C4F18233AF"
+			]
+			id: "6731660D6648FA84"
+			tasks: [
+				{
+					id: "2E3B8233018E9246"
+					type: "item"
+					item: "appliedenergistics2:chest"
+				}
+				{
+					id: "3CFE87CF1EB2852B"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:1k_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0EF7C05B22BDCF39"
+					type: "item"
+					item: "appliedenergistics2:vibration_chamber"
+				}
+			]
+			rewards: [{
+				id: "348A4BEEF9655837"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+			}]
+		}
+		{
+			title: "Умная система"
+			x: 4.0d
+			y: 0.5d
+			description: [
+				"МЭ Накопитель служит для хранения ресурсов (ячеек хранения)"
+				""
+				"МЭ Терминал необходим для получения доступа к инвентарю системы"
+				""
+				"Приёмщик энергии позволяет запитать систему электричеством. К нему следует подключать генераторю"
+				""
+				"С помощью кабеля разрозненные блоки соединяются в одну систему."
+				""
+				"Ключ для скручивания проводов"
+				""
+				"Каждый элемент системы занимает 1 канал в кабеле. Базовый кабель может пропускать не более 8 каналов. Максимальный кабель - умный плотный кабель."
+			]
+			dependencies: ["6731660D6648FA84"]
+			id: "48A29D0E8EE98514"
+			tasks: [
+				{
+					id: "22977B441402EDA2"
+					type: "item"
+					item: "appliedenergistics2:energy_acceptor"
+				}
+				{
+					id: "301E90085861A1FD"
+					type: "item"
+					item: "appliedenergistics2:fluix_glass_cable"
+				}
+				{
+					id: "0B30D37E0B059CE7"
+					type: "item"
+					item: "appliedenergistics2:drive"
+				}
+				{
+					id: "0AC7BC34FE228D1F"
+					type: "item"
+					item: "appliedenergistics2:terminal"
+				}
+				{
+					id: "1419AD53D5DFB7FC"
+					type: "item"
+					title: "Any #appliedenergistics2:quartz_wrench"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "appliedenergistics2:quartz_wrench"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Настрока доступа"
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["48A29D0E8EE98514"]
+			id: "12F57D5A41F6FCE1"
+			tasks: [
+				{
+					id: "54A3024AB4274BA0"
+					type: "item"
+					item: "appliedenergistics2:security_station"
+				}
+				{
+					id: "23DC26E80D6C6D07"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:biometric_card"
+						Count: 1b
+						tag: {
+							profile: {
+								Id: [I;
+									-1469363895
+									-1075820680
+									-1717412371
+									1093286825
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzOTk0NzMzODg0NywKICAicHJvZmlsZUlkIiA6ICJhODZiNDk0OWJmZTA0Nzc4OTlhMjVkZWQ0MTJhM2JhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmRyZXk2NiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZmY3ZTgyYzBmYjNiMTk3NTcwZDhiZGIzMGMzMDU4Y2E1N2JhZGQ0MzYyY2EzNmMwMzJiZTkyNmQ2OTMxYjM4IgogICAgfQogIH0KfQ=="
+										Signature: "Cmtqb9s2vYNpIc2mP4k2PvmTWorO06K7EQ/K0esugFxBD6ani4k72ky+gw801zOiX0Opz6xxjyjG23WaDT0LNkP80zIChreDFF0jxpPP5/AJdO5PLUI4t1x/iHU3b6LfeWkOD3ZM5J4995v7qYBz+gumY4c+W3WN8MUoXijSr3uNX1arKd0LwTDY32SaK0mmQfQplvZH9w4ZzDSvvr/fQdb5MhbXyeP6X9axAv+YH/DiD840YwyHuDPpSQOGoLd3Z36Biv6kk9gkK/drUY/lnXjX9c3qL7CxviFDcCwHwoD6gSuoJeue03vdpox2mn+kkJ0b58tG3J7s4d5wyGsBDoHtd8v8FrWK7cyoCXTaRt7j8EMS0lxlvHAhpI9x3Jz4wtU+dG64CZKfuORVy44B+VDlfQcJkce6FA4eQb8k7tyc0t5eCRaQ4X0cs9I6XcIbnJGISitqVlLqQ1ozLFf087OzA/4qgkT1fMfTDNIepMx0UY41IzxPtm9HrBkiqHAxuNEXDRqPFZO0vFg/lIyiWPLMjSv/retYcVoMNkOCzoBb3gopBshbUSo6FUvDpsj+/8mae45JuZ0biNBPTRraC0N5PbH8CaGVxg1GzxsMpAOMstsoWHE9qMkjtlO46jdMgD/gV4C2QWcaqTLH+ub9dyvFAdnctnLVvSEmTH3HTKo="
+									}]
+								}
+								Name: "Andrey66"
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2A9246EDB9A59902"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:biometric_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: [
+				"48A29D0E8EE98514"
+				"79B20D45560C271A"
+			]
+			id: "5BFCB80C89F13938"
+			tasks: [{
+				id: "684202135BBA746D"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+			rewards: [{
+				id: "5CC42B2C5F65B997"
+				type: "item"
+				item: "appliedenergistics2:fluix_covered_cable"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			title: "Когда каналов не хватает"
+			x: 6.5d
+			y: 0.5d
+			description: ["Котроллер в каждую из своих сторон выдаёт по 32 канала. Более того, он может быть объеденён с другими контроллерами в одну структуру. В одной сети может быть не более одного контроллера/структуры контроллеров."]
+			dependencies: ["48A29D0E8EE98514"]
+			id: "55B5AAD8D87D443F"
+			tasks: [{
+				id: "60350CBF4EF8419D"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			title: "Автоматический верстак"
+			x: 6.5d
+			y: -1.5d
+			description: [
+				"Молекулярный сборщик - блок, в котором происходит создание предмета."
+				""
+				"Хранилище крафта - блок, способный обрабатывать целые цепочки крафтов и создавать предметы в нужном порядке. Например, вы хотите автоматически создать дверь. При наличии возможности хранилище крафта сначала создаст доски из брёвен, а затем дверь. Могут складывать свои силы при размещении рядом, но одня структура может одновременно обраюатывать один заказанный крафт и сопутствующие крафты (нельзя заказать 2 предмета паралельно при одной стуртуре хранилищ в системе)."
+				""
+				"МЭ интерфейс - блок, поставляющий предметы в молекулярный сборщик и другие иситемы для крафта. Он также позволяет забирать готовую продукцию из молекулярного сборщика. Для корректной работы автокрафта в интерфейс необходимо установить закодированный шаблон. Может быть уменшен в размерах путём добавления интерфейса в сетку крафта верстака."
+				""
+				"МЭ терминал интерфейсов - терминал для доступа сразу ко всем интерфейсам системы."
+				""
+				"МЭ терминал шаблонов - терминал, способный кодировать пустые шаблоны. Для кодировки стандартного крафта необходимо выложить его в нижней части окна терминала. Для кодирования другого крафта, необходимо выбрать вместо верстака печь и указать ингредиенты в сетке крафта, выходные ресурсы в столбце справа."
+			]
+			dependencies: ["48A29D0E8EE98514"]
+			id: "7FDACF7027E0787E"
+			tasks: [
+				{
+					id: "36D2F988FBBFF8F6"
+					type: "item"
+					item: "appliedenergistics2:molecular_assembler"
+				}
+				{
+					id: "7D452D0F43843084"
+					type: "item"
+					item: "appliedenergistics2:1k_crafting_storage"
+				}
+				{
+					id: "257D81B8364EE534"
+					type: "item"
+					item: "appliedenergistics2:interface"
+				}
+				{
+					id: "3DC6E47E204687B9"
+					type: "item"
+					item: "appliedenergistics2:interface_terminal"
+				}
+				{
+					id: "0AA2F13E8F0B71C9"
+					type: "item"
+					item: "appliedenergistics2:pattern_terminal"
+				}
+				{
+					id: "660389EFA6B9EC22"
+					type: "item"
+					item: "appliedenergistics2:blank_pattern"
+				}
+			]
+			rewards: [{
+				id: "01D012F5256AD87E"
+				type: "item"
+				item: "appliedenergistics2:blank_pattern"
+				count: 3
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			description: ["Блок, показывающий, чем занято хранилище создания. Должен быть размещён вплотную к нему."]
+			dependencies: ["7FDACF7027E0787E"]
+			id: "0D94D2EECD8A2017"
+			tasks: [{
+				id: "05361AC65D1B6E8E"
+				type: "item"
+				item: "appliedenergistics2:crafting_monitor"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			description: ["Шина, способная извлекать предметы по фильтру."]
+			dependencies: ["7FDACF7027E0787E"]
+			id: "19CAEF0AB4F1C3F9"
+			tasks: [{
+				id: "206782E35D560185"
+				type: "item"
+				item: "appliedenergistics2:import_bus"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			description: ["Жидкостная шина хранения позволяет видеть в системе жидкости присоеденённых резервуаров"]
+			dependencies: ["2D76A4EF64CB8E60"]
+			id: "7C78C4BA98D4377D"
+			tasks: [
+				{
+					id: "724D6482EF78CAED"
+					type: "item"
+					item: "appliedenergistics2:fluid_terminal"
+				}
+				{
+					id: "7FD21E8B98B008D1"
+					type: "item"
+					item: "appliedenergistics2:fluid_storage_bus"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			description: ["Шина хранения позволяет получить доступ в системе к предметам, которые находятся в присоеденённых сундуках"]
+			dependencies: ["48A29D0E8EE98514"]
+			id: "2D76A4EF64CB8E60"
+			tasks: [{
+				id: "430C1F34F31FC8AD"
+				type: "item"
+				item: "appliedenergistics2:storage_bus"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			description: [
+				"Поскость уничтожения поглащает рядом стоящий блок в систему"
+				""
+				"Идентефикационная поскость уничтожения поглащает рядом стоящий блок в систему с шёлковым касанием"
+				""
+				"Жидкостная Поскость уничтожения поглащает рядом стоящую жидкость в систему"
+			]
+			dependencies: ["48A29D0E8EE98514"]
+			id: "182BB43307C4D442"
+			tasks: [
+				{
+					id: "60F06560AEDBB159"
+					type: "item"
+					item: "appliedenergistics2:annihilation_plane"
+				}
+				{
+					id: "763386FABAE58722"
+					type: "item"
+					item: "appliedenergistics2:identity_annihilation_plane"
+				}
+				{
+					id: "1ADB5C7DDB1F963F"
+					type: "item"
+					item: "appliedenergistics2:fluid_annihilation_plane"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			description: ["Шина, способная извлекать жидкость по фильтру из резервуаров."]
+			dependencies: ["19CAEF0AB4F1C3F9"]
+			id: "33C2026EC17B9452"
+			tasks: [{
+				id: "513F7CE25028020D"
+				type: "item"
+				item: "appliedenergistics2:fluid_import_bus"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.5d
+			description: [
+				""
+				"Шина, способная извлекать предметы из системы в сундук."
+			]
+			dependencies: ["19CAEF0AB4F1C3F9"]
+			id: "7302299107D16BBC"
+			tasks: [{
+				id: "6CA7662D386A3632"
+				type: "item"
+				item: "appliedenergistics2:export_bus"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			description: ["Шина, способная извлекать жидкость из системы в бак."]
+			dependencies: ["7302299107D16BBC"]
+			id: "6567F862BDD6EAE7"
+			tasks: [{
+				id: "43AAD5662CA62507"
+				type: "item"
+				item: "appliedenergistics2:fluid_export_bus"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["182BB43307C4D442"]
+			id: "5101D1CF407A4F2D"
+			tasks: [
+				{
+					id: "20E2C8B09C6C01E9"
+					type: "item"
+					item: "appliedenergistics2:formation_plane"
+				}
+				{
+					id: "6C27693A0DE57DEF"
+					type: "item"
+					item: "appliedenergistics2:fluid_formation_plane"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			dependencies: ["7FDACF7027E0787E"]
+			id: "5222A66FDAADEB38"
+			tasks: [{
+				id: "0D092FC5A03E0C51"
+				type: "item"
+				item: "appliedenergistics2:cable_fluid_interface"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["МЭ порт ввода/вывода позволяет передавать предметы между MЭ сетью и МЭ ячейками памяти либо в другие запоминающие ячейки, в отличие от других форм автоматизации, он может послать вещи без какой-либо конфигурации или конкретные предметы."]
+			dependencies: ["48A29D0E8EE98514"]
+			id: "7722A6F20C56E233"
+			tasks: [{
+				id: "44F30B7D74F2790F"
+				type: "item"
+				item: "appliedenergistics2:io_port"
+			}]
+		}
+		{
+			title: "Полезныя мусорка"
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["6731660D6648FA84"]
+			id: "0CCE07F87AE3CC4C"
+			tasks: [{
+				id: "2C0F7A144C77A931"
+				type: "item"
+				item: "appliedenergistics2:condenser"
+			}]
+		}
+		{
+			title: "Квантовый мост"
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["0CCE07F87AE3CC4C"]
+			id: "0B87970D59D4E86D"
+			tasks: [
+				{
+					id: "1A69E638D952A6A8"
+					type: "item"
+					item: "appliedenergistics2:quantum_ring"
+					count: 16L
+				}
+				{
+					id: "2CF98A01B637B3C0"
+					type: "item"
+					item: "appliedenergistics2:quantum_link"
+					count: 2L
+				}
+				{
+					id: "5AA379EA42B1F177"
+					type: "item"
+					item: "appliedenergistics2:quantum_entangled_singularity"
+					count: 2L
+				}
+			]
+		}
+	]
+}

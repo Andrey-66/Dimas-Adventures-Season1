@@ -1,0 +1,903 @@
+{
+	id: "32C661B3D9B74B66"
+	group: "1E0A8915CBC35F34"
+	order_index: 10
+	filename: "Staff"
+	title: "Полезные штучки"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Да будет свет"
+			x: -10.5d
+			y: -0.5d
+			id: "1610C2E8ACC09A12"
+			tasks: [{
+				id: "7F364F809F9CB486"
+				type: "item"
+				item: "calemiutils:torch_placer"
+			}]
+			rewards: [
+				{
+					id: "4EADEE755ED64CA5"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16
+				}
+				{
+					id: "5436D4211C425B99"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_light"
+				}
+			]
+		}
+		{
+			title: "Большие карманы"
+			x: -4.5d
+			y: -0.5d
+			id: "5168A5BC5F9F135F"
+			tasks: [{
+				id: "69563829DB9EF386"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "4FD5710BCD2A3E56"
+				type: "item"
+				item: {
+					id: "minecraft:golden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "На ночёвку к другу"
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["5168A5BC5F9F135F"]
+			id: "59B3148CF555FEA4"
+			tasks: [{
+				id: "0240126C19E9D97C"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "72192B9A0C11F23E"
+				type: "item"
+				item: {
+					id: "minecraft:golden_sword"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Собрались в поход"
+			x: -4.5d
+			y: 3.5d
+			dependencies: ["59B3148CF555FEA4"]
+			id: "5661E6DC0A37242B"
+			tasks: [{
+				id: "6865DD39180BF19C"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "544397D741789F13"
+				type: "item"
+				item: {
+					id: "twilightforest:ironwood_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 1s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Отпуск? Почему бы и нет!"
+			x: -4.5d
+			y: 5.5d
+			dependencies: ["5661E6DC0A37242B"]
+			id: "2E5B1DF361DC3970"
+			tasks: [{
+				id: "4741C5D5A28533F2"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "0CE640AED776B107"
+				type: "item"
+				item: {
+					id: "minecraft:golden_hoe"
+					Count: 1b
+					tag: {
+						RepairCost: 3
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 2s
+								id: "minecraft:fire_aspect"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:knockback"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Переезжаем"
+			x: -4.5d
+			y: 7.5d
+			dependencies: ["2E5B1DF361DC3970"]
+			id: "226E6F27DE0C94CB"
+			tasks: [{
+				id: "31CA2820772523A7"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "5ADE51F755D18847"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "apotheosis:icy_thorns"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Нужно же где-то хранить"
+			x: -8.0d
+			y: -0.5d
+			id: "79F8F0FB24ABA523"
+			tasks: [{
+				id: "01D5312F07830238"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+			rewards: [{
+				id: "406945E9571559C7"
+				type: "item"
+				item: {
+					id: "botania:brew_vial"
+					Count: 1b
+					tag: {
+						brewKey: "botania:speed"
+					}
+				}
+			}]
+		}
+		{
+			title: "Когда пространства недостаточно"
+			x: -7.5d
+			y: 2.0d
+			dependencies: ["79F8F0FB24ABA523"]
+			id: "387B0D48E0008EC9"
+			tasks: [{
+				id: "702428FCF78CC95B"
+				type: "item"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+			}]
+			rewards: [{
+				id: "11224326ACE47B73"
+				type: "item"
+				item: "enigmaticlegacy:iron_ring"
+			}]
+		}
+		{
+			title: "Альтернативный путь"
+			x: -8.5d
+			y: 1.5d
+			dependencies: ["79F8F0FB24ABA523"]
+			id: "77B45A8337FA052B"
+			tasks: [{
+				id: "0CF33F15845EB9A5"
+				type: "item"
+				item: "ironchest:wood_to_copper_chest_upgrade"
+			}]
+			rewards: [{
+				id: "0AF36845D16F6C33"
+				type: "item"
+				item: "simplefarming:mead"
+			}]
+		}
+		{
+			title: "Сундук от вампиров"
+			x: -8.5d
+			y: 2.5d
+			dependencies: ["77B45A8337FA052B"]
+			id: "4406C266F6456818"
+			tasks: [{
+				id: "227D827CCDB5AFFB"
+				type: "item"
+				item: "ironchest:copper_to_silver_chest_upgrade"
+			}]
+			rewards: [{
+				id: "033DD14A1CC8DAA2"
+				type: "item"
+				item: {
+					id: "iceandfire:silver_sword"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						Damage: 0
+						Enchantments: [{
+							lvl: 5s
+							id: "minecraft:smite"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Мажорненько"
+			x: -7.5d
+			y: 4.0d
+			dependencies: ["387B0D48E0008EC9"]
+			id: "327B8D6141F67A27"
+			tasks: [{
+				id: "5E61562A25F1EAA9"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+			rewards: [{
+				id: "32CD6673049C4A18"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Возвращение к стандарту"
+			x: -8.5d
+			y: 4.0d
+			dependencies: ["4406C266F6456818"]
+			id: "4BA5096A60812513"
+			tasks: [{
+				id: "36B4F38E094AA884"
+				type: "item"
+				item: "ironchest:silver_to_gold_chest_upgrade"
+			}]
+			rewards: [{
+				id: "121906D727AC223C"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			title: "Кто-нибудь так использует алмазы?"
+			x: -8.0d
+			y: 5.5d
+			dependencies: [
+				"4BA5096A60812513"
+				"327B8D6141F67A27"
+			]
+			dependency_requirement: "one_completed"
+			id: "440F541125733B75"
+			tasks: [{
+				id: "256F75058158F5AC"
+				type: "item"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+			}]
+			rewards: [{
+				id: "0FA219AAB1B5B329"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+		}
+		{
+			title: "Стекляшка"
+			x: -7.0d
+			y: 6.5d
+			dependencies: ["440F541125733B75"]
+			id: "5CA6493A04394513"
+			tasks: [{
+				id: "7F15EAC87170A0B4"
+				type: "item"
+				item: "ironchest:diamond_to_crystal_chest_upgrade"
+			}]
+			rewards: [{
+				id: "4C109AB15224EB59"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+		}
+		{
+			title: "Надёжное хранилище"
+			x: -9.0d
+			y: 6.5d
+			dependencies: ["440F541125733B75"]
+			id: "2C7125179049A0E8"
+			tasks: [{
+				id: "2657AFC2CC80E010"
+				type: "item"
+				item: "ironchest:diamond_to_obsidian_chest_upgrade"
+			}]
+			rewards: [{
+				id: "7F7BED963B1DC3BC"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -0.5d
+			dependencies: [
+				"147E0992C229ABB3"
+				"0479D5E9411A2C0C"
+				"3488D6844894CDE0"
+			]
+			id: "11A08C4CCEDD9C87"
+			tasks: [{
+				id: "65619443F2CD9A33"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+			rewards: [{
+				id: "5CE5906B71945710"
+				type: "random"
+				table_id: 6053417601273439989L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["5168A5BC5F9F135F"]
+			id: "43AF8B01190D5640"
+			tasks: [{
+				id: "3DCF436CF63BAE6D"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "393A3D48BF024F16"
+			tasks: [{
+				id: "3C312610E8E3DFE0"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "7076E538A6E67BF7"
+			tasks: [{
+				id: "6D496E138C0ED163"
+				type: "item"
+				item: "sophisticatedbackpacks:filter_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "25E86A63518667C0"
+			tasks: [{
+				id: "213CBB283DB6315E"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "6475A876F35AA298"
+			tasks: [{
+				id: "4AAD2305BC8B8C62"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "52630AED797B8AA5"
+			tasks: [{
+				id: "2630E3918ABE7E7D"
+				type: "item"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "7D1EDD518AE241AA"
+			tasks: [{
+				id: "5B9773A83A4AAA5D"
+				type: "item"
+				item: "sophisticatedbackpacks:void_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "1587769DD249658C"
+			tasks: [{
+				id: "30ED357066A310DC"
+				type: "item"
+				item: "sophisticatedbackpacks:restock_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "240D94F79E959E53"
+			tasks: [{
+				id: "28FF64E8D867C071"
+				type: "item"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "69FB9746AFCCA4D8"
+			tasks: [{
+				id: "4B08A8439453136F"
+				type: "item"
+				item: "sophisticatedbackpacks:refill_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "5234A181C692B9D6"
+			tasks: [{
+				id: "19E6D67704F72B01"
+				type: "item"
+				item: "sophisticatedbackpacks:inception_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "5B5046C30C78BCCD"
+			tasks: [{
+				id: "24F39883CB214A2F"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "29B12A51E6066EE5"
+			tasks: [{
+				id: "30B49D9835C439A9"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:smelting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "0EF2138125D4FBB3"
+			tasks: [{
+				id: "7204B7BEA62A6001"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:crafting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "3B3BB777A52F53BE"
+			tasks: [{
+				id: "03DC99C9F5AC0828"
+				type: "item"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "6BA9B1A352EA24A0"
+			tasks: [{
+				id: "6EBF9A8666263F39"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "4B5ECAB928DE8F34"
+			tasks: [{
+				id: "15C0635FB0695352"
+				type: "item"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "386F18275E9CF449"
+			tasks: [{
+				id: "77A06D82E2E6457F"
+				type: "item"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "53F34F7CCFF3679E"
+			tasks: [{
+				id: "225F8FC6FD7792AF"
+				type: "item"
+				item: "sophisticatedbackpacks:tank_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "335557B9DADD92D7"
+			tasks: [{
+				id: "36FB7E7BA133C1A1"
+				type: "item"
+				item: "sophisticatedbackpacks:battery_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["43AF8B01190D5640"]
+			hide: true
+			id: "233224065523FAA7"
+			tasks: [{
+				id: "185881BD9182E427"
+				type: "item"
+				item: "sophisticatedbackpacks:pump_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			dependencies: ["386F18275E9CF449"]
+			id: "2A81D948AE7CFE67"
+			tasks: [{
+				id: "4CB12071394174D4"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.5d
+			dependencies: ["6BA9B1A352EA24A0"]
+			id: "598CC6682FA32D90"
+			tasks: [{
+				id: "73E945B5CAFF756E"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			dependencies: ["233224065523FAA7"]
+			id: "364EA27D22D3D91E"
+			tasks: [{
+				id: "609F354E7C39F4C4"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["6475A876F35AA298"]
+			id: "2FE20C51B0164FE1"
+			tasks: [{
+				id: "5EDB47822AD5E914"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["52630AED797B8AA5"]
+			id: "1862B13A9D565EB1"
+			tasks: [{
+				id: "1B8BD3B9D17B3C80"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["1587769DD249658C"]
+			id: "2A6CAA7233295A10"
+			tasks: [{
+				id: "296057209E334BCE"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			dependencies: ["7D1EDD518AE241AA"]
+			id: "582A47246CA189DF"
+			tasks: [{
+				id: "02BDD08DCF8861B7"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["240D94F79E959E53"]
+			id: "6EDB11F710DE20C9"
+			tasks: [{
+				id: "66ADEE9773A70D76"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["29B12A51E6066EE5"]
+			id: "0EBD25154CF769F3"
+			tasks: [{
+				id: "21A2FC32DF5BAE39"
+				type: "item"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["393A3D48BF024F16"]
+			id: "4800B6A590E0A845"
+			tasks: [{
+				id: "6CFD6B3EC2F03592"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			dependencies: ["7076E538A6E67BF7"]
+			id: "0DE1F4729A4FBD7E"
+			tasks: [{
+				id: "4FA2E0B4002D225B"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["25E86A63518667C0"]
+			id: "756BD2528496C248"
+			tasks: [{
+				id: "75B526D943C140AC"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			dependencies: ["598CC6682FA32D90"]
+			id: "136490EBAB9DF5A4"
+			tasks: [{
+				id: "017CBF73DEDBF237"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			dependencies: ["364EA27D22D3D91E"]
+			id: "7BD48DBA522E583B"
+			tasks: [{
+				id: "5E5DAA3B22615BFD"
+				type: "item"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+			}]
+		}
+		{
+			title: "Пивас"
+			x: -13.0d
+			y: 1.5d
+			id: "7038ECF061AF0EBF"
+			tasks: [
+				{
+					id: "1468514267D46E26"
+					type: "item"
+					item: "drinkbeer:beer_barrel"
+				}
+				{
+					id: "38586F204FEE04DC"
+					type: "item"
+					item: "drinkbeer:empty_beer_mug"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Официант! Повторите."
+			x: -14.0d
+			y: 1.5d
+			dependencies: ["7038ECF061AF0EBF"]
+			id: "2BA4391E8F3016F7"
+			tasks: [
+				{
+					id: "1414506D68C74DA2"
+					type: "item"
+					item: "drinkbeer:iron_call_bell"
+				}
+				{
+					id: "2BB7B76648F49861"
+					type: "item"
+					item: "drinkbeer:golden_call_bell"
+				}
+			]
+		}
+		{
+			title: "Проверенная рецептура"
+			x: -13.0d
+			y: 3.5d
+			dependencies: ["7038ECF061AF0EBF"]
+			id: "41D5403BF67D6446"
+			tasks: [{
+				id: "60DD8FCCDBE79068"
+				type: "item"
+				item: "drinkbeer:recipe_board_package"
+			}]
+		}
+		{
+			title: "Большой ассортимент"
+			x: -13.0d
+			y: 5.5d
+			dependencies: ["41D5403BF67D6446"]
+			id: "3ADBB894492FB295"
+			tasks: [
+				{
+					id: "108BA3BD906DAF4F"
+					type: "item"
+					item: "drinkbeer:beer_mug"
+				}
+				{
+					id: "60AE7BC77A0B1FA8"
+					type: "item"
+					item: "drinkbeer:beer_mug_blaze_stout"
+				}
+				{
+					id: "1359883093D89B79"
+					type: "item"
+					item: "drinkbeer:beer_mug_blaze_milk_stout"
+				}
+				{
+					id: "09FA041B92FFFEBC"
+					type: "item"
+					item: "drinkbeer:beer_mug_apple_lambic"
+				}
+				{
+					id: "1B27FE89587C8753"
+					type: "item"
+					item: "drinkbeer:beer_mug_sweet_berry_kriek"
+				}
+				{
+					id: "357A445587CE2F31"
+					type: "item"
+					item: "drinkbeer:beer_mug_haars_icey_pale_lager"
+				}
+				{
+					id: "4106E4A0E30E9651"
+					type: "item"
+					item: "drinkbeer:beer_mug_pumpkin_kvass"
+				}
+				{
+					id: "2EC0BA116F167C50"
+					type: "item"
+					item: "drinkbeer:beer_mug_night_howl_kvass"
+				}
+			]
+		}
+	]
+}

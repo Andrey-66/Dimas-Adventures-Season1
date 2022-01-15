@@ -1,0 +1,9 @@
+#52B53D minecraft:air
+#194874 minecraft:cyan_terracotta
+#2F436F minecraft:glass
+#46FB1F minecraft:oak_wall_sign
+#4A5E4E minecraft:obsidian
+#705189 minecraft:sea_lantern
+#DC3458 minecraft:stone
+#B21185 minecraft:stone_brick_slab
+#43D995 minecraft:stone_brick_stairs

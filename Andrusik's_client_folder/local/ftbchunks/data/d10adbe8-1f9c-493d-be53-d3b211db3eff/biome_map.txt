@@ -1,0 +1,11 @@
+#6F6 minecraft:badlands
+#481 minecraft:badlands_plateau
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#008 minecraft:desert
+#678 byg:fresh_water_lake
+#4F1 minecraft:ocean
+#5C1 byg:red_oak_forest
+#254 byg:red_oak_forest_hills
+#5FF minecraft:river
+#454 minecraft:wooded_badlands_plateau
