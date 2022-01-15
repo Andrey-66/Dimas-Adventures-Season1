@@ -9,11 +9,11 @@
 [init]
 	enabled = true
 	description = "Хочет зайти на сервер"
-	state = "Запускает игру"
+	state = "%mods% модов установлено"
 	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "overworld"
-	smallImageText = "%mods% mods installed"
+	largeImageText = ""
+	smallImageKey = ""
+	smallImageText = ""
 
 	[[init.buttons]]
 		label = "Инстаграм"
@@ -23,10 +23,10 @@
 	enabled = true
 	description = "%player% обленился"
 	state = "Пялится на кнопки в меню"
-	largeImageKey = "mclogonew"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
-	smallImageText = "%mods% mods installed"
+	largeImageKey = "mclogo"
+	largeImageText = ""
+	smallImageKey = ""
+	smallImageText = ""
 
 	[[main_menu.buttons]]
 		label = "Инстаграм"
@@ -34,54 +34,54 @@
 
 [server_list]
 	enabled = false
-	description = "%player% is looking for a server"
-	state = "Searching for friends"
-	largeImageKey = "mclogonew"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
-	smallImageText = "%mods% mods installed"
+	description = ""
+	state = ""
+	largeImageKey = ""
+	largeImageText = ""
+	smallImageKey = ""
+	smallImageText = ""
 	buttons = []
 
 [join_game]
 	enabled = true
-	description = "%player% подключается к серверу"
-	state = "Грузится"
+	description = "%player% подключается к миру"
+	state = "Грузится..."
 	largeImageKey = "loading"
-	largeImageText = "It's Minecraft %mcver%, but modded"
+	largeImageText = "Лишь бы не вылетело!"
 	smallImageKey = "mclogo"
-	smallImageText = "%mods% mods installed"
+	smallImageText = ""
 
 	[[join_game.buttons]]
 		label = "Инстаграм"
 		url = "https://www.instagram.com/dima_saturday/"
 
 [single_player]
-	enabled = false
-	description = "Зашёл в %world%"
-	state = "Песочница разрабротчиков"
-	largeImageKey = "mclogonew"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
-	smallImageText = "%mods% mods installed"
+	enabled = true
+	description = "Песочница разрабротчиков"
+	state = ""
+	largeImageKey = "mclogo"
+	largeImageText = ""
+	smallImageKey = ""
+	smallImageText = ""
 	buttons = []
 
 [multi_player]
-	enabled = true
-	description = "Playing on %servername% with %players% players"
-	state = "Playing online"
-	largeImageKey = "mclogonew"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
-	smallImageText = "%mods% mods installed"
+	enabled = false
+	description = ""
+	state = ""
+	largeImageKey = ""
+	largeImageText = ""
+	smallImageKey = ""
+	smallImageText = ""
 	buttons = []
 
 [generic]
-	description = "Играет в Похождения Димасика"
+	description = "Похождения Димасика"
 	state = ""
 	largeImageKey = "mclogo"
-	largeImageText = "It's Minecraft %mcver%, but modded"
-	smallImageKey = "mclogo"
-	smallImageText = "%mods% mods installed"
+	largeImageText = ""
+	smallImageKey = ""
+	smallImageText = ""
 
 	[[generic.buttons]]
 		label = "Инстаграм"
@@ -92,29 +92,47 @@
 
 	[[dimension_overrides.dimensions]]
 		name = "overworld"
-		description = "%player% is in The Overworld"
-		state = "Playing on %servername% with %players% players"
+		description = "Исследует обычный мир"
+		state = ""
 		largeImageKey = "overworld"
-		largeImageText = "In the Overworld with %players% players"
+		largeImageText = "%players% players"
 		smallImageKey = "mclogo"
-		smallImageText = "%mods% mods installed"
+		smallImageText = ""
 
 	[[dimension_overrides.dimensions]]
 		name = "the_nether"
-		description = "%player% is in The Nether"
-		state = "Playing on %servername% with %players% players"
+		description = "Спустился в преисподню "
+		state = ""
 		largeImageKey = "nether"
-		largeImageText = "In the Nether"
+		largeImageText = "%players% players"
 		smallImageKey = "mclogo"
-		smallImageText = "%mods% mods installed"
+		smallImageText = ""
 
 	[[dimension_overrides.dimensions]]
 		name = "the_end"
-		description = "%player% is in The End"
-		state = "Playing on %servername% with %players% players"
+		description = "Путешествует по краю"
+		state = ""
 		largeImageKey = "end"
-		largeImageText = "In the End"
+		largeImageText = "%players% players"
 		smallImageKey = "mclogo"
-		smallImageText = "%mods% mods installed"
+		smallImageText = ""
+
+	[[dimension_overrides.dimensions]]
+		name = "twilightforest:twilightforest"
+		description = "Ищет приключений в "
+		state = "Сумеречном лесу"
+		largeImageKey = "twilightforest"
+		largeImageText = "%players% players"
+		smallImageKey = "mclogo"
+		smallImageText = ""
+
+	[[dimension_overrides.dimensions]]
+		name = "mythicbotany:alfheim"
+		description = "Любуется радугой в Эльфхейме"
+		state = ""
+		largeImageKey = "alfheim"
+		largeImageText = "%players% players"
+		smallImageKey = "mclogo"
+		smallImageText = ""
 
 
