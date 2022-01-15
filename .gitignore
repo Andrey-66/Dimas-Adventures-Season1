@@ -43,3 +43,12 @@ client_folder/config/jeed-client.toml
 client_folder/config/invtweaks-client.toml
 client_folder/simple-rpc/server-entries.toml
 *.log
+client_folder/config/konkrete/locals/de_de.local
+client_folder/config/konkrete/locals/en_us.local
+client_folder/config/konkrete/locals/pl_pl.local
+client_folder/config/konkrete/locals/pt_br.local
+client_folder/config/fancymenu/locals/zh_cn.local
+client_folder/config/fancymenu/locals/pt_br.local
+client_folder/config/fancymenu/locals/pl_pl.local
+client_folder/config/fancymenu/locals/en_us.local
+client_folder/config/fancymenu/locals/de_de.local
