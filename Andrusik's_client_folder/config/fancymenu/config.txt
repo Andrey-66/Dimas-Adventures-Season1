@@ -37,7 +37,7 @@ S:splashcolor = '#ffff00';
 I:splashrotation = '-20';
 I:splashy = '45';
 I:splashx = '45';
-B:hidesplashtext = 'false';
+B:hidesplashtext = 'true';
 S:splashtextfile = '';
 S:splashorientation = 'original';
 

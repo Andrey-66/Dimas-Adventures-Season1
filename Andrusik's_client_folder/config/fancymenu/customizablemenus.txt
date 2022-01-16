@@ -12,3 +12,6 @@ net.minecraft.client.gui.screen.OptionsScreen {
 top.seraphjack.simplelogin.client.SetPasswordScreen {
 }
 
+net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+

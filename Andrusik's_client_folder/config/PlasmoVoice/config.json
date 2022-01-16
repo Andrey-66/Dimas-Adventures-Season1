@@ -1,5 +1,9 @@
 {
   "servers": {
+    "31.134.135.227": {
+      "distance": 32,
+      "priorityDistance": 96
+    },
     "127.0.0.1": {
       "distance": 16,
       "priorityDistance": 48

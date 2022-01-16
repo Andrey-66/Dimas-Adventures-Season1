@@ -1,0 +1,202 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = true
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/DimasPhotos/12.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -204
+  action = movebutton
+  y = -132
+}
+
+customization {
+  identifier = %id=400322%
+  width = 34
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = Вход
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nofon.png
+  backgroundnormal = resources\nofon.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-left
+  x = 560
+  action = movebutton
+  y = -187
+}
+
+customization {
+  identifier = %id=400382%
+  width = 61
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nofon.png
+  backgroundnormal = resources\nofon.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 909
+  action = movebutton
+  y = -192
+}
+
+customization {
+  identifier = %id=502382%
+  width = 37
+  action = resizebutton
+  height = 17
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = Выход
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nofon.png
+  backgroundnormal = resources\nofon.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-left
+  x = 632
+  action = movebutton
+  y = 230
+}
+
+customization {
+  identifier = %id=376382%
+  width = 34
+  action = resizebutton
+  height = 19
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nofon.png
+  backgroundnormal = resources\nofon.png
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 326
+  action = movebutton
+  y = 281
+}
+
+customization {
+  identifier = %id=400298%
+  width = 90
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nofon.png
+  backgroundnormal = resources\nofon.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 538
+  action = movebutton
+  y = 480
+}
+
+customization {
+  identifier = %id=400346%
+  width = 31
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\nofon.png
+  backgroundnormal = resources\nofon.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/sborka_logo.png
+  orientation = top-left
+  x = 12
+  width = 332
+  action = addtexture
+  actionid = 9e667013-0c5c-4042-9f0d-22e9f0de54b41642288309164
+  y = 16
+  height = 59
+}
+
