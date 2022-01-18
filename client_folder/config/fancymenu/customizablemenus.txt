@@ -3,12 +3,15 @@ type = customizablemenus
 com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu {
 }
 
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
 net.minecraft.client.gui.screen.OptionsScreen {
 }
 
 top.seraphjack.simplelogin.client.SetPasswordScreen {
+}
+
+net.minecraft.client.gui.screen.MultiplayerScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
 }
 

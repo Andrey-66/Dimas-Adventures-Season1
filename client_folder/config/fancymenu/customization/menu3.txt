@@ -40,6 +40,12 @@ customization {
 }
 
 customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = Играть!
+}
+
+customization {
   identifier = %id=604382%
   action = hidebutton
 }
@@ -78,6 +84,11 @@ customization {
   x = -130
   action = movebutton
   y = -41
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
 }
 
 customization {

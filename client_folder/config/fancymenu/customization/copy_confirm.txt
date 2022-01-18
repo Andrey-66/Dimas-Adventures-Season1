@@ -1,0 +1,96 @@
+type = menu
+
+customization-meta {
+  identifier = password.warning
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-centered
+  shadow = true
+  x = -30
+  action = addtext
+  actionid = 573eab89-b3a8-4c60-a9f6-a4b8d6acb4581642525522669
+  y = 88
+  scale = 1.0
+  alignment = left
+  value = §l§cВнимание!
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -142
+  action = addtext
+  actionid = 1b15fcca-0ee3-455f-9891-cab23c3613e81642525690073
+  y = -48
+  scale = 1.0
+  alignment = left
+  value = Это действие создаст копию файла с вашим паролем
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -96
+  action = addtext
+  actionid = 5b80d36f-0860-43fd-97bd-2a9f081dd7b91642525735178
+  y = -35
+  scale = 1.0
+  alignment = left
+  value = в специальную папку! Подтвердить?
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = 10
+  width = 100
+  actionid = 94122a54-af6f-47e2-ab73-075cd1f1e7b81642525801861
+  action = addbutton
+  y = 15
+  label = Закрыть
+  value = net.minecraft.client.gui.screen.MultiplayerScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = copyfile
+  x = -117
+  width = 100
+  actionid = f62ff588-2cee-4c9c-bda5-3a4c12f06abd1642526548191
+  action = addbutton
+  y = 15
+  label = Да
+  value = .sl_password;password/password.txt
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openfile
+  x = -69
+  width = 127
+  actionid = 45dfae9e-0f41-4662-b885-b93824a081761642526699159
+  action = addbutton
+  y = 41
+  label = Открыть копию пароля
+  value = password/password.txt
+  height = 20
+}
+

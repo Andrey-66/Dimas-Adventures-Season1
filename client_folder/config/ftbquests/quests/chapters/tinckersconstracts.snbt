@@ -167,6 +167,7 @@
 								level: 1s
 							}
 						]
+						HideFlags: 3
 						tic_materials: [
 							"tconstruct:wood"
 							"tconstruct:wood"

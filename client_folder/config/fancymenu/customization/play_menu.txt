@@ -1,0 +1,115 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346948%
+  orientation = bottom-centered
+  x = -142
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=346948%
+  width = 297
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=450948%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=580972%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=580972%
+  orientation = bottom-centered
+  x = 8
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=580972%
+  width = 147
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=346972%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=426972%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504972%
+  orientation = bottom-centered
+  x = -142
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=504972%
+  width = 147
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=554948%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = 20
+  width = 128
+  actionid = d83148a3-6d1d-468f-8866-4d6b06d06e591642526205791
+  action = addbutton
+  y = -28
+  label = Копию пароля
+  value = password.warning
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = 8
+  width = 147
+  actionid = 55d89d32-de1f-4295-ae17-1642941f37151642527316109
+  action = addbutton
+  y = -28
+  label = Отмена
+  value = net.minecraft.client.gui.screen.MainMenuScreen
+  height = 20
+}
+
