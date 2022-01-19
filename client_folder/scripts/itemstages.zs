@@ -83,7 +83,7 @@ ItemStages.createModRestriction("create", s => {
     if (<item:create:copper_ore>.matches(s) || <item:create:zinc_ore>.matches(s) 
     || <item:create:natural_scoria>.matches(s) || <item:create:scoria>.matches(s)
     || <item:create:weathered_limestone>.matches(s) || <item:create:limestone>.matches(s)
-    || <item:create:dolomite>.matches(s) || <item:create:copper_ingot>.matches(s)){
+    || <item:create:dolomite>.matches(s) || <item:create:copper_ingot>.matches(s) || <item:create:copper_nugget>.matches(s)){
         return true;
     } else {
         return false;
@@ -100,3 +100,30 @@ ItemStages.createModRestriction("mekanism", s => {
         return false;
     }
 }, "delete").setHiddenInJEI(true).hiddenName("Удалённый предмет");
+
+ItemStages.createModRestriction("powah", s => {
+    if (<item:powah:uraninite_ore_poor>.matches(s) || <item:powah:uraninite_ore>.matches(s) 
+    || <item:powah:uraninite_ore_dense>.matches(s) || <item:powah:dry_ice>.matches(s)
+    || <item:powah:wrench>.matches(s) || <item:powah:uraninite_raw_poor>.matches(s)
+	|| <item:powah:uraninite_raw>.matches(s) || <item:powah:uraninite_raw_dense>.matches(s) || <item:powah:uraninite>.matches(s)){
+        return true;
+    } else {
+        return false;
+    }
+}, "thermal_stage").setHiddenInJEI(false).hiddenName("Непонятная технология");
+
+ItemStages.restrict(<item:thermal:device_hive_extractor>, "thermal_stage").restrict(<item:thermal:device_tree_extractor>).restrict(<item:thermal:device_fisher>)
+.restrict(<item:thermal:device_soil_infuser>).restrict(<item:thermal:device_water_gen>).restrict(<item:thermal:device_rock_gen>).restrict(<item:thermal:device_collector>)
+.restrict(<item:thermal:device_nullifier>).restrict(<item:thermal:device_potion_diffuser>).restrict(<item:thermal:tinker_bench>).restrict(<item:thermal:charge_bench>)
+.restrict(<item:thermal:energy_cell>).restrict(<item:thermal:fluid_cell>).restrict(<item:thermal:machine_furnace>).restrict(<item:thermal:machine_sawmill>)
+.restrict(<item:thermal:machine_pulverizer>).restrict(<item:thermal:machine_smelter>).restrict(<item:thermal:machine_insolator>).restrict(<item:thermal:machine_centrifuge>)
+.restrict(<item:thermal:machine_press>).restrict(<item:thermal:machine_crucible>).restrict(<item:thermal:machine_chiller>).restrict(<item:thermal:machine_refinery>)
+.restrict(<item:thermal:machine_pyrolyzer>).restrict(<item:thermal:machine_bottler>).restrict(<item:thermal:machine_brewer>).restrict(<item:thermal:machine_crafter>)
+.restrict(<item:thermal:dynamo_stirling>).restrict(<item:thermal:dynamo_compression>).restrict(<item:thermal:dynamo_magmatic>).restrict(<item:thermal:dynamo_numismatic>)
+.restrict(<item:thermal:dynamo_lapidary>).restrict(<item:thermal:dynamo_disenchantment>).restrict(<item:thermal:dynamo_gourmand>).restrict(<item:thermal:flux_drill>)
+.restrict(<item:thermal:flux_saw>).restrict(<item:thermal:flux_capacitor>).restrict(<item:thermal:flux_magnet>).restrict(<item:thermal:potion_infuser>)
+.restrict(<item:thermal:potion_quiver>).restrict(<item:thermal:satchel>).restrict(<item:thermal:fluid_reservoir>).restrict(<item:thermal:rf_potato>)
+.setHiddenInJEI(false).hiddenName("Непонятная технология");
+
+
+
