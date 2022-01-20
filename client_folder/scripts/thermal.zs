@@ -5,6 +5,22 @@ import crafttweaker.api.tag.MCTagWithAmount;
 import crafttweaker.api.item.MCItemDefinition;
 import crafttweaker.api.item.IItemStack;
 
+<recipetype:thermal:magmatic_fuel>.addFuel("magmatic_blaze_blood", <fluid:tconstruct:blazing_blood> * 1000, 150000);
+
+<recipetype:thermal:numismatic_fuel>.addFuel("numismatic_1rc", <item:calemiutils:coin_copper>, 1000);
+<recipetype:thermal:numismatic_fuel>.addFuel("numismatic_5rc", <item:calemiutils:coin_silver>, 5000);
+<recipetype:thermal:numismatic_fuel>.addFuel("numismatic_25rc", <item:calemiutils:coin_gold>, 25000);
+<recipetype:thermal:numismatic_fuel>.addFuel("numismatic_100rc", <item:calemiutils:coin_platinum>, 100000);
+
+<recipetype:thermal:lapidary_fuel>.addFuel("lapidary_qcrystal", <item:appliedenergistics2:certus_quartz_crystal>, 40000);
+<recipetype:thermal:lapidary_fuel>.addFuel("lapidary_amcrystal", <item:iceandfire:amythest_gem>, 125000);
+<recipetype:thermal:lapidary_fuel>.addFuel("lapidary_dcrystal", <item:evilcraft:dark_gem>, 40000);
+<recipetype:thermal:lapidary_fuel>.addFuel("lapidary_acrystal", <item:byg:ametrine_gems>, 40000);
+<recipetype:thermal:lapidary_fuel>.addFuel("lapidary_ecrystal", <item:enigmaticlegacy:etherium_ore>, 500000);
+<recipetype:thermal:lapidary_fuel>.addFuel("lapidary_mcrystal", <item:ars_nouveau:mana_gem>, 40000);
+<recipetype:thermal:lapidary_fuel>.addFuel("lapidary_ccrystal", <item:betterendforge:crystal_shards>, 40000);
+<recipetype:thermal:lapidary_fuel>.addFuel("lapidary_abcrystal", <item:betterendforge:amber_gem>, 100000);
+
 <recipetype:thermal:refinery>.addRecipe("blood_fluid1", <item:minecraft:air>, [<fluid:tconstruct:blood> * 100], <fluid:evilcraft:blood> * 100, 500);
 <recipetype:thermal:refinery>.addRecipe("blood_fluid2", <item:minecraft:air>, [<fluid:evilcraft:blood> * 100], <fluid:tconstruct:blood> * 100, 500);
 
