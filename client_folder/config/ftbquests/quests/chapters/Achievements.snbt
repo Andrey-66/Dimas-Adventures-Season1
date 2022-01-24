@@ -247,31 +247,5 @@
 				}
 			]
 		}
-		{
-			title: "admin"
-			x: 9.0d
-			y: 4.0d
-			id: "2BBCA53F6E1ACD1A"
-			tasks: [{
-				id: "22CEE103BF394133"
-				type: "item"
-				item: "minecraft:bedrock"
-			}]
-			rewards: [{
-				id: "44C3E2609B138E39"
-				type: "item"
-				item: {
-					id: "iceandfire:dragonsteel_lightning_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							lvl: 5000
-							id: "minecraft:sharpness"
-						}]
-					}
-				}
-			}]
-		}
 	]
 }

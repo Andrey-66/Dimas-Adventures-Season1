@@ -82,7 +82,7 @@ ItemStages.restrict(<item:ars_nouveau:glyph_glide>, "glyph_glide").setHiddenInJE
 ItemStages.createModRestriction("create", s => {
     if (<item:create:copper_ore>.matches(s) || <item:create:zinc_ore>.matches(s) 
     || <item:create:natural_scoria>.matches(s) || <item:create:scoria>.matches(s)
-    || <item:create:weathered_limestone>.matches(s) || <item:create:limestone>.matches(s)
+    || <item:create:weathered_limestone>.matches(s) || <item:create:limestone>.matches(s) || <item:create:zinc_ingot>.matches(s) || <item:create:zinc_nugget>.matches(s)
     || <item:create:dolomite>.matches(s) || <item:create:copper_ingot>.matches(s) || <item:create:copper_nugget>.matches(s)){
         return true;
     } else {

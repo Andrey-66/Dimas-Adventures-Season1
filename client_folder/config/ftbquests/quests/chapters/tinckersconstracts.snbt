@@ -342,6 +342,7 @@
 			y: 3.0d
 			hide_dependency_lines: true
 			dependencies: ["05AB606EC2B4A45F"]
+			hide: true
 			id: "373838B8EFC10E15"
 			tasks: [{
 				id: "2FDE187E920C89D0"

@@ -383,15 +383,22 @@
 			dependencies: ["67F1D57F57C0F99A"]
 			hide: true
 			id: "0D1D92103DED9091"
-			tasks: [{
-				id: "61958A0F51872B17"
-				type: "item"
-				item: {
-					id: "evilcraft:purifier"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "61958A0F51872B17"
+					type: "item"
+					item: {
+						id: "evilcraft:purifier"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
+				{
+					id: "7CC61124C4E85228"
+					type: "item"
+					item: "evilcraft:blook"
+				}
+			]
 		}
 		{
 			title: "Повелитель погоды"
@@ -526,7 +533,10 @@
 			title: "Я вас вижу... и вы меня"
 			x: 0.0d
 			y: -1.5d
-			dependencies: ["0479D5E9411A2C0C"]
+			dependencies: [
+				"0479D5E9411A2C0C"
+				"7C8DA5AE005DFCD5"
+			]
 			hide: true
 			id: "46111ABFC9CC914A"
 			tasks: [
@@ -651,6 +661,7 @@
 			dependencies: [
 				"5BEBF9A4F30968EE"
 				"1EBF379529241463"
+				"6C5C974EA86672C4"
 			]
 			hide: true
 			id: "7E23CD305506DA8C"
@@ -698,7 +709,10 @@
 			x: -4.0d
 			y: 5.5d
 			hide_dependency_lines: true
-			dependencies: ["67F1D57F57C0F99A"]
+			dependencies: [
+				"67F1D57F57C0F99A"
+				"6C5C974EA86672C4"
+			]
 			hide: true
 			id: "10864E76BF34A142"
 			tasks: [{

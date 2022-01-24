@@ -192,7 +192,7 @@
 			dependencies: [
 				"618C92CA73D20365"
 				"275F4FEC83426A08"
-				"5BEBF9A4F30968EE"
+				"221AACD031D8E026"
 			]
 			hide: true
 			id: "7C8DA5AE005DFCD5"
@@ -1789,7 +1789,10 @@
 		{
 			x: 7.5d
 			y: -1.5d
-			dependencies: ["0127396CD2C9D0DC"]
+			dependencies: [
+				"0127396CD2C9D0DC"
+				"136792E3AC46230B"
+			]
 			hide: true
 			id: "126671D3213C965D"
 			tasks: [
@@ -1804,6 +1807,12 @@
 					item: "createaddition:rolling_mill"
 				}
 			]
+			rewards: [{
+				id: "6919A7DBF504367D"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "thermal_stage"
+			}]
 		}
 		{
 			x: 7.5d

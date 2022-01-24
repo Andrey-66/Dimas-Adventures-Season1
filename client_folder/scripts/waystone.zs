@@ -12,4 +12,11 @@ if  (event.state == <blockstate:waystones:waystone>){
 }
 });
 
-<block:waystones:waystone>.setHarvestLevel(10);
+<block:waystones:waystone>.setHarvestLevel(12);
+
+
+craftingTable.removeRecipe(<item:waystones:warp_stone>);
+craftingTable.addShaped("shapeed_warpstone", <item:waystones:warp_stone>, [
+        [<item:betterendforge:eternal_crystal>, <tag:items:forge:dusts/ender_pearl>, <item:betterendforge:eternal_crystal>],
+        [<tag:items:forge:dusts/ender_pearl>, <item:botanicalmachinery:mana_emerald>, <tag:items:forge:dusts/ender_pearl>],
+        [<item:betterendforge:eternal_crystal>, <tag:items:forge:dusts/ender_pearl>, <item:betterendforge:eternal_crystal>]]);

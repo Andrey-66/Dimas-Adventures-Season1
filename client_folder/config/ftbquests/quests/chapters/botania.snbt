@@ -245,6 +245,11 @@
 					type: "item"
 					item: "botania:mana_pearl"
 				}
+				{
+					id: "5F7BEC4309F068CE"
+					type: "item"
+					item: "botanicalmachinery:mana_emerald"
+				}
 			]
 			rewards: [
 				{
@@ -985,31 +990,6 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -10.0d
-			dependencies: ["52ECBAF9D14796C9"]
-			hide: true
-			id: "1F9DC9AFEE5DD97B"
-			tasks: [{
-				id: "4B049A9A2926FC08"
-				type: "item"
-				item: {
-					id: "botania:terra_pick"
-					Count: 1b
-					tag: {
-						mana: 2147483646
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "375924777DBAD898"
-				type: "item"
-				item: "botania:blacker_lotus"
-				count: 64
-			}]
-		}
-		{
 			x: -7.5d
 			y: -2.0d
 			dependencies: ["147E0992C229ABB3"]
@@ -1266,7 +1246,7 @@
 			]
 		}
 		{
-			title: "Ням"
+			title: "Торт - это ложь"
 			x: -3.5d
 			y: 7.5d
 			hide_dependency_lines: true
@@ -2571,6 +2551,7 @@
 			x: -8.5d
 			y: 3.5d
 			dependencies: ["03F47266661B2F65"]
+			hide: true
 			id: "3419CABD5F6E8979"
 			tasks: [{
 				id: "1BB921585409528A"
@@ -2611,6 +2592,7 @@
 			x: -4.5d
 			y: 1.5d
 			dependencies: ["2105DBE15BBB66FE"]
+			hide: true
 			id: "10237D293401C9FE"
 			tasks: [
 				{
@@ -2639,7 +2621,12 @@
 			title: "Fire!"
 			x: 9.0d
 			y: -7.0d
-			dependencies: ["59E08323EF76DFBB"]
+			hide_dependency_lines: true
+			dependencies: [
+				"59E08323EF76DFBB"
+				"00B0A3EE3E961EBB"
+			]
+			hide: true
 			id: "3E022DF9BB586410"
 			tasks: [{
 				id: "210D232CDB148F1C"
@@ -2736,6 +2723,7 @@
 			x: 3.5d
 			y: 3.0d
 			dependencies: ["293DDF66C274BAF4"]
+			hide: true
 			id: "0D3171116A511FA7"
 			tasks: [{
 				id: "609502F519DA7484"
@@ -2814,8 +2802,8 @@
 		}
 		{
 			title: "Антимусор"
-			x: -1.5d
-			y: -11.0d
+			x: -9.5d
+			y: -2.0d
 			hide_dependency_lines: true
 			dependencies: ["7E0B532BC362CF01"]
 			hide: true
@@ -3853,7 +3841,10 @@
 			x: 4.5d
 			y: 8.0d
 			hide_dependency_lines: true
-			dependencies: ["29A9239E0727D6ED"]
+			dependencies: [
+				"29A9239E0727D6ED"
+				"619EAD88835BD188"
+			]
 			hide: true
 			id: "00136D7EFC7E3C9F"
 			tasks: [{
@@ -4039,6 +4030,17 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "00CCD8FD7973C3B0"
+					type: "item"
+					item: "extrabotany:universalpetal"
+				}
+				{
+					id: "6FD8CA1625307F0B"
+					type: "random"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -4059,6 +4061,17 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "17496A9A29CD1E3B"
+					type: "item"
+					item: "extrabotany:universalpetal"
+				}
+				{
+					id: "518F81BC708C116B"
+					type: "random"
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -4079,6 +4092,17 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "19D862F255021D5E"
+					type: "item"
+					item: "extrabotany:universalpetal"
+				}
+				{
+					id: "690B3EF33036DE31"
+					type: "random"
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -4099,6 +4123,17 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "17B348B157480712"
+					type: "item"
+					item: "extrabotany:universalpetal"
+				}
+				{
+					id: "5C43536AF06B598F"
+					type: "random"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -4119,6 +4154,17 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "0E99E76E65F2AB34"
+					type: "item"
+					item: "extrabotany:universalpetal"
+				}
+				{
+					id: "521D3469ACA9CCD2"
+					type: "random"
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -4139,6 +4185,17 @@
 					tag: { }
 				}
 			}]
+			rewards: [
+				{
+					id: "6339A753B2445DCD"
+					type: "item"
+					item: "extrabotany:universalpetal"
+				}
+				{
+					id: "0DF7304E868B24C3"
+					type: "random"
+				}
+			]
 		}
 		{
 			title: "Незримая энергия"
@@ -4230,10 +4287,9 @@
 				item: "botania:prism"
 			}]
 			rewards: [{
-				id: "065DD8A1E0183591"
+				id: "34E3E72F9F0A36A4"
 				type: "item"
-				item: "minecraft:glass"
-				count: 64
+				item: "botania:bifrost_perm"
 			}]
 		}
 		{
@@ -4241,6 +4297,7 @@
 			x: 3.5d
 			y: 1.5d
 			dependencies: ["21234F70023BC665"]
+			hide: true
 			id: "7168A9B14D80A7CE"
 			tasks: [
 				{
@@ -4323,7 +4380,11 @@
 			title: "Усь"
 			x: -6.5d
 			y: 1.5d
-			dependencies: ["709D846A2C7AB2ED"]
+			hide_dependency_lines: true
+			dependencies: [
+				"709D846A2C7AB2ED"
+				"00B0A3EE3E961EBB"
+			]
 			hide: true
 			id: "2E1264007ADD8BA2"
 			tasks: [{
@@ -4371,6 +4432,12 @@
 					auto: "invisible"
 					stage: "glyph_delay"
 				}
+				{
+					id: "13D4F75789787733"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 3
+				}
 			]
 		}
 		{
@@ -4396,12 +4463,14 @@
 			title: "Верстак без дна"
 			x: -8.5d
 			y: 1.5d
+			hide_dependency_lines: true
 			dependencies: [
 				"70047E60EA22B0EB"
 				"024CD49A60131533"
 				"1021D1A32130D574"
 				"775BD2DEA5502E90"
 			]
+			hide: true
 			id: "4F98072FDD4ADE97"
 			tasks: [{
 				id: "4677C0B33A55AB6C"
@@ -4433,6 +4502,7 @@
 				"4ADF30C0257FF678"
 				"25EF81C6C04D2747"
 				"46D14DC96483C668"
+				"7F1677C599C9A521"
 			]
 			hide: true
 			size: 2.0d
@@ -4996,6 +5066,7 @@
 				"10471CA125C2A378"
 				"00B0A3EE3E961EBB"
 			]
+			hide: true
 			id: "410A47594FC3C0F9"
 			tasks: [{
 				id: "69F78F1571BA924C"

@@ -72,7 +72,7 @@
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("andesite_tunnel")
     .transitionTo(<item:create:andesite_casing>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка\"}" as string}}))
-    .require(<item:minecraft:hopper>)
+    .require(<item:tconstruct:seared_drain>)
     .loops(4)
     .addOutput(<item:create:andesite_tunnel>, 1)
     .addStep(<recipetype:create:deploying>.factory(), (rb) => rb.require(<item:minecraft:smooth_stone_slab>))
@@ -200,3 +200,11 @@
 <recipetype:create:mixing>.addRecipe("controller", "superheated", <item:appliedenergistics2:controller>, [<item:appliedenergistics2:purified_fluix_crystal> * 4, <item:appliedenergistics2:smooth_sky_stone_block> * 4, <item:evilcraft:dark_gem_crushed> * 4, <item:tconstruct:tool_binding>.withTag({Material: "tconstruct:bloodbone" as string}) * 4, <item:createaddition:gold_spool> * 4, <item:ars_nouveau:marvelous_clay> * 4, <item:ars_nouveau:mythical_clay>, <item:appliedenergistics2:engineering_processor>], [<fluid:kubejs:elf_fluid> * 1000]);
 
 <recipetype:create:mixing>.addRecipe("crafting_terminal", "none", <item:appliedenergistics2:crafting_terminal>, [<item:appliedenergistics2:terminal>, <item:appliedenergistics2:calculation_processor>, <item:ars_nouveau:glyph_craft>], [<fluid:kubejs:mana_fluid> * 1000]);
+
+<recipetype:create:mechanical_crafting>.removeRecipe(<item:createaddition:alternator>);
+<recipetype:create:mechanical_crafting>.addRecipe("engine_rf", <item:createaddition:alternator>, 
+    [[<item:minecraft:air>, <item:minecraft:air>, <item:create:chromatic_compound>, <item:minecraft:air>, <item:minecraft:air>], 
+    [<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:createaddition:copper_spool>, <tag:items:forge:plates/iron>, <item:minecraft:air>],
+    [<tag:items:forge:plates/iron>, <item:createaddition:copper_spool>, <tag:items:forge:rods/iron>, <item:createaddition:copper_spool>, <tag:items:forge:plates/iron>],
+    [<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:createaddition:capacitor>, <tag:items:forge:plates/iron>, <item:minecraft:air>]]);
+	

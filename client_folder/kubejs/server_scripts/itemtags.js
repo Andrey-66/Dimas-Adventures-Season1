@@ -16,4 +16,5 @@ onEvent('item.tags', event => {
   event.add('ct:silver_recipe_item', 'thermal:silver_ingot')
   event.add('ct:silver_recipe_item', 'iceandfire:silver_ingot')
   event.add('forge:gears', 'create:cogwheel')
+  event.add('forge:enigmatic_amulet', 'enigmaticlegacy:enigmatic_amulet')
   })

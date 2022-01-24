@@ -33,12 +33,35 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "106B4DC4BDE88CF3"
-				type: "gamestage"
-				team_reward: false
-				auto: "invisible"
-				stage: "glyph_glide"
+			rewards: [
+				{
+					id: "106B4DC4BDE88CF3"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_glide"
+				}
+				{
+					id: "1CFF6EE384B5F3AF"
+					type: "item"
+					item: {
+						id: "botania:brew_flask"
+						Count: 1b
+						tag: {
+							brewKey: "extrabotany:floating"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "7C8E4BF796ED05C5"
+			tasks: [{
+				id: "28D49CCA6F5E5A9C"
+				type: "item"
+				item: "betterendforge:infusion_pedestal"
 			}]
 		}
 	]

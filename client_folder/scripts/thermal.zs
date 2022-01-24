@@ -64,20 +64,38 @@ craftingTable.removeRecipe(<item:thermal:machine_smelter>);
     [<item:create:shadow_steel>, <item:minecraft:blast_furnace>, <item:thermal:machine_frame>, <item:minecraft:blast_furnace>, <item:create:shadow_steel>],
     [<item:tconstruct:scorched_bricks>, <item:thermal:fluid_cell_frame>, <item:tconstruct:foundry_controller>, <item:thermal:fluid_cell_frame>, <item:tconstruct:scorched_bricks>],
     [<item:minecraft:air>, <item:thermal:invar_gear>, <item:thermal:rf_coil>, <item:thermal:invar_gear>, <item:minecraft:air>]]);
-	craftingTable.removeRecipe(<item:thermal:electrum_gear>);
-	craftingTable.removeRecipe(<item:thermal:invar_gear>);
-	craftingTable.removeRecipe(<item:thermal:signalum_gear>);
-	craftingTable.removeRecipe(<item:thermal:lumium_gear>);
-	craftingTable.removeRecipe(<item:thermal:enderium_gear>);
-	craftingTable.removeRecipe(<item:thermal:iron_gear>);
-	craftingTable.removeRecipe(<item:thermal:gold_gear>);
-	craftingTable.removeRecipe(<item:thermal:copper_gear>);
-	craftingTable.removeRecipe(<item:thermal:tin_gear>);
-	craftingTable.removeRecipe(<item:thermal:lead_gear>);
-	craftingTable.removeRecipe(<item:thermal:silver_gear>);
-	craftingTable.removeRecipe(<item:thermal:nickel_gear>);
-	craftingTable.removeRecipe(<item:thermal:bronze_gear>);
-	craftingTable.removeRecipe(<item:thermal:tinker_bench>);
+craftingTable.removeRecipe(<item:thermal:electrum_gear>);
+craftingTable.removeRecipe(<item:thermal:invar_gear>);
+craftingTable.removeRecipe(<item:thermal:signalum_gear>);
+craftingTable.removeRecipe(<item:thermal:lumium_gear>);
+craftingTable.removeRecipe(<item:thermal:enderium_gear>);
+craftingTable.removeRecipe(<item:thermal:iron_gear>);
+craftingTable.removeRecipe(<item:thermal:gold_gear>);
+craftingTable.removeRecipe(<item:thermal:copper_gear>);
+craftingTable.removeRecipe(<item:thermal:tin_gear>);
+craftingTable.removeRecipe(<item:thermal:lead_gear>);
+craftingTable.removeRecipe(<item:thermal:silver_gear>);
+craftingTable.removeRecipe(<item:thermal:nickel_gear>);
+craftingTable.removeRecipe(<item:thermal:bronze_gear>);
+craftingTable.removeRecipe(<item:thermal:tinker_bench>);
+	
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/signalum/plate_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/signalum/plate_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/signalum/gear_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/signalum/gear_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/lumium/plate_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/lumium/plate_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/lumium/gear_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/lumium/gear_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/enderium/plate_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/enderium/plate_sand_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/enderium/gear_gold_cast");
+<recipetype:tconstruct:casting_table>.removeByName("tconstruct:smeltery/casting/metal/enderium/gear_sand_cast");
+
+<recipetype:tconstruct:alloying>.removeRecipe(<fluid:tconstruct:molten_enderium>);
+<recipetype:tconstruct:alloying>.removeRecipe(<fluid:tconstruct:molten_lumium>);
+<recipetype:tconstruct:alloying>.removeRecipe(<fluid:tconstruct:molten_signalum>);
+	
 craftingTable.addShaped("shapeed_tinker_bench", <item:thermal:tinker_bench>, [
         [<item:thermal:lead_plate>, <item:thermal:lead_plate>, <item:thermal:lead_plate>],
         [<item:thermal:device_water_gen>, <item:evilcraft:exalted_crafter_wooden>, <item:thermal:charge_bench>],

@@ -14,10 +14,7 @@
 	largeImageText = ""
 	smallImageKey = ""
 	smallImageText = ""
-
-	[[init.buttons]]
-		label = "Инстаграм"
-		url = "https://www.instagram.com/dima_saturday/"
+	buttons = []
 
 [main_menu]
 	enabled = true
@@ -73,7 +70,10 @@
 	largeImageText = ""
 	smallImageKey = ""
 	smallImageText = ""
-	buttons = []
+
+	[[multi_player.buttons]]
+		label = "Инстаграм"
+		url = "https://www.instagram.com/dima_saturday/"
 
 [generic]
 	description = "Похождения Димасика"

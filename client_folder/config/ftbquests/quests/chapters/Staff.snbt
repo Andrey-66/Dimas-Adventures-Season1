@@ -37,6 +37,7 @@
 			title: "Большие карманы"
 			x: -4.5d
 			y: -0.5d
+			hide: true
 			id: "5168A5BC5F9F135F"
 			tasks: [{
 				id: "69563829DB9EF386"
@@ -60,6 +61,7 @@
 			x: -4.5d
 			y: 1.5d
 			dependencies: ["5168A5BC5F9F135F"]
+			hide: true
 			id: "59B3148CF555FEA4"
 			tasks: [{
 				id: "0240126C19E9D97C"
@@ -88,6 +90,7 @@
 			x: -4.5d
 			y: 3.5d
 			dependencies: ["59B3148CF555FEA4"]
+			hide: true
 			id: "5661E6DC0A37242B"
 			tasks: [{
 				id: "6865DD39180BF19C"
@@ -115,6 +118,7 @@
 			x: -4.5d
 			y: 5.5d
 			dependencies: ["5661E6DC0A37242B"]
+			hide: true
 			id: "2E5B1DF361DC3970"
 			tasks: [{
 				id: "4741C5D5A28533F2"
@@ -149,6 +153,7 @@
 			x: -4.5d
 			y: 7.5d
 			dependencies: ["2E5B1DF361DC3970"]
+			hide: true
 			id: "226E6F27DE0C94CB"
 			tasks: [{
 				id: "31CA2820772523A7"
@@ -197,6 +202,7 @@
 			x: -7.5d
 			y: 2.0d
 			dependencies: ["79F8F0FB24ABA523"]
+			hide: true
 			id: "387B0D48E0008EC9"
 			tasks: [{
 				id: "702428FCF78CC95B"
@@ -214,6 +220,7 @@
 			x: -8.5d
 			y: 1.5d
 			dependencies: ["79F8F0FB24ABA523"]
+			hide: true
 			id: "77B45A8337FA052B"
 			tasks: [{
 				id: "0CF33F15845EB9A5"
@@ -231,6 +238,7 @@
 			x: -8.5d
 			y: 2.5d
 			dependencies: ["77B45A8337FA052B"]
+			hide: true
 			id: "4406C266F6456818"
 			tasks: [{
 				id: "227D827CCDB5AFFB"
@@ -259,6 +267,7 @@
 			x: -7.5d
 			y: 4.0d
 			dependencies: ["387B0D48E0008EC9"]
+			hide: true
 			id: "327B8D6141F67A27"
 			tasks: [{
 				id: "5E61562A25F1EAA9"
@@ -276,6 +285,7 @@
 			x: -8.5d
 			y: 4.0d
 			dependencies: ["4406C266F6456818"]
+			hide: true
 			id: "4BA5096A60812513"
 			tasks: [{
 				id: "36B4F38E094AA884"
@@ -296,6 +306,7 @@
 				"4BA5096A60812513"
 				"327B8D6141F67A27"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "440F541125733B75"
 			tasks: [{
@@ -314,6 +325,7 @@
 			x: -7.0d
 			y: 6.5d
 			dependencies: ["440F541125733B75"]
+			hide: true
 			id: "5CA6493A04394513"
 			tasks: [{
 				id: "7F15EAC87170A0B4"
@@ -331,6 +343,7 @@
 			x: -9.0d
 			y: 6.5d
 			dependencies: ["440F541125733B75"]
+			hide: true
 			id: "2C7125179049A0E8"
 			tasks: [{
 				id: "2657AFC2CC80E010"
@@ -367,6 +380,7 @@
 			x: -2.5d
 			y: 1.5d
 			dependencies: ["5168A5BC5F9F135F"]
+			hide: true
 			id: "43AF8B01190D5640"
 			tasks: [{
 				id: "3DCF436CF63BAE6D"
@@ -801,103 +815,33 @@
 			}]
 		}
 		{
-			title: "Пивас"
-			x: -13.0d
+			title: "Телепортация"
+			x: -10.5d
 			y: 1.5d
-			id: "7038ECF061AF0EBF"
-			tasks: [
-				{
-					id: "1468514267D46E26"
-					type: "item"
-					item: "drinkbeer:beer_barrel"
-				}
-				{
-					id: "38586F204FEE04DC"
-					type: "item"
-					item: "drinkbeer:empty_beer_mug"
-					count: 4L
-				}
-			]
-		}
-		{
-			title: "Официант! Повторите."
-			x: -14.0d
-			y: 1.5d
-			dependencies: ["7038ECF061AF0EBF"]
-			id: "2BA4391E8F3016F7"
-			tasks: [
-				{
-					id: "1414506D68C74DA2"
-					type: "item"
-					item: "drinkbeer:iron_call_bell"
-				}
-				{
-					id: "2BB7B76648F49861"
-					type: "item"
-					item: "drinkbeer:golden_call_bell"
-				}
-			]
-		}
-		{
-			title: "Проверенная рецептура"
-			x: -13.0d
-			y: 3.5d
-			dependencies: ["7038ECF061AF0EBF"]
-			id: "41D5403BF67D6446"
+			id: "29C136EF7D1BC69A"
 			tasks: [{
-				id: "60DD8FCCDBE79068"
+				id: "5D77A36F9F415275"
 				type: "item"
-				item: "drinkbeer:recipe_board_package"
+				item: "waystones:warp_plate"
+			}]
+			rewards: [{
+				id: "2A96B68DA8248B22"
+				type: "item"
+				item: "waystones:warp_plate"
 			}]
 		}
 		{
-			title: "Большой ассортимент"
-			x: -13.0d
-			y: 5.5d
-			dependencies: ["41D5403BF67D6446"]
-			id: "3ADBB894492FB295"
-			tasks: [
-				{
-					id: "108BA3BD906DAF4F"
-					type: "item"
-					item: "drinkbeer:beer_mug"
-				}
-				{
-					id: "60AE7BC77A0B1FA8"
-					type: "item"
-					item: "drinkbeer:beer_mug_blaze_stout"
-				}
-				{
-					id: "1359883093D89B79"
-					type: "item"
-					item: "drinkbeer:beer_mug_blaze_milk_stout"
-				}
-				{
-					id: "09FA041B92FFFEBC"
-					type: "item"
-					item: "drinkbeer:beer_mug_apple_lambic"
-				}
-				{
-					id: "1B27FE89587C8753"
-					type: "item"
-					item: "drinkbeer:beer_mug_sweet_berry_kriek"
-				}
-				{
-					id: "357A445587CE2F31"
-					type: "item"
-					item: "drinkbeer:beer_mug_haars_icey_pale_lager"
-				}
-				{
-					id: "4106E4A0E30E9651"
-					type: "item"
-					item: "drinkbeer:beer_mug_pumpkin_kvass"
-				}
-				{
-					id: "2EC0BA116F167C50"
-					type: "item"
-					item: "drinkbeer:beer_mug_night_howl_kvass"
-				}
-			]
+			title: "Свой обелиск"
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["7C8E4BF796ED05C5"]
+			hide: true
+			id: "486F62CD960B1C96"
+			tasks: [{
+				id: "552A6B6836667E46"
+				type: "item"
+				item: "waystones:waystone"
+			}]
 		}
 	]
 }

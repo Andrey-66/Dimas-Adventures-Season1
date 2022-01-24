@@ -11,6 +11,7 @@
 		{
 			x: 1.5d
 			y: -1.0d
+			dependencies: ["126671D3213C965D"]
 			hide: true
 			id: "0449DFFD785FDC20"
 			tasks: [{

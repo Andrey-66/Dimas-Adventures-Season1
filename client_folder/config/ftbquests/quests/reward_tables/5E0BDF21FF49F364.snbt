@@ -1,0 +1,10 @@
+{
+	id: "5E0BDF21FF49F364"
+	order_index: 7
+	title: "Унируна"
+	loot_size: 1
+	rewards: [
+		{ item: "extrabotany:sinrune" }
+		{ item: "extrabotany:elementrune", weight: 3 }
+	]
+}
