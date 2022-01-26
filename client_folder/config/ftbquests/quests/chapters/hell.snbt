@@ -54,7 +54,8 @@
 				type: "observation"
 				icon: "betterportals:reclaimer"
 				timer: 60L
-				observe: "block:betterportals:reclaimer_block"
+				observe_type: 0
+				to_observe: "betterportals:reclaimer_block"
 			}]
 			rewards: [{
 				id: "2637E06340860256"

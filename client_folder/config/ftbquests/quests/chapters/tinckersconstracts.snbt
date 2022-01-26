@@ -480,7 +480,8 @@
 				type: "observation"
 				icon: "tconstruct:sky_congealed_slime"
 				timer: 0L
-				observe: "block:tconstruct:sky_congealed_slime"
+				observe_type: 0
+				to_observe: "tconstruct:sky_congealed_slime"
 			}]
 			rewards: [
 				{

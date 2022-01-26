@@ -412,7 +412,8 @@
 				title: "Найти Погодный аккамулятор"
 				icon: "evilcraft:environmental_accumulator"
 				timer: 30L
-				observe: "block:evilcraft:environmental_accumulator"
+				observe_type: 0
+				to_observe: "evilcraft:environmental_accumulator"
 			}]
 		}
 		{

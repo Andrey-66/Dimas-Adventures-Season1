@@ -1778,7 +1778,8 @@
 					type: "observation"
 					icon: "ars_nouveau:wixie_cauldron"
 					timer: 5L
-					observe: "block:ars_nouveau:wixie_cauldron"
+					observe_type: 0
+					to_observe: "ars_nouveau:wixie_cauldron"
 				}
 			]
 			rewards: [{

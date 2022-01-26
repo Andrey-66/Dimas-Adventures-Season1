@@ -268,7 +268,8 @@
 					id: "0204DE28FCFE2BBF"
 					type: "observation"
 					timer: 50L
-					observe: "block:create:andesite_encased_shaft"
+					observe_type: 0
+					to_observe: "create:andesite_encased_shaft"
 				}
 				{
 					id: "4A50086CD88F1EEB"
