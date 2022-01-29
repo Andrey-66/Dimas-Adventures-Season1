@@ -1,7 +1,7 @@
 {
 	id: "2A302F031907A167"
 	group: "1E0A8915CBC35F34"
-	order_index: 4
+	order_index: 5
 	filename: "hell"
 	title: "Ад"
 	icon: "minecraft:blaze_powder"
@@ -10,6 +10,7 @@
 	quests: [
 		{
 			title: "В поисках чего-то адского"
+			icon: "minecraft:netherrack"
 			x: -2.5d
 			y: 0.0d
 			description: ["Старым способом портал вызвать не выходит. Нужно придумать что-то новое. Дальнейшее изучение магических сплавов мне должно помочь."]
@@ -65,9 +66,10 @@
 		}
 		{
 			title: "Убить чёрных!"
-			x: -0.5d
+			icon: "tconstruct:necrotic_bone"
+			x: 1.0d
 			y: 1.5d
-			dependencies: ["5EA7B205354739CF"]
+			dependencies: ["70CE7754169299BB"]
 			hide: true
 			id: "1FC32C779AAC4BCE"
 			tasks: [{
@@ -84,7 +86,8 @@
 		}
 		{
 			title: "Горыныч из ада"
-			x: 1.5d
+			icon: "minecraft:nether_star"
+			x: 2.5d
 			y: 1.5d
 			dependencies: ["1FC32C779AAC4BCE"]
 			hide: true
@@ -108,6 +111,241 @@
 					team_reward: false
 					auto: "invisible"
 					stage: "glyph_wither"
+				}
+			]
+		}
+		{
+			title: "Гетто"
+			icon: "minecraft:chiseled_nether_bricks"
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["5EA7B205354739CF"]
+			hide: true
+			id: "70CE7754169299BB"
+			tasks: [{
+				id: "5ED584D5BF00ADE2"
+				type: "structure"
+				title: "Найти адскую крепость"
+				structure: "minecraft:fortress"
+			}]
+		}
+		{
+			icon: "minecraft:blaze_rod"
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["70CE7754169299BB"]
+			hide: true
+			id: "106A0122D589A48D"
+			tasks: [
+				{
+					id: "5820498B8F978F61"
+					type: "kill"
+					entity: "minecraft:blaze"
+					value: 5L
+				}
+				{
+					id: "24DAAD5B479AE3E5"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "08E4B63E9302C9C3"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					random_bonus: 4
+				}
+				{
+					id: "6B1B4FC2B8216903"
+					type: "item"
+					item: "tconstruct:blaze_head"
+				}
+			]
+		}
+		{
+			title: "Кристаллическая кровь? Наверное..."
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["5EA7B205354739CF"]
+			hide: true
+			id: "49A4F0EC8DA71F72"
+			tasks: [{
+				id: "0D3D6A53138E6783"
+				type: "item"
+				item: "biomesoplenty:nether_crystal"
+				count: 10L
+			}]
+			rewards: [{
+				id: "4E405F7AC4B71AE9"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "Хру?"
+			icon: "minecraft:chiseled_polished_blackstone"
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["5EA7B205354739CF"]
+			hide: true
+			id: "24B64CEC9B016FD1"
+			tasks: [
+				{
+					id: "0B4E9F69CF302284"
+					type: "structure"
+					title: "Найти бастион"
+					icon: "minecraft:gilded_blackstone"
+					structure: "minecraft:bastion_remnant"
+				}
+				{
+					id: "5DC325A90F819626"
+					type: "advancement"
+					title: "Киньте пиглину золото для бартера"
+					advancement: "minecraft:nether/distract_piglin"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "007ED28A19624E16"
+				type: "choice"
+				table_id: 9023447288786701654L
+			}]
+		}
+		{
+			title: "Горячий бекончик"
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["24B64CEC9B016FD1"]
+			hide: true
+			id: "7DAFE9A14232B64C"
+			tasks: [
+				{
+					id: "75B40140BF0BA260"
+					type: "kill"
+					entity: "minecraft:piglin_brute"
+					value: 2L
+				}
+				{
+					id: "6E11A99D2E737C86"
+					type: "kill"
+					entity: "minecraft:piglin"
+					value: 10L
+				}
+			]
+			rewards: [{
+				id: "054F85D42C3D1248"
+				type: "choice"
+				table_id: 9023447288786701654L
+			}]
+		}
+		{
+			title: "Я просто посмторел"
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["24B64CEC9B016FD1"]
+			id: "3BB351A576668BFF"
+			tasks: [{
+				id: "64826A4B430FEEF8"
+				type: "advancement"
+				title: "Открыть сундук в бастионе"
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Я не плачу, это просто дождь... в аду"
+			icon: "minecraft:ghast_tear"
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["5EA7B205354739CF"]
+			id: "404F35E1D175CCD5"
+			tasks: [
+				{
+					id: "170F8DFC9E3C1E9C"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "67E6707CB5BD4D8F"
+					type: "kill"
+					entity: "minecraft:ghast"
+					value: 1L
+				}
+			]
+		}
+		{
+			title: "Кажется мы нашли что-то очень древнее"
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["5EA7B205354739CF"]
+			hide: true
+			id: "17BA50C2B0253BB9"
+			tasks: [{
+				id: "14F3DAAE6D74A8C0"
+				type: "item"
+				title: "Найти незерит"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:netherite_scrap"
+								Count: 1b
+							}
+							{
+								id: "minecraft:netherite_ingot"
+								Count: 1b
+							}
+							{
+								id: "minecraft:ancient_debris"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["3F36925C0CAFFE96"]
+			hide: true
+			id: "0B9C68FB70731410"
+			tasks: [{
+				id: "7A20E8512C278A84"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
+		}
+		{
+			title: "Маяковский"
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["0B9C68FB70731410"]
+			hide: true
+			id: "1FFC5E7A5D75F3C7"
+			tasks: [
+				{
+					id: "5C634173742A588A"
+					type: "advancement"
+					advancement: "minecraft:nether/create_full_beacon"
+					criterion: ""
+				}
+				{
+					id: "2C1207B8B9246EB3"
+					type: "item"
+					title: "Блоки основания маяка"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:beacon_build_block"
+						}
+					}
+					count: 164L
 				}
 			]
 		}

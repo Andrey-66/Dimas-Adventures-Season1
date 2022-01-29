@@ -193,7 +193,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 6.0d
 			y: -2.0d
 			description: ["Создайте стол зачарования с максимальными статами и зачаруйте любой предмет."]
 			id: "253A7B665351D36E"
@@ -211,7 +211,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 5.0d
 			y: -2.0d
 			id: "09D6758E226DC64F"
 			tasks: [{
@@ -244,6 +244,50 @@
 						Count: 1b
 						tag: { }
 					}
+				}
+			]
+		}
+		{
+			title: "Любитель бекона"
+			icon: "tconstruct:piglin_head"
+			x: -4.5d
+			y: -2.0d
+			dependencies: ["7DAFE9A14232B64C"]
+			id: "36556BA6C879313A"
+			tasks: [
+				{
+					id: "20392DE9A7C84287"
+					type: "kill"
+					entity: "minecraft:piglin_brute"
+					value: 20L
+				}
+				{
+					id: "2206AD141A207E28"
+					type: "kill"
+					entity: "minecraft:piglin"
+					value: 50L
+				}
+			]
+		}
+		{
+			title: "Ой, сало, сало, сало, українське сало..."
+			icon: "tconstruct:piglin_brute_head"
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["36556BA6C879313A"]
+			id: "10BAE4AB9AFF274F"
+			tasks: [
+				{
+					id: "69632F553EDB8537"
+					type: "kill"
+					entity: "minecraft:piglin_brute"
+					value: 50L
+				}
+				{
+					id: "36A0A803CDB7683D"
+					type: "kill"
+					entity: "minecraft:piglin"
+					value: 125L
 				}
 			]
 		}

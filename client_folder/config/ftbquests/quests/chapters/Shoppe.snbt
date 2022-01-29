@@ -177,7 +177,7 @@
 			]
 		}
 		{
-			title: "[SELL] Чешуя наги"
+			title: "[BUY] Чешуя наги"
 			icon: "twilightforest:naga_scale"
 			disable_toast: true
 			x: 1.5d
@@ -276,6 +276,39 @@
 					type: "command"
 					auto: "invisible"
 					command: "/ftbquests change_progress @p reset 02DD56DBBE1054E8"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Рассадник"
+			icon: "minecraft:spawner"
+			disable_toast: true
+			x: 3.5d
+			y: 0.5d
+			dependencies: ["0308DA58366ED92D"]
+			id: "12842EF39E3E3988"
+			tasks: [{
+				id: "57D81D061F37D53F"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 25L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7CB5EFD054855801"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "minecraft:spawner"
+				}
+				{
+					id: "538318B87F5D8C3C"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 12842EF39E3E3988"
 					player_command: false
 				}
 			]

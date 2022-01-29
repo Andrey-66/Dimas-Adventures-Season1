@@ -1,7 +1,7 @@
 {
 	id: "4C2596499B1DE290"
 	group: "1E0A8915CBC35F34"
-	order_index: 7
+	order_index: 8
 	filename: "apotheosis"
 	title: "Апофеоз"
 	icon: "apotheosis:blazing_hellshelf"
@@ -10,9 +10,11 @@
 	quests: [
 		{
 			title: "Простой фарм"
-			x: 2.5d
+			x: 2.0d
 			y: 0.0d
-			description: ["Делать ферму проще с рассадником, его можно добыть киркой с шёлковым касанием."]
+			description: ["Делать ферму проще с рассадником, его можно купить или добыть Шёлковым косанием X, при этом кирка сломается!"]
+			dependencies: ["0308DA58366ED92D"]
+			hide: true
 			id: "54815C7F956842CD"
 			tasks: [{
 				id: "43F65DBD3C995691"
@@ -68,7 +70,10 @@
 			x: -4.0d
 			y: 0.0d
 			hide_dependency_lines: true
-			dependencies: ["5093BB5339D2D896"]
+			dependencies: [
+				"5093BB5339D2D896"
+				"49A4F0EC8DA71F72"
+			]
 			hide: true
 			id: "297FEAE430B410EB"
 			tasks: [{
@@ -83,7 +88,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -6.0d
 			y: 0.0d
 			hide_dependency_lines: true
 			dependencies: ["5093BB5339D2D896"]
@@ -101,7 +106,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -7.0d
 			y: 0.0d
 			hide_dependency_lines: true
 			dependencies: ["5093BB5339D2D896"]
@@ -158,7 +163,11 @@
 			x: -4.0d
 			y: 1.0d
 			hide_dependency_lines: true
-			dependencies: ["5093BB5339D2D896"]
+			dependencies: [
+				"5093BB5339D2D896"
+				"35B0DBECB08F5384"
+				"7C8E4BF796ED05C5"
+			]
 			hide: true
 			id: "3C8E05E968C13716"
 			tasks: [{
@@ -176,7 +185,10 @@
 			x: -5.0d
 			y: 1.0d
 			hide_dependency_lines: true
-			dependencies: ["5093BB5339D2D896"]
+			dependencies: [
+				"5093BB5339D2D896"
+				"3C8E05E968C13716"
+			]
 			hide: true
 			id: "2A51E5DDEB18F6E3"
 			tasks: [{
@@ -194,7 +206,11 @@
 			x: -6.0d
 			y: 1.0d
 			hide_dependency_lines: true
-			dependencies: ["5093BB5339D2D896"]
+			dependencies: [
+				"5093BB5339D2D896"
+				"3C8E05E968C13716"
+				"269F11B835BE032D"
+			]
 			hide: true
 			id: "748BAEAF28B32003"
 			tasks: [{
@@ -311,6 +327,96 @@
 					table_id: 6053417601273439989L
 				}
 			]
+		}
+		{
+			title: "Может его стоит сохранить?"
+			icon: "minecraft:zombie_spawn_egg"
+			x: 0.5d
+			y: 0.0d
+			id: "0308DA58366ED92D"
+			tasks: [{
+				id: "0E18CB20566D8A35"
+				type: "advancement"
+				advancement: "apotheosis:spawner/capturing"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Слияние с незером"
+			x: -5.0d
+			y: 0.0d
+			description: ["Зачаруй Адскую книжную полку на Слияние с незером"]
+			hide_dependency_lines: true
+			dependencies: ["297FEAE430B410EB"]
+			hide: true
+			id: "1D89431BA3FBF3FE"
+			tasks: [{
+				id: "401F624694BAF6E9"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "apotheosis:hellshelf"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 1s
+										id: "apotheosis:hell_infusion"
+									}]
+								}
+							}
+							{
+								id: "apotheosis:hellshelf"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 2s
+										id: "apotheosis:hell_infusion"
+									}]
+								}
+							}
+							{
+								id: "apotheosis:hellshelf"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 3s
+										id: "apotheosis:hell_infusion"
+									}]
+								}
+							}
+							{
+								id: "apotheosis:hellshelf"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 4s
+										id: "apotheosis:hell_infusion"
+									}]
+								}
+							}
+							{
+								id: "apotheosis:hellshelf"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 5s
+										id: "apotheosis:hell_infusion"
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "154C7AE3AE008648"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 		}
 	]
 }
