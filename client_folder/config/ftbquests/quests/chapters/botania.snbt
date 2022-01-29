@@ -1,7 +1,7 @@
 {
 	id: "4DCE10E6EBA0D444"
 	group: "1E0A8915CBC35F34"
-	order_index: 0
+	order_index: 1
 	filename: "botania"
 	title: "Botania"
 	icon: {
@@ -153,18 +153,11 @@
 			dependencies: ["26EBA995EA60E864"]
 			hide: true
 			id: "59202966A0687604"
-			tasks: [
-				{
-					id: "4CA13591B107A3BB"
-					type: "item"
-					item: "botania:hydroangeas"
-				}
-				{
-					id: "60E47B5FB5914E85"
-					type: "item"
-					item: "botania:manastar"
-				}
-			]
+			tasks: [{
+				id: "60E47B5FB5914E85"
+				type: "item"
+				item: "botania:manastar"
+			}]
 			rewards: [
 				{
 					id: "6B1F50B740F4C2C9"
@@ -486,7 +479,7 @@
 		{
 			title: "Мана делает вещи"
 			x: 0.0d
-			y: 1.5d
+			y: 1.0d
 			dependencies: [
 				"26EBA995EA60E864"
 				"5F21AFAE1F7FC1B4"
@@ -833,8 +826,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -8.0d
+			x: 1.5d
+			y: -10.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"14189F9DB32C96BE"
@@ -925,8 +918,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -8.0d
+			x: 0.0d
+			y: -9.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"14189F9DB32C96BE"
@@ -961,8 +954,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: -9.0d
+			x: 0.0d
+			y: -8.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"14189F9DB32C96BE"
@@ -1117,7 +1110,7 @@
 		{
 			title: "Жизнь, как начало жизни"
 			x: -4.5d
-			y: 5.0d
+			y: 7.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"59202966A0687604"
@@ -1155,7 +1148,7 @@
 		{
 			title: "Опыты над опытом"
 			x: -4.5d
-			y: 6.0d
+			y: 8.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E0B532BC362CF01"
@@ -1186,7 +1179,7 @@
 		{
 			title: "Почему печка не может быть цветком?"
 			x: -3.5d
-			y: 6.0d
+			y: 8.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"59202966A0687604"
@@ -1217,7 +1210,7 @@
 		{
 			title: "Слиииизь"
 			x: -5.5d
-			y: 5.0d
+			y: 7.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"59202966A0687604"
@@ -1248,7 +1241,7 @@
 		{
 			title: "Торт - это ложь"
 			x: -3.5d
-			y: 7.5d
+			y: 12.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"59202966A0687604"
@@ -1270,7 +1263,7 @@
 		{
 			title: "Вот был у Вас цветок, и нет его теперь! "
 			x: -4.5d
-			y: 7.5d
+			y: 12.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"59202966A0687604"
@@ -1291,7 +1284,7 @@
 		}
 		{
 			title: "Farming Manamulator 21"
-			x: -0.5d
+			x: 0.5d
 			y: 5.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1329,8 +1322,8 @@
 		}
 		{
 			title: "Не то, чтобы ты от меня куда-то убежал"
-			x: 0.5d
-			y: 5.0d
+			x: -1.5d
+			y: 6.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"700430EB59A1AFA7"
@@ -1367,7 +1360,7 @@
 		}
 		{
 			title: "Сосать - это здорово!"
-			x: -1.5d
+			x: -0.5d
 			y: 6.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1417,7 +1410,7 @@
 		}
 		{
 			title: "Цветок, созданный для Ромео"
-			x: -0.5d
+			x: 0.5d
 			y: 6.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1448,8 +1441,8 @@
 		}
 		{
 			title: "Глиномес"
-			x: 0.5d
-			y: 6.0d
+			x: -1.5d
+			y: 7.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E0B532BC362CF01"
@@ -1479,7 +1472,7 @@
 		}
 		{
 			title: "Любимый цветок Долорес"
-			x: -1.5d
+			x: -0.5d
 			y: 7.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1534,7 +1527,7 @@
 		}
 		{
 			title: "Букет из одного цветка"
-			x: -0.5d
+			x: 0.5d
 			y: 7.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1565,8 +1558,8 @@
 		}
 		{
 			title: "Да будет разнообразие"
-			x: 0.5d
-			y: 7.0d
+			x: -1.5d
+			y: 8.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"700430EB59A1AFA7"
@@ -1596,7 +1589,7 @@
 		}
 		{
 			title: "Морозилка"
-			x: -1.5d
+			x: -0.5d
 			y: 8.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1658,7 +1651,7 @@
 		}
 		{
 			title: "Слово света: СПАСЕНИЕ"
-			x: -0.5d
+			x: 0.5d
 			y: 8.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1696,8 +1689,8 @@
 		}
 		{
 			title: "Ням-ням"
-			x: 0.5d
-			y: 8.0d
+			x: -1.5d
+			y: 9.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"700430EB59A1AFA7"
@@ -1727,7 +1720,7 @@
 		}
 		{
 			title: "Заправка"
-			x: -1.5d
+			x: -0.5d
 			y: 9.0d
 			hide_dependency_lines: true
 			dependencies: [
@@ -1759,7 +1752,7 @@
 		{
 			title: "Пузырик"
 			x: -1.5d
-			y: 10.5d
+			y: 11.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"700430EB59A1AFA7"
@@ -1796,7 +1789,7 @@
 		{
 			title: "Самая злая колючка"
 			x: -0.5d
-			y: 10.5d
+			y: 11.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"00B0A3EE3E961EBB"
@@ -1818,7 +1811,7 @@
 		{
 			title: "Ты был мне братом, Энакен!"
 			x: 0.5d
-			y: 10.5d
+			y: 11.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"00B0A3EE3E961EBB"
@@ -1840,7 +1833,7 @@
 		{
 			title: "Радужные грибочки"
 			x: -1.5d
-			y: 11.5d
+			y: 12.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"00B0A3EE3E961EBB"
@@ -1869,7 +1862,7 @@
 		{
 			title: "Они не могут быть в двух местах одновременно"
 			x: -0.5d
-			y: 11.5d
+			y: 12.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"00B0A3EE3E961EBB"
@@ -1930,7 +1923,7 @@
 		{
 			title: "Почему бы и нет?"
 			x: 0.5d
-			y: 11.5d
+			y: 12.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"00B0A3EE3E961EBB"
@@ -1947,7 +1940,7 @@
 		{
 			title: "Действительно так велико?"
 			x: 2.5d
-			y: -1.5d
+			y: -2.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"00B0A3EE3E961EBB"
@@ -1988,7 +1981,7 @@
 		{
 			title: "Самая длинная рука на Диком Западе"
 			x: 3.5d
-			y: -1.5d
+			y: -2.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"00B0A3EE3E961EBB"
@@ -2134,6 +2127,7 @@
 				"46D14DC96483C668"
 				"5F186A357E159028"
 				"4FF5A919B03EFC4A"
+				"17BA50C2B0253BB9"
 			]
 			hide: true
 			id: "795DBA39D1FC59AC"
@@ -2321,8 +2315,8 @@
 		}
 		{
 			title: "Всех связать!"
-			x: -5.5d
-			y: -3.0d
+			x: -6.0d
+			y: -4.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"7A31F91D17EB063A"
@@ -2450,7 +2444,7 @@
 		{
 			title: "Тюк. Бзынь!"
 			x: -1.0d
-			y: -7.0d
+			y: -6.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"14189F9DB32C96BE"
@@ -2739,9 +2733,10 @@
 		}
 		{
 			title: "Обновка"
-			x: -3.5d
-			y: -7.0d
-			dependencies: ["720BFA32AA90F68B"]
+			x: -2.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["26EBA995EA60E864"]
 			hide: true
 			id: "4CD1059E7DD2A799"
 			tasks: [
@@ -3058,7 +3053,10 @@
 			icon: "botania:gaia_pylon"
 			x: 10.5d
 			y: 0.0d
-			dependencies: ["00B0A3EE3E961EBB"]
+			dependencies: [
+				"00B0A3EE3E961EBB"
+				"0B9C68FB70731410"
+			]
 			hide: true
 			id: "4B500705100A4D37"
 			tasks: [
@@ -3097,7 +3095,7 @@
 		{
 			title: "Непонятный цветок"
 			x: -4.5d
-			y: 9.0d
+			y: 13.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"4B500705100A4D37"
@@ -3119,7 +3117,7 @@
 		{
 			title: "Радужный цветок"
 			x: -5.5d
-			y: 7.5d
+			y: 12.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"59202966A0687604"
@@ -3190,7 +3188,7 @@
 		{
 			title: "Очень странные дела"
 			x: -3.5d
-			y: 9.0d
+			y: 13.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"59202966A0687604"
@@ -3203,11 +3201,16 @@
 				type: "item"
 				item: "botania:shulk_me_not"
 			}]
+			rewards: [{
+				id: "0A55516FA235AD52"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
 		}
 		{
 			title: "Бац-бац-бац"
 			x: -5.5d
-			y: 6.0d
+			y: 8.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"7E0B532BC362CF01"
@@ -3244,8 +3247,8 @@
 		}
 		{
 			title: "200000 единиц уже готово и ещё 1000000 на подходе"
-			x: 1.0d
-			y: 1.5d
+			x: 0.8d
+			y: 1.7d
 			hide_dependency_lines: true
 			dependencies: [
 				"775BD2DEA5502E90"
@@ -3407,8 +3410,8 @@
 		}
 		{
 			title: "Гламурный набор"
-			x: 0.0d
-			y: -9.0d
+			x: -1.0d
+			y: -7.0d
 			hide_dependency_lines: true
 			dependencies: ["00B0A3EE3E961EBB"]
 			hide: true
@@ -3551,8 +3554,8 @@
 		}
 		{
 			title: "Только посмотри на эту струю!"
-			x: -4.5d
-			y: -4.5d
+			x: -4.0d
+			y: -4.0d
 			dependencies: [
 				"024CD49A60131533"
 				"1021D1A32130D574"
@@ -3575,8 +3578,8 @@
 		}
 		{
 			title: "Но у меня не шесть глаз!"
-			x: -5.5d
-			y: -4.5d
+			x: -4.0d
+			y: -5.0d
 			dependencies: ["487477FD8925FE5E"]
 			hide: true
 			id: "3DF891624880B5F1"
@@ -3665,7 +3668,7 @@
 		}
 		{
 			title: "Сквозь стекло"
-			x: 2.5d
+			x: 3.0d
 			y: 5.0d
 			dependencies: [
 				"26EBA995EA60E864"
@@ -3685,7 +3688,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: 5.0d
 			hide_dependency_lines: true
 			dependencies: ["619EAD88835BD188"]
@@ -3702,7 +3705,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: 6.0d
 			hide_dependency_lines: true
 			dependencies: ["619EAD88835BD188"]
@@ -3719,7 +3722,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: 5.0d
 			hide_dependency_lines: true
 			dependencies: ["619EAD88835BD188"]
@@ -3736,7 +3739,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.0d
 			y: 6.0d
 			hide_dependency_lines: true
 			dependencies: ["619EAD88835BD188"]
@@ -3753,7 +3756,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 5.0d
 			y: 6.0d
 			hide_dependency_lines: true
 			dependencies: ["619EAD88835BD188"]
@@ -4273,7 +4276,7 @@
 		}
 		{
 			x: 5.5d
-			y: 11.5d
+			y: 12.5d
 			hide_dependency_lines: true
 			dependencies: [
 				"619EAD88835BD188"
@@ -4486,8 +4489,8 @@
 		}
 		{
 			title: "Властелин колец"
-			x: 8.0d
-			y: -4.0d
+			x: 7.0d
+			y: -3.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"7994C8A6CACEE3F6"
@@ -4656,6 +4659,69 @@
 						tag: { }
 					}
 				}
+				{
+					id: "2AA6B9CE58236CF1"
+					type: "item"
+					item: {
+						id: "extrabotany:froststar"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "62512902E31C5385"
+					type: "item"
+					item: {
+						id: "extrabotany:deathring"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7CE5C8A51BD59358"
+					type: "item"
+					item: {
+						id: "extrabotany:manadrivering"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "51E737D2CA2356E8"
+					type: "item"
+					item: {
+						id: "mythicbotany:mana_ring_greatest"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4E25A414D74BA427"
+					type: "item"
+					item: {
+						id: "mythicbotany:aura_ring_greatest"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "2A0792E468B91F6A"
+					type: "item"
+					item: {
+						id: "mythicbotany:fire_ring"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5DE671942DEA9992"
+					type: "item"
+					item: {
+						id: "mythicbotany:ice_ring"
+						Count: 1b
+						tag: { }
+					}
+				}
 			]
 			rewards: [{
 				id: "22F0A6946AA048C3"
@@ -4668,6 +4734,7 @@
 		}
 		{
 			title: "Узрите арсенал небес!"
+			icon: "botania:gaia_ingot"
 			x: 13.0d
 			y: 0.0d
 			description: [""]
@@ -5060,8 +5127,8 @@
 		}
 		{
 			title: "Дорога сквозь пространство"
-			x: 8.0d
-			y: 1.0d
+			x: 7.5d
+			y: -1.0d
 			dependencies: [
 				"10471CA125C2A378"
 				"00B0A3EE3E961EBB"
@@ -5078,6 +5145,2034 @@
 				type: "item"
 				item: "minecraft:powered_rail"
 				count: 5
+			}]
+		}
+		{
+			title: "Новый уровень эгоизма"
+			icon: {
+				id: "extrabotany:natureorb"
+				Count: 1b
+				tag: { }
+			}
+			x: 13.0d
+			y: -1.5d
+			dependencies: ["7F1677C599C9A521"]
+			hide: true
+			id: "54652460D05F95B8"
+			tasks: [
+				{
+					id: "43B3C9DE47DB61BC"
+					type: "item"
+					item: {
+						id: "extrabotany:natureorb"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "15AFD95BE5832036"
+					type: "item"
+					item: "extrabotany:powerframe"
+				}
+				{
+					id: "34D8252D15B4D45F"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 4L
+				}
+				{
+					id: "14BABEEDD41D666C"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Победи свой эгоизм"
+			icon: "extrabotany:heromedal"
+			x: 14.5d
+			y: -2.0d
+			dependencies: ["54652460D05F95B8"]
+			hide: true
+			id: "7C5E55C087E62528"
+			tasks: [
+				{
+					id: "0E20AF945898B3D7"
+					type: "kill"
+					entity: "extrabotany:ego"
+					value: 1L
+				}
+				{
+					id: "11512E71EFF9EC9A"
+					type: "item"
+					item: "extrabotany:heromedal"
+				}
+			]
+			rewards: [
+				{
+					id: "5C7E9D77057249F4"
+					type: "item"
+					item: "extrabotany:rewardbagc"
+					count: 5
+				}
+				{
+					id: "463DF643D93CDF6D"
+					type: "item"
+					item: "extrabotany:rewardbagd"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "На пересечении миров"
+			x: 1.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["62FBCE9D40216662"]
+			hide: true
+			id: "374D61AE9A3D7B87"
+			tasks: [{
+				id: "2571DFAB55A8DD04"
+				type: "item"
+				item: "extrabotany:dimensioncatalyst"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
+			id: "69C6237FC935D5BE"
+			tasks: [{
+				id: "2FF6D783CAA1BC17"
+				type: "item"
+				item: {
+					id: "extrabotany:lens_mana"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 11.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"619EAD88835BD188"
+				"27270C6C8045D0AE"
+				"2E38DA6C5FC54B02"
+			]
+			hide: true
+			id: "4275DA08CFF179C4"
+			tasks: [{
+				id: "735298E0F547CFDF"
+				type: "item"
+				item: {
+					id: "extrabotany:lens_potion"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
+			id: "275E9DDD80817B61"
+			tasks: [{
+				id: "69D266B8A9612257"
+				type: "item"
+				item: {
+					id: "extrabotany:lens_push"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
+			id: "6EBD2C601D7EEFB6"
+			tasks: [{
+				id: "092B269B04825A95"
+				type: "item"
+				item: {
+					id: "extrabotany:lens_smelt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: ["619EAD88835BD188"]
+			hide: true
+			id: "6E8EEFD767830C5B"
+			tasks: [{
+				id: "07058DF2D6094B09"
+				type: "item"
+				item: {
+					id: "extrabotany:lens_trace"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Слитки Инь Янь"
+			x: 9.0d
+			y: -2.5d
+			dependencies: ["00B0A3EE3E961EBB"]
+			hide: true
+			id: "2658659F9CC5AF0B"
+			tasks: [
+				{
+					id: "5182349035EC955F"
+					type: "item"
+					item: "extrabotany:shadowium"
+				}
+				{
+					id: "6EA0511B0DF3507E"
+					type: "item"
+					item: "extrabotany:photonium"
+				}
+			]
+		}
+		{
+			title: "Андрелит...?"
+			x: 11.0d
+			y: -2.5d
+			dependencies: [
+				"00B0A3EE3E961EBB"
+				"3F9EA64986CCBD2D"
+			]
+			hide: true
+			id: "4D78F3A12FBA4A36"
+			tasks: [{
+				id: "51FC5F88D9774F6B"
+				type: "item"
+				item: "extrabotany:aerialite"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.0d
+			dependencies: ["4D78F3A12FBA4A36"]
+			hide: true
+			id: "3B2256F575F3AF8B"
+			tasks: [{
+				id: "1B7AE80FA37901BD"
+				type: "item"
+				item: "extrabotany:theorigin"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			dependencies: ["2658659F9CC5AF0B"]
+			hide: true
+			id: "0B89AA0C7EDDC891"
+			tasks: [{
+				id: "05C07D273EA50E90"
+				type: "item"
+				item: "extrabotany:thechaos"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -2.5d
+			dependencies: ["7C5E55C087E62528"]
+			hide: true
+			id: "59EB1F8E3F535056"
+			tasks: [{
+				id: "2A97695AFB5BF397"
+				type: "item"
+				item: "extrabotany:orichalcos"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.0d
+			dependencies: ["59EB1F8E3F535056"]
+			hide: true
+			id: "30604ED9A28C6CFC"
+			tasks: [{
+				id: "50D61DBD646BDDBD"
+				type: "item"
+				item: "extrabotany:theend"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			shape: "octagon"
+			dependencies: [
+				"3B2256F575F3AF8B"
+				"0B89AA0C7EDDC891"
+				"30604ED9A28C6CFC"
+			]
+			hide: true
+			size: 1.3d
+			id: "19F8F7CA7FB560C8"
+			tasks: [{
+				id: "6C11D9E46C00219E"
+				type: "item"
+				item: "extrabotany:theuniverse"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["5FA75FB16602CB21"]
+			hide: true
+			id: "66C36572D95909FE"
+			tasks: [{
+				id: "0CC44EE33F082DD7"
+				type: "item"
+				item: {
+					id: "extrabotany:peaceamulet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Сильные флешбеки"
+			x: -10.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["7E0B532BC362CF01"]
+			hide: true
+			id: "2CAFE1D19889A2BF"
+			tasks: [{
+				id: "40745A19E5E53F2F"
+				type: "item"
+				item: {
+					id: "extrabotany:powerglove"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -1054146429192681492L
+						baubleUUIDLeast: -7557461353942647786L
+					}
+				}
+			}]
+		}
+		{
+			title: "Тут не нужно убивать сотни розовых мужиков!"
+			x: 7.5d
+			y: -11.5d
+			hide_dependency_lines: true
+			dependencies: ["0B89AA0C7EDDC891"]
+			hide: true
+			id: "4C2C9FFB9C96FCA4"
+			tasks: [{
+				id: "42AAEAC63656E7AA"
+				type: "item"
+				item: {
+					id: "extrabotany:rodofdiscord"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["5FA75FB16602CB21"]
+			hide: true
+			id: "42BE75674FB4FC6F"
+			tasks: [{
+				id: "10EA330CE9A84B53"
+				type: "item"
+				item: "extrabotany:walkingcane"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["1FE8DEFFB6929BE7"]
+			hide: true
+			id: "3B9CFBF759FB8F6F"
+			tasks: [{
+				id: "600F00E90E3AEEA8"
+				type: "item"
+				item: "extrabotany:manareader"
+			}]
+		}
+		{
+			title: "Морозная звезда"
+			x: 5.5d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"46D14DC96483C668"
+			]
+			hide: true
+			id: "709E5500BFBBCE22"
+			tasks: [{
+				id: "7F3CED2DFC292036"
+				type: "item"
+				item: {
+					id: "extrabotany:froststar"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"1FC32C779AAC4BCE"
+				"46D14DC96483C668"
+			]
+			hide: true
+			id: "0A4DCB81D3B2E736"
+			tasks: [{
+				id: "227554F903E43036"
+				type: "item"
+				item: {
+					id: "extrabotany:deathring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Кольцо управления маной"
+			x: 6.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["46D14DC96483C668"]
+			hide: true
+			id: "1B6A7777AECA8455"
+			tasks: [{
+				id: "783292ECC8BEC46F"
+				type: "item"
+				item: {
+					id: "extrabotany:manadrivering"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Кольцо священного солнца"
+			x: 7.8d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"1B6A7777AECA8455"
+				"0C5BBA3DCAC31E95"
+				"709E5500BFBBCE22"
+				"4ADF30C0257FF678"
+				"117ADED81639AE03"
+				"4D6A01099EF2A461"
+				"25EF81C6C04D2747"
+				"7994C8A6CACEE3F6"
+				"30604ED9A28C6CFC"
+			]
+			hide: true
+			size: 1.2d
+			id: "169806D3EDD82D29"
+			tasks: [{
+				id: "2641ACC446FF52D3"
+				type: "item"
+				item: {
+					id: "extrabotany:sunring"
+					Count: 1b
+					tag: {
+						baubleUUIDLeast: -5165404679237084473L
+						baubleUUIDMost: -5211513571705011015L
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			title: "Сердце проклятой луны"
+			x: -13.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"5F186A357E159028"
+				"795DBA39D1FC59AC"
+				"7E829A77A690A592"
+				"253FF7C0396E03B7"
+				"3B2256F575F3AF8B"
+			]
+			hide: true
+			size: 1.2d
+			id: "04F9109A7F548487"
+			tasks: [{
+				id: "120F3F427DD89472"
+				type: "item"
+				item: {
+					id: "extrabotany:moonpendant"
+					Count: 1b
+					tag: {
+						baubleUUIDLeast: -5903593072683159559L
+						baubleUUIDMost: -2479211913534421217L
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			title: "Облако в бу... на шее"
+			x: -10.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["0A041851710115FD"]
+			hide: true
+			id: "5CD240390314C30A"
+			tasks: [{
+				id: "2FAA599ED7A3659B"
+				type: "item"
+				item: {
+					id: "botania:cloud_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4B500705100A4D37"
+				"5CD240390314C30A"
+			]
+			hide: true
+			id: "253FF7C0396E03B7"
+			tasks: [{
+				id: "397D6F098B154824"
+				type: "item"
+				item: {
+					id: "botania:super_cloud_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Гонщик нереальный"
+			x: 16.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2658659F9CC5AF0B"
+				"4D78F3A12FBA4A36"
+				"7C5E55C087E62528"
+			]
+			hide: true
+			id: "414EB743437898A1"
+			tasks: [{
+				id: "7DA43B50A21BFA5E"
+				type: "item"
+				item: {
+					id: "extrabotany:motor"
+					Count: 1b
+					tag: {
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			title: "Нашествие марсиан! А нет, это в другой игре"
+			x: 16.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2E38DA6C5FC54B02"
+				"3B2256F575F3AF8B"
+			]
+			hide: true
+			id: "56494663CA9D13A5"
+			tasks: [{
+				id: "2DEC5A9DFD7FA35E"
+				type: "item"
+				item: "extrabotany:cosmiccarkey"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"0B89AA0C7EDDC891"
+				"5C3D22A07CECB49E"
+			]
+			hide: true
+			id: "292024B3B379767D"
+			tasks: [{
+				id: "312F7504CF95AFC8"
+				type: "item"
+				item: {
+					id: "extrabotany:silverbullet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Чипсек"
+			x: -11.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["7E0B532BC362CF01"]
+			hide: true
+			id: "7E4440DC54BDDD9B"
+			tasks: [{
+				id: "722802170CCD906D"
+				type: "item"
+				item: {
+					id: "extrabotany:potatochips"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Огнерукий"
+			x: -11.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"62FBCE9D40216662"
+				"00B0A3EE3E961EBB"
+			]
+			hide: true
+			id: "632C91F56C3E7E03"
+			tasks: [{
+				id: "78B124B584DF1A5F"
+				type: "item"
+				item: {
+					id: "extrabotany:jingweifeather"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -11.0d
+			dependencies: [
+				"1B7AE80FA37901BD"
+				"7268C69FC6159D1F"
+				"5A1FA4C85DC7FE55"
+			]
+			id: "504EB1BDA2A04F23"
+			tasks: [{
+				id: "7358E1D6586AFA91"
+				type: "item"
+				item: {
+					id: "extrabotany:influxwaver"
+					Count: 1b
+					tag: {
+						Damage: 0
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -11.0d
+			dependencies: [
+				"5C6F82DCF5A711A0"
+				"5A1FA4C85DC7FE55"
+				"1B7AE80FA37901BD"
+			]
+			hide: true
+			id: "059220F95F70725E"
+			tasks: [{
+				id: "1ACFC49081CD2ABD"
+				type: "item"
+				item: {
+					id: "extrabotany:starwrath"
+					Count: 1b
+					tag: {
+						Damage: 0
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: ["2658659F9CC5AF0B"]
+			hide: true
+			id: "3CAD1A23AF32594A"
+			tasks: [{
+				id: "7795B6FB9815787E"
+				type: "item"
+				item: {
+					id: "extrabotany:shadowkatana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -11.0d
+			dependencies: [
+				"1B7AE80FA37901BD"
+				"5A1FA4C85DC7FE55"
+				"3CAD1A23AF32594A"
+			]
+			hide: true
+			id: "7BAD95B0DD3A883F"
+			tasks: [{
+				id: "3610C39E858FA87C"
+				type: "item"
+				item: {
+					id: "extrabotany:trueshadowkatana"
+					Count: 1b
+					tag: {
+						Damage: 0
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -11.0d
+			dependencies: [
+				"5A1FA4C85DC7FE55"
+				"1B7AE80FA37901BD"
+				"385C467654011741"
+			]
+			hide: true
+			id: "7AECDC2BD2ACDA45"
+			tasks: [{
+				id: "31C6AC0DCCAD3923"
+				type: "item"
+				item: {
+					id: "extrabotany:trueterrablade"
+					Count: 1b
+					tag: {
+						Damage: 0
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			title: "А где Артур?"
+			x: -2.5d
+			y: -11.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"385C467654011741"
+				"7C5E55C087E62528"
+			]
+			hide: true
+			id: "43DA9C8EE6A7C83C"
+			tasks: [{
+				id: "1359CE6C3E890621"
+				type: "item"
+				item: {
+					id: "extrabotany:excaliber"
+					Count: 1b
+					tag: {
+						Damage: 0
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7DD9CBDE4FCDFAEB"
+				"7C5E55C087E62528"
+			]
+			hide: true
+			id: "013C887FD2A1C96B"
+			tasks: [{
+				id: "6F917B1D6DB3ED34"
+				type: "item"
+				item: {
+					id: "extrabotany:sagesmanaring"
+					Count: 1b
+					tag: {
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7C5E55C087E62528"
+				"62FBCE9D40216662"
+			]
+			hide: true
+			id: "19D5950A53ADE7B3"
+			tasks: [{
+				id: "6BBAECFB3F57B90D"
+				type: "item"
+				item: {
+					id: "extrabotany:camera"
+					Count: 1b
+					tag: {
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["59EB1F8E3F535056"]
+			hide: true
+			id: "235BFBC2FE27EBA6"
+			tasks: [{
+				id: "4BF04B1DDEC5C482"
+				type: "item"
+				item: {
+					id: "extrabotany:failnaught"
+					Count: 1b
+					tag: {
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			title: "Наверстай упущенное!"
+			x: -0.5d
+			y: -13.5d
+			shape: "octagon"
+			dependencies: [
+				"6C11D9E46C00219E"
+				"43DA9C8EE6A7C83C"
+				"7AECDC2BD2ACDA45"
+				"7BAD95B0DD3A883F"
+				"059220F95F70725E"
+				"504EB1BDA2A04F23"
+			]
+			size: 2.0d
+			id: "12DDF3BCBDFFA98E"
+			tasks: [{
+				id: "752487C55EB6D24F"
+				type: "item"
+				item: {
+					id: "extrabotany:firstfractal"
+					Count: 1b
+					tag: {
+						Damage: 0
+						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
+					}
+				}
+			}]
+		}
+		{
+			title: "Каваи?"
+			x: -3.5d
+			y: -7.0d
+			dependencies: ["720BFA32AA90F68B"]
+			hide: true
+			id: "5BDA7F33B3BDF90C"
+			tasks: [
+				{
+					id: "73431AC1AAC38213"
+					type: "item"
+					item: {
+						id: "extrabotany:miku_helm"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "37796F7BE247FCB4"
+					type: "item"
+					item: {
+						id: "extrabotany:miku_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E3E09D885D0FEE0"
+					type: "item"
+					item: {
+						id: "extrabotany:miku_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0BFEAA3EBB7B1E5B"
+					type: "item"
+					item: {
+						id: "extrabotany:miku_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -7.0d
+			hide_dependency_lines: true
+			dependencies: ["2658659F9CC5AF0B"]
+			hide: true
+			id: "1E8F8B73BE00BF52"
+			tasks: [
+				{
+					id: "240CD294BAF366A2"
+					type: "item"
+					item: {
+						id: "extrabotany:shadowwarrior_helm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							isnight: 0b
+						}
+					}
+				}
+				{
+					id: "68AFFF939B9E674D"
+					type: "item"
+					item: {
+						id: "extrabotany:shadowwarrior_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+							isnight: 0b
+						}
+					}
+				}
+				{
+					id: "413E9A6718EA63CC"
+					type: "item"
+					item: {
+						id: "extrabotany:shadowwarrior_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+							isnight: 0b
+						}
+					}
+				}
+				{
+					id: "4524AA4AFE2D920F"
+					type: "item"
+					item: {
+						id: "extrabotany:shadowwarrior_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							isnight: 0b
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["2658659F9CC5AF0B"]
+			hide: true
+			id: "0A4CD8BAF9F99975"
+			tasks: [
+				{
+					id: "563E24CE4913A880"
+					type: "item"
+					item: {
+						id: "extrabotany:goblinslayer_helm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							isday: 0b
+						}
+					}
+				}
+				{
+					id: "789FF1C0FAC59F76"
+					type: "item"
+					item: {
+						id: "extrabotany:goblinslayer_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+							isday: 0b
+						}
+					}
+				}
+				{
+					id: "05E9F1DFFB4EA071"
+					type: "item"
+					item: {
+						id: "extrabotany:goblinslayer_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+							isday: 0b
+						}
+					}
+				}
+				{
+					id: "6D8C7C1C1FB126AE"
+					type: "item"
+					item: {
+						id: "extrabotany:goblinslayer_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+							isday: 0b
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "От D.Va с любовью"
+			x: -3.5d
+			y: -6.0d
+			dependencies: [
+				"720BFA32AA90F68B"
+				"51FC5F88D9774F6B"
+			]
+			hide: true
+			id: "2210BCF283776EAC"
+			tasks: [
+				{
+					id: "1FF1CC05DA806B89"
+					type: "item"
+					item: {
+						id: "extrabotany:shootingguardian_helm"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BE9F312281A28CA"
+					type: "item"
+					item: {
+						id: "extrabotany:shootingguardian_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "057D8AC7F126D7F5"
+					type: "item"
+					item: {
+						id: "extrabotany:shootingguardian_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D10427AC6E7547A"
+					type: "item"
+					item: {
+						id: "extrabotany:shootingguardian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Как кишкер"
+			x: -3.5d
+			y: -9.0d
+			dependencies: [
+				"2F5409691E215D59"
+				"22BACCDD93E4226C"
+			]
+			hide: true
+			id: "38F50ACC7BA92180"
+			tasks: [
+				{
+					id: "107AC571B983CADC"
+					type: "item"
+					item: {
+						id: "extrabotany:maid_helm"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "550A58387D211F58"
+					type: "item"
+					item: {
+						id: "extrabotany:maid_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "694C25994C62510B"
+					type: "item"
+					item: {
+						id: "extrabotany:maid_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "03094D7F1B7D0EB4"
+					type: "item"
+					item: {
+						id: "extrabotany:maid_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -8.0d
+			dependencies: [
+				"22BACCDD93E4226C"
+				"518BF27BA8792249"
+			]
+			hide: true
+			id: "294D72645DE22B1C"
+			tasks: [
+				{
+					id: "73CB3CC3D6E9C950"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7447D1C1F61C5E9D"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "02D4C656D1EEB273"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B21D5781454D59C"
+					type: "item"
+					item: {
+						id: "mythicbotany:alfsteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			dependencies: [
+				"52ECBAF9D14796C9"
+				"518BF27BA8792249"
+			]
+			hide: true
+			id: "678821E5285B7DF7"
+			tasks: [{
+				id: "619E305CEDA11764"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_pick"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -9.0d
+			dependencies: [
+				"14F32A6FBC767828"
+				"518BF27BA8792249"
+			]
+			hide: true
+			id: "1E470596EA8D8967"
+			tasks: [{
+				id: "7DD6315214D5BB41"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["1FE8DEFFB6929BE7"]
+			hide: true
+			id: "574660CD4E9C585F"
+			tasks: [{
+				id: "28DA443C64CA500D"
+				type: "item"
+				item: {
+					id: "extrabotany:aerostone"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -8008723003742598049L
+						baubleUUIDLeast: -5707293995029317875L
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -9.0d
+			hide_dependency_lines: true
+			dependencies: ["1FE8DEFFB6929BE7"]
+			hide: true
+			id: "2C5D66E151AA3BF3"
+			tasks: [{
+				id: "2B8C84025ABB32F3"
+				type: "item"
+				item: {
+					id: "extrabotany:earthstone"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -2473476303969958151L
+						baubleUUIDLeast: -7382263919655938948L
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["1FE8DEFFB6929BE7"]
+			hide: true
+			id: "2965910C584F19E6"
+			tasks: [{
+				id: "761850FE01B3A40A"
+				type: "item"
+				item: {
+					id: "extrabotany:aquastone"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.0d
+			hide_dependency_lines: true
+			dependencies: ["1FE8DEFFB6929BE7"]
+			hide: true
+			id: "084EC21D60CBB542"
+			tasks: [{
+				id: "2A6C60D2E5C9FB4A"
+				type: "item"
+				item: {
+					id: "extrabotany:ignisstone"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: 3806328848451848987L
+						baubleUUIDLeast: -6092292046185708966L
+					}
+				}
+			}]
+		}
+		{
+			title: "Аватар"
+			x: 10.0d
+			y: -8.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"2965910C584F19E6"
+				"574660CD4E9C585F"
+				"084EC21D60CBB542"
+				"2C5D66E151AA3BF3"
+				"0B89AA0C7EDDC891"
+			]
+			hide: true
+			id: "1356844D6EE22B2B"
+			tasks: [{
+				id: "55EB73E01B268ECC"
+				type: "item"
+				item: {
+					id: "extrabotany:thecommunity"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -5991176320002799631L
+						baubleUUIDLeast: -5180393171218302956L
+					}
+				}
+			}]
+		}
+		{
+			title: "Мана-корешок"
+			x: 5.0d
+			y: 2.0d
+			dependencies: [
+				"7B6EE16F9C17FDB3"
+				"49EC9EC752CE535C"
+			]
+			hide: true
+			id: "3BB1D7B3E1F3B3BB"
+			tasks: [
+				{
+					id: "7CEFECE4918EF6DB"
+					type: "item"
+					item: "mythicbotany:yggdrasil_branch"
+				}
+				{
+					id: "0EFA8F20717B2701"
+					type: "item"
+					item: "mythicbotany:gjallar_horn_empty"
+				}
+			]
+		}
+		{
+			title: "Божественный напиток"
+			x: 6.0d
+			y: 3.0d
+			dependencies: ["3BB1D7B3E1F3B3BB"]
+			hide: true
+			id: "2175C8AA650E0906"
+			tasks: [{
+				id: "62E2DB98E102AACF"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_full"
+			}]
+		}
+		{
+			title: "Мана-инфузия"
+			icon: "mythicbotany:alfsteel_ingot"
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["00B0A3EE3E961EBB"]
+			hide: true
+			id: "4614AE1024069C4B"
+			tasks: [
+				{
+					id: "0B20F13EAEF7843C"
+					type: "item"
+					item: {
+						id: "mythicbotany:mana_infuser"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "14AC401C6CF00437"
+					type: "item"
+					item: "botania:shimmerrock"
+					count: 5L
+				}
+				{
+					id: "28AF734CAAECC777"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4L
+				}
+				{
+					id: "518BF27BA8792249"
+					type: "item"
+					item: "mythicbotany:alfsteel_ingot"
+				}
+				{
+					id: "34AD9738B48D0A29"
+					type: "item"
+					item: "botania:spark"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -10.0d
+			dependencies: [
+				"385C467654011741"
+				"518BF27BA8792249"
+			]
+			hide: true
+			id: "680CABBF0362E00C"
+			tasks: [{
+				id: "45774EB5B37EDD2C"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Мега-камень"
+			x: 13.0d
+			y: 3.0d
+			description: ["Выпадает с Гаи второго уровня после выпивания Воды из колодца Мимира"]
+			dependencies: [
+				"7F1677C599C9A521"
+				"2175C8AA650E0906"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "36A2CA5DB01E3D72"
+			tasks: [{
+				id: "13145D467C9D97E5"
+				type: "item"
+				item: "mythicbotany:fimbultyr_tablet"
+			}]
+		}
+		{
+			title: "Руинческие ритуалы"
+			x: 14.5d
+			y: 3.0d
+			dependencies: [
+				"36A2CA5DB01E3D72"
+				"3C0115A56CEF4CB5"
+			]
+			hide: true
+			id: "3BFBF5DEB77B414E"
+			tasks: [
+				{
+					id: "4BF74FDC8A3C1DF8"
+					type: "item"
+					item: "mythicbotany:master_rune_holder"
+				}
+				{
+					id: "3F973E159A4F2B50"
+					type: "item"
+					item: "mythicbotany:rune_holder"
+					count: 12L
+				}
+				{
+					id: "52A4E34A2688517F"
+					type: "item"
+					item: "mythicbotany:kvasir_blood"
+				}
+			]
+		}
+		{
+			title: "Какой интересный вкус..."
+			icon: "mythicbotany:kvasir_mead"
+			x: 16.0d
+			y: 3.0d
+			description: ["Выпейте Мёд Квасира стоя в портале в Эльфхейм"]
+			dependencies: ["3BFBF5DEB77B414E"]
+			hide: true
+			id: "73CE435C8349107D"
+			tasks: [
+				{
+					id: "5F931B304CF18148"
+					type: "item"
+					item: "mythicbotany:kvasir_mead"
+				}
+				{
+					id: "322A89CB130350D2"
+					type: "dimension"
+					dimension: "mythicbotany:alfheim"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 3.0d
+			dependencies: ["73CE435C8349107D"]
+			hide: true
+			id: "20384E4732C6D074"
+			tasks: [{
+				id: "5C12AFF2F8B5738F"
+				type: "item"
+				item: {
+					id: "mythicbotany:andwari_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.5d
+			dependencies: ["3BFBF5DEB77B414E"]
+			hide: true
+			id: "6AA1DBBAE2E0EF74"
+			tasks: [{
+				id: "049680C09A9488E3"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7DD9CBDE4FCDFAEB"
+				"518BF27BA8792249"
+			]
+			hide: true
+			id: "511FFDCBDED115F9"
+			tasks: [{
+				id: "5E779BEFDA6C7E47"
+				type: "item"
+				item: {
+					id: "mythicbotany:mana_ring_greatest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7994C8A6CACEE3F6"
+				"518BF27BA8792249"
+			]
+			hide: true
+			id: "1A9305586990456D"
+			tasks: [{
+				id: "0096F35D2794CB10"
+				type: "item"
+				item: {
+					id: "mythicbotany:aura_ring_greatest"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"46D14DC96483C668"
+				"00B0A3EE3E961EBB"
+			]
+			hide: true
+			id: "02EB0460A64D874D"
+			tasks: [{
+				id: "41FB964D780594AA"
+				type: "item"
+				item: {
+					id: "mythicbotany:fire_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"46D14DC96483C668"
+				"00B0A3EE3E961EBB"
+			]
+			hide: true
+			id: "55AA0286218B1A32"
+			tasks: [{
+				id: "24A3D1E7FFC6D4FB"
+				type: "item"
+				item: {
+					id: "mythicbotany:ice_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"59202966A0687604"
+			]
+			hide: true
+			id: "1E062B4EF0ABBC4E"
+			tasks: [{
+				id: "33081F2DBC655BAD"
+				type: "item"
+				item: "mythicbotany:raindeletia"
+			}]
+			rewards: [
+				{
+					id: "78583A74B3D0921B"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "3CB7F04F43F79C6B"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"59202966A0687604"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "0B086ABEF93473AA"
+			tasks: [{
+				id: "17C80548DCBCF1FF"
+				type: "item"
+				item: "mythicbotany:wither_aconite"
+			}]
+			rewards: [
+				{
+					id: "36543F7D3579C3AF"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "4ACCC898BE6906F7"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"59202966A0687604"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "799F23C10CC2AD94"
+			tasks: [{
+				id: "75A353DE2EFBBD9C"
+				type: "item"
+				item: "mythicbotany:feysythia"
+			}]
+			rewards: [
+				{
+					id: "24A4F803FE648AE9"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "6BFBC3CA5AA91423"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			title: "Цветок безмятежности"
+			x: -8.0d
+			y: 6.0d
+			description: ["Останавливает процесс высыхания рядом стоящих пассивных цветов"]
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"59202966A0687604"
+				"4B500705100A4D37"
+			]
+			hide: true
+			size: 1.2d
+			id: "113F928904C05E02"
+			tasks: [{
+				id: "505BF2AD1AAD2E1B"
+				type: "item"
+				item: "extrabotany:serenitian"
+			}]
+		}
+		{
+			title: "Безграничная мана!"
+			x: -5.5d
+			y: 13.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4B500705100A4D37"
+				"59202966A0687604"
+			]
+			hide: true
+			id: "03C46F1B72786717"
+			tasks: [{
+				id: "1A62118A0C489261"
+				type: "item"
+				item: "extrabotany:reikarlily"
+			}]
+			rewards: [{
+				id: "1D53FA9BDC602477"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"59202966A0687604"
+			]
+			hide: true
+			id: "5A3887B82292469C"
+			tasks: [{
+				id: "3E11CB5063AE7D3C"
+				type: "item"
+				item: "extrabotany:edelweiss"
+			}]
+			rewards: [
+				{
+					id: "068B1A444E242631"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "38FA56B69A6DEB03"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"59202966A0687604"
+			]
+			hide: true
+			id: "2BDC76D19C241196"
+			tasks: [{
+				id: "4F917D6FFDE63AA5"
+				type: "item"
+				item: "extrabotany:omniviolet"
+			}]
+			rewards: [{
+				id: "44734E1291CE8C58"
+				type: "choice"
+				table_id: 8474041000252965929L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 10.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"59202966A0687604"
+			]
+			hide: true
+			id: "6A165189E8472C9B"
+			tasks: [{
+				id: "584D84216F5C4623"
+				type: "item"
+				item: "extrabotany:tinkleflower"
+			}]
+			rewards: [{
+				id: "53A1D45BB757D23F"
+				type: "choice"
+				table_id: 8474041000252965929L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["26EBA995EA60E864"]
+			hide: true
+			id: "2F283C5CC1C49DBE"
+			tasks: [{
+				id: "7E66FFB83223D15F"
+				type: "item"
+				item: "extrabotany:bellflower"
+			}]
+			rewards: [
+				{
+					id: "525C00E4179F3087"
+					type: "item"
+					item: "botania:lime_petal"
+					random_bonus: 2
+				}
+				{
+					id: "643905A9AC77B808"
+					type: "item"
+					item: "botania:fertilizer"
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["26EBA995EA60E864"]
+			hide: true
+			id: "28BB7999A9E13455"
+			tasks: [{
+				id: "23117720E65AA596"
+				type: "item"
+				item: "extrabotany:geminiorchid"
+			}]
+			rewards: [
+				{
+					id: "591E012BEA684171"
+					type: "item"
+					item: "botania:orange_petal"
+					random_bonus: 2
+				}
+				{
+					id: "27EEC53565064249"
+					type: "item"
+					item: "botania:fertilizer"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["26EBA995EA60E864"]
+			hide: true
+			id: "759E41009A4EB2DC"
+			tasks: [{
+				id: "45B89F6EB4C689BD"
+				type: "item"
+				item: "extrabotany:sunbless"
+			}]
+			rewards: [
+				{
+					id: "582D17462A7177F0"
+					type: "item"
+					item: "botania:yellow_petal"
+					random_bonus: 2
+				}
+				{
+					id: "2010CC03EE2B9B71"
+					type: "item"
+					item: "botania:fertilizer"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["26EBA995EA60E864"]
+			hide: true
+			id: "1B36BC204CAC1D66"
+			tasks: [{
+				id: "7DE5AFC3ED26DA1B"
+				type: "item"
+				item: "extrabotany:moonbless"
+			}]
+			rewards: [
+				{
+					id: "2CF583A4E48F346F"
+					type: "item"
+					item: "botania:purple_petal"
+					random_bonus: 2
+				}
+				{
+					id: "1EB86105DF4F8AB3"
+					type: "item"
+					item: "botania:fertilizer"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["26EBA995EA60E864"]
+			hide: true
+			id: "60477FF8B2E36B55"
+			tasks: [{
+				id: "141F2D6521520197"
+				type: "item"
+				item: "mythicbotany:aquapanthus"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["26EBA995EA60E864"]
+			hide: true
+			id: "4CD29A9197DDDA2B"
+			tasks: [{
+				id: "4CF026910694332C"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+			rewards: [
+				{
+					id: "3D15BB68C6B3CF3E"
+					type: "item"
+					item: "botania:blue_petal"
+					random_bonus: 2
+				}
+				{
+					id: "1DFF6CA0E4662CE5"
+					type: "item"
+					item: "botania:fertilizer"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"700430EB59A1AFA7"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "60B92E54F320098A"
+			tasks: [{
+				id: "0729D8C97D5F9564"
+				type: "item"
+				item: "mythicbotany:exoblaze"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"700430EB59A1AFA7"
+				"7E0B532BC362CF01"
+			]
+			hide: true
+			id: "468F2028CE3A6DDC"
+			tasks: [{
+				id: "5952E9F8D5E3F14B"
+				type: "item"
+				item: "mythicbotany:hellebore"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"7E0B532BC362CF01"
+				"700430EB59A1AFA7"
+			]
+			hide: true
+			id: "0E407DCDCA110F73"
+			tasks: [{
+				id: "6A01688287C43F07"
+				type: "item"
+				item: "extrabotany:annoyingflower"
+			}]
+		}
+		{
+			title: "Петрунья"
+			x: 0.5d
+			y: 10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"700430EB59A1AFA7"
+				"3BB1D7B3E1F3B3BB"
+			]
+			hide: true
+			id: "6983D85288B02879"
+			tasks: [{
+				id: "7FB87BB23255C197"
+				type: "item"
+				item: "mythicbotany:petrunia"
 			}]
 		}
 	]
