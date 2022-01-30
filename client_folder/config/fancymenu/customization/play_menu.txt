@@ -88,12 +88,12 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = opencustomgui
-  x = 20
+  x = 15
   width = 128
   actionid = d83148a3-6d1d-468f-8866-4d6b06d06e591642526205791
   action = addbutton
   y = -28
-  label = Копию пароля
+  label = Копия пароля
   value = password.warning
   height = 20
 }
@@ -110,6 +110,21 @@ customization {
   y = -28
   label = Отмена
   value = net.minecraft.client.gui.screen.MainMenuScreen
+  height = 20
+}
+
+customization {
+  orientation = bottom-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = loadworld
+  x = -129
+  width = 110
+  actionid = df655611-c78c-49c5-bebc-088a0dde5a941643505986705
+  action = addbutton
+  y = -28
+  label = Пофиксить рецепты
+  value = debug
   height = 20
 }
 
