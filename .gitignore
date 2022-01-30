@@ -12,7 +12,7 @@
 **/usercache.json
 **/usernamecache.json
 **/cache/**
-client_folder/CustomSkinLoader/caches/**
+client_folder/CustomSkinLoader/caches
 client_folder/local/ftbchunks/data/**
 client_folder/.sl_password
 client_folder/backups
