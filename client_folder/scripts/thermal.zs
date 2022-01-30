@@ -113,7 +113,7 @@ craftingTable.removeRecipe(<item:thermal:machine_press>);
     [<item:create:shadow_steel_casing>, <item:createaddition:overcharged_casing>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:createaddition:overcharged_casing>, <item:create:shadow_steel_casing>], 
     [<item:create:refined_radiance_casing>, <item:thermal:signalum_plate>, <item:create:mechanical_drill>, <item:create:mechanical_drill>, <item:thermal:signalum_plate>, <item:create:refined_radiance_casing>],
     [<item:create:refined_radiance_casing>, <item:thermal:signalum_plate>, <item:thermal:lumium_gear>, <item:thermal:lumium_gear>, <item:thermal:signalum_plate>, <item:create:refined_radiance_casing>],
-    [<item:create:shadow_steel_casing>, <item:createaddition:overcharged_casing>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:createaddition:overcharged_casing>, <item:create:shadow_steel_casing>],
+    [<item:create:shadow_steel_casing>, <item:powah:spirited_crystal_block>, <item:thermal:enderium_plate>, <item:thermal:enderium_plate>, <item:powah:spirited_crystal_block>, <item:create:shadow_steel_casing>],
     [<item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>, <item:create:refined_radiance_casing>, <item:create:refined_radiance_casing>, <item:create:shadow_steel_casing>, <item:create:shadow_steel_casing>]]);
 	
 	craftingTable.removeRecipe(<item:thermal:lightning_grenade>);
