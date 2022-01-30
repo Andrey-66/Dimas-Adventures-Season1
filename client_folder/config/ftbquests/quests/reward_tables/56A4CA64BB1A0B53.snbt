@@ -1,0 +1,15 @@
+{
+	id: "56A4CA64BB1A0B53"
+	order_index: 12
+	title: "Еда"
+	loot_size: 1
+	rewards: [
+		{ item: "simplefarming:hamburger" }
+		{ item: "simplefarming:tofu", count: 2 }
+		{ item: "simplefarming:turnip_beetroot_gratin" }
+		{ item: "simplefarming:sushi", count: 5 }
+		{ item: "simplefarming:veggie_burger", count: 2 }
+		{ item: "simplefarming:tomato_soup" }
+		{ item: "simplefarming:sweet_potato_quinoa_cakes", count: 3 }
+	]
+}

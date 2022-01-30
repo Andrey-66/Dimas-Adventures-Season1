@@ -235,9 +235,9 @@
 				}
 			]
 			rewards: [{
-				id: "054F85D42C3D1248"
-				type: "choice"
-				table_id: 9023447288786701654L
+				id: "359D2385CE1E464B"
+				type: "item"
+				item: "enigmaticlegacy:gem_ring"
 			}]
 		}
 		{
@@ -252,6 +252,11 @@
 				title: "Открыть сундук в бастионе"
 				advancement: "minecraft:nether/loot_bastion"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "09D41AE660549EEE"
+				type: "random"
+				table_id: 9023447288786701654L
 			}]
 		}
 		{
@@ -274,6 +279,20 @@
 					value: 1L
 				}
 			]
+			rewards: [{
+				id: "3BDCE93C4C959C2E"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "tconstruct:blood"
+							Amount: 1000
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Кажется мы нашли что-то очень древнее"
@@ -306,6 +325,11 @@
 						]
 					}
 				}
+			}]
+			rewards: [{
+				id: "44EB606F6C312884"
+				type: "item"
+				item: "minecraft:netherite_scrap"
 			}]
 		}
 		{
@@ -346,6 +370,19 @@
 						}
 					}
 					count: 164L
+				}
+			]
+			rewards: [
+				{
+					id: "06BFDE82BB49A1CC"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "1598FAFEF5FE3955"
+					type: "item"
+					item: "minecraft:diamond_block"
+					count: 2
 				}
 			]
 		}

@@ -1936,6 +1936,18 @@
 				type: "item"
 				item: "botania:labellia"
 			}]
+			rewards: [
+				{
+					id: "3DF360B122ECBEAC"
+					type: "choice"
+					table_id: 5861405098905494759L
+				}
+				{
+					id: "00719A4CF4A54FBA"
+					type: "xp"
+					xp: 20
+				}
+			]
 		}
 		{
 			title: "Действительно так велико?"
@@ -2328,6 +2340,11 @@
 				id: "03560DEC284DC940"
 				type: "item"
 				item: "botania:obedience_stick"
+			}]
+			rewards: [{
+				id: "2F2A0084B4B26489"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -3056,6 +3073,7 @@
 			dependencies: [
 				"00B0A3EE3E961EBB"
 				"0B9C68FB70731410"
+				"4614AE1024069C4B"
 			]
 			hide: true
 			id: "4B500705100A4D37"
@@ -5127,8 +5145,8 @@
 		}
 		{
 			title: "Дорога сквозь пространство"
-			x: 7.5d
-			y: -1.0d
+			x: 8.0d
+			y: 1.0d
 			dependencies: [
 				"10471CA125C2A378"
 				"00B0A3EE3E961EBB"
@@ -5187,6 +5205,20 @@
 					count: 4L
 				}
 			]
+			rewards: [
+				{
+					id: "723C97DD38D76DCE"
+					type: "item"
+					item: "extrabotany:rewardbagb"
+					count: 2
+				}
+				{
+					id: "19BCC340C9BE4168"
+					type: "item"
+					item: "extrabotany:rewardbaga"
+					count: 2
+				}
+			]
 		}
 		{
 			title: "Победи свой эгоизм"
@@ -5236,6 +5268,11 @@
 				id: "2571DFAB55A8DD04"
 				type: "item"
 				item: "extrabotany:dimensioncatalyst"
+			}]
+			rewards: [{
+				id: "24D6FB2E70F06595"
+				type: "item"
+				item: "calemiutils:money_bag_cheap"
 			}]
 		}
 		{
@@ -5346,6 +5383,11 @@
 					item: "extrabotany:photonium"
 				}
 			]
+			rewards: [{
+				id: "1E437BF125ADEE65"
+				type: "random"
+				table_id: 5301364299103499220L
+			}]
 		}
 		{
 			title: "Андрелит...?"
@@ -5354,6 +5396,9 @@
 			dependencies: [
 				"00B0A3EE3E961EBB"
 				"3F9EA64986CCBD2D"
+				"4614AE1024069C4B"
+				"7F418CBD5A9F6E61"
+				"1C0AB625343C5B02"
 			]
 			hide: true
 			id: "4D78F3A12FBA4A36"
@@ -5362,6 +5407,19 @@
 				type: "item"
 				item: "extrabotany:aerialite"
 			}]
+			rewards: [
+				{
+					id: "74DCEA742F98CD58"
+					type: "item"
+					item: "betterendforge:ender_dust"
+					count: 10
+				}
+				{
+					id: "771CF0619A109CC1"
+					type: "random"
+					table_id: 8867430271983481350L
+				}
+			]
 		}
 		{
 			x: 11.0d
@@ -5373,6 +5431,11 @@
 				id: "1B7AE80FA37901BD"
 				type: "item"
 				item: "extrabotany:theorigin"
+			}]
+			rewards: [{
+				id: "320C3806C09BC91C"
+				type: "item"
+				item: "extrabotany:rewardbagd"
 			}]
 		}
 		{
@@ -5386,17 +5449,31 @@
 				type: "item"
 				item: "extrabotany:thechaos"
 			}]
+			rewards: [{
+				id: "54271329A327CC03"
+				type: "item"
+				item: "extrabotany:rewardbagd"
+			}]
 		}
 		{
 			x: 13.0d
 			y: -2.5d
-			dependencies: ["7C5E55C087E62528"]
+			dependencies: [
+				"7C5E55C087E62528"
+				"4614AE1024069C4B"
+			]
 			hide: true
 			id: "59EB1F8E3F535056"
 			tasks: [{
 				id: "2A97695AFB5BF397"
 				type: "item"
 				item: "extrabotany:orichalcos"
+			}]
+			rewards: [{
+				id: "518E1E44F1BAE598"
+				type: "item"
+				item: "botania:life_essence"
+				count: 2
 			}]
 		}
 		{
@@ -5409,6 +5486,11 @@
 				id: "50D61DBD646BDDBD"
 				type: "item"
 				item: "extrabotany:theend"
+			}]
+			rewards: [{
+				id: "73EE8797680D7814"
+				type: "item"
+				item: "extrabotany:rewardbagd"
 			}]
 		}
 		{
@@ -5428,6 +5510,12 @@
 				type: "item"
 				item: "extrabotany:theuniverse"
 			}]
+			rewards: [{
+				id: "04889A6AEEA7C98C"
+				type: "item"
+				item: "extrabotany:rewardbagc"
+				count: 10
+			}]
 		}
 		{
 			x: -5.0d
@@ -5444,6 +5532,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "22D898E547794816"
+				type: "xp"
+				xp: 10
 			}]
 		}
 		{
@@ -5486,6 +5579,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "72737F0C5B81D370"
+					type: "item"
+					item: "enigmaticlegacy:mending_mixture"
+				}
+				{
+					id: "7980487B9D39FD0D"
+					type: "item"
+					item: "enigmaticlegacy:recall_potion"
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -5499,6 +5604,11 @@
 				type: "item"
 				item: "extrabotany:walkingcane"
 			}]
+			rewards: [{
+				id: "16632EC6619CE2DE"
+				type: "item"
+				item: "simplefarming:golden_habanero"
+			}]
 		}
 		{
 			x: -6.0d
@@ -5511,6 +5621,11 @@
 				id: "600F00E90E3AEEA8"
 				type: "item"
 				item: "extrabotany:manareader"
+			}]
+			rewards: [{
+				id: "1A2522FAC7D9E889"
+				type: "item"
+				item: "enigmaticlegacy:recall_potion"
 			}]
 		}
 		{
@@ -5533,6 +5648,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "2684929E3D533AEF"
+				type: "choice"
+				table_id: 5861405098905494759L
+			}]
 		}
 		{
 			x: 5.5d
@@ -5554,6 +5674,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1FD635B6100D2B8D"
+				type: "choice"
+				table_id: 5861405098905494759L
+			}]
 		}
 		{
 			title: "Кольцо управления маной"
@@ -5571,6 +5696,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "2D52EA519F9CE24A"
+				type: "choice"
+				table_id: 5861405098905494759L
 			}]
 		}
 		{
@@ -5605,6 +5735,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "6B7F5728E683786F"
+					type: "item"
+					item: "extrabotany:rewardbagc"
+					random_bonus: 1
+				}
+				{
+					id: "5BFC6C36DD8C7BC2"
+					type: "item"
+					item: "extrabotany:rewardbagd"
+				}
+			]
 		}
 		{
 			title: "Сердце проклятой луны"
@@ -5634,6 +5777,19 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "734BA1198D7F3334"
+					type: "item"
+					item: "extrabotany:rewardbagc"
+					random_bonus: 1
+				}
+				{
+					id: "411696E61BD2A3B8"
+					type: "item"
+					item: "enigmaticlegacy:recall_potion"
+				}
+			]
 		}
 		{
 			title: "Облако в бу... на шее"
@@ -5733,6 +5889,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1996E09C2ECABF46"
+				type: "item"
+				item: "waystones:warp_scroll"
+			}]
 		}
 		{
 			title: "Чипсек"
@@ -5794,6 +5955,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "5DB0D95F59F0FFD9"
+					type: "choice"
+					table_id: 6776755401418994532L
+				}
+				{
+					id: "4E142108025742C6"
+					type: "item"
+					item: "waystones:warp_scroll"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -5817,6 +5990,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "13CD8BE33D2BDEC6"
+					type: "choice"
+					table_id: 6776755401418994532L
+				}
+				{
+					id: "6213F1203B3A54AE"
+					type: "item"
+					item: "enigmaticlegacy:recall_potion"
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -5859,6 +6044,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "138B0BAA0B6DA07C"
+					type: "choice"
+					table_id: 6776755401418994532L
+				}
+				{
+					id: "241D76C6E415EF28"
+					type: "item"
+					item: "waystones:warp_scroll"
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -5882,6 +6079,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "32FCFC95B47A56A1"
+					type: "choice"
+					table_id: 6776755401418994532L
+				}
+				{
+					id: "0D5567ADCF59F884"
+					type: "item"
+					item: "enigmaticlegacy:recall_potion"
+				}
+			]
 		}
 		{
 			title: "А где Артур?"
@@ -5906,6 +6115,18 @@
 					}
 				}
 			}]
+			rewards: [
+				{
+					id: "753DCA9C5D13694B"
+					type: "choice"
+					table_id: 6776755401418994532L
+				}
+				{
+					id: "6114B2EDCECAC07F"
+					type: "item"
+					item: "drinkbeer:beer_mug_haars_icey_pale_lager"
+				}
+			]
 		}
 		{
 			x: 17.0d
@@ -5969,6 +6190,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "67D0862FB99552C4"
+				type: "item"
+				item: "enigmaticlegacy:mending_mixture"
+			}]
 		}
 		{
 			title: "Наверстай упущенное!"
@@ -5996,6 +6222,11 @@
 						soulbindUUID: "d23a0175-00a9-3e17-9d7c-96027b2722ae"
 					}
 				}
+			}]
+			rewards: [{
+				id: "26EA757C679D141E"
+				type: "item"
+				item: "extrabotany:treasurebox"
 			}]
 		}
 		{
@@ -6051,6 +6282,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "29FD024990534C7E"
+				type: "item"
+				item: "enigmaticlegacy:mending_mixture"
+			}]
 		}
 		{
 			x: -4.5d
@@ -6224,6 +6460,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "1011A44FC4A6AF8A"
+				type: "item"
+				item: "waystones:warp_scroll"
+			}]
 		}
 		{
 			title: "Как кишкер"
@@ -6337,6 +6578,12 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3C136FCF5C4BC0D4"
+				type: "item"
+				item: "botania:blacker_lotus"
+				count: 20
+			}]
 		}
 		{
 			x: -1.0d
@@ -6400,6 +6647,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "63A67635856ED759"
+				type: "xp"
+				xp: 15
+			}]
 		}
 		{
 			x: 9.0d
@@ -6420,6 +6672,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "562B1AF296CF1C06"
+				type: "xp"
+				xp: 15
+			}]
 		}
 		{
 			x: 8.0d
@@ -6436,6 +6693,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "1F852B4D7C2B76C4"
+				type: "xp"
+				xp: 15
 			}]
 		}
 		{
@@ -6456,6 +6718,11 @@
 						baubleUUIDLeast: -6092292046185708966L
 					}
 				}
+			}]
+			rewards: [{
+				id: "37C1610EB9D8856B"
+				type: "xp"
+				xp: 15
 			}]
 		}
 		{
@@ -6484,6 +6751,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "22F1E72F2FFDF277"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Мана-корешок"
@@ -6507,6 +6779,12 @@
 					item: "mythicbotany:gjallar_horn_empty"
 				}
 			]
+			rewards: [{
+				id: "071DAE316E2F4FB8"
+				type: "item"
+				item: "botania:elementium_ingot"
+				count: 2
+			}]
 		}
 		{
 			title: "Божественный напиток"
@@ -6520,13 +6798,33 @@
 				type: "item"
 				item: "mythicbotany:gjallar_horn_full"
 			}]
+			rewards: [
+				{
+					id: "7AA1B02D6E5D5ED5"
+					type: "item"
+					item: {
+						id: "botania:mana_bottle"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3CBC67EC5A3048A2"
+					type: "random"
+					table_id: 6776755401418994532L
+				}
+			]
 		}
 		{
 			title: "Мана-инфузия"
 			icon: "mythicbotany:alfsteel_ingot"
-			x: 8.0d
-			y: 1.5d
-			dependencies: ["00B0A3EE3E961EBB"]
+			x: 10.5d
+			y: -1.0d
+			dependencies: [
+				"00B0A3EE3E961EBB"
+				"184C412504DBD972"
+				"1C0AB625343C5B02"
+			]
 			hide: true
 			id: "4614AE1024069C4B"
 			tasks: [
@@ -6561,6 +6859,24 @@
 					type: "item"
 					item: "botania:spark"
 				}
+				{
+					id: "1D85934CE52A36EE"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+			]
+			rewards: [
+				{
+					id: "12CC8A2259A816C7"
+					type: "choice"
+					table_id: 6776755401418994532L
+				}
+				{
+					id: "4435ADA434688CF8"
+					type: "item"
+					item: "botania:blacker_lotus"
+					count: 32
+				}
 			]
 		}
 		{
@@ -6583,6 +6899,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "660B5BCE8BA8E737"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
 		}
 		{
 			title: "Мега-камень"
@@ -6600,6 +6921,11 @@
 				id: "13145D467C9D97E5"
 				type: "item"
 				item: "mythicbotany:fimbultyr_tablet"
+			}]
+			rewards: [{
+				id: "5C3DA9908F4DFF59"
+				type: "random"
+				table_id: 9130279370242653370L
 			}]
 		}
 		{
@@ -6630,6 +6956,20 @@
 					item: "mythicbotany:kvasir_blood"
 				}
 			]
+			rewards: [
+				{
+					id: "6305371DA84524ED"
+					type: "item"
+					item: "extrabotany:universalpetal"
+					count: 3
+					random_bonus: 1
+				}
+				{
+					id: "6B18AFCD078B2737"
+					type: "random"
+					table_id: 6776755401418994532L
+				}
+			]
 		}
 		{
 			title: "Какой интересный вкус..."
@@ -6652,23 +6992,57 @@
 					dimension: "mythicbotany:alfheim"
 				}
 			]
+			rewards: [
+				{
+					id: "314ED4A2FB9C3235"
+					type: "item"
+					item: "minecraft:honey_block"
+					count: 5
+				}
+				{
+					id: "3B0C36CC339D28DA"
+					type: "item"
+					item: "extrabotany:universalpetal"
+					count: 3
+				}
+			]
 		}
 		{
+			icon: {
+				id: "mythicbotany:andwari_ring"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 17.5d
 			y: 3.0d
 			dependencies: ["73CE435C8349107D"]
 			hide: true
 			id: "20384E4732C6D074"
-			tasks: [{
-				id: "5C12AFF2F8B5738F"
-				type: "item"
-				item: {
-					id: "mythicbotany:andwari_ring"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "656C274A9787B455"
+					type: "structure"
+					title: "Найти пещеру Андвари"
+					structure: "mythicbotany:andwari_cave"
+				}
+				{
+					id: "3D8D460B75B2E0C9"
+					type: "item"
+					item: {
+						id: "mythicbotany:andwari_ring"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
+			]
+			rewards: [{
+				id: "2C54DB2C6030AE48"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -6681,6 +7055,11 @@
 				id: "049680C09A9488E3"
 				type: "item"
 				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [{
+				id: "3001545C658BF2DB"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -7083,6 +7462,20 @@
 				type: "item"
 				item: "mythicbotany:aquapanthus"
 			}]
+			rewards: [
+				{
+					id: "4E2E31380AEC2643"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "39D6EFC1D1B40559"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
 		}
 		{
 			x: -4.5d
@@ -7125,6 +7518,20 @@
 				type: "item"
 				item: "mythicbotany:exoblaze"
 			}]
+			rewards: [
+				{
+					id: "1F68AE8B616366A1"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "4CFCC61A136D76A1"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -7141,6 +7548,20 @@
 				type: "item"
 				item: "mythicbotany:hellebore"
 			}]
+			rewards: [
+				{
+					id: "093154757E322420"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "73573BA81A78C2C7"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -7157,6 +7578,20 @@
 				type: "item"
 				item: "extrabotany:annoyingflower"
 			}]
+			rewards: [
+				{
+					id: "05B8BBD243C312BE"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "68E2E8B2E4B2B888"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
 		}
 		{
 			title: "Петрунья"
@@ -7174,6 +7609,20 @@
 				type: "item"
 				item: "mythicbotany:petrunia"
 			}]
+			rewards: [
+				{
+					id: "2C4270D2CC6A1C2D"
+					type: "choice"
+					table_id: 8474041000252965929L
+				}
+				{
+					id: "6C433E6C62CC6BD7"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 5
+					random_bonus: 5
+				}
+			]
 		}
 	]
 }

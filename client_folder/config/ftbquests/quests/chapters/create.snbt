@@ -1808,12 +1808,23 @@
 					item: "createaddition:rolling_mill"
 				}
 			]
-			rewards: [{
-				id: "6919A7DBF504367D"
-				type: "gamestage"
-				auto: "invisible"
-				stage: "thermal_stage"
-			}]
+			rewards: [
+				{
+					id: "6919A7DBF504367D"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "thermal_stage"
+				}
+				{
+					id: "1866BB41541DB3E8"
+					type: "item"
+					item: {
+						id: "powah:battery_starter"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -1838,6 +1849,66 @@
 				type: "item"
 				item: "createaddition:crude_burner"
 			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			dependencies: ["136792E3AC46230B"]
+			hide: true
+			id: "7C5DE063E5F8340F"
+			tasks: [{
+				id: "32232E5A5F950036"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2EBFB8A272C169B2"
+					type: "choice"
+					table_id: 5521523319258406185L
+				}
+				{
+					id: "4981D3FDFD64962F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Это точно сталь?"
+			x: 6.5d
+			y: -7.5d
+			dependencies: ["7C5DE063E5F8340F"]
+			hide: true
+			id: "2218A98C65C36F6B"
+			tasks: [
+				{
+					id: "1E9F4E4D831A01EC"
+					type: "item"
+					item: "create:shadow_steel"
+				}
+				{
+					id: "6DF6D6255C87AA93"
+					type: "item"
+					item: "create:refined_radiance"
+				}
+			]
+			rewards: [
+				{
+					id: "76C1C437643E23FA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "41219B4AB97BA780"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
 		}
 	]
 }
