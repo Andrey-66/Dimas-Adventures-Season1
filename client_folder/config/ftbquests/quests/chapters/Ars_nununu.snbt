@@ -110,6 +110,7 @@
 			title: "Первый урок"
 			x: -12.5d
 			y: 0.0d
+			shape: "hexagon"
 			dependencies: [
 				"26EBA995EA60E864"
 				"19129491868919F1"

@@ -284,8 +284,8 @@
 			title: "[BUY] Рассадник"
 			icon: "minecraft:spawner"
 			disable_toast: true
-			x: 3.5d
-			y: 0.5d
+			x: -0.5d
+			y: -1.0d
 			dependencies: ["0308DA58366ED92D"]
 			id: "12842EF39E3E3988"
 			tasks: [{
@@ -309,6 +309,270 @@
 					team_reward: false
 					auto: "invisible"
 					command: "/ftbquests change_progress @p reset 12842EF39E3E3988"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[SELL] Медный слиток"
+			disable_toast: true
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["48B784BDF17E1611"]
+			hide: true
+			optional: true
+			id: "47A021597CABE089"
+			tasks: [{
+				id: "777D1E2FF570DFC7"
+				type: "item"
+				item: "create:copper_ingot"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "1C4EA07838041E11"
+					type: "item"
+					auto: "no_toast"
+					item: "calemiutils:coin_gold"
+					count: 3
+				}
+				{
+					id: "73225DE95F440ED6"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 47A021597CABE089"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[SELL] Оловянный слиток"
+			disable_toast: true
+			x: -2.5d
+			y: 4.0d
+			dependencies: ["48B784BDF17E1611"]
+			hide: true
+			optional: true
+			id: "620865A006D3DD96"
+			tasks: [{
+				id: "3ECC5E4A411AC1DE"
+				type: "item"
+				item: "thermal:tin_ingot"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3DC14F1C42BE1412"
+					type: "item"
+					auto: "no_toast"
+					item: "calemiutils:coin_gold"
+					count: 3
+				}
+				{
+					id: "2E986ECD8E9458CA"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 620865A006D3DD96"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[SELL] Пламенный кристалл"
+			disable_toast: true
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["6822101C795F4880"]
+			hide: true
+			optional: true
+			id: "01812A823AD6F7D3"
+			tasks: [{
+				id: "3E9346A1157814EE"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2BFF211CA1902EF3"
+					type: "item"
+					auto: "no_toast"
+					item: "calemiutils:coin_gold"
+					count: 20
+				}
+				{
+					id: "18E33124755B87F4"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 01812A823AD6F7D3"
+					player_command: false
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["0449DFFD785FDC20"]
+			hide: true
+			optional: true
+			id: "40F9247CA0BC7DE3"
+			tasks: [{
+				id: "73D4FBE22308ADCA"
+				type: "item"
+				title: "[SELL] Инварный слиток"
+				item: "thermal:invar_ingot"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3804CAE97149BA2B"
+					type: "item"
+					auto: "no_toast"
+					item: "calemiutils:coin_gold"
+					count: 12
+				}
+				{
+					id: "2F5BF22051FCC546"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 40F9247CA0BC7DE3"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Медный слиток"
+			icon: "create:copper_ingot"
+			disable_toast: true
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["48B784BDF17E1611"]
+			hide: true
+			optional: true
+			id: "6241C86FC7559D7D"
+			tasks: [{
+				id: "04CF7BE61939D599"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "5E04DA3E165C74C4"
+					type: "item"
+					auto: "no_toast"
+					item: "create:copper_ingot"
+					count: 5
+				}
+				{
+					id: "6BA4539CA80B60EA"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6241C86FC7559D7D"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Оловянный слиток"
+			icon: "thermal:tin_ingot"
+			disable_toast: true
+			x: -1.5d
+			y: 4.0d
+			dependencies: ["48B784BDF17E1611"]
+			hide: true
+			optional: true
+			id: "5366BAF9E145CDF6"
+			tasks: [{
+				id: "504F2314BFEBED02"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "27A4CC136A932987"
+					type: "item"
+					auto: "no_toast"
+					item: "thermal:tin_ingot"
+					count: 3
+				}
+				{
+					id: "4740296F9A56B0EC"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 5366BAF9E145CDF6"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Пламенный кристалл"
+			icon: "powah:crystal_blazing"
+			disable_toast: true
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["6822101C795F4880"]
+			hide: true
+			optional: true
+			id: "4147C9DB2AC66D56"
+			tasks: [{
+				id: "4DA21CA71F782F36"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 40L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0A9147CEE1B0291B"
+					type: "item"
+					auto: "no_toast"
+					item: "powah:crystal_blazing"
+				}
+				{
+					id: "498A33D989E36E45"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4147C9DB2AC66D56"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Инварный слиток"
+			icon: "thermal:invar_ingot"
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["0449DFFD785FDC20"]
+			id: "7A8C9FD125693FA7"
+			tasks: [{
+				id: "13E9BFDD4582F943"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "72AE5A5E7C89B383"
+					type: "item"
+					auto: "no_toast"
+					item: "thermal:invar_ingot"
+					count: 3
+				}
+				{
+					id: "28957556ABB5CB35"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 7A8C9FD125693FA7"
 					player_command: false
 				}
 			]

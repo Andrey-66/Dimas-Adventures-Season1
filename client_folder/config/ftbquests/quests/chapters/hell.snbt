@@ -343,6 +343,11 @@
 				type: "item"
 				item: "minecraft:beacon"
 			}]
+			rewards: [{
+				id: "15955404284D520F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			title: "Маяковский"

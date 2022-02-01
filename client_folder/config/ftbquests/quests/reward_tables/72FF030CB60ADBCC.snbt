@@ -1,0 +1,15 @@
+{
+	id: "72FF030CB60ADBCC"
+	order_index: 13
+	title: "Динамит"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:slime_tnt" }
+		{ item: "thermal:redstone_tnt" }
+		{ item: "thermal:ender_tnt" }
+		{ item: "thermal:earth_tnt" }
+		{ item: "thermal:fire_tnt" }
+		{ item: "thermal:ice_tnt" }
+		{ item: "thermal:lightning_tnt" }
+	]
+}

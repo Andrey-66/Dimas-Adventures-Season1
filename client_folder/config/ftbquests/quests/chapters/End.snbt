@@ -14,6 +14,8 @@
 			icon: "minecraft:end_stone"
 			x: -1.5d
 			y: 0.0d
+			dependencies: ["267227B77B47D371"]
+			hide: true
 			id: "35B0DBECB08F5384"
 			tasks: [{
 				id: "24817E3B896DD126"
@@ -22,7 +24,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.5d
 			y: 0.0d
 			dependencies: ["4ACC75CD1B9ECF0A"]
 			hide: true
@@ -60,18 +62,84 @@
 			]
 		}
 		{
-			x: 2.0d
+			title: "Инфузия по Эндовски"
+			icon: "betterendforge:infusion_pedestal"
+			x: 3.0d
 			y: -2.0d
 			dependencies: [
-				"4ACC75CD1B9ECF0A"
 				"7C925549E53A43B5"
+				"62C01C659BEA50D4"
 			]
 			id: "7C8E4BF796ED05C5"
-			tasks: [{
-				id: "28D49CCA6F5E5A9C"
-				type: "item"
-				item: "betterendforge:infusion_pedestal"
-			}]
+			tasks: [
+				{
+					id: "28D49CCA6F5E5A9C"
+					type: "item"
+					item: "betterendforge:infusion_pedestal"
+				}
+				{
+					id: "72E2B3C3A4321889"
+					type: "item"
+					title: "Любой пьедестал"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "betterendforge:andesite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:diorite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:granite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:quartz_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:purpur_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:sandy_jadestone_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:azure_jadestone_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:virid_jadestone_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:sulphuric_rock_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:violecite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:flavolite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterendforge:umbralith_pedestal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+			]
 		}
 		{
 			title: "Небесные города"
@@ -171,12 +239,19 @@
 			dependencies: ["35B0DBECB08F5384"]
 			hide: true
 			id: "6E6264F23CA089CF"
-			tasks: [{
-				id: "4FC6B12994486017"
-				type: "biome"
-				icon: "betterendforge:aurora_crystal"
-				biome: "betterendforge:crystal_mountains"
-			}]
+			tasks: [
+				{
+					id: "4FC6B12994486017"
+					type: "biome"
+					icon: "betterendforge:aurora_crystal"
+					biome: "betterendforge:crystal_mountains"
+				}
+				{
+					id: "688F7719D438BEFA"
+					type: "item"
+					item: "betterendforge:crystal_shards"
+				}
+			]
 		}
 		{
 			title: "Как прекрасен янтарь"
@@ -201,6 +276,7 @@
 			]
 		}
 		{
+			title: "Серные озёра"
 			icon: {
 				id: "betterendforge:brimstone"
 				Count: 1b
@@ -239,6 +315,7 @@
 				{
 					id: "7D681B5908F74F23"
 					type: "structure"
+					title: "Найти страннную рамку портала"
 					structure: "betterendforge:eternal_portal_structure"
 				}
 				{
@@ -248,6 +325,52 @@
 					count: 8L
 				}
 			]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["4ACC75CD1B9ECF0A"]
+			hide: true
+			id: "62C01C659BEA50D4"
+			tasks: [{
+				id: "5BF41D309586F5CC"
+				type: "item"
+				item: "enigmaticlegacy:etherium_ore"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			shape: "hexagon"
+			hide: true
+			id: "267227B77B47D371"
+			tasks: [{
+				id: "5720776C75ADDEF7"
+				type: "checkmark"
+				title: "Открыть Энд"
+			}]
+			rewards: [{
+				id: "6DD033DD5D69A968"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "end_stage"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			shape: "octagon"
+			dependencies: ["35B0DBECB08F5384"]
+			hide: true
+			size: 1.8d
+			id: "3C81F2D380E3F6CA"
+			tasks: [{
+				id: "2EA31AE9E91C1569"
+				type: "advancement"
+				title: "Победить Эндер дракона"
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+			}]
 		}
 	]
 }

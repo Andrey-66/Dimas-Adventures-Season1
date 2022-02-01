@@ -13,6 +13,7 @@
 			icon: "evilcraft:dark_gem"
 			x: 0.0d
 			y: 0.0d
+			shape: "hexagon"
 			description: ["Накормите любое животное Тёмным яблоком, затем бросьте обычную книгу в открывшийся портал."]
 			dependencies: ["700430EB59A1AFA7"]
 			hide: true
@@ -52,6 +53,20 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "3A8DBAAFAEEED4AD"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "evilcraft:blood"
+							Amount: 1000
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "С этими самоцветами явно что-то не то"
@@ -70,7 +85,7 @@
 			}]
 		}
 		{
-			title: "Звезда во лбу горит"
+			title: "Звезда по имени солнце"
 			x: 4.0d
 			y: 2.5d
 			dependencies: ["318F51D656BC8C35"]
@@ -81,6 +96,20 @@
 				type: "item"
 				item: "evilcraft:blood_infusion_core"
 			}]
+			rewards: [
+				{
+					id: "1214308801E955BF"
+					type: "item"
+					item: "evilcraft:hardened_blood_shard"
+					count: 3
+					random_bonus: 4
+				}
+				{
+					id: "229CE2751AB6F006"
+					type: "item"
+					item: "tconstruct:blood_slime_ball"
+				}
+			]
 		}
 		{
 			title: "Никакой больше печи"
@@ -181,6 +210,20 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "3973661CAC6A81F3"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "evilcraft:blood"
+							Amount: 1000
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Обещание упорства"
@@ -194,6 +237,25 @@
 				type: "item"
 				item: "evilcraft:promise_tier_1"
 			}]
+			rewards: [
+				{
+					id: "2D4590FA066DB05B"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:bloodbone"
+						}
+					}
+				}
+				{
+					id: "45C94DA8AF8A6CCD"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					random_bonus: 3
+				}
+			]
 		}
 		{
 			title: "Клятва упорности"
@@ -207,6 +269,30 @@
 				type: "item"
 				item: "evilcraft:promise_tier_2"
 			}]
+			rewards: [
+				{
+					id: "2C003537C1436E56"
+					type: "item"
+					item: "enigmaticlegacy:mending_mixture"
+				}
+				{
+					id: "214E88E31BAFD4F2"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 4
+				}
+				{
+					id: "1345A1231C9A589E"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:bloodbone"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Клятва упоротости"
@@ -220,6 +306,43 @@
 				type: "item"
 				item: "evilcraft:promise_tier_3"
 			}]
+			rewards: [
+				{
+					id: "7A842296903883D4"
+					type: "item"
+					item: {
+						id: "alexsmobs:blood_sprayer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5058CAF782F0869C"
+					type: "item"
+					item: "waystones:warp_scroll"
+				}
+				{
+					id: "60CB62CD696B8A97"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "4461F9E03AFCC0EE"
+					type: "item"
+					item: {
+						id: "ftblibrary:fluid_container"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "evilcraft:blood"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Обещание скорости"
@@ -232,6 +355,17 @@
 				id: "08468B898D5B3D4F"
 				type: "item"
 				item: "evilcraft:promise_speed_0"
+			}]
+			rewards: [{
+				id: "383B368B8A45503D"
+				type: "item"
+				item: {
+					id: "extrabotany:splashgrenade"
+					Count: 1b
+					tag: {
+						brewKey: "botania:speed"
+					}
+				}
 			}]
 		}
 		{
@@ -246,6 +380,13 @@
 				type: "item"
 				item: "evilcraft:promise_efficiency_0"
 			}]
+			rewards: [{
+				id: "51D99D41086C1573"
+				type: "item"
+				item: "evilcraft:condensed_blood"
+				count: 4
+				random_bonus: 28
+			}]
 		}
 		{
 			title: "Кровавые слёзы"
@@ -258,6 +399,11 @@
 				id: "768DC707197F09DF"
 				type: "item"
 				item: "evilcraft:undead_sapling"
+			}]
+			rewards: [{
+				id: "70567BA771DA12B6"
+				type: "choice"
+				table_id: 6053417601273439989L
 			}]
 		}
 		{
@@ -274,6 +420,12 @@
 				id: "0030DE075729DF1F"
 				type: "item"
 				item: "evilcraft:reinforced_undead_planks"
+			}]
+			rewards: [{
+				id: "3A0576A016378A99"
+				type: "item"
+				item: "evilcraft:reinforced_undead_planks"
+				count: 2
 			}]
 		}
 		{
@@ -302,6 +454,11 @@
 					count: 25L
 				}
 			]
+			rewards: [{
+				id: "743E73FA994E2E24"
+				type: "item"
+				item: "evilcraft:undead_sapling"
+			}]
 		}
 		{
 			title: "Наполняем пустые обещания"
@@ -315,6 +472,11 @@
 				id: "5384F526EE6673E7"
 				type: "item"
 				item: "evilcraft:bowl_of_promises_tier0"
+			}]
+			rewards: [{
+				id: "71140ADAB947D5B7"
+				type: "xp"
+				xp: 15
 			}]
 		}
 		{
@@ -330,6 +492,11 @@
 				type: "item"
 				item: "evilcraft:bowl_of_promises_tier1"
 			}]
+			rewards: [{
+				id: "2D0CF834EB2EC75F"
+				type: "xp"
+				xp: 20
+			}]
 		}
 		{
 			title: "Наполни своё обещание полностью, семпай"
@@ -343,6 +510,11 @@
 				id: "4D8421024601AD51"
 				type: "item"
 				item: "evilcraft:bowl_of_promises_tier2"
+			}]
+			rewards: [{
+				id: "28988D685059F18B"
+				type: "xp"
+				xp: 25
 			}]
 		}
 		{
@@ -360,6 +532,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5A41AE1147950551"
+				type: "xp"
+				xp: 75
+			}]
 		}
 		{
 			x: 7.5d
@@ -375,6 +552,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "72E031A2EE7A1A78"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -399,6 +581,11 @@
 					item: "evilcraft:blook"
 				}
 			]
+			rewards: [{
+				id: "77072F47A053C9C0"
+				type: "choice"
+				table_id: 6053417601273439989L
+			}]
 		}
 		{
 			title: "Повелитель погоды"
@@ -432,6 +619,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1B3630C2149C4A6D"
+				type: "choice"
+				table_id: 6243337517426936659L
+			}]
 		}
 		{
 			x: -4.0d
@@ -451,6 +643,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "13D6FD29A4D0AA78"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+				count: 32
+			}]
 		}
 		{
 			x: -3.0d
@@ -469,6 +667,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "27F4C0C230948C34"
+				type: "random"
+				table_id: 8286345192513657804L
 			}]
 		}
 		{
@@ -490,6 +693,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "4CF9F31CDD3C70E1"
+				type: "item"
+				item: "appliedenergistics2:tiny_tnt"
+				count: 3
+			}]
 		}
 		{
 			title: "Шарик go бзик бзик"
@@ -502,6 +711,11 @@
 				id: "2398DC6881DFCD4F"
 				type: "item"
 				item: "evilcraft:inverted_potentia_empowered"
+			}]
+			rewards: [{
+				id: "55FDDE686EDBC931"
+				type: "item"
+				item: "enigmaticlegacy:recall_potion"
 			}]
 		}
 		{
@@ -516,6 +730,11 @@
 				type: "item"
 				item: "evilcraft:dark_stick"
 			}]
+			rewards: [{
+				id: "6C034B12C56D52B6"
+				type: "xp"
+				xp: 25
+			}]
 		}
 		{
 			title: "Удар по желудку"
@@ -528,6 +747,11 @@
 				id: "52E0911B780A2C19"
 				type: "item"
 				item: "evilcraft:burning_gem_stone"
+			}]
+			rewards: [{
+				id: "72B3D65951D58C07"
+				type: "choice"
+				table_id: 6243337517426936659L
 			}]
 		}
 		{
@@ -553,6 +777,15 @@
 					item: "evilcraft:vengeance_focus"
 				}
 			]
+			rewards: [{
+				id: "060296ACF07F8D35"
+				type: "item"
+				item: {
+					id: "extrabotany:blackglasses"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			title: "Готов \"душить\""
@@ -566,6 +799,15 @@
 				type: "item"
 				item: "evilcraft:piercing_vengeance_focus"
 			}]
+			rewards: [{
+				id: "313CDA60B96EE4DB"
+				type: "item"
+				item: {
+					id: "extrabotany:thuglife"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			title: "Прах... духа?"
@@ -578,6 +820,12 @@
 				id: "3949136D68AA3286"
 				type: "item"
 				item: "evilcraft:vengeance_essence"
+			}]
+			rewards: [{
+				id: "2CB4AE09DA1986BB"
+				type: "item"
+				item: "iceandfire:ash"
+				count: 32
 			}]
 		}
 		{
@@ -603,6 +851,15 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "55A6FB2E6CECF8FE"
+				type: "item"
+				item: {
+					id: "botania:cosmetic_orange_shades"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
 			x: -2.0d
@@ -624,6 +881,11 @@
 						}]
 					}
 				}
+			}]
+			rewards: [{
+				id: "593855B5E5B415A5"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 		}
 		{
@@ -653,6 +915,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "054153980A43E1CB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 		}
 		{
 			title: "Компактно, но затратно"
@@ -671,6 +938,20 @@
 				type: "item"
 				item: "evilcraft:sanguinary_environmental_accumulator"
 			}]
+			rewards: [{
+				id: "46D28F5AD69DC6BD"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "evilcraft:blood"
+							Amount: 1000
+						}
+					}
+				}
+			}]
 		}
 		{
 			x: -3.0d
@@ -688,6 +969,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "1A5A4EDCD48C9D95"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 		}
 		{
 			x: -2.0d
@@ -704,6 +990,11 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "56D7503629433E69"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 		}
 		{
@@ -725,13 +1016,20 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "3213FDC4C1DEA195"
-				type: "gamestage"
-				team_reward: false
-				auto: "invisible"
-				stage: "glyph_dispel"
-			}]
+			rewards: [
+				{
+					id: "3213FDC4C1DEA195"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_dispel"
+				}
+				{
+					id: "73CA0EB0088BF73C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -745,13 +1043,20 @@
 				type: "item"
 				item: "evilcraft:sceptre_of_thunder"
 			}]
-			rewards: [{
-				id: "625000D695A4DAD8"
-				type: "gamestage"
-				team_reward: false
-				auto: "invisible"
-				stage: "glyph_lightning"
-			}]
+			rewards: [
+				{
+					id: "625000D695A4DAD8"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "glyph_lightning"
+				}
+				{
+					id: "468EF632A1979BF5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -767,6 +1072,27 @@
 				type: "item"
 				item: "evilcraft:effortless_ring"
 			}]
+			rewards: [
+				{
+					id: "1B827B9801D8D598"
+					type: "item"
+					item: "enigmaticlegacy:recall_potion"
+				}
+				{
+					id: "38A3941571F4B603"
+					type: "item"
+					item: {
+						id: "ftblibrary:fluid_container"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "evilcraft:blood"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -786,6 +1112,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1E10DE02F19477CA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 		}
 		{
 			x: -5.0d
@@ -803,6 +1134,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "7082D9EC76619F25"
+				type: "choice"
+				table_id: 6243337517426936659L
+			}]
 		}
 		{
 			title: "Закрыт навеки... а ой, уже нет"
@@ -815,6 +1151,11 @@
 				id: "3CE42F7AF6DBA366"
 				type: "item"
 				item: "evilcraft:box_of_eternal_closure"
+			}]
+			rewards: [{
+				id: "3DF90EB3A5FAD1C7"
+				type: "item"
+				item: "waystones:warp_scroll"
 			}]
 		}
 		{
@@ -845,6 +1186,20 @@
 					}
 				}
 			]
+			rewards: [
+				{
+					id: "48415086BE1DD3EA"
+					type: "item"
+					item: "evilcraft:condensed_blood"
+					count: 10
+					random_bonus: 5
+				}
+				{
+					id: "561CCB3088BDDD3E"
+					type: "item"
+					item: "enigmaticlegacy:recall_potion"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -865,6 +1220,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "65E27DC9519B3575"
+				type: "item"
+				item: "enigmaticlegacy:mending_mixture"
+			}]
 		}
 		{
 			title: "Красный шарик"
@@ -882,6 +1242,11 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "7980CC62711E27BC"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
 		}
 		{
 			title: "Бесконечность не предел!"
@@ -895,6 +1260,11 @@
 				type: "item"
 				item: "evilcraft:bucket_eternal_water"
 			}]
+			rewards: [{
+				id: "21F9CADCA1F17160"
+				type: "random"
+				table_id: 6243337517426936659L
+			}]
 		}
 		{
 			title: "Вечность"
@@ -907,6 +1277,11 @@
 				id: "6CD8CB3A777C8A7B"
 				type: "item"
 				item: "evilcraft:eternal_water"
+			}]
+			rewards: [{
+				id: "276CD382E5759F74"
+				type: "random"
+				table_id: 5521523319258406185L
 			}]
 		}
 	]

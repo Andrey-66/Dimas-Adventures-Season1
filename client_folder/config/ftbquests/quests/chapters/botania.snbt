@@ -16,6 +16,7 @@
 			title: "Начало"
 			x: -10.0d
 			y: 0.0d
+			shape: "hexagon"
 			id: "7E2F61DDFEF839D3"
 			tasks: [{
 				id: "1A4F001710C17274"
@@ -5424,7 +5425,10 @@
 		{
 			x: 11.0d
 			y: -4.0d
-			dependencies: ["4D78F3A12FBA4A36"]
+			dependencies: [
+				"4D78F3A12FBA4A36"
+				"09E1C2C990172CB9"
+			]
 			hide: true
 			id: "3B2256F575F3AF8B"
 			tasks: [{
@@ -5432,16 +5436,30 @@
 				type: "item"
 				item: "extrabotany:theorigin"
 			}]
-			rewards: [{
-				id: "320C3806C09BC91C"
-				type: "item"
-				item: "extrabotany:rewardbagd"
-			}]
+			rewards: [
+				{
+					id: "320C3806C09BC91C"
+					type: "item"
+					item: "extrabotany:rewardbagd"
+				}
+				{
+					id: "307A8DFDEA9325D9"
+					type: "item"
+					item: {
+						id: "extrabotany:pylon"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: -4.0d
-			dependencies: ["2658659F9CC5AF0B"]
+			dependencies: [
+				"2658659F9CC5AF0B"
+				"6822101C795F4880"
+			]
 			hide: true
 			id: "0B89AA0C7EDDC891"
 			tasks: [{
@@ -5479,7 +5497,10 @@
 		{
 			x: 13.0d
 			y: -4.0d
-			dependencies: ["59EB1F8E3F535056"]
+			dependencies: [
+				"59EB1F8E3F535056"
+				"2C58B9506F25F84D"
+			]
 			hide: true
 			id: "30604ED9A28C6CFC"
 			tasks: [{
@@ -5501,6 +5522,8 @@
 				"3B2256F575F3AF8B"
 				"0B89AA0C7EDDC891"
 				"30604ED9A28C6CFC"
+				"67B60BD9C226E375"
+				"7C8E4BF796ED05C5"
 			]
 			hide: true
 			size: 1.3d
@@ -6968,6 +6991,12 @@
 					id: "6B18AFCD078B2737"
 					type: "random"
 					table_id: 6776755401418994532L
+				}
+				{
+					id: "0024B46EDEA28286"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "alfheim_stage"
 				}
 			]
 		}

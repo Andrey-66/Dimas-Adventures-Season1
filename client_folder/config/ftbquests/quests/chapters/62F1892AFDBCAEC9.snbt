@@ -11,6 +11,7 @@
 		{
 			x: 2.0d
 			y: -2.0d
+			shape: "gear"
 			dependencies: ["126671D3213C965D"]
 			hide: true
 			id: "0449DFFD785FDC20"
@@ -647,7 +648,10 @@
 		{
 			x: -2.5d
 			y: 0.5d
-			dependencies: ["52625FCA57C68DEC"]
+			dependencies: [
+				"52625FCA57C68DEC"
+				"306E00C38E053963"
+			]
 			hide: true
 			id: "62C1C59B57E0B105"
 			tasks: [{
@@ -1009,6 +1013,7 @@
 				"11C6DE40A1086221"
 				"1D99DAD6806288EA"
 				"2218A98C65C36F6B"
+				"182C1EE0EF5DAA9C"
 			]
 			hide: true
 			id: "287DBE3495AFEDCE"
@@ -1035,7 +1040,11 @@
 			title: "Быстрее!"
 			x: 1.0d
 			y: -8.0d
-			dependencies: ["287DBE3495AFEDCE"]
+			dependencies: [
+				"287DBE3495AFEDCE"
+				"599E057E38B70921"
+				"21234F70023BC665"
+			]
 			hide: true
 			id: "6C4821D24DAE4E04"
 			tasks: [{
@@ -1053,7 +1062,11 @@
 			title: "Сильнее!"
 			x: 3.0d
 			y: -8.0d
-			dependencies: ["287DBE3495AFEDCE"]
+			dependencies: [
+				"287DBE3495AFEDCE"
+				"70D81E7B2F74403B"
+				"7CC2167BEB00F5C6"
+			]
 			hide: true
 			id: "2E00A0C80D096A80"
 			tasks: [{
@@ -1066,7 +1079,10 @@
 			title: "Выше!"
 			x: 2.0d
 			y: -8.0d
-			dependencies: ["287DBE3495AFEDCE"]
+			dependencies: [
+				"287DBE3495AFEDCE"
+				"1E5AEB97A4F7E6C5"
+			]
 			hide: true
 			id: "6C60CB2AD0BC4A75"
 			tasks: [{

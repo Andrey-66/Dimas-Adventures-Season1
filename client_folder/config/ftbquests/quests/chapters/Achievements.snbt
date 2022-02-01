@@ -268,6 +268,18 @@
 					value: 50L
 				}
 			]
+			rewards: [
+				{
+					id: "3BAFD8995C391DD5"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "708AFBD27874C38B"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+			]
 		}
 		{
 			title: "Ой, сало, сало, сало, українське сало..."
@@ -288,6 +300,18 @@
 					type: "kill"
 					entity: "minecraft:piglin"
 					value: 125L
+				}
+			]
+			rewards: [
+				{
+					id: "639597139D55C300"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "43078FC08BB12A3E"
+					type: "random"
+					table_id: 9023447288786701654L
 				}
 			]
 		}

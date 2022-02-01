@@ -418,5 +418,38 @@
 				xp_levels: 3
 			}]
 		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["54815C7F956842CD"]
+			id: "625B204AEF6F4CA3"
+			tasks: [{
+				id: "141C372B630ED719"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["54815C7F956842CD"]
+			id: "2F001E6005D65D92"
+			tasks: [{
+				id: "14C79D75CD70AA7D"
+				type: "item"
+				item: "thermal:basalz_rod"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["54815C7F956842CD"]
+			id: "621BFBB4355E3835"
+			tasks: [{
+				id: "306DB60C5BCEFE7B"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
+		}
 	]
 }
