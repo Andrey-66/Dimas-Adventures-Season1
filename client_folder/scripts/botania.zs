@@ -8,6 +8,22 @@ craftingTable.addShaped("shapeed_master_rune_holder", <item:mythicbotany:master_
         [<item:minecraft:air>, <item:botanicalmachinery:mana_emerald>, <item:minecraft:air>],
         [<item:botanicalmachinery:mana_emerald>, <item:enigmaticlegacy:astral_dust>, <item:botanicalmachinery:mana_emerald>]]);
 
+craftingTable.removeRecipe(<item:extrabotany:thechaos>);
+craftingTable.addShaped("shapeed_the_chaos", <item:extrabotany:thechaos>, [
+        [<item:powah:crystal_blazing>, <item:extrabotany:shadowium>, <item:powah:crystal_blazing>],
+        [<item:extrabotany:shadowium>, <item:extrabotany:spirit>, <item:extrabotany:photonium>],
+        [<item:powah:crystal_blazing>, <item:extrabotany:photonium>, <item:powah:crystal_blazing>]]);
+craftingTable.removeRecipe(<item:extrabotany:theorigin>);
+craftingTable.addShaped("shapeed_the_origin", <item:extrabotany:theorigin>, [
+        [<item:powah:crystal_niotic>, <tag:items:forge:ingots/terrasteel>, <item:powah:crystal_niotic>],
+        [<tag:items:forge:ingots/terrasteel>, <item:extrabotany:spirit>, <item:extrabotany:aerialite>],
+        [<item:powah:crystal_niotic>, <item:extrabotany:aerialite>, <item:powah:crystal_niotic>]]);
+craftingTable.removeRecipe(<item:extrabotany:theend>);
+craftingTable.addShaped("shapeed_the_end", <item:extrabotany:theend>, [
+        [<item:powah:crystal_nitro>, <item:extrabotany:orichalcos>, <item:powah:crystal_nitro>],
+        [<item:extrabotany:orichalcos>, <item:extrabotany:spirit>, <item:botania:gaia_ingot>],
+        [<item:powah:crystal_nitro>, <item:botania:gaia_ingot>, <item:powah:crystal_nitro>]]);
+
 
 // Читая маргаритка
 <recipetype:botania:pure_daisy>.addRecipe("grout",<blockstate:tconstruct:grout>, <blockstate:minecraft:clay>, 50); // Грут 
@@ -27,6 +43,8 @@ craftingTable.addShaped("shapeed_master_rune_holder", <item:mythicbotany:master_
 <recipetype:botania:terra_plate>.removeRecipe(<item:extrabotany:aerialite>);
 <recipetype:botania:terra_plate>.removeRecipe(<item:extrabotany:orichalcos>);
 
+<recipetype:botania:terra_plate>.removeRecipe(<item:extrabotany:theuniverse>);
+<recipetype:botania:terra_plate>.addRecipe("terra_plate_universe", <item:extrabotany:theuniverse>, 1000000, <item:extrabotany:thechaos>, <item:thermal:enderium_gear>, <item:betterendforge:eternal_crystal>, <item:thermal:enderium_gear>, <item:extrabotany:theorigin>, <item:thermal:enderium_gear>, <item:betterendforge:eternal_crystal>, <item:thermal:enderium_gear>, <item:extrabotany:theend>, <item:thermal:enderium_gear>, <item:betterendforge:eternal_crystal>, <item:thermal:enderium_gear>);
 
 <recipetype:mythicbotany:infusion>.addJSONRecipe("crafttweaker_botania_infusion_1", {
   "group": "infuser",

@@ -48,4 +48,5 @@ onEvent('item.tags', event => {
   event.add('minecraft:beacon_build_block', 'botania:mana_diamond_block')
   event.add('minecraft:beacon_build_block', 'byg:ametrine_block')
   event.add('minecraft:beacon_build_block', 'byg:pendorite_block')
+  event.add('forge:gems/sulfur', 'betterendforge:crystalline_sulphur')
   })
