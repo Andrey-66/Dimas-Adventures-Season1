@@ -45,6 +45,9 @@
 
 <recipetype:create:mixing>.addRecipe("depot", "none", <item:create:depot>, [<item:botania:solegnolia>], [<fluid:tconstruct:molten_iron> * 1000]);
 
+craftingTable.removeRecipe(<item:apotheosis:beeshelf>);
+<recipetype:create:mixing>.addRecipe("honeybookshelf", "none", <item:apotheosis:beeshelf>, [<tag:items:forge:bookshelves>, <item:minecraft:honeycomb> * 4, <item:minecraft:beehive> * 2, <item:minecraft:honey_block> * 2, <item:botania:pollidisiac>], [<fluid:create:honey> * 1000]);
+
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("diving_helmet")
     .transitionTo(<item:minecraft:iron_helmet>.withTag({RepairCost: 0 as int, display: {Name: "{\"text\":\"Заготовка под шлем для дайвинга\"}" as string}}))
     .require(<tag:items:forge:ingots/copper>)

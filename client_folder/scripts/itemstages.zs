@@ -125,5 +125,7 @@ ItemStages.restrict(<item:thermal:device_hive_extractor>, "thermal_stage").restr
 .restrict(<item:thermal:potion_quiver>).restrict(<item:thermal:satchel>).restrict(<item:thermal:fluid_reservoir>).restrict(<item:thermal:rf_potato>)
 .setHiddenInJEI(false).hiddenName("Непонятная технология");
 
+ItemStages.restrict(<item:mythicbotany:kvasir_mead>, "alfheim_stage").setHiddenInJEI(false).preventInventory(false).preventPickup(false).hiddenName("Какая-то стрёмная жижа");
+
 
 
