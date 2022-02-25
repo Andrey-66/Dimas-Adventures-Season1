@@ -1,0 +1,96 @@
+{
+	id: "5A17587E7448296D"
+	group: ""
+	order_index: 2
+	filename: "5F1607B99FFB2C13"
+	title: "Галочки"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.0d
+			y: 0.0d
+			dependencies: ["3E77AF9CCE7BE4B0"]
+			hide: true
+			optional: true
+			id: "1A6F800E471CF0B3"
+			tasks: [{
+				id: "7C8F4CE17B22A2E5"
+				type: "checkmark"
+				title: "синие"
+			}]
+		}
+		{
+			title: "жёлтые"
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["3E77AF9CCE7BE4B0"]
+			optional: true
+			id: "03CBBE47DA078F78"
+			tasks: [{
+				id: "3D59058DF96FED0B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "филюлетовые"
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["3E77AF9CCE7BE4B0"]
+			optional: true
+			id: "50AE8A034CB54B07"
+			tasks: [{
+				id: "21CC777A73FAD867"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "розовые"
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["3E77AF9CCE7BE4B0"]
+			optional: true
+			id: "74A891F8A64AF9E1"
+			tasks: [{
+				id: "74F76E9BA8B102B6"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "говняхи"
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["3E77AF9CCE7BE4B0"]
+			optional: true
+			id: "1E55A84C5EA2AA33"
+			tasks: [{
+				id: "508461D7897EDB52"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "зелёные"
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["3E77AF9CCE7BE4B0"]
+			optional: true
+			id: "2CE0CD1276035DE2"
+			tasks: [{
+				id: "4C73C59421B78D16"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			id: "3E77AF9CCE7BE4B0"
+			tasks: [{
+				id: "7FF53F8AD8F5B2AC"
+				type: "item"
+				item: "minecraft:bedrock"
+				count: 64L
+			}]
+		}
+	]
+}

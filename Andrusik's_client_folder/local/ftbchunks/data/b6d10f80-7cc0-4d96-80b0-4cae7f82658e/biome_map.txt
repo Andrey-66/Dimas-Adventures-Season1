@@ -1,0 +1,12 @@
+#5B0 mythicbotany:alfheim_hills
+#422 mythicbotany:alfheim_lakes
+#0ED mythicbotany:alfheim_plains
+#694 byg:ancient_forest
+#532 biomesoplenty:bayou_mangrove
+#556 minecraft:beach
+#047 biomesoplenty:deep_bayou
+#34D minecraft:deep_lukewarm_ocean
+#06D mythicbotany:dreamwood_forest
+#79A minecraft:lukewarm_ocean
+#634 byg:prairie
+#5FF minecraft:river

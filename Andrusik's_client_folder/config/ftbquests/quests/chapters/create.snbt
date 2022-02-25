@@ -1,7 +1,7 @@
 {
 	id: "2F0CA19639EFA2A9"
 	group: "1E0A8915CBC35F34"
-	order_index: 6
+	order_index: 7
 	filename: "create"
 	title: "Пора на завод"
 	icon: "create:cogwheel"
@@ -12,6 +12,7 @@
 			title: "Новая эпоха"
 			x: -0.5d
 			y: 0.5d
+			shape: "gear"
 			dependencies: ["45959E538A5AC827"]
 			hide: true
 			id: "6E77427C5344F329"
@@ -192,7 +193,7 @@
 			dependencies: [
 				"618C92CA73D20365"
 				"275F4FEC83426A08"
-				"5BEBF9A4F30968EE"
+				"221AACD031D8E026"
 			]
 			hide: true
 			id: "7C8DA5AE005DFCD5"
@@ -268,7 +269,8 @@
 					id: "0204DE28FCFE2BBF"
 					type: "observation"
 					timer: 50L
-					observe: "block:create:andesite_encased_shaft"
+					observe_type: 0
+					to_observe: "create:andesite_encased_shaft"
 				}
 				{
 					id: "4A50086CD88F1EEB"
@@ -1057,6 +1059,12 @@
 				type: "item"
 				item: "create:sticker"
 			}]
+			rewards: [{
+				id: "5E6BDD13D1F89DE3"
+				type: "item"
+				item: "minecraft:cactus"
+				count: 10
+			}]
 		}
 		{
 			title: "Зелёная энергия"
@@ -1210,9 +1218,20 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "3738FF112512B43F"
+				type: "item"
+				item: {
+					id: "create:filter"
+					Count: 1b
+					tag: {
+						Items: { }
+					}
+				}
+			}]
 		}
 		{
-			title: "Базовая истема хранения"
+			title: "Базовая система хранения"
 			x: 7.5d
 			y: 4.5d
 			dependencies: ["3FD692C2E57C5017"]
@@ -1262,6 +1281,11 @@
 				id: "7BE552846F4A536B"
 				type: "item"
 				item: "create:portable_storage_interface"
+			}]
+			rewards: [{
+				id: "068C578682818E60"
+				type: "item"
+				item: "minecraft:ender_chest"
 			}]
 		}
 		{
@@ -1372,6 +1396,11 @@
 				type: "item"
 				item: "create:portable_fluid_interface"
 			}]
+			rewards: [{
+				id: "0FC0FA7CD3421135"
+				type: "item"
+				item: "botania:vial"
+			}]
 		}
 		{
 			title: "Цистерна"
@@ -1405,6 +1434,11 @@
 				type: "item"
 				item: "create:hose_pulley"
 			}]
+			rewards: [{
+				id: "60E03CC61E2587E7"
+				type: "item"
+				item: "minecraft:cobweb"
+			}]
 		}
 		{
 			title: "Заполнение"
@@ -1433,9 +1467,10 @@
 			}]
 		}
 		{
-			title: "Капитанская дочка. Пушкин."
+			title: "Капитанская дочка. Пушкин. Лилуша читал."
 			x: -0.5d
 			y: 11.5d
+			description: [""]
 			dependencies: ["74540D5DADEA22F4"]
 			hide: true
 			id: "5F4DD2A5261D16A6"
@@ -1510,6 +1545,11 @@
 						code: "000"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7C135D14DD3CA04E"
+				type: "item"
+				item: "botania:open_bucket"
 			}]
 		}
 		{
@@ -1656,9 +1696,18 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4CA329A1D4721C5F"
+				type: "item"
+				item: {
+					id: "botania:cosmetic_thinking_hand"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 		{
-			title: "Погружение"
+			title: "Дноооооо!"
 			x: 1.5d
 			y: 12.0d
 			dependencies: ["74540D5DADEA22F4"]
@@ -1789,7 +1838,10 @@
 		{
 			x: 7.5d
 			y: -1.5d
-			dependencies: ["0127396CD2C9D0DC"]
+			dependencies: [
+				"0127396CD2C9D0DC"
+				"136792E3AC46230B"
+			]
 			hide: true
 			id: "126671D3213C965D"
 			tasks: [
@@ -1804,6 +1856,24 @@
 					item: "createaddition:rolling_mill"
 				}
 			]
+			rewards: [
+				{
+					id: "6919A7DBF504367D"
+					type: "gamestage"
+					team_reward: false
+					auto: "invisible"
+					stage: "thermal_stage"
+				}
+				{
+					id: "1866BB41541DB3E8"
+					type: "item"
+					item: {
+						id: "powah:battery_starter"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -1813,6 +1883,11 @@
 			id: "251F2C93BEA9A769"
 			tasks: [{
 				id: "3CA3D8815D2239E0"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "32DF439510FA14A9"
 				type: "item"
 				item: "createaddition:electric_motor"
 			}]
@@ -1828,6 +1903,170 @@
 				type: "item"
 				item: "createaddition:crude_burner"
 			}]
+			rewards: [{
+				id: "0AD8F4121DC9C432"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "createaddition:seed_oil"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.5d
+			dependencies: ["136792E3AC46230B"]
+			hide: true
+			id: "7C5DE063E5F8340F"
+			tasks: [{
+				id: "32232E5A5F950036"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "2EBFB8A272C169B2"
+					type: "choice"
+					table_id: 5521523319258406185L
+				}
+				{
+					id: "4981D3FDFD64962F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Ого как ярко"
+			x: 7.0d
+			y: -6.5d
+			description: ["Киньте компаунд в луч маяка или к большому количеству источников освещения"]
+			dependencies: ["7C5DE063E5F8340F"]
+			hide: true
+			id: "2218A98C65C36F6B"
+			tasks: [{
+				id: "6DF6D6255C87AA93"
+				type: "item"
+				item: "create:refined_radiance"
+			}]
+			rewards: [
+				{
+					id: "76C1C437643E23FA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "41219B4AB97BA780"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+			]
+		}
+		{
+			title: "Как завещал Никола"
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["126671D3213C965D"]
+			hide: true
+			id: "182C1EE0EF5DAA9C"
+			tasks: [
+				{
+					id: "237AFA7F299E2877"
+					type: "item"
+					item: "createaddition:tesla_coil"
+				}
+				{
+					id: "70BBC20576A60512"
+					type: "item"
+					item: "createaddition:overcharged_alloy"
+				}
+			]
+			rewards: [{
+				id: "557077E8D217C50B"
+				type: "item"
+				item: "createaddition:overcharged_alloy"
+			}]
+		}
+		{
+			title: "Проводка которая не горит"
+			x: 9.0d
+			y: -3.0d
+			dependencies: ["126671D3213C965D"]
+			hide: true
+			id: "756C7C6AE15070F5"
+			tasks: [
+				{
+					id: "2F2F066ED1230338"
+					type: "item"
+					item: "createaddition:copper_spool"
+				}
+				{
+					id: "1B0793CF59455E34"
+					type: "item"
+					item: "createaddition:gold_spool"
+				}
+				{
+					id: "5499BB11D1B02B95"
+					type: "item"
+					item: "createaddition:connector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "56148A96A7F5AAC0"
+					type: "item"
+					item: "createaddition:gold_spool"
+					count: 2
+				}
+				{
+					id: "2A8B9FDEB7AE4E4B"
+					type: "item"
+					item: "createaddition:connector"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Это точно сталь?"
+			x: 7.0d
+			y: -8.5d
+			description: ["Киньте компаунд в пустоту"]
+			dependencies: [
+				"7C5DE063E5F8340F"
+				"35B0DBECB08F5384"
+			]
+			hide: true
+			id: "56E20CB34B370C94"
+			tasks: [{
+				id: "400C66AACA1A1CEB"
+				type: "item"
+				item: "create:shadow_steel"
+			}]
+			rewards: [
+				{
+					id: "51F326706CF03E63"
+					type: "item"
+					item: "create:shadow_steel"
+				}
+				{
+					id: "4CD2DA167AFD9439"
+					type: "item"
+					item: "calemiutils:coin_gold"
+					count: 2
+					random_bonus: 3
+				}
+			]
 		}
 	]
 }

@@ -1,10 +1,11 @@
 onEvent('recipes', event => {
-    event.remove({output: 'evilcraft:blood_extractor'})
+    
     event.remove({type: 'minecraft:crafting_shapeless', output: Item.of('evilcraft:weather_container', '{weather:"CLEAR"}')})
     event.remove({type: 'minecraft:crafting_shapeless', output: Item.of('evilcraft:weather_container', '{weather:"RAIN"}')})
     event.remove({type: 'minecraft:crafting_shapeless', output: Item.of('evilcraft:weather_container', '{weather:"LIGHTNING"}')})
+    event.remove({id: 'evilcraft:special/box_of_eternal_closure'})
 
-    event.remove({output: 'evilcraft:blood_infuser'})
+    event.remove({id: 'evilcraft:crafting/blood_extractor'})
     event.shaped('evilcraft:blood_extractor', [
       'III',
       'ZGS',
@@ -62,5 +63,12 @@ onEvent('recipes', event => {
 	  I: 'minecraft:iron_block',
 	  T: 'evilcraft:corrupted_tear',
 	  A: 'twilightforest:minotaur_axe'
+    })
+	
+	event.shaped(Item.of('minecraft:chest', '{BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:cobblestone",Count:64b},{Slot:1b,id:"minecraft:cobblestone",Count:64b},{Slot:2b,id:"minecraft:cobblestone",Count:50b},{Slot:3b,id:"appliedenergistics2:certus_quartz_crystal",Count:2b},{Slot:4b,id:"tconstruct:greenheart_sign",Count:1b},{Slot:5b,id:"byg:red_rock",Count:7b}],id:"minecraft:chest"},display:{Lore:[\'"(+NBT)"\']}}'), [
+      'A  ',
+	  '   '
+      ], {
+      A: 'ftbquests:barrier',
     })
 })

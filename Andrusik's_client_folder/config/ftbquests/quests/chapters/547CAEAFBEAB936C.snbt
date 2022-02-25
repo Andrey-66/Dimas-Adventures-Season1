@@ -1,0 +1,700 @@
+{
+	id: "7491DA4E8EEBB4DE"
+	group: "1E0A8915CBC35F34"
+	order_index: 8
+	filename: "547CAEAFBEAB936C"
+	title: "Лёд и Пламя"
+	icon: "iceandfire:bestiary"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Книга о чудиках"
+			icon: "iceandfire:bestiary"
+			x: 0.0d
+			y: 0.0d
+			id: "7112616C062FF06B"
+			tasks: [
+				{
+					id: "2AF1A39B01BDD543"
+					type: "item"
+					item: "iceandfire:bestiary"
+				}
+				{
+					id: "2A8B9043C4A4A870"
+					type: "item"
+					item: "iceandfire:manuscript"
+				}
+				{
+					id: "14BB4D37C2643AC7"
+					type: "item"
+					item: "minecraft:bedrock"
+				}
+			]
+			rewards: [{
+				id: "1B973DCCAC390E44"
+				type: "item"
+				item: "iceandfire:manuscript"
+				count: 3
+				random_bonus: 5
+			}]
+		}
+		{
+			title: "Как получить инфу о чудике"
+			x: -2.5d
+			y: 0.0d
+			hide: true
+			id: "3611806A6305F0A5"
+			tasks: [{
+				id: "3B58E62021DA07B4"
+				type: "item"
+				item: "iceandfire:lectern"
+			}]
+			rewards: [{
+				id: "0E40B7F3784A24F9"
+				type: "item"
+				item: "iceandfire:podium_spruce"
+			}]
+		}
+		{
+			title: "Закалённый огнём"
+			icon: "iceandfire:dragon_skull_fire"
+			x: -1.5d
+			y: -2.5d
+			hide: true
+			id: "57B8D31FE08AD7E8"
+			tasks: [{
+				id: "2EA7C0BCC695498A"
+				type: "kill"
+				entity: "iceandfire:fire_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3745049244FD12E1"
+					type: "item"
+					item: "minecraft:bone"
+					count: 10
+					random_bonus: 16
+				}
+				{
+					id: "7AC73E13D7E0C317"
+					type: "item"
+					item: "iceandfire:fire_dragon_flesh"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			title: "Растопивший лёд"
+			icon: "iceandfire:dragon_skull_ice"
+			x: 0.0d
+			y: -2.5d
+			hide: true
+			id: "32774667BBF729C3"
+			tasks: [{
+				id: "73D60727A386C42E"
+				type: "kill"
+				entity: "iceandfire:ice_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4A743D3A0D8486F7"
+					type: "item"
+					item: "minecraft:bone"
+					count: 10
+					random_bonus: 16
+				}
+				{
+					id: "58E2BE1596A8D900"
+					type: "item"
+					item: "iceandfire:ice_dragon_flesh"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			title: "Раскат грома"
+			icon: "iceandfire:dragon_skull_lightning"
+			x: 1.5d
+			y: -2.5d
+			hide: true
+			id: "1C73C6067D006C5C"
+			tasks: [{
+				id: "2464782CAEEC34B0"
+				type: "kill"
+				entity: "iceandfire:lightning_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "343E91B50D4D9E93"
+					type: "item"
+					item: "minecraft:bone"
+					count: 10
+					random_bonus: 16
+				}
+				{
+					id: "742603C85DC215FF"
+					type: "item"
+					item: "iceandfire:lightning_dragon_flesh"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			title: "По косточкам"
+			x: 0.0d
+			y: -5.0d
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "5C52DE81895C758E"
+			tasks: [{
+				id: "2773CC768805B045"
+				type: "item"
+				item: "iceandfire:dragonbone"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "53A3673A4FC925C0"
+					type: "item"
+					item: "iceandfire:fire_dragon_flesh"
+				}
+				{
+					id: "4D472EFE337E87EE"
+					type: "item"
+					item: "iceandfire:ice_dragon_flesh"
+				}
+				{
+					id: "222B64FAC192A0F6"
+					type: "item"
+					item: "iceandfire:lightning_dragon_flesh"
+				}
+			]
+		}
+		{
+			icon: "iceandfire:dragonforge_fire_core_disabled"
+			x: -1.5d
+			y: -7.5d
+			hide: true
+			id: "7033004B41E84FF9"
+			tasks: [
+				{
+					id: "236021E2B3A4448B"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_input"
+				}
+				{
+					id: "13CC2071F7367A6C"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_brick"
+					count: 17L
+				}
+				{
+					id: "12A035DE5E8EACD2"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+				}
+				{
+					id: "587CE56528B70BD6"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+		}
+		{
+			icon: "iceandfire:dragonforge_ice_core_disabled"
+			x: 0.0d
+			y: -7.5d
+			hide: true
+			id: "7E28994DE4F4C313"
+			tasks: [
+				{
+					id: "7CC8410B97947E0C"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_core_disabled"
+				}
+				{
+					id: "71A558FE2370C3BF"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_input"
+				}
+				{
+					id: "145FBB09BD329A7A"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+				{
+					id: "3FC4F5D95F0205E9"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_brick"
+					count: 17L
+				}
+			]
+		}
+		{
+			icon: "iceandfire:dragonforge_lightning_core_disabled"
+			x: 1.5d
+			y: -7.5d
+			hide: true
+			id: "62E00BE9C357EDC5"
+			tasks: [
+				{
+					id: "1C34EE7B0AFCAFFD"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+				}
+				{
+					id: "66AB5FAD80615634"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_input"
+				}
+				{
+					id: "00764D995C59FB4D"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_brick"
+					count: 17L
+				}
+				{
+					id: "445C45B7BE69A9AC"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["1FC32C779AAC4BCE"]
+			hide: true
+			id: "32338110E97A3B8A"
+			tasks: [{
+				id: "00E769A5144963B4"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			hide_dependency_lines: true
+			dependencies: ["1FC32C779AAC4BCE"]
+			hide: true
+			id: "12F106B88AD6F915"
+			tasks: [{
+				id: "509619B772816F53"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_ice"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["1FC32C779AAC4BCE"]
+			hide: true
+			id: "69072C9BA8F254BA"
+			tasks: [{
+				id: "4553FBA7F85DC3A6"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_lightning"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Огненная мать драконов"
+			x: 2.5d
+			y: -4.0d
+			hide: true
+			id: "1ECE2B3183CC8722"
+			tasks: [{
+				id: "3BBF0F87F3F79F7F"
+				type: "item"
+				title: "Убить огненного пещерного дракона"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:dragonegg_red"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_green"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_bronze"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_gray"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Морозная мать драконов"
+			x: 2.5d
+			y: -5.0d
+			hide: true
+			id: "74DCE1609CF83B4A"
+			tasks: [{
+				id: "4E4996BC00DFBC21"
+				type: "item"
+				title: "Убить ледяного пещерного дракона и получить яйцо"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:dragonegg_blue"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_white"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_sapphire"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_silver"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Электрическая мать драконов и получить яйцо"
+			x: 2.5d
+			y: -6.0d
+			hide: true
+			id: "445A504B93E21ED9"
+			tasks: [{
+				id: "3AF1F817ADF008F5"
+				type: "item"
+				title: "Убить громового пещерного дракона и получить яйцо"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:dragonegg_electric"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_amythest"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_copper"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_black"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.5d
+			hide: true
+			id: "5FAD593FD03FCA08"
+			tasks: [{
+				id: "4B7C127D3FF78C30"
+				type: "item"
+				item: "iceandfire:dragonsteel_fire_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.5d
+			hide: true
+			id: "4319061F63D40DA4"
+			tasks: [{
+				id: "37B43922BBDE510F"
+				type: "item"
+				item: "iceandfire:dragonsteel_ice_ingot"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.5d
+			hide: true
+			id: "5EDA28B6E7087530"
+			tasks: [{
+				id: "512EF6BAC6BDBB15"
+				type: "item"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+			}]
+		}
+		{
+			title: "Драконочешуйчатая луцифуга"
+			x: 0.0d
+			y: -12.5d
+			hide_dependency_lines: true
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "291213DEE9FD3FD9"
+			tasks: [
+				{
+					id: "098B9160D5C27802"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:dragonsteel_fire_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "iceandfire:dragonsteel_lightning_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "iceandfire:dragonsteel_ice_helmet"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3DDE4A56E0887C1E"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:dragonsteel_fire_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "iceandfire:dragonsteel_lightning_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "iceandfire:dragonsteel_ice_chestplate"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "43B6F3A96E9D7EF5"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:dragonsteel_fire_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "iceandfire:dragonsteel_lightning_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "iceandfire:dragonsteel_ice_leggings"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "636140A2D1044DC5"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:dragonsteel_fire_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "iceandfire:dragonsteel_lightning_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "iceandfire:dragonsteel_ice_boots"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -11.5d
+			id: "7A01A66FDDE20EC7"
+			tasks: [{
+				id: "6A6A050EDC12495A"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_fire_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			id: "3B0BCC07385BC003"
+			tasks: [{
+				id: "4B377B7D4F1E6C87"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_ice_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -11.5d
+			id: "0A0104742BAB8207"
+			tasks: [{
+				id: "7D3A6457D339D3E7"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonsteel_lightning_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Морской змiй"
+			icon: "iceandfire:seaserpent_skull"
+			x: 2.5d
+			y: -0.5d
+			hide: true
+			id: "1203EE3DD92CEFC1"
+			tasks: [{
+				id: "4908C324F826EA54"
+				type: "kill"
+				entity: "iceandfire:sea_serpent"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2507F6C6AB8DCEF9"
+				type: "item"
+				item: "iceandfire:sea_serpent_scales_teal"
+				random_bonus: 1
+			}]
+		}
+		{
+			title: "Уши вянут"
+			icon: "iceandfire:siren_tear"
+			x: 2.5d
+			y: 0.5d
+			hide: true
+			id: "26F593B86ACE3E45"
+			tasks: [{
+				id: "5897A54CA8094003"
+				type: "kill"
+				entity: "iceandfire:siren"
+				value: 2L
+			}]
+			rewards: [{
+				id: "159348F95A1F1026"
+				type: "item"
+				item: "iceandfire:shiny_scales"
+			}]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+  "id" : "4264f96020644e0cafed96fa535b84dd",
+  "name" : "Piios",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTY0NDkwMTg5Nzc3MywKICAicHJvZmlsZUlkIiA6ICI0MjY0Zjk2MDIwNjQ0ZTBjYWZlZDk2ZmE1MzViODRkZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJQaWlvcyIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMDdiOGRhMDNjZTE2MzM4YjViNmUwZDk2MmFmNDZhZTYxM2JmYWI0OTYyOTRiZTYzNjM5MzhhYjhhYjNkYzkzIgogICAgfQogIH0KfQ=="
+  } ]
+}

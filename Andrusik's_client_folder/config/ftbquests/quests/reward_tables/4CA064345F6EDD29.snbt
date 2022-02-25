@@ -7,7 +7,7 @@
 		{ item: "minecraft:gold_ore", count: 4 }
 		{ item: "minecraft:iron_ore", count: 8 }
 		{ item: "create:copper_ore", count: 6 }
-		{ item: "mekanism:tin_ore", count: 6 }
 		{ item: "create:zinc_ore", count: 6 }
+		{ item: "thermal:tin_ore", count: 6 }
 	]
 }

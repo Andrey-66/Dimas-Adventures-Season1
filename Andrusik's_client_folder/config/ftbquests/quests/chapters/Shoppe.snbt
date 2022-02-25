@@ -1,7 +1,7 @@
 {
 	id: "7E2D31F673189FC7"
 	group: ""
-	order_index: 1
+	order_index: 0
 	filename: "Shoppe"
 	title: "Магазин"
 	icon: "calemiutils:coin_gold"
@@ -10,145 +10,9 @@
 	default_hide_dependency_lines: true
 	quests: [
 		{
-			title: "[SELL] Брёвна"
-			icon: "minecraft:oak_log"
-			disable_toast: true
-			x: -2.5d
-			y: 0.5d
-			optional: true
-			id: "21863C6CE4EB3788"
-			tasks: [{
-				id: "3EFC5713C1B544FE"
-				type: "item"
-				title: "Any #minecraft:logs"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-				count: 32L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "020D8FAC8A281959"
-					type: "item"
-					team_reward: false
-					auto: "enabled"
-					item: "calemiutils:coin_silver"
-					count: 3
-				}
-				{
-					id: "4197BDB89B213DA7"
-					type: "command"
-					auto: "invisible"
-					command: "/ftbquests change_progress @p reset 21863C6CE4EB3788"
-					player_command: false
-				}
-			]
-		}
-		{
-			title: "[BUY] Брёвна"
-			icon: "minecraft:oak_log"
-			disable_toast: true
-			x: -1.5d
-			y: 0.5d
-			optional: true
-			id: "1C419EDE48F79D02"
-			tasks: [{
-				id: "47BBDD62D3464562"
-				type: "item"
-				disable_toast: true
-				item: "calemiutils:coin_silver"
-				count: 5L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "2F0A97678BD0A952"
-					type: "item"
-					item: "minecraft:oak_log"
-					count: 32
-				}
-				{
-					id: "27680198079723E0"
-					type: "command"
-					auto: "invisible"
-					command: "/ftbquests change_progress @p complete 1C419EDE48F79D02"
-					player_command: false
-				}
-			]
-		}
-		{
-			title: "[SELL] Железо"
-			disable_toast: true
-			x: -2.5d
-			y: 1.5d
-			dependencies: ["48B784BDF17E1611"]
-			hide: true
-			optional: true
-			id: "6C86878085F12644"
-			tasks: [{
-				id: "546C5AD5991ACD03"
-				type: "item"
-				item: "minecraft:iron_ingot"
-				count: 5L
-				consume_items: true
-			}]
-			rewards: [
-				{
-					id: "7410A853D7143F7A"
-					type: "item"
-					item: "calemiutils:coin_gold"
-					count: 3
-				}
-				{
-					id: "3C558499FAE3DB4C"
-					type: "command"
-					auto: "invisible"
-					command: "/ftbquests change_progress @p complete 6C86878085F12644"
-					player_command: false
-				}
-			]
-		}
-		{
-			title: "[BUY] Железо"
-			icon: "minecraft:iron_ingot"
-			disable_toast: true
-			x: -1.5d
-			y: 1.5d
-			dependencies: ["48B784BDF17E1611"]
-			hide: true
-			optional: true
-			id: "342612B2CBC5EDA7"
-			tasks: [{
-				id: "7A5075EC27FB9EF6"
-				type: "item"
-				item: "calemiutils:coin_gold"
-				count: 5L
-			}]
-			rewards: [
-				{
-					id: "149E7FF1637E2FE8"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 3
-				}
-				{
-					id: "49B316B1B61365BE"
-					type: "command"
-					auto: "invisible"
-					command: "/ftbquests change_progress @p reset 342612B2CBC5EDA7"
-					player_command: false
-				}
-			]
-		}
-		{
 			title: "[SELL] Чешуя наги"
 			disable_toast: true
-			x: 0.5d
+			x: -1.0d
 			y: 1.5d
 			dependencies: ["00B0A3EE3E961EBB"]
 			hide: true
@@ -157,51 +21,44 @@
 			tasks: [{
 				id: "1C7490CCFF1294BF"
 				type: "item"
-				item: { id: "twilightforest:naga_scale", Count: 7b }
+				item: "twilightforest:naga_scale"
 				count: 7L
+				consume_items: true
 			}]
 			rewards: [
 				{
 					id: "58EC9FDB7ED189F6"
 					type: "item"
+					auto: "enabled"
 					item: "calemiutils:coin_gold"
-					count: 50
+					count: 30
 				}
 				{
 					id: "7C23EE96903B2127"
 					type: "command"
-					auto: "invisible"
+					auto: "no_toast"
 					command: "/ftbquests change_progress @p reset 5B450857E65DEBE1"
 					player_command: false
 				}
 			]
 		}
 		{
-			title: "[SELL] Чешуя наги"
+			title: "[BUY] Чешуя наги"
 			icon: "twilightforest:naga_scale"
 			disable_toast: true
-			x: 1.5d
+			x: 0.0d
 			y: 1.5d
 			dependencies: ["00B0A3EE3E961EBB"]
 			hide: true
 			optional: true
 			id: "2505295778E855D1"
-			tasks: [
-				{
-					id: "69B52407782CB8B6"
-					type: "item"
-					item: "calemiutils:coin_gold"
-					count: 50L
-					consume_items: true
-				}
-				{
-					id: "529F4B7B75BED707"
-					type: "item"
-					item: "calemiutils:coin_gold"
-					count: 50L
-					consume_items: true
-				}
-			]
+			tasks: [{
+				id: "69B52407782CB8B6"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 50L
+				consume_items: true
+			}]
 			rewards: [
 				{
 					id: "0E987CD45C1A9B16"
@@ -211,7 +68,6 @@
 				{
 					id: "744138780E07357E"
 					type: "command"
-					auto: "invisible"
 					command: "/ftbquests change_progress Andrey66 reset 2505295778E855D1"
 					player_command: false
 				}
@@ -220,7 +76,7 @@
 		{
 			title: "[SELL] Кровавое ядро"
 			disable_toast: true
-			x: 0.5d
+			x: -1.0d
 			y: 0.5d
 			dependencies: ["67F1D57F57C0F99A"]
 			hide: true
@@ -237,13 +93,14 @@
 				{
 					id: "2724F8FDF0730029"
 					type: "item"
+					auto: "disabled"
 					item: "calemiutils:coin_gold"
 					count: 10
 				}
 				{
-					id: "51B9FF09C6DD913F"
+					id: "1001324E403F25D8"
 					type: "command"
-					auto: "invisible"
+					auto: "disabled"
 					command: "/ftbquests change_progress @p reset 480BA95FDEF9DCBE"
 					player_command: false
 				}
@@ -253,7 +110,7 @@
 			title: "[BUY] Кровавое ядро"
 			icon: "evilcraft:blood_infusion_core"
 			disable_toast: true
-			x: 1.5d
+			x: 0.0d
 			y: 0.5d
 			dependencies: ["67F1D57F57C0F99A"]
 			hide: true
@@ -264,18 +121,503 @@
 				type: "item"
 				item: "calemiutils:coin_gold"
 				count: 25L
+				consume_items: true
 			}]
 			rewards: [
 				{
 					id: "5F5BE974B51E2704"
 					type: "item"
+					auto: "enabled"
 					item: "evilcraft:blood_infusion_core"
 				}
 				{
-					id: "2AE87611C7058243"
+					id: "44B27B2D6193EA83"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 02DD56DBBE1054E8"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Рассадник"
+			icon: "minecraft:spawner"
+			disable_toast: true
+			x: -2.0d
+			y: -1.0d
+			optional: true
+			id: "12842EF39E3E3988"
+			tasks: [{
+				id: "57D81D061F37D53F"
+				type: "item"
+				item: "calemiutils:coin_platinum"
+				count: 125L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "7CB5EFD054855801"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "minecraft:spawner"
+				}
+				{
+					id: "538318B87F5D8C3C"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 12842EF39E3E3988"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[SELL] Пламенный кристалл"
+			disable_toast: true
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["11294047CC06B4BC"]
+			hide: true
+			optional: true
+			id: "01812A823AD6F7D3"
+			tasks: [{
+				id: "3E9346A1157814EE"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "2BFF211CA1902EF3"
+					type: "item"
+					auto: "enabled"
+					item: "calemiutils:coin_gold"
+					count: 20
+				}
+				{
+					id: "18E33124755B87F4"
+					type: "command"
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 01812A823AD6F7D3"
+					player_command: false
+				}
+			]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["6AAA2E1C03E4D32D"]
+			hide: true
+			optional: true
+			id: "40F9247CA0BC7DE3"
+			tasks: [{
+				id: "73D4FBE22308ADCA"
+				type: "item"
+				title: "[SELL] Инварный слиток"
+				item: "thermal:invar_ingot"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3804CAE97149BA2B"
+					type: "item"
+					auto: "enabled"
+					item: "calemiutils:coin_gold"
+					count: 12
+				}
+				{
+					id: "2F5BF22051FCC546"
+					type: "command"
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 40F9247CA0BC7DE3"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Пламенный кристалл"
+			icon: "powah:crystal_blazing"
+			disable_toast: true
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["11294047CC06B4BC"]
+			hide: true
+			optional: true
+			id: "4147C9DB2AC66D56"
+			tasks: [{
+				id: "4DA21CA71F782F36"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 40L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "0A9147CEE1B0291B"
+					type: "item"
+					auto: "invisible"
+					item: "powah:crystal_blazing"
+				}
+				{
+					id: "498A33D989E36E45"
+					type: "command"
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 4147C9DB2AC66D56"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "[BUY] Инварный слиток"
+			icon: "thermal:invar_ingot"
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["6AAA2E1C03E4D32D"]
+			optional: true
+			id: "7A8C9FD125693FA7"
+			tasks: [{
+				id: "13E9BFDD4582F943"
+				type: "item"
+				item: "calemiutils:coin_gold"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "72AE5A5E7C89B383"
+					type: "item"
+					auto: "enabled"
+					item: "thermal:invar_ingot"
+					count: 3
+				}
+				{
+					id: "28957556ABB5CB35"
+					type: "command"
+					auto: "no_toast"
+					command: "/ftbquests change_progress @p reset 7A8C9FD125693FA7"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Получить гейскую мощь "
+			icon: "dimasic_server:rainbow_dimka"
+			disable_toast: true
+			x: -1.5d
+			y: -2.5d
+			shape: "heart"
+			dependencies: ["1A6F800E471CF0B3"]
+			hide: true
+			optional: true
+			id: "1A159448CF7DC6CC"
+			tasks: [{
+				id: "07406C1AF78C831D"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "199F0E6C91A328A5"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 1A159448CF7DC6CC"
+					player_command: false
+				}
+				{
+					id: "584A49E21F5A86B2"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/give @p dimasic_server:rainbow_dimka"
+					player_command: false
+				}
+				{
+					id: "5E59DD8092EDEC55"
+					type: "item"
+					item: "dimasic_server:rainbow_dimka"
+				}
+			]
+		}
+		{
+			title: "Покушать подливы"
+			icon: "dimasic_server:podliva"
+			disable_toast: true
+			x: -0.5d
+			y: -2.5d
+			shape: "square"
+			dependencies: ["03CBBE47DA078F78"]
+			hide: true
+			optional: true
+			id: "17562748544ECB28"
+			tasks: [{
+				id: "7DDABC04BAA2394B"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "7846789D3257B6CE"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "dimasic_server:podliva"
+				}
+				{
+					id: "6E14C98D5FFF2ACF"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 17562748544ECB28"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Обменник костей"
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["7F1677C599C9A521"]
+			hide: true
+			optional: true
+			id: "4F7ADC4D5D447DC9"
+			tasks: [{
+				id: "7C001BE5E1CE039F"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: { }
+				}
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "3B0F18514B235E16"
+					type: "random"
+					team_reward: false
+					auto: "enabled"
+					table_id: 3247623808527353716L
+				}
+				{
+					id: "04C3F92C278A148D"
 					type: "command"
 					auto: "invisible"
-					command: "/ftbquests change_progress @p reset 02DD56DBBE1054E8"
+					command: "/ftbquests change_progress @p reset 4F7ADC4D5D447DC9"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Залезть в сабудку"
+			icon: "dimasic_server:sabudka"
+			disable_toast: true
+			x: 0.5d
+			y: -2.5d
+			shape: "square"
+			dependencies: ["2CE0CD1276035DE2"]
+			hide: true
+			optional: true
+			id: "4B7372AC82C855E7"
+			tasks: [{
+				id: "2DEFAB92D4F06FBA"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "4CCBD4D5361D25C8"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "dimasic_server:sabudka"
+				}
+				{
+					id: "3D131ED488BE5820"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 4B7372AC82C855E7"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Повыть на луну"
+			icon: "dimasic_server:moon"
+			disable_toast: true
+			x: -0.5d
+			y: -3.5d
+			shape: "circle"
+			dependencies: ["50AE8A034CB54B07"]
+			hide: true
+			optional: true
+			id: "20B10488BD6F2F3D"
+			tasks: [{
+				id: "6F2118660EA90B9E"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "1EA9481C7BD3635D"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "dimasic_server:moon"
+				}
+				{
+					id: "52B068130F61FD57"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 20B10488BD6F2F3D"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Занубасить кристалл"
+			icon: "dimasic_server:poop"
+			disable_toast: true
+			x: 0.5d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["1E55A84C5EA2AA33"]
+			hide: true
+			optional: true
+			id: "517061B13B7D085D"
+			tasks: [{
+				id: "77F89A813FF871EF"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "19659F2FFA50F07D"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "dimasic_server:poop"
+				}
+				{
+					id: "3B265B75925DD330"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 517061B13B7D085D"
+					player_command: false
+				}
+			]
+		}
+		{
+			icon: "dimasic_server:flag"
+			disable_toast: true
+			x: -1.5d
+			y: -3.5d
+			shape: "square"
+			dependencies: ["74A891F8A64AF9E1"]
+			hide: true
+			optional: true
+			id: "3A35CB974BF0F619"
+			tasks: [{
+				id: "1EDE9FBE47C0D554"
+				type: "checkmark"
+				title: "4k ultra hd"
+			}]
+			rewards: [
+				{
+					id: "398ED98C4E9EF9AA"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: "dimasic_server:flag"
+				}
+				{
+					id: "61373711570C00B9"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 3A35CB974BF0F619"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Механический бассейн маны с каталистом миров"
+			x: 1.0d
+			y: -1.0d
+			dependencies: [
+				"75AE449E830028B9"
+				"374D61AE9A3D7B87"
+			]
+			hide: true
+			optional: true
+			id: "748B7336A6BA016C"
+			tasks: [
+				{
+					id: "0F02DE9B326BC166"
+					type: "item"
+					item: "botanicalmachinery:mechanical_mana_pool"
+					consume_items: true
+				}
+				{
+					id: "7D2CE7F23CF8A21F"
+					type: "item"
+					item: "extrabotany:dimensioncatalyst"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "320E1C311B612A93"
+					type: "item"
+					team_reward: false
+					auto: "no_toast"
+					item: {
+						id: "botanicalmachinery:mechanical_mana_pool"
+						Count: 1b
+						tag: {
+							inv: {
+								Size: 3
+								Items: [{
+									Slot: 0
+									id: "extrabotany:dimensioncatalyst"
+									Count: 1b
+								}]
+							}
+							outputKey: ""
+							mana: 0
+							BlockEntityTag: {
+								inv: {
+									Size: 3
+									Items: [{
+										Slot: 0
+										id: "extrabotany:dimensioncatalyst"
+										Count: 1b
+									}]
+								}
+								outputKey: ""
+								inputKey: ""
+								id: "botanicalmachinery:mechanical_mana_pool"
+								mana: 0
+							}
+							display: {
+								Lore: ["\"(+NBT)\""]
+							}
+							x: 290
+							y: 55
+							z: 1253
+							inputKey: ""
+							id: "botanicalmachinery:mechanical_mana_pool"
+						}
+					}
+				}
+				{
+					id: "6882CBCA98ACF8F6"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 748B7336A6BA016C"
 					player_command: false
 				}
 			]

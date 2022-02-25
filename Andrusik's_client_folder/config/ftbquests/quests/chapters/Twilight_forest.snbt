@@ -1,7 +1,7 @@
 {
 	id: "47D3451FDA5D86DC"
 	group: "1E0A8915CBC35F34"
-	order_index: 5
+	order_index: 6
 	filename: "Twilight_forest"
 	title: "Сумеречный лес"
 	icon: "twilightforest:twilight_portal_miniature_structure"
@@ -11,6 +11,7 @@
 		{
 			x: -5.0d
 			y: 1.0d
+			shape: "hexagon"
 			description: ["{image:kubejs:textures/quests/forestportalgude.png width:200 height:120 align:1}"]
 			dependencies: ["1FE8DEFFB6929BE7"]
 			id: "0392F26747FCE50F"
@@ -69,28 +70,10 @@
 				type: "item"
 				item: "twilightforest:magic_map_empty"
 			}]
-		}
-		{
-			title: "Перерождение"
-			x: 0.0d
-			y: 2.0d
-			dependencies: [
-				"36A5D36A7188F75F"
-				"1598EDFE82399901"
-			]
-			hide: true
-			id: "640DD0B59452802B"
-			tasks: [{
-				id: "22D6D8B7C2359308"
-				type: "item"
-				item: "twilightforest:boss_spawner_naga"
-			}]
 			rewards: [{
-				id: "2309A06BF0077710"
+				id: "1D6BF10F1573CD41"
 				type: "item"
-				item: "twilightforest:naga_scale"
-				count: 3
-				random_bonus: 5
+				item: "minecraft:map"
 			}]
 		}
 		{
@@ -127,13 +110,20 @@
 					item: "minecraft:gold_ingot"
 					count: 8
 				}
+				{
+					id: "095C56F0F08E591D"
+					type: "advancement"
+					team_reward: false
+					advancement: "twilightforest:progress_lich"
+					criterion: ""
+				}
 			]
 		}
 		{
 			title: "Головастик"
 			icon: "twilightforest:hydra_trophy"
 			x: 4.0d
-			y: 1.0d
+			y: -0.5d
 			description: ["Завали Гидру, чел, в болотах обитает"]
 			dependencies: ["18402AD95378A6F5"]
 			hide: true
@@ -144,18 +134,27 @@
 				advancement: "twilightforest:progress_hydra"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "6439428783E8271E"
-				type: "item"
-				item: "twilightforest:hydra_chop"
-				count: 5
-				random_bonus: 5
-			}]
+			rewards: [
+				{
+					id: "6439428783E8271E"
+					type: "item"
+					item: "twilightforest:hydra_chop"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "076679D93650110B"
+					type: "advancement"
+					team_reward: false
+					advancement: "twilightforest:progress_hydra"
+					criterion: ""
+				}
+			]
 		}
 		{
 			title: "Плакса"
-			x: 4.0d
-			y: -0.5d
+			x: 5.0d
+			y: 1.0d
 			description: ["Прибей большого Гаста, он в замке тусит, деревянном"]
 			dependencies: ["7D6AB470D22B7BFD"]
 			hide: true
@@ -166,13 +165,22 @@
 				advancement: "twilightforest:progress_ur_ghast"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "381E6F46DAC44019"
-				type: "item"
-				item: "twilightforest:carminite"
-				count: 5
-				random_bonus: 5
-			}]
+			rewards: [
+				{
+					id: "381E6F46DAC44019"
+					type: "item"
+					item: "twilightforest:carminite"
+					count: 5
+					random_bonus: 5
+				}
+				{
+					id: "63447F3D930C1A2D"
+					type: "advancement"
+					team_reward: false
+					advancement: "twilightforest:progress_ur_ghast"
+					criterion: ""
+				}
+			]
 		}
 		{
 			title: "Холодная женщина"
@@ -202,13 +210,20 @@
 					auto: "invisible"
 					stage: "glyph_split"
 				}
+				{
+					id: "1CED547884D71BA5"
+					type: "advancement"
+					team_reward: false
+					advancement: "twilightforest:progress_glacier"
+					criterion: ""
+				}
 			]
 		}
 		{
 			title: "Грибозавр"
 			icon: "twilightforest:minoshroom_trophy"
 			x: 3.0d
-			y: 1.0d
+			y: 0.0d
 			dependencies: ["218164F7E3D2CD15"]
 			hide: true
 			size: 0.75d
@@ -219,13 +234,22 @@
 				advancement: "twilightforest:progress_labyrinth"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "13AE352FD0085A96"
-				type: "item"
-				item: "twilightforest:raw_meef"
-				count: 4
-				random_bonus: 2
-			}]
+			rewards: [
+				{
+					id: "13AE352FD0085A96"
+					type: "item"
+					item: "twilightforest:raw_meef"
+					count: 4
+					random_bonus: 2
+				}
+				{
+					id: "0FD4D1B5D53D576F"
+					type: "advancement"
+					team_reward: false
+					advancement: "twilightforest:progress_labyrinth"
+					criterion: ""
+				}
+			]
 		}
 		{
 			title: "Пушистик"
@@ -236,24 +260,40 @@
 			hide: true
 			size: 0.75d
 			id: "7D9432327B0D2323"
-			tasks: [{
-				id: "3C2207DAE9E2F99B"
-				type: "advancement"
-				advancement: "twilightforest:progress_yeti"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "5BE737099484FD96"
-				type: "item"
-				item: "twilightforest:alpha_fur"
-				count: 2
-				random_bonus: 2
-			}]
+			tasks: [
+				{
+					id: "3C2207DAE9E2F99B"
+					type: "advancement"
+					advancement: "twilightforest:progress_yeti"
+					criterion: ""
+				}
+				{
+					id: "5916F5EBEA9E8ED6"
+					type: "checkmark"
+					title: "Убито"
+				}
+			]
+			rewards: [
+				{
+					id: "5BE737099484FD96"
+					type: "item"
+					item: "twilightforest:alpha_fur"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "080C059484B41D79"
+					type: "advancement"
+					team_reward: false
+					advancement: "twilightforest:progress_yeti"
+					criterion: ""
+				}
+			]
 		}
 		{
 			title: "Душные ребята"
-			x: 3.0d
-			y: 0.0d
+			x: 3.5d
+			y: 1.0d
 			dependencies: ["218164F7E3D2CD15"]
 			hide: true
 			size: 0.75d
@@ -264,11 +304,20 @@
 				advancement: "twilightforest:progress_knights"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "1D2A16DD98F938A3"
-				type: "item"
-				item: "twilightforest:knightmetal_block"
-			}]
+			rewards: [
+				{
+					id: "1D2A16DD98F938A3"
+					type: "item"
+					item: "twilightforest:knightmetal_block"
+				}
+				{
+					id: "0EF10AA19BCA6275"
+					type: "advancement"
+					team_reward: false
+					advancement: "twilightforest:progress_knights"
+					criterion: ""
+				}
+			]
 		}
 		{
 			title: "Бееее"
@@ -296,6 +345,37 @@
 					type: "item"
 					item: "minecraft:white_wool"
 					count: 32
+				}
+				{
+					id: "3D40E47C1E540A2F"
+					type: "advancement"
+					team_reward: false
+					advancement: "twilightforest:quest_ram"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["18402AD95378A6F5"]
+			id: "0FD1C0B8CED33F6C"
+			tasks: [{
+				id: "058F2C97122EE97B"
+				type: "item"
+				item: "twilightforest:uncrafting_table"
+			}]
+			rewards: [
+				{
+					id: "500FEAB2C5AD0742"
+					type: "item"
+					item: "byg:cherry_crafting_table"
+					count: 64
+				}
+				{
+					id: "3C8A0D8851792781"
+					type: "xp_levels"
+					xp_levels: 20
 				}
 			]
 		}

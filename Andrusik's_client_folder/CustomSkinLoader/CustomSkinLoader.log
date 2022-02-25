@@ -1,33 +1,136 @@
-[2022-01-16 03:12:07] [Render thread INFO] CustomSkinLoader 14.13-SNAPSHOT-303
-[2022-01-16 03:12:07] [Render thread INFO] DataDir: D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader
-[2022-01-16 03:12:07] [Render thread INFO] Operating System: Windows 10 (amd64) version 10.0
-[2022-01-16 03:12:07] [Render thread INFO] Java Version: 1.8.0_51, Oracle Corporation
-[2022-01-16 03:12:07] [Render thread INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-[2022-01-16 03:12:07] [Render thread INFO] Minecraft: 1.16.5(1.16.5-forge-36.2.9)
-[2022-01-16 03:12:07] [Render thread INFO] Config File: D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\CustomSkinLoader.json
-[2022-01-16 03:12:07] [Render thread INFO] Try to load config.
-[2022-01-16 03:12:07] [Render thread INFO] Successfully load config.
-[2022-01-16 03:12:07] [Render thread INFO] Add a profile loader: MojangAPI
-[2022-01-16 03:12:07] [Render thread INFO] Add a profile loader: Legacy
-[2022-01-16 03:12:07] [Render thread INFO] Add a profile loader: CustomSkinAPI
-[2022-01-16 03:12:07] [Render thread INFO] Add a profile loader: CustomSKinAPIPlus
-[2022-01-16 03:12:07] [Render thread INFO] Add a profile loader: UniSkinAPI
-[2022-01-16 03:12:07] [Render thread INFO] Add a profile loader: ElyByAPI
-[2022-01-16 03:12:07] [Render thread INFO] Add a profile loader: GlitchlessAPI
-[2022-01-16 03:12:07] [Render thread INFO] Successfully update config.
-[2022-01-16 03:12:07] [Render thread INFO] version : 14.13
-[2022-01-16 03:12:07] [Render thread INFO] buildNumber : 303
-[2022-01-16 03:12:07] [Render thread INFO] loadlist : [{ "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littlesk.in/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "http://skin.prinzeugen.net/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }]
-[2022-01-16 03:12:07] [Render thread INFO] enableDynamicSkull : true
-[2022-01-16 03:12:07] [Render thread INFO] enableTransparentSkin : true
-[2022-01-16 03:12:07] [Render thread INFO] forceIgnoreHttpsCertificate : false
-[2022-01-16 03:12:07] [Render thread INFO] forceLoadAllTextures : false
-[2022-01-16 03:12:07] [Render thread INFO] enableCape : true
-[2022-01-16 03:12:07] [Render thread INFO] forceFillSkullNBT : false
-[2022-01-16 03:12:07] [Render thread INFO] threadPoolSize : 3
-[2022-01-16 03:12:07] [Render thread INFO] retryTime : 1
-[2022-01-16 03:12:07] [Render thread INFO] cacheExpiry : 30
-[2022-01-16 03:12:07] [Render thread INFO] forceUpdateSkull : false
-[2022-01-16 03:12:07] [Render thread INFO] enableLocalProfileCache : false
-[2022-01-16 03:12:07] [Render thread INFO] enableCacheAutoClean : false
-[2022-01-16 03:12:07] [Render thread INFO] forceDisableCache : false
+[2022-02-25 13:57:11] [Render thread INFO] CustomSkinLoader 14.13-SNAPSHOT-303
+[2022-02-25 13:57:11] [Render thread INFO] DataDir: D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader
+[2022-02-25 13:57:11] [Render thread INFO] Operating System: Windows 10 (amd64) version 10.0
+[2022-02-25 13:57:11] [Render thread INFO] Java Version: 1.8.0_51, Oracle Corporation
+[2022-02-25 13:57:11] [Render thread INFO] Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[2022-02-25 13:57:11] [Render thread INFO] Minecraft: 1.16.5(1.16.5-forge-36.2.20)
+[2022-02-25 13:57:11] [Render thread INFO] Config File: D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\CustomSkinLoader.json
+[2022-02-25 13:57:11] [Render thread INFO] Try to load config.
+[2022-02-25 13:57:11] [Render thread INFO] Successfully load config.
+[2022-02-25 13:57:11] [Render thread INFO] Add a profile loader: MojangAPI
+[2022-02-25 13:57:11] [Render thread INFO] Add a profile loader: Legacy
+[2022-02-25 13:57:11] [Render thread INFO] Add a profile loader: CustomSkinAPI
+[2022-02-25 13:57:11] [Render thread INFO] Add a profile loader: CustomSKinAPIPlus
+[2022-02-25 13:57:11] [Render thread INFO] Add a profile loader: UniSkinAPI
+[2022-02-25 13:57:11] [Render thread INFO] Add a profile loader: ElyByAPI
+[2022-02-25 13:57:11] [Render thread INFO] Add a profile loader: GlitchlessAPI
+[2022-02-25 13:57:11] [Render thread INFO] Successfully update config.
+[2022-02-25 13:57:11] [Render thread INFO] version : 14.13
+[2022-02-25 13:57:11] [Render thread INFO] buildNumber : 303
+[2022-02-25 13:57:11] [Render thread INFO] loadlist : [{ "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littlesk.in/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "http://skin.prinzeugen.net/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }]
+[2022-02-25 13:57:11] [Render thread INFO] enableDynamicSkull : true
+[2022-02-25 13:57:11] [Render thread INFO] enableTransparentSkin : true
+[2022-02-25 13:57:11] [Render thread INFO] forceIgnoreHttpsCertificate : false
+[2022-02-25 13:57:11] [Render thread INFO] forceLoadAllTextures : false
+[2022-02-25 13:57:11] [Render thread INFO] enableCape : true
+[2022-02-25 13:57:11] [Render thread INFO] forceFillSkullNBT : false
+[2022-02-25 13:57:11] [Render thread INFO] threadPoolSize : 3
+[2022-02-25 13:57:11] [Render thread INFO] retryTime : 1
+[2022-02-25 13:57:11] [Render thread INFO] cacheExpiry : 30
+[2022-02-25 13:57:11] [Render thread INFO] forceUpdateSkull : false
+[2022-02-25 13:57:11] [Render thread INFO] enableLocalProfileCache : false
+[2022-02-25 13:57:11] [Render thread INFO] enableCacheAutoClean : false
+[2022-02-25 13:57:11] [Render thread INFO] forceDisableCache : false
+[2022-02-25 14:06:43] [Andrey66 INFO] Loading Andrey66's profile.
+[2022-02-25 14:06:43] [Andrey66 INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-02-25 14:06:43] [Andrey66 INFO] Andrey66's profile loaded.
+[2022-02-25 14:06:43] [Andrey66 INFO] (SkinUrl: (LOCAL_LEGACY)ae784dbd0f9b3fc1eac026e9c336e2f7ecfa6eb4,LocalSkin/skins/Andrey66.png , Model: auto , CapeUrl: null  , Expiry: 1645787233)
+[2022-02-25 14:06:43] [Andrey66 DEBUG] Try to request ''.
+[2022-02-25 14:06:43] [Andrey66 DEBUG] Cache file found (Length: 1490 , Path: 'D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\LocalSkin\skins\Andrey66.png' , Expire: 0)
+[2022-02-25 14:06:44] [Render thread DEBUG] Loading type: SKIN
+[2022-02-25 14:06:44] [Render thread INFO] ThreadDownloadImageData Class: net.minecraft.client.renderer.texture.DownloadingTexture
+[2022-02-25 14:11:04] [Stega163 INFO] Loading Stega163's profile.
+[2022-02-25 14:11:04] [Stega163 INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-02-25 14:11:04] [Stega163 INFO] Both skin and cape not found.
+[2022-02-25 14:11:04] [Stega163 INFO] 2/8 Try to load profile from 'ElyBy'.
+[2022-02-25 14:11:04] [Stega163 DEBUG] Try to request 'http://skinsystem.ely.by/textures/Stega163'.
+[2022-02-25 14:11:15] [Stega163 DEBUG] Failed to request http://skinsystem.ely.by/textures/Stega163 (Exception: java.net.SocketTimeoutException: Read timed out)
+[2022-02-25 14:11:15] [Stega163 DEBUG] Cache file found (Length: 83 , Path: 'D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\caches\2cf7dc34df354f06192c152997c3108cb274ad03' , Expire: 0)
+[2022-02-25 14:11:15] [Stega163 INFO] Try to load from cache 'D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\caches\2cf7dc34df354f06192c152997c3108cb274ad03'.
+[2022-02-25 14:11:15] [Stega163 DEBUG] Successfully load from cache
+[2022-02-25 14:11:15] [Stega163 DEBUG] Content: {"SKIN":{"url":"http://ely.by/storage/skins/821113c0566c64fc6ee7516d203fca51.png"}}
+[2022-02-25 14:11:15] [Stega163 INFO] Stega163's profile loaded.
+[2022-02-25 14:11:15] [Stega163 INFO] (SkinUrl: http://ely.by/storage/skins/821113c0566c64fc6ee7516d203fca51.png , Model: default , CapeUrl: null  , Expiry: 1645787505)
+[2022-02-25 14:11:15] [Stega163 DEBUG] Try to request 'http://ely.by/storage/skins/821113c0566c64fc6ee7516d203fca51.png'.
+[2022-02-25 14:11:15] [Stega163 DEBUG] Cache file found (Length: 2839 , Path: 'C:\Users\Dimaska\AppData\Roaming\.minecraft\assets\skins\82\821113c0566c64fc6ee7516d203fca51' , Expire: 0)
+[2022-02-25 14:11:15] [Render thread DEBUG] Loading type: SKIN
+[2022-02-25 14:12:41] [Andrey66 INFO] Loading Andrey66's profile.
+[2022-02-25 14:12:41] [Andrey66 INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-02-25 14:12:41] [Andrey66 INFO] Andrey66's profile loaded.
+[2022-02-25 14:12:41] [Andrey66 INFO] (SkinUrl: (LOCAL_LEGACY)ae784dbd0f9b3fc1eac026e9c336e2f7ecfa6eb4,LocalSkin/skins/Andrey66.png , Model: auto , CapeUrl: null  , Expiry: 1645787591)
+[2022-02-25 14:12:41] [Andrey66 DEBUG] Try to request ''.
+[2022-02-25 14:12:41] [Andrey66 DEBUG] Cache file found (Length: 1490 , Path: 'D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\LocalSkin\skins\Andrey66.png' , Expire: 0)
+[2022-02-25 14:12:41] [Render thread DEBUG] Loading type: SKIN
+[2022-02-25 14:17:20] [Piios's skull INFO] Loading Piios's profile.
+[2022-02-25 14:17:20] [Piios's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-02-25 14:17:20] [Piios's skull INFO] Both skin and cape not found.
+[2022-02-25 14:17:20] [Piios's skull INFO] 2/8 Try to load profile from 'ElyBy'.
+[2022-02-25 14:17:20] [Piios's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/Piios'.
+[2022-02-25 14:17:20] [Piios's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 121)
+[2022-02-25 14:17:20] [Piios's skull DEBUG] Saved to cache (Length: 121 , Path: 'D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\caches\b27fa8b88981b42518c8de6af8e149a10306a7f0' , Expire: 1645787935)
+[2022-02-25 14:17:20] [Piios's skull DEBUG] Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/207b8da03ce16338b5b6e0d962af46ae613bfab496294be6363938ab8ab3dc93"}}
+[2022-02-25 14:17:20] [Piios's skull INFO] Piios's profile loaded.
+[2022-02-25 14:17:20] [Piios's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/207b8da03ce16338b5b6e0d962af46ae613bfab496294be6363938ab8ab3dc93 , Model: default , CapeUrl: null  , Expiry: 1645787870)
+[2022-02-25 14:17:24] [Piios INFO] Cached profile will be used.
+[2022-02-25 14:17:24] [Piios INFO] (SkinUrl: http://textures.minecraft.net/texture/207b8da03ce16338b5b6e0d962af46ae613bfab496294be6363938ab8ab3dc93 , Model: default , CapeUrl: null  , Expiry: 1645787870)
+[2022-02-25 14:17:24] [Piios DEBUG] Try to request 'http://textures.minecraft.net/texture/207b8da03ce16338b5b6e0d962af46ae613bfab496294be6363938ab8ab3dc93'.
+[2022-02-25 14:17:24] [Piios DEBUG] Cache file found (Length: 1927 , Path: 'C:\Users\Dimaska\AppData\Roaming\.minecraft\assets\skins\20\207b8da03ce16338b5b6e0d962af46ae613bfab496294be6363938ab8ab3dc93' , Expire: 0)
+[2022-02-25 14:17:25] [Stega163 INFO] Loading Stega163's profile.
+[2022-02-25 14:17:25] [Stega163 INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-02-25 14:17:25] [Stega163 INFO] Both skin and cape not found.
+[2022-02-25 14:17:25] [Stega163 INFO] 2/8 Try to load profile from 'ElyBy'.
+[2022-02-25 14:17:25] [Stega163 DEBUG] Try to request 'http://skinsystem.ely.by/textures/Stega163'.
+[2022-02-25 14:17:25] [Piios INFO] Cached profile will be used.
+[2022-02-25 14:17:25] [Piios INFO] (SkinUrl: http://textures.minecraft.net/texture/207b8da03ce16338b5b6e0d962af46ae613bfab496294be6363938ab8ab3dc93 , Model: default , CapeUrl: null  , Expiry: 1645787870)
+[2022-02-25 14:17:25] [Piios DEBUG] Try to request 'http://textures.minecraft.net/texture/207b8da03ce16338b5b6e0d962af46ae613bfab496294be6363938ab8ab3dc93'.
+[2022-02-25 14:17:25] [Piios DEBUG] Cache file found (Length: 1927 , Path: 'C:\Users\Dimaska\AppData\Roaming\.minecraft\assets\skins\20\207b8da03ce16338b5b6e0d962af46ae613bfab496294be6363938ab8ab3dc93' , Expire: 0)
+[2022-02-25 14:17:25] [Stega163 DEBUG] Successfully request (Response Code: 200 , Content Length: 83)
+[2022-02-25 14:17:25] [Stega163 DEBUG] Saved to cache (Length: 83 , Path: 'D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\caches\2cf7dc34df354f06192c152997c3108cb274ad03' , Expire: 1645787940)
+[2022-02-25 14:17:25] [Stega163 DEBUG] Content: {"SKIN":{"url":"http://ely.by/storage/skins/821113c0566c64fc6ee7516d203fca51.png"}}
+[2022-02-25 14:17:25] [Stega163 INFO] Stega163's profile loaded.
+[2022-02-25 14:17:25] [Stega163 INFO] (SkinUrl: http://ely.by/storage/skins/821113c0566c64fc6ee7516d203fca51.png , Model: default , CapeUrl: null  , Expiry: 1645787875)
+[2022-02-25 14:17:25] [Stega163 DEBUG] Try to request 'http://ely.by/storage/skins/821113c0566c64fc6ee7516d203fca51.png'.
+[2022-02-25 14:17:25] [Stega163 DEBUG] Cache file found (Length: 2839 , Path: 'C:\Users\Dimaska\AppData\Roaming\.minecraft\assets\skins\82\821113c0566c64fc6ee7516d203fca51' , Expire: 0)
+[2022-02-25 14:17:25] [Render thread DEBUG] Loading type: SKIN
+[2022-02-25 14:17:25] [Render thread DEBUG] Loading type: SKIN
+[2022-02-25 14:17:25] [Render thread DEBUG] Loading type: SKIN
+[2022-02-25 14:17:27] [Vazkii's skull INFO] Loading Vazkii's profile.
+[2022-02-25 14:17:27] [Vazkii's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-02-25 14:17:27] [Vazkii's skull INFO] Both skin and cape not found.
+[2022-02-25 14:17:27] [Vazkii's skull INFO] 2/8 Try to load profile from 'ElyBy'.
+[2022-02-25 14:17:27] [Vazkii's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/Vazkii'.
+[2022-02-25 14:17:27] [Olmina999's skull INFO] Loading Olmina999's profile.
+[2022-02-25 14:17:27] [Olmina999's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-02-25 14:17:27] [Olmina999's skull INFO] Both skin and cape not found.
+[2022-02-25 14:17:27] [Olmina999's skull INFO] 2/8 Try to load profile from 'ElyBy'.
+[2022-02-25 14:17:27] [Olmina999's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/Olmina999'.
+[2022-02-25 14:17:27] [Lelouch_66's skull INFO] Loading Lelouch_66's profile.
+[2022-02-25 14:17:27] [Lelouch_66's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-02-25 14:17:27] [Lelouch_66's skull INFO] Both skin and cape not found.
+[2022-02-25 14:17:27] [Lelouch_66's skull INFO] 2/8 Try to load profile from 'ElyBy'.
+[2022-02-25 14:17:27] [Lelouch_66's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/Lelouch_66'.
+[2022-02-25 14:17:27] [Lelouch_66's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 85)
+[2022-02-25 14:17:27] [Lelouch_66's skull DEBUG] Saved to cache (Length: 85 , Path: 'D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\caches\bb294388df766e98b4a49187c3cf08c0c1a6e287' , Expire: 1645787942)
+[2022-02-25 14:17:27] [Lelouch_66's skull DEBUG] Content: {"SKIN":{"url":"http://ely.by/minecraft/skins/18951205da2753f62b7da1f5d4ffafdb.png"}}
+[2022-02-25 14:17:27] [Lelouch_66's skull INFO] Lelouch_66's profile loaded.
+[2022-02-25 14:17:27] [Lelouch_66's skull INFO] (SkinUrl: http://ely.by/minecraft/skins/18951205da2753f62b7da1f5d4ffafdb.png , Model: default , CapeUrl: null  , Expiry: 1645787877)
+[2022-02-25 14:17:27] [Olmina999's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 113)
+[2022-02-25 14:17:27] [Vazkii's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 149)
+[2022-02-25 14:17:27] [Vazkii's skull DEBUG] Saved to cache (Length: 149 , Path: 'D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\caches\78f9b97fe92f6024c2c384b4f7df6141bb76c9d5' , Expire: 1645787939)
+[2022-02-25 14:17:27] [Vazkii's skull DEBUG] Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/8c3062563311bdfc0108f6c2549a0be6046e5aed7d2f77efa9713aff31c5895a","metadata":{"model":"slim"}}}
+[2022-02-25 14:17:27] [Vazkii's skull INFO] Vazkii's profile loaded.
+[2022-02-25 14:17:27] [Vazkii's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/8c3062563311bdfc0108f6c2549a0be6046e5aed7d2f77efa9713aff31c5895a , Model: slim , CapeUrl: null  , Expiry: 1645787877)
+[2022-02-25 14:17:27] [Olmina999's skull DEBUG] Saved to cache (Length: 113 , Path: 'D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\caches\68310993523952bc91bb01a0f63e11a3476158e6' , Expire: 1645787940)
+[2022-02-25 14:17:27] [Olmina999's skull DEBUG] Content: {"SKIN":{"url":"http://ely.by/minecraft/skins/6aa5d05b048fbdbe1a6f450aa9598fcd.png","metadata":{"model":"slim"}}}
+[2022-02-25 14:17:27] [Olmina999's skull INFO] Olmina999's profile loaded.
+[2022-02-25 14:17:27] [Olmina999's skull INFO] (SkinUrl: http://ely.by/minecraft/skins/6aa5d05b048fbdbe1a6f450aa9598fcd.png , Model: slim , CapeUrl: null  , Expiry: 1645787877)
+[2022-02-25 14:21:07] [SirenVi's skull INFO] Loading SirenVi's profile.
+[2022-02-25 14:21:07] [SirenVi's skull INFO] 1/8 Try to load profile from 'LocalSkin'.
+[2022-02-25 14:21:07] [SirenVi's skull INFO] Both skin and cape not found.
+[2022-02-25 14:21:07] [SirenVi's skull INFO] 2/8 Try to load profile from 'ElyBy'.
+[2022-02-25 14:21:07] [SirenVi's skull DEBUG] Try to request 'http://skinsystem.ely.by/textures/SirenVi'.
+[2022-02-25 14:21:07] [SirenVi's skull DEBUG] Successfully request (Response Code: 200 , Content Length: 269)
+[2022-02-25 14:21:07] [SirenVi's skull DEBUG] Saved to cache (Length: 269 , Path: 'D:\git\Minecraft-Server\Andrusik's_client_folder\CustomSkinLoader\caches\7b714a0e7c93c1bda676d44f9c225220c50fd050' , Expire: 1645788162)
+[2022-02-25 14:21:07] [SirenVi's skull DEBUG] Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/3ad8c2fd8a01fe01d42a65e41c316f5f351f1777deb3efec83b3aca76fae81a4","metadata":{"model":"slim"}},"CAPE":{"url":"http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933"}}
+[2022-02-25 14:21:07] [SirenVi's skull INFO] SirenVi's profile loaded.
+[2022-02-25 14:21:07] [SirenVi's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/3ad8c2fd8a01fe01d42a65e41c316f5f351f1777deb3efec83b3aca76fae81a4 , Model: slim , CapeUrl: http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933  , Expiry: 1645788097)

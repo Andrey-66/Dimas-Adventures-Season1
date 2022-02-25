@@ -1,12 +1,12 @@
 {
   "servers": {
-    "31.134.135.227": {
+    "45.93.200.22": {
       "distance": 32,
       "priorityDistance": 96
     },
     "127.0.0.1": {
-      "distance": 16,
-      "priorityDistance": 48
+      "distance": 32,
+      "priorityDistance": 96
     }
   },
   "playerVolumes": {},
@@ -17,11 +17,11 @@
   "speakerMuted": false,
   "showIcons": 0,
   "micIconPosition": "BOTTOM_CENTER",
-  "voiceActivation": false,
+  "voiceActivation": true,
   "voiceActivationThreshold": -30.0,
   "microphoneAmplification": 1.0,
   "rnNoise": false,
-  "microphoneMuted": false,
+  "microphoneMuted": true,
   "javaxCapture": false,
   "hrtf": false,
   "directionalSources": false,
@@ -40,8 +40,8 @@
     "priorityPushToTalk": [],
     "muteMicrophone": [
       {
-        "type": "KEYSYM",
-        "code": 77
+        "type": "MOUSE",
+        "code": 3
       }
     ],
     "muteChat": [],

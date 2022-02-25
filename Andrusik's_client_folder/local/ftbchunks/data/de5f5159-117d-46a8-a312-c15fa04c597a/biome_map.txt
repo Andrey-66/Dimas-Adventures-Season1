@@ -1,0 +1,14 @@
+#6C5 byg:aspen_forest
+#290 byg:bayou
+#284 byg:crag_gardens
+#00A byg:cypress_swamplands
+#112 biomesoplenty:dense_woodland
+#64F byg:dover_mountains
+#4B0 minecraft:jungle
+#181 minecraft:jungle_edge
+#043 minecraft:jungle_hills
+#6DB byg:orchard
+#7E9 byg:redwood_tropics
+#5FF minecraft:river
+#755 byg:seasonal_taiga
+#7F2 biomesoplenty:woodland

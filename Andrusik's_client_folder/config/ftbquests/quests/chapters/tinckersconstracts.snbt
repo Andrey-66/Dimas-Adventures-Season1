@@ -1,7 +1,7 @@
 {
 	id: "06452BFB80D60516"
 	group: "1E0A8915CBC35F34"
-	order_index: 2
+	order_index: 3
 	filename: "tinckersconstracts"
 	title: "Кузнечное дело"
 	icon: {
@@ -167,6 +167,7 @@
 								level: 1s
 							}
 						]
+						HideFlags: 3
 						tic_materials: [
 							"tconstruct:wood"
 							"tconstruct:wood"
@@ -177,6 +178,17 @@
 							abilities: 1
 							upgrades: 3
 						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A777544D9BA4628"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
 			}]
@@ -319,6 +331,12 @@
 					item: "tconstruct:blank_sand_cast"
 					count: 4
 				}
+				{
+					id: "0E7F195D0EF0DDFE"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "delete"
+				}
 			]
 		}
 		{
@@ -334,6 +352,11 @@
 				type: "item"
 				item: "tconstruct:materials_and_you"
 			}]
+			rewards: [{
+				id: "4FC462A7743256E7"
+				type: "item"
+				item: "minecraft:writable_book"
+			}]
 		}
 		{
 			title: "Книга, но круче"
@@ -341,11 +364,17 @@
 			y: 3.0d
 			hide_dependency_lines: true
 			dependencies: ["05AB606EC2B4A45F"]
+			hide: true
 			id: "373838B8EFC10E15"
 			tasks: [{
 				id: "2FDE187E920C89D0"
 				type: "item"
 				item: "tconstruct:puny_smelting"
+			}]
+			rewards: [{
+				id: "101CF69A091CF264"
+				type: "item"
+				item: "ftbquests:book"
 			}]
 		}
 		{
@@ -359,6 +388,11 @@
 				id: "5BE10DFE7A9BC1A0"
 				type: "item"
 				item: "tconstruct:mighty_smelting"
+			}]
+			rewards: [{
+				id: "2F930DC7B5FA0938"
+				type: "item"
+				item: "tconstruct:materials_and_you"
 			}]
 		}
 		{
@@ -478,7 +512,8 @@
 				type: "observation"
 				icon: "tconstruct:sky_congealed_slime"
 				timer: 0L
-				observe: "block:tconstruct:sky_congealed_slime"
+				observe_type: 0
+				to_observe: "tconstruct:sky_congealed_slime"
 			}]
 			rewards: [
 				{
@@ -576,6 +611,40 @@
 				id: "76439A3E8AC145CB"
 				type: "item"
 				item: "calemiutils:money_bag_rich"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["48B784BDF17E1611"]
+			hide: true
+			id: "08E766122E6C2732"
+			tasks: [{
+				id: "0EBBC4B88F2D3E81"
+				type: "item"
+				item: "tconstruct:tinkers_chest"
+			}]
+			rewards: [{
+				id: "0A6D36ED64B94E60"
+				type: "random"
+				table_id: 6776755401418994532L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["7E9C7E0DE45FC70D"]
+			hide: true
+			id: "4529212ADBBDE4E4"
+			tasks: [{
+				id: "4D6E93AF62A146CF"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+			rewards: [{
+				id: "6B79B85DCAA8E2DE"
+				type: "random"
+				table_id: 6243337517426936659L
 			}]
 		}
 	]

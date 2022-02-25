@@ -1,6 +1,6 @@
 udp:
   ip: 0.0.0.0
-  port: 0
+  port: 18582
 
 # Supported sample rates:
 # 8000
@@ -11,12 +11,12 @@ sample_rate: 48000
 
 # Voice distance
 distances:
-  - 8
   - 16
-  - 24
+  - 32
+  - 48
 # Default voice distance
 # If 0 distance will be first element from distances
-default_distance: 16
+default_distance: 32
 
 # Max priority distance
 # 0 = infinite

@@ -1,7 +1,7 @@
 {
 	id: "4C2596499B1DE290"
 	group: "1E0A8915CBC35F34"
-	order_index: 7
+	order_index: 9
 	filename: "apotheosis"
 	title: "Апофеоз"
 	icon: "apotheosis:blazing_hellshelf"
@@ -10,14 +10,21 @@
 	quests: [
 		{
 			title: "Простой фарм"
-			x: 2.5d
+			x: 3.5d
 			y: 0.0d
-			description: ["Делать ферму проще с рассадником, его можно добыть киркой с шёлковым касанием."]
+			description: ["Делать ферму проще с рассадником, его можно купить или добыть Шёлковым косанием X, при этом кирка сломается!"]
+			dependencies: ["74943EF24E9B45C6"]
+			hide: true
 			id: "54815C7F956842CD"
 			tasks: [{
 				id: "43F65DBD3C995691"
 				type: "item"
 				item: "minecraft:spawner"
+			}]
+			rewards: [{
+				id: "7211D97569CDFA7C"
+				type: "item"
+				item: "minecraft:diamond"
 			}]
 		}
 		{
@@ -55,7 +62,14 @@
 			tasks: [{
 				id: "4CC778BDB8D0D238"
 				type: "item"
-				item: "minecraft:bookshelf"
+				title: "Any #forge:bookshelves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:bookshelves"
+					}
+				}
 				count: 16L
 			}]
 			rewards: [{
@@ -68,7 +82,10 @@
 			x: -4.0d
 			y: 0.0d
 			hide_dependency_lines: true
-			dependencies: ["5093BB5339D2D896"]
+			dependencies: [
+				"5093BB5339D2D896"
+				"49A4F0EC8DA71F72"
+			]
 			hide: true
 			id: "297FEAE430B410EB"
 			tasks: [{
@@ -83,7 +100,7 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -6.0d
 			y: 0.0d
 			hide_dependency_lines: true
 			dependencies: ["5093BB5339D2D896"]
@@ -101,7 +118,7 @@
 			}]
 		}
 		{
-			x: -6.0d
+			x: -7.0d
 			y: 0.0d
 			hide_dependency_lines: true
 			dependencies: ["5093BB5339D2D896"]
@@ -158,7 +175,11 @@
 			x: -4.0d
 			y: 1.0d
 			hide_dependency_lines: true
-			dependencies: ["5093BB5339D2D896"]
+			dependencies: [
+				"5093BB5339D2D896"
+				"35B0DBECB08F5384"
+				"7C8E4BF796ED05C5"
+			]
 			hide: true
 			id: "3C8E05E968C13716"
 			tasks: [{
@@ -176,7 +197,10 @@
 			x: -5.0d
 			y: 1.0d
 			hide_dependency_lines: true
-			dependencies: ["5093BB5339D2D896"]
+			dependencies: [
+				"5093BB5339D2D896"
+				"3C8E05E968C13716"
+			]
 			hide: true
 			id: "2A51E5DDEB18F6E3"
 			tasks: [{
@@ -194,7 +218,11 @@
 			x: -6.0d
 			y: 1.0d
 			hide_dependency_lines: true
-			dependencies: ["5093BB5339D2D896"]
+			dependencies: [
+				"5093BB5339D2D896"
+				"3C8E05E968C13716"
+				"269F11B835BE032D"
+			]
 			hide: true
 			id: "748BAEAF28B32003"
 			tasks: [{
@@ -311,6 +339,339 @@
 					table_id: 6053417601273439989L
 				}
 			]
+		}
+		{
+			title: "Слияние с незером"
+			x: -5.0d
+			y: 0.0d
+			description: ["Зачаруй Адскую книжную полку на Слияние с незером"]
+			hide_dependency_lines: true
+			dependencies: ["297FEAE430B410EB"]
+			hide: true
+			id: "1D89431BA3FBF3FE"
+			tasks: [{
+				id: "401F624694BAF6E9"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "apotheosis:hellshelf"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 1s
+										id: "apotheosis:hell_infusion"
+									}]
+								}
+							}
+							{
+								id: "apotheosis:hellshelf"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 2s
+										id: "apotheosis:hell_infusion"
+									}]
+								}
+							}
+							{
+								id: "apotheosis:hellshelf"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 3s
+										id: "apotheosis:hell_infusion"
+									}]
+								}
+							}
+							{
+								id: "apotheosis:hellshelf"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 4s
+										id: "apotheosis:hell_infusion"
+									}]
+								}
+							}
+							{
+								id: "apotheosis:hellshelf"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 5s
+										id: "apotheosis:hell_infusion"
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "154C7AE3AE008648"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			title: "Дальний свет"
+			x: 6.5d
+			y: 1.0d
+			dependencies: ["54815C7F956842CD"]
+			hide: true
+			id: "625B204AEF6F4CA3"
+			tasks: [{
+				id: "141C372B630ED719"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+			}]
+			rewards: [{
+				id: "7B6F6F82EAA54AA3"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:facade"
+					Count: 1b
+					tag: {
+						item: "minecraft:dark_prismarine"
+					}
+				}
+			}]
+		}
+		{
+			title: "Как ифрит, но камень"
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["54815C7F956842CD"]
+			hide: true
+			id: "2F001E6005D65D92"
+			tasks: [{
+				id: "14C79D75CD70AA7D"
+				type: "item"
+				item: "thermal:basalz_rod"
+			}]
+			rewards: [{
+				id: "21D8B7D4EF98EEC4"
+				type: "item"
+				item: "minecraft:basalt"
+				count: 55
+			}]
+		}
+		{
+			title: "Всё под контролем"
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["54815C7F956842CD"]
+			hide: true
+			id: "621BFBB4355E3835"
+			tasks: [{
+				id: "306DB60C5BCEFE7B"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
+			rewards: [{
+				id: "67FF9137345D0640"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 5
+				random_bonus: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			id: "74943EF24E9B45C6"
+			tasks: [{
+				id: "7B96E6CA4C57D4D1"
+				type: "advancement"
+				title: "Получить яйцо спавна"
+				advancement: "apotheosis:spawner/capturing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4A9BD09335AFA79D"
+				type: "item"
+				item: "simplefarming:egg_sandwich"
+			}]
+		}
+		{
+			title: "Чаролист"
+			x: 6.0d
+			y: -2.5d
+			dependencies: [
+				"54815C7F956842CD"
+				"7C8E4BF796ED05C5"
+				"6B88F4C9DDFC41F2"
+			]
+			hide: true
+			id: "0AB1827DA5786A8B"
+			tasks: [{
+				id: "666D65E8BB15958F"
+				type: "item"
+				item: "betterendforge:enchanted_petal"
+			}]
+			rewards: [{
+				id: "6F60EFF443D136B4"
+				type: "item"
+				item: {
+					id: "twilightforest:steeleaf_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 2s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Посыпь пылью феи... или пикси?"
+			x: 4.5d
+			y: 3.0d
+			dependencies: [
+				"54815C7F956842CD"
+				"00B0A3EE3E961EBB"
+			]
+			hide: true
+			id: "5049FB11BB79CB95"
+			tasks: [{
+				id: "005C58FE7076359A"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [{
+				id: "137AAFB33961CF5E"
+				type: "item"
+				item: "minecraft:pink_stained_glass"
+			}]
+		}
+		{
+			title: "Посыпь пылью пикси... или фей?"
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["54815C7F956842CD"]
+			hide: true
+			id: "3DB82207A84A3208"
+			tasks: [{
+				id: "2AEAE12F8E7A05E7"
+				type: "item"
+				item: "iceandfire:pixie_dust"
+			}]
+			rewards: [{
+				id: "18397521BA43A047"
+				type: "item"
+				item: "minecraft:glowstone_dust"
+				count: 32
+				random_bonus: 26
+			}]
+		}
+		{
+			title: "Море кровавых слёз"
+			x: 3.0d
+			y: 3.0d
+			dependencies: [
+				"6C5C974EA86672C4"
+				"54815C7F956842CD"
+			]
+			hide: true
+			id: "47EE1592EA165BC9"
+			tasks: [{
+				id: "09E75DFF8300B919"
+				type: "item"
+				item: "evilcraft:corrupted_tear"
+			}]
+			rewards: [{
+				id: "616EAE8F7E4637B9"
+				type: "item"
+				item: "evilcraft:ender_tear"
+			}]
+		}
+		{
+			title: "Спиды на спавнер"
+			x: 1.5d
+			y: -2.5d
+			dependencies: [
+				"54815C7F956842CD"
+				"599E057E38B70921"
+			]
+			id: "6597A85C19519637"
+			tasks: [{
+				id: "5E665025A292DFC7"
+				type: "item"
+				item: "evilcraft:promise_speed_0"
+			}]
+			rewards: [{
+				id: "576F81822C4612CA"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			title: "Ваще пофиг"
+			x: 1.5d
+			y: 2.5d
+			dependencies: [
+				"54815C7F956842CD"
+				"7C5E55C087E62528"
+			]
+			hide: true
+			id: "3AECC5AAEDE779FB"
+			tasks: [{
+				id: "4099961AA4200BAF"
+				type: "item"
+				item: "extrabotany:heromedal"
+			}]
+			rewards: [{
+				id: "1E52F5A161B929E5"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			title: "В игнор"
+			x: 3.0d
+			y: -3.0d
+			dependencies: [
+				"3F36925C0CAFFE96"
+				"54815C7F956842CD"
+			]
+			id: "3E11E83CD1A0B8B6"
+			tasks: [{
+				id: "3A9C9A9ACEDEDCE3"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [{
+				id: "18DEA92D0A9842C8"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+		}
+		{
+			title: "Краш сервера"
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["54815C7F956842CD"]
+			hide: true
+			id: "2E12D5603C79FA80"
+			tasks: [{
+				id: "1FA80F2D813DA026"
+				type: "item"
+				item: "minecraft:spawner"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "25837A04484EE72C"
+				type: "item"
+				item: "minecraft:diamond_block"
+				count: 64
+			}]
 		}
 	]
 }

@@ -23,11 +23,11 @@ onEvent('recipes', event => {
         G: '#forge:glass',
         T: 'appliedenergistics2:terminal',
         K: 'appliedenergistics2:fluix_glass_cable',
-        S: 'botania:corporea_spark_master',
+        S: 'appliedenergistics2:engineering_processor',
         I: '#forge:ingots/invar',
         C: '#appliedenergistics2:crystals/fluix'
       })
-
+	
     event.remove({output: 'appliedenergistics2:drive'})
     event.shaped('appliedenergistics2:drive', [
         'IPI',

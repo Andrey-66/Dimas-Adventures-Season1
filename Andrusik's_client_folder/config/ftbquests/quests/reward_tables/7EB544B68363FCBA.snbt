@@ -1,0 +1,17 @@
+{
+	id: "7EB544B68363FCBA"
+	order_index: 10
+	title: "Мифик Руны"
+	loot_size: 1
+	rewards: [
+		{ item: "mythicbotany:muspelheim_rune", weight: 10 }
+		{ item: "mythicbotany:niflheim_rune", weight: 10 }
+		{ item: "mythicbotany:joetunheim_rune", weight: 10 }
+		{ item: "mythicbotany:midgard_rune", weight: 5 }
+		{ item: "mythicbotany:nidavellir_rune", weight: 5 }
+		{ item: "mythicbotany:helheim_rune", weight: 5 }
+		{ item: "mythicbotany:alfheim_rune", weight: 4 }
+		{ item: "mythicbotany:vanaheim_rune", weight: 3 }
+		{ item: "mythicbotany:asgard_rune", weight: 2 }
+	]
+}

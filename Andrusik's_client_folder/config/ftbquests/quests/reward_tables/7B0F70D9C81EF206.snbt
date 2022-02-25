@@ -1,0 +1,14 @@
+{
+	id: "7B0F70D9C81EF206"
+	order_index: 9
+	title: "Топ слитки"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:enderium_ingot" }
+		{ item: "thermal:lumium_ingot" }
+		{ item: "thermal:signalum_ingot" }
+		{ item: "botania:terrasteel_ingot" }
+		{ item: "tconstruct:manyullyn_ingot" }
+		{ item: "tconstruct:pig_iron_ingot" }
+	]
+}

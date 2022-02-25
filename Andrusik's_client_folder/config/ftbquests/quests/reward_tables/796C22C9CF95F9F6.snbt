@@ -1,0 +1,37 @@
+{
+	id: "796C22C9CF95F9F6"
+	order_index: 14
+	title: "Дмечи"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "iceandfire:dragonbone_sword_fire"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 7
+		}
+		{
+			item: {
+				id: "iceandfire:dragonbone_sword_ice"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "iceandfire:dragonbone_sword_lightning"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2
+		}
+	]
+}
