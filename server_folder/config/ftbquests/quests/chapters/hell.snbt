@@ -1,7 +1,7 @@
 {
 	id: "2A302F031907A167"
 	group: "1E0A8915CBC35F34"
-	order_index: 4
+	order_index: 5
 	filename: "hell"
 	title: "Ад"
 	icon: "minecraft:blaze_powder"
@@ -10,8 +10,10 @@
 	quests: [
 		{
 			title: "В поисках чего-то адского"
+			icon: "minecraft:netherrack"
 			x: -2.5d
 			y: 0.0d
+			shape: "hexagon"
 			description: ["Старым способом портал вызвать не выходит. Нужно придумать что-то новое. Дальнейшее изучение магических сплавов мне должно помочь."]
 			hide: true
 			id: "5EA7B205354739CF"
@@ -20,11 +22,18 @@
 				type: "dimension"
 				dimension: "minecraft:the_nether"
 			}]
+			rewards: [{
+				id: "121B4588D57A2DA7"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
+			}]
 		}
 		{
 			title: "Своеобразная жижа"
 			x: -3.5d
 			y: 0.0d
+			shape: "circle"
 			description: ["А кто сказал, что портал не может быть жидким? "]
 			dependencies: ["45959E538A5AC827"]
 			id: "574EDB5F9AAE5FD1"
@@ -47,12 +56,15 @@
 			y: 0.0d
 			description: ["Найти структуру, подобную маяку"]
 			dependencies: ["5EA7B205354739CF"]
+			hide: true
 			id: "1A8A5498639CCFFC"
 			tasks: [{
 				id: "74398C67F5BE4C54"
 				type: "observation"
+				icon: "betterportals:reclaimer"
 				timer: 60L
-				observe: "block:betterportals:reclamer"
+				observe_type: 0
+				to_observe: "betterportals:reclaimer_block"
 			}]
 			rewards: [{
 				id: "2637E06340860256"
@@ -62,9 +74,11 @@
 		}
 		{
 			title: "Убить чёрных!"
-			x: -0.5d
-			y: 1.5d
-			dependencies: ["5EA7B205354739CF"]
+			icon: "tconstruct:necrotic_bone"
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["70CE7754169299BB"]
+			hide: true
 			id: "1FC32C779AAC4BCE"
 			tasks: [{
 				id: "739E611D92647A40"
@@ -80,9 +94,11 @@
 		}
 		{
 			title: "Горыныч из ада"
-			x: 1.5d
-			y: 1.5d
+			icon: "minecraft:nether_star"
+			x: 2.5d
+			y: 2.0d
 			dependencies: ["1FC32C779AAC4BCE"]
+			hide: true
 			id: "3F36925C0CAFFE96"
 			tasks: [{
 				id: "39D76547D479E906"
@@ -103,6 +119,478 @@
 					team_reward: false
 					auto: "invisible"
 					stage: "glyph_wither"
+				}
+			]
+		}
+		{
+			title: "Гетто"
+			icon: "minecraft:chiseled_nether_bricks"
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["5EA7B205354739CF"]
+			hide: true
+			id: "70CE7754169299BB"
+			tasks: [{
+				id: "5ED584D5BF00ADE2"
+				type: "structure"
+				title: "Найти адскую крепость"
+				structure: "minecraft:fortress"
+			}]
+			rewards: [{
+				id: "3E585D5F32C65548"
+				type: "item"
+				item: "minecraft:black_stained_glass"
+			}]
+		}
+		{
+			title: "Добываем порошочек"
+			icon: "minecraft:blaze_rod"
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["70CE7754169299BB"]
+			hide: true
+			id: "106A0122D589A48D"
+			tasks: [
+				{
+					id: "5820498B8F978F61"
+					type: "kill"
+					entity: "minecraft:blaze"
+					value: 5L
+				}
+				{
+					id: "24DAAD5B479AE3E5"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "08E4B63E9302C9C3"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					random_bonus: 4
+				}
+				{
+					id: "6B1B4FC2B8216903"
+					type: "item"
+					item: "tconstruct:blaze_head"
+				}
+			]
+		}
+		{
+			title: "Кристаллическая кровь? Наверное..."
+			x: -4.5d
+			y: -2.0d
+			dependencies: ["5EA7B205354739CF"]
+			hide: true
+			id: "49A4F0EC8DA71F72"
+			tasks: [{
+				id: "0D3D6A53138E6783"
+				type: "item"
+				item: "biomesoplenty:nether_crystal"
+				count: 10L
+			}]
+			rewards: [{
+				id: "4E405F7AC4B71AE9"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "Хру?"
+			icon: "minecraft:chiseled_polished_blackstone"
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["5EA7B205354739CF"]
+			hide: true
+			id: "24B64CEC9B016FD1"
+			tasks: [
+				{
+					id: "0B4E9F69CF302284"
+					type: "structure"
+					title: "Найти бастион"
+					icon: "minecraft:gilded_blackstone"
+					structure: "minecraft:bastion_remnant"
+				}
+				{
+					id: "5DC325A90F819626"
+					type: "advancement"
+					title: "Киньте пиглину золото для бартера"
+					advancement: "minecraft:nether/distract_piglin"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "007ED28A19624E16"
+				type: "choice"
+				table_id: 9023447288786701654L
+			}]
+		}
+		{
+			title: "Горячий бекончик"
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["24B64CEC9B016FD1"]
+			hide: true
+			id: "7DAFE9A14232B64C"
+			tasks: [
+				{
+					id: "75B40140BF0BA260"
+					type: "kill"
+					entity: "minecraft:piglin_brute"
+					value: 2L
+				}
+				{
+					id: "6E11A99D2E737C86"
+					type: "kill"
+					entity: "minecraft:piglin"
+					value: 10L
+				}
+			]
+			rewards: [{
+				id: "359D2385CE1E464B"
+				type: "item"
+				item: "enigmaticlegacy:gem_ring"
+			}]
+		}
+		{
+			title: "Я просто посмотрел"
+			x: -1.0d
+			y: 3.5d
+			dependencies: ["24B64CEC9B016FD1"]
+			hide: true
+			id: "3BB351A576668BFF"
+			tasks: [{
+				id: "64826A4B430FEEF8"
+				type: "advancement"
+				title: "Открыть сундук в бастионе"
+				advancement: "minecraft:nether/loot_bastion"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "09D41AE660549EEE"
+				type: "random"
+				table_id: 9023447288786701654L
+			}]
+		}
+		{
+			title: "Я не плачу, это просто дождь... в аду"
+			icon: "minecraft:ghast_tear"
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["5EA7B205354739CF"]
+			hide: true
+			id: "404F35E1D175CCD5"
+			tasks: [
+				{
+					id: "170F8DFC9E3C1E9C"
+					type: "item"
+					item: "minecraft:ghast_tear"
+				}
+				{
+					id: "67E6707CB5BD4D8F"
+					type: "kill"
+					entity: "minecraft:ghast"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "3BDCE93C4C959C2E"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "tconstruct:blood"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Кажется мы нашли что-то очень древнее"
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["5EA7B205354739CF"]
+			hide: true
+			id: "17BA50C2B0253BB9"
+			tasks: [{
+				id: "14F3DAAE6D74A8C0"
+				type: "item"
+				title: "Найти незерит"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:netherite_scrap"
+								Count: 1b
+							}
+							{
+								id: "minecraft:netherite_ingot"
+								Count: 1b
+							}
+							{
+								id: "minecraft:ancient_debris"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "44EB606F6C312884"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["3F36925C0CAFFE96"]
+			hide: true
+			id: "0B9C68FB70731410"
+			tasks: [{
+				id: "7A20E8512C278A84"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
+			rewards: [{
+				id: "15955404284D520F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Маяковский"
+			x: 5.5d
+			y: 2.0d
+			dependencies: ["0B9C68FB70731410"]
+			hide: true
+			id: "1FFC5E7A5D75F3C7"
+			tasks: [
+				{
+					id: "5C634173742A588A"
+					type: "advancement"
+					advancement: "minecraft:nether/create_full_beacon"
+					criterion: ""
+				}
+				{
+					id: "2C1207B8B9246EB3"
+					type: "item"
+					title: "Блоки основания маяка"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:beacon_build_block"
+						}
+					}
+					count: 164L
+				}
+			]
+			rewards: [
+				{
+					id: "06BFDE82BB49A1CC"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "1598FAFEF5FE3955"
+					type: "item"
+					item: "minecraft:diamond_block"
+					count: 2
+				}
+				{
+					id: "1E118BA0BE02FA8E"
+					type: "item"
+					item: {
+						id: "mythicbotany:faded_nether_star"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Адский копатель"
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["4976D7A932F8E555"]
+			hide: true
+			id: "788AD6DC44E7B979"
+			tasks: [
+				{
+					id: "5C6EBB7A8E9CAA82"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2624F5A95DF5CAE0"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "44B97DBDE6930BBB"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "678FD1DC589DC170"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "5320AC7CC514235D"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "6E81807F49573A01"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "254E43CF04507288"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "7636F1019BEC92E3"
+					type: "item"
+					item: "minecraft:nether_brick_stairs"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "4AC22FC91ACB7FBF"
+					type: "item"
+					item: "minecraft:nether_brick_fence"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "50931B8CC97B1AFF"
+					type: "item"
+					item: "minecraft:crimson_stem"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "4721EF65183D26D6"
+					type: "item"
+					item: "minecraft:warped_stem"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "076B5C14F10E14BD"
+					type: "item"
+					item: "byg:embur_pedu"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "393FF3D8FADD2A95"
+					type: "item"
+					item: "minecraft:basalt"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "0F06D5B4C11583CC"
+					type: "item"
+					item: "minecraft:blackstone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "4C84DB3A5D015E49"
+					type: "item"
+					item: "minecraft:soul_soil"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "4E10E4231511AA65"
+					type: "item"
+					item: "minecraft:soul_sand"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "205F4AD7CCBF861B"
+				type: "item"
+				item: "minecraft:wither_rose"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["5EA7B205354739CF"]
+			hide: true
+			id: "4976D7A932F8E555"
+			tasks: [{
+				id: "3900334E56A28B72"
+				type: "advancement"
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "087BC4B0AF9FD91E"
+					type: "advancement"
+					team_reward: false
+					advancement: "minecraft:nether/explore_nether"
+					criterion: ""
+				}
+				{
+					id: "0260185ED138ABD8"
+					type: "item"
+					item: {
+						id: "botania:brew_flask"
+						Count: 1b
+						tag: {
+							brewKey: "botania:speed"
+						}
+					}
+				}
+				{
+					id: "24279F647E7E095E"
+					type: "item"
+					item: {
+						id: "minecraft:leather_boots"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Damage: 0
+							Enchantments: [{
+								lvl: 1s
+								id: "minecraft:soul_speed"
+							}]
+						}
+					}
 				}
 			]
 		}

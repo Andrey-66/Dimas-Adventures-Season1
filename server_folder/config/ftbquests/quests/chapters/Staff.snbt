@@ -1,9 +1,17 @@
 {
 	id: "32C661B3D9B74B66"
 	group: "1E0A8915CBC35F34"
-	order_index: 10
+	order_index: 0
 	filename: "Staff"
 	title: "Полезные штучки"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+		Count: 1b
+		tag: {
+			borderColor: 16383998
+			clothColor: 16383998
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -37,6 +45,7 @@
 			title: "Большие карманы"
 			x: -4.5d
 			y: -0.5d
+			hide: true
 			id: "5168A5BC5F9F135F"
 			tasks: [{
 				id: "69563829DB9EF386"
@@ -60,6 +69,7 @@
 			x: -4.5d
 			y: 1.5d
 			dependencies: ["5168A5BC5F9F135F"]
+			hide: true
 			id: "59B3148CF555FEA4"
 			tasks: [{
 				id: "0240126C19E9D97C"
@@ -88,6 +98,7 @@
 			x: -4.5d
 			y: 3.5d
 			dependencies: ["59B3148CF555FEA4"]
+			hide: true
 			id: "5661E6DC0A37242B"
 			tasks: [{
 				id: "6865DD39180BF19C"
@@ -115,6 +126,7 @@
 			x: -4.5d
 			y: 5.5d
 			dependencies: ["5661E6DC0A37242B"]
+			hide: true
 			id: "2E5B1DF361DC3970"
 			tasks: [{
 				id: "4741C5D5A28533F2"
@@ -149,6 +161,7 @@
 			x: -4.5d
 			y: 7.5d
 			dependencies: ["2E5B1DF361DC3970"]
+			hide: true
 			id: "226E6F27DE0C94CB"
 			tasks: [{
 				id: "31CA2820772523A7"
@@ -197,6 +210,7 @@
 			x: -7.5d
 			y: 2.0d
 			dependencies: ["79F8F0FB24ABA523"]
+			hide: true
 			id: "387B0D48E0008EC9"
 			tasks: [{
 				id: "702428FCF78CC95B"
@@ -214,6 +228,7 @@
 			x: -8.5d
 			y: 1.5d
 			dependencies: ["79F8F0FB24ABA523"]
+			hide: true
 			id: "77B45A8337FA052B"
 			tasks: [{
 				id: "0CF33F15845EB9A5"
@@ -231,6 +246,7 @@
 			x: -8.5d
 			y: 2.5d
 			dependencies: ["77B45A8337FA052B"]
+			hide: true
 			id: "4406C266F6456818"
 			tasks: [{
 				id: "227D827CCDB5AFFB"
@@ -259,6 +275,7 @@
 			x: -7.5d
 			y: 4.0d
 			dependencies: ["387B0D48E0008EC9"]
+			hide: true
 			id: "327B8D6141F67A27"
 			tasks: [{
 				id: "5E61562A25F1EAA9"
@@ -276,6 +293,7 @@
 			x: -8.5d
 			y: 4.0d
 			dependencies: ["4406C266F6456818"]
+			hide: true
 			id: "4BA5096A60812513"
 			tasks: [{
 				id: "36B4F38E094AA884"
@@ -296,6 +314,7 @@
 				"4BA5096A60812513"
 				"327B8D6141F67A27"
 			]
+			hide: true
 			dependency_requirement: "one_completed"
 			id: "440F541125733B75"
 			tasks: [{
@@ -314,6 +333,7 @@
 			x: -7.0d
 			y: 6.5d
 			dependencies: ["440F541125733B75"]
+			hide: true
 			id: "5CA6493A04394513"
 			tasks: [{
 				id: "7F15EAC87170A0B4"
@@ -331,6 +351,7 @@
 			x: -9.0d
 			y: 6.5d
 			dependencies: ["440F541125733B75"]
+			hide: true
 			id: "2C7125179049A0E8"
 			tasks: [{
 				id: "2657AFC2CC80E010"
@@ -351,27 +372,41 @@
 				"0479D5E9411A2C0C"
 				"3488D6844894CDE0"
 			]
+			hide: true
 			id: "11A08C4CCEDD9C87"
 			tasks: [{
 				id: "65619443F2CD9A33"
 				type: "item"
 				item: "akashictome:tome"
 			}]
-			rewards: [{
-				id: "5CE5906B71945710"
-				type: "random"
-				table_id: 6053417601273439989L
-			}]
+			rewards: [
+				{
+					id: "5CE5906B71945710"
+					type: "random"
+					table_id: 6053417601273439989L
+				}
+				{
+					id: "31F6A0B25F0F916D"
+					type: "item"
+					item: "dimasic_server:another_brick_in_the_wall"
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: 1.5d
 			dependencies: ["5168A5BC5F9F135F"]
+			hide: true
 			id: "43AF8B01190D5640"
 			tasks: [{
 				id: "3DCF436CF63BAE6D"
 				type: "item"
 				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+			rewards: [{
+				id: "4E7BAF05887B7FF8"
+				type: "item"
+				item: "minecraft:iron_nugget"
 			}]
 		}
 		{
@@ -386,6 +421,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:pickup_upgrade"
 			}]
+			rewards: [{
+				id: "2BF6948C05E96661"
+				type: "choice"
+				table_id: 6243337517426936659L
+			}]
 		}
 		{
 			x: 0.5d
@@ -398,6 +438,11 @@
 				id: "6D496E138C0ED163"
 				type: "item"
 				item: "sophisticatedbackpacks:filter_upgrade"
+			}]
+			rewards: [{
+				id: "13B0D36990A1CBDB"
+				type: "item"
+				item: "minecraft:podzol"
 			}]
 		}
 		{
@@ -412,6 +457,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:magnet_upgrade"
 			}]
+			rewards: [{
+				id: "221CE939290DCA8F"
+				type: "item"
+				item: "minecraft:crimson_nylium"
+			}]
 		}
 		{
 			x: 0.5d
@@ -424,6 +474,11 @@
 				id: "4AAD2305BC8B8C62"
 				type: "item"
 				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+			rewards: [{
+				id: "2DF7C3A5209CD48C"
+				type: "random"
+				table_id: 6243337517426936659L
 			}]
 		}
 		{
@@ -438,6 +493,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:compacting_upgrade"
 			}]
+			rewards: [{
+				id: "14E5A360DA5B9DD9"
+				type: "random"
+				table_id: 6243337517426936659L
+			}]
 		}
 		{
 			x: 0.5d
@@ -450,6 +510,11 @@
 				id: "5B9773A83A4AAA5D"
 				type: "item"
 				item: "sophisticatedbackpacks:void_upgrade"
+			}]
+			rewards: [{
+				id: "03B02525C695FB8A"
+				type: "choice"
+				table_id: 6243337517426936659L
 			}]
 		}
 		{
@@ -464,6 +529,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:restock_upgrade"
 			}]
+			rewards: [{
+				id: "151B5E0A2384D95D"
+				type: "random"
+				table_id: 6243337517426936659L
+			}]
 		}
 		{
 			x: 0.5d
@@ -476,6 +546,11 @@
 				id: "28FF64E8D867C071"
 				type: "item"
 				item: "sophisticatedbackpacks:deposit_upgrade"
+			}]
+			rewards: [{
+				id: "447C261C2B4F13C4"
+				type: "item"
+				item: "minecraft:warped_nylium"
 			}]
 		}
 		{
@@ -490,6 +565,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:refill_upgrade"
 			}]
+			rewards: [{
+				id: "0DA94F0D787333E9"
+				type: "item"
+				item: "minecraft:stone"
+			}]
 		}
 		{
 			x: -0.5d
@@ -503,6 +583,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:inception_upgrade"
 			}]
+			rewards: [{
+				id: "37FF21BC2ABD3219"
+				type: "item"
+				item: "minecraft:polished_granite"
+			}]
 		}
 		{
 			x: -0.5d
@@ -515,6 +600,11 @@
 				id: "24F39883CB214A2F"
 				type: "item"
 				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+			rewards: [{
+				id: "7CFB629D06E31D04"
+				type: "item"
+				item: "minecraft:polished_andesite"
 			}]
 		}
 		{
@@ -535,6 +625,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "111D7F3EEB7334AE"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
 		}
 		{
 			x: -0.5d
@@ -554,6 +649,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "18F52C123C319F53"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
 		}
 		{
 			x: -0.5d
@@ -566,6 +666,11 @@
 				id: "03DC99C9F5AC0828"
 				type: "item"
 				item: "sophisticatedbackpacks:stonecutter_upgrade"
+			}]
+			rewards: [{
+				id: "10A5F46F3F5E9F4E"
+				type: "item"
+				item: "minecraft:grass_block"
 			}]
 		}
 		{
@@ -580,6 +685,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 			}]
+			rewards: [{
+				id: "452C881390DFBDAC"
+				type: "item"
+				item: "minecraft:coarse_dirt"
+			}]
 		}
 		{
 			x: -0.5d
@@ -592,6 +702,11 @@
 				id: "15C0635FB0695352"
 				type: "item"
 				item: "sophisticatedbackpacks:jukebox_upgrade"
+			}]
+			rewards: [{
+				id: "13E6B40C5F47509A"
+				type: "item"
+				item: "minecraft:granite"
 			}]
 		}
 		{
@@ -606,6 +721,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:tool_swapper_upgrade"
 			}]
+			rewards: [{
+				id: "0F5655B4822C4E4E"
+				type: "random"
+				table_id: 8286345192513657804L
+			}]
 		}
 		{
 			x: -0.5d
@@ -618,6 +738,11 @@
 				id: "225F8FC6FD7792AF"
 				type: "item"
 				item: "sophisticatedbackpacks:tank_upgrade"
+			}]
+			rewards: [{
+				id: "61D4277CC639791C"
+				type: "item"
+				item: "minecraft:diorite"
 			}]
 		}
 		{
@@ -632,6 +757,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:battery_upgrade"
 			}]
+			rewards: [{
+				id: "764043569A924C73"
+				type: "item"
+				item: "minecraft:polished_diorite"
+			}]
 		}
 		{
 			x: -0.5d
@@ -645,6 +775,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:pump_upgrade"
 			}]
+			rewards: [{
+				id: "78C7494C49CC2F37"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
 		}
 		{
 			x: 1.5d
@@ -655,6 +790,54 @@
 				id: "4CB12071394174D4"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+			}]
+			rewards: [{
+				id: "5DFD7D531C141075"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_speed": 1.38f
+							"tconstruct:mining_speed": 17.0f
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:harvest_level": 0.0f
+							"tconstruct:durability": 60.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 3s
+							}
+							{
+								name: "tconstruct:haste"
+								level: 3s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+						]
+						tic_upgrades: [{
+							name: "tconstruct:haste"
+							level: 3s
+						}]
+						tic_materials: [
+							"tconstruct:wood"
+							"tconstruct:wood"
+							"tconstruct:wood"
+						]
+						Damage: 54
+						tic_persistent_data: {
+							abilities: 1
+							"tconstruct:haste": 45
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -667,6 +850,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 			}]
+			rewards: [{
+				id: "0B32BF360588C855"
+				type: "item"
+				item: "minecraft:birch_log"
+			}]
 		}
 		{
 			x: 0.5d
@@ -677,6 +865,11 @@
 				id: "609F354E7C39F4C4"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+			}]
+			rewards: [{
+				id: "2ADB5AB8C2886B4D"
+				type: "choice"
+				table_id: 6243337517426936659L
 			}]
 		}
 		{
@@ -689,6 +882,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
 			}]
+			rewards: [{
+				id: "0A9497FB44B26AEA"
+				type: "item"
+				item: "iceandfire:banner_pattern_ice_head"
+			}]
 		}
 		{
 			x: 1.5d
@@ -699,6 +897,11 @@
 				id: "1B8BD3B9D17B3C80"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+			}]
+			rewards: [{
+				id: "7DADA2DA2CCE4478"
+				type: "item"
+				item: "tconstruct:blank_red_sand_cast"
 			}]
 		}
 		{
@@ -711,6 +914,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
 			}]
+			rewards: [{
+				id: "07A8EDD4032359F8"
+				type: "item"
+				item: "byg:mahogany_leaves"
+			}]
 		}
 		{
 			x: 1.5d
@@ -721,6 +929,11 @@
 				id: "02BDD08DCF8861B7"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+			rewards: [{
+				id: "1024A913E5234F01"
+				type: "item"
+				item: "thermal:frost_melon"
 			}]
 		}
 		{
@@ -733,6 +946,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
 			}]
+			rewards: [{
+				id: "0F3F9BFB865B18C7"
+				type: "choice"
+				table_id: 5861405098905494759L
+			}]
 		}
 		{
 			x: 1.5d
@@ -743,6 +961,11 @@
 				id: "21A2FC32DF5BAE39"
 				type: "item"
 				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+			}]
+			rewards: [{
+				id: "11A5E9BC420ED392"
+				type: "item"
+				item: "minecraft:polished_granite_stairs"
 			}]
 		}
 		{
@@ -755,6 +978,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
 			}]
+			rewards: [{
+				id: "151F679F52C0B97A"
+				type: "item"
+				item: "byg:dacite_stairs"
+			}]
 		}
 		{
 			x: 1.5d
@@ -765,6 +993,11 @@
 				id: "4FA2E0B4002D225B"
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+			}]
+			rewards: [{
+				id: "0A30F663F75D9969"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -777,6 +1010,11 @@
 				type: "item"
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
 			}]
+			rewards: [{
+				id: "78EFE9F798751E84"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: 1.5d
@@ -788,6 +1026,17 @@
 				type: "item"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
 			}]
+			rewards: [{
+				id: "348DFCA9532C4E29"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "tconstruct:stripped_skyroot_wood"
+					}
+				}
+			}]
 		}
 		{
 			x: 1.5d
@@ -798,6 +1047,240 @@
 				id: "5E5DAA3B22615BFD"
 				type: "item"
 				item: "sophisticatedbackpacks:xp_pump_upgrade"
+			}]
+			rewards: [
+				{
+					id: "7602D1DCACF46203"
+					type: "item"
+					item: "minecraft:sunflower"
+				}
+				{
+					id: "3BEEAF4D290F03BD"
+					type: "xp_levels"
+					xp_levels: 17
+				}
+			]
+		}
+		{
+			title: "Телепортация"
+			x: -10.5d
+			y: 1.5d
+			id: "29C136EF7D1BC69A"
+			tasks: [{
+				id: "5D77A36F9F415275"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+			rewards: [{
+				id: "2A96B68DA8248B22"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+		}
+		{
+			title: "Свой обелиск"
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["7C8E4BF796ED05C5"]
+			hide: true
+			id: "486F62CD960B1C96"
+			tasks: [{
+				id: "552A6B6836667E46"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [
+				{
+					id: "66CDD4EB177151D8"
+					type: "item"
+					item: "waystones:warp_plate"
+				}
+				{
+					id: "5DB52E37C466B0D1"
+					type: "item"
+					item: "waystones:warp_scroll"
+				}
+			]
+		}
+		{
+			title: "Пивка для рывка"
+			x: -13.0d
+			y: 4.0d
+			id: "3892ABCB89A712AD"
+			tasks: [
+				{
+					id: "309C287B53B5BE52"
+					type: "item"
+					item: "drinkbeer:beer_barrel"
+				}
+				{
+					id: "355E981EF755CC5C"
+					type: "item"
+					item: "drinkbeer:empty_beer_mug"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "6AD7C813C99A61C2"
+				type: "item"
+				item: "minecraft:golden_apple"
+			}]
+		}
+		{
+			title: "Официант! Повторите..."
+			x: -15.5d
+			y: 4.0d
+			dependencies: ["3892ABCB89A712AD"]
+			hide: true
+			id: "76458B6F1A407E86"
+			tasks: [
+				{
+					id: "306801BEB3F93D62"
+					type: "item"
+					item: "drinkbeer:iron_call_bell"
+				}
+				{
+					id: "719CDB3541D9326F"
+					type: "item"
+					item: "drinkbeer:golden_call_bell"
+				}
+			]
+			rewards: [{
+				id: "0803F32A42151D76"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+		}
+		{
+			title: "Проверенная рецептура"
+			x: -13.0d
+			y: 6.5d
+			dependencies: ["3892ABCB89A712AD"]
+			hide: true
+			id: "0FB7F8CEE019DFF3"
+			tasks: [{
+				id: "6051A8FD9FE738B4"
+				type: "item"
+				item: "drinkbeer:recipe_board_package"
+			}]
+			rewards: [{
+				id: "0C87C7A021F3F5D1"
+				type: "item"
+				item: "minecraft:dark_oak_planks"
+				count: 32
+			}]
+		}
+		{
+			title: "Большой ассортимент"
+			x: -13.0d
+			y: 9.0d
+			dependencies: ["0FB7F8CEE019DFF3"]
+			hide: true
+			id: "5E56343401D46683"
+			tasks: [
+				{
+					id: "7A0FF202CE88BD8E"
+					type: "item"
+					item: "drinkbeer:beer_mug"
+				}
+				{
+					id: "376A33F497F96C72"
+					type: "item"
+					item: "drinkbeer:beer_mug_blaze_stout"
+				}
+				{
+					id: "0557E683D1D66667"
+					type: "item"
+					item: "drinkbeer:beer_mug_blaze_milk_stout"
+				}
+				{
+					id: "1DB3832693B97729"
+					type: "item"
+					item: "drinkbeer:beer_mug_apple_lambic"
+				}
+				{
+					id: "4523562FE29B81AF"
+					type: "item"
+					item: "drinkbeer:beer_mug_sweet_berry_kriek"
+				}
+				{
+					id: "40B8732371C7C3C7"
+					type: "item"
+					item: "drinkbeer:beer_mug_pumpkin_kvass"
+				}
+				{
+					id: "67ABB9962BEB6180"
+					type: "item"
+					item: "drinkbeer:beer_mug_night_howl_kvass"
+				}
+				{
+					id: "387657C750DB3CED"
+					type: "item"
+					item: "drinkbeer:beer_mug_haars_icey_pale_lager"
+				}
+			]
+			rewards: [{
+				id: "4D983D145E21A18A"
+				type: "item"
+				item: {
+					id: "waystones:return_scroll"
+					Count: 1b
+					tag: {
+						WaystonesBoundTo: [I;
+							1375384260
+							1331907054
+							-1408502283
+							-174696040
+						]
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			dependencies: ["136490EBAB9DF5A4"]
+			id: "2EEB9D444FA3A9F4"
+			tasks: [{
+				id: "3AA81ADC87BF7F79"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+			rewards: [{
+				id: "512BB3A12C87BB7D"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			title: "Ультимативный поиск"
+			x: -13.0d
+			y: 1.5d
+			dependencies: [
+				"23C7EA903EE0867F"
+				"19F8F7CA7FB560C8"
+				"6EF03D798CA17746"
+				"29CBF26F611DFFB8"
+			]
+			hide: true
+			id: "13989896B12A5882"
+			tasks: [{
+				id: "4E3F72E171894320"
+				type: "item"
+				item: "structurescompass:structures_compass"
+			}]
+			rewards: [{
+				id: "4AC4579BA1C9981E"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:facade"
+					Count: 1b
+					tag: {
+						item: "twilightforest:fiery_block"
+					}
+				}
+				count: 32
 			}]
 		}
 	]

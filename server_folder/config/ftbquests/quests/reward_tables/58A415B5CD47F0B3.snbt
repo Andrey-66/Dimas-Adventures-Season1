@@ -1,0 +1,38 @@
+{
+	id: "58A415B5CD47F0B3"
+	order_index: 15
+	title: "ДДМечи"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "iceandfire:dragonsteel_lightning_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "iceandfire:dragonsteel_ice_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "iceandfire:dragonsteel_fire_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 5
+		}
+	]
+}

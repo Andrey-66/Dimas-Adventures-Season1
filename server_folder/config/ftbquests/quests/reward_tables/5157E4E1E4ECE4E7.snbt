@@ -6,5 +6,6 @@
 	rewards: [
 		{ item: "botania:mana_pearl", count: 3 }
 		{ item: "botania:mana_diamond", count: 3 }
+		{ item: "botanicalmachinery:mana_emerald", count: 3 }
 	]
 }

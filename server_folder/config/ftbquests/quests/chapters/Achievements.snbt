@@ -1,7 +1,7 @@
 {
 	id: "50C832FBB88250A1"
 	group: ""
-	order_index: 0
+	order_index: 1
 	filename: "Achievements"
 	title: "Достижения"
 	icon: "minecraft:grass_block"
@@ -193,7 +193,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 6.0d
 			y: -2.0d
 			description: ["Создайте стол зачарования с максимальными статами и зачаруйте любой предмет."]
 			id: "253A7B665351D36E"
@@ -211,8 +211,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -2.0d
+			x: 6.0d
+			y: -3.0d
 			id: "09D6758E226DC64F"
 			tasks: [{
 				id: "2309360034C8759C"
@@ -248,27 +248,1030 @@
 			]
 		}
 		{
-			title: "admin"
-			x: 9.0d
-			y: 4.0d
-			id: "2BBCA53F6E1ACD1A"
+			title: "Любитель бекона"
+			icon: "tconstruct:piglin_head"
+			x: -5.5d
+			y: -3.0d
+			dependencies: ["7DAFE9A14232B64C"]
+			hide: true
+			id: "36556BA6C879313A"
+			tasks: [
+				{
+					id: "20392DE9A7C84287"
+					type: "kill"
+					entity: "minecraft:piglin_brute"
+					value: 20L
+				}
+				{
+					id: "2206AD141A207E28"
+					type: "kill"
+					entity: "minecraft:piglin"
+					value: 50L
+				}
+			]
+			rewards: [
+				{
+					id: "3BAFD8995C391DD5"
+					type: "item"
+					item: "calemiutils:money_bag_cheap"
+				}
+				{
+					id: "708AFBD27874C38B"
+					type: "item"
+					item: "minecraft:gold_block"
+				}
+			]
+		}
+		{
+			title: "Ой, сало, сало, сало, українське сало..."
+			icon: "tconstruct:piglin_brute_head"
+			x: -5.5d
+			y: -2.0d
+			dependencies: ["36556BA6C879313A"]
+			hide: true
+			id: "10BAE4AB9AFF274F"
+			tasks: [
+				{
+					id: "69632F553EDB8537"
+					type: "kill"
+					entity: "minecraft:piglin_brute"
+					value: 50L
+				}
+				{
+					id: "36A0A803CDB7683D"
+					type: "kill"
+					entity: "minecraft:piglin"
+					value: 125L
+				}
+			]
+			rewards: [
+				{
+					id: "639597139D55C300"
+					type: "item"
+					item: "calemiutils:money_bag_rich"
+				}
+				{
+					id: "43078FC08BB12A3E"
+					type: "random"
+					table_id: 9023447288786701654L
+				}
+			]
+		}
+		{
+			title: "Чародей"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: 7.0d
+			y: -3.0d
+			id: "63DA1B9254803400"
 			tasks: [{
-				id: "22CEE103BF394133"
-				type: "item"
-				item: "minecraft:bedrock"
+				id: "7020FF869C897C87"
+				type: "stat"
+				stat: "minecraft:enchant_item"
+				value: 1
 			}]
 			rewards: [{
-				id: "44C3E2609B138E39"
+				id: "13F8D98F5B585DFA"
+				type: "random"
+				table_id: 6053417601273439989L
+			}]
+		}
+		{
+			title: "Волшебник"
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["63DA1B9254803400"]
+			hide: true
+			id: "15803C409ED7ACB6"
+			tasks: [{
+				id: "3BC966AF098E9AFE"
+				type: "stat"
+				stat: "minecraft:enchant_item"
+				value: 10
+			}]
+			rewards: [{
+				id: "17C778C42A90A41D"
+				type: "choice"
+				table_id: 6053417601273439989L
+			}]
+		}
+		{
+			title: "аТТСкое пламя"
+			icon: "tconstruct:blaze_head"
+			x: -9.5d
+			y: -3.0d
+			hide: true
+			id: "669EBA4C5DA821D8"
+			tasks: [{
+				id: "0785AA77BE7830AF"
+				type: "kill"
+				entity: "minecraft:blaze"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "4BB886474E0662CB"
+					type: "item"
+					item: "tconstruct:blaze_head"
+				}
+				{
+					id: "330DFC5978DC24B3"
+					type: "item"
+					item: {
+						id: "ftblibrary:fluid_container"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "tconstruct:blazing_blood"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "minecraft:tnt"
+			x: 1.5d
+			y: -3.0d
+			id: "6817464852388705"
+			tasks: [{
+				id: "4F09BB3ADD4A3D01"
+				type: "stat"
+				stat: "minecraft:trigger_trapped_chest"
+				value: 1
+			}]
+			rewards: [{
+				id: "3DDAEA7EE23E2B57"
+				type: "item"
+				item: "minecraft:trapped_chest"
+			}]
+		}
+		{
+			title: "Как Ремерс"
+			icon: "iceandfire:cyclops_skull"
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["675700CCC155A74B"]
+			hide: true
+			id: "207FA8592C500E61"
+			tasks: [{
+				id: "408CDA5908F08600"
+				type: "stat"
+				stat: "minecraft:deaths"
+				value: 500
+			}]
+			rewards: [{
+				id: "32B715C0C3A0330F"
+				type: "random"
+				table_id: 2601630122312521464L
+			}]
+		}
+		{
+			title: "Убивец"
+			x: 2.5d
+			y: -2.0d
+			id: "4B691EC84FC118AE"
+			tasks: [{
+				id: "0EC84E5C00AC5CCC"
+				type: "stat"
+				stat: "minecraft:damage_dealt"
+				value: 1000
+			}]
+			rewards: [{
+				id: "02EFB2657D202096"
 				type: "item"
 				item: {
-					id: "iceandfire:dragonsteel_lightning_sword"
+					id: "botania:elementium_sword"
 					Count: 1b
 					tag: {
 						Damage: 0
-						Enchantments: [{
-							lvl: 5000
-							id: "minecraft:sharpness"
-						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Главный ДД"
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["4B691EC84FC118AE"]
+			id: "2DE1F23AA487988D"
+			tasks: [{
+				id: "66773844AAF8F52C"
+				type: "stat"
+				stat: "minecraft:damage_dealt"
+				value: 100000
+			}]
+			rewards: [
+				{
+					id: "6B7348BC15DE078C"
+					type: "item"
+					item: {
+						id: "extrabotany:peaceamulet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "680B247BCB8055D6"
+					type: "random"
+					table_id: 8749406426240514550L
+				}
+			]
+		}
+		{
+			title: "Натырить всё!"
+			icon: "minecraft:diorite"
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["6731660D6648FA84"]
+			hide: true
+			id: "5DF896D386267909"
+			tasks: [{
+				id: "51907D02F6DACFEF"
+				type: "stat"
+				stat: "appliedenergistics2:items_extracted"
+				value: 10000
+			}]
+			rewards: [{
+				id: "0B1E4D26F3DB60CA"
+				type: "item"
+				item: "appliedenergistics2:4k_cell_component"
+			}]
+		}
+		{
+			title: "За Бронзобородов!"
+			icon: "minecraft:emerald"
+			x: 10.0d
+			y: -3.0d
+			id: "2610DAAF905F5E4A"
+			tasks: [{
+				id: "5591DBAA028BF2E8"
+				type: "stat"
+				stat: "minecraft:raid_win"
+				value: 1
+			}]
+			rewards: [{
+				id: "01EDEA9AA3CDC37C"
+				type: "item"
+				item: "thermal:bronze_ingot"
+				count: 5
+				random_bonus: 5
+			}]
+		}
+		{
+			title: "Рейдеры, вперёд!"
+			icon: "minecraft:emerald_block"
+			x: 10.0d
+			y: -2.0d
+			dependencies: ["2610DAAF905F5E4A"]
+			hide: true
+			id: "5933075662585FCD"
+			tasks: [{
+				id: "0B51D1F1B3F16864"
+				type: "stat"
+				stat: "minecraft:raid_win"
+				value: 10
+			}]
+			rewards: [{
+				id: "5673F82B5E6493D9"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			title: "Натри её по полной!"
+			icon: "dimasic_server:rainbow_dimka"
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["26EBA995EA60E864"]
+			id: "5597EA4226728493"
+			tasks: [{
+				id: "45476305CF2049E9"
+				type: "stat"
+				stat: "botania:tiny_potatoes_petted"
+				value: 1000
+			}]
+			rewards: [{
+				id: "090DF5AE2EE8C636"
+				type: "item"
+				item: {
+					id: "botania:cosmetic_tiny_potato_mask"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Странный способ путешествий"
+			icon: {
+				id: "tconstruct:large_plate"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+			x: -2.5d
+			y: -1.0d
+			id: "39AE9BA6DCEF6BA1"
+			tasks: [{
+				id: "606052F0F1683FD5"
+				type: "stat"
+				stat: "minecraft:pig_one_cm"
+				value: 100
+			}]
+			rewards: [
+				{
+					id: "50B1DDDCC5E80E9D"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 16
+				}
+				{
+					id: "2CB4F376A89B2A5C"
+					type: "item"
+					item: {
+						id: "ftblibrary:fluid_container"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "tconstruct:molten_pig_iron"
+								Amount: 1000
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Путешественник"
+			icon: "waystones:waystone"
+			x: 1.5d
+			y: -2.0d
+			id: "19B7A5353EC6F311"
+			tasks: [{
+				id: "2543C55D48F246AA"
+				type: "stat"
+				stat: "waystones:waystone_activated"
+				value: 20
+			}]
+			rewards: [{
+				id: "5FD11C1C06496258"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+		}
+		{
+			icon: "mowziesmobs:mob_remover"
+			x: 0.5d
+			y: -3.0d
+			id: "1AA452DBB7A14EAC"
+			tasks: [{
+				id: "5D0A9C6AFCAF6906"
+				type: "stat"
+				stat: "minecraft:leave_game"
+				value: 50
+			}]
+			rewards: [{
+				id: "03BF77D13EDCD89F"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 5
+				random_bonus: 5
+			}]
+		}
+		{
+			title: "Действительно достижение в наше время"
+			icon: "minecraft:red_bed"
+			x: -0.5d
+			y: -3.0d
+			id: "62382B546F999D58"
+			tasks: [{
+				id: "56356467FBD3BEE2"
+				type: "stat"
+				stat: "minecraft:sleep_in_bed"
+				value: 10
+			}]
+			rewards: [{
+				id: "41DDD9EE29970906"
+				type: "item"
+				item: "minecraft:feather"
+				count: 7
+			}]
+		}
+		{
+			title: "Туса"
+			icon: "dimasic_server:another_brick_in_the_wall"
+			x: -0.5d
+			y: 0.0d
+			id: "0B54CFD5E32C709F"
+			tasks: [{
+				id: "67A3FD28BE114C58"
+				type: "stat"
+				stat: "minecraft:play_noteblock"
+				value: 20
+			}]
+			rewards: [
+				{
+					id: "5C22B043D9632348"
+					type: "item"
+					item: "minecraft:music_disc_13"
+				}
+				{
+					id: "0B61200111C17465"
+					type: "item"
+					item: "minecraft:music_disc_mall"
+				}
+				{
+					id: "21E0DF697ACE2EFC"
+					type: "item"
+					item: "biomesoplenty:music_disc_wanderer"
+				}
+			]
+		}
+		{
+			title: "Очень не любим чёрных"
+			icon: "tconstruct:enderman_head"
+			x: -6.5d
+			y: -3.0d
+			id: "66D61A84E80C488C"
+			tasks: [{
+				id: "5075A3B0789A46FE"
+				type: "kill"
+				entity: "minecraft:enderman"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "077999B75317C395"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 16
+				}
+				{
+					id: "480E008561265E18"
+					type: "item"
+					item: {
+						id: "twilightforest:twilight_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Морские колючки"
+			icon: "minecraft:sea_lantern"
+			x: -9.5d
+			y: -2.0d
+			id: "1B36A2783D473552"
+			tasks: [
+				{
+					id: "0BCDACE8FDA0B45B"
+					type: "kill"
+					entity: "minecraft:guardian"
+					value: 10L
+				}
+				{
+					id: "3FE521803D8D2286"
+					type: "kill"
+					entity: "minecraft:elder_guardian"
+					value: 3L
+				}
+				{
+					id: "07463A6F9A131DFD"
+					type: "structure"
+					structure: "minecraft:monument"
+				}
+			]
+			rewards: [{
+				id: "3CD09C84479E90FB"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "apotheosis:long_fatigue"
+					}
+				}
+			}]
+		}
+		{
+			title: "Довакин"
+			icon: "iceandfire:dragon_skull_lightning"
+			x: -9.5d
+			y: -1.0d
+			hide: true
+			id: "0ABFE35A423C92D7"
+			tasks: [
+				{
+					id: "4A6D2863D7FAB2B9"
+					type: "kill"
+					entity: "iceandfire:fire_dragon"
+					value: 10L
+				}
+				{
+					id: "7643795F49CF594A"
+					type: "kill"
+					entity: "iceandfire:ice_dragon"
+					value: 10L
+				}
+				{
+					id: "050E2309937B5184"
+					type: "kill"
+					entity: "iceandfire:lightning_dragon"
+					value: 10L
+				}
+			]
+			rewards: [{
+				id: "0E7787BF29D71753"
+				type: "choice"
+				table_id: 8749406426240514550L
+			}]
+		}
+		{
+			title: "Боссоубийца"
+			icon: "evilcraft:spirit_portal"
+			x: -7.0d
+			y: -2.0d
+			dependencies: [
+				"5EA7B205354739CF"
+				"35B0DBECB08F5384"
+				"66D61A84E80C488C"
+				"31BD40F504869EA6"
+			]
+			hide: true
+			id: "0EB9C89D0A14C071"
+			tasks: [
+				{
+					id: "1642D0DA18A366F3"
+					type: "kill"
+					icon: "minecraft:wither_skeleton_skull"
+					entity: "minecraft:wither"
+					value: 10L
+				}
+				{
+					id: "5D940F4617F26376"
+					type: "kill"
+					icon: "minecraft:dragon_head"
+					entity: "minecraft:ender_dragon"
+					value: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "2B438EDEB46242F2"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 64
+				}
+				{
+					id: "6AF863EB628F84E5"
+					type: "item"
+					item: "minecraft:end_stone"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "Великолепный глиномес"
+			x: -1.5d
+			y: -3.0d
+			dependencies: ["46EA57A70D222664"]
+			hide: true
+			id: "2E93E4E8FAAB5977"
+			tasks: [
+				{
+					id: "3C6334BD6EAEB87F"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "05F5BF7FD7DC1E97"
+					type: "item"
+					item: "ars_nouveau:magic_clay"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "03D27FB72C499252"
+					type: "item"
+					item: "ars_nouveau:marvelous_clay"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "0A900912FC2152E1"
+					type: "item"
+					item: "ars_nouveau:mythical_clay"
+					count: 64L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "72E432A30AF853AF"
+				type: "item"
+				item: "ars_nouveau:source_berry_pie"
+			}]
+		}
+		{
+			title: "На опыте"
+			x: -2.5d
+			y: -3.0d
+			id: "4223D2845549E781"
+			tasks: [{
+				id: "759849047E0A7386"
+				type: "xp"
+				value: 100L
+				points: false
+			}]
+			rewards: [{
+				id: "1600CD2748A27FFF"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+		}
+		{
+			title: "Без водный змеюк"
+			icon: "iceandfire:sea_serpent_scales_blue"
+			x: -8.5d
+			y: -3.0d
+			hide: true
+			id: "039ECE2BC7B6FDFA"
+			tasks: [{
+				id: "527DEC40055B95AC"
+				type: "kill"
+				entity: "iceandfire:sea_serpent"
+				value: 10L
+			}]
+			rewards: [{
+				id: "70FB29776C9D472C"
+				type: "item"
+				item: "iceandfire:sea_serpent_scales_bronze"
+				count: 5
+				random_bonus: 5
+			}]
+		}
+		{
+			title: "Император не простит"
+			icon: "iceandfire:sea_serpent_scales_purple"
+			x: -8.5d
+			y: -2.0d
+			dependencies: ["039ECE2BC7B6FDFA"]
+			hide: true
+			id: "44FA37C425E64914"
+			tasks: [{
+				id: "1481407FB6AB4D44"
+				type: "kill"
+				entity: "iceandfire:sea_serpent"
+				value: 50L
+			}]
+			rewards: [{
+				id: "063B6D1F7A1C5158"
+				type: "item"
+				item: "minecraft:chain"
+				count: 64
+			}]
+		}
+		{
+			title: "В глубины"
+			icon: "iceandfire:sea_serpent_scales_red"
+			x: -8.5d
+			y: -1.0d
+			dependencies: ["44FA37C425E64914"]
+			hide: true
+			id: "607000148BE4BD07"
+			tasks: [{
+				id: "761E603DCFD1F1EE"
+				type: "kill"
+				entity: "iceandfire:sea_serpent"
+				value: 66L
+			}]
+			rewards: [{
+				id: "0437FCFE30E64200"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						Potion: "apotheosis:long_knowledge"
+						display: {
+							Name: "{\"text\":\"Фермент 42\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Братоубийца"
+			icon: "evilcraft:flesh_humanoid"
+			x: -3.5d
+			y: -3.0d
+			id: "23395CC8436B8648"
+			tasks: [{
+				id: "124E9FEBB09D4E68"
+				type: "kill"
+				entity: "minecraft:player"
+				value: 1L
+			}]
+			rewards: [{
+				id: "06EFDE1EADE9B90E"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "evilcraft:blood"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Убийца нежети"
+			icon: "minecraft:rotten_flesh"
+			x: -3.5d
+			y: -1.0d
+			id: "48C234486E6CBA54"
+			tasks: [
+				{
+					id: "5F82D13823730D10"
+					type: "item"
+					item: "iceandfire:silver_block"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "4EE0DCBC7F75DB7C"
+					type: "item"
+					item: "byg:aspen_wood"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "0F96B6FB01168A84"
+					type: "kill"
+					entity: "minecraft:zombie"
+					value: 100L
+				}
+				{
+					id: "17F3645041E67F86"
+					type: "kill"
+					entity: "ars_nouveau:wilden_stalker"
+					value: 100L
+				}
+			]
+			rewards: [
+				{
+					id: "6F2AC42840E73F0F"
+					type: "item"
+					item: "ars_nouveau:ritual_wilden_summon"
+				}
+				{
+					id: "2D65A8424878D3A9"
+					type: "item"
+					item: "ars_nouveau:ritual_moonfall"
+				}
+			]
+		}
+		{
+			title: "Знаток региона"
+			icon: {
+				id: "waystones:warp_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["19B7A5353EC6F311"]
+			hide: true
+			id: "414E2788B1833996"
+			tasks: [{
+				id: "41EA9A75C264DB77"
+				type: "stat"
+				stat: "waystones:waystone_activated"
+				value: 100
+			}]
+			rewards: [{
+				id: "25531CFFEEAAB3A2"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Искатель приключений"
+			icon: "mekanism:teleportation_core"
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["414E2788B1833996"]
+			hide: true
+			id: "72B2B47AAFE8FA61"
+			tasks: [{
+				id: "37F38B9992D3D511"
+				type: "stat"
+				stat: "waystones:waystone_activated"
+				value: 500
+			}]
+			rewards: [{
+				id: "5282394108169974"
+				type: "item"
+				item: "waystones:mossy_waystone"
+			}]
+		}
+		{
+			title: "Многоголовый"
+			x: -7.0d
+			y: -1.0d
+			dependencies: [
+				"4FF5A919B03EFC4A"
+				"0EB9C89D0A14C071"
+			]
+			hide: true
+			id: "1A8E4F5545CE3B04"
+			tasks: [{
+				id: "1893951FDBC6092B"
+				type: "kill"
+				icon: "twilightforest:hydra_trophy"
+				entity: "twilightforest:hydra"
+				value: 50L
+			}]
+			rewards: [{
+				id: "05BECDA08EBFFE7A"
+				type: "command"
+				title: "Получить часть силы гидры"
+				icon: "botania:gaia_head"
+				command: "/curios add head @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "Ненависть к чёрным"
+			icon: "minecraft:wither_skeleton_skull"
+			x: -7.5d
+			y: -3.0d
+			id: "31BD40F504869EA6"
+			tasks: [{
+				id: "41DC44CF94894E01"
+				type: "kill"
+				entity: "minecraft:wither_skeleton"
+				value: 100L
+			}]
+			rewards: [
+				{
+					id: "00740BB0F582DD30"
+					type: "item"
+					item: "iceandfire:witherbone"
+					count: 16
+				}
+				{
+					id: "099AEA02B865B7F8"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+			]
+		}
+		{
+			title: "Ban!"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbchunks:textures/faces/meetyourfight/dame_fortuna.png"
+				}
+			}
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["23395CC8436B8648"]
+			id: "5801215D1CBDECC0"
+			tasks: [{
+				id: "6707C25D5F2A6559"
+				type: "kill"
+				entity: "minecraft:player"
+				value: 50L
+			}]
+			rewards: [
+				{
+					id: "4970C33198B24225"
+					type: "command"
+					team_reward: false
+					auto: "invisible"
+					command: "/kill @p!"
+					player_command: false
+				}
+				{
+					id: "1E7DFC2F84CCA5B3"
+					type: "item"
+					item: "biomesoplenty:flesh"
+				}
+			]
+		}
+		{
+			title: "Плохой опыт"
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["4223D2845549E781"]
+			hide: true
+			id: "40C647457A92EDFC"
+			tasks: [{
+				id: "7C1E15EC06F958E2"
+				type: "xp"
+				value: 6666L
+				points: false
+			}]
+			rewards: [{
+				id: "64BA817245606D68"
+				type: "random"
+				table_id: 6387254042095513779L
+			}]
+		}
+		{
+			x: -12.5d
+			y: -3.0d
+			shape: "square"
+			dependencies: [
+				"75AE449E830028B9"
+				"2571DFAB55A8DD04"
+			]
+			hide: true
+			optional: true
+			repeatable: true
+			id: "1321BC2CE553B89D"
+			tasks: [
+				{
+					id: "798F3DADB79084C2"
+					type: "item"
+					item: "botanicalmachinery:mechanical_mana_pool"
+					consume_items: true
+				}
+				{
+					id: "277FD70E63F32BC1"
+					type: "item"
+					item: "extrabotany:dimensioncatalyst"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "41BF6C9CF367682B"
+				type: "item"
+				item: {
+					id: "botanicalmachinery:mechanical_mana_pool"
+					Count: 1b
+					tag: {
+						inv: {
+							Size: 3
+							Items: [{
+								Slot: 0
+								id: "extrabotany:dimensioncatalyst"
+								Count: 1b
+							}]
+						}
+						outputKey: ""
+						mana: 0
+						BlockEntityTag: {
+							inv: {
+								Size: 3
+								Items: [{
+									Slot: 0
+									id: "extrabotany:dimensioncatalyst"
+									Count: 1b
+								}]
+							}
+							outputKey: ""
+							inputKey: ""
+							id: "botanicalmachinery:mechanical_mana_pool"
+							mana: 0
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+						x: 290
+						y: 55
+						z: 1253
+						inputKey: ""
+						id: "botanicalmachinery:mechanical_mana_pool"
 					}
 				}
 			}]

@@ -2,7 +2,7 @@
 #General settings
 [general]
 	#Dimensions where hostile mobs will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
-	dimensionBlacklist = []
+	dimensionBlacklist = ["mythicbotany:alfheim"]
 	#Spawn Arcane Ore in the world
 	genOre = true
 	#Rate of tree spawn per chunk

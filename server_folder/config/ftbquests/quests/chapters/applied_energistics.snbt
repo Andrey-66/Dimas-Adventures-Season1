@@ -1,9 +1,10 @@
 {
 	id: "20DB0397D65CC924"
 	group: "1E0A8915CBC35F34"
-	order_index: 9
+	order_index: 12
 	filename: "applied_energistics"
 	title: "Цифровые архивы"
+	icon: "appliedenergistics2:controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -11,7 +12,9 @@
 			title: "Эпоха высоких технологий"
 			x: -1.0d
 			y: 0.5d
+			shape: "gear"
 			dependencies: ["126671D3213C965D"]
+			hide: true
 			id: "76CC72DD5C6A8BFB"
 			tasks: [
 				{
@@ -24,34 +27,67 @@
 					type: "item"
 					item: "appliedenergistics2:printed_silicon"
 				}
+				{
+					id: "107FC2FA7F4DBEC3"
+					type: "item"
+					item: "appliedenergistics2:energy_acceptor"
+				}
 			]
+			rewards: [{
+				id: "58FC5A0F4B825D58"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 32
+			}]
 		}
 		{
-			x: -1.0d
-			y: 2.5d
+			x: -3.5d
+			y: 3.0d
 			dependencies: ["76CC72DD5C6A8BFB"]
+			hide: true
 			id: "4F05F7D5D508D0E1"
 			tasks: [{
 				id: "6F30669F1D27A419"
 				type: "item"
 				item: "appliedenergistics2:sky_compass"
 			}]
+			rewards: [{
+				id: "09414F2060F189FE"
+				type: "item"
+				item: "appliedenergistics2:silicon_press"
+			}]
 		}
 		{
 			x: -3.5d
 			y: 1.5d
+			description: ["Заряжает кристаллы истенного кварца. Может быть запитан кабелем или деревянной ручкой."]
 			dependencies: ["76CC72DD5C6A8BFB"]
+			hide: true
 			id: "6691D315BBFDB744"
-			tasks: [{
-				id: "494D122387611475"
+			tasks: [
+				{
+					id: "494D122387611475"
+					type: "item"
+					item: "appliedenergistics2:charger"
+				}
+				{
+					id: "719B7EDBC718BA6E"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+			rewards: [{
+				id: "11373C53B2F0E9A8"
 				type: "item"
-				item: "appliedenergistics2:charger"
+				item: "appliedenergistics2:certus_quartz_crystal"
+				count: 7
 			}]
 		}
 		{
 			x: -3.5d
 			y: 0.0d
 			dependencies: ["76CC72DD5C6A8BFB"]
+			hide: true
 			id: "68E9726E380B0C44"
 			tasks: [
 				{
@@ -104,16 +140,15 @@
 			icon: "appliedenergistics2:chest"
 			x: 1.5d
 			y: 0.5d
-			dependencies: [
-				"76CC72DD5C6A8BFB"
-				"470AE5C4F18233AF"
-			]
+			dependencies: ["76CC72DD5C6A8BFB"]
+			hide: true
 			id: "6731660D6648FA84"
 			tasks: [
 				{
 					id: "2E3B8233018E9246"
 					type: "item"
 					item: "appliedenergistics2:chest"
+					only_from_crafting: true
 				}
 				{
 					id: "3CFE87CF1EB2852B"
@@ -143,15 +178,15 @@
 				"Приёмщик энергии позволяет запитать систему электричеством. К нему следует подключать генераторю"
 				""
 				"С помощью кабеля разрозненные блоки соединяются в одну систему."
+				""
+				"Ключ для скручивания проводов"
+				""
+				"Каждый элемент системы занимает 1 канал в кабеле. Базовый кабель может пропускать не более 8 каналов. Максимальный кабель - умный плотный кабель."
 			]
 			dependencies: ["6731660D6648FA84"]
+			hide: true
 			id: "48A29D0E8EE98514"
 			tasks: [
-				{
-					id: "22977B441402EDA2"
-					type: "item"
-					item: "appliedenergistics2:energy_acceptor"
-				}
 				{
 					id: "301E90085861A1FD"
 					type: "item"
@@ -167,43 +202,53 @@
 					type: "item"
 					item: "appliedenergistics2:terminal"
 				}
+				{
+					id: "1419AD53D5DFB7FC"
+					type: "item"
+					title: "Any #appliedenergistics2:quartz_wrench"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "appliedenergistics2:quartz_wrench"
+						}
+					}
+				}
 			]
+			rewards: [{
+				id: "56944706AFB0F9F1"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:facade"
+					Count: 1b
+					tag: {
+						item: "minecraft:brain_coral_block"
+					}
+				}
+				count: 64
+			}]
 		}
 		{
 			title: "Настрока доступа"
-			x: 4.0d
-			y: -1.5d
+			x: 6.5d
+			y: -1.0d
 			dependencies: ["48A29D0E8EE98514"]
+			hide: true
 			id: "12F57D5A41F6FCE1"
 			tasks: [
 				{
 					id: "54A3024AB4274BA0"
 					type: "item"
 					item: "appliedenergistics2:security_station"
+					only_from_crafting: true
 				}
 				{
-					id: "23DC26E80D6C6D07"
+					id: "52FC7DF654430F27"
 					type: "item"
 					item: {
 						id: "appliedenergistics2:biometric_card"
 						Count: 1b
-						tag: {
-							profile: {
-								Id: [I;
-									-1469363895
-									-1075820680
-									-1717412371
-									1093286825
-								]
-								Properties: {
-									textures: [{
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzOTk0NzMzODg0NywKICAicHJvZmlsZUlkIiA6ICJhODZiNDk0OWJmZTA0Nzc4OTlhMjVkZWQ0MTJhM2JhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmRyZXk2NiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZmY3ZTgyYzBmYjNiMTk3NTcwZDhiZGIzMGMzMDU4Y2E1N2JhZGQ0MzYyY2EzNmMwMzJiZTkyNmQ2OTMxYjM4IgogICAgfQogIH0KfQ=="
-										Signature: "Cmtqb9s2vYNpIc2mP4k2PvmTWorO06K7EQ/K0esugFxBD6ani4k72ky+gw801zOiX0Opz6xxjyjG23WaDT0LNkP80zIChreDFF0jxpPP5/AJdO5PLUI4t1x/iHU3b6LfeWkOD3ZM5J4995v7qYBz+gumY4c+W3WN8MUoXijSr3uNX1arKd0LwTDY32SaK0mmQfQplvZH9w4ZzDSvvr/fQdb5MhbXyeP6X9axAv+YH/DiD840YwyHuDPpSQOGoLd3Z36Biv6kk9gkK/drUY/lnXjX9c3qL7CxviFDcCwHwoD6gSuoJeue03vdpox2mn+kkJ0b58tG3J7s4d5wyGsBDoHtd8v8FrWK7cyoCXTaRt7j8EMS0lxlvHAhpI9x3Jz4wtU+dG64CZKfuORVy44B+VDlfQcJkce6FA4eQb8k7tyc0t5eCRaQ4X0cs9I6XcIbnJGISitqVlLqQ1ozLFf087OzA/4qgkT1fMfTDNIepMx0UY41IzxPtm9HrBkiqHAxuNEXDRqPFZO0vFg/lIyiWPLMjSv/retYcVoMNkOCzoBb3gopBshbUSo6FUvDpsj+/8mae45JuZ0biNBPTRraC0N5PbH8CaGVxg1GzxsMpAOMstsoWHE9qMkjtlO46jdMgD/gV4C2QWcaqTLH+ub9dyvFAdnctnLVvSEmTH3HTKo="
-									}]
-								}
-								Name: "Andrey66"
-							}
-						}
+						tag: { }
 					}
 				}
 			]
@@ -218,12 +263,13 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.5d
+			x: 6.5d
+			y: 3.0d
 			dependencies: [
 				"48A29D0E8EE98514"
 				"79B20D45560C271A"
 			]
+			hide: true
 			id: "5BFCB80C89F13938"
 			tasks: [{
 				id: "684202135BBA746D"
@@ -236,6 +282,1060 @@
 				item: "appliedenergistics2:fluix_covered_cable"
 				count: 8
 				random_bonus: 8
+			}]
+		}
+		{
+			title: "Когда каналов не хватает"
+			x: 1.5d
+			y: -1.0d
+			description: ["Котроллер в каждую из своих сторон выдаёт по 32 канала. Более того, он может быть объеденён с другими контроллерами в одну структуру. В одной сети может быть не более одного контроллера/структуры контроллеров."]
+			dependencies: ["48A29D0E8EE98514"]
+			hide: true
+			id: "55B5AAD8D87D443F"
+			tasks: [
+				{
+					id: "60350CBF4EF8419D"
+					type: "item"
+					item: "appliedenergistics2:controller"
+				}
+				{
+					id: "40FF9BFA1B0529DD"
+					type: "item"
+					item: "appliedenergistics2:fluix_smart_cable"
+				}
+			]
+			rewards: [{
+				id: "0EFD96BF91FA3250"
+				type: "item"
+				item: "minecraft:diamond_block"
+			}]
+		}
+		{
+			title: "Автоматический верстак"
+			x: 6.5d
+			y: -2.0d
+			description: [
+				"Молекулярный сборщик - блок, в котором происходит создание предмета."
+				""
+				"Хранилище крафта - блок, способный обрабатывать целые цепочки крафтов и создавать предметы в нужном порядке. Например, вы хотите автоматически создать дверь. При наличии возможности хранилище крафта сначала создаст доски из брёвен, а затем дверь. Могут складывать свои силы при размещении рядом, но одня структура может одновременно обраюатывать один заказанный крафт и сопутствующие крафты (нельзя заказать 2 предмета паралельно при одной стуртуре хранилищ в системе)."
+				""
+				"МЭ интерфейс - блок, поставляющий предметы в молекулярный сборщик и другие иситемы для крафта. Он также позволяет забирать готовую продукцию из молекулярного сборщика. Для корректной работы автокрафта в интерфейс необходимо установить закодированный шаблон. Может быть уменшен в размерах путём добавления интерфейса в сетку крафта верстака."
+				""
+				"МЭ терминал интерфейсов - терминал для доступа сразу ко всем интерфейсам системы."
+				""
+				"МЭ терминал шаблонов - терминал, способный кодировать пустые шаблоны. Для кодировки стандартного крафта необходимо выложить его в нижней части окна терминала. Для кодирования другого крафта, необходимо выбрать вместо верстака печь и указать ингредиенты в сетке крафта, выходные ресурсы в столбце справа."
+			]
+			dependencies: [
+				"48A29D0E8EE98514"
+				"0CCE07F87AE3CC4C"
+			]
+			hide: true
+			id: "7FDACF7027E0787E"
+			tasks: [
+				{
+					id: "36D2F988FBBFF8F6"
+					type: "item"
+					item: "appliedenergistics2:molecular_assembler"
+				}
+				{
+					id: "7D452D0F43843084"
+					type: "item"
+					item: "appliedenergistics2:1k_crafting_storage"
+				}
+				{
+					id: "257D81B8364EE534"
+					type: "item"
+					item: "appliedenergistics2:interface"
+				}
+				{
+					id: "3DC6E47E204687B9"
+					type: "item"
+					item: "appliedenergistics2:interface_terminal"
+				}
+				{
+					id: "0AA2F13E8F0B71C9"
+					type: "item"
+					item: "appliedenergistics2:pattern_terminal"
+				}
+				{
+					id: "660389EFA6B9EC22"
+					type: "item"
+					item: "appliedenergistics2:blank_pattern"
+				}
+			]
+			rewards: [{
+				id: "01D012F5256AD87E"
+				type: "item"
+				item: "appliedenergistics2:blank_pattern"
+				count: 3
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			description: ["Блок, показывающий, чем занято хранилище создания. Должен быть размещён вплотную к нему."]
+			dependencies: ["7FDACF7027E0787E"]
+			hide: true
+			id: "0D94D2EECD8A2017"
+			tasks: [{
+				id: "05361AC65D1B6E8E"
+				type: "item"
+				item: "appliedenergistics2:crafting_monitor"
+			}]
+			rewards: [{
+				id: "03C866D89ED0A5D7"
+				type: "item"
+				item: "betterendforge:blooming_cooksonia"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -2.0d
+			description: ["Шина, способная извлекать предметы по фильтру."]
+			dependencies: ["7FDACF7027E0787E"]
+			hide: true
+			id: "19CAEF0AB4F1C3F9"
+			tasks: [{
+				id: "206782E35D560185"
+				type: "item"
+				item: "appliedenergistics2:import_bus"
+			}]
+			rewards: [{
+				id: "0DE81E97B5760460"
+				type: "item"
+				item: "appliedenergistics2:import_bus"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			description: ["Жидкостная шина хранения позволяет видеть в системе жидкости присоеденённых резервуаров"]
+			dependencies: ["2D76A4EF64CB8E60"]
+			hide: true
+			id: "7C78C4BA98D4377D"
+			tasks: [
+				{
+					id: "724D6482EF78CAED"
+					type: "item"
+					item: "appliedenergistics2:fluid_terminal"
+				}
+				{
+					id: "7FD21E8B98B008D1"
+					type: "item"
+					item: "appliedenergistics2:fluid_storage_bus"
+				}
+			]
+			rewards: [{
+				id: "244FB8755CE7B737"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["Шина хранения позволяет получить доступ в системе к предметам, которые находятся в присоеденённых сундуках"]
+			dependencies: ["48A29D0E8EE98514"]
+			hide: true
+			id: "2D76A4EF64CB8E60"
+			tasks: [{
+				id: "430C1F34F31FC8AD"
+				type: "item"
+				item: "appliedenergistics2:storage_bus"
+			}]
+			rewards: [{
+				id: "2A32AECC9B7F8B15"
+				type: "item"
+				item: "minecraft:black_concrete_powder"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: [
+				"Поскость уничтожения поглащает рядом стоящий блок в систему"
+				""
+				"Идентефикационная поскость уничтожения поглащает рядом стоящий блок в систему с шёлковым касанием"
+				""
+				"Жидкостная Поскость уничтожения поглащает рядом стоящую жидкость в систему"
+			]
+			dependencies: ["48A29D0E8EE98514"]
+			hide: true
+			id: "182BB43307C4D442"
+			tasks: [
+				{
+					id: "60F06560AEDBB159"
+					type: "item"
+					item: "appliedenergistics2:annihilation_plane"
+				}
+				{
+					id: "763386FABAE58722"
+					type: "item"
+					item: "appliedenergistics2:identity_annihilation_plane"
+				}
+				{
+					id: "1ADB5C7DDB1F963F"
+					type: "item"
+					item: "appliedenergistics2:fluid_annihilation_plane"
+				}
+			]
+			rewards: [{
+				id: "165CC76B474F5086"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:facade"
+					Count: 1b
+					tag: {
+						item: "thermal:charcoal_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.0d
+			description: ["Шина, способная извлекать жидкость по фильтру из резервуаров."]
+			dependencies: ["19CAEF0AB4F1C3F9"]
+			hide: true
+			id: "33C2026EC17B9452"
+			tasks: [{
+				id: "513F7CE25028020D"
+				type: "item"
+				item: "appliedenergistics2:fluid_import_bus"
+			}]
+			rewards: [{
+				id: "26D64AA1D0AF9820"
+				type: "item"
+				item: "simplefarming:scarecrow"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			description: [
+				""
+				"Шина, способная извлекать предметы из системы в сундук."
+			]
+			dependencies: ["19CAEF0AB4F1C3F9"]
+			hide: true
+			id: "7302299107D16BBC"
+			tasks: [{
+				id: "6CA7662D386A3632"
+				type: "item"
+				item: "appliedenergistics2:export_bus"
+			}]
+			rewards: [{
+				id: "791284206486AB59"
+				type: "item"
+				item: "iceandfire:banner_pattern_troll"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -4.5d
+			description: ["Шина, способная извлекать жидкость из системы в бак."]
+			dependencies: ["7302299107D16BBC"]
+			hide: true
+			id: "6567F862BDD6EAE7"
+			tasks: [{
+				id: "43AAD5662CA62507"
+				type: "item"
+				item: "appliedenergistics2:fluid_export_bus"
+			}]
+			rewards: [{
+				id: "0CD3B4642CF1E830"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 4s
+							id: "enigmaticlegacy:sharpshooter"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["182BB43307C4D442"]
+			hide: true
+			id: "5101D1CF407A4F2D"
+			tasks: [
+				{
+					id: "20E2C8B09C6C01E9"
+					type: "item"
+					item: "appliedenergistics2:formation_plane"
+				}
+				{
+					id: "6C27693A0DE57DEF"
+					type: "item"
+					item: "appliedenergistics2:fluid_formation_plane"
+				}
+			]
+			rewards: [{
+				id: "37AAABEACC4FBF4D"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:facade"
+					Count: 1b
+					tag: {
+						item: "appliedenergistics2:quartz_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["7FDACF7027E0787E"]
+			hide: true
+			id: "5222A66FDAADEB38"
+			tasks: [{
+				id: "0D092FC5A03E0C51"
+				type: "item"
+				item: "appliedenergistics2:cable_fluid_interface"
+			}]
+			rewards: [{
+				id: "3BFAB55113EFEE86"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:facade"
+					Count: 1b
+					tag: {
+						item: "minecraft:melon"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["МЭ порт ввода/вывода позволяет передавать предметы между MЭ сетью и МЭ ячейками памяти либо в другие запоминающие ячейки, в отличие от других форм автоматизации, он может послать вещи без какой-либо конфигурации или конкретные предметы."]
+			dependencies: ["48A29D0E8EE98514"]
+			hide: true
+			id: "7722A6F20C56E233"
+			tasks: [{
+				id: "44F30B7D74F2790F"
+				type: "item"
+				item: "appliedenergistics2:io_port"
+				only_from_crafting: true
+			}]
+			rewards: [{
+				id: "412AE316016AA8C4"
+				type: "item"
+				item: "appliedenergistics2:printed_silicon"
+				random_bonus: 6
+			}]
+		}
+		{
+			title: "Полезныя мусорка"
+			x: -1.0d
+			y: -2.0d
+			description: ["https://minecraft.fandom.com/ru/wiki/Applied_Energistics_2"]
+			dependencies: ["6731660D6648FA84"]
+			hide: true
+			id: "0CCE07F87AE3CC4C"
+			tasks: [{
+				id: "2C0F7A144C77A931"
+				type: "item"
+				item: "appliedenergistics2:condenser"
+			}]
+			rewards: [{
+				id: "770A3CA5FC270BBE"
+				type: "item"
+				item: "minecraft:podzol"
+			}]
+		}
+		{
+			title: "Квантовый мост"
+			x: -1.0d
+			y: -4.5d
+			description: ["https://minecraft.fandom.com/ru/wiki/Applied_Energistics_2/%D0%9A%D0%B2%D0%B0%D0%BD%D1%82%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D0%BC%D0%BE%D1%81%D1%82"]
+			dependencies: ["0CCE07F87AE3CC4C"]
+			hide: true
+			id: "0B87970D59D4E86D"
+			tasks: [
+				{
+					id: "1A69E638D952A6A8"
+					type: "item"
+					item: "appliedenergistics2:quantum_ring"
+					count: 16L
+				}
+				{
+					id: "2CF98A01B637B3C0"
+					type: "item"
+					item: "appliedenergistics2:quantum_link"
+					count: 2L
+				}
+				{
+					id: "5AA379EA42B1F177"
+					type: "item"
+					item: "appliedenergistics2:quantum_entangled_singularity"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "36B8A26212B73BBF"
+				type: "item"
+				item: "minecraft:glass"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 6.5d
+			y: 0.5d
+			dependencies: [
+				"48A29D0E8EE98514"
+				"6B88F4C9DDFC41F2"
+			]
+			hide: true
+			id: "0D49A2ECE386C0F6"
+			tasks: [{
+				id: "2DD2297DF947F3A6"
+				type: "item"
+				item: "botanicalmachinery:mechanical_apothecary"
+				only_from_crafting: true
+			}]
+			rewards: [
+				{
+					id: "595D9DD4E3B4DCB4"
+					type: "item"
+					item: "botania:apothecary_default"
+				}
+				{
+					id: "0E7BDBB3BE9C7C55"
+					type: "random"
+					table_id: 2601630122312521464L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			dependencies: ["0D49A2ECE386C0F6"]
+			hide: true
+			id: "63A3E34CC8B503EA"
+			tasks: [{
+				id: "3C927A0ED504D448"
+				type: "item"
+				item: "botanicalmachinery:mechanical_daisy"
+			}]
+			rewards: [
+				{
+					id: "26101E0283258CCF"
+					type: "item"
+					item: "botania:pure_daisy"
+				}
+				{
+					id: "1CA022A82F915EA4"
+					type: "random"
+					table_id: 9023447288786701654L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 0.5d
+			dependencies: ["5FE36B2F49035031"]
+			hide: true
+			id: "75AE449E830028B9"
+			tasks: [{
+				id: "197B43E6E16AD44E"
+				type: "item"
+				item: "botanicalmachinery:mechanical_mana_pool"
+			}]
+			rewards: [
+				{
+					id: "5FFA49A81E78CBC6"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "07EEE6827200C1BF"
+					type: "random"
+					table_id: 6243337517426936659L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			dependencies: ["63A3E34CC8B503EA"]
+			hide: true
+			id: "5FE36B2F49035031"
+			tasks: [{
+				id: "517B916FE868D0C9"
+				type: "item"
+				item: "botanicalmachinery:mana_battery"
+			}]
+			rewards: [
+				{
+					id: "5544DD8CD45B067C"
+					type: "item"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "51B55A145EC68A0D"
+					type: "random"
+					table_id: 8286345192513657804L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 3.0d
+			dependencies: ["5FE36B2F49035031"]
+			hide: true
+			id: "5042D9E5C488610F"
+			tasks: [{
+				id: "137B7AC18EC322D0"
+				type: "item"
+				item: "botanicalmachinery:alfheim_market"
+			}]
+			rewards: [
+				{
+					id: "60425CBEC8E67C59"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "5CF4435073D834AF"
+					type: "random"
+					table_id: 5301364299103499220L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -2.0d
+			dependencies: [
+				"5FE36B2F49035031"
+				"7B0EDCAF831859FB"
+				"2175C8AA650E0906"
+			]
+			hide: true
+			id: "584CA383EAFB3576"
+			tasks: [{
+				id: "43BDA5279109DC42"
+				type: "item"
+				item: "botanicalmachinery:mechanical_runic_altar"
+			}]
+			rewards: [
+				{
+					id: "4979ECEBC4D15824"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+				{
+					id: "582D88B7A46C7253"
+					type: "random"
+					table_id: 3247623808527353716L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["6731660D6648FA84"]
+			hide: true
+			id: "2705145B33CFCF9A"
+			tasks: [{
+				id: "23617DA4B9A35845"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "43C9675482544F49"
+				type: "item"
+				item: "minecraft:nether_quartz_ore"
+				count: 32
+			}]
+		}
+		{
+			title: "1к"
+			x: 9.0d
+			y: 3.0d
+			dependencies: ["48A29D0E8EE98514"]
+			hide: true
+			id: "4CEDA5F777B8D304"
+			tasks: [{
+				id: "64839CACEAE76F3F"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:1k_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:4k_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:16k_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:64k_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B96A37B65BF4AC5"
+				type: "item"
+				item: "appliedenergistics2:empty_storage_cell"
+			}]
+		}
+		{
+			title: "4к"
+			x: 9.0d
+			y: 5.5d
+			dependencies: ["4CEDA5F777B8D304"]
+			hide: true
+			id: "24C04AB3151023AD"
+			tasks: [{
+				id: "20DA13D3689DE3F6"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:4k_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:16k_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:64k_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7409A9AEB5CE3948"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "16к"
+			x: 9.0d
+			y: 8.0d
+			dependencies: ["24C04AB3151023AD"]
+			hide: true
+			id: "0CD88CC493A6302D"
+			tasks: [{
+				id: "5B90CCE217421A72"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:16k_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:64k_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05B4168586BB06DD"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:1k_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "188E1C26FACFA99A"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:1k_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "64к"
+			x: 9.0d
+			y: 10.5d
+			dependencies: ["0CD88CC493A6302D"]
+			hide: true
+			id: "29CBF26F611DFFB8"
+			tasks: [{
+				id: "709F5281D249667E"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "096D29EE3503BDD5"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "1ж"
+			x: 11.5d
+			y: 3.0d
+			dependencies: ["4CEDA5F777B8D304"]
+			hide: true
+			id: "191188C5C1F44AA4"
+			tasks: [{
+				id: "315EE02F9C3B1F32"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:1k_fluid_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:4k_fluid_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:16k_fluid_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:64k_fluid_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F9B548DB69C0050"
+				type: "item"
+				item: "minecraft:bucket"
+			}]
+		}
+		{
+			title: "4ж"
+			x: 11.5d
+			y: 5.5d
+			dependencies: [
+				"24C04AB3151023AD"
+				"191188C5C1F44AA4"
+			]
+			hide: true
+			id: "078C58D7BF4901E7"
+			tasks: [{
+				id: "2EBAA169340AB53C"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:4k_fluid_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:16k_fluid_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:64k_fluid_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "32D95B9C588B4952"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "16ж"
+			x: 11.5d
+			y: 8.0d
+			dependencies: [
+				"0CD88CC493A6302D"
+				"078C58D7BF4901E7"
+			]
+			hide: true
+			id: "599C5A00039EAF24"
+			tasks: [{
+				id: "5C683F6AB63B87BE"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:16k_fluid_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:64k_fluid_storage_cell"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "344C4391763DF83E"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:1k_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "1418463F21E452E6"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:1k_fluid_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "64ж"
+			x: 11.5d
+			y: 10.5d
+			dependencies: [
+				"29CBF26F611DFFB8"
+				"599C5A00039EAF24"
+			]
+			hide: true
+			id: "6EF03D798CA17746"
+			tasks: [{
+				id: "6E2FAE95BC405194"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0668A59C8BE348B1"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:4k_fluid_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Тонкая настройка"
+			x: 6.5d
+			y: 5.5d
+			description: ["Позволяет настраивать фильтры дял ячеек"]
+			dependencies: ["4CEDA5F777B8D304"]
+			hide: true
+			id: "508954C6CA44406C"
+			tasks: [{
+				id: "6743698F6C794D8D"
+				type: "item"
+				item: "appliedenergistics2:cell_workbench"
+			}]
+			rewards: [{
+				id: "1D8F67F731E21566"
+				type: "item"
+				item: "appliedenergistics2:empty_storage_cell"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			dependencies: ["0D94D2EECD8A2017"]
+			hide: true
+			id: "2E7AE23B455B6A3F"
+			tasks: [{
+				id: "1531108FD6999235"
+				type: "item"
+				item: "appliedenergistics2:1k_crafting_storage"
+			}]
+			rewards: [{
+				id: "48E87885AF032789"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -9.5d
+			dependencies: ["2E7AE23B455B6A3F"]
+			hide: true
+			id: "10F3DE7AB7F9F8EA"
+			tasks: [{
+				id: "1BAFAAB343370BB0"
+				type: "item"
+				item: "appliedenergistics2:4k_crafting_storage"
+			}]
+			rewards: [{
+				id: "3F907A53BFEB64BE"
+				type: "item"
+				item: "minecraft:crafting_table"
+				count: 4
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.0d
+			dependencies: ["10F3DE7AB7F9F8EA"]
+			hide: true
+			id: "03CD2C9B295EB5DD"
+			tasks: [{
+				id: "60216BDB24211AD5"
+				type: "item"
+				item: "appliedenergistics2:16k_crafting_storage"
+			}]
+			rewards: [{
+				id: "74BEB633AFBF5BC7"
+				type: "item"
+				item: "minecraft:crafting_table"
+				count: 16
+			}]
+		}
+		{
+			x: 6.5d
+			y: -7.0d
+			dependencies: ["03CD2C9B295EB5DD"]
+			hide: true
+			id: "54B7167D8C538F0C"
+			tasks: [{
+				id: "1E8B2845A52103C1"
+				type: "item"
+				item: "appliedenergistics2:64k_crafting_storage"
+			}]
+			rewards: [{
+				id: "6BABC2B8CB0EFC3E"
+				type: "item"
+				item: "minecraft:crafting_table"
+				count: 64
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			dependencies: ["12F57D5A41F6FCE1"]
+			hide: true
+			id: "3447EE085576D6C1"
+			tasks: [
+				{
+					id: "169EB5E24D939C84"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:wireless_terminal"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "2748AEFF726DF911"
+					type: "item"
+					item: "appliedenergistics2:wireless_access_point"
+				}
+			]
+			rewards: [{
+				id: "6AB4DB53552C4F37"
+				type: "choice"
+				table_id: 8867430271983481350L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			dependencies: ["3447EE085576D6C1"]
+			hide: true
+			id: "313E1FCAA18E4ED6"
+			tasks: [{
+				id: "3C841B265E5BF217"
+				type: "item"
+				item: "appliedenergistics2:wireless_booster"
+			}]
+			rewards: [{
+				id: "6181F4881E235EE0"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 63
 			}]
 		}
 	]

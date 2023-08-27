@@ -1,6 +1,6 @@
 udp:
   ip: 0.0.0.0
-  port: 60606
+  port: 18582
 
 # Supported sample rates:
 # 8000

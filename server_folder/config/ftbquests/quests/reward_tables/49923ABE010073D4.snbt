@@ -1,0 +1,10 @@
+{
+	id: "49923ABE010073D4"
+	order_index: 11
+	title: "Инь Янь"
+	loot_size: 1
+	rewards: [
+		{ item: "extrabotany:shadowium" }
+		{ item: "extrabotany:photonium" }
+	]
+}

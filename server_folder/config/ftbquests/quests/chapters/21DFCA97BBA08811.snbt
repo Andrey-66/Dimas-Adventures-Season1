@@ -1,0 +1,1737 @@
+{
+	id: "21DFCA97BBA08811"
+	group: ""
+	order_index: 0
+	filename: "21DFCA97BBA08811"
+	title: "Финал"
+	icon: "minecraft:allium"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Botania"
+			x: -6.0d
+			y: 1.0d
+			dependencies: ["4DCE10E6EBA0D444"]
+			hide: true
+			id: "30A0813BDA56715F"
+			tasks: [{
+				id: "1E1F430D04F334A6"
+				type: "item"
+				item: "extrabotany:theuniverse"
+				count: 8L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Почти как Хогвартс"
+			x: -4.5d
+			y: -3.0d
+			dependencies: ["62BDBB69A154488A"]
+			hide: true
+			id: "37FBF91B5B5E3B4F"
+			tasks: [
+				{
+					id: "430318D55B15E3BA"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+							CustomPotionEffects: [
+								{
+									Ambient: 0b
+									CurativeItems: [{
+										id: "minecraft:milk_bucket"
+										Count: 1b
+									}]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 1
+									Id: 7b
+									Amplifier: 1b
+								}
+								{
+									Ambient: 0b
+									CurativeItems: [{
+										id: "minecraft:milk_bucket"
+										Count: 1b
+									}]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 3600
+									Id: 78b
+									Amplifier: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "111E472A72C04AC8"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:strong_knowledge"
+							CustomPotionEffects: [
+								{
+									Ambient: 0b
+									CurativeItems: [{
+										id: "minecraft:milk_bucket"
+										Count: 1b
+									}]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 9600
+									Id: 33b
+									Amplifier: 0b
+								}
+								{
+									Ambient: 0b
+									CurativeItems: [{
+										id: "minecraft:milk_bucket"
+										Count: 1b
+									}]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 432
+									Id: 19b
+									Amplifier: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "308F7CEC98E31BC0"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_slowness"
+							CustomPotionEffects: [
+								{
+									Ambient: 0b
+									CurativeItems: [{
+										id: "minecraft:milk_bucket"
+										Count: 1b
+									}]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 600
+									Id: 22b
+									Amplifier: 3b
+								}
+								{
+									Ambient: 0b
+									CurativeItems: [{
+										id: "minecraft:milk_bucket"
+										Count: 1b
+									}]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 1
+									Id: 6b
+									Amplifier: 1b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "6656627A76E4F2B9"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "ars_nouveau:mana_regen_potion_strong"
+							CustomPotionEffects: [
+								{
+									Ambient: 0b
+									CurativeItems: [{
+										id: "minecraft:milk_bucket"
+										Count: 1b
+									}]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 1800
+									Id: 8b
+									Amplifier: 1b
+								}
+								{
+									Ambient: 0b
+									CurativeItems: [{
+										id: "minecraft:milk_bucket"
+										Count: 1b
+									}]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 3600
+									Id: 20b
+									Amplifier: 0b
+								}
+							]
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "13E76AD2AE8F2D03"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_spell_book"
+						Count: 1b
+						tag: {
+							mode: 0
+							spells: ",touch,harm,break,self,projectile"
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Полезные штучки"
+			x: -5.5d
+			y: 2.5d
+			dependencies: ["32C661B3D9B74B66"]
+			hide: true
+			id: "0B773E54E139A539"
+			tasks: [
+				{
+					id: "45E0184612847D40"
+					type: "item"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					consume_items: true
+				}
+				{
+					id: "4778ABB45B3BE9F5"
+					type: "item"
+					item: "ironchest:crystal_chest"
+					count: 32L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Кузнечное дело"
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["06452BFB80D60516"]
+			hide: true
+			id: "614F93C577F22B71"
+			tasks: [
+				{
+					id: "0A4F98ED15F81FE7"
+					type: "item"
+					item: "tconstruct:manyullyn_block"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2B73C8F08688F1A9"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 567.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:blaze_disguise"
+									level: 1s
+								}
+								{
+									name: "tconstruct:firebreath"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:blazing_bone"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7C7070D3A801FA39"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 487.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:wither_skeleton_disguise"
+									level: 1s
+								}
+								{
+									name: "tconstruct:withered"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:necrotic_bone"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "640781574457BE49"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 507.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:breathtaking"
+									level: 1s
+								}
+								{
+									name: "tconstruct:drowned_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:copper"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "46F36A5249DBE89B"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 512.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:revenge"
+									level: 1s
+								}
+								{
+									name: "tconstruct:zombified_piglin_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:pig_iron"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "0D33FA79D2E206A4"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 537.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:gold_guard"
+									level: 1s
+								}
+								{
+									name: "tconstruct:piglin_brute_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:rose_gold"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "64C4F1A2B9DE2936"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 587.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:enderdodging"
+									level: 1s
+								}
+								{
+									name: "tconstruct:enderman_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:ender_pearl"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "15BB45083398520A"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 427.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:cave_spider_disguise"
+									level: 1s
+								}
+								{
+									name: "tconstruct:mithridatism"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:venom"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "67674CE66F302FE9"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 517.0f
+								"tconstruct:armor": 2.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:wildfire"
+									level: 1s
+								}
+								{
+									name: "tconstruct:zombie_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:rotten_flesh"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "19441CEFF3F9B16E"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 422.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:creeper_disguise"
+									level: 1s
+								}
+								{
+									name: "tconstruct:self_destructive"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:gunpowder"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1D1B104317908429"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 487.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:chrysophilite"
+									level: 1s
+								}
+								{
+									name: "tconstruct:piglin_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:gold"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "40BB90E58F14B52F"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_helmet"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 537.0f
+								"tconstruct:armor": 1.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:frosttouch"
+									level: 1s
+								}
+								{
+									name: "tconstruct:stray_disguise"
+									level: 1s
+								}
+							]
+							tic_materials: ["tconstruct:bloodbone"]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Истоки зла"
+			x: 0.5d
+			y: -3.0d
+			dependencies: ["13A2F1CA4C6379A7"]
+			hide: true
+			id: "302F7A3BB9D6CC97"
+			tasks: [{
+				id: "68BC689AAD118E05"
+				type: "item"
+				item: "evilcraft:promise_acceptor_diamond"
+				count: 64L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Ад"
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["2A302F031907A167"]
+			hide: true
+			id: "7A35A98014FA1032"
+			tasks: [{
+				id: "4CFF4FD17B0844CB"
+				type: "item"
+				item: "minecraft:nether_star"
+				count: 32L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Сумеречный лес"
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["47D3451FDA5D86DC"]
+			hide: true
+			id: "167976DCBD166455"
+			tasks: [
+				{
+					id: "2E799D1E6E1E1090"
+					type: "item"
+					item: "twilightforest:naga_trophy"
+					consume_items: true
+				}
+				{
+					id: "3DCDE61620FDA68F"
+					type: "item"
+					item: "twilightforest:lich_trophy"
+					consume_items: true
+				}
+				{
+					id: "453046AC9E6921AE"
+					type: "item"
+					item: "twilightforest:minoshroom_trophy"
+					consume_items: true
+				}
+				{
+					id: "68E13B029CC8C3E9"
+					type: "item"
+					item: "twilightforest:hydra_trophy"
+					consume_items: true
+				}
+				{
+					id: "683BE6D1718E0484"
+					type: "item"
+					item: "twilightforest:knight_phantom_trophy"
+					consume_items: true
+				}
+				{
+					id: "097B2DE30E18A111"
+					type: "item"
+					item: "twilightforest:ur_ghast_trophy"
+					consume_items: true
+				}
+				{
+					id: "3CB6FB4A916BE97F"
+					type: "item"
+					item: "twilightforest:snow_queen_trophy"
+					consume_items: true
+				}
+				{
+					id: "6ED319DED0646A83"
+					type: "item"
+					item: "twilightforest:quest_ram_trophy"
+					consume_items: true
+				}
+				{
+					id: "383E52E604120134"
+					type: "item"
+					item: "twilightforest:yeti_trophy"
+					consume_items: true
+				}
+				{
+					id: "4CBFF70A15269CA3"
+					type: "item"
+					item: "calemiutils:raritanium"
+					count: 64L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Лёд и пламя"
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["7491DA4E8EEBB4DE"]
+			hide: true
+			id: "2EC230891D5170A6"
+			tasks: [
+				{
+					id: "31F568ABEC3B319E"
+					type: "item"
+					item: "iceandfire:dragonsteel_fire_block"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "4F323BCFD5B38498"
+					type: "item"
+					item: "iceandfire:dragonsteel_ice_block"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "5CE7C78EEF09AE05"
+					type: "item"
+					item: "iceandfire:dragonsteel_lightning_block"
+					count: 16L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Энд"
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["4C0439B9685147FB"]
+			hide: true
+			id: "68A28E29771E2B29"
+			tasks: [{
+				id: "79CF016DA68DA121"
+				type: "item"
+				item: "betterendforge:aeternium_block"
+				count: 16L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Термальные технологии"
+			x: -5.5d
+			y: -2.0d
+			dependencies: ["1B897EA8EF6667F8"]
+			hide: true
+			id: "527A2A9150CD68B1"
+			tasks: [
+				{
+					id: "4FA92CDECE23998E"
+					type: "item"
+					item: "powah:nitro_crystal_block"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "3BDAF603FCD4A00B"
+					type: "item"
+					item: "thermal:lumium_block"
+					count: 32L
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Пора на завод"
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["2F0CA19639EFA2A9"]
+			hide: true
+			id: "592BC50CA4EBEFB9"
+			tasks: [
+				{
+					id: "66CEB0AC659D643D"
+					type: "item"
+					item: "create:shadow_steel"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "6D8DE966D5B1DC0C"
+					type: "item"
+					item: "create:refined_radiance"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "5F214A31F50747A0"
+					type: "item"
+					item: "createaddition:overcharged_alloy"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "39FCAB99582AF6C6"
+					type: "custom"
+					title: "Интерестный механизм (лифт, дверь, ...). Для выполнения обращаться к админам."
+					icon: "thermal:iron_gear"
+				}
+				{
+					id: "01BC2CC9BC80D3DF"
+					type: "item"
+					item: "create:creative_blaze_cake"
+				}
+			]
+		}
+		{
+			title: "Цифровые архивы"
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["20DB0397D65CC924"]
+			hide: true
+			id: "7405A50D978C5955"
+			tasks: [
+				{
+					id: "0FDD9ECDDF8CFB05"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "7FA4BC7B7AFDE363"
+					type: "item"
+					item: "appliedenergistics2:matter_ball"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "4681C492B9137563"
+					type: "item"
+					item: "appliedenergistics2:singularity"
+					consume_items: true
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			shape: "octagon"
+			dependencies: [
+				"30A0813BDA56715F"
+				"37FBF91B5B5E3B4F"
+				"0B773E54E139A539"
+				"614F93C577F22B71"
+				"302F7A3BB9D6CC97"
+				"7A35A98014FA1032"
+				"68A28E29771E2B29"
+				"167976DCBD166455"
+				"2EC230891D5170A6"
+				"527A2A9150CD68B1"
+				"592BC50CA4EBEFB9"
+				"7405A50D978C5955"
+			]
+			hide: true
+			size: 1.5d
+			id: "0657B902324C65F3"
+			tasks: [{
+				id: "652CA457BB348E1C"
+				type: "checkmark"
+				title: "Закончить прохождение"
+			}]
+		}
+		{
+			title: "Авторы идеи"
+			icon: "ftbquests:book"
+			tags: ["check_nbt"]
+			x: -2.0d
+			y: 4.5d
+			description: ["Летом 2021 года мне (Андрею) пришла в голову мысль о том, что было бы неплохо создать свой сервер. Я вспомнил, что когда-то Савелий делал что-то своё и мне захотелось повторить, но на этот раз с модами. Я и не думал тогда, сколько времени заберёт этот процесс, но получилось круто! Мы копались в багах майнкрафта, писали костыли, шутили, психовали, ломали телефон, а потом снова садились и копались в файлах модов, кравтов, извращались, как могли. Изначально цель была только в переплетении модов, ограничении возможности удариться в одном направлении. Но потом появились квесты, которые задумывались, как помощники и путеводители для новичков, но стали опорой всей сборки. Сколько я всего \"доброго\" высказал в адрес разработчика этой квестовой системы, но менять это было уже поздно, половина работы была готова. В итоге имеем 800+ квестов на самые разные темы: от самых полезных до самых безумных. В будущем планируем увеличить нашу команду, и порадовать вас чем-то новым."]
+			dependencies: ["0657B902324C65F3"]
+			hide: true
+			id: "12E483871141AA34"
+			tasks: [
+				{
+					id: "72936A12126BAD51"
+					type: "item"
+					tags: ["check_nbt"]
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Andrey66\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4D4CC0D6C2EDAF82"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Niketats\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Первичное тестирование"
+			icon: "biomesoplenty:origin_grass_block"
+			x: -2.0d
+			y: 6.5d
+			description: ["Для понимания деталей разработки созавались альфа, бетта и т.д. версии, которые проходились по всем правилам игры. Это помогало отточить некоторые механики и механизмы. "]
+			dependencies: ["12E483871141AA34"]
+			hide: true
+			id: "1347A86C34CF0D40"
+			tasks: [
+				{
+					id: "24EEBF0EF5870231"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Andrey66\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "6E9FA7CA5A0C97DD"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Niketats\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "44585C7A28D0572D"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Dmitry_S\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2BA94259B62305EC"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Olmina999\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Создание структур"
+			icon: "twilightforest:naga_courtyard_miniature_structure"
+			x: -2.0d
+			y: 8.5d
+			description: [
+				"Для разнообразия процесса исследования мира было принято решение добавить в него различные постройки. Для большего интереса опытных игроков часть из них мы сделали сами. Некоторые структуры получились полезными, в других были тайники с сокровищем, а часть из них до сих пор многие не находили. "
+				"P.S. Если вы юнный архитектор, напишите админам."
+			]
+			dependencies: ["1347A86C34CF0D40"]
+			hide: true
+			id: "31D1A05A15565DF5"
+			tasks: [
+				{
+					id: "5DECE6A3D6A741AC"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"LigushkaRr\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "2DB02D6A3D0D95BD"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Andrey66\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Несостоявшийся перевод"
+			icon: "ars_nouveau:deny_scroll"
+			x: -2.0d
+			y: 10.5d
+			description: ["Очень хотелось, чтобы все тексты и книги в сборке были на русском языке. Мы даже нашли переводчика, но работы к сожалению мы дать ему не успели. Вот так бывает. переводчик есть, а перевода нет. Надеюсь, дальше будет лучше."]
+			dependencies: ["31D1A05A15565DF5"]
+			hide: true
+			id: "561D363CFC70AFB8"
+			tasks: [{
+				id: "19AB4A31C986C6D5"
+				type: "item"
+				item: {
+					id: "minecraft:name_tag"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Lelouch_66\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			title: "Редактирование текста"
+			icon: "waystones:return_scroll"
+			x: -2.0d
+			y: 12.5d
+			description: ["Очень много работы происходило ночами. В такое время довольно просто наделать ошибок в самых нелепых местах (надеюсь тут их нет). Тут здорово помогал Лелуш, который проверял кажное написанное нами слово, а мы даже иногда не забывали их исправлять."]
+			dependencies: ["561D363CFC70AFB8"]
+			hide: true
+			id: "2C98CF1AEDEDB7B9"
+			tasks: [{
+				id: "28DDD87070B61707"
+				type: "item"
+				item: {
+					id: "minecraft:name_tag"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Lelouch_66\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			title: "Авторы мода DimasStructures и DimasAdventures"
+			icon: "dimasic_server:bigopiano"
+			x: -2.0d
+			y: 14.5d
+			description: ["Любопытно, но для полноценной картины нам пришлось создать парочку своих модов. Это был не безболезненный процесс, но очень интерестный. Мы и дальше планируем развиваться в этом направлении, совершенствуя свои навыки."]
+			dependencies: ["2C98CF1AEDEDB7B9"]
+			hide: true
+			id: "56748AE45A9226AD"
+			tasks: [
+				{
+					id: "4C8D0997BC0A2F25"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Andrey66\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3A5EFA28DD8B2020"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Niketats\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "6BCF5911E9B7A98A"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Dmitry_S\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1DB3DD5AE4D8B6D1"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Piios\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Медиа и пресса"
+			icon: {
+				id: "extrabotany:camera"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: 18.5d
+			description: ["Множество забавных моментов попало под объективы камер и захваты ОБС этих ребят. И они не стеснялись радовать нас всех своими самыми разными моментами: от потери друга до сказочного обогощения."]
+			dependencies: ["6A7194C5D793C821"]
+			hide: true
+			id: "11F20C77FB465D72"
+			tasks: [
+				{
+					id: "227DAF443548F802"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Dmitry_S\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "69748DB436DFBC24"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Finikos\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "705B2B0C9D42F99A"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Piios\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Благодарим за пожертвования на хостинг"
+			icon: "calemiutils:coin_gold"
+			x: -2.0d
+			y: 20.5d
+			description: ["Без данных товарищей совместная игра была бы практически невозможно. Именно их стоит благодарить за каждую минуту, проведённую на сервере."]
+			dependencies: ["11F20C77FB465D72"]
+			hide: true
+			id: "62819DDCA5FF8ACE"
+			tasks: [
+				{
+					id: "5EA43CBC0AE6B470"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Andrey66\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4DBB922915B048F9"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Niketats\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7C103BE49A3057BD"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Dmitry_S\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "1F7788A5D5083F8F"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Piios\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7A43683EE3E6830F"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"[Анонимный источник]\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Благодарим за спасённые нервы Андрея во время разработки"
+			icon: "drinkbeer:beer_mug_sweet_berry_kriek"
+			x: -2.0d
+			y: 16.5d
+			description: ["В отчаянные моменты очень важно, чтобы рядом был человек, который сможет тебя поддержать. Если бы не Оля, всё забросилось бы, не успев начаться."]
+			dependencies: ["56748AE45A9226AD"]
+			hide: true
+			id: "6A7194C5D793C821"
+			tasks: [{
+				id: "205D4100B509C601"
+				type: "item"
+				item: {
+					id: "minecraft:name_tag"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Olmina999\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			title: "Максимальный Feedback"
+			icon: "minecraft:writable_book"
+			x: -2.0d
+			y: 22.5d
+			description: ["Благодаря таким людям было устранено огромное количество ошибок, которых на этапе тестирования выявить было проблематично. Именно они встали на стражу баланса данной сборки."]
+			dependencies: ["62819DDCA5FF8ACE"]
+			hide: true
+			id: "6D23D3C843E241CB"
+			tasks: [
+				{
+					id: "6AA022A31EB4CC9F"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"RemerS\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4340891BCE8F0A74"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"RaynGuard\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Страдальцы кольца"
+			icon: "enigmaticlegacy:cursed_ring"
+			x: -2.0d
+			y: 24.5d
+			description: ["Эти ребята действительно в полном объёме прочувствовали всю палитру эмоций, путешествуя по различным мирам в поисках решений этих квестов."]
+			dependencies: ["6D23D3C843E241CB"]
+			hide: true
+			id: "20F28A3E0534A12C"
+			tasks: [
+				{
+					id: "2BC1C93AFBF0F0C1"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"RemerS\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "067CB03CFFCF5316"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"SirenVi\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+		}
+		{
+			title: "Помощь с кодом"
+			icon: {
+				id: "appliedenergistics2:wireless_terminal"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: 26.5d
+			description: ["Автор мода CraftTweaker, который на протяжении всего процесса разработки оперативно помогал нам в своём Дискорд сервере."]
+			dependencies: ["20F28A3E0534A12C"]
+			hide: true
+			id: "15C7DCC6E80F8286"
+			tasks: [{
+				id: "0CFB9F49BD2FC5BD"
+				type: "item"
+				item: {
+					id: "minecraft:name_tag"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Jared\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			title: "Талисман"
+			icon: "dimasic_server:rainbow_dimka"
+			x: -2.0d
+			y: 28.5d
+			description: ["И модель"]
+			dependencies: ["15C7DCC6E80F8286"]
+			hide: true
+			id: "05C607A156094A8C"
+			tasks: [{
+				id: "10C82AD1034D3BFF"
+				type: "item"
+				item: {
+					id: "minecraft:name_tag"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Dmitry_S\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+		{
+			title: "Спасибо всем за игру"
+			icon: "twilightforest:charm_of_life_1"
+			x: -2.0d
+			y: 30.5d
+			shape: "heart"
+			description: ["Это был положительный первый опыт. Постораемся в будущем вас удивить чем-нибудь новым."]
+			dependencies: ["05C607A156094A8C"]
+			hide: true
+			id: "543CEDFCD92D981B"
+			tasks: [
+				{
+					id: "3D1C45644A12E88D"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Andrey66\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7E568AD0591E0E6F"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Dmitry_S\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4788769409646303"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"RaynGuard\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "62C2D8C94B4D1459"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Niketats\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "695F94756A359698"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"RemerS\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "721E88D9B8B44F4A"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"LigushkaRr\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "12E9612BACC34B0A"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Piios\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "278B22E6121585BE"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Zhozhek\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "70A794A326677830"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Lelouch_66\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "48A78B500AC0EBCE"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"SirenVi\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "44A226F51E4C2237"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Finikos\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7130A047D3AB0489"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Olmina999\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3365EFF4FEDA835C"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Stega163\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3ABDC80708CDCA7B"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"mohnar\"}"
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "63EA436786B39BFE"
+				type: "command"
+				team_reward: false
+				auto: "invisible"
+				command: "/tellraw @p [\"\",{\"text\":\"\\u0421\\u043f\\u0430\\u0441\\u0438\\u0431\\u043e! \",\"color\":\"gold\"},{\"text\":\":sparkling_heart:\",\"color\":\"#DCDDDE\"}] "
+				player_command: true
+			}]
+		}
+		{
+			icon: "thermal:netherite_gear"
+			x: -2.0d
+			y: 33.0d
+			shape: "gear"
+			description: ["*рекомендуется посетить спавн*"]
+			dependencies: ["543CEDFCD92D981B"]
+			hide: true
+			size: 2.0d
+			id: "618C895EA0E0D90B"
+			tasks: [{
+				id: "3A227555209E9C41"
+				type: "item"
+				item: {
+					id: "minecraft:name_tag"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"DimasDevelopment\"}"
+						}
+					}
+				}
+				consume_items: true
+			}]
+		}
+	]
+}
